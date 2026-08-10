@@ -12,6 +12,22 @@ const seenIds = new Set<string>();
 const seenVenueYears = new Set<string>();
 const now = Date.now();
 
+function calendarDateInZone(timestamp: number, timeZone: string): string {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date(timestamp));
+  const value = (type: 'year' | 'month' | 'day') => parts.find((part) => part.type === type)?.value ?? '';
+  return `${value('year')}-${value('month')}-${value('day')}`;
+}
+
+// A contributor can already be on the next calendar date while a UTC CI runner is
+// still on the previous day. UTC+14 is the earliest civil timezone to enter a new day,
+// so dates up to the current date there are not treated as future verification dates.
+const latestCurrentCalendarDate = calendarDateInZone(now, 'Pacific/Kiritimati');
+
 async function yamlFiles(directory: string): Promise<string[]> {
   const entries = await readdir(directory, { withFileTypes: true });
   const nested = await Promise.all(entries.map((entry) => {
@@ -92,7 +108,7 @@ for (const file of files) {
   if (!validUrl(data.website)) fail(id, 'invalid website URL');
   const verified = Date.parse(`${data.last_verified}T00:00:00Z`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(data.last_verified) || !Number.isFinite(verified)) fail(id, 'last_verified must be YYYY-MM-DD');
-  if (verified > now) fail(id, 'last_verified cannot be in the future');
+  if (data.last_verified > latestCurrentCalendarDate) fail(id, 'last_verified cannot be in the future');
   const futureSubmission = data.deadlines.some((deadline) => deadline.status === 'active' && SUBMISSION_DEADLINE_TYPES.has(deadline.type) && (deadlineTimestamp(deadline) ?? 0) > now);
   if (futureSubmission && (now - verified) / 86_400_000 > 180) warn(id, 'future deadline was last verified more than 180 days ago');
 }
