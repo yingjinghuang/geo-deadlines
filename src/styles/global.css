@@ -1,0 +1,43 @@
+@import './tokens.css';
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--page);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+button, input, select { font: inherit; }
+button { color: inherit; }
+:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent); outline-offset: 2px; }
+.container { width: min(calc(100% - 32px), var(--content)); margin-inline: auto; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.page-main { padding: 34px 0 72px; }
+.page-heading { margin: 0 0 8px; font-size: clamp(1.7rem, 4vw, 2.4rem); letter-spacing: -0.04em; line-height: 1.1; }
+.page-lede { max-width: 760px; margin: 0 0 28px; color: var(--text-2); font-size: 1.02rem; }
+.prose { max-width: 760px; }
+.prose h2 { margin-top: 2.2rem; letter-spacing: -0.025em; }
+.prose li + li { margin-top: 0.5rem; }
+.surface { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
+.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  min-height: 38px; padding: 7px 13px; border: 1px solid var(--border-strong); border-radius: 9px;
+  background: var(--surface); color: var(--text); text-decoration: none; cursor: pointer; font-weight: 650;
+}
+.button:hover { border-color: var(--accent); color: var(--accent); }
+.button-primary { background: var(--accent); border-color: var(--accent); color: white; }
+.button-primary:hover { background: color-mix(in srgb, var(--accent) 88%, black); color: white; }
+.button-quiet { border-color: transparent; background: transparent; }
+.eyebrow { color: var(--muted); font-size: 0.73rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
+
+@media (max-width: 640px) {
+  .container { width: min(calc(100% - 22px), var(--content)); }
+  .page-main { padding-top: 24px; }
+}

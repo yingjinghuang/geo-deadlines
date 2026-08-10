@@ -1,0 +1,31 @@
+title: "Earth Observation Forum 2027"
+short_name: "EOF 2027"
+type: conference
+series: "Earth Observation Forum"
+year: 2027
+description: >
+  A representative forum for remote sensing, Earth observation, and climate applications.
+scope: core
+topics: [remote-sensing, earth-observation, climate]
+website: "https://example.org/eof-2027"
+submission_url: "https://example.org/eof-2027/submissions"
+event:
+  start: "2027-06-21"
+  end: "2027-06-25"
+location:
+  mode: hybrid
+  city: "Copenhagen"
+  country: "Denmark"
+  country_code: "DK"
+sources:
+  - label: "Official conference website"
+    url: "https://example.org/eof-2027"
+    kind: official
+last_verified: "2026-07-28"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper"
+    datetime: "2027-02-12T23:59:00+01:00"
+    timezone: "Europe/Copenhagen"
+    status: active

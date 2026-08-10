@@ -1,0 +1,47 @@
+name: Add a deadline
+description: Suggest a conference, workshop, or journal special issue.
+title: "[Add] "
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for contributing. Please provide an official source whenever possible."
+  - type: dropdown
+    id: type
+    attributes:
+      label: Opportunity type
+      options: [Conference, Special issue, Workshop]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes: { label: Venue or journal name }
+    validations: { required: true }
+  - type: input
+    id: year
+    attributes: { label: Year }
+    validations: { required: true }
+  - type: input
+    id: website
+    attributes: { label: Official website, placeholder: "https://…" }
+    validations: { required: true }
+  - type: textarea
+    id: deadlines
+    attributes:
+      label: Deadlines and timezones
+      description: Include the track, date, exact time, and source timezone (for example AoE).
+    validations: { required: true }
+  - type: textarea
+    id: event
+    attributes: { label: Event date and location }
+  - type: textarea
+    id: topics
+    attributes: { label: Relevant topics }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Official source URL, placeholder: "https://…" }
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes: { label: Notes }

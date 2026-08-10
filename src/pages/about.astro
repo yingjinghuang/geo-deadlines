@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/urls';
+---
+<BaseLayout title="About — GeoDeadlines" canonicalPath="about/">
+  <main class="page-main"><div class="container prose">
+    <p class="eyebrow">About the project</p>
+    <h1 class="page-heading">A deadline-first research tool</h1>
+    <p class="page-lede">GeoDeadlines tracks submission deadlines for Geography, GIScience, GeoAI, Remote Sensing, and Spatial Computing in one quiet, fast interface.</p>
+    <h2>How it works</h2>
+    <p>Every opportunity is a human-readable YAML file in the repository. Merged changes are validated, built into static pages, and deployed through GitHub Pages. There is no account system, database, tracking script, or runtime content API.</p>
+    <h2>Timezones</h2>
+    <p>Every known deadline contains an ISO 8601 timestamp with an explicit offset. Anywhere on Earth (AoE) is stored as UTC−12. Your browser converts that absolute instant to your local timezone.</p>
+    <h2>What the countdown means</h2>
+    <p>The primary countdown always targets the next active submission milestone. It can move from an abstract deadline to a full-paper deadline, but never to notification, registration, or the conference start date.</p>
+    <h2>Calendar feeds</h2>
+    <p>Subscribe to a static feed rebuilt with every data update:</p>
+    <p class="feed-links">
+      <a href={withBase('calendar/all.ics')}>All deadlines</a>
+      <a href={withBase('calendar/conferences.ics')}>Conferences</a>
+      <a href={withBase('calendar/special-issues.ics')}>Special issues</a>
+      <a href={withBase('calendar/workshops.ics')}>Workshops</a>
+    </p>
+    <p><a class="button button-primary" href={withBase('contribute/')}>Contribute a deadline</a></p>
+  </div></main>
+</BaseLayout>
+<style>.feed-links { display: flex; flex-wrap: wrap; gap: 8px 18px; }</style>

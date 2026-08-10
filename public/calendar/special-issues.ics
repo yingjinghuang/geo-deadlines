@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GeoDeadlines//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:geoai-urban-resilience-2027-manuscript@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20270401T115900Z
+DTEND:20270401T121400Z
+SUMMARY:Special Issue on GeoAI for Urban Resilience — Manuscript Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/jsf/geoai-urban-resilience\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geoai-urban-resilience-2027/
+URL:https://example.org/jsf/geoai-urban-resilience
+END:VEVENT
+END:VCALENDAR

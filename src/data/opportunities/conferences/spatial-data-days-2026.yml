@@ -1,0 +1,28 @@
+title: "Spatial Data Days 2026"
+short_name: "SDD 2026"
+type: conference
+series: "Spatial Data Days"
+year: 2026
+description: "An archived representative entry used to demonstrate the closed-opportunity view."
+scope: core
+topics: [spatial-data-science, spatial-databases]
+website: "https://example.org/sdd-2026"
+event:
+  start: "2026-07-13"
+  end: "2026-07-15"
+location:
+  mode: in_person
+  city: "Prague"
+  country: "Czechia"
+sources:
+  - label: "Official conference website"
+    url: "https://example.org/sdd-2026"
+    kind: official
+last_verified: "2026-06-10"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-05-01T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

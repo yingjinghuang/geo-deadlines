@@ -1,0 +1,105 @@
+---
+import type { DerivedOpportunity, Topic } from '../lib/types';
+import { futureSubmissionDeadlines } from '../lib/deadlines';
+import { googleCalendarUrl } from '../lib/calendar';
+import { opportunityUrl } from '../lib/urls';
+import { searchableText } from '../lib/search';
+import OpportunityBadge from './OpportunityBadge.astro';
+import TopicBadge from './TopicBadge.astro';
+import VerificationBadge from './VerificationBadge.astro';
+import FavoriteButton from './FavoriteButton.astro';
+import Countdown from './Countdown.astro';
+
+interface Props { item: DerivedOpportunity; topics: Topic[] }
+const { item, topics } = Astro.props;
+const data = item.raw;
+const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id);
+const detailUrl = opportunityUrl(item.id);
+const absoluteDetailUrl = new URL(detailUrl, Astro.site).toString();
+const future = futureSubmissionDeadlines(data.deadlines);
+const next = future.find((deadline) => deadline.primary) ?? future[0];
+const calendarPayload = future.map((deadline) => ({
+  id: `${item.id}-${deadline.id}`,
+  title: `${data.short_name ?? data.title} — ${deadline.label} Deadline`,
+  start: deadline.datetime,
+  timezone: deadline.timezone,
+  source: deadline.url ?? data.website,
+  detail: absoluteDetailUrl,
+  primary: Boolean(deadline.primary),
+}));
+const location = data.location?.mode === 'virtual' ? 'Virtual' : [data.location?.city, data.location?.country].filter(Boolean).join(', ');
+const venueLine = data.type === 'special_issue' ? data.journal?.name : data.parent?.name;
+---
+
+<article
+  class:list={['deadline-card', `type-${data.type}`, item.urgency && `urgency-${item.urgency}`]}
+  data-opportunity-card
+  data-id={item.id}
+  data-type={data.type}
+  data-scope={data.scope}
+  data-topics={data.topics.join(' ')}
+  data-deadline={item.nextDeadlineTimestamp ?? ''}
+  data-verified={Date.parse(`${data.last_verified}T00:00:00Z`)}
+  data-title={data.title}
+  data-year={data.year}
+  data-search={searchableText(data, topics)}
+  data-calendar-events={JSON.stringify(calendarPayload)}
+>
+  <div class="card-main">
+    <div class="card-topline">
+      <OpportunityBadge type={data.type} scope={data.scope} />
+      <FavoriteButton id={item.id} title={data.title} />
+    </div>
+    <a class="title-link" href={detailUrl}><h2>{data.title}</h2></a>
+    {venueLine && <p class="venue-line">{venueLine}</p>}
+    <p class="description">{data.description}</p>
+    <div class="topics" aria-label="Topics">{topicLabels.map((label) => <TopicBadge label={label} />)}</div>
+    <div class="meta-row">
+      {location && <span>⌖ {location}</span>}
+      {data.event && <span>□ Event: {data.event.start} – {data.event.end}</span>}
+      {data.parent && <span>↳ {data.parent.name}</span>}
+    </div>
+    <div class="card-footer">
+      <div class="actions">
+        <a href={data.website} rel="noreferrer">Website ↗</a>
+        {data.submission_url && <a href={data.submission_url} rel="noreferrer">Submission ↗</a>}
+        {next && <button type="button" data-calendar-download>Calendar ↓</button>}
+        {next && <a href={googleCalendarUrl(data, next, absoluteDetailUrl)} rel="noreferrer">Google Calendar ↗</a>}
+        <a href={detailUrl}>Details →</a>
+      </div>
+      <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
+    </div>
+  </div>
+  <aside class="countdown-panel" aria-label={`Next submission deadline for ${data.title}`}>
+    <Countdown deadlines={data.deadlines} />
+  </aside>
+</article>
+
+<style>
+  .deadline-card { display: grid; grid-template-columns: minmax(0, 1fr) 230px; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+  .deadline-card[hidden] { display: none; }
+  .deadline-card::before { content: ''; position: absolute; }
+  .card-main { min-width: 0; padding: 22px 24px 18px; }
+  .card-topline { display: flex; justify-content: space-between; align-items: center; min-height: 36px; }
+  .title-link { display: inline-block; color: var(--text); text-decoration: none; }
+  h2 { margin: 5px 0 2px; font-size: clamp(1.18rem, 2.2vw, 1.46rem); line-height: 1.2; letter-spacing: -.025em; }
+  .title-link:hover h2 { color: var(--accent); }
+  .venue-line { margin: 0 0 7px; color: var(--text-2); font-weight: 650; font-size: .86rem; }
+  .description { max-width: 720px; margin: 7px 0 12px; color: var(--text-2); font-size: .87rem; }
+  .topics { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 15px; color: var(--muted); font-size: .78rem; }
+  .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 13px; border-top: 1px solid var(--border); }
+  .actions { display: flex; flex-wrap: wrap; gap: 7px 15px; }
+  .actions a, .actions button { padding: 0; border: 0; background: none; color: var(--text-2); text-decoration: none; font-size: .78rem; font-weight: 720; cursor: pointer; }
+  .actions a:hover, .actions button:hover { color: var(--accent); }
+  .countdown-panel { display: flex; align-items: center; padding: 23px 22px; border-left: 1px solid var(--border); background: color-mix(in srgb, var(--surface-2) 55%, var(--surface)); }
+  .type-conference { border-top: 2px solid color-mix(in srgb, var(--conference) 55%, var(--border)); }
+  .type-special_issue { border-top: 2px solid color-mix(in srgb, var(--special-issue) 55%, var(--border)); }
+  .type-workshop { border-top: 2px solid color-mix(in srgb, var(--workshop) 55%, var(--border)); }
+  @media (max-width: 760px) {
+    .deadline-card { display: flex; flex-direction: column; }
+    .countdown-panel { order: -1; padding: 17px 19px; border-left: 0; border-bottom: 1px solid var(--border); }
+    .card-main { padding: 17px 19px; }
+    .card-footer { align-items: flex-start; flex-direction: column; }
+  }
+</style>

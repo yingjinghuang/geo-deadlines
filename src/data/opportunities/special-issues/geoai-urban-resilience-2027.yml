@@ -1,0 +1,30 @@
+title: "Special Issue on GeoAI for Urban Resilience"
+type: special_issue
+year: 2027
+journal:
+  name: "Journal of Spatial Futures"
+  short_name: "JSF"
+  publisher: "Example Academic Press"
+description: >
+  A representative special issue on geospatial AI for resilient and sustainable cities.
+scope: core
+topics: [geoai, urban, sustainability]
+website: "https://example.org/jsf/geoai-urban-resilience"
+submission_url: "https://example.org/jsf/submit"
+guest_editors:
+  - name: "Mina Berger"
+    affiliation: "Example University"
+  - name: "Leo Martín"
+    affiliation: "Example Institute"
+sources:
+  - label: "Official special issue call"
+    url: "https://example.org/jsf/geoai-urban-resilience"
+    kind: publisher
+last_verified: "2026-08-02"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-03-31T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

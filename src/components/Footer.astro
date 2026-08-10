@@ -1,0 +1,20 @@
+---
+import { repositoryUrl, withBase } from '../lib/urls';
+---
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p><strong>GeoDeadlines</strong> — community-maintained geospatial research deadlines.</p>
+    <nav aria-label="Footer navigation">
+      <a href={withBase('about/')}>About</a>
+      <a href={withBase('contribute/')}>Contribute</a>
+      <a href={repositoryUrl()}>GitHub</a>
+    </nav>
+  </div>
+</footer>
+<style>
+  .site-footer { border-top: 1px solid var(--border); color: var(--muted); }
+  .footer-inner { display: flex; justify-content: space-between; gap: 20px; padding-block: 26px; font-size: .84rem; }
+  .footer-inner p { margin: 0; }
+  nav { display: flex; gap: 18px; }
+  @media (max-width: 640px) { .footer-inner { flex-direction: column; } }
+</style>

@@ -1,0 +1,46 @@
+title: "Spatial Research Summit 2027"
+short_name: "SRS 2027"
+type: conference
+series: "Spatial Research Summit"
+year: 2027
+description: >
+  A representative GIScience conference entry demonstrating multi-stage submissions and local-time conversion.
+scope: core
+topics: [giscience, geoai, spatial-computing]
+website: "https://example.org/srs-2027"
+submission_url: "https://example.org/srs-2027/submit"
+event:
+  start: "2027-11-03"
+  end: "2027-11-06"
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+organizations: ["Example Geospatial Society"]
+tracks: ["Research Track", "Short Papers"]
+sources:
+  - label: "Official call for papers"
+    url: "https://example.org/srs-2027/cfp"
+    kind: official
+last_verified: "2026-08-01"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2027-08-15T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    note: "Required before the full-paper submission."
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2027-08-22T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: notification
+    type: notification
+    label: "Notification"
+    datetime: "2027-10-01T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

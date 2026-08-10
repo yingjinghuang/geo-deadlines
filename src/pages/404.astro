@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/urls';
+---
+<BaseLayout title="Page not found — GeoDeadlines">
+  <main class="page-main"><div class="container prose">
+    <p class="eyebrow">404</p><h1 class="page-heading">Deadline not found</h1>
+    <p class="page-lede">This page may have moved, or the opportunity may not exist.</p>
+    <a class="button button-primary" href={withBase()}>View upcoming deadlines</a>
+  </div></main>
+</BaseLayout>

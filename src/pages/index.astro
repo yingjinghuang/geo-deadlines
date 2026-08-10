@@ -1,0 +1,13 @@
+---
+import DashboardPage from '../components/DashboardPage.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import { sortUpcoming } from '../lib/opportunity';
+const items = sortUpcoming((await getDerivedOpportunities()).filter((item) => item.submissionStatus !== 'closed'));
+---
+<DashboardPage
+  title="Upcoming deadlines"
+  heading="GeoDeadlines"
+  description="Conference and special-issue deadlines for GIScience, GeoAI, Geography, Remote Sensing, and Spatial Computing."
+  items={items}
+  topics={topics}
+/>

@@ -1,0 +1,78 @@
+- id: giscience
+  label: GIScience
+  group: core
+- id: geoai
+  label: GeoAI
+  group: core
+- id: geography
+  label: Geography
+  group: core
+- id: remote-sensing
+  label: Remote Sensing
+  group: core
+- id: earth-observation
+  label: Earth Observation
+  group: core
+- id: spatial-computing
+  label: Spatial Computing
+  group: core
+- id: spatial-data-science
+  label: Spatial Data Science
+  group: core
+- id: spatial-databases
+  label: Spatial Databases
+  group: core
+- id: cartography
+  label: Cartography
+  group: core
+- id: geovisualization
+  label: Geovisualization
+  group: core
+- id: urban
+  label: Urban Analytics
+  group: core
+- id: mobility
+  label: Mobility
+  group: core
+- id: lbs
+  label: Location-Based Services
+  group: core
+- id: spatial-cognition
+  label: Spatial Cognition
+  group: core
+- id: geographic-hci
+  label: Geographic HCI
+  group: core
+- id: vgi
+  label: VGI
+  group: core
+- id: osm
+  label: OpenStreetMap
+  group: core
+- id: knowledge-graphs
+  label: Knowledge Graphs
+  group: core
+- id: spatial-statistics
+  label: Spatial Statistics
+  group: core
+- id: sustainability
+  label: Sustainability
+  group: core
+- id: climate
+  label: Climate
+  group: core
+- id: computer-vision
+  label: Computer Vision
+  group: adjacent
+- id: machine-learning
+  label: Machine Learning
+  group: adjacent
+- id: data-mining
+  label: Data Mining
+  group: adjacent
+- id: information-retrieval
+  label: Information Retrieval
+  group: adjacent
+- id: ubiquitous-computing
+  label: Ubiquitous Computing
+  group: adjacent

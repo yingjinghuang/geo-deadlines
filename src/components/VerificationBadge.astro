@@ -1,0 +1,14 @@
+---
+import { verificationAge } from '../lib/verification';
+interface Props { date: string; status: 'verified' | 'aging' | 'stale' }
+const { date, status } = Astro.props;
+const age = verificationAge(date);
+const formatted = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
+---
+<span class:list={['verification', status]} title={`Last checked ${age} days ago`}>
+  {status === 'verified' ? '✓' : status === 'aging' ? '◷' : '!'} {status === 'stale' ? 'Needs re-verification' : `Verified ${formatted}`}
+</span>
+<style>
+  .verification { color: var(--muted); font-size: .75rem; }
+  .aging { color: var(--soon); } .stale { color: var(--critical); font-weight: 700; }
+</style>

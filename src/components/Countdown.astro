@@ -1,0 +1,40 @@
+---
+import { formatCountdown, formatOriginalDeadline, futureSubmissionDeadlines, hasActiveTbdDeadline } from '../lib/deadlines';
+import type { Deadline } from '../lib/types';
+interface Props { deadlines: Deadline[] }
+const { deadlines } = Astro.props;
+const future = futureSubmissionDeadlines(deadlines);
+const next = future.find((item) => item.primary) ?? future[0];
+const hasTbd = hasActiveTbdDeadline(deadlines);
+const serialized = future.map((deadline) => ({
+  id: deadline.id,
+  label: deadline.label,
+  datetime: deadline.datetime,
+  timezone: deadline.timezone,
+  timestamp: Date.parse(deadline.datetime),
+  primary: Boolean(deadline.primary),
+  original: formatOriginalDeadline(deadline),
+}));
+---
+<div class="countdown" data-countdown data-deadlines={JSON.stringify(serialized)} data-has-tbd={String(hasTbd)}>
+  <p class="countdown-label" data-countdown-label>{next?.label ?? 'Submission'}</p>
+  <p class="countdown-value" data-countdown-value>{next ? formatCountdown(Date.parse(next.datetime)) : hasTbd ? 'TBD' : 'Closed'}</p>
+  <p class="countdown-status" data-countdown-status>{next ? 'until submission' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
+  <time data-original-time datetime={next?.datetime}>{next ? formatOriginalDeadline(next) : hasTbd ? 'Watch for the official call' : 'Deadline passed'}</time>
+  <p class="local-time"><span class="local-prefix">Your time:</span> <span data-local-time>Detecting…</span></p>
+  <span class="visually-hidden" aria-live="polite" data-countdown-live></span>
+</div>
+<style>
+  .countdown { min-width: 0; }
+  .countdown p { margin: 0; }
+  .countdown-label { margin-bottom: 4px !important; color: var(--muted); font-size: .72rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+  .countdown-value { color: var(--accent); font-size: clamp(1.65rem, 3vw, 2.15rem); font-weight: 850; letter-spacing: -.055em; line-height: 1.05; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .countdown-status { margin: 4px 0 13px !important; color: var(--muted); font-size: .72rem; }
+  time { display: block; color: var(--text-2); font-size: .8rem; font-weight: 650; }
+  .local-time { margin-top: 3px !important; color: var(--muted); font-size: .73rem; }
+  .local-prefix { color: var(--text-2); }
+  :global(.urgency-critical) .countdown-value { color: var(--critical); }
+  :global(.urgency-urgent) .countdown-value { color: var(--urgent); }
+  :global(.urgency-soon) .countdown-value { color: var(--soon); }
+  :global(.urgency-near) .countdown-value { color: var(--near); }
+</style>

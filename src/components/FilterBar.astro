@@ -1,0 +1,81 @@
+---
+import type { Topic } from '../lib/types';
+interface Props { topics: Topic[]; fixedType?: string; mode?: string; years?: number[] }
+const { topics, fixedType, mode = 'upcoming', years = [] } = Astro.props;
+const typeOptions = [['all', 'All'], ['conference', 'Conferences'], ['special_issue', 'Special Issues'], ['workshop', 'Workshops']];
+const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['all', 'All deadlines']];
+---
+<section class="filter-panel surface" aria-label="Search and filters">
+  <label class="search-wrap">
+    <span class="visually-hidden">Search opportunities</span>
+    <span aria-hidden="true">⌕</span>
+    <input type="search" data-search-input placeholder="Search venues, journals, topics…" autocomplete="off" />
+    <kbd>/</kbd>
+  </label>
+  <div class="filter-groups">
+    {!fixedType && <div class="filter-group" role="group" aria-label="Opportunity type">
+      <span class="filter-label">Type</span>
+      <div class="chips">{typeOptions.map(([value, label]) => <button type="button" data-filter-type={value} aria-pressed={value === 'all'}>{label}</button>)}</div>
+    </div>}
+    {mode !== 'archive' && <div class="filter-group" role="group" aria-label="Deadline window">
+      <span class="filter-label">Deadline</span>
+      <div class="chips">{timeOptions.map(([value, label]) => <button type="button" data-filter-time={value} aria-pressed={value === 'all'}>{label}</button>)}</div>
+    </div>}
+    {mode === 'archive' && <label class="filter-group">
+      <span class="filter-label">Year</span>
+      <select data-filter-year>
+        <option value="all">All years</option>
+        {years.map((year) => <option value={String(year)}>{year}</option>)}
+      </select>
+    </label>}
+    <div class="filter-group" role="group" aria-label="Scope">
+      <span class="filter-label">Scope</span>
+      <div class="chips">
+        <button type="button" data-filter-scope="all" aria-pressed="true">All</button>
+        <button type="button" data-filter-scope="core" aria-pressed="false">Core</button>
+        <button type="button" data-filter-scope="adjacent" aria-pressed="false">Adjacent</button>
+      </div>
+    </div>
+  </div>
+  <div class="topic-row" role="group" aria-label="Topics">
+    <span class="filter-label">Topics</span>
+    <div class="chips topic-chips">
+      {topics.slice(0, 6).map((topic) => <button type="button" data-filter-topic={topic.id} aria-pressed="false">{topic.label}</button>)}
+      {topics.length > 6 && <details class="more-topics">
+        <summary>More</summary>
+        <div class="topic-menu">
+          {topics.slice(6).map((topic) => <button type="button" data-filter-topic={topic.id} aria-pressed="false">{topic.label}</button>)}
+        </div>
+      </details>}
+    </div>
+  </div>
+</section>
+<style>
+  .filter-panel { position: sticky; top: 10px; z-index: 10; margin: 0 0 20px; padding: 13px; }
+  .search-wrap { display: flex; align-items: center; gap: 10px; height: 46px; padding-inline: 13px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--page); }
+  .search-wrap:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent); }
+  input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text); }
+  input::placeholder { color: var(--muted); }
+  kbd { padding: 1px 6px; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); font-size: .72rem; }
+  .filter-groups { display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 13px 3px 5px; }
+  .filter-group, .topic-row { display: flex; align-items: center; gap: 8px; }
+  .filter-label { color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+  select { padding: 5px 26px 5px 9px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chips button, .more-topics summary { padding: 5px 9px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: var(--text-2); cursor: pointer; font-size: .76rem; font-weight: 650; list-style: none; }
+  .chips button:hover, .more-topics summary:hover { background: var(--surface-2); }
+  .chips button[aria-pressed="true"] { border-color: color-mix(in srgb, var(--accent) 25%, var(--border)); background: var(--accent-soft); color: var(--accent); }
+  .topic-row { padding: 6px 3px 2px; border-top: 1px solid var(--border); }
+  .more-topics { position: relative; }
+  .more-topics summary::-webkit-details-marker { display: none; }
+  .topic-menu { position: absolute; top: 34px; right: 0; display: grid; grid-template-columns: repeat(2, minmax(135px, 1fr)); width: min(380px, calc(100vw - 48px)); padding: 9px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
+  .topic-menu button { text-align: left; }
+  @media (max-width: 720px) {
+    .filter-panel { position: static; }
+    .filter-groups { flex-direction: column; }
+    .filter-group, .topic-row { align-items: flex-start; flex-direction: column; }
+    .chips { flex-wrap: nowrap; width: 100%; overflow-x: auto; padding-bottom: 3px; }
+    .chips button { white-space: nowrap; }
+    .topic-menu { position: fixed; z-index: 30; top: 15%; right: 16px; left: 16px; width: auto; max-height: 70vh; overflow-y: auto; }
+  }
+</style>

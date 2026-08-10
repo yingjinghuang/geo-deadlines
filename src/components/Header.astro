@@ -1,0 +1,56 @@
+---
+import { repositoryUrl, withBase } from '../lib/urls';
+interface Props { activePath?: string }
+const { activePath = '' } = Astro.props;
+const links = [
+  ['Conferences', 'conferences/'],
+  ['Special Issues', 'special-issues/'],
+  ['Workshops', 'workshops/'],
+  ['Archive', 'archive/'],
+];
+const isActive = (path: string) => activePath.includes(`/${path}`);
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={withBase()} aria-label="GeoDeadlines home">
+      <span class="brand-mark" aria-hidden="true">G</span>
+      <span>GeoDeadlines</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      {links.map(([label, path]) => <a href={withBase(path)} aria-current={isActive(path) ? 'page' : undefined}>{label}</a>)}
+    </nav>
+    <div class="header-actions">
+      <a class="favorites-link" href={withBase('favorites/')} aria-label="Saved deadlines">☆ <span>Favorites</span></a>
+      <a class="add-link" href={withBase('contribute/')}>＋ Add deadline</a>
+      <a class="github-link" href={repositoryUrl()} rel="noreferrer">GitHub</a>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation">Menu</summary>
+        <nav aria-label="Mobile navigation">
+          {links.map(([label, path]) => <a href={withBase(path)}>{label}</a>)}
+          <a href={withBase('about/')}>About</a>
+          <a href={repositoryUrl()}>GitHub</a>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header { position: relative; z-index: 20; height: 62px; border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(12px); }
+  .header-inner { height: 100%; display: flex; align-items: center; gap: 26px; }
+  .brand { display: inline-flex; align-items: center; gap: 9px; margin-right: auto; color: var(--text); text-decoration: none; font-weight: 820; letter-spacing: -0.025em; }
+  .brand-mark { display: grid; place-items: center; width: 27px; height: 27px; border-radius: 8px; background: var(--text); color: var(--surface); font-size: 0.82rem; }
+  .desktop-nav { display: flex; align-items: center; gap: 22px; }
+  .desktop-nav a, .header-actions > a { color: var(--text-2); text-decoration: none; font-size: 0.88rem; font-weight: 650; white-space: nowrap; }
+  .desktop-nav a:hover, .desktop-nav a[aria-current="page"], .header-actions > a:hover { color: var(--text); }
+  .header-actions { display: flex; align-items: center; gap: 13px; }
+  .add-link { padding: 7px 10px; border: 1px solid var(--border-strong); border-radius: 8px; }
+  .mobile-menu { display: none; position: relative; }
+  .mobile-menu summary { list-style: none; cursor: pointer; font-weight: 700; }
+  .mobile-menu summary::-webkit-details-marker { display: none; }
+  .mobile-menu nav { position: absolute; right: 0; top: 34px; width: 190px; padding: 8px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
+  .mobile-menu nav a { display: block; padding: 9px 10px; border-radius: 7px; text-decoration: none; }
+  @media (max-width: 900px) { .desktop-nav, .github-link { display: none; } .mobile-menu { display: block; } }
+  @media (max-width: 560px) { .favorites-link span, .add-link { display: none; } }
+</style>

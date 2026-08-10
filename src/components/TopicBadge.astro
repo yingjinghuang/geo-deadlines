@@ -1,0 +1,8 @@
+---
+interface Props { label: string }
+const { label } = Astro.props;
+---
+<span class="topic-badge">{label}</span>
+<style>
+  .topic-badge { display: inline-flex; padding: 3px 8px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: .74rem; font-weight: 650; }
+</style>

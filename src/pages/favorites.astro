@@ -1,0 +1,7 @@
+---
+import DashboardPage from '../components/DashboardPage.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import { sortUpcoming } from '../lib/opportunity';
+const items = sortUpcoming(await getDerivedOpportunities());
+---
+<DashboardPage title="Saved deadlines" description="Your locally saved opportunities. Favorites stay in this browser and can be exported as a calendar file." items={items} topics={topics} mode="favorites" canonicalPath="favorites/" />

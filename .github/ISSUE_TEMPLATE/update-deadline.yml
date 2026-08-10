@@ -1,0 +1,17 @@
+name: Report a deadline update
+description: Report incorrect, extended, cancelled, or outdated information.
+title: "[Update] "
+labels: [data, update]
+body:
+  - type: input
+    id: opportunity
+    attributes: { label: Opportunity ID }
+    validations: { required: true }
+  - type: textarea
+    id: change
+    attributes: { label: What changed? }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Official source URL, placeholder: "https://…" }
+    validations: { required: true }

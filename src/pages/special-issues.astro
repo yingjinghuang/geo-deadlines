@@ -1,0 +1,7 @@
+---
+import DashboardPage from '../components/DashboardPage.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import { sortUpcoming } from '../lib/opportunity';
+const items = sortUpcoming((await getDerivedOpportunities()).filter((item) => item.raw.type === 'special_issue' && item.submissionStatus !== 'closed'));
+---
+<DashboardPage title="Special-issue deadlines" description="Journal special issues in GIScience, GeoAI, remote sensing, urban analytics, and related geospatial fields." items={items} topics={topics} fixedType="special_issue" canonicalPath="special-issues/" />

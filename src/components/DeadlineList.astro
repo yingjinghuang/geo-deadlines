@@ -1,0 +1,42 @@
+---
+import type { DerivedOpportunity, Topic } from '../lib/types';
+import DeadlineCard from './DeadlineCard.astro';
+interface Props { items: DerivedOpportunity[]; topics: Topic[]; fixedType?: string; mode?: 'upcoming' | 'archive' | 'favorites' }
+const { items, topics, fixedType, mode = 'upcoming' } = Astro.props;
+---
+<section class="deadline-browser" data-deadline-browser data-fixed-type={fixedType ?? ''} data-mode={mode}>
+  <div class="list-toolbar">
+    <p><strong data-result-count>{items.length}</strong> <span data-result-label>{mode === 'archive' ? 'archived' : 'upcoming'}</span></p>
+    <label>Sort
+      <select data-sort-select>
+        <option value={mode === 'archive' ? 'latest' : 'soonest'}>{mode === 'archive' ? 'Recently closed' : 'Deadline: soonest'}</option>
+        {mode !== 'archive' && <option value="latest">Deadline: latest</option>}
+        <option value="verified">Recently verified</option>
+        <option value="title">Venue A–Z</option>
+      </select>
+    </label>
+  </div>
+  {mode === 'favorites' && <div class="favorites-tools"><button class="button" type="button" data-export-favorites>Export favorites as .ics</button></div>}
+  <div class="deadline-list" data-card-list>
+    {items.map((item) => <DeadlineCard item={item} topics={topics} />)}
+  </div>
+  <div class="empty-state surface" data-empty-state hidden>
+    <p class="empty-icon" aria-hidden="true">⌕</p>
+    <h2>{mode === 'favorites' ? 'No saved deadlines yet' : 'No deadlines match these filters'}</h2>
+    <p>{mode === 'favorites' ? 'Use the ☆ button on any deadline to keep it here.' : 'Try a broader deadline window or remove a topic filter.'}</p>
+  </div>
+</section>
+<style>
+  .list-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 13px 2px; color: var(--muted); font-size: .8rem; }
+  .list-toolbar p { margin: 0; }
+  .list-toolbar strong { color: var(--text); }
+  .list-toolbar label { display: flex; align-items: center; gap: 8px; }
+  select { padding: 6px 28px 6px 9px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
+  .deadline-list { display: grid; gap: 13px; }
+  .favorites-tools { display: flex; justify-content: flex-end; margin-bottom: 13px; }
+  .empty-state { padding: 52px 24px; text-align: center; }
+  .empty-state[hidden] { display: none; }
+  .empty-icon { margin: 0; color: var(--muted); font-size: 2rem; }
+  .empty-state h2 { margin: 7px 0 4px; font-size: 1.1rem; }
+  .empty-state p:last-child { margin: 0; color: var(--muted); }
+</style>

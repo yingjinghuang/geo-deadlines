@@ -1,0 +1,121 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Countdown from '../../components/Countdown.astro';
+import DeadlineTimeline from '../../components/DeadlineTimeline.astro';
+import OpportunityBadge from '../../components/OpportunityBadge.astro';
+import TopicBadge from '../../components/TopicBadge.astro';
+import VerificationBadge from '../../components/VerificationBadge.astro';
+import FavoriteButton from '../../components/FavoriteButton.astro';
+import { deriveOpportunity } from '../../lib/opportunity';
+import { futureSubmissionDeadlines, formatOriginalDeadline } from '../../lib/deadlines';
+import { googleCalendarUrl } from '../../lib/calendar';
+import { topics } from '../../lib/data';
+import { repositoryUrl, withBase } from '../../lib/urls';
+import type { OpportunityData } from '../../lib/types';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('opportunities');
+  return entries.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+interface Props { entry: CollectionEntry<'opportunities'> }
+const { entry } = Astro.props as Props;
+const item = deriveOpportunity(entry);
+const data = item.raw as OpportunityData;
+const next = futureSubmissionDeadlines(data.deadlines).find((deadline) => deadline.primary) ?? futureSubmissionDeadlines(data.deadlines)[0];
+const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id);
+const typeFolder = data.type === 'conference' ? 'conferences' : data.type === 'special_issue' ? 'special-issues' : 'workshops';
+const repo = repositoryUrl();
+const editUrl = `${repo}/edit/main/src/data/opportunities/${typeFolder}/${item.id}.yml`;
+const reportTitle = encodeURIComponent(`[Update] ${data.title}`);
+const reportBody = encodeURIComponent(`Opportunity ID: ${item.id}\nCurrent displayed deadline: ${next ? formatOriginalDeadline(next) : 'Closed / TBD'}\nSource: ${data.website}\n\nWhat changed:\n`);
+const detailPath = `opportunity/${item.id}/`;
+const absoluteDetail = new URL(detailPath, new URL(import.meta.env.BASE_URL, Astro.site)).toString();
+const calendarEvents = next ? [{ id: `${item.id}-${next.id}`, title: `${data.short_name ?? data.title} — ${next.label} Deadline`, start: next.datetime, timezone: next.timezone, source: next.url ?? data.website, detail: absoluteDetail }] : [];
+const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-time conversion, and official links for ${data.title}.`;
+---
+<BaseLayout title={`${data.title} Deadline — GeoDeadlines`} description={description} canonicalPath={detailPath}>
+  <main class="page-main">
+    <div class="container detail-shell" data-opportunity-card data-id={item.id} data-calendar-events={JSON.stringify(calendarEvents)}>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href={withBase()}>Deadlines</a><span>/</span><span>{data.short_name ?? data.title}</span></nav>
+      <section class="detail-hero surface">
+        <div class="hero-copy">
+          <div class="hero-top"><OpportunityBadge type={data.type} scope={data.scope} /><FavoriteButton id={item.id} title={data.title} /></div>
+          <h1>{data.title}</h1>
+          {data.journal && <p class="venue-name">{data.journal.name}</p>}
+          {data.parent && <p class="venue-name">Part of <a href={data.parent.url}>{data.parent.name}</a></p>}
+          <p class="hero-description">{data.description}</p>
+          <div class="topic-list">{topicLabels.map((label) => <TopicBadge label={label} />)}</div>
+          <div class="hero-actions">
+            <a class="button button-primary" href={data.website}>Official website ↗</a>
+            {data.submission_url && <a class="button" href={data.submission_url}>Submit ↗</a>}
+            {next && <button class="button" type="button" data-calendar-download>Download .ics</button>}
+            {next && <a class="button" href={googleCalendarUrl(data, next, absoluteDetail)}>Google Calendar ↗</a>}
+          </div>
+        </div>
+        <aside class:list={['hero-countdown', item.urgency && `urgency-${item.urgency}`]}><Countdown deadlines={data.deadlines} /></aside>
+      </section>
+
+      <section class="detail-section surface">
+        <div class="section-heading"><div><p class="eyebrow">All milestones</p><h2>Deadline timeline</h2></div></div>
+        <DeadlineTimeline deadlines={data.deadlines} />
+      </section>
+
+      <div class="detail-grid">
+        <section class="detail-section surface">
+          <p class="eyebrow">Opportunity details</p><h2>At a glance</h2>
+          <dl>
+            <div><dt>Year</dt><dd>{data.year}</dd></div>
+            {data.event && <div><dt>Event</dt><dd>{data.event.start} – {data.event.end}</dd></div>}
+            {data.location && <div><dt>Location</dt><dd>{data.location.mode === 'virtual' ? 'Virtual' : [data.location.city, data.location.country].filter(Boolean).join(', ')} · {data.location.mode.replace('_', ' ')}</dd></div>}
+            {data.journal && <div><dt>Journal</dt><dd>{data.journal.name}{data.journal.publisher ? ` · ${data.journal.publisher}` : ''}</dd></div>}
+            {data.organizations?.length && <div><dt>Organizations</dt><dd>{data.organizations.join(', ')}</dd></div>}
+            {data.tracks?.length && <div><dt>Tracks</dt><dd>{data.tracks.join(', ')}</dd></div>}
+            {data.guest_editors?.length && <div><dt>Guest editors</dt><dd>{data.guest_editors.map((editor) => `${editor.name}${editor.affiliation ? ` (${editor.affiliation})` : ''}`).join(', ')}</dd></div>}
+          </dl>
+        </section>
+        <section class="detail-section surface">
+          <p class="eyebrow">Provenance</p><h2>Sources & freshness</h2>
+          <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
+          <ul class="source-list">{data.sources.map((source) => <li><a href={source.url}>{source.label} ↗</a><span>{source.kind}</span></li>)}</ul>
+          <div class="contribution-actions">
+            <a href={editUrl}>Edit this entry on GitHub ↗</a>
+            <a href={`${repo}/issues/new?title=${reportTitle}&body=${reportBody}`}>Report incorrect / outdated information ↗</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+<style>
+  .detail-shell { max-width: 1050px; }
+  .breadcrumbs { display: flex; gap: 8px; margin-bottom: 14px; color: var(--muted); font-size: .8rem; }
+  .detail-hero { display: grid; grid-template-columns: minmax(0, 1fr) 290px; overflow: hidden; }
+  .hero-copy { padding: 30px; }
+  .hero-top { display: flex; align-items: center; justify-content: space-between; }
+  h1 { max-width: 720px; margin: 9px 0 2px; font-size: clamp(1.8rem, 4vw, 2.65rem); line-height: 1.08; letter-spacing: -.045em; }
+  .venue-name { margin: 5px 0; color: var(--text-2); font-weight: 700; }
+  .hero-description { max-width: 670px; margin: 14px 0; color: var(--text-2); }
+  .topic-list, .hero-actions { display: flex; flex-wrap: wrap; gap: 7px; }
+  .hero-actions { margin-top: 22px; }
+  .hero-countdown { display: flex; align-items: center; padding: 30px; border-left: 1px solid var(--border); background: var(--surface-2); }
+  .detail-section { margin-top: 17px; padding: 25px; }
+  .detail-section h2 { margin: 2px 0 20px; font-size: 1.25rem; letter-spacing: -.025em; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; }
+  dl { margin: 0; }
+  dl > div { display: grid; grid-template-columns: 120px 1fr; gap: 15px; padding: 10px 0; border-top: 1px solid var(--border); }
+  dt { color: var(--muted); } dd { margin: 0; }
+  .source-list { margin: 15px 0; padding: 0; list-style: none; }
+  .source-list li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--border); }
+  .source-list span { color: var(--muted); font-size: .75rem; text-transform: uppercase; }
+  .contribution-actions { display: grid; gap: 8px; padding-top: 12px; font-size: .84rem; font-weight: 650; }
+  @media (max-width: 760px) {
+    .detail-hero, .detail-grid { grid-template-columns: 1fr; }
+    .hero-countdown { order: -1; padding: 22px; border-left: 0; border-bottom: 1px solid var(--border); }
+    .hero-copy { padding: 22px; }
+    .detail-section { padding: 20px; }
+    dl > div { grid-template-columns: 90px 1fr; }
+  }
+</style>

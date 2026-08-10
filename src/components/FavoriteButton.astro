@@ -1,0 +1,12 @@
+---
+interface Props { id: string; title: string }
+const { id, title } = Astro.props;
+---
+<button class="favorite-button" type="button" data-favorite-id={id} aria-label={`Save ${title}`} aria-pressed="false">
+  <span aria-hidden="true">☆</span>
+</button>
+<style>
+  .favorite-button { width: 36px; height: 36px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; font-size: 1.35rem; line-height: 1; }
+  .favorite-button:hover { border-color: var(--border); color: var(--text); }
+  .favorite-button[aria-pressed="true"] { color: #d97706; }
+</style>

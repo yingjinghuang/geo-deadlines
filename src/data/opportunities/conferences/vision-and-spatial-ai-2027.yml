@@ -1,0 +1,29 @@
+title: "Vision and Spatial AI Conference 2027"
+short_name: "VSAI 2027"
+type: conference
+series: "Vision and Spatial AI Conference"
+year: 2027
+description: >
+  A representative adjacent computer-vision venue with a GeoAI-relevant research track.
+scope: adjacent
+topics: [computer-vision, machine-learning, geoai]
+website: "https://example.org/vsai-2027"
+event:
+  start: "2027-09-14"
+  end: "2027-09-18"
+location:
+  mode: in_person
+  city: "Barcelona"
+  country: "Spain"
+sources:
+  - label: "Official conference website"
+    url: "https://example.org/vsai-2027"
+    kind: official
+last_verified: "2026-08-04"
+deadlines:
+  - id: paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: TBD
+    timezone: null
+    status: active

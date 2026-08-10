@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GeoDeadlines//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:earth-observation-forum-2027-paper@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20270212T225900Z
+DTEND:20270212T231400Z
+SUMMARY:EOF 2027 — Paper Deadline
+DESCRIPTION:Original timezone: Europe/Copenhagen\nOfficial source: https://example.org/eof-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/earth-observation-forum-2027/
+URL:https://example.org/eof-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-research-summit-2027-abstract@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20270816T115900Z
+DTEND:20270816T121400Z
+SUMMARY:SRS 2027 — Abstract Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
+URL:https://example.org/srs-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-research-summit-2027-full-paper@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20270823T115900Z
+DTEND:20270823T121400Z
+SUMMARY:SRS 2027 — Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
+URL:https://example.org/srs-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-urban-resilience-2027-manuscript@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20270401T115900Z
+DTEND:20270401T121400Z
+SUMMARY:Special Issue on GeoAI for Urban Resilience — Manuscript Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/jsf/geoai-urban-resilience\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geoai-urban-resilience-2027/
+URL:https://example.org/jsf/geoai-urban-resilience
+END:VEVENT
+BEGIN:VEVENT
+UID:geospatial-knowledge-workshop-2026-workshop-paper@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20260911T115900Z
+DTEND:20260911T121400Z
+SUMMARY:GeoKnowledge 2026 — Workshop Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/geoknowledge-2026\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geospatial-knowledge-workshop-2026/
+URL:https://example.org/geoknowledge-2026
+END:VEVENT
+END:VCALENDAR

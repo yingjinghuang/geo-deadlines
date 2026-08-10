@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FilterBar from './FilterBar.astro';
+import DeadlineList from './DeadlineList.astro';
+import type { DerivedOpportunity, Topic } from '../lib/types';
+interface Props {
+  title: string;
+  heading?: string;
+  description: string;
+  items: DerivedOpportunity[];
+  topics: Topic[];
+  fixedType?: string;
+  mode?: 'upcoming' | 'archive' | 'favorites';
+  canonicalPath?: string;
+}
+const { title, heading = title, description, items, topics, fixedType, mode = 'upcoming', canonicalPath = '' } = Astro.props;
+---
+<BaseLayout title={`${title} — GeoDeadlines`} description={description} canonicalPath={canonicalPath}>
+  <main class="page-main">
+    <div class="container">
+      <section class="intro">
+        <p class="eyebrow">Community maintained · shown in your timezone</p>
+        <h1 class="page-heading">{heading}</h1>
+        <p class="page-lede">{description}</p>
+      </section>
+      <FilterBar topics={topics} fixedType={fixedType} mode={mode} years={[...new Set(items.map((item) => item.raw.year))].sort((a, b) => b - a)} />
+      <DeadlineList items={items} topics={topics} fixedType={fixedType} mode={mode} />
+    </div>
+  </main>
+</BaseLayout>
+<style>
+  .intro { margin-bottom: 20px; }
+  .intro .eyebrow { margin: 0 0 7px; }
+  .intro .page-lede { margin-bottom: 0; }
+</style>

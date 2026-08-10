@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GeoDeadlines//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:geospatial-knowledge-workshop-2026-workshop-paper@geodeadlines
+DTSTAMP:20260810T195852Z
+DTSTART:20260911T115900Z
+DTEND:20260911T121400Z
+SUMMARY:GeoKnowledge 2026 — Workshop Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/geoknowledge-2026\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geospatial-knowledge-workshop-2026/
+URL:https://example.org/geoknowledge-2026
+END:VEVENT
+END:VCALENDAR

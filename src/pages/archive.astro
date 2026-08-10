@@ -1,0 +1,7 @@
+---
+import DashboardPage from '../components/DashboardPage.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import { sortArchive } from '../lib/opportunity';
+const items = sortArchive((await getDerivedOpportunities()).filter((item) => item.submissionStatus === 'closed'));
+---
+<DashboardPage title="Deadline archive" description="Closed opportunities, ordered by their most recent deadline. Search by venue, topic, type, or location." items={items} topics={topics} mode="archive" canonicalPath="archive/" />

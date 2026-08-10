@@ -1,0 +1,57 @@
+---
+import type { Deadline } from '../lib/types';
+import { formatOriginalDeadline } from '../lib/deadlines';
+interface Props { deadlines: Deadline[] }
+const { deadlines } = Astro.props;
+const ordered = [...deadlines].sort((a, b) => {
+  if (a.datetime.toUpperCase() === 'TBD') return 1;
+  if (b.datetime.toUpperCase() === 'TBD') return -1;
+  return Date.parse(a.datetime) - Date.parse(b.datetime);
+}).map((deadline) => {
+  const timestamp = deadline.datetime.toUpperCase() === 'TBD' ? null : Date.parse(deadline.datetime);
+  return { deadline, timestamp, passed: timestamp !== null && timestamp <= Date.now() };
+});
+---
+<ol class="timeline">
+  {ordered.map(({ deadline, timestamp, passed }) =>
+    <li class:list={[deadline.status, passed && 'passed']}>
+      <span class="timeline-dot" aria-hidden="true"></span>
+      <div class="timeline-content">
+        <div class="timeline-heading">
+          <strong>{deadline.label}</strong>
+          <span class="timeline-state">{deadline.status !== 'active' ? deadline.status : timestamp === null ? 'TBD' : passed ? 'passed' : 'upcoming'}</span>
+        </div>
+        {timestamp === null ? <p>To be announced</p> : <>
+          <time datetime={deadline.datetime}>{formatOriginalDeadline(deadline)}</time>
+          <p class="timeline-local">Your time: <span data-timeline-local data-timestamp={timestamp}>Detecting…</span></p>
+        </>}
+        {deadline.note && <p class="timeline-note">{deadline.note}</p>}
+      </div>
+    </li>
+  )}
+</ol>
+<script>
+  const formatter = new Intl.DateTimeFormat(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
+  });
+  document.querySelectorAll<HTMLElement>('[data-timeline-local]').forEach((element) => {
+    element.textContent = formatter.format(new Date(Number(element.dataset.timestamp)));
+  });
+</script>
+<style>
+  .timeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0; margin: 0; padding: 0; list-style: none; }
+  li { position: relative; padding: 24px 20px 4px 0; border-top: 2px solid var(--border-strong); }
+  .timeline-dot { position: absolute; top: -6px; left: 0; width: 10px; height: 10px; border: 2px solid var(--surface); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .passed .timeline-dot, .superseded .timeline-dot, .cancelled .timeline-dot { background: var(--muted); box-shadow: 0 0 0 1px var(--muted); }
+  .timeline-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .timeline-state { color: var(--muted); font-size: .7rem; text-transform: uppercase; }
+  time { color: var(--text-2); font-size: .82rem; }
+  p { margin: 4px 0 0; }
+  .timeline-local { color: var(--muted); font-size: .76rem; }
+  .timeline-note { color: var(--text-2); font-size: .78rem; }
+  @media (max-width: 640px) {
+    .timeline { display: block; padding-left: 8px; }
+    li { padding: 0 0 24px 23px; border-top: 0; border-left: 2px solid var(--border-strong); }
+    .timeline-dot { top: 4px; left: -6px; }
+  }
+</style>

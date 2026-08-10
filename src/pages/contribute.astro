@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { repositoryUrl } from '../lib/urls';
+const repo = repositoryUrl();
+---
+<BaseLayout title="Contribute — GeoDeadlines" canonicalPath="contribute/">
+  <main class="page-main"><div class="container prose">
+    <p class="eyebrow">Community maintained</p>
+    <h1 class="page-heading">Add or update a deadline</h1>
+    <p class="page-lede">Choose the contribution path that suits you. Please include an official source whenever possible.</p>
+    <div class="contribution-grid">
+      <section class="surface">
+        <p class="eyebrow">For GitHub contributors</p>
+        <h2>Edit YAML</h2>
+        <p>Add a file under <code>src/data/opportunities/</code>, run the local checks, and open a pull request.</p>
+        <a class="button button-primary" href={`${repo}/tree/main/src/data/opportunities`}>Browse data files ↗</a>
+      </section>
+      <section class="surface">
+        <p class="eyebrow">No YAML required</p>
+        <h2>Submit an issue</h2>
+        <p>Use the structured issue form to send the venue, deadline, timezone, topics, and official source.</p>
+        <a class="button" href={`${repo}/issues/new?template=add-deadline.yml`}>Open issue form ↗</a>
+      </section>
+    </div>
+    <h2>Deadline format</h2>
+    <pre><code>datetime: "2027-08-22T23:59:00-12:00"
+timezone: "AoE"
+status: active</code></pre>
+    <p>Use <code>datetime: TBD</code> only when the official date has not been announced. Do not guess a timezone or silently assume UTC.</p>
+  </div></main>
+</BaseLayout>
+<style>
+  .contribution-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 28px 0; }
+  .contribution-grid section { padding: 22px; }
+  .contribution-grid h2 { margin: 5px 0; }
+  pre { overflow-x: auto; padding: 18px; border-radius: 10px; background: var(--surface-2); }
+  @media (max-width: 680px) { .contribution-grid { grid-template-columns: 1fr; } }
+</style>
