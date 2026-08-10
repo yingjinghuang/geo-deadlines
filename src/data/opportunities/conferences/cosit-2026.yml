@@ -1,0 +1,50 @@
+title: "COSIT 2026"
+short_name: "COSIT 2026"
+type: conference
+series: "Conference on Spatial Information Theory"
+year: 2026
+description: "The 17th Conference on Spatial Information Theory, a biennial venue for theoretical and interdisciplinary research on space and spatial information."
+scope: core
+topics:
+  - giscience
+  - spatial-cognition
+  - geographic-hci
+  - spatial-computing
+website: "https://www.cosit2026.uk/"
+sources:
+  - label: "Official COSIT 2026 website and call"
+    url: "https://www.cosit2026.uk/"
+    kind: official
+last_verified: "2026-08-11"
+event:
+  start: "2026-09-22"
+  end: "2026-09-25"
+location:
+  mode: in_person
+  city: "York"
+  country: "United Kingdom"
+  country_code: "GB"
+  venue: "The Hospitium"
+tracks:
+  - "Full Paper"
+  - "Short Paper"
+  - "Doctoral Mentoring Programme"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-02-27T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: short-paper
+    type: short_paper
+    label: "Short Paper"
+    datetime: "2026-04-30T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: doctoral-mentoring
+    type: doctoral_consortium
+    label: "Doctoral Mentoring"
+    datetime: "2026-06-05T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
