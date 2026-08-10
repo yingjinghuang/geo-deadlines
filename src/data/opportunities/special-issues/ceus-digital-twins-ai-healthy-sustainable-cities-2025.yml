@@ -1,0 +1,24 @@
+title: "Digital Twins and AI for Healthy and Sustainable Cities"
+type: special_issue
+year: 2025
+description: "A CEUS special issue on urban digital twins, AI, urban analytics, health, sustainability, and data-driven city systems."
+scope: core
+topics: [urban, geoai, sustainability, spatial-data-science]
+journal:
+  name: "Computers, Environment and Urban Systems"
+  short_name: "CEUS"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/about/call-for-papers"
+sources:
+  - label: "Official CEUS call for papers page"
+    url: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/about/call-for-papers"
+    kind: publisher
+last_verified: "2026-08-11"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2025-11-30"
+    precision: date
+    timezone: null
+    status: active
