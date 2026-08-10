@@ -1,0 +1,39 @@
+title: "ISPRS Geospatial Week 2027"
+short_name: "GSW 2027"
+type: conference
+series: "ISPRS Geospatial Week"
+year: 2027
+description: "The biennial ISPRS Geospatial Week, bringing together workshops across photogrammetry, remote sensing, spatial information sciences, and geospatial technologies."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - giscience
+  - spatial-computing
+website: "https://www.isprs.org/society/gsw.aspx"
+sources:
+  - label: "Official ISPRS Geospatial Week page"
+    url: "https://www.isprs.org/society/gsw.aspx"
+    kind: official
+  - label: "ISPRS 2027 calendar"
+    url: "https://isprs.org/calendar/2027.aspx"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2027-09-19"
+  end: "2027-09-24"
+location:
+  mode: in_person
+  city: "Warsaw"
+  country: "Poland"
+  country_code: "PL"
+organizations:
+  - "International Society for Photogrammetry and Remote Sensing"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper / Abstract Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The event dates are official; submission dates have not yet been announced."
