@@ -1,0 +1,59 @@
+title: "GeoAI 2026"
+short_name: "GeoAI'26"
+type: workshop
+year: 2026
+description: "The 9th International Workshop on AI for Geographic Knowledge Discovery, focused on geospatial artificial intelligence methods and applications."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - machine-learning
+  - earth-observation
+  - urban
+website: "https://events.ornl.gov/acmsigspatial-geoai2026/"
+sources:
+  - label: "Official GeoAI'26 call for papers"
+    url: "https://events.ornl.gov/acmsigspatial-geoai2026/"
+    kind: official
+last_verified: "2026-08-10"
+parent:
+  name: "ACM SIGSPATIAL 2026"
+  url: "https://sigspatial2026.sigspatial.org/"
+event:
+  start: "2026-11-03"
+  end: "2026-11-03"
+location:
+  mode: in_person
+  city: "Riverside"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "ACM SIGSPATIAL"
+  - "Oak Ridge National Laboratory"
+tracks:
+  - "Full research paper"
+  - "Short research paper / industry demo"
+  - "Vision / statement paper"
+deadlines:
+  - id: paper
+    type: workshop_paper
+    label: "Paper Submission"
+    datetime: "2026-08-21"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official call gives the date but no exact submission time or timezone."
+  - id: notification
+    type: notification
+    label: "Decision"
+    datetime: "2026-09-18"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera Ready"
+    datetime: "2026-10-04"
+    precision: date
+    timezone: null
+    status: active
