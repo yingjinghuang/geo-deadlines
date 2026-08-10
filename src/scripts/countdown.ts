@@ -2,6 +2,7 @@ interface CountdownDeadline {
   id: string;
   label: string;
   datetime: string;
+  precision?: 'datetime' | 'date';
   timezone?: string | null;
   timestamp: number;
   primary?: boolean;
@@ -27,6 +28,17 @@ function formatRemaining(timestamp: number, now: number): string {
   return `${minutes}m ${two(seconds)}s`;
 }
 
+function localDateOnlyState(date: string, now: number): { active: boolean; remaining: string } {
+  const match = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return { active: false, remaining: 'Date announced' };
+  const target = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+  const current = new Date(now);
+  const today = new Date(current.getFullYear(), current.getMonth(), current.getDate());
+  const days = Math.round((target.getTime() - today.getTime()) / 86_400_000);
+  if (days < 0) return { active: false, remaining: 'Closed' };
+  return { active: true, remaining: days === 0 ? 'Today' : `${days}d` };
+}
+
 function urgency(timestamp: number, now: number): string {
   const days = (timestamp - now) / 86_400_000;
   if (days < 1) return 'critical';
@@ -42,13 +54,16 @@ function deadlinesFor(element: HTMLElement): CountdownDeadline[] {
 }
 
 function updateCountdown(element: HTMLElement, now: number): number | null {
-  const future = deadlinesFor(element).filter((item) => item.timestamp > now).sort((a, b) => a.timestamp - b.timestamp);
+  const future = deadlinesFor(element)
+    .filter((item) => item.precision === 'date' ? localDateOnlyState(item.datetime, now).active : item.timestamp > now)
+    .sort((a, b) => a.timestamp - b.timestamp);
   const next = future.find((item) => item.primary) ?? future[0];
   const value = element.querySelector<HTMLElement>('[data-countdown-value]');
   const label = element.querySelector<HTMLElement>('[data-countdown-label]');
   const status = element.querySelector<HTMLElement>('[data-countdown-status]');
   const original = element.querySelector<HTMLTimeElement>('[data-original-time]');
   const local = element.querySelector<HTMLElement>('[data-local-time]');
+  const localPrefix = element.querySelector<HTMLElement>('.local-prefix');
   const live = element.querySelector<HTMLElement>('[data-countdown-live]');
   const card = element.closest<HTMLElement>('[data-opportunity-card]');
 
@@ -58,19 +73,24 @@ function updateCountdown(element: HTMLElement, now: number): number | null {
     if (label) label.textContent = 'Submission';
     if (status) status.textContent = hasTbd ? 'Date not announced' : 'No active submission deadline';
     if (original) { original.textContent = hasTbd ? 'Watch for the official call' : 'Deadline passed'; original.removeAttribute('datetime'); }
+    if (localPrefix) localPrefix.textContent = 'Your time:';
     if (local) local.textContent = '—';
     if (card) card.dataset.deadline = '';
     return null;
   }
 
-  const remaining = formatRemaining(next.timestamp, now);
+  const dateOnly = next.precision === 'date';
+  const remaining = dateOnly ? localDateOnlyState(next.datetime, now).remaining : formatRemaining(next.timestamp, now);
   if (value) value.textContent = remaining;
   if (label) label.textContent = next.label;
-  if (status) status.textContent = next.timestamp - now < 86_400_000 ? 'closing in less than 24 hours' : 'until submission';
+  if (status) status.textContent = dateOnly ? 'until submission date' : next.timestamp - now < 86_400_000 ? 'closing in less than 24 hours' : 'until submission';
   if (original) { original.textContent = next.original; original.dateTime = next.datetime; }
-  if (local) local.textContent = formatter.format(new Date(next.timestamp));
+  if (localPrefix) localPrefix.textContent = dateOnly ? 'Timing:' : 'Your time:';
+  if (local) local.textContent = dateOnly ? 'Time/timezone not specified' : formatter.format(new Date(next.timestamp));
   if (live && Math.floor(now / 60_000) !== Number(live.dataset.lastMinute)) {
-    live.textContent = `${next.label} deadline in ${remaining}. Exact deadline ${next.original}.`;
+    live.textContent = dateOnly
+      ? `${next.label} submission date in ${remaining}. The official source does not specify an exact time or timezone.`
+      : `${next.label} deadline in ${remaining}. Exact deadline ${next.original}.`;
     live.dataset.lastMinute = String(Math.floor(now / 60_000));
   }
   if (card) {
