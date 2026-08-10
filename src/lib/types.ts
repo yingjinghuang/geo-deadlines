@@ -1,12 +1,14 @@
 export type OpportunityType = 'conference' | 'special_issue' | 'workshop';
 export type Scope = 'core' | 'adjacent';
 export type DeadlineStatus = 'active' | 'superseded' | 'cancelled';
+export type DeadlinePrecision = 'datetime' | 'date';
 
 export interface Deadline {
   id: string;
   type: string;
   label: string;
   datetime: string;
+  precision?: DeadlinePrecision;
   timezone?: string | null;
   status: DeadlineStatus;
   primary?: boolean;
