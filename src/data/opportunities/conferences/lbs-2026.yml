@@ -1,0 +1,65 @@
+title: "20th International Conference on Location Based Services"
+short_name: "LBS 2026"
+type: conference
+series: "International Conference on Location Based Services"
+year: 2026
+description: "The annual ICA Location Based Services conference covering location-based services, mobility, GeoAI, mobile HCI, and spatial data analytics."
+scope: core
+topics:
+  - lbs
+  - mobility
+  - giscience
+  - geoai
+  - geographic-hci
+website: "https://icaci.org/invitation-to-the-20th-international-conference-on-location-based-services-lbs-2026/"
+sources:
+  - label: "Official ICA call for papers"
+    url: "https://icaci.org/invitation-to-the-20th-international-conference-on-location-based-services-lbs-2026/"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2026-11-11"
+  end: "2026-11-13"
+location:
+  mode: in_person
+  city: "Nanjing"
+  country: "China"
+  country_code: "CN"
+organizations:
+  - "International Cartographic Association"
+  - "Southeast University"
+tracks:
+  - "Full paper"
+  - "Work in progress"
+  - "Late breaking work"
+  - "Published-article track"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-06-10"
+    precision: date
+    timezone: null
+    status: active
+  - id: work-in-progress
+    type: short_paper
+    label: "Work in Progress"
+    datetime: "2026-07-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: late-breaking
+    type: short_paper
+    label: "Late-Breaking Work"
+    datetime: "2026-09-01"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official call gives the date but no exact submission time or timezone."
+  - id: published-article
+    type: paper
+    label: "Published-Article Track"
+    datetime: "2026-09-01"
+    precision: date
+    timezone: null
+    status: active
