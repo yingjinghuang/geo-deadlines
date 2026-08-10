@@ -1,0 +1,36 @@
+title: "30th AGILE Conference on Geographic Information Science"
+short_name: "AGILE 2027"
+type: conference
+series: "AGILE Conference on Geographic Information Science"
+year: 2027
+description: "The annual AGILE conference for geographic information science research and education in Europe."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - geovisualization
+website: "https://agile-gi.eu/"
+sources:
+  - label: "Official AGILE website"
+    url: "https://agile-gi.eu/"
+    kind: official
+  - label: "Official AGILE conference series page"
+    url: "https://agile-gi.eu/past-conferences/agile-conferences"
+    kind: official
+last_verified: "2026-08-10"
+location:
+  mode: in_person
+  city: "Lund"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "Association of Geographic Information Laboratories in Europe"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "AGILE has announced Lund as the 2027 host; submission dates have not yet been announced."

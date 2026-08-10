@@ -2,7 +2,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 import { parse } from 'yaml';
 import { calendarEvent, calendarFile } from '../src/lib/calendar';
-import { SUBMISSION_DEADLINE_TYPES } from '../src/lib/deadlines';
+import { deadlineTimestamp, SUBMISSION_DEADLINE_TYPES } from '../src/lib/deadlines';
 import type { OpportunityData, OpportunityType } from '../src/lib/types';
 
 const dataRoot = new URL('../src/data/opportunities/', import.meta.url).pathname;
@@ -24,7 +24,8 @@ for (const file of await yamlFiles(dataRoot)) {
   const data = parse(await readFile(file, 'utf8')) as OpportunityData;
   const detailUrl = `${site}${base}/opportunity/${id}/`;
   for (const deadline of data.deadlines) {
-    if (deadline.status !== 'active' || !SUBMISSION_DEADLINE_TYPES.has(deadline.type) || deadline.datetime.toUpperCase() === 'TBD' || Date.parse(deadline.datetime) <= Date.now()) continue;
+    const timestamp = deadlineTimestamp(deadline);
+    if (deadline.status !== 'active' || !SUBMISSION_DEADLINE_TYPES.has(deadline.type) || timestamp === null || timestamp <= Date.now()) continue;
     const event = calendarEvent(id, data, deadline, detailUrl);
     grouped.all.push(event);
     grouped[data.type].push(event);

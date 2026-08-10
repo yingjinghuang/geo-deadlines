@@ -4,12 +4,14 @@ A community-maintained submission-deadline tracker for GIScience, GeoAI, Geograp
 
 GeoDeadlines is fully static: YAML files are the canonical data source, Astro builds the interface, and GitHub Actions deploys it to GitHub Pages. The primary countdown always targets the next active submission milestone—never notification or event dates.
 
-> The five included records are representative seed data using `example.org`. Replace or expand them with officially verified opportunities before a public launch.
+The repository is seeded with officially verified conferences, workshops, and journal special issues. Entries link back to their official source and record when the information was last checked.
 
 ## Features
 
 - conference, workshop, and journal special-issue records;
-- live, timezone-safe countdowns with abstract → full-paper handoff;
+- live countdowns with abstract → full-paper handoff;
+- exact timezone conversion when the source publishes an exact submission time;
+- honest date-only countdowns when a source gives a date but no time/timezone;
 - search, type/topic/scope/time filters, and deadline-first sorting;
 - static detail pages and complete deadline timelines;
 - browser-local favorites and favorites `.ics` export;
@@ -50,11 +52,19 @@ For a custom domain, set `SITE_URL` to the domain and `BASE_PATH=/`.
 
 Create one YAML file in the matching folder under `src/data/opportunities/`. Filename slugs become opportunity IDs and public URLs. Use only topic IDs defined in `src/data/topics.yml`, include at least one official source, and update `last_verified`.
 
-Every known deadline must include an explicit UTC offset:
+For an exact deadline, preserve the official timezone and store an explicit UTC offset:
 
 ```yaml
 datetime: "2027-08-22T23:59:00-12:00"
 timezone: "AoE"
+```
+
+If the source publishes only a date, do not invent a time or timezone:
+
+```yaml
+datetime: "2027-08-22"
+precision: date
+timezone: null
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { deadlineTimestamp, formatCountdown, hasActiveTbdDeadline, selectNextDeadline, urgencyFor } from '../src/lib/deadlines';
+import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, hasActiveTbdDeadline, selectNextDeadline, urgencyFor } from '../src/lib/deadlines';
 import { verificationStatus } from '../src/lib/verification';
 import type { Deadline } from '../src/lib/types';
 
@@ -35,11 +35,23 @@ describe('deadline selection', () => {
   it('detects TBD submission deadlines', () => {
     expect(hasActiveTbdDeadline([active({ datetime: 'TBD', timezone: null })])).toBe(true);
   });
+
+  it('selects date-only deadlines without inventing an exact timezone', () => {
+    const deadline = active({ datetime: '2027-08-10', precision: 'date', timezone: null });
+    expect(selectNextDeadline([deadline], now)?.id).toBe('paper');
+    expect(formatOriginalDeadline(deadline)).toContain('time not specified');
+  });
 });
 
 describe('time calculations', () => {
   it('parses AoE as UTC−12', () => {
     expect(new Date(deadlineTimestamp(active({}))!).toISOString()).toBe('2027-08-23T11:59:00.000Z');
+  });
+
+  it('uses end-of-day UTC only as the internal sort point for date-only deadlines', () => {
+    const deadline = active({ datetime: '2027-08-10', precision: 'date', timezone: null });
+    expect(new Date(deadlineTimestamp(deadline)!).toISOString()).toBe('2027-08-10T23:59:59.999Z');
+    expect(formatDateOnlyCountdown('2027-08-10', Date.parse('2027-08-01T12:00:00Z'))).toBe('9d');
   });
 
   it('classifies urgency', () => {

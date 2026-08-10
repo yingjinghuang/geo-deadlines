@@ -1,0 +1,38 @@
+title: "Geo Week 2027"
+short_name: "Geo Week 2027"
+type: conference
+series: "Geo Week"
+year: 2027
+description: "A geospatial technology conference covering lidar, imagery, photogrammetry, reality capture, and applied geospatial workflows, with an ASPRS Academic Hub."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - cartography
+  - giscience
+website: "https://www.asprs.org/Main/News---Resources/ASPRS-News/Call_for_Speakers_for_2027_Geo_Week.aspx"
+sources:
+  - label: "Official ASPRS 2027 Geo Week call"
+    url: "https://www.asprs.org/Main/News---Resources/ASPRS-News/Call_for_Speakers_for_2027_Geo_Week.aspx"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2027-02-23"
+  end: "2027-02-25"
+location:
+  mode: in_person
+  city: "Salt Lake City"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "ASPRS"
+deadlines:
+  - id: academic-hub-abstract
+    type: abstract
+    label: "Academic Hub Abstract"
+    datetime: "2026-11-06"
+    precision: date
+    timezone: null
+    status: active
+    note: "Additional Academic Hub call for oral presentations and posters opens October 5, 2026; exact deadline time is not stated."

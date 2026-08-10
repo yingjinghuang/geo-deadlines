@@ -24,16 +24,28 @@ function icsEscape(value: string): string {
 function icsDate(input: string | number): string {
   return new Date(input).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
 }
+function compactDate(date: string): string { return date.replace(/-/g, ''); }
+function nextDate(date: string): string {
+  const [year, month, day] = date.split('-').map(Number);
+  const next = new Date(Date.UTC(year, month - 1, day + 1));
+  return `${next.getUTCFullYear()}-${String(next.getUTCMonth() + 1).padStart(2, '0')}-${String(next.getUTCDate()).padStart(2, '0')}`;
+}
 
-interface CalendarPayload { id: string; title: string; start: string; timezone?: string; source: string; detail: string; primary?: boolean }
+interface CalendarPayload { id: string; title: string; start: string; precision?: 'datetime' | 'date'; timezone?: string; source: string; detail: string; primary?: boolean }
+function eventTimestamp(event: CalendarPayload): number {
+  return event.precision === 'date' ? Date.parse(`${event.start}T23:59:59.999Z`) : Date.parse(event.start);
+}
 function makeIcs(events: CalendarPayload[]): string {
   const blocks = events.map((event) => {
-    const start = Date.parse(event.start);
+    const timingLines = event.precision === 'date'
+      ? [`DTSTART;VALUE=DATE:${compactDate(event.start)}`, `DTEND;VALUE=DATE:${compactDate(nextDate(event.start))}`]
+      : (() => { const start = Date.parse(event.start); return [`DTSTART:${icsDate(start)}`, `DTEND:${icsDate(start + 15 * 60_000)}`]; })();
+    const timing = event.precision === 'date' ? 'Date only; exact time/timezone not specified' : `Original timezone: ${event.timezone ?? 'Not specified'}`;
     return [
       'BEGIN:VEVENT', `UID:${icsEscape(event.id)}@geodeadlines`, `DTSTAMP:${icsDate(Date.now())}`,
-      `DTSTART:${icsDate(start)}`, `DTEND:${icsDate(start + 15 * 60_000)}`,
+      ...timingLines,
       `SUMMARY:${icsEscape(event.title)}`,
-      `DESCRIPTION:${icsEscape(`Original timezone: ${event.timezone ?? 'Not specified'}\nOfficial source: ${event.source}\nGeoDeadlines: ${event.detail}`)}`,
+      `DESCRIPTION:${icsEscape(`${timing}\nOfficial source: ${event.source}\nGeoDeadlines: ${event.detail}`)}`,
       `URL:${icsEscape(event.source)}`, 'END:VEVENT',
     ].join('\r\n');
   });
@@ -66,7 +78,7 @@ document.addEventListener('click', (event) => {
   if (calendarButton) {
     const card = calendarButton.closest<HTMLElement>('[data-opportunity-card]');
     const events = JSON.parse(card?.dataset.calendarEvents ?? '[]') as CalendarPayload[];
-    const future = events.filter((item) => Date.parse(item.start) > Date.now()).sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
+    const future = events.filter((item) => eventTimestamp(item) > Date.now()).sort((a, b) => eventTimestamp(a) - eventTimestamp(b));
     const next = future.find((item) => item.primary) ?? future[0];
     downloadIcs(next ? [next] : [], `${card?.dataset.id ?? 'deadline'}.ics`);
   }
@@ -77,7 +89,7 @@ document.addEventListener('click', (event) => {
     const events = [...document.querySelectorAll<HTMLElement>('[data-opportunity-card]')]
       .filter((card) => favorites.has(card.dataset.id ?? ''))
       .flatMap((card) => JSON.parse(card.dataset.calendarEvents ?? '[]') as CalendarPayload[])
-      .filter((item) => Date.parse(item.start) > Date.now());
+      .filter((item) => eventTimestamp(item) > Date.now());
     downloadIcs(events, 'geodeadlines-favorites.ics');
   }
 });

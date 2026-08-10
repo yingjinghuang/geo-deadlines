@@ -1,0 +1,35 @@
+title: "LLM4GIS: Large Language Models for GIS"
+type: special_issue
+year: 2026
+description: "Special issue on large language models for GIS, including GeoAI, geospatial knowledge, multimodal fusion, spatial analysis, and geospatial code generation."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - knowledge-graphs
+  - machine-learning
+  - urban
+journal:
+  name: "ISPRS International Journal of Geo-Information"
+  short_name: "IJGI"
+  publisher: "MDPI"
+website: "https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ"
+sources:
+  - label: "Official special issue page"
+    url: "https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ"
+    kind: publisher
+last_verified: "2026-08-10"
+guest_editors:
+  - name: "Huayi Wu"
+    affiliation: "Wuhan University"
+  - name: "Zhipeng Gui"
+    affiliation: "Wuhan University"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-08-31"
+    precision: date
+    timezone: null
+    status: active
+    note: "Publisher states the submission date but not an exact time or timezone."

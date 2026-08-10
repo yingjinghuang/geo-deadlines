@@ -1,0 +1,30 @@
+title: "Spatiotemporal Big Data Modeling for Spatial Planning and Governance"
+type: special_issue
+year: 2027
+description: "Transactions in GIS special issue on spatiotemporal big data, GeoAI, graph models, digital twins, and intelligent spatial planning and governance."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - urban
+  - mobility
+journal:
+  name: "Transactions in GIS"
+  short_name: "TGIS"
+  publisher: "Wiley"
+website: "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-000723"
+sources:
+  - label: "Official Wiley call for papers"
+    url: "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-000723"
+    kind: publisher
+last_verified: "2026-08-10"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-06-30"
+    precision: date
+    timezone: null
+    status: active
+    note: "Publisher states the submission date but not an exact time or timezone."

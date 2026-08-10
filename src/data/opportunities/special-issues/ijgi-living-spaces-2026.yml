@@ -1,0 +1,34 @@
+title: "Spatial Information for Improved Living Spaces (2nd Edition)"
+type: special_issue
+year: 2026
+description: "Special issue on spatial information technologies for livable and sustainable environments, including GeoAI, geocomputation, digital twins, geovisualization, and smart environments."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - urban
+  - geovisualization
+  - sustainability
+journal:
+  name: "ISPRS International Journal of Geo-Information"
+  short_name: "IJGI"
+  publisher: "MDPI"
+website: "https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS"
+sources:
+  - label: "Official special issue page"
+    url: "https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS"
+    kind: publisher
+last_verified: "2026-08-10"
+guest_editors:
+  - name: "Ivana Ivánová"
+  - name: "Yongze Song"
+  - name: "Sisi Zlatanova"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-11-30"
+    precision: date
+    timezone: null
+    status: active
+    note: "Publisher states the submission date but not an exact time or timezone."

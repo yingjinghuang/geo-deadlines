@@ -1,0 +1,29 @@
+title: "Advances in GIScience Education"
+type: special_issue
+year: 2027
+description: "Transactions in GIS special issue on teaching, learning, and assessing GIScience as spatial thinking and technical practice evolve alongside emerging geospatial technologies."
+scope: core
+topics:
+  - giscience
+  - geography
+  - geoai
+  - spatial-data-science
+journal:
+  name: "Transactions in GIS"
+  short_name: "TGIS"
+  publisher: "Wiley"
+website: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2026-000643"
+sources:
+  - label: "Official Wiley call for papers"
+    url: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2026-000643"
+    kind: publisher
+last_verified: "2026-08-10"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-06-30"
+    precision: date
+    timezone: null
+    status: active
+    note: "Publisher states the submission date but not an exact time or timezone."

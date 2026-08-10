@@ -1,5 +1,5 @@
 ---
-import { formatCountdown, formatOriginalDeadline, futureSubmissionDeadlines, hasActiveTbdDeadline } from '../lib/deadlines';
+import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, futureSubmissionDeadlines, hasActiveTbdDeadline, isDateOnly } from '../lib/deadlines';
 import type { Deadline } from '../lib/types';
 interface Props { deadlines: Deadline[] }
 const { deadlines } = Astro.props;
@@ -10,18 +10,22 @@ const serialized = future.map((deadline) => ({
   id: deadline.id,
   label: deadline.label,
   datetime: deadline.datetime,
+  precision: deadline.precision ?? 'datetime',
   timezone: deadline.timezone,
-  timestamp: Date.parse(deadline.datetime),
+  timestamp: deadlineTimestamp(deadline),
   primary: Boolean(deadline.primary),
   original: formatOriginalDeadline(deadline),
 }));
+const initialValue = next
+  ? isDateOnly(next) ? formatDateOnlyCountdown(next.datetime) : formatCountdown(deadlineTimestamp(next)!)
+  : hasTbd ? 'TBD' : 'Closed';
 ---
 <div class="countdown" data-countdown data-deadlines={JSON.stringify(serialized)} data-has-tbd={String(hasTbd)}>
   <p class="countdown-label" data-countdown-label>{next?.label ?? 'Submission'}</p>
-  <p class="countdown-value" data-countdown-value>{next ? formatCountdown(Date.parse(next.datetime)) : hasTbd ? 'TBD' : 'Closed'}</p>
-  <p class="countdown-status" data-countdown-status>{next ? 'until submission' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
+  <p class="countdown-value" data-countdown-value>{initialValue}</p>
+  <p class="countdown-status" data-countdown-status>{next ? isDateOnly(next) ? 'until submission date' : 'until submission' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
   <time data-original-time datetime={next?.datetime}>{next ? formatOriginalDeadline(next) : hasTbd ? 'Watch for the official call' : 'Deadline passed'}</time>
-  <p class="local-time"><span class="local-prefix">Your time:</span> <span data-local-time>Detecting…</span></p>
+  <p class="local-time"><span class="local-prefix">{next && isDateOnly(next) ? 'Timing:' : 'Your time:'}</span> <span data-local-time>{next && isDateOnly(next) ? 'Time/timezone not specified' : 'Detecting…'}</span></p>
   <span class="visually-hidden" aria-live="polite" data-countdown-live></span>
 </div>
 <style>

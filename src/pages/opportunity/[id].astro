@@ -33,7 +33,7 @@ const reportTitle = encodeURIComponent(`[Update] ${data.title}`);
 const reportBody = encodeURIComponent(`Opportunity ID: ${item.id}\nCurrent displayed deadline: ${next ? formatOriginalDeadline(next) : 'Closed / TBD'}\nSource: ${data.website}\n\nWhat changed:\n`);
 const detailPath = `opportunity/${item.id}/`;
 const absoluteDetail = new URL(detailPath, new URL(import.meta.env.BASE_URL, Astro.site)).toString();
-const calendarEvents = next ? [{ id: `${item.id}-${next.id}`, title: `${data.short_name ?? data.title} — ${next.label} Deadline`, start: next.datetime, timezone: next.timezone, source: next.url ?? data.website, detail: absoluteDetail }] : [];
+const calendarEvents = next ? [{ id: `${item.id}-${next.id}`, title: `${data.short_name ?? data.title} — ${next.label} Deadline`, start: next.datetime, precision: next.precision ?? 'datetime', timezone: next.timezone, source: next.url ?? data.website, detail: absoluteDetail }] : [];
 const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-time conversion, and official links for ${data.title}.`;
 ---
 <BaseLayout title={`${data.title} Deadline — GeoDeadlines`} description={description} canonicalPath={detailPath}>

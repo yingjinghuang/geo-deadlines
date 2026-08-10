@@ -1,0 +1,39 @@
+title: "2027 AAG Annual Meeting"
+short_name: "AAG 2027"
+type: conference
+series: "AAG Annual Meeting"
+year: 2027
+description: "The American Association of Geographers Annual Meeting, spanning the breadth of geography with in-person and online participation."
+scope: core
+topics:
+  - geography
+  - giscience
+  - spatial-data-science
+  - urban
+  - sustainability
+website: "https://www.aag.org/events/aag2027/"
+sources:
+  - label: "Official AAG 2027 meeting page"
+    url: "https://www.aag.org/events/aag2027/"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2027-02-08"
+  end: "2027-02-12"
+location:
+  mode: hybrid
+  city: "New York"
+  country: "United States"
+  country_code: "US"
+  venue: "Hilton Midtown"
+organizations:
+  - "American Association of Geographers"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract Submission"
+    datetime: "2026-10-15"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official annual-meeting page gives the date but does not state an exact submission time."

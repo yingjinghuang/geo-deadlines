@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 import { parse } from 'yaml';
-import { SUBMISSION_DEADLINE_TYPES } from '../src/lib/deadlines';
+import { deadlineTimestamp, SUBMISSION_DEADLINE_TYPES } from '../src/lib/deadlines';
 import type { OpportunityData, Topic } from '../src/lib/types';
 
 const root = new URL('../src/data/', import.meta.url);
@@ -61,11 +61,16 @@ for (const file of files) {
     if (!['active', 'superseded', 'cancelled'].includes(deadline.status)) fail(id, `invalid status on '${deadline.id}'`);
     if (deadline.status === 'active') activeCount += 1;
     if (deadline.datetime.toUpperCase() !== 'TBD' && deadline.status === 'active') {
-      if (!/(?:Z|[+-]\d{2}:\d{2})$/.test(deadline.datetime)) fail(id, `'${deadline.id}' needs an explicit UTC offset`);
-      const timestamp = Date.parse(deadline.datetime);
-      if (!Number.isFinite(timestamp)) fail(id, `'${deadline.id}' has an invalid datetime`);
-      if (!deadline.timezone) fail(id, `'${deadline.id}' needs a source timezone`);
-      if (deadline.primary && timestamp > now && SUBMISSION_DEADLINE_TYPES.has(deadline.type)) futurePrimaryCount += 1;
+      if (deadline.precision === 'date') {
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(deadline.datetime)) fail(id, `'${deadline.id}' date-only deadline must be YYYY-MM-DD`);
+        if (deadline.timezone) warn(id, `'${deadline.id}' is date-only; timezone is ignored`);
+      } else {
+        if (!/(?:Z|[+-]\d{2}:\d{2})$/.test(deadline.datetime)) fail(id, `'${deadline.id}' needs an explicit UTC offset`);
+        if (!deadline.timezone) fail(id, `'${deadline.id}' needs a source timezone`);
+      }
+      const timestamp = deadlineTimestamp(deadline);
+      if (timestamp === null) fail(id, `'${deadline.id}' has an invalid datetime`);
+      if (deadline.primary && timestamp !== null && timestamp > now && SUBMISSION_DEADLINE_TYPES.has(deadline.type)) futurePrimaryCount += 1;
     } else if (deadline.datetime.toUpperCase() === 'TBD' && deadline.timezone) {
       warn(id, `'${deadline.id}' is TBD but has a timezone`);
     }
@@ -88,7 +93,7 @@ for (const file of files) {
   const verified = Date.parse(`${data.last_verified}T00:00:00Z`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(data.last_verified) || !Number.isFinite(verified)) fail(id, 'last_verified must be YYYY-MM-DD');
   if (verified > now) fail(id, 'last_verified cannot be in the future');
-  const futureSubmission = data.deadlines.some((deadline) => deadline.status === 'active' && SUBMISSION_DEADLINE_TYPES.has(deadline.type) && Date.parse(deadline.datetime) > now);
+  const futureSubmission = data.deadlines.some((deadline) => deadline.status === 'active' && SUBMISSION_DEADLINE_TYPES.has(deadline.type) && (deadlineTimestamp(deadline) ?? 0) > now);
   if (futureSubmission && (now - verified) / 86_400_000 > 180) warn(id, 'future deadline was last verified more than 180 days ago');
 }
 
