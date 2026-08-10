@@ -25,9 +25,7 @@ const ordered = [...deadlines].sort((a, b) => {
         </div>
         {timestamp === null ? <p>To be announced</p> : <>
           <time datetime={deadline.datetime}>{formatOriginalDeadline(deadline)}</time>
-          {dateOnly
-            ? <p class="timeline-local">Exact time and timezone not specified by the source.</p>
-            : <p class="timeline-local">Your time: <span data-timeline-local data-timestamp={timestamp}>Detecting…</span></p>}
+          {!dateOnly && <p class="timeline-local">Your time: <span data-timeline-local data-timestamp={timestamp}>Detecting…</span></p>}
         </>}
         {deadline.note && <p class="timeline-note">{deadline.note}</p>}
       </div>
