@@ -6,9 +6,14 @@ export const SUBMISSION_DEADLINE_TYPES = new Set([
   'special_issue_manuscript', 'revision',
 ]);
 
+export function isDateOnly(deadline: Deadline): boolean {
+  return deadline.precision === 'date';
+}
+
 export function deadlineTimestamp(deadline: Deadline): number | null {
   if (deadline.datetime.toUpperCase() === 'TBD') return null;
-  const timestamp = Date.parse(deadline.datetime);
+  const input = isDateOnly(deadline) ? `${deadline.datetime}T23:59:59.999Z` : deadline.datetime;
+  const timestamp = Date.parse(input);
   return Number.isFinite(timestamp) ? timestamp : null;
 }
 
@@ -60,8 +65,28 @@ export function formatCountdown(timestamp: number, now = Date.now()): string {
   return `${minutes}m ${two(seconds)}s`;
 }
 
+export function formatDateOnlyCountdown(date: string, now = Date.now()): string {
+  const match = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return 'Date announced';
+  const [, year, month, day] = match;
+  const current = new Date(now);
+  const todayUtc = Date.UTC(current.getUTCFullYear(), current.getUTCMonth(), current.getUTCDate());
+  const targetUtc = Date.UTC(Number(year), Number(month) - 1, Number(day));
+  const days = Math.round((targetUtc - todayUtc) / 86_400_000);
+  if (days < 0) return 'Closed';
+  if (days === 0) return 'Today';
+  return `${days}d`;
+}
+
 export function formatOriginalDeadline(deadline: Deadline, locale = 'en-US'): string {
   if (deadline.datetime.toUpperCase() === 'TBD') return 'To be announced';
+  if (isDateOnly(deadline)) {
+    const [year, month, day] = deadline.datetime.split('-').map(Number);
+    if (!year || !month || !day) return deadline.datetime;
+    const label = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })
+      .format(new Date(Date.UTC(year, month - 1, day)));
+    return `${label} · time not specified`;
+  }
   const match = deadline.datetime.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
   if (!match) return deadline.datetime;
   const [, year, month, day, hour, minute] = match;
