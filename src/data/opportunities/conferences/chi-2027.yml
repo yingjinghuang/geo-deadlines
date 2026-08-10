@@ -1,0 +1,56 @@
+title: "CHI 2027"
+short_name: "CHI 2027"
+type: conference
+series: "ACM CHI Conference on Human Factors in Computing Systems"
+year: 2027
+description: "ACM's flagship conference on human-computer interaction, relevant to geographic HCI, spatial interaction, mobility, and human-centered GeoAI."
+scope: adjacent
+topics:
+  - geographic-hci
+  - spatial-cognition
+  - ubiquitous-computing
+  - urban
+website: "https://chi2027.acm.org/"
+sources:
+  - label: "Official CHI 2027 papers call"
+    url: "https://chi2027.acm.org/authors/papers/"
+    kind: official
+last_verified: "2026-08-11"
+location:
+  mode: in_person
+  city: "Pittsburgh"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "ACM SIGCHI"
+tracks:
+  - "Papers"
+  - "Posters"
+  - "Interactive Demos"
+  - "Workshops"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-09-10T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: revision
+    type: revision
+    label: "Revise & Resubmit"
+    datetime: "2026-12-03T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    note: "Applies to papers invited to the revise-and-resubmit phase."
+  - id: notification
+    type: notification
+    label: "Notification"
+    datetime: "2026-12-17T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: poster
+    type: poster
+    label: "Poster Submission"
+    datetime: "2027-01-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

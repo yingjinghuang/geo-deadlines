@@ -1,0 +1,24 @@
+title: "Spatial Governance of Urban Agglomeration"
+type: special_issue
+year: 2025
+description: "A Cities special issue on spatial governance, urban agglomerations, regional coordination, infrastructure, and sustainable metropolitan development."
+scope: core
+topics: [urban, geography, sustainability, spatial-data-science]
+journal:
+  name: "Cities"
+  short_name: "Cities"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+sources:
+  - label: "Official Cities call for papers page"
+    url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+    kind: publisher
+last_verified: "2026-08-11"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2025-12-31"
+    precision: date
+    timezone: null
+    status: active

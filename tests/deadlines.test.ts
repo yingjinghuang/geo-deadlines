@@ -39,7 +39,7 @@ describe('deadline selection', () => {
   it('selects date-only deadlines without inventing an exact timezone', () => {
     const deadline = active({ datetime: '2027-08-10', precision: 'date', timezone: null });
     expect(selectNextDeadline([deadline], now)?.id).toBe('paper');
-    expect(formatOriginalDeadline(deadline)).toContain('time not specified');
+    expect(formatOriginalDeadline(deadline)).toBe('Aug 10, 2027');
   });
 });
 

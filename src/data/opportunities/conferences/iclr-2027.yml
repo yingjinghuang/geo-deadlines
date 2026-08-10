@@ -1,0 +1,37 @@
+title: "ICLR 2027"
+short_name: "ICLR 2027"
+type: conference
+series: "International Conference on Learning Representations"
+year: 2027
+description: "A leading machine-learning conference on representation learning and deep learning, frequently relevant to GeoAI, geospatial foundation models, and multimodal learning."
+scope: adjacent
+topics:
+  - machine-learning
+  - geoai
+  - computer-vision
+website: "https://iclr.cc/Conferences/2027"
+submission_url: "https://openreview.net/group?id=ICLR.cc/2027/Conference"
+sources:
+  - label: "Official ICLR 2027 author guidelines"
+    url: "https://iclr.cc/Conferences/2027/AuthorGuidelines"
+    kind: official
+last_verified: "2026-08-11"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2026-09-11T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-09-16T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: notification
+    type: notification
+    label: "Decision"
+    datetime: "2026-12-09T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

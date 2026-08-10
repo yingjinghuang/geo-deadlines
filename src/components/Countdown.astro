@@ -19,13 +19,14 @@ const serialized = future.map((deadline) => ({
 const initialValue = next
   ? isDateOnly(next) ? formatDateOnlyCountdown(next.datetime) : formatCountdown(deadlineTimestamp(next)!)
   : hasTbd ? 'TBD' : 'Closed';
+const showLocalTime = Boolean(next && !isDateOnly(next));
 ---
 <div class="countdown" data-countdown data-deadlines={JSON.stringify(serialized)} data-has-tbd={String(hasTbd)}>
   <p class="countdown-label" data-countdown-label>{next?.label ?? 'Submission'}</p>
   <p class="countdown-value" data-countdown-value>{initialValue}</p>
   <p class="countdown-status" data-countdown-status>{next ? isDateOnly(next) ? 'until submission date' : 'until submission' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
   <time data-original-time datetime={next?.datetime}>{next ? formatOriginalDeadline(next) : hasTbd ? 'Watch for the official call' : 'Deadline passed'}</time>
-  <p class="local-time"><span class="local-prefix">{next && isDateOnly(next) ? 'Timing:' : 'Your time:'}</span> <span data-local-time>{next && isDateOnly(next) ? 'Time/timezone not specified' : 'Detecting…'}</span></p>
+  <p class="local-time" data-local-row hidden={!showLocalTime}><span class="local-prefix">Your time:</span> <span data-local-time>Detecting…</span></p>
   <span class="visually-hidden" aria-live="polite" data-countdown-live></span>
 </div>
 <style>
@@ -36,6 +37,7 @@ const initialValue = next
   .countdown-status { margin: 4px 0 13px !important; color: var(--muted); font-size: .72rem; }
   time { display: block; color: var(--text-2); font-size: .8rem; font-weight: 650; }
   .local-time { margin-top: 3px !important; color: var(--muted); font-size: .73rem; }
+  .local-time[hidden] { display: none; }
   .local-prefix { color: var(--text-2); }
   :global(.urgency-critical) .countdown-value { color: var(--critical); }
   :global(.urgency-urgent) .countdown-value { color: var(--urgent); }

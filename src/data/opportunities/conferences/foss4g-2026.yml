@@ -1,0 +1,48 @@
+title: "FOSS4G Hiroshima 2026"
+short_name: "FOSS4G 2026"
+type: conference
+series: "FOSS4G"
+year: 2026
+description: "The global OSGeo conference on free and open-source geospatial software and data, including an academic track for original geospatial research."
+scope: core
+topics:
+  - giscience
+  - geovisualization
+  - spatial-databases
+  - remote-sensing
+  - osm
+website: "https://2026.foss4g.org/en/"
+sources:
+  - label: "Official academic-track call"
+    url: "https://2026.foss4g.org/en/call-for-papers/academic-track/"
+    kind: official
+last_verified: "2026-08-11"
+event:
+  start: "2026-08-30"
+  end: "2026-09-05"
+location:
+  mode: in_person
+  city: "Hiroshima"
+  country: "Japan"
+  country_code: "JP"
+organizations:
+  - "OSGeo Foundation"
+tracks:
+  - "Academic Track"
+  - "General Sessions"
+  - "Workshops"
+deadlines:
+  - id: academic-abstract
+    type: abstract
+    label: "Academic Abstract"
+    datetime: "2026-03-16"
+    precision: date
+    timezone: null
+    status: active
+  - id: academic-full-paper
+    type: full_paper
+    label: "Academic Full Paper"
+    datetime: "2026-06-15"
+    precision: date
+    timezone: null
+    status: active

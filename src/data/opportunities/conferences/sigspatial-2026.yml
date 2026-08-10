@@ -1,0 +1,86 @@
+title: "ACM SIGSPATIAL 2026"
+short_name: "SIGSPATIAL 2026"
+type: conference
+series: "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
+year: 2026
+description: "ACM SIGSPATIAL's premier annual conference on spatial information, GIS, spatial computing, geospatial data systems, and spatial AI."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-computing
+  - spatial-databases
+  - spatial-data-science
+website: "https://sigspatial2026.sigspatial.org/"
+submission_url: "https://easychair.org/conferences/?conf=acmsigspatial2026"
+sources:
+  - label: "Official research-track call"
+    url: "https://sigspatial2026.sigspatial.org/research-submission.html"
+    kind: official
+  - label: "Official short and poster call"
+    url: "https://sigspatial2026.sigspatial.org/short-submission.html"
+    kind: official
+  - label: "Official conference timeline"
+    url: "https://sigspatial2026.sigspatial.org/"
+    kind: official
+last_verified: "2026-08-11"
+event:
+  start: "2026-11-03"
+  end: "2026-11-06"
+location:
+  mode: in_person
+  city: "Riverside"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "ACM SIGSPATIAL"
+tracks:
+  - "Research"
+  - "Vision"
+  - "Applications"
+  - "Industrial"
+  - "Short and Poster"
+  - "Demonstration"
+deadlines:
+  - id: research-abstract
+    type: abstract
+    label: "Research Abstract"
+    datetime: "2026-05-29T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: research-paper
+    type: full_paper
+    label: "Research Paper"
+    datetime: "2026-06-05T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: vision-paper
+    type: paper
+    label: "Vision Paper"
+    datetime: "2026-06-12T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: applications-paper
+    type: paper
+    label: "Applications Paper"
+    datetime: "2026-06-19T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: industrial-paper
+    type: paper
+    label: "Industrial Paper"
+    datetime: "2026-06-19T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: short-poster-paper
+    type: short_paper
+    label: "Short / Poster Paper"
+    datetime: "2026-06-19T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+  - id: demo-paper
+    type: demo
+    label: "Demo Paper"
+    datetime: "2026-07-06T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active

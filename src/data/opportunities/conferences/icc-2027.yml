@@ -1,0 +1,35 @@
+title: "33rd International Cartographic Conference"
+short_name: "ICC 2027"
+type: conference
+series: "International Cartographic Conference"
+year: 2027
+description: "The International Cartographic Association's global conference on cartography, geoinformation, visualization, and related GIScience research."
+scope: core
+topics:
+  - cartography
+  - geovisualization
+  - giscience
+  - spatial-data-science
+website: "https://icc2027.org/"
+sources:
+  - label: "Official ICC 2027 website"
+    url: "https://icc2027.org/"
+    kind: official
+last_verified: "2026-08-11"
+event:
+  start: "2027-07-18"
+  end: "2027-07-23"
+location:
+  mode: in_person
+  city: "Warsaw"
+  country: "Poland"
+  country_code: "PL"
+organizations:
+  - "International Cartographic Association"
+deadlines:
+  - id: submission
+    type: paper
+    label: "Submission"
+    datetime: TBD
+    timezone: null
+    status: active
