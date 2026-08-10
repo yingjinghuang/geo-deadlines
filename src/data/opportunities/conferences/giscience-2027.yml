@@ -1,0 +1,42 @@
+title: "Fourteenth International Conference on Geographic Information Science"
+short_name: "GIScience 2027"
+type: conference
+series: "International Conference on Geographic Information Science"
+year: 2027
+description: "The flagship international conference in geographic information science, with peer-reviewed proceedings papers, extended abstracts, demos, workshops, and tutorials."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-computing
+  - spatial-data-science
+  - geovisualization
+website: "https://geods.github.io/GIScience2027/"
+sources:
+  - label: "Official GIScience 2027 website"
+    url: "https://geods.github.io/GIScience2027/"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2027-10-18"
+  end: "2027-10-22"
+location:
+  mode: in_person
+  city: "Shanghai"
+  country: "China"
+  country_code: "CN"
+  venue: "Tongji University"
+deadlines:
+  - id: proceedings-paper
+    type: full_paper
+    label: "Proceedings Paper"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The official site lists proceedings submissions as TBA."
+  - id: abstract-demo
+    type: abstract
+    label: "Abstract / Demo"
+    datetime: TBD
+    timezone: null
+    status: active
