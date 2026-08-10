@@ -22,6 +22,7 @@ const calendarPayload = future.map((deadline) => ({
   id: `${item.id}-${deadline.id}`,
   title: `${data.short_name ?? data.title} — ${deadline.label} Deadline`,
   start: deadline.datetime,
+  precision: deadline.precision ?? 'datetime',
   timezone: deadline.timezone,
   source: deadline.url ?? data.website,
   detail: absoluteDetailUrl,
