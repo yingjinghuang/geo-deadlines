@@ -14,6 +14,7 @@ const deadline = z.object({
   type: deadlineType,
   label: z.string().min(1),
   datetime: z.string().min(1),
+  precision: z.enum(['datetime', 'date']).optional(),
   timezone: z.string().nullable().optional(),
   status: z.enum(['active', 'superseded', 'cancelled']).default('active'),
   primary: z.boolean().optional(),
