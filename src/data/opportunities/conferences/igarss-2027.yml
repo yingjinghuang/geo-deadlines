@@ -1,0 +1,46 @@
+title: "IEEE International Geoscience and Remote Sensing Symposium 2027"
+short_name: "IGARSS 2027"
+type: conference
+series: "IEEE International Geoscience and Remote Sensing Symposium"
+year: 2027
+description: "IEEE GRSS's flagship symposium for remote sensing, Earth observation, geoscience, data processing, and related methods."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - climate
+  - sustainability
+website: "https://2027.ieeeigarss.org/"
+sources:
+  - label: "Official IGARSS 2027 important dates"
+    url: "https://2027.ieeeigarss.org/important_dates.php"
+    kind: official
+  - label: "Official IGARSS 2027 call for papers"
+    url: "https://2027.ieeeigarss.org/call_for_papers.php"
+    kind: official
+last_verified: "2026-08-10"
+event:
+  start: "2027-07-11"
+  end: "2027-07-16"
+location:
+  mode: in_person
+  city: "Reykjavík"
+  country: "Iceland"
+  country_code: "IS"
+  venue: "Harpa Concert Hall & Conference Centre"
+organizations:
+  - "IEEE Geoscience and Remote Sensing Society"
+tracks:
+  - "Full Papers"
+  - "Abstracts"
+  - "Recently Published Articles"
+deadlines:
+  - id: submission
+    type: paper
+    label: "Abstract / Manuscript"
+    datetime: "2027-01-11"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official important-dates page gives the date but does not state an exact submission time or timezone."
