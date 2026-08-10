@@ -1,0 +1,56 @@
+title: "CaGIS Conference 2026"
+short_name: "CaGIS 2026"
+type: conference
+series: "CaGIS Conference"
+year: 2026
+description: "The Cartography and Geographic Information Society conference, continuing the AutoCarto tradition in GIScience, cartography, geovisualization, and human-centered geospatial research."
+scope: core
+topics:
+  - giscience
+  - cartography
+  - geovisualization
+  - geographic-hci
+website: "https://cartogis.org/conferences/cagis2026/"
+sources:
+  - label: "Official call for participation"
+    url: "https://cartogis.org/conferences/cagis2026/call-for-participation/"
+    kind: official
+last_verified: "2026-08-11"
+event:
+  start: "2026-09-08"
+  end: "2026-09-11"
+location:
+  mode: in_person
+  city: "St. Louis"
+  country: "United States"
+  country_code: "US"
+  venue: "Busch Student Center, Saint Louis University"
+organizations:
+  - "Cartography and Geographic Information Society"
+tracks:
+  - "Research Paper"
+  - "Student Paper Competition"
+  - "Vision Paper"
+  - "Poster / Lightning Talk"
+deadlines:
+  - id: research-abstract
+    type: abstract
+    label: "Research Paper Abstract"
+    datetime: "2026-04-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: vision-paper
+    type: paper
+    label: "Vision Paper"
+    datetime: "2026-04-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: poster-lightning
+    type: poster
+    label: "Poster / Lightning Talk"
+    datetime: "2026-05-01"
+    precision: date
+    timezone: null
+    status: active
