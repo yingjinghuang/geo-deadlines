@@ -83,9 +83,8 @@ export function formatOriginalDeadline(deadline: Deadline, locale = 'en-US'): st
   if (isDateOnly(deadline)) {
     const [year, month, day] = deadline.datetime.split('-').map(Number);
     if (!year || !month || !day) return deadline.datetime;
-    const label = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })
+    return new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })
       .format(new Date(Date.UTC(year, month - 1, day)));
-    return `${label} · time not specified`;
   }
   const match = deadline.datetime.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
   if (!match) return deadline.datetime;
