@@ -1,0 +1,29 @@
+title: "Recent advances in Intelligent approaches for sustainability and environmental innovation"
+type: special_issue
+year: 2026
+description: "Urban Forestry & Urban Greening special issue on intelligent and data-driven approaches for sustainability, urban greening, and environmental innovation."
+scope: core
+topics: [urban, sustainability, geoai, remote-sensing, machine-learning]
+journal:
+  name: "Urban Forestry & Urban Greening"
+  short_name: "UFUG"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening/about/call-for-papers"
+sources:
+  - label: "Official ScienceDirect calls for papers"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers"
+    kind: publisher
+last_verified: "2026-08-11"
+guest_editors:
+  - name: "Bert Belmans"
+  - name: "Elaise Gabriel"
+  - name: "Oleksandra Strashok"
+  - name: "Silvia Solé"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
