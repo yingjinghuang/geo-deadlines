@@ -31,7 +31,15 @@ export interface OpportunityData {
   last_verified: string;
   deadlines: Deadline[];
   event?: { start: string; end: string };
-  location?: { mode: 'in_person' | 'virtual' | 'hybrid'; city?: string; country?: string; country_code?: string; venue?: string };
+  location?: {
+    mode: 'in_person' | 'virtual' | 'hybrid';
+    city?: string;
+    country?: string;
+    country_code?: string;
+    venue?: string;
+    latitude?: number;
+    longitude?: number;
+  };
   journal?: { name: string; short_name?: string; publisher?: string };
   guest_editors?: Array<{ name: string; affiliation?: string }>;
   organizations?: string[];
