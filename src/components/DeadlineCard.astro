@@ -62,10 +62,10 @@ const venueLine = data.type === 'special_issue' ? data.journal?.name : data.pare
     </div>
     <div class="card-footer">
       <div class="actions">
-        <a href={data.website} rel="noreferrer">Website ↗</a>
-        {data.submission_url && <a href={data.submission_url} rel="noreferrer">Submission ↗</a>}
+        <a href={data.website} target="_blank" rel="noopener noreferrer">Website ↗</a>
+        {data.submission_url && <a href={data.submission_url} target="_blank" rel="noopener noreferrer">Submission ↗</a>}
         {next && <button type="button" data-calendar-download>Calendar ↓</button>}
-        {next && <a href={googleCalendarUrl(data, next, absoluteDetailUrl)} rel="noreferrer">Google Calendar ↗</a>}
+        {next && <a href={googleCalendarUrl(data, next, absoluteDetailUrl)} target="_blank" rel="noopener noreferrer">Google Calendar ↗</a>}
         <a href={detailUrl}>Details →</a>
       </div>
       <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
