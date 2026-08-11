@@ -11,7 +11,7 @@
 
 GeoDeadlines is a community-maintained tracker for **conference, workshop, and journal special-issue submission deadlines** across the geospatial research community.
 
-The site is submission-first: the nearest active submission deadline is shown prominently with a live countdown, while official sources, conference dates, journal information, and the complete deadline timeline remain one click away.
+The site is submission-first: the nearest active submission deadline is shown prominently with a live countdown, while official sources, conference dates, journal information, an interactive conference map, and the complete deadline timeline remain one click away.
 
 ### What it tracks
 
@@ -27,6 +27,9 @@ The main countdown always targets the next submission milestone. Abstract → fu
 
 **🌍 Timezone-aware**  
 When an official call publishes an exact time and timezone, GeoDeadlines converts it to your browser's local time. If the source publishes only a date, the site shows a day-level countdown without inventing a submission time.
+
+**🗺️ Interactive conference map**  
+Explore upcoming in-person and hybrid conferences and workshops geographically, with filters for event type, scope, year, and topic. Co-located events are grouped into one marker and link back to their deadline details.
 
 **🔎 Official-source verification**  
 Every entry links back to an official organizer or publisher source and records when the information was last checked.
@@ -107,6 +110,8 @@ datetime: "2027-08-22"
 precision: date
 timezone: null
 ```
+
+For map-ready physical events, reliable venue coordinates can be stored directly in `location.latitude` and `location.longitude`; otherwise the map can fall back to a known city centre.
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full data-entry workflow.
 
