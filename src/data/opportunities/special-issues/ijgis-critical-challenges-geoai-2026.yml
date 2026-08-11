@@ -1,0 +1,37 @@
+title: "Critical Challenges in GeoAI"
+type: special_issue
+year: 2026
+description: "IJGIS special issue on foundational, methodological, societal, and environmental challenges shaping the next generation of geospatial artificial intelligence."
+scope: core
+topics: [giscience, geoai, spatial-data-science, machine-learning]
+journal:
+  name: "International Journal of Geographical Information Science"
+  short_name: "IJGIS"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
+sources:
+  - label: "Official Taylor & Francis call for papers"
+    url: "https://think.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
+    kind: publisher
+last_verified: "2026-08-11"
+guest_editors:
+  - name: "Wenwen Li"
+  - name: "Michael F. Goodchild"
+  - name: "Shashi Shekhar"
+  - name: "Patricia Solis"
+  - name: "Dylan Connor"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2026-08-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
