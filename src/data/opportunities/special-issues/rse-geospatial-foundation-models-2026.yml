@@ -1,0 +1,31 @@
+title: "Geospatial Foundation Models for Advancing Remote Sensing of Environment"
+type: special_issue
+year: 2026
+description: "Special issue on geospatial foundation models for environmental remote sensing, including generalization, transferability, multimodal Earth observation, and AI-enabled environmental monitoring."
+scope: core
+topics: [remote-sensing, earth-observation, geoai, machine-learning]
+journal:
+  name: "Remote Sensing of Environment"
+  short_name: "RSE"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/special-issue/330054/geospatial-foundation-models-for-advancing-remote-sensing-of-environment"
+sources:
+  - label: "Official ScienceDirect call for papers"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers"
+    kind: publisher
+last_verified: "2026-08-11"
+guest_editors:
+  - name: "Le Wang"
+  - name: "Sujit Roy"
+  - name: "Pontus Olofsson"
+  - name: "Qiusheng Wu"
+  - name: "Chunyuan Diao"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active
+    note: "The current ScienceDirect calls index lists 31 December 2026; earlier announcements listed an earlier deadline."
