@@ -55,6 +55,8 @@ const opportunities = defineCollection({
       country: z.string().optional(),
       country_code: z.string().optional(),
       venue: z.string().optional(),
+      latitude: z.number().min(-90).max(90).optional(),
+      longitude: z.number().min(-180).max(180).optional(),
     }).optional(),
     journal: z.object({
       name: z.string(), short_name: z.string().optional(), publisher: z.string().optional(),

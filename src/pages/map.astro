@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import {
+  deadlineTimestamp,
+  formatCountdown,
+  formatDateOnlyCountdown,
+  formatOriginalDeadline,
+  futureSubmissionDeadlines,
+  hasActiveTbdDeadline,
+  isDateOnly,
+} from '../lib/deadlines';
+import { resolveMapCoordinates } from '../lib/map-locations';
+import { opportunityUrl } from '../lib/urls';
+
+const now = Date.now();
+const currentYear = new Date(now).getUTCFullYear();
+const all = await getDerivedOpportunities(now);
+const physicalEvents = all.filter((item) => {
+  const data = item.raw;
+  if (!['conference', 'workshop'].includes(data.type)) return false;
+  if (!data.location || data.location.mode === 'virtual') return false;
+  if (data.event?.end) return Date.parse(`${data.event.end}T23:59:59Z`) >= now;
+  return data.year >= currentYear;
+});
+
+const points = physicalEvents.flatMap((item) => {
+  const data = item.raw;
+  const coordinates = resolveMapCoordinates(data.location);
+  if (!coordinates || !data.location) return [];
+  const future = futureSubmissionDeadlines(data.deadlines, now);
+  const next = future.find((deadline) => deadline.primary) ?? future[0];
+  const hasTbd = hasActiveTbdDeadline(data.deadlines);
+  const deadlineStatus = next ? 'open' : hasTbd ? 'tbd' : 'closed';
+  let deadlineValue = '';
+  if (next) {
+    const remaining = isDateOnly(next)
+      ? formatDateOnlyCountdown(next.datetime, now)
+      : formatCountdown(deadlineTimestamp(next)!, now);
+    deadlineValue = `${remaining} · ${formatOriginalDeadline(next)}`;
+  }
+  return [{
+    id: item.id,
+    title: data.title,
+    shortName: data.short_name ?? data.title,
+    type: data.type as 'conference' | 'workshop',
+    scope: data.scope,
+    year: data.year,
+    topics: data.topics,
+    topicLabels: data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id),
+    latitude: coordinates.latitude,
+    longitude: coordinates.longitude,
+    city: data.location.city ?? data.location.country ?? 'Location',
+    country: data.location.country ?? '',
+    venue: data.location.venue,
+    eventStart: data.event?.start,
+    eventEnd: data.event?.end,
+    deadlineLabel: next?.label ?? 'Submission',
+    deadlineValue,
+    deadlineStatus,
+    detailsUrl: opportunityUrl(item.id),
+    website: data.website,
+  }];
+}).sort((a, b) => (a.eventStart ?? `${a.year}-12-31`).localeCompare(b.eventStart ?? `${b.year}-12-31`));
+
+const years = [...new Set(points.map((point) => point.year))].sort((a, b) => a - b);
+const usedTopics = new Set(points.flatMap((point) => point.topics));
+const mapTopics = topics.filter((topic) => usedTopics.has(topic.id));
+const unmappedCount = physicalEvents.length - points.length;
+---
+<BaseLayout
+  title="Conference map — GeoDeadlines"
+  description="Interactive map of upcoming GIScience, GeoAI, remote-sensing, geography, and spatial-computing conferences and workshops."
+  canonicalPath="map/"
+>
+  <Fragment slot="head">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </Fragment>
+
+  <main class="page-main">
+    <div class="container map-page">
+      <section class="intro">
+        <p class="eyebrow">Where the community meets</p>
+        <h1 class="page-heading">Conference map</h1>
+        <p class="page-lede">Explore upcoming in-person and hybrid conferences and workshops by location. Click a marker for event dates, submission status, and official links.</p>
+      </section>
+
+      <section class="map-controls surface" data-map-controls aria-label="Map filters">
+        <label class="map-search">
+          <span class="visually-hidden">Search conferences and locations</span>
+          <span aria-hidden="true">⌕</span>
+          <input data-map-search type="search" placeholder="Search conference or city…" autocomplete="off" />
+        </label>
+        <div class="control-row">
+          <div class="control-group" role="group" aria-label="Event type">
+            <span class="control-label">Type</span>
+            <div class="chips">
+              <button type="button" data-map-type="all" aria-pressed="true">All</button>
+              <button type="button" data-map-type="conference" aria-pressed="false">Conferences</button>
+              <button type="button" data-map-type="workshop" aria-pressed="false">Workshops</button>
+            </div>
+          </div>
+          <div class="control-group" role="group" aria-label="Scope">
+            <span class="control-label">Scope</span>
+            <div class="chips">
+              <button type="button" data-map-scope="all" aria-pressed="true">All</button>
+              <button type="button" data-map-scope="core" aria-pressed="false">Core</button>
+              <button type="button" data-map-scope="adjacent" aria-pressed="false">Adjacent</button>
+            </div>
+          </div>
+          <label class="control-group select-group">
+            <span class="control-label">Year</span>
+            <select data-map-year>
+              <option value="all">All years</option>
+              {years.map((year) => <option value={String(year)}>{year}</option>)}
+            </select>
+          </label>
+          <label class="control-group select-group">
+            <span class="control-label">Topic</span>
+            <select data-map-topic>
+              <option value="all">All topics</option>
+              {mapTopics.map((topic) => <option value={topic.id}>{topic.label}</option>)}
+            </select>
+          </label>
+          <p class="map-count"><strong data-map-count>{points.length}</strong> events shown</p>
+        </div>
+      </section>
+
+      <section class="map-shell surface">
+        <div
+          class="conference-map"
+          data-conference-map
+          data-map-points={JSON.stringify(points)}
+          aria-label="Interactive map of upcoming conferences and workshops"
+        ></div>
+        <div class="map-legend" aria-label="Map legend">
+          <span><i class="dot conference-dot"></i> Conference</span>
+          <span><i class="dot workshop-dot"></i> Workshop</span>
+          <span><i class="dot mixed-dot"></i> Multiple types</span>
+        </div>
+      </section>
+
+      <p class="map-note">
+        Locations use explicit venue coordinates when available and otherwise fall back to approximate city centres. {unmappedCount > 0 ? `${unmappedCount} physical event${unmappedCount === 1 ? '' : 's'} currently lack enough location data to map.` : 'All currently tracked physical events have a map location.'}
+      </p>
+    </div>
+  </main>
+
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    import '../scripts/conference-map';
+  </script>
+</BaseLayout>
+
+<style>
+  .map-page { max-width: 1240px; }
+  .intro { margin-bottom: 20px; }
+  .intro .eyebrow { margin: 0 0 7px; }
+  .intro .page-lede { max-width: 790px; margin-bottom: 0; }
+  .map-controls { margin-bottom: 14px; padding: 13px; }
+  .map-search { display: flex; align-items: center; gap: 10px; height: 44px; padding-inline: 13px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--page); }
+  .map-search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent); }
+  .map-search input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text); }
+  .map-search input::placeholder { color: var(--muted); }
+  .control-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; padding: 12px 3px 2px; }
+  .control-group { display: flex; align-items: center; gap: 8px; }
+  .control-label { color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+  .chips { display: flex; gap: 5px; }
+  .chips button { padding: 5px 9px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: var(--text-2); cursor: pointer; font-size: .76rem; font-weight: 650; }
+  .chips button:hover { background: var(--surface-2); }
+  .chips button[aria-pressed="true"] { border-color: color-mix(in srgb, var(--accent) 25%, var(--border)); background: var(--accent-soft); color: var(--accent); }
+  select { padding: 5px 28px 5px 9px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
+  .map-count { margin: 0 0 0 auto; color: var(--muted); font-size: .78rem; }
+  .map-count strong { color: var(--text); }
+  .map-shell { position: relative; overflow: hidden; padding: 0; }
+  .conference-map { width: 100%; height: min(70vh, 720px); min-height: 540px; background: var(--surface-2); }
+  .map-legend { position: absolute; z-index: 500; right: 12px; bottom: 24px; display: flex; flex-wrap: wrap; gap: 9px 13px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: color-mix(in srgb, var(--surface) 92%, transparent); box-shadow: var(--shadow); color: var(--text-2); font-size: .72rem; backdrop-filter: blur(8px); }
+  .map-legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; }
+  .conference-dot { background: #3b82f6; }
+  .workshop-dot { background: #8b5cf6; }
+  .mixed-dot { background: #475569; }
+  .map-note { margin: 10px 3px 0; color: var(--muted); font-size: .76rem; }
+
+  :global(.leaflet-container) { font-family: inherit; }
+  :global(.leaflet-popup-content-wrapper), :global(.leaflet-popup-tip) { background: var(--surface); color: var(--text); }
+  :global(.leaflet-popup-content) { margin: 13px 15px; }
+  :global(.map-popup-place) { margin-bottom: 8px; color: var(--muted); font-size: .72rem; font-weight: 700; }
+  :global(.map-popup-event + .map-popup-event) { margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--border); }
+  :global(.map-popup-eyebrow) { margin: 0 0 2px; color: var(--muted); font-size: .65rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+  :global(.map-popup-title) { display: block; font-size: .9rem; line-height: 1.25; }
+  :global(.map-popup-meta), :global(.map-popup-deadline) { margin: 4px 0 0; color: var(--text-2); font-size: .74rem; }
+  :global(.map-popup-deadline.status-open) { color: var(--accent); font-weight: 700; }
+  :global(.map-popup-actions) { display: flex; gap: 12px; margin-top: 7px; font-size: .73rem; font-weight: 750; }
+  :global(.map-popup-actions a) { color: var(--text-2); text-decoration: none; }
+  :global(.map-popup-actions a:hover) { color: var(--accent); }
+
+  @media (max-width: 760px) {
+    .control-row { align-items: flex-start; flex-direction: column; }
+    .control-group { align-items: flex-start; flex-direction: column; width: 100%; }
+    .chips { width: 100%; overflow-x: auto; }
+    .chips button { white-space: nowrap; }
+    .select-group select { width: 100%; }
+    .map-count { margin-left: 0; }
+    .conference-map { height: 62vh; min-height: 460px; }
+    .map-legend { right: 8px; bottom: 22px; left: 8px; justify-content: center; }
+  }
+</style>

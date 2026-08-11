@@ -23,9 +23,6 @@ function calendarDateInZone(timestamp: number, timeZone: string): string {
   return `${value('year')}-${value('month')}-${value('day')}`;
 }
 
-// A contributor can already be on the next calendar date while a UTC CI runner is
-// still on the previous day. UTC+14 is the earliest civil timezone to enter a new day,
-// so dates up to the current date there are not treated as future verification dates.
 const latestCurrentCalendarDate = calendarDateInZone(now, 'Pacific/Kiritimati');
 
 async function yamlFiles(directory: string): Promise<string[]> {
@@ -66,6 +63,14 @@ for (const file of files) {
   if (!Array.isArray(data.topics) || data.topics.length === 0) fail(id, 'at least one topic is required');
   if (new Set(data.topics).size !== data.topics.length) fail(id, 'topics contain duplicates');
   for (const topic of data.topics ?? []) if (!topicIds.has(topic)) fail(id, `unknown topic '${topic}'`);
+
+  if (data.location) {
+    const hasLatitude = typeof data.location.latitude === 'number';
+    const hasLongitude = typeof data.location.longitude === 'number';
+    if (hasLatitude !== hasLongitude) fail(id, 'location latitude and longitude must be provided together');
+    if (hasLatitude && (data.location.latitude! < -90 || data.location.latitude! > 90)) fail(id, 'location latitude must be between -90 and 90');
+    if (hasLongitude && (data.location.longitude! < -180 || data.location.longitude! > 180)) fail(id, 'location longitude must be between -180 and 180');
+  }
 
   if (!Array.isArray(data.deadlines) || data.deadlines.length === 0) { fail(id, 'at least one deadline is required'); continue; }
   const deadlineIds = new Set<string>();

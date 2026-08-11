@@ -10,8 +10,9 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 6. If the official source gives only a calendar date, do **not** invent a time or timezone. Store `datetime: "YYYY-MM-DD"`, `precision: date`, and `timezone: null`.
 7. Use `TBD` when the submission date itself has not been announced.
 8. Include an official source and update `last_verified`.
-9. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
-10. Open a pull request and explain the source of the change.
+9. For in-person or hybrid conferences/workshops, include city/country information. If reliable venue coordinates are known, add `latitude` and `longitude` together so the event can be mapped precisely; otherwise GeoDeadlines may use a city-centre fallback.
+10. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
+11. Open a pull request and explain the source of the change.
 
 Example exact deadline:
 
@@ -26,6 +27,19 @@ Example date-only deadline:
 datetime: "2027-08-22"
 precision: date
 timezone: null
+```
+
+Example map-ready location:
+
+```yaml
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+  venue: "Example Conference Center"
+  latitude: 48.2082
+  longitude: 16.3738
 ```
 
 If you do not want to edit YAML, use the **Add a deadline** issue form. Please do not submit scraped or inferred dates without an official source.
