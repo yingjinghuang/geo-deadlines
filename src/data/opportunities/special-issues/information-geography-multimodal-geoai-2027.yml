@@ -1,0 +1,27 @@
+title: "Advancing GeoAI with Multimodal Geodata for Sustainable Urban Environments"
+type: special_issue
+year: 2027
+description: "Information Geography special issue on multimodal geodata, GeoAI, and spatial intelligence for sustainable urban environments."
+scope: core
+topics: [geoai, urban, spatial-data-science, machine-learning, sustainability]
+journal:
+  name: "Information Geography"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/journal/information-geography/about/call-for-papers"
+sources:
+  - label: "Official ScienceDirect calls for papers"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers"
+    kind: publisher
+last_verified: "2026-08-11"
+guest_editors:
+  - name: "Hao Li"
+  - name: "Steffen Knoblauch"
+  - name: "Levente Juhász"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-04-01"
+    precision: date
+    timezone: null
+    status: active
