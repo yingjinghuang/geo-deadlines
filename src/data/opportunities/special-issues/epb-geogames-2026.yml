@@ -1,0 +1,27 @@
+title: "Can Geogames make the World a Better Place?"
+type: special_issue
+year: 2026
+description: "Environment and Planning B special issue on geogames for urban planning, geography, climate change, disasters, cultural heritage, participation, and spatial decision-making."
+scope: core
+topics: [giscience, geographic-hci, spatial-cognition, urban]
+journal:
+  name: "Environment and Planning B: Urban Analytics and City Science"
+  short_name: "EPB"
+  publisher: "SAGE"
+website: "https://journals.sagepub.com/page/epb/collections/special-issues"
+sources:
+  - label: "Official SAGE special issues index"
+    url: "https://journals.sagepub.com/page/epb/collections/special-issues"
+    kind: publisher
+last_verified: "2026-08-11"
+guest_editors:
+  - name: "Alenka Poplin"
+  - name: "Ítalo de Sena"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Full Paper"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
