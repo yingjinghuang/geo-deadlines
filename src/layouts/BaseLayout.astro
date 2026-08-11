@@ -39,6 +39,7 @@ const imageUrl = new URL(image.replace(/^\//, ''), new URL(base, Astro.site)).to
     <meta property="og:image" content={imageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
+    <slot name="head" />
   </head>
   <body>
     <Header activePath={activePath} />
