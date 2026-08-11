@@ -14,6 +14,9 @@ interface Props {
   canonicalPath?: string;
 }
 const { title, heading = title, description, items, topics, fixedType, mode = 'upcoming', canonicalPath = '' } = Astro.props;
+const journals = fixedType === 'special_issue'
+  ? [...new Set(items.map((item) => item.raw.journal?.name).filter((name): name is string => Boolean(name)))].sort((a, b) => a.localeCompare(b))
+  : [];
 ---
 <BaseLayout title={`${title} — GeoDeadlines`} description={description} canonicalPath={canonicalPath}>
   <main class="page-main">
@@ -23,7 +26,7 @@ const { title, heading = title, description, items, topics, fixedType, mode = 'u
         <h1 class="page-heading">{heading}</h1>
         <p class="page-lede">{description}</p>
       </section>
-      <FilterBar topics={topics} fixedType={fixedType} mode={mode} years={[...new Set(items.map((item) => item.raw.year))].sort((a, b) => b - a)} />
+      <FilterBar topics={topics} fixedType={fixedType} mode={mode} years={[...new Set(items.map((item) => item.raw.year))].sort((a, b) => b - a)} journals={journals} />
       <DeadlineList items={items} topics={topics} fixedType={fixedType} mode={mode} />
     </div>
   </main>

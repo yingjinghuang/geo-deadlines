@@ -5,6 +5,7 @@ interface FilterState {
   topics: string[];
   sort: string;
   year: string;
+  journal: string;
 }
 
 export {};
@@ -13,7 +14,7 @@ const STORAGE_KEY = 'geodeadlines:filters';
 const FAVORITES_KEY = 'geodeadlines:favorites';
 
 function loadState(fixedType: string, defaultSort: string): FilterState {
-  const fallback = { type: fixedType || 'all', time: 'all', scope: 'all', topics: [], sort: defaultSort, year: 'all' };
+  const fallback = { type: fixedType || 'all', time: 'all', scope: 'all', topics: [], sort: defaultSort, year: 'all', journal: 'all' };
   try {
     const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}') as Partial<FilterState>;
     return { ...fallback, ...stored, type: fixedType || stored.type || 'all', sort: stored.sort || defaultSort };
@@ -31,8 +32,16 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   const search = document.querySelector<HTMLInputElement>('[data-search-input]');
   const sort = browser.querySelector<HTMLSelectElement>('[data-sort-select]');
   const year = document.querySelector<HTMLSelectElement>('[data-filter-year]');
+  const journal = document.querySelector<HTMLSelectElement>('[data-filter-journal]');
   if (sort) sort.value = state.sort;
-  if (year) year.value = state.year;
+  if (year) {
+    if (![...year.options].some((option) => option.value === state.year)) state.year = 'all';
+    year.value = state.year;
+  }
+  if (journal) {
+    if (![...journal.options].some((option) => option.value === state.journal)) state.journal = 'all';
+    journal.value = state.journal;
+  }
 
   function renderControls() {
     document.querySelectorAll<HTMLButtonElement>('[data-filter-type]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterType === state.type)));
@@ -55,7 +64,8 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
         && (state.scope === 'all' || card.dataset.scope === state.scope)
         && (!state.topics.length || state.topics.every((topic) => topics.includes(topic)))
         && (!query || (card.dataset.search ?? '').includes(query))
-        && (state.year === 'all' || card.dataset.year === state.year)
+        && (!year || state.year === 'all' || card.dataset.year === state.year)
+        && (!journal || state.journal === 'all' || card.dataset.journal === state.journal)
         && withinWindow
         && (mode !== 'favorites' || favorites.has(card.dataset.id ?? ''));
       card.hidden = !match;
@@ -101,6 +111,7 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   search?.addEventListener('input', apply);
   sort?.addEventListener('change', apply);
   year?.addEventListener('change', () => { state.year = year.value; apply(); });
+  journal?.addEventListener('change', () => { state.journal = journal.value; apply(); });
   window.addEventListener('geodeadlines:favoriteschange', apply);
   document.addEventListener('keydown', (event) => {
     if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); search?.focus(); }

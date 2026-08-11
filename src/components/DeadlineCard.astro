@@ -39,6 +39,7 @@ const venueLine = data.type === 'special_issue' ? data.journal?.name : data.pare
   data-type={data.type}
   data-scope={data.scope}
   data-topics={data.topics.join(' ')}
+  data-journal={data.journal?.name ?? ''}
   data-deadline={item.nextDeadlineTimestamp ?? ''}
   data-verified={Date.parse(`${data.last_verified}T00:00:00Z`)}
   data-title={data.title}
