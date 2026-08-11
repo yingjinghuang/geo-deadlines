@@ -41,7 +41,7 @@ Save deadlines locally in your browser and export individual or favorite deadlin
 
 GeoDeadlines includes major geospatial conference families such as **ACM SIGSPATIAL, GIScience, AGILE, COSIT, ICC, CaGIS, LBS, IGARSS, ISPRS Geospatial Week, FOSS4G, and AAG**, together with selected adjacent venues such as **CHI and ICLR**.
 
-Special-issue tracking includes calls from journals such as **Transactions in Urban Data, Science, and Technology (TUS), Computers, Environment and Urban Systems (CEUS), Cities, Transactions in GIS, and ISPRS International Journal of Geo-Information (IJGI)**.
+Special-issue tracking spans GIScience, GeoAI, urban analytics, sustainability, and remote sensing, with active or archived calls from journals including **Remote Sensing of Environment (RSE), International Journal of Geographical Information Science (IJGIS), International Journal of Digital Earth (IJDE), Transactions in Urban Data, Science, and Technology (TUS), Cities, Sustainable Cities and Society, Environment and Planning B, Computers, Environment and Urban Systems (CEUS), Transactions in GIS, ISPRS International Journal of Geo-Information (IJGI), Urban Forestry & Urban Greening, Applied Geography, Scientific Reports, Information Geography, and Geodata and AI**.
 
 Coverage is intentionally community-maintained rather than claimed to be exhaustive. If something important is missing, please add it.
 
