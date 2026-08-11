@@ -23,13 +23,13 @@ const isActive = (path: string) => activePath.includes(`/${path}`);
     <div class="header-actions">
       <a class="favorites-link" href={withBase('favorites/')} aria-label="Saved deadlines">☆ <span>Favorites</span></a>
       <a class="add-link" href={withBase('contribute/')}>＋ Add deadline</a>
-      <a class="github-link" href={repositoryUrl()} rel="noreferrer">GitHub</a>
+      <a class="github-link" href={repositoryUrl()} target="_blank" rel="noopener noreferrer">GitHub</a>
       <details class="mobile-menu">
         <summary aria-label="Open navigation">Menu</summary>
         <nav aria-label="Mobile navigation">
           {links.map(([label, path]) => <a href={withBase(path)}>{label}</a>)}
           <a href={withBase('about/')}>About</a>
-          <a href={repositoryUrl()}>GitHub</a>
+          <a href={repositoryUrl()} target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
       </details>
     </div>

@@ -45,14 +45,14 @@ const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-ti
           <div class="hero-top"><OpportunityBadge type={data.type} scope={data.scope} /><FavoriteButton id={item.id} title={data.title} /></div>
           <h1>{data.title}</h1>
           {data.journal && <p class="venue-name">{data.journal.name}</p>}
-          {data.parent && <p class="venue-name">Part of <a href={data.parent.url}>{data.parent.name}</a></p>}
+          {data.parent && <p class="venue-name">Part of <a href={data.parent.url} target="_blank" rel="noopener noreferrer">{data.parent.name}</a></p>}
           <p class="hero-description">{data.description}</p>
           <div class="topic-list">{topicLabels.map((label) => <TopicBadge label={label} />)}</div>
           <div class="hero-actions">
-            <a class="button button-primary" href={data.website}>Official website ↗</a>
-            {data.submission_url && <a class="button" href={data.submission_url}>Submit ↗</a>}
+            <a class="button button-primary" href={data.website} target="_blank" rel="noopener noreferrer">Official website ↗</a>
+            {data.submission_url && <a class="button" href={data.submission_url} target="_blank" rel="noopener noreferrer">Submit ↗</a>}
             {next && <button class="button" type="button" data-calendar-download>Download .ics</button>}
-            {next && <a class="button" href={googleCalendarUrl(data, next, absoluteDetail)}>Google Calendar ↗</a>}
+            {next && <a class="button" href={googleCalendarUrl(data, next, absoluteDetail)} target="_blank" rel="noopener noreferrer">Google Calendar ↗</a>}
           </div>
         </div>
         <aside class:list={['hero-countdown', item.urgency && `urgency-${item.urgency}`]}><Countdown deadlines={data.deadlines} /></aside>
@@ -79,10 +79,10 @@ const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-ti
         <section class="detail-section surface">
           <p class="eyebrow">Provenance</p><h2>Sources & freshness</h2>
           <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
-          <ul class="source-list">{data.sources.map((source) => <li><a href={source.url}>{source.label} ↗</a><span>{source.kind}</span></li>)}</ul>
+          <ul class="source-list">{data.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a><span>{source.kind}</span></li>)}</ul>
           <div class="contribution-actions">
-            <a href={editUrl}>Edit this entry on GitHub ↗</a>
-            <a href={`${repo}/issues/new?title=${reportTitle}&body=${reportBody}`}>Report incorrect / outdated information ↗</a>
+            <a href={editUrl} target="_blank" rel="noopener noreferrer">Edit this entry on GitHub ↗</a>
+            <a href={`${repo}/issues/new?title=${reportTitle}&body=${reportBody}`} target="_blank" rel="noopener noreferrer">Report incorrect / outdated information ↗</a>
           </div>
         </section>
       </div>

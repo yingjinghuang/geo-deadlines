@@ -10,7 +10,7 @@ import { withBase } from '../lib/urls';
     <h2>How it works</h2>
     <p>Every opportunity is a human-readable YAML file in the repository. Merged changes are validated, built into static pages, and deployed through GitHub Pages. There is no account system, database, tracking script, or runtime content API.</p>
     <h2>Timezones</h2>
-    <p>Every known deadline contains an ISO 8601 timestamp with an explicit offset. Anywhere on Earth (AoE) is stored as UTC−12. Your browser converts that absolute instant to your local timezone.</p>
+    <p>When an official source publishes an exact submission time, GeoDeadlines stores the timestamp with an explicit offset and your browser converts that instant to local time. Anywhere on Earth (AoE) is stored as UTC−12. When a source publishes only a calendar date, the site preserves it as a date-only deadline instead of inventing a time or timezone.</p>
     <h2>What the countdown means</h2>
     <p>The primary countdown always targets the next active submission milestone. It can move from an abstract deadline to a full-paper deadline, but never to notification, registration, or the conference start date.</p>
     <h2>Calendar feeds</h2>
