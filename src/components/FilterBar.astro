@@ -1,7 +1,7 @@
 ---
 import type { Topic } from '../lib/types';
-interface Props { topics: Topic[]; fixedType?: string; mode?: string; years?: number[] }
-const { topics, fixedType, mode = 'upcoming', years = [] } = Astro.props;
+interface Props { topics: Topic[]; fixedType?: string; mode?: string; years?: number[]; journals?: string[] }
+const { topics, fixedType, mode = 'upcoming', years = [], journals = [] } = Astro.props;
 const typeOptions = [['all', 'All'], ['conference', 'Conferences'], ['special_issue', 'Special Issues'], ['workshop', 'Workshops']];
 const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['all', 'All deadlines']];
 ---
@@ -21,6 +21,13 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
       <span class="filter-label">Deadline</span>
       <div class="chips">{timeOptions.map(([value, label]) => <button type="button" data-filter-time={value} aria-pressed={value === 'all'}>{label}</button>)}</div>
     </div>}
+    {journals.length > 0 && <label class="filter-group">
+      <span class="filter-label">Journal</span>
+      <select data-filter-journal>
+        <option value="all">All journals</option>
+        {journals.map((journal) => <option value={journal}>{journal}</option>)}
+      </select>
+    </label>}
     {mode === 'archive' && <label class="filter-group">
       <span class="filter-label">Year</span>
       <select data-filter-year>
@@ -60,7 +67,7 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
   .filter-groups { display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 13px 3px 5px; }
   .filter-group, .topic-row { display: flex; align-items: center; gap: 8px; }
   .filter-label { color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
-  select { padding: 5px 26px 5px 9px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
+  select { max-width: min(340px, 72vw); padding: 5px 26px 5px 9px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
   .chips { display: flex; flex-wrap: wrap; gap: 5px; }
   .chips button, .more-topics summary { padding: 5px 9px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: var(--text-2); cursor: pointer; font-size: .76rem; font-weight: 650; list-style: none; }
   .chips button:hover, .more-topics summary:hover { background: var(--surface-2); }
@@ -74,6 +81,7 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
     .filter-panel { position: static; }
     .filter-groups { flex-direction: column; }
     .filter-group, .topic-row { align-items: flex-start; flex-direction: column; }
+    .filter-group select { width: 100%; max-width: 100%; }
     .chips { flex-wrap: nowrap; width: 100%; overflow-x: auto; padding-bottom: 3px; }
     .chips button { white-space: nowrap; }
     .topic-menu { position: fixed; z-index: 30; top: 15%; right: 16px; left: 16px; width: auto; max-height: 70vh; overflow-y: auto; }
