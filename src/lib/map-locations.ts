@@ -19,6 +19,7 @@ const CITY_CENTROIDS: Record<string, MapCoordinates> = {
   'Shanghai|CN': { latitude: 31.2304, longitude: 121.4737 },
   'Reykjavík|IS': { latitude: 64.1466, longitude: -21.9426 },
   'Nanjing|CN': { latitude: 32.0603, longitude: 118.7969 },
+  'Lanzhou|CN': { latitude: 36.0611, longitude: 103.8343 },
   'Riverside|US': { latitude: 33.9806, longitude: -117.3755 },
   'Salt Lake City|US': { latitude: 40.7608, longitude: -111.8910 },
 };
