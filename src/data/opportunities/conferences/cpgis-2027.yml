@@ -1,0 +1,36 @@
+title: "34th International Conference on Geoinformatics"
+short_name: "CPGIS 2027"
+type: conference
+series: "International Conference on Geoinformatics"
+year: 2027
+description: "The 34th CPGIS Annual Conference / International Conference on Geoinformatics. CPGIS has officially announced the 2027 edition and solicited host proposals; Lanzhou is currently tracked as a provisional host location, while the official host announcement, conference dates, and call for papers have not yet been published."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - remote-sensing
+website: "https://www.cpgis.org/"
+sources:
+  - label: "Official call for proposals to host Geoinformatics 2027"
+    url: "https://www.cpgis.org/News/ShowContent.aspx?ID=6102"
+    kind: official
+  - label: "Official CPGIS conference series"
+    url: "https://www.cpgis.org/Conferences/Default.aspx?CPGISconf=1"
+    kind: official
+last_verified: "2026-08-12"
+location:
+  mode: in_person
+  city: "Lanzhou"
+  country: "China"
+  country_code: "CN"
+organizations:
+  - "International Association of Chinese Professionals in Geographic Information Sciences (CPGIS)"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The official 2027 conference dates and call for papers have not yet been announced."
