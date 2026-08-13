@@ -8,10 +8,21 @@ interface FilterState {
   journal: string;
 }
 
+interface CalendarFeed {
+  file: string;
+  label: string;
+}
+
 export {};
 
 const STORAGE_KEY = 'geodeadlines:filters';
 const FAVORITES_KEY = 'geodeadlines:favorites';
+const TYPE_FEEDS: Record<string, CalendarFeed> = {
+  all: { file: 'all.ics', label: 'All deadlines' },
+  conference: { file: 'conferences.ics', label: 'Conference deadlines' },
+  special_issue: { file: 'special-issues.ics', label: 'Special-issue deadlines' },
+  workshop: { file: 'workshops.ics', label: 'Workshop deadlines' },
+};
 
 function loadState(fixedType: string, defaultSort: string): FilterState {
   const fallback = { type: fixedType || 'all', time: 'all', scope: 'all', topics: [], sort: defaultSort, year: 'all', journal: 'all' };
@@ -38,10 +49,8 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   state.topics = state.topics.filter((topic) => topicLabels.has(topic));
 
   const subscribe = document.querySelector<HTMLDetailsElement>('[data-calendar-subscribe]');
-  const subscribeHeading = subscribe?.querySelector<HTMLElement>('[data-subscribe-heading]');
-  const subscribeMessage = subscribe?.querySelector<HTMLElement>('[data-subscribe-message]');
-  const subscribeLink = subscribe?.querySelector<HTMLAnchorElement>('[data-subscribe-link]');
-  const subscribeUrl = subscribe?.querySelector<HTMLElement>('[data-subscribe-url]');
+  const subscribeList = subscribe?.querySelector<HTMLElement>('[data-subscribe-list]');
+  const subscribeNote = subscribe?.querySelector<HTMLElement>('[data-subscribe-note]');
 
   if (sort) sort.value = state.sort;
   if (year) {
@@ -54,26 +63,44 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   }
 
   function updateSubscribe() {
-    if (!subscribe || !subscribeHeading || !subscribeMessage || !subscribeLink || !subscribeUrl) return;
-    if (state.topics.length > 1) {
-      subscribeHeading.textContent = 'Multiple topics selected';
-      subscribeMessage.textContent = 'Select a single topic to subscribe to its calendar feed.';
-      subscribeMessage.hidden = false;
-      subscribeLink.hidden = true;
-      subscribeUrl.hidden = true;
-      return;
-    }
+    if (!subscribe || !subscribeList || !subscribeNote) return;
+    const feeds: CalendarFeed[] = [];
+    const effectiveType = fixedType || state.type;
 
-    const topic = state.topics[0];
-    const feed = topic ? `topic-${topic}.ics` : (subscribe.dataset.defaultFeed ?? 'all.ics');
-    const label = topic ? `${topicLabels.get(topic) ?? topic} deadlines` : (subscribe.dataset.defaultLabel ?? 'All deadlines');
-    const href = `${subscribe.dataset.feedBase ?? ''}${feed}`;
-    subscribeHeading.textContent = label;
-    subscribeMessage.hidden = true;
-    subscribeLink.hidden = false;
-    subscribeLink.href = href;
-    subscribeUrl.hidden = false;
-    subscribeUrl.textContent = new URL(href, window.location.href).href;
+    if (effectiveType !== 'all' || state.topics.length === 0) {
+      feeds.push(TYPE_FEEDS[effectiveType] ?? TYPE_FEEDS.all);
+    }
+    state.topics.forEach((topic) => {
+      feeds.push({ file: `topic-${topic}.ics`, label: `${topicLabels.get(topic) ?? topic} deadlines` });
+    });
+    if (feeds.length === 0) feeds.push(TYPE_FEEDS.all);
+
+    subscribeList.replaceChildren();
+    const feedBase = subscribe.dataset.feedBase ?? '';
+    feeds.forEach((feed) => {
+      const href = `${feedBase}${feed.file}`;
+      const item = document.createElement('div');
+      item.className = 'subscribe-item';
+
+      const link = document.createElement('a');
+      link.href = href;
+      link.textContent = feed.label;
+
+      const code = document.createElement('code');
+      code.textContent = new URL(href, window.location.href).href;
+
+      item.append(link, code);
+      subscribeList.append(item);
+    });
+
+    const hasUnsupportedFilter = state.time !== 'all'
+      || state.scope !== 'all'
+      || Boolean(search?.value.trim())
+      || Boolean(journal && state.journal !== 'all');
+    subscribeNote.hidden = !hasUnsupportedFilter;
+    if (hasUnsupportedFilter) {
+      subscribeNote.textContent = 'Deadline-window, scope, journal, and search filters refine the page only; they do not have separate live calendar feeds.';
+    }
   }
 
   function renderControls() {
@@ -142,10 +169,10 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
     } else return;
     renderControls(); apply();
   });
-  search?.addEventListener('input', apply);
+  search?.addEventListener('input', () => { updateSubscribe(); apply(); });
   sort?.addEventListener('change', apply);
   year?.addEventListener('change', () => { state.year = year.value; apply(); });
-  journal?.addEventListener('change', () => { state.journal = journal.value; apply(); });
+  journal?.addEventListener('change', () => { state.journal = journal.value; updateSubscribe(); apply(); });
   window.addEventListener('geodeadlines:favoriteschange', apply);
   document.addEventListener('keydown', (event) => {
     if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); search?.focus(); }
