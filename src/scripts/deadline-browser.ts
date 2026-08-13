@@ -33,6 +33,16 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   const sort = browser.querySelector<HTMLSelectElement>('[data-sort-select]');
   const year = document.querySelector<HTMLSelectElement>('[data-filter-year]');
   const journal = document.querySelector<HTMLSelectElement>('[data-filter-journal]');
+  const topicButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter-topic]')];
+  const topicLabels = new Map(topicButtons.map((button) => [button.dataset.filterTopic ?? '', button.textContent?.trim() ?? '']));
+  state.topics = state.topics.filter((topic) => topicLabels.has(topic));
+
+  const subscribe = document.querySelector<HTMLDetailsElement>('[data-calendar-subscribe]');
+  const subscribeHeading = subscribe?.querySelector<HTMLElement>('[data-subscribe-heading]');
+  const subscribeMessage = subscribe?.querySelector<HTMLElement>('[data-subscribe-message]');
+  const subscribeLink = subscribe?.querySelector<HTMLAnchorElement>('[data-subscribe-link]');
+  const subscribeUrl = subscribe?.querySelector<HTMLElement>('[data-subscribe-url]');
+
   if (sort) sort.value = state.sort;
   if (year) {
     if (![...year.options].some((option) => option.value === state.year)) state.year = 'all';
@@ -43,11 +53,35 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
     journal.value = state.journal;
   }
 
+  function updateSubscribe() {
+    if (!subscribe || !subscribeHeading || !subscribeMessage || !subscribeLink || !subscribeUrl) return;
+    if (state.topics.length > 1) {
+      subscribeHeading.textContent = 'Multiple topics selected';
+      subscribeMessage.textContent = 'Select a single topic to subscribe to its calendar feed.';
+      subscribeMessage.hidden = false;
+      subscribeLink.hidden = true;
+      subscribeUrl.hidden = true;
+      return;
+    }
+
+    const topic = state.topics[0];
+    const feed = topic ? `topic-${topic}.ics` : (subscribe.dataset.defaultFeed ?? 'all.ics');
+    const label = topic ? `${topicLabels.get(topic) ?? topic} deadlines` : (subscribe.dataset.defaultLabel ?? 'All deadlines');
+    const href = `${subscribe.dataset.feedBase ?? ''}${feed}`;
+    subscribeHeading.textContent = label;
+    subscribeMessage.hidden = true;
+    subscribeLink.hidden = false;
+    subscribeLink.href = href;
+    subscribeUrl.hidden = false;
+    subscribeUrl.textContent = new URL(href, window.location.href).href;
+  }
+
   function renderControls() {
     document.querySelectorAll<HTMLButtonElement>('[data-filter-type]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterType === state.type)));
     document.querySelectorAll<HTMLButtonElement>('[data-filter-time]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterTime === state.time)));
     document.querySelectorAll<HTMLButtonElement>('[data-filter-scope]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterScope === state.scope)));
-    document.querySelectorAll<HTMLButtonElement>('[data-filter-topic]').forEach((button) => button.setAttribute('aria-pressed', String(state.topics.includes(button.dataset.filterTopic ?? ''))));
+    topicButtons.forEach((button) => button.setAttribute('aria-pressed', String(state.topics.includes(button.dataset.filterTopic ?? ''))));
+    updateSubscribe();
   }
 
   function apply() {

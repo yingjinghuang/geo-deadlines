@@ -1,9 +1,24 @@
 ---
 import type { Topic } from '../lib/types';
+import { withBase } from '../lib/urls';
 interface Props { topics: Topic[]; fixedType?: string; mode?: string; years?: number[]; journals?: string[] }
 const { topics, fixedType, mode = 'upcoming', years = [], journals = [] } = Astro.props;
 const typeOptions = [['all', 'All'], ['conference', 'Conferences'], ['special_issue', 'Special Issues'], ['workshop', 'Workshops']];
 const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['all', 'All deadlines']];
+const defaultFeed = fixedType === 'conference'
+  ? 'conferences.ics'
+  : fixedType === 'special_issue'
+    ? 'special-issues.ics'
+    : fixedType === 'workshop'
+      ? 'workshops.ics'
+      : 'all.ics';
+const defaultFeedLabel = fixedType === 'conference'
+  ? 'Conference deadlines'
+  : fixedType === 'special_issue'
+    ? 'Special-issue deadlines'
+    : fixedType === 'workshop'
+      ? 'Workshop deadlines'
+      : 'All deadlines';
 ---
 <section class="filter-panel surface" aria-label="Search and filters">
   <label class="search-wrap">
@@ -55,6 +70,22 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
         </div>
       </details>}
     </div>
+    {mode === 'upcoming' && <details
+      class="subscribe-menu"
+      data-calendar-subscribe
+      data-feed-base={withBase('calendar/')}
+      data-default-feed={defaultFeed}
+      data-default-label={defaultFeedLabel}
+    >
+      <summary>📅 Subscribe</summary>
+      <div class="subscribe-popover">
+        <strong data-subscribe-heading>{defaultFeedLabel}</strong>
+        <p class="subscribe-help">Subscribe to upcoming submission deadlines.</p>
+        <p data-subscribe-message hidden></p>
+        <a data-subscribe-link href={withBase(`calendar/${defaultFeed}`)}>Open calendar feed</a>
+        <code data-subscribe-url>{withBase(`calendar/${defaultFeed}`)}</code>
+      </div>
+    </details>}
   </div>
 </section>
 <style>
@@ -72,11 +103,19 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
   .chips button, .more-topics summary { padding: 5px 9px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: var(--text-2); cursor: pointer; font-size: .76rem; font-weight: 650; list-style: none; }
   .chips button:hover, .more-topics summary:hover { background: var(--surface-2); }
   .chips button[aria-pressed="true"] { border-color: color-mix(in srgb, var(--accent) 25%, var(--border)); background: var(--accent-soft); color: var(--accent); }
-  .topic-row { padding: 6px 3px 2px; border-top: 1px solid var(--border); }
-  .more-topics { position: relative; }
-  .more-topics summary::-webkit-details-marker { display: none; }
+  .topic-row { position: relative; padding: 6px 3px 2px; border-top: 1px solid var(--border); }
+  .more-topics, .subscribe-menu { position: relative; }
+  .more-topics summary::-webkit-details-marker, .subscribe-menu summary::-webkit-details-marker { display: none; }
   .topic-menu { position: absolute; top: 34px; right: 0; display: grid; grid-template-columns: repeat(2, minmax(135px, 1fr)); width: min(380px, calc(100vw - 48px)); padding: 9px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
   .topic-menu button { text-align: left; }
+  .subscribe-menu { margin-left: auto; flex: 0 0 auto; }
+  .subscribe-menu > summary { padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; color: var(--text-2); cursor: pointer; font-size: .76rem; font-weight: 700; list-style: none; white-space: nowrap; }
+  .subscribe-menu > summary:hover, .subscribe-menu[open] > summary { background: var(--surface-2); color: var(--text); }
+  .subscribe-popover { position: absolute; z-index: 24; top: 38px; right: 0; width: min(370px, calc(100vw - 48px)); padding: 13px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
+  .subscribe-help, [data-subscribe-message] { margin: 5px 0 10px; color: var(--muted); font-size: .76rem; line-height: 1.45; }
+  .subscribe-popover a { display: inline-block; margin-bottom: 9px; padding: 6px 9px; border: 1px solid var(--border); border-radius: 7px; color: var(--text-2); font-size: .74rem; font-weight: 700; text-decoration: none; }
+  .subscribe-popover a:hover { background: var(--surface-2); color: var(--text); }
+  .subscribe-popover code { display: block; overflow: hidden; padding: 7px 8px; border-radius: 7px; background: var(--page); color: var(--muted); font-size: .67rem; text-overflow: ellipsis; white-space: nowrap; }
   @media (max-width: 720px) {
     .filter-panel { position: static; }
     .filter-groups { flex-direction: column; }
@@ -85,5 +124,7 @@ const timeOptions = [['7', '7 days'], ['30', '30 days'], ['90', '90 days'], ['al
     .chips { flex-wrap: nowrap; width: 100%; overflow-x: auto; padding-bottom: 3px; }
     .chips button { white-space: nowrap; }
     .topic-menu { position: fixed; z-index: 30; top: 15%; right: 16px; left: 16px; width: auto; max-height: 70vh; overflow-y: auto; }
+    .subscribe-menu { width: 100%; margin-left: 0; }
+    .subscribe-popover { right: auto; left: 0; }
   }
 </style>
