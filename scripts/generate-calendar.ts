@@ -21,7 +21,7 @@ async function yamlFiles(directory: string): Promise<string[]> {
 }
 
 const topics = parse(await readFile(topicsPath, 'utf8')) as Topic[];
-const grouped: Record<'all' | OpportunityType, string[]> = { all: [], conference: [], special_issue: [], workshop: [] };
+const grouped: Record<'all' | OpportunityType, string[]> = { all: [], conference: [], special_issue: [], workshop: [], position: [] };
 const byTopic = Object.fromEntries(topics.map((topic) => [topic.id, [] as string[]])) as Record<string, string[]>;
 
 for (const file of await yamlFiles(dataRoot)) {
@@ -39,7 +39,7 @@ for (const file of await yamlFiles(dataRoot)) {
 }
 
 await mkdir(outputRoot, { recursive: true });
-const names: Record<keyof typeof grouped, string> = { all: 'all.ics', conference: 'conferences.ics', special_issue: 'special-issues.ics', workshop: 'workshops.ics' };
+const names: Record<keyof typeof grouped, string> = { all: 'all.ics', conference: 'conferences.ics', special_issue: 'special-issues.ics', workshop: 'workshops.ics', position: 'positions.ics' };
 await Promise.all([
   ...Object.entries(grouped).map(([type, events]) => writeFile(join(outputRoot, names[type as keyof typeof grouped]), calendarFile(events), 'utf8')),
   ...topics.map((topic) => writeFile(join(outputRoot, `topic-${topic.id}.ics`), calendarFile(byTopic[topic.id] ?? []), 'utf8')),
