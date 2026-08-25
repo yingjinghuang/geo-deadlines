@@ -2,7 +2,7 @@ import type { Deadline } from './types';
 
 export const SUBMISSION_DEADLINE_TYPES = new Set([
   'abstract', 'full_paper', 'short_paper', 'paper', 'poster', 'demo',
-  'workshop_paper', 'doctoral_consortium', 'manuscript',
+  'workshop_paper', 'doctoral_consortium', 'manuscript', 'application',
   'special_issue_manuscript', 'revision',
 ]);
 
