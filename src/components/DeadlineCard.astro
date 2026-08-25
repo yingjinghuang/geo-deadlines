@@ -29,7 +29,7 @@ const calendarPayload = future.map((deadline) => ({
   primary: Boolean(deadline.primary),
 }));
 const location = data.location?.mode === 'virtual' ? 'Virtual' : [data.location?.city, data.location?.country].filter(Boolean).join(', ');
-const venueLine = data.type === 'special_issue' ? data.journal?.name : data.parent?.name;
+const venueLine = data.type === 'special_issue' ? data.journal?.name : data.type === 'position' ? data.organizations?.[0] : data.parent?.name;
 ---
 
 <article
@@ -98,6 +98,7 @@ const venueLine = data.type === 'special_issue' ? data.journal?.name : data.pare
   .type-conference { border-top: 2px solid color-mix(in srgb, var(--conference) 55%, var(--border)); }
   .type-special_issue { border-top: 2px solid color-mix(in srgb, var(--special-issue) 55%, var(--border)); }
   .type-workshop { border-top: 2px solid color-mix(in srgb, var(--workshop) 55%, var(--border)); }
+  .type-position { border-top: 2px solid color-mix(in srgb, var(--accent) 55%, var(--border)); }
   @media (max-width: 760px) {
     .deadline-card { display: flex; flex-direction: column; }
     .countdown-panel { order: -1; padding: 17px 19px; border-left: 0; border-bottom: 1px solid var(--border); }
