@@ -1,0 +1,55 @@
+title: "13th International Conference on Geographical Information Systems Theory, Applications and Management"
+short_name: "GISTAM 2027"
+type: conference
+series: "International Conference on Geographical Information Systems Theory, Applications and Management"
+year: 2027
+description: "A GIS conference covering geospatial data sensing, representation, spatial data mining and computation, AI and learning, visualization, management, and domain applications."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - spatial-databases
+  - geoai
+  - remote-sensing
+  - geovisualization
+website: "https://gistam.scitevents.org/"
+sources:
+  - label: "Official GISTAM 2027 call for papers"
+    url: "https://gistam.scitevents.org/CallForPapers.aspx"
+    kind: official
+  - label: "Official GISTAM 2027 important dates"
+    url: "https://gistam.scitevents.org/ImportantDates.aspx"
+    kind: official
+  - label: "Official GISTAM 2027 venue information"
+    url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-04-20"
+  end: "2027-04-22"
+location:
+  mode: in_person
+  city: "Rome"
+  country: "Italy"
+  country_code: "IT"
+organizations:
+  - "INSTICC"
+deadlines:
+  - id: regular-paper-stage-1
+    type: full_paper
+    label: "Regular Paper — Stage 1"
+    datetime: "2026-11-17T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: regular-paper-stage-2
+    type: full_paper
+    label: "Regular / Position Paper — Stage 2"
+    datetime: "2026-12-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: abstract
+    type: abstract
+    label: "Abstract Track"
+    datetime: "2027-02-16T23:59:00-12:00"
+    timezone: "AoE"
+    status: active

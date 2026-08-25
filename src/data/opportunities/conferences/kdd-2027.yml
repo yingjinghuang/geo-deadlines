@@ -1,0 +1,63 @@
+title: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2027"
+short_name: "KDD 2027"
+type: conference
+series: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+year: 2027
+description: "A premier data-science and AI conference spanning knowledge discovery, self-supervised learning, structured and relational learning, scientific applications, data mining, and large-scale machine learning."
+scope: adjacent
+topics:
+  - data-mining
+  - machine-learning
+  - spatial-data-science
+  - geoai
+  - knowledge-graphs
+website: "https://kdd2027.kdd.org/"
+sources:
+  - label: "Official KDD 2027 website"
+    url: "https://kdd2027.kdd.org/"
+    kind: official
+  - label: "Official KDD 2027 Research Track CFP"
+    url: "https://kdd2027.kdd.org/research-track-call-for-papers/"
+    kind: official
+  - label: "Official KDD 2027 FAQ"
+    url: "https://kdd2027.kdd.org/frequently-asked-questions/"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-08-01"
+  end: "2027-08-05"
+location:
+  mode: in_person
+  city: "San Jose"
+  country: "United States"
+  country_code: "US"
+  venue: "San Jose McEnery Convention Center"
+organizations:
+  - "ACM SIGKDD"
+deadlines:
+  - id: cycle-1-abstract
+    type: abstract
+    label: "Cycle 1 Abstract"
+    datetime: "2026-07-19T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: cycle-1-paper
+    type: full_paper
+    label: "Cycle 1 Paper"
+    datetime: "2026-07-26T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: cycle-2-abstract
+    type: abstract
+    label: "Cycle 2 Abstract"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "KDD confirms a second submission cycle in February 2027; the exact abstract deadline is still to be confirmed."
+  - id: cycle-2-paper
+    type: full_paper
+    label: "Cycle 2 Paper"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "KDD confirms a second submission cycle in February 2027; the exact paper deadline is still to be confirmed."

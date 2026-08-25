@@ -22,6 +22,12 @@ const CITY_CENTROIDS: Record<string, MapCoordinates> = {
   'Lanzhou|CN': { latitude: 36.0611, longitude: 103.8343 },
   'Riverside|US': { latitude: 33.9806, longitude: -117.3755 },
   'Salt Lake City|US': { latitude: 40.7608, longitude: -111.8910 },
+  'San Francisco|US': { latitude: 37.7749, longitude: -122.4194 },
+  'Turin|IT': { latitude: 45.0703, longitude: 7.6869 },
+  'Rome|IT': { latitude: 41.9028, longitude: 12.4964 },
+  'Seattle|US': { latitude: 47.6062, longitude: -122.3321 },
+  'San Jose|US': { latitude: 37.3382, longitude: -121.8863 },
+  'Vienna|AT': { latitude: 48.2082, longitude: 16.3738 },
 };
 
 export function resolveMapCoordinates(location?: OpportunityData['location']): MapCoordinates | null {

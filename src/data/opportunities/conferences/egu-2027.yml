@@ -1,0 +1,52 @@
+title: "EGU General Assembly 2027"
+short_name: "EGU 2027"
+type: conference
+series: "European Geosciences Union General Assembly"
+year: 2027
+description: "Europe's major geoscience general assembly, spanning Earth, planetary, and space sciences with strong coverage of remote sensing, Earth observation, climate, geospatial methods, and interdisciplinary environmental research."
+scope: adjacent
+topics:
+  - earth-observation
+  - remote-sensing
+  - climate
+  - geography
+  - sustainability
+  - spatial-data-science
+website: "https://www.egu27.eu/"
+sources:
+  - label: "Official EGU27 website"
+    url: "https://www.egu27.eu/"
+    kind: official
+  - label: "Official EGU27 convener guidelines"
+    url: "https://www.egu27.eu/conveners/convener-guidelines.html"
+    kind: official
+  - label: "Official EGU27 participation-support information"
+    url: "https://www.egu27.eu/attendance/financial_support_and_waivers.html"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-04-04"
+  end: "2027-04-09"
+location:
+  mode: hybrid
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+  venue: "Austria Center Vienna"
+organizations:
+  - "European Geosciences Union"
+deadlines:
+  - id: session-proposal
+    type: other
+    label: "Session Proposal"
+    datetime: "2026-09-23"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract
+    type: abstract
+    label: "Regular Abstract"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The regular EGU27 abstract-submission deadline has not yet been published. The 1 December 2026, 13:00 CET deadline currently shown by EGU applies specifically to abstracts requesting Roland Schlich travel support."

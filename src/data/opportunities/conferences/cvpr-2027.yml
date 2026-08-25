@@ -1,0 +1,38 @@
+title: "IEEE/CVF Conference on Computer Vision and Pattern Recognition 2027"
+short_name: "CVPR 2027"
+type: conference
+series: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+year: 2027
+description: "A leading computer-vision and AI conference with strong relevance to representation learning, multimodal models, spatial understanding, geospatial computer vision, and Earth-observation applications."
+scope: adjacent
+topics:
+  - computer-vision
+  - machine-learning
+  - geoai
+  - spatial-computing
+website: "https://cvpr.thecvf.com/Conferences/2027"
+sources:
+  - label: "Official CVPR announcement of the 2027 meeting"
+    url: "https://cvpr.thecvf.com/Conferences/2026/News/Closing"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-06-19"
+  end: "2027-06-26"
+location:
+  mode: in_person
+  city: "Seattle"
+  country: "United States"
+  country_code: "US"
+  venue: "Seattle Convention Center"
+organizations:
+  - "IEEE Computer Society"
+  - "Computer Vision Foundation"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The official CVPR 2027 paper-submission deadline has not yet been announced."

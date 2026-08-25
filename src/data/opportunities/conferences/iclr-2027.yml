@@ -12,6 +12,9 @@ topics:
 website: "https://iclr.cc/Conferences/2027"
 submission_url: "https://openreview.net/group?id=ICLR.cc/2027/Conference"
 sources:
+  - label: "Official ICLR 2027 conference page"
+    url: "https://iclr.cc/"
+    kind: official
   - label: "Official ICLR 2027 call for papers"
     url: "https://www.iclr.cc/Conferences/2027/CallForPapers"
     kind: official
@@ -22,6 +25,14 @@ sources:
     url: "https://iclr.cc/Conferences/2027/AuthorGuidelines"
     kind: official
 last_verified: "2026-08-25"
+event:
+  start: "2027-04-26"
+  end: "2027-04-30"
+location:
+  mode: in_person
+  city: "San Francisco"
+  country: "United States"
+  country_code: "US"
 deadlines:
   - id: abstract
     type: abstract

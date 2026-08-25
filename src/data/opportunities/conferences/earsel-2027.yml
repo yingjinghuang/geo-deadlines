@@ -1,0 +1,52 @@
+title: "46th EARSeL Symposium"
+short_name: "EARSeL 2027"
+type: conference
+series: "EARSeL Symposium"
+year: 2027
+description: "The annual symposium of the European Association of Remote Sensing Laboratories, covering remote sensing methods, Earth observation, geospatial analysis, and applications across environmental and societal domains."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - climate
+  - sustainability
+website: "https://symposium.earsel.org/46th-symposium-Turin/"
+sources:
+  - label: "Official EARSeL 2027 symposium page"
+    url: "https://symposium.earsel.org/46th-symposium-Turin/"
+    kind: official
+  - label: "Official EARSeL 2027 important dates"
+    url: "https://symposium.earsel.org/46th-symposium-Turin/?page_id=43"
+    kind: official
+  - label: "Official EARSeL 2027 abstract submission page"
+    url: "https://symposium.earsel.org/46th-symposium-Turin/?page_id=45"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-06-01"
+  end: "2027-06-04"
+location:
+  mode: in_person
+  city: "Turin"
+  country: "Italy"
+  country_code: "IT"
+  venue: "University of Turin"
+organizations:
+  - "European Association of Remote Sensing Laboratories"
+deadlines:
+  - id: session-workshop-proposal
+    type: other
+    label: "Session / Workshop Proposal"
+    datetime: "2026-09-14"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2026-11-15"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official abstract-submission page says submissions are due before 15 November 2026, while the symposium Important Dates page currently lists 30 November 2026. GeoDeadlines uses the earlier date pending reconciliation by the organizers."
