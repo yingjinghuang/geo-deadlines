@@ -1,7 +1,7 @@
 ---
-interface Props { type: 'conference' | 'special_issue' | 'workshop'; scope: 'core' | 'adjacent' }
+interface Props { type: 'conference' | 'special_issue' | 'workshop' | 'position'; scope: 'core' | 'adjacent' }
 const { type, scope } = Astro.props;
-const labels = { conference: 'Conference', special_issue: 'Special Issue', workshop: 'Workshop' };
+const labels = { conference: 'Conference', special_issue: 'Special Issue', workshop: 'Workshop', position: 'Position' };
 ---
 <div class="badge-row">
   <span class:list={['type-badge', type]}>{labels[type]}</span>
@@ -10,6 +10,6 @@ const labels = { conference: 'Conference', special_issue: 'Special Issue', works
 <style>
   .badge-row { display: flex; gap: 7px; align-items: center; }
   .type-badge, .scope-badge { font-size: .68rem; line-height: 1; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
-  .conference { color: var(--conference); } .special_issue { color: var(--special-issue); } .workshop { color: var(--workshop); }
+  .conference { color: var(--conference); } .special_issue { color: var(--special-issue); } .workshop { color: var(--workshop); } .position { color: var(--accent); }
   .scope-badge { padding: 4px 6px; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); }
 </style>
