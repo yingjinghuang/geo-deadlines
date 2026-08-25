@@ -1,0 +1,35 @@
+title: "Postdoctoral Researcher / Data Scientist — Mountain Water and Cryosphere"
+short_name: "ISTA Cryosphere Postdoc"
+type: position
+year: 2026
+description: "A four-year postdoctoral/data-science position at ISTA at the intersection of AI, remote sensing, high-resolution land-surface modelling, and large geospatial datasets for mountain water and cryosphere research."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - machine-learning
+  - climate
+website: "https://ista.ac.at/en/job/postdoc-research-group-pellicciotti/"
+sources:
+  - label: "Official ISTA vacancy"
+    url: "https://ista.ac.at/en/job/postdoc-research-group-pellicciotti/"
+    kind: official
+last_verified: "2026-08-25"
+location:
+  mode: in_person
+  city: "Klosterneuburg"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "Institute of Science and Technology Austria (ISTA)"
+  - "Cryosphere and Mountain Hydrosphere Research Group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
