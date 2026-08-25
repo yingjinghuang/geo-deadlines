@@ -1,0 +1,35 @@
+title: "Research Fellow in Remote Sensing and AI"
+short_name: "Cranfield RS + AI Fellow"
+type: position
+year: 2026
+description: "An 18-month research fellow position at Cranfield University developing AI-powered remote-sensing methods for landscape change and environmental sustainability, including deep learning on multi-source aerial and satellite imagery."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+  - computer-vision
+website: "https://jobs.cranfield.ac.uk/vacancy/research-fellow-in-remote-sensing-and-ai-618071.html"
+sources:
+  - label: "Official Cranfield University vacancy 5381"
+    url: "https://jobs.cranfield.ac.uk/vacancy/research-fellow-in-remote-sensing-and-ai-618071.html"
+    kind: official
+last_verified: "2026-08-25"
+location:
+  mode: in_person
+  city: "Cranfield"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "Cranfield University"
+  - "Cranfield Environment Centre"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-17"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
