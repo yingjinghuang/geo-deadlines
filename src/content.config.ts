@@ -4,7 +4,7 @@ import { z } from 'astro/zod';
 
 const deadlineType = z.enum([
   'abstract', 'full_paper', 'short_paper', 'paper', 'poster', 'demo',
-  'workshop_paper', 'doctoral_consortium', 'manuscript',
+  'workshop_paper', 'doctoral_consortium', 'manuscript', 'application',
   'special_issue_manuscript', 'revision', 'notification', 'camera_ready',
   'registration', 'conference_start', 'conference_end', 'other',
 ]);
@@ -37,7 +37,7 @@ const opportunities = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     short_name: z.string().optional(),
-    type: z.enum(['conference', 'special_issue', 'workshop']),
+    type: z.enum(['conference', 'special_issue', 'workshop', 'position']),
     series: z.string().optional(),
     year: z.number().int().min(2000).max(2100),
     description: z.string().min(1),
