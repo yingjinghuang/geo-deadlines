@@ -54,7 +54,7 @@ for (const file of files) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) fail(id, 'filename must be a lowercase slug');
   if (seenIds.has(id)) fail(id, 'duplicate generated ID');
   seenIds.add(id);
-  if (!data.title || !['conference', 'special_issue', 'workshop'].includes(data.type)) fail(id, 'title and a valid type are required');
+  if (!data.title || !['conference', 'special_issue', 'workshop', 'position'].includes(data.type)) fail(id, 'title and a valid type are required');
   if (!Number.isInteger(data.year) || data.year < 2000 || data.year > 2100) fail(id, 'year is outside 2000–2100');
   const venueYear = `${data.series ?? data.title}|${data.year}|${data.type}`.toLowerCase();
   if (seenVenueYears.has(venueYear)) fail(id, 'possible duplicate venue/year');
