@@ -1,0 +1,35 @@
+title: "University Assistant Predoctoral — Spatial Data Science and GeoCommunication"
+short_name: "UniVie GeoAI PraeDoc"
+type: position
+year: 2026
+description: "A four-year predoctoral position in the University of Vienna's Spatial Data Science and GeoCommunication group, with research links to GeoAI, knowledge graphs, geographic information retrieval, social sensing, and geovisualization."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - knowledge-graphs
+  - geovisualization
+website: "https://jobs.univie.ac.at/job/University-assistant-predoctoral/1426976233/-university_assistant_predoctoral-universitaet_wien?locale=en_US"
+sources:
+  - label: "Official University of Vienna vacancy"
+    url: "https://jobs.univie.ac.at/job/University-assistant-predoctoral/1426976233/-university_assistant_predoctoral-universitaet_wien?locale=en_US"
+    kind: official
+last_verified: "2026-08-25"
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "University of Vienna"
+  - "Spatial Data Science and GeoCommunication group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-11"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
