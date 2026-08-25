@@ -1,0 +1,38 @@
+title: "Postdoc — AI Agents and Foundation Models for Earth Observation"
+short_name: "TU Berlin EO AI Postdoc"
+type: position
+year: 2026
+description: "A postdoctoral research position in TU Berlin/BIFOLD's Remote Sensing Image Analysis group, working on an EU-funded project on AI agents for Earth observation with strong links to large language models, vision-language models, multimodal learning, and generative AI."
+scope: core
+topics:
+  - earth-observation
+  - remote-sensing
+  - geoai
+  - machine-learning
+  - computer-vision
+website: "https://www.jobs.tu-berlin.de/stellenausschreibungen/206442?language=en"
+sources:
+  - label: "Official TU Berlin vacancy IV-329/26"
+    url: "https://www.jobs.tu-berlin.de/stellenausschreibungen/206442?language=en"
+    kind: official
+  - label: "Official BIFOLD position page"
+    url: "https://www.bifold.berlin/about-us/opportunities/research-associate-e14-rsim-iv-329/26"
+    kind: official
+last_verified: "2026-08-25"
+location:
+  mode: in_person
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+organizations:
+  - "Technische Universität Berlin"
+  - "Berlin Institute for the Foundations of Learning and Data (BIFOLD)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-04"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
