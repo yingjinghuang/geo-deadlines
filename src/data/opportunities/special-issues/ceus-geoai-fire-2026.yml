@@ -1,0 +1,33 @@
+title: "GeoAI and Spatial Data Science for Fire Research"
+type: special_issue
+year: 2026
+description: "A Computers, Environment and Urban Systems special issue on GeoAI, spatial data science, GIS, remote sensing, and decision support across wildfire and urban-fire risk, monitoring, modelling, response, and recovery."
+scope: core
+topics: [geoai, spatial-data-science, remote-sensing, earth-observation, climate]
+journal:
+  name: "Computers, Environment and Urban Systems"
+  short_name: "CEUS"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
+sources:
+  - label: "Official ScienceDirect call for papers listing"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers"
+    kind: publisher
+  - label: "Official ScienceDirect special issue page"
+    url: "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
+    kind: publisher
+last_verified: "2026-08-25"
+guest_editors:
+  - name: "Huanfa Chen"
+  - name: "Yingjie Hu"
+  - name: "Jing Yao"
+  - name: "Orhun Aydin"
+  - name: "Qunying Huang"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active

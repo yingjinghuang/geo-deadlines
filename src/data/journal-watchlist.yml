@@ -1,0 +1,74 @@
+# Discovery-only source of truth for journal CFP sweeps.
+# This file is not loaded as a public deadline opportunity. During every data
+# refresh, scan each journal below for new Special Issues, Article Collections,
+# and Calls for Papers. Only create an opportunity when an official publisher
+# source gives a concrete submission deadline (or an explicitly announced TBD
+# call that is important enough to track).
+
+last_reviewed: "2026-08-25"
+seed_source:
+  name: "Awesome Autonomous GeoAI"
+  url: "https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai#journals"
+
+policy:
+  source_priority: "Official journal or publisher pages first; discovery sources are leads only."
+  inclusion: "Track deadline-bearing special issues, article collections, and calls for papers that are materially relevant to GIScience, GeoAI, remote sensing, Earth observation, spatial data science, geography, or urban analytics."
+  exclusion: "Do not create permanent entries for ordinary rolling journal submissions without a deadline."
+  refresh: "Review every journal in this file whenever GeoDeadlines receives a substantive data refresh."
+
+journals:
+  - id: annals-aag
+    name: "Annals of the American Association of Geographers"
+    short_name: "Annals of AAG"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/toc/raag20/current"
+  - id: ijgis
+    name: "International Journal of Geographical Information Science"
+    short_name: "IJGIS"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/toc/tgis20/current"
+  - id: ceus
+    name: "Computers, Environment and Urban Systems"
+    short_name: "CEUS"
+    publisher: "Elsevier"
+    homepage: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems"
+  - id: isprs-jprs
+    name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    short_name: "ISPRS JPRS"
+    publisher: "Elsevier"
+    homepage: "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing"
+  - id: rse
+    name: "Remote Sensing of Environment"
+    short_name: "RSE"
+    publisher: "Elsevier"
+    homepage: "https://www.sciencedirect.com/journal/remote-sensing-of-environment"
+  - id: tgrs
+    name: "IEEE Transactions on Geoscience and Remote Sensing"
+    short_name: "TGRS"
+    publisher: "IEEE"
+    homepage: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36"
+  - id: jag
+    name: "International Journal of Applied Earth Observation and Geoinformation"
+    short_name: "JAG"
+    publisher: "Elsevier"
+    homepage: "https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation"
+  - id: ijde
+    name: "International Journal of Digital Earth"
+    short_name: "IJDE"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/journals/tjde20"
+  - id: transactions-in-gis
+    name: "Transactions in GIS"
+    short_name: "Transactions in GIS"
+    publisher: "Wiley"
+    homepage: "https://onlinelibrary.wiley.com/journal/14679671"
+  - id: applied-geography
+    name: "Applied Geography"
+    short_name: "Applied Geography"
+    publisher: "Elsevier"
+    homepage: "https://www.sciencedirect.com/journal/applied-geography"
+  - id: annals-of-gis
+    name: "Annals of GIS"
+    short_name: "Annals of GIS"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/toc/tagi20/current"

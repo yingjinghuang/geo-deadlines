@@ -1,0 +1,41 @@
+title: "IEEE/CVF International Conference on Computer Vision 2027"
+short_name: "ICCV 2027"
+type: conference
+series: "IEEE/CVF International Conference on Computer Vision"
+year: 2027
+description: "A flagship computer-vision conference with strong relevance to geospatial computer vision, remote sensing, multimodal representation learning, spatial understanding, and foundation models."
+scope: adjacent
+topics:
+  - computer-vision
+  - machine-learning
+  - geoai
+  - spatial-computing
+  - remote-sensing
+website: "https://www.thecvf.com/?page_id=100"
+sources:
+  - label: "Official Computer Vision Foundation conference listing"
+    url: "https://www.thecvf.com/?page_id=100"
+    kind: official
+  - label: "Official CVF announcement of upcoming sponsored conferences"
+    url: "https://www.thecvf.com/?p=137"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-10-02"
+  end: "2027-10-08"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "IEEE Computer Society"
+  - "Computer Vision Foundation"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "The official ICCV 2027 paper-submission deadline has not yet been announced."

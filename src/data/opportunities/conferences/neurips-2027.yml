@@ -1,0 +1,25 @@
+title: "Conference on Neural Information Processing Systems 2027"
+short_name: "NeurIPS 2027"
+type: conference
+series: "Conference on Neural Information Processing Systems"
+year: 2027
+description: "A flagship machine-learning and AI conference relevant to representation learning, foundation models, multimodal learning, AI for science, and methods increasingly used in GeoAI and Earth observation."
+scope: adjacent
+topics:
+  - machine-learning
+  - geoai
+  - spatial-data-science
+website: "https://neurips.cc/Conferences/FutureMeetings"
+sources:
+  - label: "Official NeurIPS future meetings page"
+    url: "https://neurips.cc/Conferences/FutureMeetings"
+    kind: official
+last_verified: "2026-08-25"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "NeurIPS currently confirms only that the 2027 meeting will be in Europe; exact dates, city, and submission deadlines have not yet been announced."

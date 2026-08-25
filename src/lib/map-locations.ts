@@ -28,6 +28,9 @@ const CITY_CENTROIDS: Record<string, MapCoordinates> = {
   'Seattle|US': { latitude: 47.6062, longitude: -122.3321 },
   'San Jose|US': { latitude: 37.3382, longitude: -121.8863 },
   'Vienna|AT': { latitude: 48.2082, longitude: 16.3738 },
+  'Washington, D.C.|US': { latitude: 38.9072, longitude: -77.0369 },
+  'Hong Kong|HK': { latitude: 22.3193, longitude: 114.1694 },
+  'Lake Buena Vista|US': { latitude: 28.3936, longitude: -81.5387 },
 };
 
 export function resolveMapCoordinates(location?: OpportunityData['location']): MapCoordinates | null {

@@ -1,0 +1,30 @@
+title: "Advancing Resource-Constrained Multi-Modal Foundation Models for Robust Earth Observation"
+type: special_issue
+year: 2027
+description: "An International Journal of Applied Earth Observation and Geoinformation special issue on efficient and robust multimodal foundation models for Earth observation under resource constraints."
+scope: core
+topics: [earth-observation, remote-sensing, geoai, machine-learning, computer-vision]
+journal:
+  name: "International Journal of Applied Earth Observation and Geoinformation"
+  short_name: "JAG"
+  publisher: "Elsevier"
+website: "https://www.sciencedirect.com/browse/calls-for-papers?subject=CSR"
+sources:
+  - label: "Official ScienceDirect call for papers listing"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=CSR"
+    kind: publisher
+last_verified: "2026-08-25"
+guest_editors:
+  - name: "Hongjie He"
+  - name: "Jiaxin Li"
+  - name: "Weiying Xie"
+  - name: "Junshi Xia"
+  - name: "Linlin Xu"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-07-31"
+    precision: date
+    timezone: null
+    status: active

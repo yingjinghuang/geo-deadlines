@@ -1,0 +1,38 @@
+title: "Geographical Principles in the New Era of Spatial Analysis and Modeling"
+type: special_issue
+year: 2026
+description: "An Annals of GIS special issue on geography-grounded spatial analysis and modelling, spanning spatial statistics, GeoAI, machine learning, geographic laws, networks, mobility, remote sensing, and geospatial big data."
+scope: core
+topics: [giscience, geography, geoai, spatial-data-science, spatial-statistics]
+journal:
+  name: "Annals of GIS"
+  short_name: "Annals of GIS"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+sources:
+  - label: "Official Taylor & Francis special issue call"
+    url: "https://think.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+    kind: publisher
+last_verified: "2026-08-25"
+guest_editors:
+  - name: "Guiming Zhang"
+  - name: "Di Zhu"
+  - name: "Xi Gong"
+  - name: "Guofeng Cao"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2026-08-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Abstracts should be emailed to the guest editors by this date; invited authors then submit full manuscripts."
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active

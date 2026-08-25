@@ -1,0 +1,39 @@
+title: "AGU 2027 Annual Meeting"
+short_name: "AGU 2027"
+type: conference
+series: "American Geophysical Union Annual Meeting"
+year: 2027
+description: "The American Geophysical Union's annual meeting, a major Earth and space science venue with strong relevance to remote sensing, Earth observation, climate, geospatial data science, and environmental research."
+scope: core
+topics:
+  - earth-observation
+  - remote-sensing
+  - climate
+  - spatial-data-science
+  - sustainability
+website: "https://www.agu.org/meetings/all-meetings/agu27"
+sources:
+  - label: "Official AGU27 meeting page"
+    url: "https://www.agu.org/meetings/all-meetings/agu27"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-12-13"
+  end: "2027-12-17"
+location:
+  mode: hybrid
+  city: "Washington, D.C."
+  country: "United States"
+  country_code: "US"
+  venue: "Walter E. Washington Convention Center"
+organizations:
+  - "American Geophysical Union"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    primary: true
+    note: "AGU says abstract submissions will open in June 2027 and close in August 2027; the exact deadline has not yet been announced."

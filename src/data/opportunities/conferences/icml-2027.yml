@@ -1,0 +1,25 @@
+title: "International Conference on Machine Learning 2027"
+short_name: "ICML 2027"
+type: conference
+series: "International Conference on Machine Learning"
+year: 2027
+description: "A flagship machine-learning conference relevant to representation learning, foundation models, multimodal learning, AI for science, and methodological advances used across GeoAI."
+scope: adjacent
+topics:
+  - machine-learning
+  - geoai
+  - spatial-data-science
+website: "https://icml.cc/Conferences/FutureMeetings"
+sources:
+  - label: "Official ICML future meetings page"
+    url: "https://icml.cc/Conferences/FutureMeetings"
+    kind: official
+last_verified: "2026-08-25"
+deadlines:
+  - id: full-paper
+    type: full_paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    note: "ICML currently confirms only that the 2027 meeting will be in South America; exact dates, city, and submission deadlines have not yet been announced."

@@ -14,6 +14,19 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 10. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
 11. Open a pull request and explain the source of the change.
 
+## Journal discovery sweep
+
+`src/data/journal-watchlist.yml` is the source of truth for journals that should be checked during every substantive GeoDeadlines data refresh. The watchlist is discovery-only and is intentionally outside `src/data/opportunities/`, so ordinary journal homepages never appear as deadline cards.
+
+When refreshing journal data:
+
+1. Review **every journal in `src/data/journal-watchlist.yml`** for current Special Issues, Article Collections, and Calls for Papers.
+2. Prefer the official publisher or journal page. Search engines, mailing lists, social posts, and curated lists may be used to discover a call, but not as the canonical source when an official page exists.
+3. Add or update an opportunity only when the call is materially relevant to GeoDeadlines and has a concrete submission deadline, or when an important announced call explicitly warrants a `TBD` placeholder.
+4. Do not create permanent entries for ordinary rolling journal submissions with no deadline.
+5. Re-check already tracked active calls from the scanned journals; correct changed deadlines and refresh `last_verified` only when the official source has actually been reviewed.
+6. Update the watchlist itself when a journal becomes a stable high-value source of relevant calls, rather than relying on memory in later refreshes.
+
 Example exact deadline:
 
 ```yaml

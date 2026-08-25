@@ -1,0 +1,28 @@
+title: "From Geospatial Data to Urban Environmental Intelligence"
+type: special_issue
+year: 2027
+description: "An International Journal of Digital Earth article collection on turning Earth observation, GIS, sensor, and other geospatial data into urban environmental intelligence through spatial data science, GeoAI, modelling, and decision support."
+scope: core
+topics: [urban, geoai, earth-observation, spatial-data-science, climate, sustainability]
+journal:
+  name: "International Journal of Digital Earth"
+  short_name: "IJDE"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/"
+sources:
+  - label: "Official Taylor & Francis article collection"
+    url: "https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/"
+    kind: publisher
+last_verified: "2026-08-25"
+guest_editors:
+  - name: "Hélder Tiago da Silva Lopes"
+  - name: "Cláudia Morais Viana"
+  - name: "Jorge Rocha"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-05-31"
+    precision: date
+    timezone: null
+    status: active

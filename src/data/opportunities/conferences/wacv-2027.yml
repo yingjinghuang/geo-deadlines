@@ -1,0 +1,78 @@
+title: "IEEE/CVF Winter Conference on Applications of Computer Vision 2027"
+short_name: "WACV 2027"
+type: conference
+series: "IEEE/CVF Winter Conference on Applications of Computer Vision"
+year: 2027
+description: "A major applied computer-vision conference whose application areas include remote sensing, environmental monitoring, and climate. Round 2 paper submission remains open only for papers enrolled by August 21, 2026 (or eligible Round 1 resubmissions); new-paper enrollment is already closed."
+scope: adjacent
+topics:
+  - computer-vision
+  - machine-learning
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - climate
+website: "https://wacv.thecvf.com/Conferences/2027/"
+sources:
+  - label: "Official WACV 2027 dates and deadlines"
+    url: "https://wacv.thecvf.com/Conferences/2027/Dates"
+    kind: official
+  - label: "Official WACV 2027 author guidelines"
+    url: "https://wacv.thecvf.com/Conferences/2027/AuthorGuides"
+    kind: official
+  - label: "Official WACV 2027 call for papers"
+    url: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
+    kind: official
+last_verified: "2026-08-25"
+event:
+  start: "2027-01-04"
+  end: "2027-01-08"
+location:
+  mode: in_person
+  city: "Lake Buena Vista"
+  country: "United States"
+  country_code: "US"
+  venue: "Disney Springs"
+organizations:
+  - "IEEE Computer Society"
+  - "Computer Vision Foundation"
+deadlines:
+  - id: round-2-enrollment
+    type: registration
+    label: "Round 2 New Paper Enrollment"
+    datetime: "2026-08-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    note: "Required before submitting a new Round 2 paper; this enrollment deadline has already passed."
+  - id: round-2-paper
+    type: full_paper
+    label: "Round 2 Paper — Enrolled Papers Only"
+    datetime: "2026-08-28T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    primary: true
+    note: "Only papers enrolled by August 21, 2026, and eligible Round 1 resubmissions can use this deadline."
+  - id: round-1-revision
+    type: revision
+    label: "Round 1 Rebuttal and Revision"
+    datetime: "2026-08-28T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: round-2-supplement
+    type: other
+    label: "Round 2 Supplementary Material"
+    datetime: "2026-08-30T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: notification
+    type: notification
+    label: "Final Decisions"
+    datetime: "2026-10-09T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera Ready"
+    datetime: "2026-11-02T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
