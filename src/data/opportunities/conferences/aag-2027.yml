@@ -16,7 +16,7 @@ sources:
   - label: "Official AAG 2027 meeting page"
     url: "https://www.aag.org/events/aag2027/"
     kind: official
-last_verified: "2026-08-10"
+last_verified: "2026-08-25"
 event:
   start: "2027-02-08"
   end: "2027-02-12"

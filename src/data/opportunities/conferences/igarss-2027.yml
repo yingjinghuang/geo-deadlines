@@ -19,7 +19,7 @@ sources:
   - label: "Official IGARSS 2027 call for papers"
     url: "https://2027.ieeeigarss.org/call_for_papers.php"
     kind: official
-last_verified: "2026-08-10"
+last_verified: "2026-08-25"
 event:
   start: "2027-07-11"
   end: "2027-07-16"

@@ -12,26 +12,32 @@ topics:
 website: "https://iclr.cc/Conferences/2027"
 submission_url: "https://openreview.net/group?id=ICLR.cc/2027/Conference"
 sources:
+  - label: "Official ICLR 2027 call for papers"
+    url: "https://www.iclr.cc/Conferences/2027/CallForPapers"
+    kind: official
+  - label: "Official ICLR 2027 dates and deadlines"
+    url: "https://iclr.cc/Conferences/2027/Dates"
+    kind: official
   - label: "Official ICLR 2027 author guidelines"
     url: "https://iclr.cc/Conferences/2027/AuthorGuidelines"
     kind: official
-last_verified: "2026-08-11"
+last_verified: "2026-08-25"
 deadlines:
   - id: abstract
     type: abstract
     label: "Abstract"
-    datetime: "2026-09-11T23:59:00-12:00"
+    datetime: "2026-09-18T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: full-paper
     type: full_paper
     label: "Full Paper"
-    datetime: "2026-09-16T23:59:00-12:00"
+    datetime: "2026-09-25T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: notification
     type: notification
     label: "Decision"
-    datetime: "2026-12-09T23:59:00-12:00"
+    datetime: "2026-12-16T23:59:00-12:00"
     timezone: "AoE"
     status: active

@@ -1,9 +1,26 @@
 ---
+import { getCollection } from 'astro:content';
 import { repositoryUrl, withBase } from '../lib/urls';
+
+const opportunities = await getCollection('opportunities');
+const latestVerification = opportunities
+  .map(({ data }) => data.last_verified)
+  .sort((a, b) => b.localeCompare(a))[0];
+const lastUpdated = latestVerification
+  ? new Intl.DateTimeFormat('en', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: 'UTC',
+    }).format(new Date(`${latestVerification}T00:00:00Z`))
+  : null;
 ---
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p><strong>GeoDeadlines</strong> — community-maintained geospatial research deadlines.</p>
+    <div class="footer-meta">
+      <p><strong>GeoDeadlines</strong> — community-maintained geospatial research deadlines.</p>
+      {lastUpdated && <p class="footer-updated">Last updated {lastUpdated}</p>}
+    </div>
     <nav aria-label="Footer navigation">
       <a href={withBase('about/')}>About</a>
       <a href={withBase('contribute/')}>Contribute</a>
@@ -14,7 +31,9 @@ import { repositoryUrl, withBase } from '../lib/urls';
 <style>
   .site-footer { border-top: 1px solid var(--border); color: var(--muted); }
   .footer-inner { display: flex; justify-content: space-between; gap: 20px; padding-block: 26px; font-size: .84rem; }
-  .footer-inner p { margin: 0; }
+  .footer-meta { display: grid; gap: 5px; }
+  .footer-meta p { margin: 0; }
+  .footer-updated { font-size: .76rem; }
   nav { display: flex; gap: 18px; }
   @media (max-width: 640px) { .footer-inner { flex-direction: column; } }
 </style>
