@@ -1,4 +1,4 @@
-export type OpportunityType = 'conference' | 'special_issue' | 'workshop';
+export type OpportunityType = 'conference' | 'special_issue' | 'workshop' | 'position';
 export type Scope = 'core' | 'adjacent';
 export type DeadlineStatus = 'active' | 'superseded' | 'cancelled';
 export type DeadlinePrecision = 'datetime' | 'date';
