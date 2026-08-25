@@ -1,0 +1,7 @@
+---
+import DashboardPage from '../components/DashboardPage.astro';
+import { getDerivedOpportunities, topics } from '../lib/data';
+import { sortUpcoming } from '../lib/opportunity';
+const items = sortUpcoming((await getDerivedOpportunities()).filter((item) => item.raw.type === 'position' && item.submissionStatus !== 'closed'));
+---
+<DashboardPage title="Position deadlines" description="Curated PhD, postdoc, research, and faculty opportunities relevant to GIScience, GeoAI, remote sensing, Earth observation, and spatial data science. Coverage is selective rather than exhaustive." items={items} topics={topics} fixedType="position" canonicalPath="positions/" />
