@@ -17,13 +17,13 @@ sources:
   - label: "Official EGU27 website"
     url: "https://www.egu27.eu/"
     kind: official
-  - label: "Official EGU27 convener guidelines"
-    url: "https://www.egu27.eu/conveners/convener-guidelines.html"
+  - label: "Official EGU27 deadlines and milestones"
+    url: "https://www.egu27.eu/about/deadlines_and_milestones.html"
     kind: official
   - label: "Official EGU27 participation-support information"
     url: "https://www.egu27.eu/attendance/financial_support_and_waivers.html"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-04-04"
   end: "2027-04-09"
@@ -43,10 +43,17 @@ deadlines:
     precision: date
     timezone: null
     status: active
+  - id: support-application
+    type: application
+    label: "Participation Support Application"
+    datetime: "2026-12-01T13:00:00+01:00"
+    timezone: "CET"
+    status: active
+    note: "Deadline for support applications, including Roland Schlich Travel Support."
   - id: abstract
     type: abstract
     label: "Regular Abstract"
-    datetime: TBD
-    timezone: null
+    datetime: "2027-01-12T13:00:00+01:00"
+    timezone: "CET"
     status: active
-    note: "The regular EGU27 abstract-submission deadline has not yet been published. The 1 December 2026, 13:00 CET deadline currently shown by EGU applies specifically to abstracts requesting Roland Schlich travel support."
+    primary: true

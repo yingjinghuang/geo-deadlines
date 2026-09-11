@@ -15,7 +15,10 @@ sources:
   - label: "Official ICC 2027 website"
     url: "https://icc2027.org/"
     kind: official
-last_verified: "2026-08-11"
+  - label: "Official ICC 2027 call for papers"
+    url: "https://icc2027.org/call-for-papers/"
+    kind: official
+last_verified: "2026-09-11"
 event:
   start: "2027-07-18"
   end: "2027-07-23"
@@ -27,9 +30,39 @@ location:
 organizations:
   - "International Cartographic Association"
 deadlines:
-  - id: submission
-    type: paper
-    label: "Submission"
-    datetime: TBD
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2026-11-20"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+  - id: abstract
+    type: abstract
+    label: "Abstract"
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: notification
+    type: notification
+    label: "Acceptance Notification"
+    datetime: "2027-02-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-registration
+    type: registration
+    label: "Early Registration"
+    datetime: "2027-03-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: presenter-registration
+    type: registration
+    label: "Presenter Registration"
+    datetime: "2027-05-15"
+    precision: date
     timezone: null
     status: active

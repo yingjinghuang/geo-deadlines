@@ -12,10 +12,13 @@ topics:
   - urban
 website: "https://chi2027.acm.org/"
 sources:
+  - label: "Official CHI 2027 important dates"
+    url: "https://chi2027.acm.org/"
+    kind: official
   - label: "Official CHI 2027 papers call"
     url: "https://chi2027.acm.org/authors/papers/"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 location:
   mode: in_person
   city: "Pittsburgh"
@@ -27,12 +30,33 @@ tracks:
   - "Papers"
   - "Posters"
   - "Interactive Demos"
+  - "Panels"
   - "Workshops"
+  - "Meet-Ups"
+  - "Student Research Competition"
 deadlines:
   - id: full-paper
     type: full_paper
     label: "Full Paper"
     datetime: "2026-09-10T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: workshop-organizer
+    type: other
+    label: "Workshop Organizer Submission"
+    datetime: "2026-10-01T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: meetup
+    type: other
+    label: "Meet-Up Submission"
+    datetime: "2026-10-01T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: panel
+    type: other
+    label: "Panel Submission"
+    datetime: "2026-11-19T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: revision
@@ -44,13 +68,25 @@ deadlines:
     note: "Applies to papers invited to the revise-and-resubmit phase."
   - id: notification
     type: notification
-    label: "Notification"
+    label: "Paper Notification"
     datetime: "2026-12-17T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: poster
     type: poster
     label: "Poster Submission"
+    datetime: "2027-01-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: interactive-demo
+    type: demo
+    label: "Interactive Demo Submission"
+    datetime: "2027-01-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: student-research-competition
+    type: other
+    label: "Student Research Competition"
     datetime: "2027-01-21T23:59:00-12:00"
     timezone: "AoE"
     status: active

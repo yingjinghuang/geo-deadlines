@@ -3,7 +3,7 @@ short_name: "GIScience 2027"
 type: conference
 series: "International Conference on Geographic Information Science"
 year: 2027
-description: "The flagship international conference in geographic information science, with peer-reviewed proceedings papers, extended abstracts, demos, workshops, and tutorials."
+description: "The flagship international conference in geographic information science, with peer-reviewed proceedings papers, short papers, abstracts, demos, workshops, and tutorials."
 scope: core
 topics:
   - giscience
@@ -13,10 +13,10 @@ topics:
   - geovisualization
 website: "https://geods.github.io/GIScience2027/"
 sources:
-  - label: "Official GIScience 2027 website"
+  - label: "Official GIScience 2027 website and call for submissions"
     url: "https://geods.github.io/GIScience2027/"
     kind: official
-last_verified: "2026-08-10"
+last_verified: "2026-09-11"
 event:
   start: "2027-10-18"
   end: "2027-10-22"
@@ -29,14 +29,26 @@ location:
 deadlines:
   - id: proceedings-paper
     type: full_paper
-    label: "Proceedings Paper"
-    datetime: TBD
-    timezone: null
+    label: "Full Paper"
+    datetime: "2027-01-29T23:59:00-12:00"
+    timezone: "AoE"
     status: active
-    note: "The official site lists proceedings submissions as TBA."
+    primary: true
+  - id: workshop-proposal
+    type: other
+    label: "Workshop Proposal"
+    datetime: "2027-02-12T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: short-paper
+    type: short_paper
+    label: "Short Paper"
+    datetime: "2027-04-02T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
   - id: abstract-demo
     type: abstract
     label: "Abstract / Demo"
-    datetime: TBD
-    timezone: null
+    datetime: "2027-05-14T23:59:00-12:00"
+    timezone: "AoE"
     status: active
