@@ -1,0 +1,32 @@
+title: "Assistant Professor, Teaching Stream — Sustainability Science"
+short_name: "U of T Sustainability Science Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A full-time continuing teaching-stream Assistant Professor position in the University of Toronto Mississauga Department of Geography, Geomatics and Environment, focused on Sustainability Science."
+scope: adjacent
+topics:
+  - geography
+  - sustainability
+website: "https://jobs.utoronto.ca/job/Mississauga-Assistant-Professor%2C-Teaching-Stream-Sustainability-Science-ON/605990717/"
+sources:
+  - label: "Official University of Toronto faculty posting"
+    url: "https://jobs.utoronto.ca/job/Mississauga-Assistant-Professor%2C-Teaching-Stream-Sustainability-Science-ON/605990717/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Mississauga"
+  country: "Canada"
+  country_code: "CA"
+organizations:
+  - "University of Toronto Mississauga"
+  - "Department of Geography, Geomatics and Environment"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-09T23:59:00-05:00"
+    timezone: "America/Toronto"
+    status: active
+    primary: true

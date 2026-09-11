@@ -1,0 +1,37 @@
+title: "Research Assistant Professor — Urban Low-Altitude Economy / Greenhouse-Gas Remote Sensing"
+short_name: "PolyU Urban + GHG Remote Sensing RAP"
+type: position
+position_category: faculty
+year: 2026
+description: "A Research Assistant Professor position in PolyU Land Surveying and Geospatial Science covering urban infrastructure and low-altitude systems, transport computing, remote sensing of methane and air quality, and artificial intelligence."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - urban
+  - climate
+  - mobility
+website: "https://jobs.polyu.edu.hk/job_detail.php?job=260821015"
+sources:
+  - label: "Official Hong Kong Polytechnic University posting 260821015"
+    url: "https://jobs.polyu.edu.hk/job_detail.php?job=260821015"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The Hong Kong Polytechnic University"
+  - "Department of Land Surveying and Geospatial Science"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official posting states that consideration commenced on September 1, 2026 and continues until the position is filled; no final closing date is given."

@@ -1,0 +1,35 @@
+title: "Assistant or Associate Professor in Remote Sensing"
+short_name: "UF Remote Sensing Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-track Assistant or Associate Professor position in University of Florida Agricultural and Biological Engineering focused on remote-sensing technologies, sensors, AI-assisted analysis, and spatiotemporal monitoring of agricultural and natural systems."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - machine-learning
+  - spatial-data-science
+website: "https://explore.jobs.ufl.edu/en-us/job/540144/assistant-or-associate-professor-in-remote-sensing"
+sources:
+  - label: "Official University of Florida faculty posting 540144"
+    url: "https://explore.jobs.ufl.edu/en-us/job/540144/assistant-or-associate-professor-in-remote-sensing"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Gainesville"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Florida"
+  - "Department of Agricultural and Biological Engineering"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "Full consideration was August 31, 2026, but the current official posting still shows Apply now and states that the position remains open until a viable applicant pool is determined."

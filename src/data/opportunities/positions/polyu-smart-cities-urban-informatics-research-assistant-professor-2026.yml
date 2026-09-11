@@ -1,0 +1,38 @@
+title: "Research Assistant Professor in Smart Cities and Urban Informatics (two posts)"
+short_name: "PolyU Smart Cities + Urban Informatics RAP"
+type: position
+position_category: faculty
+year: 2026
+description: "Two Research Assistant Professor positions in PolyU Land Surveying and Geospatial Science focused on smart cities and urban informatics, with target areas including mobile mapping, robotics, 3D reconstruction, GeoAI, spatial data science, and urban analytics."
+scope: core
+topics:
+  - urban
+  - giscience
+  - geoai
+  - spatial-data-science
+  - spatial-computing
+  - mobility
+website: "https://jobs.polyu.edu.hk/job_detail.php?job=260904022"
+sources:
+  - label: "Official Hong Kong Polytechnic University posting 260904022"
+    url: "https://jobs.polyu.edu.hk/job_detail.php?job=260904022"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The Hong Kong Polytechnic University"
+  - "Department of Land Surveying and Geospatial Science"
+deadlines:
+  - id: initial-consideration
+    type: application
+    label: "Initial Consideration"
+    datetime: "2026-10-16"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Consideration of applications begins on October 16, 2026 and continues until the positions are filled."

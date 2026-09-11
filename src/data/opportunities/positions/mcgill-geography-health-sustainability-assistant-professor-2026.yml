@@ -1,0 +1,35 @@
+title: "Assistant Professor in Geography — Health and Sustainability"
+short_name: "McGill Health + Sustainability Geography Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-track Assistant Professor position in McGill Geography focused on health and sustainability, including climate-related hazards, environmental change, and complex human-environment systems."
+scope: adjacent
+topics:
+  - geography
+  - climate
+  - sustainability
+website: "https://mcgill.wd3.myworkdayjobs.com/en-US/mcgill_careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Health-and-Sustainability_JR0000078552"
+sources:
+  - label: "Official McGill careers posting JR0000078552"
+    url: "https://mcgill.wd3.myworkdayjobs.com/en-US/mcgill_careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Health-and-Sustainability_JR0000078552"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Montreal"
+  country: "Canada"
+  country_code: "CA"
+organizations:
+  - "McGill University"
+  - "Department of Geography"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-16"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official posting lists review beginning October 15 and an application end date of October 16, 2026."

@@ -1,0 +1,36 @@
+title: "Assistant Professor in GeoAI"
+short_name: "Guelph GeoAI Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-track Assistant Professor position in the University of Guelph Department of Geography, Environment & Geomatics at the intersection of geospatial analysis and artificial intelligence."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - geography
+  - spatial-data-science
+  - machine-learning
+website: "https://uoguelph.jobs.hr.cloud.sap/job/Guelph-Assistant-Professor-in-GeoAI-ON-N1G-2W1/1290970347/"
+sources:
+  - label: "Official University of Guelph faculty posting"
+    url: "https://uoguelph.jobs.hr.cloud.sap/job/Guelph-Assistant-Professor-in-GeoAI-ON-N1G-2W1/1290970347/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Guelph"
+  country: "Canada"
+  country_code: "CA"
+organizations:
+  - "University of Guelph"
+  - "Department of Geography, Environment & Geomatics"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official posting gives June 6, 2026 as the nominal deadline or until a suitable candidate is found. The posting remains live, so the continuing search is represented as open-ended rather than inventing a new deadline."

@@ -1,0 +1,35 @@
+title: "Assistant Professor in Coastal / Marine / Inland Water Remote Sensing and Geospatial Analysis"
+short_name: "UF Aquatic Remote Sensing + Geospatial Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-accruing Assistant Professor position in the University of Florida School of Forest, Fisheries, and Geomatics Sciences focused on remote sensing, geospatial analytics, and visualization for aquatic and marine resource management."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - giscience
+  - spatial-data-science
+website: "https://explore.jobs.ufl.edu/en-us/job/539908/assistant-professor-in-coastalmarineinland-water-remote-sensing-and-geospatial-analysis"
+sources:
+  - label: "Official University of Florida faculty posting 539908"
+    url: "https://explore.jobs.ufl.edu/en-us/job/539908/assistant-professor-in-coastalmarineinland-water-remote-sensing-and-geospatial-analysis"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Gainesville"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Florida"
+  - "School of Forest, Fisheries, and Geomatics Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "Full consideration was June 15, 2026, but the current official posting still shows Apply now and states that the position remains open until a viable applicant pool is determined."

@@ -1,0 +1,38 @@
+title: "Research Assistant Professor in GeoAI / Climate Resilience / Urban Sustainability / Geomatics"
+short_name: "PolyU GeoAI + Climate RAP"
+type: position
+position_category: faculty
+year: 2026
+description: "A Research Assistant Professor position in PolyU Land Surveying and Geospatial Science spanning GeoAI, climate resilience, urban sustainability, global-change ecology, and geomatics, with strong emphasis on quantitative and geospatial methods."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - climate
+  - sustainability
+  - urban
+  - machine-learning
+  - spatial-data-science
+website: "https://jobs.polyu.edu.hk/job_detail.php?job=260410005"
+sources:
+  - label: "Official Hong Kong Polytechnic University posting 260410005"
+    url: "https://jobs.polyu.edu.hk/job_detail.php?job=260410005"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The Hong Kong Polytechnic University"
+  - "Department of Land Surveying and Geospatial Science"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official posting remains open and states that consideration commenced on May 1, 2026 and continues until the position is filled."

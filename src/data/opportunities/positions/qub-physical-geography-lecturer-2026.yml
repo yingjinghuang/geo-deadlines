@@ -1,0 +1,35 @@
+title: "Lecturer in Physical Geography"
+short_name: "Queen's Belfast Physical Geography Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A permanent Lecturer position in Physical Geography at Queen's University Belfast focused on climate change, Earth-system dynamics, environmental resilience, and natural hazards, with GIS, remote sensing, and environmental modelling explicitly welcomed."
+scope: core
+topics:
+  - geography
+  - remote-sensing
+  - climate
+  - spatial-data-science
+website: "https://hrwebapp.qub.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?LANG=USA&VACANCY_ID=791203XS1E&WVID=6273090Lgx"
+sources:
+  - label: "Official Queen's University Belfast vacancy 26/113611"
+    url: "https://hrwebapp.qub.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?LANG=USA&VACANCY_ID=791203XS1E&WVID=6273090Lgx"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Belfast"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "Queen's University Belfast"
+  - "School of Natural and Built Environment"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-14"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

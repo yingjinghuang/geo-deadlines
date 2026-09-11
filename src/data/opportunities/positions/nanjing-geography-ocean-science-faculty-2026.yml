@@ -1,0 +1,38 @@
+title: "Tenure-Track / Tenured Faculty Positions in Geography and Ocean Science (up to five posts)"
+short_name: "Nanjing Geography + GeoAI Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Up to five tenure-track Assistant or Associate Professor positions in Nanjing University's School of Geography and Ocean Science, including explicit searches in GIScience, Geospatial AI, Digital Twin, AI for Geography/Ocean Science, global change, and sustainability."
+scope: core
+topics:
+  - geography
+  - giscience
+  - geoai
+  - spatial-computing
+  - climate
+  - sustainability
+website: "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20260715/i401813.html"
+sources:
+  - label: "Official Nanjing University faculty recruitment announcement"
+    url: "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20260715/i401813.html"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Nanjing"
+  country: "China"
+  country_code: "CN"
+organizations:
+  - "Nanjing University"
+  - "School of Geography and Ocean Science"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official announcement states that individual searches may be extended if too few applications are received."

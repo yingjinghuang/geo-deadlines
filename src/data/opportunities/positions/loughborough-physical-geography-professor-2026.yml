@@ -1,0 +1,32 @@
+title: "Professor of Physical Geography"
+short_name: "Loughborough Physical Geography Professor"
+type: position
+position_category: faculty
+year: 2026
+description: "A full-time, open-ended professorial appointment in Physical Geography at Loughborough University for an internationally leading physical geographer or environmental scientist."
+scope: adjacent
+topics:
+  - geography
+website: "https://vacancies.lboro.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?VACANCY_ID=856500fFUB&WVID=5913100PrZ"
+sources:
+  - label: "Official Loughborough University vacancy REQ260551"
+    url: "https://vacancies.lboro.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?VACANCY_ID=856500fFUB&WVID=5913100PrZ"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Loughborough"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "Loughborough University"
+  - "School of Social Sciences and Humanities"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-22"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

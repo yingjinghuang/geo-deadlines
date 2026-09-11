@@ -1,0 +1,36 @@
+title: "Assistant Professor in Geographic Information Science"
+short_name: "USF GIScience Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-earning Assistant Professor position in the University of South Florida School of Geosciences focused on GIScience methods, models, and tools, including GeoAI, machine learning, spatial statistics, GIS programming, spatial analysis, and web mapping."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-statistics
+  - spatial-data-science
+  - machine-learning
+website: "https://www.usf.edu/arts-sciences/departments/geosciences/about/employment-opportunities.aspx"
+sources:
+  - label: "Official USF School of Geosciences employment page"
+    url: "https://www.usf.edu/arts-sciences/departments/geosciences/about/employment-opportunities.aspx"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Tampa"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of South Florida"
+  - "School of Geosciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official page states that the search remains open until filled. The initial review date (January 7, 2026) has passed, so no new exact closing date is inferred."

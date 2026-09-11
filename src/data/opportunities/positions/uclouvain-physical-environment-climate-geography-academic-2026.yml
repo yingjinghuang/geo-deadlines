@@ -1,0 +1,34 @@
+title: "Academic Position in Geography of the Physical Environment and Climate"
+short_name: "UCLouvain Physical Environment + Climate Geography"
+type: position
+position_category: faculty
+year: 2026
+description: "A full-time academic appointment in geographic sciences at UCLouvain's Faculty of Sciences and Earth and Life Institute focused on the geography of the physical environment and climate."
+scope: adjacent
+topics:
+  - geography
+  - climate
+website: "https://uclouvain.be/en/research-institutes/eli/open-positions"
+sources:
+  - label: "Official UCLouvain Earth and Life Institute jobs page"
+    url: "https://uclouvain.be/en/research-institutes/eli/open-positions"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Louvain-la-Neuve"
+  country: "Belgium"
+  country_code: "BE"
+organizations:
+  - "UCLouvain"
+  - "Faculty of Sciences"
+  - "Earth and Life Institute"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-05"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

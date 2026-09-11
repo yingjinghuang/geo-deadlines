@@ -1,0 +1,37 @@
+title: "Assistant Professor in Urban Economic Geography"
+short_name: "UNCG Urban Economic Geography Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-track Assistant Professor position in Geography, Environment, and Sustainability at UNC Greensboro focused on urban and regional economic geography, including areas such as smart cities, transportation, regional development, and related spatial approaches."
+scope: core
+topics:
+  - geography
+  - urban
+  - mobility
+  - spatial-data-science
+  - sustainability
+website: "https://spartantalent.uncg.edu/postings/35916"
+sources:
+  - label: "Official UNC Greensboro faculty posting"
+    url: "https://spartantalent.uncg.edu/postings/35916"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Greensboro"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of North Carolina at Greensboro"
+  - "Department of Geography, Environment, and Sustainability"
+deadlines:
+  - id: best-consideration
+    type: application
+    label: "Best Consideration"
+    datetime: "2026-10-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Review begins on October 15, 2026 and continues until the position is filled."

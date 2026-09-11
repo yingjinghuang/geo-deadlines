@@ -1,0 +1,34 @@
+title: "University Assistant Professor in Polar Studies"
+short_name: "Cambridge Polar Studies Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "An academic faculty position jointly based in the University of Cambridge Department of Geography and Scott Polar Research Institute, covering polar environments, landscapes, Earth-system interactions, and social or human dimensions."
+scope: adjacent
+topics:
+  - geography
+  - climate
+website: "https://www.cam.ac.uk/jobs/university-assistant-professor-in-polar-studies-lc49794"
+sources:
+  - label: "Official University of Cambridge vacancy LC49794"
+    url: "https://www.cam.ac.uk/jobs/university-assistant-professor-in-polar-studies-lc49794"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Cambridge"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Cambridge"
+  - "Department of Geography"
+  - "Scott Polar Research Institute"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-21"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

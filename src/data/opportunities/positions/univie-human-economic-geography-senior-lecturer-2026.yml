@@ -1,0 +1,33 @@
+title: "Senior Lecturer in Human and Economic Geography"
+short_name: "UniVie Human + Economic Geography Senior Lecturer"
+type: position
+position_category: faculty
+year: 2026
+description: "A Senior Lecturer position at the University of Vienna Department of Geography and Regional Research teaching human and economic geography and socioeconomic sustainability transformations, with research tasks also expected."
+scope: adjacent
+topics:
+  - geography
+  - sustainability
+website: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28wissenschaftliche-Lehre%29/1424681033/"
+sources:
+  - label: "Official University of Vienna vacancy 5954"
+    url: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28wissenschaftliche-Lehre%29/1424681033/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "University of Vienna"
+  - "Department of Geography and Regional Research"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-20"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
