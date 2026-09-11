@@ -36,11 +36,12 @@ Faculty hiring is easy to undercount if discovery relies only on titles containi
 
 1. Search relevant departments and university faculty portals, not only aggregator feeds. High-value department families include Geography, Geomatics, GIScience, Geospatial/Data Science, Remote Sensing/Earth Observation, Urban/Regional Planning, Environmental Science, and closely related interdisciplinary units.
 2. Search rank terms including Assistant Professor, Associate Professor, tenure-track, tenure-stream, and equivalent international academic titles. Include research-active lecturer or academic posts when they are materially comparable.
-3. Evaluate the full job description, not just the title. Searches titled Physical Geography, Climate Science, Urban Sustainability, Global Environmental Change, or similar can be core GeoDeadlines opportunities when the description materially involves GIScience, spatial modelling/statistics, Earth observation, remote sensing, GeoAI, mobility, or geospatial data science.
-4. Use aggregators such as GISphere only as discovery feeders; no single feed should be treated as complete for faculty hiring.
-5. Prefer official university HR, academic-personnel, department, or faculty-recruitment pages as canonical sources.
-6. For `review begins` or `full consideration` postings that remain open until filled, record that review/full-consideration date and state explicitly in `note` that the search remains open until filled.
-7. Keep broad climate/environment faculty searches as `adjacent` unless their methodological, departmental, or research fit is clearly geospatial.
+3. Do **not** infer career stage from region-dependent titles alone. `Lecturer`, `Senior Lecturer`, `Research Fellow`, `Senior Scientist`, and similar labels can map to faculty, postdoc, or staff categories depending on the institution and country. Check the official contract classification, appointment track, and eligibility requirements; when ambiguous, set `position_category` explicitly from the official source rather than relying on title inference.
+4. Evaluate the full job description, not just the title. Searches titled Physical Geography, Climate Science, Urban Sustainability, Global Environmental Change, or similar can be core GeoDeadlines opportunities when the description materially involves GIScience, spatial modelling/statistics, Earth observation, remote sensing, GeoAI, mobility, or geospatial data science.
+5. Use aggregators such as GISphere only as discovery feeders; no single feed should be treated as complete for faculty hiring.
+6. Prefer official university HR, academic-personnel, department, or faculty-recruitment pages as canonical sources.
+7. For `review begins` or `full consideration` postings that remain open until filled, record that review/full-consideration date and state explicitly in `note` that the search remains open until filled.
+8. Keep broad climate/environment faculty searches as `adjacent` unless their methodological, departmental, or research fit is clearly geospatial.
 
 ## Journal discovery sweep
 
