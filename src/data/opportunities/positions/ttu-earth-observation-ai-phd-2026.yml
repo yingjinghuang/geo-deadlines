@@ -1,0 +1,40 @@
+title: "Two Funded PhD Positions in AI for Weather–Water Prediction and Earth Observations"
+short_name: "Texas Tech Earth Observation AI PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Two funded PhD opportunities in Texas Tech University Atmospheric Science for Spring and Fall 2027, focused on AI for weather–water prediction, hydrometeorological extremes, multimodal Earth observations, geoscience foundation models, and physics-informed AI."
+scope: core
+topics:
+  - earth-observation
+  - remote-sensing
+  - machine-learning
+  - climate
+  - spatial-data-science
+website: "https://www.depts.ttu.edu/geosciences/people/atmo/Liu.php"
+sources:
+  - label: "Official Texas Tech faculty page and prospective-student notice"
+    url: "https://www.depts.ttu.edu/geosciences/people/atmo/Liu.php"
+    kind: official
+  - label: "Public recruiting announcement for Spring and Fall 2027"
+    url: "https://www.linkedin.com/posts/arshad-rauf-phd-a2844367_ttu-recruitment-activity-7500448770980216832-mBdz"
+    kind: announcement
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Lubbock"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "Texas Tech University"
+  - "Department of Geosciences"
+  - "Atmospheric Science"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official faculty page states that funded PhD positions are available for Spring 2027 and Fall 2027 and encourages prospective students to contact the PI. No final closing date is stated on the sources checked."

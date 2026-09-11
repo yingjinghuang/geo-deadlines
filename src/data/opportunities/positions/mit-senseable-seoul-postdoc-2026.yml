@@ -1,0 +1,46 @@
+title: "Postdoctoral Fellows — Senseable City Seoul"
+short_name: "MIT Senseable City Seoul Postdocs"
+type: position
+position_category: postdoc
+year: 2026
+description: "Open postdoctoral opportunities at MIT Senseable City Seoul at the intersection of AI, urban social dynamics, pedestrian behaviour, public space, multimodal urban data, computer vision, and urban networks, using spatial and network analysis to study how people move, interact, and adapt in cities."
+scope: core
+topics:
+  - urban
+  - geoai
+  - mobility
+  - spatial-data-science
+  - machine-learning
+  - spatial-computing
+website: "https://senseableseoul.mit.edu/"
+sources:
+  - label: "Official Senseable City Seoul join page"
+    url: "https://senseableseoul.mit.edu/"
+    kind: official
+  - label: "Official Senseable City Seoul open-positions PDF"
+    url: "https://senseabledb.mit.edu/system/positions/pdfs/000/000/037/original/Seoul_Open_Positions_20251107.pdf"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Seoul"
+  country: "South Korea"
+  country_code: "KR"
+organizations:
+  - "Massachusetts Institute of Technology"
+  - "MIT Senseable City Lab"
+  - "Senseable City Seoul"
+tracks:
+  - "AI and Urban Social Dynamics"
+  - "Urban Ethnography and Data Analysis"
+  - "Computer Vision and Multimodal AI"
+  - "Urban Networks and Systems"
+deadlines:
+  - id: application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official open-positions PDF states that applications are reviewed on a rolling basis until the position is filled."

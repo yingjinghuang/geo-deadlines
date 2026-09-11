@@ -1,0 +1,42 @@
+title: "Fully Funded PhD Position in GeoAI and Geospatial Computing"
+short_name: "UIUC GeoCompSoc GeoAI PhD"
+type: position
+position_category: phd
+year: 2026
+description: "A fully funded Fall 2027 PhD opportunity in the University of Illinois Urbana-Champaign Department of Geography & Geographic Information Science with the Geospatial Computing and Society Lab, focused on GeoAI, spatial data science, location privacy, socio-spatial inequality, and responsible geospatial computing."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - geography
+  - urban
+  - machine-learning
+website: "https://geocompsoc.web.illinois.edu/"
+sources:
+  - label: "Yue Lin recruiting announcement for Fall 2027 GeoAI PhD"
+    url: "https://www.linkedin.com/posts/yue-lin-9536b019b_the-geospatial-computing-and-society-lab-activity-7479654533305094144-idSt"
+    kind: announcement
+  - label: "Official Illinois GGIS Fall 2027 graduate admissions"
+    url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Urbana-Champaign"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Illinois Urbana-Champaign"
+  - "Department of Geography & Geographic Information Science"
+  - "Geospatial Computing and Society Lab"
+deadlines:
+  - id: application
+    type: application
+    label: "Fall 2027 PhD Application"
+    datetime: "2026-12-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The PI recruiting announcement asks prospective students to contact the lab; the official GGIS graduate application deadline for Fall 2027 is December 15, 2026."

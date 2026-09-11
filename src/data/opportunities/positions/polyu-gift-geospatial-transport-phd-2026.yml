@@ -1,0 +1,41 @@
+title: "1–2 Fully Funded PhD Positions in Geospatial Intelligence for Transport"
+short_name: "PolyU GIFT Transport GeoAI PhD"
+type: position
+position_category: phd
+year: 2026
+description: "One to two fully funded PhD positions in the GIFT Lab at Hong Kong Polytechnic University for Fall 2027, covering spatial data science in transport, active transport and micro-mobility, road asset digitisation, and inequality, safety, and accessibility for marginalised road users."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - mobility
+  - urban
+  - geoai
+website: "https://www.geo-gift-lab.com/openings"
+sources:
+  - label: "Official GIFT Lab openings page"
+    url: "https://www.geo-gift-lab.com/openings"
+    kind: official
+  - label: "Xiao Li recruiting announcement for Fall 2027"
+    url: "https://www.linkedin.com/posts/xiao-li-83aa23a4_phdmphilvisiting-student-recruitment-activity-7490675757250342912-hHOD"
+    kind: announcement
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The Hong Kong Polytechnic University"
+  - "Department of Land Surveying and Geospatial Science"
+  - "Geospatial Intelligence for Transport Lab"
+deadlines:
+  - id: application
+    type: application
+    label: "September 2027 Entry Application"
+    datetime: "2027-05-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official lab page states that the application period for September 2027 entry runs from September 1, 2026 through May 31, 2027. Prospective PhD applicants are also asked to email the PI with a CV, one-page research plan, and writing sample."

@@ -1,0 +1,42 @@
+title: "Fully Funded PhD in Participatory and Physics-Informed GeoAI for Urban Heat Adaptation"
+short_name: "USask GIG-Cities Urban Heat GeoAI PhD"
+type: position
+position_category: phd
+year: 2026
+description: "A Winter 2027 PhD opportunity in the University of Saskatchewan GIG-Cities Lab developing participatory and physics-informed GeoAI for equitable urban heat adaptation, combining spatial data, climate modelling, optimization, and community-informed planning."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - urban
+  - climate
+  - sustainability
+  - spatial-data-science
+  - remote-sensing
+website: "https://research-groups.usask.ca/gig-cities-lab/index.php"
+sources:
+  - label: "Official GIG-Cities Lab graduate recruitment page"
+    url: "https://research-groups.usask.ca/gig-cities-lab/contact-us/instructions.php"
+    kind: official
+  - label: "Varuni Jayasooriya recruiting announcement for Winter 2027"
+    url: "https://www.linkedin.com/posts/varuni-jayasooriya-00233667_phdposition-fullyfundedphd-geoai-activity-7493498237882880000-j2eB"
+    kind: announcement
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Saskatoon"
+  country: "Canada"
+  country_code: "CA"
+organizations:
+  - "University of Saskatchewan"
+  - "School of Environment and Sustainability"
+  - "Geospatial Intelligence for Green Cities Lab"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The current PI announcement specifies Winter 2027 entry but does not state a final closing date. The official lab page confirms active graduate recruitment in GeoAI, spatiotemporal data mining, GIS, computer vision, and urban environmental modelling."

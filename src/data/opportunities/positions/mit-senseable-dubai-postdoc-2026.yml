@@ -1,0 +1,48 @@
+title: "Postdoctoral Fellows — Senseable City Dubai"
+short_name: "MIT Senseable City Dubai Postdocs"
+type: position
+position_category: postdoc
+year: 2026
+description: "Open postdoctoral opportunities at MIT Senseable City Dubai spanning environmental AI, urban cooling, greenery and climate analytics, computer vision and multimodal AI, and urban networks and systems, with work on sensing, satellite/drone/thermal imagery, urban mobility, and data-driven urban research."
+scope: core
+topics:
+  - urban
+  - geoai
+  - remote-sensing
+  - earth-observation
+  - mobility
+  - climate
+  - machine-learning
+  - spatial-data-science
+website: "https://senseabledubai.mit.edu/"
+sources:
+  - label: "Official Senseable City Dubai join page"
+    url: "https://senseabledubai.mit.edu/"
+    kind: official
+  - label: "Official Senseable City Dubai open-positions PDF"
+    url: "https://senseabledb.mit.edu/system/positions/pdfs/000/000/034/original/Dubai_Open_Positions_20251107.pdf"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Dubai"
+  country: "United Arab Emirates"
+  country_code: "AE"
+organizations:
+  - "Massachusetts Institute of Technology"
+  - "MIT Senseable City Lab"
+  - "Senseable City Dubai"
+tracks:
+  - "Environmental AI and Urban Cooling"
+  - "Green Infrastructure and Climate Analytics"
+  - "Computer Vision and Multimodal AI"
+  - "Urban Networks and Systems"
+deadlines:
+  - id: application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The official open-positions PDF states that applications are reviewed on a rolling basis until the position is filled."

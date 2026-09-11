@@ -43,6 +43,17 @@ Faculty hiring is easy to undercount if discovery relies only on titles containi
 7. For `review begins` or `full consideration` postings that remain open until filled, record that review/full-consideration date and state explicitly in `note` that the search remains open until filled.
 8. Keep broad climate/environment faculty searches as `adjacent` unless their methodological, departmental, or research fit is clearly geospatial.
 
+## Public social and lab-announcement discovery
+
+Many PhD and postdoc openings are announced first or only through PI/lab channels, especially rolling or email-to-apply searches. Every substantive position refresh should therefore include a targeted sweep of public, indexable social and lab announcements in addition to university job portals.
+
+1. Search public LinkedIn posts/profiles, lab websites, faculty opportunity pages, department news, and similar sources using combinations such as `GeoAI PhD`, `GIScience PhD`, `remote sensing postdoc`, `Earth observation postdoc`, `spatial data science`, `urban AI`, `mobility`, and `geospatial` plus rank terms.
+2. Treat social posts as **discovery signals**, not authoritative status pages. After finding a lead, check the current university, department, lab, or PI page whenever available.
+3. If a social post says `rolling`, `open until filled`, or gives an old review date, re-check whether the official/lab page still shows the search as open. If the official page says the position is closed, the official page wins even when the social post remains indexed.
+4. A PI/lab announcement may be used as the primary announcement source when no central HR posting exists, provided the PI's institutional identity, research fit, application route, and opportunity details can be independently tied to the institution.
+5. For genuinely rolling searches with no final closing date, keep the opportunity active with `datetime: "TBD"` and explicitly state `rolling until filled` in the deadline note. Do not invent a replacement deadline from an old review date.
+6. Do not infer that a recently indexed or reshared social post is newly opened. Check the underlying posting date and any official close/review status before adding it.
+
 ## Journal discovery sweep
 
 `src/data/journal-watchlist.yml` is the source of truth for journals that should be checked during every substantive GeoDeadlines data refresh. The watchlist is discovery-only and is intentionally outside `src/data/opportunities/`, so ordinary journal homepages never appear as deadline cards.
