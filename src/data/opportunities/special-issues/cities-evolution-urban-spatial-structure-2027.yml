@@ -12,7 +12,7 @@ sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-08-11"
+last_verified: "2026-09-11"
 guest_editors:
   - name: "Bindong Sun"
   - name: "Evert Meijers"

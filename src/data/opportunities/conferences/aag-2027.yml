@@ -16,7 +16,7 @@ sources:
   - label: "Official AAG 2027 meeting page"
     url: "https://www.aag.org/events/aag2027/"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-02-08"
   end: "2027-02-12"
@@ -36,4 +36,19 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    primary: true
     note: "The official annual-meeting page gives the date but does not state an exact submission time."
+  - id: session-organizing
+    type: other
+    label: "Session Organizing"
+    datetime: "2026-11-05"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-session-editing
+    type: revision
+    label: "Abstract / Session Editing"
+    datetime: "2026-12-17"
+    precision: date
+    timezone: null
+    status: active

@@ -16,7 +16,7 @@ sources:
   - label: "Official ScienceDirect special issue page"
     url: "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
     kind: publisher
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 guest_editors:
   - name: "Huanfa Chen"
   - name: "Yingjie Hu"

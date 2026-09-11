@@ -18,7 +18,7 @@ sources:
   - label: "ISPRS 2027 calendar"
     url: "https://isprs.org/calendar/2027.aspx"
     kind: official
-last_verified: "2026-08-10"
+last_verified: "2026-09-11"
 event:
   start: "2027-09-19"
   end: "2027-09-24"

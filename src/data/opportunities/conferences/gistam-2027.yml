@@ -23,7 +23,7 @@ sources:
   - label: "Official GISTAM 2027 venue information"
     url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-04-20"
   end: "2027-04-22"

@@ -15,7 +15,7 @@ sources:
   - label: "Official University of Vienna vacancy"
     url: "https://jobs.univie.ac.at/job/University-assistant-predoctoral/1426976233/-university_assistant_predoctoral-universitaet_wien?locale=en_US"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 location:
   mode: in_person
   city: "Vienna"
@@ -28,8 +28,9 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-09-11"
+    datetime: "2026-09-20"
     precision: date
     timezone: null
     status: active
     primary: true
+    note: "The University of Vienna vacancy page currently lists 20 September 2026; this supersedes the previously tracked 11 September deadline."

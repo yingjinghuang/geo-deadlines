@@ -16,7 +16,7 @@ sources:
   - label: "Official AGU27 meeting page"
     url: "https://www.agu.org/meetings/all-meetings/agu27"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-12-13"
   end: "2027-12-17"

@@ -19,7 +19,7 @@ sources:
   - label: "Official IGARSS 2027 call for papers"
     url: "https://2027.ieeeigarss.org/call_for_papers.php"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -43,4 +43,5 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "The official important-dates page gives the date but does not state an exact submission time or timezone."
+    primary: true
+    note: "The official Important Dates page and the CFP Key Dates both list 11 January 2027. A sentence in the CFP body still says 10 January, so GeoDeadlines uses the dedicated Important Dates schedule as canonical."

@@ -22,7 +22,7 @@ sources:
   - label: "Official EARSeL 2027 abstract submission page"
     url: "https://symposium.earsel.org/46th-symposium-Turin/?page_id=45"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-06-01"
   end: "2027-06-04"
@@ -45,8 +45,9 @@ deadlines:
   - id: abstract
     type: abstract
     label: "Abstract"
-    datetime: "2026-11-15"
+    datetime: "2026-11-30"
     precision: date
     timezone: null
     status: active
-    note: "The official abstract-submission page says submissions are due before 15 November 2026, while the symposium Important Dates page currently lists 30 November 2026. GeoDeadlines uses the earlier date pending reconciliation by the organizers."
+    primary: true
+    note: "The conference-wide Important Dates page now lists 30 November 2026. The abstract-submission subpage still shows the earlier 15 November date, so GeoDeadlines treats the master schedule as the current extended deadline while retaining this discrepancy for future checks."

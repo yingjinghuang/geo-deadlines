@@ -24,7 +24,7 @@ sources:
   - label: "Official ICLR 2027 author guidelines"
     url: "https://iclr.cc/Conferences/2027/AuthorGuidelines"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-04-26"
   end: "2027-04-30"

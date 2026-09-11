@@ -23,7 +23,7 @@ sources:
   - label: "Official WACV 2027 call for papers"
     url: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-09-11"
 event:
   start: "2027-01-04"
   end: "2027-01-08"
