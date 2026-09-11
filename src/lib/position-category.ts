@@ -21,7 +21,7 @@ export function resolvePositionCategory(data: PositionCategoryInput): PositionCa
   const matches = new Set<PositionCategory>();
   if (/\b(phd|doctoral|predoc|predoctoral|doctorate)\b/.test(text)) matches.add('phd');
   if (/\b(postdoc|postdoctoral)\b/.test(text)) matches.add('postdoc');
-  if (/\b(assistant professor|associate professor|full professor|professor|faculty|lecturer)\b/.test(text)) matches.add('faculty');
+  if (/\b(assistant professor|associate professor|full professor|professor|faculty)\b/.test(text)) matches.add('faculty');
   if (/\b(research assistant|student assistant|intern|internship|master's student|masters student|master's thesis|masters thesis)\b/.test(text)) matches.add('student_ra_intern');
 
   if (matches.size > 1) return 'mixed';
