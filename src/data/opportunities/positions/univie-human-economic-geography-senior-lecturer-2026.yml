@@ -1,17 +1,17 @@
 title: "Senior Lecturer in Human and Economic Geography"
 short_name: "UniVie Human + Economic Geography Senior Lecturer"
 type: position
-position_category: faculty
+position_category: postdoc
 year: 2026
-description: "A Senior Lecturer position at the University of Vienna Department of Geography and Regional Research teaching human and economic geography and socioeconomic sustainability transformations, with research tasks also expected."
+description: "A 20-hour/week Senior Lecturer position at the University of Vienna Department of Geography and Regional Research focused primarily on teaching human and economic geography at Bachelor's and Master's level. The official vacancy classifies the contract as CBA §48 VwGr. B1 lit. b (postdoc); research tasks are also expected, and a positive evaluation can lead to a permanent position."
 scope: adjacent
 topics:
   - geography
   - sustainability
-website: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28wissenschaftliche-Lehre%29/1424681033/"
+website: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28academic-teaching%29/1424681133/"
 sources:
   - label: "Official University of Vienna vacancy 5954"
-    url: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28wissenschaftliche-Lehre%29/1424681033/"
+    url: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28academic-teaching%29/1424681133/"
     kind: official
 last_verified: "2026-09-11"
 location:
@@ -31,3 +31,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "Official vacancy classification: CBA §48 VwGr. B1 lit. b (postdoc). The position starts 1 February 2027 and may become permanent after a positive evaluation."
