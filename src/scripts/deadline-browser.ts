@@ -1,5 +1,6 @@
 interface FilterState {
   type: string;
+  positionCategory: string;
   time: string;
   scope: string;
   topics: string[];
@@ -25,7 +26,7 @@ const TYPE_FEEDS: Record<string, CalendarFeed> = {
 };
 
 function loadState(fixedType: string, defaultSort: string): FilterState {
-  const fallback = { type: fixedType || 'all', time: 'all', scope: 'all', topics: [], sort: defaultSort, year: 'all', journal: 'all' };
+  const fallback = { type: fixedType || 'all', positionCategory: 'all', time: 'all', scope: 'all', topics: [], sort: defaultSort, year: 'all', journal: 'all' };
   try {
     const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}') as Partial<FilterState>;
     return { ...fallback, ...stored, type: fixedType || stored.type || 'all', sort: stored.sort || defaultSort };
@@ -44,9 +45,14 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   const sort = browser.querySelector<HTMLSelectElement>('[data-sort-select]');
   const year = document.querySelector<HTMLSelectElement>('[data-filter-year]');
   const journal = document.querySelector<HTMLSelectElement>('[data-filter-journal]');
+  const positionCategoryButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter-position-category]')];
+  const hasPositionCategoryFilter = positionCategoryButtons.length > 0;
   const topicButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter-topic]')];
   const topicLabels = new Map(topicButtons.map((button) => [button.dataset.filterTopic ?? '', button.textContent?.trim() ?? '']));
   state.topics = state.topics.filter((topic) => topicLabels.has(topic));
+  if (hasPositionCategoryFilter && !positionCategoryButtons.some((button) => button.dataset.filterPositionCategory === state.positionCategory)) {
+    state.positionCategory = 'all';
+  }
 
   const subscribe = document.querySelector<HTMLDetailsElement>('[data-calendar-subscribe]');
   const subscribeList = subscribe?.querySelector<HTMLElement>('[data-subscribe-list]');
@@ -95,16 +101,18 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
 
     const hasUnsupportedFilter = state.time !== 'all'
       || state.scope !== 'all'
+      || (hasPositionCategoryFilter && state.positionCategory !== 'all')
       || Boolean(search?.value.trim())
       || Boolean(journal && state.journal !== 'all');
     subscribeNote.hidden = !hasUnsupportedFilter;
     if (hasUnsupportedFilter) {
-      subscribeNote.textContent = 'Deadline-window, scope, journal, and search filters refine the page only; they do not have separate live calendar feeds.';
+      subscribeNote.textContent = 'Deadline-window, scope, role, journal, and search filters refine the page only; they do not have separate live calendar feeds.';
     }
   }
 
   function renderControls() {
     document.querySelectorAll<HTMLButtonElement>('[data-filter-type]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterType === state.type)));
+    positionCategoryButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterPositionCategory === state.positionCategory)));
     document.querySelectorAll<HTMLButtonElement>('[data-filter-time]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterTime === state.time)));
     document.querySelectorAll<HTMLButtonElement>('[data-filter-scope]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filterScope === state.scope)));
     topicButtons.forEach((button) => button.setAttribute('aria-pressed', String(state.topics.includes(button.dataset.filterTopic ?? ''))));
@@ -122,6 +130,7 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
       const topics = (card.dataset.topics ?? '').split(' ');
       const withinWindow = state.time === 'all' || (deadline > now && deadline - now <= Number(state.time) * 86_400_000);
       const match = (state.type === 'all' || card.dataset.type === state.type)
+        && (!hasPositionCategoryFilter || state.positionCategory === 'all' || card.dataset.positionCategory === state.positionCategory)
         && (state.scope === 'all' || card.dataset.scope === state.scope)
         && (!state.topics.length || state.topics.every((topic) => topics.includes(topic)))
         && (!query || (card.dataset.search ?? '').includes(query))
@@ -157,10 +166,12 @@ document.querySelectorAll<HTMLElement>('[data-deadline-browser]').forEach((brows
   document.addEventListener('click', (event) => {
     const target = event.target as HTMLElement;
     const type = target.closest<HTMLButtonElement>('[data-filter-type]');
+    const positionCategory = target.closest<HTMLButtonElement>('[data-filter-position-category]');
     const time = target.closest<HTMLButtonElement>('[data-filter-time]');
     const scope = target.closest<HTMLButtonElement>('[data-filter-scope]');
     const topic = target.closest<HTMLButtonElement>('[data-filter-topic]');
     if (type) state.type = type.dataset.filterType ?? 'all';
+    else if (positionCategory) state.positionCategory = positionCategory.dataset.filterPositionCategory ?? 'all';
     else if (time) state.time = time.dataset.filterTime ?? 'all';
     else if (scope) state.scope = scope.dataset.filterScope ?? 'all';
     else if (topic) {

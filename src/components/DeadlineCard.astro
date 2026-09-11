@@ -4,6 +4,7 @@ import { futureSubmissionDeadlines } from '../lib/deadlines';
 import { googleCalendarUrl } from '../lib/calendar';
 import { opportunityUrl } from '../lib/urls';
 import { searchableText } from '../lib/search';
+import { POSITION_CATEGORY_LABELS, resolvePositionCategory } from '../lib/position-category';
 import OpportunityBadge from './OpportunityBadge.astro';
 import TopicBadge from './TopicBadge.astro';
 import VerificationBadge from './VerificationBadge.astro';
@@ -30,6 +31,7 @@ const calendarPayload = future.map((deadline) => ({
 }));
 const location = data.location?.mode === 'virtual' ? 'Virtual' : [data.location?.city, data.location?.country].filter(Boolean).join(', ');
 const venueLine = data.type === 'special_issue' ? data.journal?.name : data.type === 'position' ? data.organizations?.[0] : data.parent?.name;
+const positionCategory = resolvePositionCategory(data);
 ---
 
 <article
@@ -37,6 +39,7 @@ const venueLine = data.type === 'special_issue' ? data.journal?.name : data.type
   data-opportunity-card
   data-id={item.id}
   data-type={data.type}
+  data-position-category={positionCategory ?? ''}
   data-scope={data.scope}
   data-topics={data.topics.join(' ')}
   data-journal={data.journal?.name ?? ''}
@@ -57,6 +60,7 @@ const venueLine = data.type === 'special_issue' ? data.journal?.name : data.type
     <p class="description">{data.description}</p>
     <div class="topics" aria-label="Topics">{topicLabels.map((label) => <TopicBadge label={label} />)}</div>
     <div class="meta-row">
+      {positionCategory && <span>Role: {POSITION_CATEGORY_LABELS[positionCategory]}</span>}
       {location && <span>⌖ {location}</span>}
       {data.event && <span>□ Event: {data.event.start} – {data.event.end}</span>}
       {data.parent && <span>↳ {data.parent.name}</span>}

@@ -1,4 +1,5 @@
 export type OpportunityType = 'conference' | 'special_issue' | 'workshop' | 'position';
+export type PositionCategory = 'phd' | 'postdoc' | 'faculty' | 'research_staff' | 'student_ra_intern' | 'mixed';
 export type Scope = 'core' | 'adjacent';
 export type DeadlineStatus = 'active' | 'superseded' | 'cancelled';
 export type DeadlinePrecision = 'datetime' | 'date';
@@ -20,6 +21,7 @@ export interface OpportunityData {
   title: string;
   short_name?: string;
   type: OpportunityType;
+  position_category?: PositionCategory;
   series?: string;
   year: number;
   description: string;

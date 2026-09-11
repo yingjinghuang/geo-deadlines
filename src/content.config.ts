@@ -38,6 +38,7 @@ const opportunities = defineCollection({
     title: z.string().min(1),
     short_name: z.string().optional(),
     type: z.enum(['conference', 'special_issue', 'workshop', 'position']),
+    position_category: z.enum(['phd', 'postdoc', 'faculty', 'research_staff', 'student_ra_intern', 'mixed']).optional(),
     series: z.string().optional(),
     year: z.number().int().min(2000).max(2100),
     description: z.string().min(1),
