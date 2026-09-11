@@ -1,0 +1,39 @@
+title: "Tenure-Stream Assistant Professor in Geography — Climate Science"
+short_name: "Colgate Climate Geography Faculty"
+type: position
+year: 2026
+description: "A tenure-stream Assistant Professor position in Colgate Geography seeking a climate scientist using geospatial analysis across physical geography or human-environment climate questions, with teaching in climate science, physical geography, and GIS."
+scope: core
+topics:
+  - geography
+  - climate
+  - giscience
+  - spatial-data-science
+website: "https://www.colgate.edu/jobs-colgate/faculty-positions"
+submission_url: "https://apply.interfolio.com/189915"
+sources:
+  - label: "Official Colgate University faculty positions page"
+    url: "https://www.colgate.edu/jobs-colgate/faculty-positions"
+    kind: official
+  - label: "Official Colgate Geography search guidance"
+    url: "https://www.colgate.edu/academics/departments-programs/department-geography/faculty-position-assistant-professor-climate"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hamilton"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "Colgate University"
+  - "Department of Geography"
+deadlines:
+  - id: priority-review
+    type: application
+    label: "Review Begins"
+    datetime: "2026-09-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Review begins on this date and continues until the position is filled."

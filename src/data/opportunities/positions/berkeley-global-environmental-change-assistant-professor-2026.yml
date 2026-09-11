@@ -1,0 +1,34 @@
+title: "Assistant Professor — Impacts of Global Environmental Change"
+short_name: "Berkeley Geography Faculty"
+type: position
+year: 2026
+description: "A tenure-track Assistant Professor position in UC Berkeley Geography focused on the mechanisms and impacts of global environmental change, with explicit strengths in spatial statistics, spatial modelling, quantitative environmental analysis, and geospatial representation."
+scope: core
+topics:
+  - geography
+  - climate
+  - sustainability
+  - spatial-statistics
+  - spatial-data-science
+website: "https://aprecruit.berkeley.edu/JPF05449"
+sources:
+  - label: "Official UC Berkeley Academic Personnel Recruit posting JPF05449"
+    url: "https://aprecruit.berkeley.edu/JPF05449"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Berkeley"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of California, Berkeley"
+  - "Department of Geography"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-02T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+    primary: true

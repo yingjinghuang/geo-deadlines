@@ -1,0 +1,35 @@
+title: "Assistant Professor of Physical Geography"
+short_name: "CSUF Physical Geography Faculty"
+type: position
+year: 2026
+description: "A tenure-track Assistant Professor position in Cal State Fullerton Geography & the Environment for Fall 2027, with emphasis on physical geography and preferred integration of GIS in research and teaching."
+scope: core
+topics:
+  - geography
+  - giscience
+  - remote-sensing
+  - sustainability
+website: "https://careers.pageuppeople.com/873/cw/en-us/job/560304/assistant-professor-of-physical-geography"
+sources:
+  - label: "Official California State University vacancy 560304"
+    url: "https://careers.pageuppeople.com/873/cw/en-us/job/560304/assistant-professor-of-physical-geography"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Fullerton"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "California State University, Fullerton"
+  - "Department of Geography & the Environment"
+deadlines:
+  - id: full-consideration
+    type: application
+    label: "Full Consideration"
+    datetime: "2026-11-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Applications submitted by this date are assured full consideration."

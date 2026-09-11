@@ -1,0 +1,37 @@
+title: "Tenure-Track Assistant Professor in Physical Geography"
+short_name: "HKU Physical Geography + AI Faculty"
+type: position
+year: 2026
+description: "A tenure-track Assistant Professor position in HKU Geography seeking physical-geography expertise combined with AI-driven environmental analysis, Earth observation, modelling, and geospatial data science."
+scope: core
+topics:
+  - geography
+  - geoai
+  - remote-sensing
+  - earth-observation
+  - climate
+  - spatial-data-science
+website: "https://jobs.hku.hk/cw/en/job/536999/"
+sources:
+  - label: "Official University of Hong Kong vacancy 536999"
+    url: "https://jobs.hku.hk/cw/en/job/536999/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The University of Hong Kong"
+  - "Department of Geography"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official posting lists 30 September 2026 as the closing date and says review begins on 1 October 2026."
