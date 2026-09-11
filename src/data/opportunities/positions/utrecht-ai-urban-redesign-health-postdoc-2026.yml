@@ -1,0 +1,36 @@
+title: "Postdoc — AI-driven Urban (Re)Design for Health"
+short_name: "Utrecht Urban GeoAI Postdoc"
+type: position
+year: 2026
+description: "A postdoctoral position at Utrecht University developing an AI-enabled urban-design recommender system that combines street-view imagery, geospatial data, mobility data, and multimodal foundation models for healthier and more equitable cities."
+scope: core
+topics:
+  - geoai
+  - urban
+  - spatial-data-science
+  - mobility
+  - computer-vision
+  - machine-learning
+website: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-ai-driven-urban-redesign-for-health"
+sources:
+  - label: "Official Utrecht University vacancy"
+    url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-ai-driven-urban-redesign-for-health"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Utrecht"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Utrecht University"
+  - "Department of Human Geography and Spatial Planning"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

@@ -1,0 +1,35 @@
+title: "PhD Research Fellow in Remote Sensing of the Cryosphere"
+short_name: "UiO Cryosphere RS PhD"
+type: position
+year: 2026
+description: "A University of Oslo PhD fellowship in remote sensing of the terrestrial cryosphere within the Department of Geosciences, spanning physical geography, geomatics, glaciology, and Earth observation."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - climate
+  - geography
+  - spatial-data-science
+website: "https://www.jobbnorge.no/ledige-stillinger/stilling/308026/phd-research-fellow-in-remote-sensing-of-the-cryosphere"
+sources:
+  - label: "Official University of Oslo / Jobbnorge vacancy"
+    url: "https://www.jobbnorge.no/ledige-stillinger/stilling/308026/phd-research-fellow-in-remote-sensing-of-the-cryosphere"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Oslo"
+  country: "Norway"
+  country_code: "NO"
+organizations:
+  - "University of Oslo"
+  - "Department of Geosciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-13"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

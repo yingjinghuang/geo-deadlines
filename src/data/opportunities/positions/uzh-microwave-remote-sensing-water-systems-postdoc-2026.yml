@@ -1,0 +1,35 @@
+title: "Postdoctoral Researcher — Microwave Remote Sensing for Water Systems Research"
+short_name: "UZH Microwave RS Postdoc"
+type: position
+year: 2026
+description: "A postdoctoral position in the University of Zurich and Eawag Remote Sensing of Water Systems group, focused on satellite microwave remote sensing including SAR, GNSS reflectometry/transmissivity, altimetry, and multi-sensor approaches for water-system research."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+website: "https://www.geo.uzh.ch/en/services/open-positions/"
+sources:
+  - label: "Official UZH Department of Geography open positions"
+    url: "https://www.geo.uzh.ch/en/services/open-positions/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Zurich"
+  country: "Switzerland"
+  country_code: "CH"
+organizations:
+  - "University of Zurich"
+  - "Eawag"
+  - "Remote Sensing of Water Systems group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

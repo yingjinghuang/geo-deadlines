@@ -1,0 +1,37 @@
+title: "PhD Thesis — Applying Satellite-Based Remote Sensing to Transportation Infrastructure Monitoring"
+short_name: "AIT Satellite RS PhD"
+type: position
+year: 2026
+description: "A PhD position at AIT in Vienna developing satellite-based remote-sensing methods for monitoring roads, railways, waterways, bridges, and related infrastructure using radar, optical, thermal, and Copernicus Sentinel observations."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - mobility
+website: "https://jobs.ait.ac.at/Job/270413"
+sources:
+  - label: "Official AIT vacancy"
+    url: "https://jobs.ait.ac.at/Job/270413"
+    kind: official
+  - label: "FWF job board listing"
+    url: "https://www.fwf.ac.at/aktuelles/jobboerse/jobdetail/phd-thesis-applying-satellite-based-remote-sensing-to-transportation-infrastructure-monitoring"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "AIT Austrian Institute of Technology"
+  - "Center for Transport Technologies"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

@@ -1,0 +1,39 @@
+title: "Postdoctoral Research Associate (Senior Scientist) — Remote Sensing and Machine Learning"
+short_name: "BOKU Geomatics Senior Scientist"
+type: position
+year: 2026
+description: "A long-term Senior Scientist position at BOKU's Institute of Geomatics to establish an independent research line in advanced machine learning and deep learning for satellite Earth observation, airborne and terrestrial laser scanning, and environmental remote sensing."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+  - computer-vision
+  - spatial-data-science
+website: "https://euraxess.ec.europa.eu/jobs/459719"
+sources:
+  - label: "Official BOKU internal job board"
+    url: "https://boku.ac.at/en/pers/interne-jobboerse"
+    kind: official
+  - label: "EURAXESS vacancy 459719"
+    url: "https://euraxess.ec.europa.eu/jobs/459719"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Vienna"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "BOKU University"
+  - "Institute of Geomatics"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-06"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

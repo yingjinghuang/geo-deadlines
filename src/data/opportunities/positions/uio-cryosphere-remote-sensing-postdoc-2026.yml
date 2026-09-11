@@ -1,0 +1,35 @@
+title: "Postdoctoral Research Fellow — Remote Sensing and Modeling of the Cryosphere"
+short_name: "UiO Cryosphere RS Postdoc"
+type: position
+year: 2026
+description: "A three-year postdoctoral fellowship at the University of Oslo combining remote sensing and modeling of the terrestrial cryosphere within a geoscience environment spanning glaciology, hydrology, geomatics, and physical geography."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - climate
+  - geography
+  - spatial-data-science
+website: "https://www.jobbnorge.no/ledige-stillinger/stilling/308033/postdoctoral-research-fellow-position-in-remote-sensing-and-modeling-of-the-cryosphere"
+sources:
+  - label: "Official University of Oslo / Jobbnorge vacancy"
+    url: "https://www.jobbnorge.no/ledige-stillinger/stilling/308033/postdoctoral-research-fellow-position-in-remote-sensing-and-modeling-of-the-cryosphere"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Oslo"
+  country: "Norway"
+  country_code: "NO"
+organizations:
+  - "University of Oslo"
+  - "Department of Geosciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-13"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
