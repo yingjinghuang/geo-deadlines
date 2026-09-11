@@ -28,9 +28,10 @@ organizations:
 deadlines:
   - id: application
     type: application
-    label: "Application"
-    datetime: "TBD"
+    label: "Initial review date"
+    datetime: "2026-01-07"
+    precision: date
     timezone: null
     status: active
     primary: true
-    note: "The official page states that the search remains open until filled. The initial review date (January 7, 2026) has passed, so no new exact closing date is inferred."
+    note: "The search originally remained open until filled after the January 7, 2026 initial review date. The official School of Geosciences employment page was verified on September 11, 2026 as stating that there are no open faculty positions; no exact final closing date was published."
