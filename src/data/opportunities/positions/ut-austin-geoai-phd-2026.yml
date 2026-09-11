@@ -1,0 +1,40 @@
+title: "Fully Funded PhD Positions in Geospatial Artificial Intelligence"
+short_name: "UT Austin GeoAI PhD"
+type: position
+year: 2026
+description: "One to two fully funded PhD positions in the Spatially Explicit Artificial Intelligence Lab at UT Austin for Fall 2027, spanning GeoAI, spatially explicit machine learning, knowledge graphs, spatial data mining, and geospatial foundation models."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - knowledge-graphs
+  - machine-learning
+website: "https://gengchenmai.github.io/html/recruit.html"
+sources:
+  - label: "Spatially Explicit AI Lab recruiting page"
+    url: "https://gengchenmai.github.io/html/recruit.html"
+    kind: announcement
+  - label: "Official UT Austin Geography PhD deadline"
+    url: "https://graduate.utexas.edu/644300"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Austin"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "The University of Texas at Austin"
+  - "Department of Geography and the Environment"
+  - "Spatially Explicit Artificial Intelligence Lab"
+deadlines:
+  - id: application
+    type: application
+    label: "Geography PhD Application"
+    datetime: "2026-12-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official UT Austin Geography PhD deadline for Fall admission."

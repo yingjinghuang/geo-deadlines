@@ -1,0 +1,34 @@
+title: "Assistant Professor — UAS Autonomy and Geographical Information Systems"
+short_name: "Cal Poly Pomona UAS + GIS Faculty"
+type: position
+year: 2026
+description: "A tenure-track Aerospace Engineering faculty position at Cal Poly Pomona for Fall 2027 focused on UAS autonomy and geographic information systems, with relevance to remote sensing, GeoAI, photogrammetry, and geospatial analysis."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - remote-sensing
+  - spatial-computing
+  - machine-learning
+website: "https://careers.cpp.edu/en-us/job/559194/aerospace-engineering-uas-autonomy-and-geographical-information-systems-assistant-professor"
+sources:
+  - label: "Official Cal Poly Pomona faculty vacancy 559194"
+    url: "https://careers.cpp.edu/en-us/job/559194/aerospace-engineering-uas-autonomy-and-geographical-information-systems-assistant-professor"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Pomona"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "California State Polytechnic University, Pomona"
+  - "Department of Aerospace Engineering"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-15T23:55:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+    primary: true

@@ -1,0 +1,35 @@
+title: "Two Fully Funded PhD Positions in GeoAI and Spatial Data Science"
+short_name: "Iowa GeoAI PhD"
+type: position
+year: 2026
+description: "Two fully funded PhD positions at the University of Iowa starting Fall 2027, focused on trustworthy GeoAI and LLM-driven multi-agent GeoAI for spatial modeling, discovery, and reasoning."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - machine-learning
+  - spatial-statistics
+website: "https://peng-luo.com/opportunities.html"
+sources:
+  - label: "University of Iowa faculty recruiting page"
+    url: "https://peng-luo.com/opportunities.html"
+    kind: announcement
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Iowa City"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Iowa"
+  - "School of Earth, Environment, and Sustainability"
+deadlines:
+  - id: application
+    type: application
+    label: "Application for Full Funding Consideration"
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

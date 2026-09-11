@@ -1,0 +1,42 @@
+title: "Postdoctoral Scholar in Terrestrial Hydrology and Remote Sensing"
+short_name: "UC Irvine Hydrology + RS Postdoc"
+type: position
+year: 2026
+description: "A postdoctoral position in UC Irvine Earth System Science investigating the global spatial organization of precipitation, soil moisture, and vegetation using satellite observations and models."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - spatial-statistics
+  - climate
+website: "https://recruit.ap.uci.edu/JPF10415"
+sources:
+  - label: "Official UC Irvine Recruit posting JPF10415"
+    url: "https://recruit.ap.uci.edu/JPF10415"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Irvine"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of California, Irvine"
+  - "Department of Earth System Science"
+deadlines:
+  - id: priority-review
+    type: application
+    label: "Full Consideration"
+    datetime: "2026-09-30T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+    primary: true
+    note: "Apply by this date to ensure full consideration."
+  - id: final-application
+    type: application
+    label: "Final Application"
+    datetime: "2026-12-31T23:59:00-08:00"
+    timezone: "America/Los_Angeles"
+    status: active
+    note: "Applications may be accepted through this date if the position has not been filled."

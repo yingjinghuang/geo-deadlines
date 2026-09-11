@@ -1,0 +1,34 @@
+title: "Assistant Professor of Criminology — GIS and Spatial Analysis"
+short_name: "Cal Poly Pomona GIS + Spatial Analysis Faculty"
+type: position
+year: 2026
+description: "A tenure-track Assistant Professor position in Cal Poly Pomona Sociology beginning Fall 2027, specializing in GIS and spatial analysis within criminology and encouraging interdisciplinary geospatial collaboration."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - urban
+website: "https://careers.cpp.edu/en-us/job/560370/criminology-gis-and-spatial-analysis-assistant-professor"
+sources:
+  - label: "Official Cal Poly Pomona faculty vacancy 560370"
+    url: "https://careers.cpp.edu/en-us/job/560370/criminology-gis-and-spatial-analysis-assistant-professor"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Pomona"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "California State Polytechnic University, Pomona"
+  - "Department of Sociology"
+deadlines:
+  - id: first-consideration
+    type: application
+    label: "First Consideration"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The position remains open until filled; completed applications received by this date receive first consideration."

@@ -1,0 +1,44 @@
+title: "Fully Funded PhD Position in Geospatial Data Science and GeoAI"
+short_name: "Virginia Tech GeoAI PhD"
+type: position
+year: 2026
+description: "A fully funded PhD opportunity for Fall 2027 in Virginia Tech's GeoCompute Research Lab, focused on geospatial data science, GeoAI, CyberGIS, scalable spatial computing, and urban informatics."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - spatial-computing
+  - urban
+  - machine-learning
+website: "https://carnivalbug.github.io/"
+sources:
+  - label: "GeoCompute Research Lab faculty recruiting page"
+    url: "https://carnivalbug.github.io/"
+    kind: announcement
+  - label: "Official Virginia Tech Fangzheng Lyu faculty profile"
+    url: "https://geography.vt.edu/people/lyu.html"
+    kind: official
+  - label: "Official Virginia Tech Geography graduate admission requirements"
+    url: "https://geography.vt.edu/academics/gea/geo-admission-req.html"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Blacksburg"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "Virginia Tech"
+  - "Department of Geography"
+  - "GeoCompute Research Lab"
+deadlines:
+  - id: priority-application
+    type: application
+    label: "Priority Application"
+    datetime: "2027-01-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Virginia Tech Geography asks applicants to submit materials by January 15; the lab is recruiting fully funded PhD students for Fall 2027."

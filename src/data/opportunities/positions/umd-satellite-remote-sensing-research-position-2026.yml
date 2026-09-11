@@ -1,0 +1,36 @@
+title: "Research Position in Satellite Remote Sensing of Precipitation and Clouds"
+short_name: "UMD Satellite RS Research"
+type: position
+year: 2026
+description: "A research position at the University of Maryland ESSIC/CISESS working on satellite retrievals of precipitation and clouds across passive microwave, infrared, and visible observations, with machine-learning and validation components."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - machine-learning
+  - climate
+website: "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/"
+sources:
+  - label: "Official University of Maryland ESSIC position page"
+    url: "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "College Park"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Maryland"
+  - "Earth System Science Interdisciplinary Center (ESSIC)"
+  - "Cooperative Institute for Satellite Earth System Studies (CISESS)"
+deadlines:
+  - id: review-begins
+    type: application
+    label: "Review Begins"
+    datetime: "2026-09-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Review begins on this date and continues until the position is filled."
