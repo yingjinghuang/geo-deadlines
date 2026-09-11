@@ -28,9 +28,10 @@ organizations:
 deadlines:
   - id: application
     type: application
-    label: "Application"
-    datetime: "TBD"
+    label: "Nominal application deadline"
+    datetime: "2026-06-06"
+    precision: date
     timezone: null
     status: active
     primary: true
-    note: "The official posting gives June 6, 2026 as the nominal deadline or until a suitable candidate is found. The posting remains live, so the continuing search is represented as open-ended rather than inventing a new deadline."
+    note: "The original posting gave June 6, 2026 as the nominal deadline or until a suitable candidate was found. The official posting was verified on September 11, 2026 as closed and no longer accepting applications."
