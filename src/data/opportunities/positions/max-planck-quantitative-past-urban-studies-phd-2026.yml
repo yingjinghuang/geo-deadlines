@@ -1,0 +1,33 @@
+title: "PhD Researcher Positions — Quantitative Past Urban Studies"
+short_name: "MPI Geoanthropology Urban PhD"
+type: position
+year: 2026
+description: "PhD researcher positions at the Max Planck Institute of Geoanthropology analysing urban patterns and processes across large historical and archaeological datasets, with emphasis on computational and comparative urban research across spatial and temporal scales."
+scope: core
+topics:
+  - urban
+  - spatial-data-science
+  - geography
+website: "https://www.mpg.de/26919453/phd-researcher-quantitative-past-urban-studies"
+sources:
+  - label: "Official Max Planck Society vacancy GEA-DLU"
+    url: "https://www.mpg.de/26919453/phd-researcher-quantitative-past-urban-studies"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Jena"
+  country: "Germany"
+  country_code: "DE"
+organizations:
+  - "Max Planck Institute of Geoanthropology"
+  - "Department of Coevolution of Land Use and Urbanization"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true

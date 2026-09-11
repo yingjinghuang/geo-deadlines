@@ -1,0 +1,39 @@
+title: "PhD Opportunity — Coastal Geomorphology, GIScience and Remote Sensing"
+short_name: "UMD Coastal Geo PhD"
+type: position
+year: 2026
+description: "A PhD recruitment opportunity in Danghan Xie's research group at the University of Maryland, integrating coastal geomorphology, sediment transport, GIScience, remote sensing, lidar, geospatial data science, and coastal-process modelling."
+scope: core
+topics:
+  - giscience
+  - remote-sensing
+  - earth-observation
+  - geography
+  - spatial-data-science
+website: "https://geog.umd.edu/facultyprofile/xie/danghan"
+sources:
+  - label: "Official UMD faculty profile — accepting new students"
+    url: "https://geog.umd.edu/facultyprofile/xie/danghan"
+    kind: official
+  - label: "Official UMD Graduate Catalog — Geographical Sciences deadlines"
+    url: "https://academiccatalog.umd.edu/graduate/programs/geographical-sciences-geog/"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "College Park"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Maryland, College Park"
+  - "Department of Geographical Sciences"
+deadlines:
+  - id: fall-application
+    type: application
+    label: "Fall Application"
+    datetime: "2026-12-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The current UMD Graduate Catalog lists December 15, 2026 for both domestic and international Fall applicants."

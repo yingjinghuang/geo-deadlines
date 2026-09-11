@@ -1,0 +1,34 @@
+title: "Postdoctoral Researcher — Urban Design and Inclusive Urban Mobility"
+short_name: "Groningen Inclusive Mobility Postdoc"
+type: position
+year: 2026
+description: "A three-year postdoctoral position in the University of Groningen's Faculty of Spatial Sciences studying everyday urban mobility barriers through mixed methods, participatory mapping, spatial planning, digital tools, and human-centred AI."
+scope: core
+topics:
+  - urban
+  - mobility
+  - giscience
+  - geographic-hci
+website: "https://werkenbij.rug.nl/vacature/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility-2353/?lang=en"
+sources:
+  - label: "Official University of Groningen vacancy 2353"
+    url: "https://werkenbij.rug.nl/vacature/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility-2353/?lang=en"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Groningen"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "University of Groningen"
+  - "Faculty of Spatial Sciences"
+  - "Department of Spatial Planning"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-09-20T23:59:00+02:00"
+    timezone: "Europe/Amsterdam"
+    status: active
+    primary: true

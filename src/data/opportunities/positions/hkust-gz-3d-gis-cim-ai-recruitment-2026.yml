@@ -1,0 +1,40 @@
+title: "PhD / Postdoc / RA — 3D GIS, CIM and AI for Smart Cities"
+short_name: "HKUST(GZ) 3D GeoAI Recruitment"
+type: position
+year: 2026
+description: "Open research recruitment in Maosu Li's group at HKUST(GZ) across PhD, postdoctoral, research-assistant, and visiting roles, focused on 3D GIS, City Information Modeling, AI-assisted smart cities, digital twins, and urban big-data analytics."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - urban
+  - spatial-data-science
+  - geovisualization
+  - computer-vision
+  - machine-learning
+website: "https://maosuli.github.io/"
+sources:
+  - label: "Maosu Li current recruiting page"
+    url: "https://maosuli.github.io/"
+    kind: announcement
+  - label: "Official HKUST(GZ) Urban Governance and Design faculty directory"
+    url: "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2Y"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Guangzhou"
+  country: "China"
+  country_code: "CN"
+organizations:
+  - "The Hong Kong University of Science and Technology (Guangzhou)"
+  - "Urban Governance and Design Thrust"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The current recruiting page invites applications but does not state a submission deadline."

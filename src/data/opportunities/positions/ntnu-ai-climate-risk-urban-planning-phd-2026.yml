@@ -1,0 +1,36 @@
+title: "PhD Candidate — Inclusive Climate Risk Scenarios in Urban Planning using AI"
+short_name: "NTNU Urban Climate AI PhD"
+type: position
+year: 2026
+description: "A fully funded four-year PhD position at NTNU exploring how machine learning, generative AI, and extended reality can support inclusive climate-risk scenarios and preparedness planning in urban planning."
+scope: core
+topics:
+  - geoai
+  - urban
+  - climate
+  - sustainability
+  - machine-learning
+website: "https://www.jobbnorge.no/en/available-jobs/job/306712/phd-candidate-in-creating-inclusive-climate-risk-scenarios-in-urban-planning-using-ai"
+sources:
+  - label: "Official NTNU vacancy on Jobbnorge 306712"
+    url: "https://www.jobbnorge.no/en/available-jobs/job/306712/phd-candidate-in-creating-inclusive-climate-risk-scenarios-in-urban-planning-using-ai"
+    kind: official
+last_verified: "2026-09-11"
+location:
+  mode: in_person
+  city: "Trondheim"
+  country: "Norway"
+  country_code: "NO"
+organizations:
+  - "Norwegian University of Science and Technology (NTNU)"
+  - "Department of Architecture and Planning"
+  - "CREST-GLOBAL"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-10-05"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
