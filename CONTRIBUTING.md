@@ -14,6 +14,22 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 10. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
 11. Open a pull request and explain the source of the change.
 
+## Active opportunity re-verification
+
+Every substantive GeoDeadlines refresh must re-check **all currently active tracked opportunities**, not only discover new ones. This applies to conferences, workshops, special issues, positions, and other deadline-bearing entries.
+
+For every active opportunity:
+
+1. Re-open the best available official source and verify the current deadline, status, and any relevant milestone dates.
+2. Treat stored deadlines as provisional until re-verified. Organizers frequently extend, postpone, reopen, or convert deadlines to rolling review.
+3. If the official source announces an extension or other change, update the stored deadline to the latest official value in the same refresh.
+4. Preserve exact time/timezone precision only when the official source provides it; do not infer missing precision while updating an extended deadline.
+5. Update `last_verified` **only when the official source was actually reviewed in that refresh**. Do not bulk-bump verification dates for untouched entries.
+6. If an official page has disappeared or conflicts with another source, do not silently guess. Keep the last verified value only when appropriate and flag the ambiguity for follow-up.
+7. Secondary sources such as GISphere, mailing lists, social posts, newsletters, and search results are useful for discovering extensions, but the canonical deadline should come from an official source whenever one exists.
+
+An opportunity refresh is therefore both a **discovery pass** and an **active-deadline audit**.
+
 ## Journal discovery sweep
 
 `src/data/journal-watchlist.yml` is the source of truth for journals that should be checked during every substantive GeoDeadlines data refresh. The watchlist is discovery-only and is intentionally outside `src/data/opportunities/`, so ordinary journal homepages never appear as deadline cards.
