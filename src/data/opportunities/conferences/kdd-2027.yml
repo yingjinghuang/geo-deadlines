@@ -22,7 +22,7 @@ sources:
   - label: "Official KDD 2027 FAQ"
     url: "https://kdd2027.kdd.org/frequently-asked-questions/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-08-01"
   end: "2027-08-05"
