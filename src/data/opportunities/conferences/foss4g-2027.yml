@@ -1,0 +1,48 @@
+title: "FOSS4G Bristol 2027"
+short_name: "FOSS4G 2027"
+type: conference
+series: "FOSS4G"
+year: 2027
+description: "The global OSGeo conference on free and open-source geospatial software, open data, geospatial research, Earth observation, spatial analysis, and community-driven geospatial technologies."
+scope: core
+topics:
+  - giscience
+  - geovisualization
+  - spatial-databases
+  - remote-sensing
+  - osm
+website: "https://2027.foss4g.org/"
+sources:
+  - label: "Official FOSS4G 2027 website"
+    url: "https://2027.foss4g.org/"
+    kind: official
+  - label: "Official OSGeo event listing"
+    url: "https://www.osgeo.org/events/foss4g-2027/"
+    kind: official
+last_verified: "2026-09-22"
+event:
+  start: "2027-08-23"
+  end: "2027-08-29"
+location:
+  mode: in_person
+  city: "Bristol"
+  country: "United Kingdom"
+  country_code: "GB"
+  venue: "University of Bristol"
+organizations:
+  - "OSGeo Foundation"
+  - "OSGeo:UK"
+tracks:
+  - "Conference Sessions"
+  - "Workshops"
+  - "Academic / Research"
+  - "Code Sprint"
+deadlines:
+  - id: submission
+    type: paper
+    label: "Presentation / Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    primary: true
+    note: "The host, venue, and conference dates are official; the 2027 call for presentations/papers and submission deadlines have not yet been announced."
