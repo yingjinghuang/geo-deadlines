@@ -1,0 +1,38 @@
+title: "2nd International Conference on Geospatial Artificial Intelligence"
+short_name: "GeoAI 2027"
+type: conference
+series: "International Conference on Geospatial Artificial Intelligence"
+year: 2027
+description: "The second edition of the International Conference on Geospatial Artificial Intelligence (GeoAI), hosted by University College London (UCL) in London. Conference dates and submission details have not yet been announced."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - machine-learning
+  - spatial-data-science
+website: "https://geoaiconference.org/"
+sources:
+  - label: "GeoAI 2027 and GeoAI 2028 host announcement"
+    url: "https://www.linkedin.com/posts/haoshenghuang_geoai-geospatialai-artificialintelligence-activity-7503384303381299200-kWN3"
+    kind: announcement
+  - label: "GeoAI conference series website"
+    url: "https://geoaiconference.org/"
+    kind: official
+last_verified: "2026-09-22"
+location:
+  mode: in_person
+  city: "London"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University College London (UCL)"
+  - "UCL SpaceTimeLab"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    primary: true
+    note: "The host has been announced, but conference dates and submission details have not yet been published."
