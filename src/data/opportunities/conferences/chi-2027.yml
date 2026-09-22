@@ -18,12 +18,16 @@ sources:
   - label: "Official CHI 2027 papers call"
     url: "https://chi2027.acm.org/authors/papers/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
+event:
+  start: "2027-05-10"
+  end: "2027-05-14"
 location:
   mode: in_person
   city: "Pittsburgh"
   country: "United States"
   country_code: "US"
+  venue: "David L. Lawrence Convention Center"
 organizations:
   - "ACM SIGCHI"
 tracks:
@@ -58,6 +62,13 @@ deadlines:
     label: "Panel Submission"
     datetime: "2026-11-19T23:59:00-12:00"
     timezone: "AoE"
+    status: active
+  - id: digital-experience
+    type: other
+    label: "Digital Experience Competition"
+    datetime: "2026-12-04"
+    precision: date
+    timezone: null
     status: active
   - id: revision
     type: revision

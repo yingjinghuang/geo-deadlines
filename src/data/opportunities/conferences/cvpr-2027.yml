@@ -19,7 +19,7 @@ sources:
   - label: "Official CVPR 2027 call for papers"
     url: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-06-20"
   end: "2027-06-25"

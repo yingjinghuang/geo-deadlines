@@ -22,7 +22,7 @@ sources:
   - label: "Official EARSeL 2027 abstract submission page"
     url: "https://symposium.earsel.org/46th-symposium-Turin/?page_id=45"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-06-01"
   end: "2027-06-04"

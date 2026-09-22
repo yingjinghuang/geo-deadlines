@@ -18,7 +18,7 @@ sources:
   - label: "Official CPGIS conference series"
     url: "https://www.cpgis.org/Conferences/Default.aspx?CPGISconf=1"
     kind: official
-last_verified: "2026-08-12"
+last_verified: "2026-09-22"
 location:
   mode: in_person
   city: "Lanzhou"
