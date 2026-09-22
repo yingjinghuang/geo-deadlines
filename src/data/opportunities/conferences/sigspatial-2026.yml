@@ -23,7 +23,13 @@ sources:
   - label: "Official conference timeline"
     url: "https://sigspatial2026.sigspatial.org/"
     kind: official
-last_verified: "2026-08-11"
+  - label: "Official student travel awards page"
+    url: "https://sigspatial2026.sigspatial.org/travel-grant.html"
+    kind: official
+  - label: "Official GIS Cup page"
+    url: "https://sigspatial2026.sigspatial.org/giscup.html"
+    kind: official
+last_verified: "2026-09-22"
 event:
   start: "2026-11-03"
   end: "2026-11-06"
@@ -83,4 +89,17 @@ deadlines:
     label: "Demo Paper"
     datetime: "2026-07-06T23:59:00-07:00"
     timezone: "America/Los_Angeles"
+    status: active
+  - id: gis-cup-invited-paper
+    type: paper
+    label: "GIS Cup Invited Paper"
+    datetime: "2026-09-30T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    note: "Applies only to invited GIS Cup finalist papers."
+  - id: student-travel-award
+    type: application
+    label: "Student Travel Award"
+    datetime: "2026-10-02T23:59:00-12:00"
+    timezone: "AoE"
     status: active
