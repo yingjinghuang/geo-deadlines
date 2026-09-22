@@ -1,0 +1,28 @@
+title: "Spatial Data Sharing: Questions of Ownership, Platforms, and Governance"
+type: special_issue
+year: 2026
+description: "Transactions in GIS special issue on spatial-data sharing, ownership, platforms, governance, access, infrastructures, and the institutional and technical conditions shaping geospatial data exchange."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - spatial-databases
+  - geography
+journal:
+  name: "Transactions in GIS"
+  short_name: "TGIS"
+  publisher: "Wiley"
+website: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055"
+sources:
+  - label: "Official Transactions in GIS current calls for papers"
+    url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+    kind: publisher
+last_verified: "2026-09-22"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2026-11-30"
+    precision: date
+    timezone: null
+    status: active
