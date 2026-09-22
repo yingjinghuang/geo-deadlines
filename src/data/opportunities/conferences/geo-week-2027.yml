@@ -16,7 +16,10 @@ sources:
   - label: "Official ASPRS 2027 Geo Week call"
     url: "https://www.asprs.org/Main/News---Resources/ASPRS-News/Call_for_Speakers_for_2027_Geo_Week.aspx"
     kind: official
-last_verified: "2026-08-10"
+  - label: "Official Geo Week 2027 venue page"
+    url: "https://www.geo-week.com/travel/"
+    kind: official
+last_verified: "2026-09-22"
 event:
   start: "2027-02-23"
   end: "2027-02-25"
@@ -25,6 +28,7 @@ location:
   city: "Salt Lake City"
   country: "United States"
   country_code: "US"
+  venue: "Salt Palace Convention Center"
 organizations:
   - "ASPRS"
 deadlines:

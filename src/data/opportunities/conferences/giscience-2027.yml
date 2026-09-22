@@ -16,7 +16,7 @@ sources:
   - label: "Official GIScience 2027 website and call for submissions"
     url: "https://geods.github.io/GIScience2027/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-10-18"
   end: "2027-10-22"

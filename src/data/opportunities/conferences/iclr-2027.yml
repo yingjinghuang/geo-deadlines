@@ -21,10 +21,10 @@ sources:
   - label: "Official ICLR 2027 dates and deadlines"
     url: "https://iclr.cc/Conferences/2027/Dates"
     kind: official
-  - label: "Official ICLR 2027 author guidelines"
-    url: "https://iclr.cc/Conferences/2027/AuthorGuidelines"
+  - label: "Official ICLR 2027 workshop proposal guide"
+    url: "https://iclr.cc/Conferences/2027/WorkshopGuidelines"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-04-26"
   end: "2027-04-30"
@@ -44,6 +44,12 @@ deadlines:
     type: full_paper
     label: "Full Paper"
     datetime: "2026-09-25T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: workshop-proposal
+    type: other
+    label: "Workshop Proposal"
+    datetime: "2026-10-09T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: notification

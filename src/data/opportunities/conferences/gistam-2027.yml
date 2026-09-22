@@ -23,7 +23,7 @@ sources:
   - label: "Official GISTAM 2027 venue information"
     url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 event:
   start: "2027-04-20"
   end: "2027-04-22"
@@ -39,6 +39,12 @@ deadlines:
     type: full_paper
     label: "Regular Paper — Stage 1"
     datetime: "2026-11-17T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: satellite-proposals
+    type: other
+    label: "Workshop / Special Session / Tutorial / Demo / Panel Proposal"
+    datetime: "2026-11-27T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: regular-paper-stage-2

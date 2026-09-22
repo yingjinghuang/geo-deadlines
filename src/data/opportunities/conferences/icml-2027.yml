@@ -14,7 +14,7 @@ sources:
   - label: "Official ICML future meetings page"
     url: "https://icml.cc/Conferences/FutureMeetings"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-09-22"
 deadlines:
   - id: full-paper
     type: full_paper
