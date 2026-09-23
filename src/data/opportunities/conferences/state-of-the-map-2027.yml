@@ -1,0 +1,38 @@
+title: "State of the Map 2027"
+short_name: "SotM 2027"
+type: conference
+series: "State of the Map"
+year: 2027
+description: "The global OpenStreetMap community conference will return to Latin America in 2027, hosted in Bogotá, Colombia, at the National University of Colombia."
+scope: core
+topics:
+  - osm
+  - vgi
+  - cartography
+  - giscience
+website: "https://2026.stateofthemap.org/"
+sources:
+  - label: "Official State of the Map 2026 site announcing the 2027 host"
+    url: "https://2026.stateofthemap.org/"
+    kind: official
+  - label: "OpenStreetMap Foundation State of the Map Organizing Committee"
+    url: "https://osmfoundation.org/wiki/StateoftheMap_Organizing_Committee"
+    kind: official
+last_verified: "2026-09-23"
+location:
+  mode: in_person
+  city: "Bogotá"
+  country: "Colombia"
+  country_code: "CO"
+  venue: "National University of Colombia"
+organizations:
+  - "OpenStreetMap Foundation"
+deadlines:
+  - id: proposal
+    type: other
+    label: "Call for Proposals"
+    datetime: TBD
+    timezone: null
+    status: active
+    primary: true
+    note: "The 2027 host and July 2027 timing have been announced, but exact conference dates and proposal deadlines have not yet been published."
