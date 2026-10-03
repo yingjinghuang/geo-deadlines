@@ -19,7 +19,7 @@ sources:
   - label: "Official Geo Week 2027 venue page"
     url: "https://www.geo-week.com/travel/"
     kind: official
-last_verified: "2026-09-22"
+last_verified: "2026-10-03"
 event:
   start: "2027-02-23"
   end: "2027-02-25"

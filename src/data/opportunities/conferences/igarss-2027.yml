@@ -66,3 +66,17 @@ deadlines:
     status: active
     primary: true
     note: "The official Important Dates page and the CFP Key Dates both list 11 January 2027. A sentence in the CFP body still says 10 January, so GeoDeadlines uses the dedicated Important Dates schedule as canonical."
+  - id: student-paper-competition
+    type: other
+    label: "Student Paper Competition"
+    datetime: "2027-01-11"
+    precision: date
+    timezone: null
+    status: active
+  - id: travel-support
+    type: application
+    label: "Travel Support Application"
+    datetime: "2027-01-11"
+    precision: date
+    timezone: null
+    status: active

@@ -16,7 +16,7 @@ sources:
   - label: "Official academic-track call"
     url: "https://2026.foss4g.org/en/call-for-papers/academic-track/"
     kind: official
-last_verified: "2026-08-11"
+last_verified: "2026-10-03"
 event:
   start: "2026-08-30"
   end: "2026-09-05"

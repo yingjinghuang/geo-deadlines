@@ -18,7 +18,7 @@ sources:
   - label: "Official CHI 2027 papers call"
     url: "https://chi2027.acm.org/authors/papers/"
     kind: official
-last_verified: "2026-09-22"
+last_verified: "2026-10-03"
 event:
   start: "2027-05-10"
   end: "2027-05-14"
@@ -66,9 +66,8 @@ deadlines:
   - id: digital-experience
     type: other
     label: "Digital Experience Competition"
-    datetime: "2026-12-04"
-    precision: date
-    timezone: null
+    datetime: "2026-12-04T23:59:00-12:00"
+    timezone: "AoE"
     status: active
   - id: revision
     type: revision
