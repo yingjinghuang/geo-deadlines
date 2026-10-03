@@ -17,7 +17,7 @@ sources:
   - label: "Official Transactions in GIS current calls for papers"
     url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
     kind: publisher
-last_verified: "2026-09-22"
+last_verified: "2026-10-03"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
