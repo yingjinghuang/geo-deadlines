@@ -18,7 +18,7 @@ sources:
   - label: "Official BIFOLD position page"
     url: "https://www.bifold.berlin/about-us/opportunities/research-associate-e14-rsim-iv-329/26"
     kind: official
-last_verified: "2026-08-25"
+last_verified: "2026-10-03"
 location:
   mode: in_person
   city: "Berlin"
@@ -31,8 +31,9 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-09-04"
+    datetime: "2026-10-14"
     precision: date
     timezone: null
     status: active
     primary: true
+    note: "The current official BIFOLD page lists October 14, 2026 as the closing date, superseding the earlier September 4 date."

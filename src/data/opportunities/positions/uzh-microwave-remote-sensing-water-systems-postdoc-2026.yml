@@ -14,7 +14,7 @@ sources:
   - label: "Official UZH Department of Geography open positions"
     url: "https://www.geo.uzh.ch/en/services/open-positions/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-03"
 location:
   mode: in_person
   city: "Zurich"

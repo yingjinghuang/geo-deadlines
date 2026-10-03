@@ -17,7 +17,7 @@ sources:
   - label: "FWF job board listing"
     url: "https://www.fwf.ac.at/aktuelles/jobboerse/jobdetail/phd-thesis-applying-satellite-based-remote-sensing-to-transportation-infrastructure-monitoring"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-03"
 location:
   mode: in_person
   city: "Vienna"
@@ -30,8 +30,8 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-09-30"
-    precision: date
+    datetime: "TBD"
     timezone: null
     status: active
     primary: true
+    note: "AIT still shows the vacancy as open with an Apply now action and does not publish a closing date. An earlier FWF job-board source that supported September 30 is no longer available, so no hard deadline is asserted."

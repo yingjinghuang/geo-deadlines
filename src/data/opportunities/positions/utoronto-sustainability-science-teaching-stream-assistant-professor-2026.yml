@@ -13,7 +13,7 @@ sources:
   - label: "Official University of Toronto faculty posting"
     url: "https://jobs.utoronto.ca/job/Mississauga-Assistant-Professor%2C-Teaching-Stream-Sustainability-Science-ON/605990717/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-03"
 location:
   mode: in_person
   city: "Mississauga"
@@ -26,7 +26,7 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-11-09T23:59:00-05:00"
+    datetime: "2026-11-16T23:59:00-05:00"
     timezone: "America/Toronto"
     status: active
     primary: true
