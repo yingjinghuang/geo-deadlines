@@ -3,22 +3,31 @@ short_name: "AGILE 2027"
 type: conference
 series: "AGILE Conference on Geographic Information Science"
 year: 2027
-description: "The annual AGILE conference for geographic information science research and education in Europe."
+description: "The 30th AGILE Conference on Geographic Information Science, held jointly with the 5th Youth Innovation Forum (YIF) on Digital Earth under the theme Spatial Intelligence and Digital Earth for Sustainable Future."
 scope: core
 topics:
   - giscience
   - geoai
   - spatial-data-science
   - geovisualization
-website: "https://agile-gi.eu/"
+website: "https://www.agile-online.org/conference-2027"
 sources:
-  - label: "Official AGILE website"
-    url: "https://agile-gi.eu/"
+  - label: "Official AGILE–ISDE (YIF) 2027 conference page"
+    url: "https://www.agile-online.org/conference-2027"
     kind: official
-  - label: "Official AGILE conference series page"
-    url: "https://agile-gi.eu/past-conferences/agile-conferences"
+  - label: "Official AGILE–ISDE (YIF) 2027 call for papers"
+    url: "https://www.agile-online.org/conference-2027/call-for-papers-2027/call-for-papers-2027"
     kind: official
-last_verified: "2026-09-22"
+  - label: "Official AGILE–ISDE (YIF) 2027 call for workshops"
+    url: "https://www.agile-online.org/conference-2027/call-for-workshops-2027"
+    kind: official
+  - label: "Official AGILE–ISDE (YIF) 2027 student travel grants"
+    url: "https://www.agile-online.org/conference-2027/student-travel-grants-2027"
+    kind: official
+last_verified: "2026-10-03"
+event:
+  start: "2027-06-21"
+  end: "2027-06-24"
 location:
   mode: in_person
   city: "Lund"
@@ -26,11 +35,29 @@ location:
   country_code: "SE"
 organizations:
   - "Association of Geographic Information Laboratories in Europe"
+  - "International Society for Digital Earth"
 deadlines:
+  - id: workshop-proposal
+    type: other
+    label: "Workshop Proposal"
+    datetime: "2027-01-10"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official workshop call gives the date without stating an exact submission time or timezone."
   - id: paper
     type: paper
     label: "Paper Submission"
     datetime: TBD
     timezone: null
     status: active
-    note: "AGILE has announced Lund as the 2027 host; submission dates have not yet been announced."
+    primary: true
+    note: "The official CFP is live, but its Important Dates section does not yet publish the paper-track submission dates."
+  - id: student-travel-grant
+    type: application
+    label: "Student Travel Grant"
+    datetime: "2027-03-28"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official grant page gives the application date without stating an exact time or timezone."
