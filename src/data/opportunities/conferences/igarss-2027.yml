@@ -13,6 +13,9 @@ topics:
   - sustainability
 website: "https://2027.ieeeigarss.org/"
 sources:
+  - label: "Official IGARSS 2027 homepage"
+    url: "https://2027.ieeeigarss.org/"
+    kind: official
   - label: "Official IGARSS 2027 important dates"
     url: "https://2027.ieeeigarss.org/important_dates.php"
     kind: official
@@ -22,7 +25,7 @@ sources:
   - label: "Official IGARSS 2027 Community Contributed Theme call"
     url: "https://2027.ieeeigarss.org/cct_proposal.php"
     kind: official
-last_verified: "2026-09-22"
+last_verified: "2026-10-03"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -46,6 +49,14 @@ deadlines:
     precision: date
     timezone: null
     status: active
+  - id: tutorial-proposal
+    type: other
+    label: "Tutorial Proposal"
+    datetime: "2026-11-03"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official homepage gives the date but does not state an exact submission time or timezone."
   - id: submission
     type: paper
     label: "Abstract / Manuscript"
