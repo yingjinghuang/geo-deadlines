@@ -14,7 +14,10 @@ sources:
   - label: "Official McGill careers posting JR0000078552"
     url: "https://mcgill.wd3.myworkdayjobs.com/en-US/mcgill_careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Health-and-Sustainability_JR0000078552"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official McGill French Workday listing, same requisition JR0000078552"
+    url: "https://mcgill.wd3.myworkdayjobs.com/fr-CA/mcgill_careers/job/Pavillon-Burnside/Assistant-Professor-in-Geography--Health-and-Sustainability_JR0000078552"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Montreal"
@@ -32,4 +35,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The official posting lists review beginning October 15 and an application end date of October 16, 2026."
+    note: "On 16 October 2026, the current official McGill Workday listing still displayed Apply / Postuler and an application END date of 16 October 2026; selection review begins 15 October. This is a final application date, not a rolling priority-only date. No precise cutoff time or timezone is published as a fixed source field."
