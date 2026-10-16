@@ -13,6 +13,9 @@ sources:
   - label: "Official ScienceDirect call for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
+  - label: "NASA JPL ECOSTRESS research-community CFP digest (historical 30 June 2026 deadline)"
+    url: "https://ecostress.jpl.nasa.gov/news/ecostress-april-may-community-updates-digest"
+    kind: official
 last_verified: "2026-10-03"
 guest_editors:
   - name: "Le Wang"
@@ -28,4 +31,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "The current ScienceDirect calls index lists 31 December 2026; earlier announcements listed an earlier deadline."
+    note: "UNRESOLVED EXTENSION EVIDENCE: multiple named guest editors (including Qiusheng Wu) and the NASA JPL ECOSTRESS opportunities digest advertised 30 June 2026. A later publisher ScienceDirect CFP index was reported as 31 December 2026, but its live dedicated CFP currently returns HTTP 403. Do not treat an extension to December as independently verified without a directly accessible authoritative update; verification timestamp intentionally unchanged."
