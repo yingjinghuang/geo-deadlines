@@ -19,7 +19,7 @@ sources:
   - label: "Official CVPR 2027 call for papers"
     url: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-06-20"
   end: "2027-06-25"
@@ -50,6 +50,18 @@ deadlines:
     type: other
     label: "Supplementary Materials"
     datetime: "2026-11-23T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: reviews-released
+    type: other
+    label: "Reviews Released"
+    datetime: "2027-01-25T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: rebuttal-end
+    type: revision
+    label: "Rebuttal End"
+    datetime: "2027-02-01T23:59:00-12:00"
     timezone: "AoE"
     status: active
   - id: notification
