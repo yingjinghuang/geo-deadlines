@@ -1,6 +1,6 @@
 # Complete disposition of the final 19 GeoDeadlines source-audit records
 
-> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **129 entries: 116 strictly verified and 13 source-limited** after **11** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
+> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **125 entries: 112 strictly verified and 13 source-limited** after **15** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
 
 
 **Audit date:** 2026-10-16 (Europe/Vienna). **Coverage:** 19/19 entries examined individually in this final batch. **Outcome:** 3 records established by direct authoritative evidence and given fresh `last_verified`; 16 records fully investigated but **not** newly certified, because primary current-source evidence was insufficient, inconsistent, or inaccessible. This distinction is deliberate: "all reviewed" is not "all verified."
