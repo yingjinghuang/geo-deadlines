@@ -1,14 +1,52 @@
 ---
 import { verificationAge } from '../lib/verification';
-interface Props { date: string; status: 'verified' | 'aging' | 'stale' }
-const { date, status } = Astro.props;
+import type { OpportunityType } from '../lib/types';
+
+interface Props {
+  date: string;
+  status: 'verified' | 'aging' | 'stale';
+  type: OpportunityType;
+}
+const { date, status, type } = Astro.props;
 const age = verificationAge(date);
 const formatted = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 ---
-<span class:list={['verification', status]} title={`Last checked ${age} days ago`}>
-  {status === 'verified' ? '✓' : status === 'aging' ? '◷' : '!'} {status === 'stale' ? 'Needs re-verification' : `Verified ${formatted}`}
+<span
+  class:list={['verification', status]}
+  data-verification-date={date}
+  data-verification-type={type}
+  title={`Official-source check: ${age} days ago. Date is not proof the opportunity remains open.`}
+>
+  {status === 'verified' ? '✓ ' : status === 'aging' ? '◷ ' : '! '}
+  {status === 'stale' ? `Needs re-verification · Last checked ${formatted}` : `Last verified ${formatted}`}
 </span>
+<script>
+  import { verificationAge, verificationStatus } from '../lib/verification';
+  import type { OpportunityType } from '../lib/types';
+
+  // Pages are statically built; the browser must refresh age-based statuses at viewing time.
+  function updateVerificationBadges() {
+    document.querySelectorAll<HTMLElement>('[data-verification-date]').forEach((element) => {
+      const date = element.dataset.verificationDate;
+      if (!date) return;
+      const type = (element.dataset.verificationType ?? 'conference') as OpportunityType;
+      const status = verificationStatus(date, Date.now(), type);
+      const age = verificationAge(date);
+      const formatted = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
+      element.classList.remove('verified', 'aging', 'stale');
+      element.classList.add(status);
+      element.textContent = `${status === 'verified' ? '✓' : status === 'aging' ? '◷' : '!'} ${status === 'stale' ? `Needs re-verification · Last checked ${formatted}` : `Last verified ${formatted}`}`;
+      element.title = `Official-source check: ${age} days ago. Date is not proof the opportunity remains open.`;
+    });
+  }
+
+  updateVerificationBadges();
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) updateVerificationBadges();
+  });
+</script>
 <style>
   .verification { color: var(--muted); font-size: .75rem; }
-  .aging { color: var(--soon); } .stale { color: var(--critical); font-weight: 700; }
+  .aging { color: var(--soon); }
+  .stale { color: var(--critical); font-weight: 700; }
 </style>
