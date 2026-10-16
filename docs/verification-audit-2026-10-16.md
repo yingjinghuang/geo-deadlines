@@ -1,6 +1,6 @@
 # GeoDeadlines full-source re-verification checklist — 2026-10-16
 
-> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **125 entries: 112 strictly verified and 13 source-limited** after **15** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
+> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **125 entries: 121 source-supported and 4 carrying explicit evidence caveats** after **15** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md) and [same-day source follow-up](evidence-followup-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
 
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
