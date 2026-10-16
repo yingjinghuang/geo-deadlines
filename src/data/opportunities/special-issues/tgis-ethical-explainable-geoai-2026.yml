@@ -17,7 +17,10 @@ sources:
   - label: "Official Wiley call for papers"
     url: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000257"
     kind: publisher
-last_verified: "2026-10-03"
+  - label: "Official Wiley current Transactions in GIS CFP index"
+    url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+    kind: publisher
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Xinyue Ye"
     affiliation: "Texas A&M University"
