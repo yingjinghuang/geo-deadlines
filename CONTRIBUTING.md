@@ -14,6 +14,14 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 10. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
 11. Open a pull request and explain the source of the change.
 
+## Live recruitment pruning (positions only)
+
+A user-facing recruitment card should represent an **actionable** position. Remove a `src/data/opportunities/positions/*.yml` file when the employer/applicant portal explicitly reports that the vacancy is **closed**, **expired**, **unavailable**, or **no longer accepting applications**. Also remove a posting with an unambiguous final deadline in the past when it has disappeared from the employer's current applicant system and no replacement or extension can be found. Preserve the reason and official evidence in a dated maintenance report and in Git history before removal. **A solitary 403 / broken link is not enough**: first check the employer's current recruiting index and whether the vacancy moved to a new identifier.
+
+Do **not** equate an elapsed `review begins`, `first consideration`, `priority review`, or soft deadline with hiring closure. Positions still explicitly `open until filled` or with active official application portals should remain in the live catalog and be rechecked. This pruning rule does not apply to conferences, workshops, or special issues, whose historical calls should still be retained.
+
+See [the 16 October 2026 live-catalog cleanup report](docs/active-catalog-maintenance-2026-10-16.md) for closure examples, exact removal evidence, and before/after coverage.
+
 ## Mandatory full-catalog refresh protocol
 
 A refresh is **complete only when every tracked opportunity has an item-by-item audit result**, including expired entries, rolling positions, TBD calls, and all four collections. Updating a subset is a **partial refresh** and must never be described as complete.
