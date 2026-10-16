@@ -9,11 +9,11 @@ import { readdir, readFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
+import { MAX_VERIFICATION_AGE_DAYS as maxAgeDays } from '../src/lib/verification';
 
 const root = fileURLToPath(new URL('../src/data/opportunities/', import.meta.url));
 const now = new Date();
 const today = now.toISOString().slice(0, 10);
-const maxAgeDays = { position: 14, conference: 30, workshop: 30, special_issue: 30 } as const;
 type Entry = { title: string; type: keyof typeof maxAgeDays; last_verified: string; website: string;
   deadlines: { datetime: string; status: string; note?: string | null }[] };
 async function findYml(dir: string): Promise<string[]> {
