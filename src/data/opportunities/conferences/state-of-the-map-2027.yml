@@ -10,15 +10,18 @@ topics:
   - vgi
   - cartography
   - giscience
-website: "https://2026.stateofthemap.org/"
+website: "https://wiki.openstreetmap.org/wiki/State_of_the_Map_2027"
 sources:
   - label: "Official State of the Map 2026 site announcing the 2027 host"
     url: "https://2026.stateofthemap.org/"
     kind: official
+  - label: "Official OpenStreetMap community wiki 2027 event calendar"
+    url: "https://wiki.openstreetmap.org/wiki/State_of_the_Map_2027"
+    kind: official
   - label: "OpenStreetMap Foundation State of the Map Organizing Committee"
     url: "https://osmfoundation.org/wiki/StateoftheMap_Organizing_Committee"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Bogotá"
@@ -35,4 +38,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The 2027 host and July 2027 timing have been announced, but exact conference dates and proposal deadlines have not yet been published."
+    note: "OpenStreetMap 2027 wiki confirms Bogotá as host but lists conference and science-track submission dates as TBD. The host bid deadline extension to August 1, 2026 was for prospective organizers, not researchers."
