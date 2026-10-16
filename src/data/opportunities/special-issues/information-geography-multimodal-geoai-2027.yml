@@ -7,8 +7,17 @@ topics: [geoai, urban, spatial-data-science, machine-learning, sustainability]
 journal:
   name: "Information Geography"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/information-geography/about/call-for-papers"
+website: "https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI"
 sources:
+  - label: "Guest editor Levente Juhász personally confirms the live CFP and covered open-access publication"
+    url: "https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI"
+    kind: announcement
+  - label: "Lead editor Hao Li personally confirms the call and the coeditor team"
+    url: "https://www.linkedin.com/posts/hao-li-340868154_callforpaper-informationgeography-geoai-activity-7480626379328237569-obDd"
+    kind: announcement
+  - label: "Official publisher current-call index shows 1 April 2027 (index only)"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1686838576_STMJIN_OTR"
+    kind: publisher
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
@@ -25,3 +34,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Guest editors Levente Juhász and Hao Li independently promote the call and confirm the editorial team; Levente says open-access APCs are covered by Nanjing Normal University. The publisher ScienceDirect indexed CFP shows 1 April 2027, but the live publisher detail is access-blocked (403). The old verification timestamp stays unchanged until a directly readable current publisher or guest-editor page confirms the exact date."
