@@ -12,7 +12,7 @@ sources:
   - label: "Official Loughborough University vacancy REQ260551"
     url: "https://vacancies.lboro.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?VACANCY_ID=856500fFUB&WVID=5913100PrZ"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Loughborough"
@@ -30,3 +30,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "The live official vacancy details show a fixed closing date of 22 September 2026; this date has passed and no official extension was found. Do not assume that the presence of a cached listing means submissions remain possible."
