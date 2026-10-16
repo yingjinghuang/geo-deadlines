@@ -8,7 +8,14 @@ Audit update: 2026-10-16. Latest review added 22 existing opportunities and one 
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
-New findings (16 October): QUB Lecturer in Physical Geography is explicitly closed on official HR site; TTU Jiangtao Liu and USask GIG-Cities labs still advertise funded/graduate openings without a hard date; IJGIS Critical Challenges publisher CFP confirms 1 December manuscript deadline. TU Berlin BIFOLD postdoc source is HTTP 410, Groningen job HTTP 404, and WACV Oct 9/14 notifications remain conflicting.\n\nKnown unresolved examples (not counted as verified): TGIS disease-outbreak call's dedicated page gives 30 September but its current publisher CFP index gives 31 December; WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
+## Current pass findings — 16 October 2026
+
+- **109 of 139** opportunities individually reviewed, **30** still pending authoritative source confirmation.
+- Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
+- Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
+- Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
+- The TU Berlin BIFOLD postdoc original job detail is HTTP 410 and its previous published deadlines conflict; Groningen is HTTP 404; WACV 2027 official dates remain inconsistent (9 versus 14 October). None of these unresolved sources received a verification-date bump.
+- All remaining blocked/conflicting official sources are recorded in the separate [source-access evidence log](unresolved-official-sources-2026-10-16.md).
 
 Verification checks: official URL reachable; opportunity still open/closed; submission/review/deadline milestone updated; extensions checked; exact-time precision preserved; source contradictions noted; last_verified written only after actual review.
 
