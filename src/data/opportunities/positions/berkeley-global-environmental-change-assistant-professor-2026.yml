@@ -15,7 +15,7 @@ sources:
   - label: "Official UC Berkeley Academic Personnel Recruit posting JPF05449"
     url: "https://aprecruit.berkeley.edu/JPF05449"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Berkeley"
@@ -32,3 +32,4 @@ deadlines:
     timezone: "America/Los_Angeles"
     status: active
     primary: true
+    note: "Official Berkeley Academic Personnel Recruit page lists October 2, 2026 as both the last review date and FINAL application date. No official extension is published; the published application window has elapsed."
