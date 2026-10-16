@@ -21,7 +21,7 @@ sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Bindong Sun"
   - name: "Evert Meijers"
@@ -36,4 +36,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "The official ScienceDirect Development publisher-index listing confirms 31 August 2027 and matching editor roster; an independent CFP reproduction specifies Editorial Manager article type VSI: Evolution of urban spatial structure. Direct publisher issue details return HTTP 403; no separate direct editor statement for latest submission status found, so timestamp not advanced."
+    note: "Rechecked 16 October 2026 against Elsevier's official Development CFP index: the exact Cities title, five guest editors, and 31 August 2027 deadline are published there. An independently reproduced full call corroborates the submission type VSI: Evolution of urban spatial structure. The publisher's detailed page is access-restricted; no extra submission time or unannounced extension is inferred."
