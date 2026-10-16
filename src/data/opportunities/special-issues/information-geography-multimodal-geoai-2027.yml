@@ -24,7 +24,7 @@ sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Hao Li"
   - name: "Steffen Knoblauch"
@@ -37,4 +37,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Guest editors Levente Juhász and Hao Li independently promote the call and confirm the editorial team; Levente says open-access APCs are covered by Nanjing Normal University. The publisher ScienceDirect indexed CFP shows 1 April 2027, but the live publisher detail is access-blocked (403). The old verification timestamp stays unchanged until a directly readable current publisher or guest-editor page confirms the exact date."
+    note: "Rechecked 16 October 2026 against Elsevier's public CFP index, matching the exact title, guest editors Hao Li, Steffen Knoblauch and Levente Juhász, and 1 April 2027 manuscript deadline. Editor-authored announcements also confirm the call and its editorial team. Standalone publisher page may be inaccessible, but the exact deadline is directly supported by the publisher index; do not invent a submission hour."
