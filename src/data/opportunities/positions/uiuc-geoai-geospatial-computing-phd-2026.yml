@@ -20,7 +20,10 @@ sources:
   - label: "Official Illinois GGIS Fall 2027 graduate admissions"
     url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official Illinois GGIS PhD Fall 2027 application calendar"
+    url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Urbana-Champaign"
