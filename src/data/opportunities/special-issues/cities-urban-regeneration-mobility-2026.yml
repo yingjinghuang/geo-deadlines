@@ -10,6 +10,12 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
 sources:
+  - label: "Official Elsevier Cities article within the Urban Regeneration and Mobility issue"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0264275126001642"
+    kind: publisher
+  - label: "Independent historical 28 February 2026 CFP deadline tracker"
+    url: "https://peoplemarketsresearch.com/special-issues/"
+    kind: announcement
   - label: "Official Cities call for papers page"
     url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
     kind: publisher
@@ -22,3 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Official Elsevier Cities published papers explicitly belong to Urban Regeneration and Mobility: Evolution and Policy, establishing that this special-issue collection is in publication. Independent historical tracker lists 28 February 2026, now passed, but the original publisher closing notice is not independently readable; avoid marking as newly verified or open."
