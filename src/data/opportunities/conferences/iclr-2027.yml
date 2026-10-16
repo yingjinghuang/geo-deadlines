@@ -24,7 +24,7 @@ sources:
   - label: "Official ICLR 2027 workshop proposal guide"
     url: "https://iclr.cc/Conferences/2027/WorkshopGuidelines"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-04-26"
   end: "2027-04-30"
@@ -46,11 +46,32 @@ deadlines:
     datetime: "2026-09-25T23:59:00-12:00"
     timezone: "AoE"
     status: active
+  - id: workshop-acceptance
+    type: notification
+    label: "Workshop Proposal Notification"
+    datetime: "2026-11-29"
+    precision: date
+    timezone: null
+    status: active
   - id: workshop-proposal
     type: other
     label: "Workshop Proposal"
     datetime: "2026-10-09T23:59:00-12:00"
     timezone: "AoE"
+    status: active
+  - id: reviews-released
+    type: other
+    label: "Reviews Released"
+    datetime: "2026-11-05"
+    precision: date
+    timezone: null
+    status: active
+  - id: author-discussion-end
+    type: revision
+    label: "Author / Reviewer Discussion Ends"
+    datetime: "2026-11-18"
+    precision: date
+    timezone: null
     status: active
   - id: notification
     type: notification
