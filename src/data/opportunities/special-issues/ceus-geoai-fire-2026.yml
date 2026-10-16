@@ -13,7 +13,13 @@ sources:
   - label: "Official ScienceDirect call for papers listing"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-  - label: "Official ScienceDirect special issue page"
+  - label: "Official ScienceDirect development CFP index (indexed 30 October 2026)"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=development"
+    kind: publisher
+  - label: "Official ScienceDirect computer-science CFP index (indexed 31 December 2026)"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=computer-science"
+    kind: publisher
+  - label: "Original ScienceDirect special issue page (direct access denied)"
     url: "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
     kind: publisher
 last_verified: "2026-10-16"
@@ -31,3 +37,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "UNRESOLVED OFFICIAL-SOURCE CONFLICT discovered 16 October 2026: publisher-indexed ScienceDirect Development calls list 30 October 2026, while its Computer Science calls list 31 December 2026. Guest editor Huanfa Chen and UCL Bartlett CASA announced 31 December. Retain that documented editor-backed date provisionally, but the dedicated live publisher detail returns HTTP 403, so avoid claiming the deadline is fully reconciled." 
