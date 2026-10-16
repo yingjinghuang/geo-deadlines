@@ -2,13 +2,13 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 139 opportunities. Entries checked in the current pass: 105; awaiting individual official-source verification: 34.
+Current baseline: 139 opportunities. Entries checked in the current pass: 109; awaiting individual official-source verification: 30.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
-Known unresolved examples (not counted as verified): TGIS disease-outbreak call's dedicated page gives 30 September but its current publisher CFP index gives 31 December; WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
+New findings (16 October): QUB Lecturer in Physical Geography is explicitly closed on official HR site; TTU Jiangtao Liu and USask GIG-Cities labs still advertise funded/graduate openings without a hard date; IJGIS Critical Challenges publisher CFP confirms 1 December manuscript deadline. TU Berlin BIFOLD postdoc source is HTTP 410, Groningen job HTTP 404, and WACV Oct 9/14 notifications remain conflicting.\n\nKnown unresolved examples (not counted as verified): TGIS disease-outbreak call's dedicated page gives 30 September but its current publisher CFP index gives 31 December; WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
 
 Verification checks: official URL reachable; opportunity still open/closed; submission/review/deadline milestone updated; extensions checked; exact-time precision preserved; source contradictions noted; last_verified written only after actual review.
 
@@ -79,10 +79,10 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [polyu-gift-geospatial-transport-phd-2026.yml](../src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml)
 - [x] [polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml)
 - [x] [polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml)
-- [ ] [qub-physical-geography-lecturer-2026.yml](../src/data/opportunities/positions/qub-physical-geography-lecturer-2026.yml)
+- [x] [qub-physical-geography-lecturer-2026.yml](../src/data/opportunities/positions/qub-physical-geography-lecturer-2026.yml)
 - [x] [sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [stanford-climate-science-assistant-professor-2026.yml](../src/data/opportunities/positions/stanford-climate-science-assistant-professor-2026.yml) — official source reviewed
-- [ ] [ttu-earth-observation-ai-phd-2026.yml](../src/data/opportunities/positions/ttu-earth-observation-ai-phd-2026.yml)
+- [x] [ttu-earth-observation-ai-phd-2026.yml](../src/data/opportunities/positions/ttu-earth-observation-ai-phd-2026.yml)
 - [ ] [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](../src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml)
 - [x] [uci-hydrology-remote-sensing-postdoc-2026.yml](../src/data/opportunities/positions/uci-hydrology-remote-sensing-postdoc-2026.yml)
 - [x] [uclouvain-physical-environment-climate-geography-academic-2026.yml](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml)
@@ -98,7 +98,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [univie-human-economic-geography-senior-lecturer-2026.yml](../src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml)
 - [x] [univie-spatial-data-science-predoc-2026.yml](../src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml)
 - [x] [uottawa-urban-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml)
-- [ ] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
+- [x] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
 - [x] [usc-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml) — official source checked in this pass
 - [x] [usf-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
 - [x] [ut-austin-geoai-phd-2026.yml](../src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml)
@@ -131,7 +131,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [ijgi-living-spaces-2026.yml](../src/data/opportunities/special-issues/ijgi-living-spaces-2026.yml)
 - [x] [ijgi-llm4gis-2026.yml](../src/data/opportunities/special-issues/ijgi-llm4gis-2026.yml)
 - [x] [ijgi-urban-digital-twins-2026.yml](../src/data/opportunities/special-issues/ijgi-urban-digital-twins-2026.yml)
-- [ ] [ijgis-critical-challenges-geoai-2026.yml](../src/data/opportunities/special-issues/ijgis-critical-challenges-geoai-2026.yml)
+- [x] [ijgis-critical-challenges-geoai-2026.yml](../src/data/opportunities/special-issues/ijgis-critical-challenges-geoai-2026.yml)
 - [x] [ijgis-ethics-geospatial-ai-2026.yml](../src/data/opportunities/special-issues/ijgis-ethics-geospatial-ai-2026.yml) — official source reviewed
 - [ ] [information-geography-multimodal-geoai-2027.yml](../src/data/opportunities/special-issues/information-geography-multimodal-geoai-2027.yml)
 - [ ] [jag-resource-constrained-multimodal-foundation-models-2027.yml](../src/data/opportunities/special-issues/jag-resource-constrained-multimodal-foundation-models-2027.yml)
