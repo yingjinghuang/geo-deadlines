@@ -2,13 +2,21 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 111; awaiting individual official-source verification: 27.
+Current baseline: 138 opportunities. Entries checked in the current pass: 113; awaiting individual official-source verification: 25.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
 ## Current pass findings — 16 October 2026
+
+- **BOKU Geomatics Senior Scientist**: recovered BOKU's own published statutory vacancy PDF, reference code 160, published 18 August 2026. It explicitly gives **6 October 2026** as the deadline. Fixed the primary source URL and checked the item from BOKU's original publication; the elapsed date is not an active application offer.
+- **GeoAI 2028**: the conference-series organizer Haosheng Huang directly confirmed **ECNU, Shanghai** as host, with the event dates/CFP **not yet released**. The genuine verified value is `TBD`; fixed the otherwise inaccessible primary conference URL to the organizer's direct announcement, with ECNU School official site as host evidence.
+- **UiO cryosphere remote sensing PhD and postdoc** (Jobbnorge IDs 308026, 308033), and **NTNU AI climate planning PhD** (ID 306712): original publisher-operated Jobbnorge job-list feed confirms advertised 13 October (UiO) and 5 October (NTNU) 2026 deadlines; live feeds no longer list those records and detail pages aren't accessible. Recorded official feed URLs and remarks, **but kept records pending and did not refresh `last_verified`** because current vacancy/extension status cannot be confirmed.
+- **CEUS GeoAI and fire-research special issue**: publisher's Development CFP index says **30 October 2026**, while its Computer Science index says **31 December 2026**. Guest editor Huanfa Chen and UCL Bartlett CASA have publicized December 31. Added both publisher-index URLs and the explicit clash to the item; restored `last_verified` to **2026-10-03**, its last pre-conflict baseline, rather than displaying a spurious fresh verification date.
+- **Remote Sensing of Environment geospatial foundation-model special issue**: NASA JPL and guest editors gave **30 June 2026**, while the previously observed publisher-index date is **31 December 2026**. Its publisher live detail page remains HTTP 403, so the extension remains unresolved. Added the NASA JPL source and a prominent YAML note while preserving the old verification timestamp.
+
+
 
 - **McGill Geography faculty JR0000078552:** the official Workday posting still shows an Apply button and **16 October 2026** as an application end date; no extension presumed.
 - **Nanjing University Geography/Ocean Science faculty:** the official vacancy listing still gives **15 October 2026** with an Apply Now action; that deadline has passed and the announcement permits extension only if applicants are too few. **No extension confirmed.**
@@ -17,7 +25,7 @@ Verification improvements in this pass: the UI now marks positions needing re-re
 - The official ScienceDirect search index corroborates deadline dates for several remaining special issues, but direct publisher detail pages are HTTP 403; **do not convert search snippets into `last_verified` certification**.
 
 
-- **111 of 138** opportunities individually reviewed, **27** still pending authoritative source confirmation.
+- **113 of 138** opportunities individually reviewed, **25** still pending authoritative source confirmation.
 - Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
 - Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
 - Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
@@ -42,7 +50,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [foss4g-2027.yml](../src/data/opportunities/conferences/foss4g-2027.yml) — official source reviewed
 - [x] [geo-week-2027.yml](../src/data/opportunities/conferences/geo-week-2027.yml) — official source reviewed
 - [x] [geoai-2027.yml](../src/data/opportunities/conferences/geoai-2027.yml) — official source reviewed
-- [ ] [geoai-2028.yml](../src/data/opportunities/conferences/geoai-2028.yml)
+- [x] [geoai-2028.yml](../src/data/opportunities/conferences/geoai-2028.yml)
 - [x] [giscience-2027.yml](../src/data/opportunities/conferences/giscience-2027.yml) — official source checked in this pass
 - [x] [gistam-2027.yml](../src/data/opportunities/conferences/gistam-2027.yml) — official source reviewed
 - [x] [icc-2027.yml](../src/data/opportunities/conferences/icc-2027.yml) — official source reviewed
@@ -68,7 +76,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 
 - [x] [ait-satellite-remote-sensing-infrastructure-phd-2026.yml](../src/data/opportunities/positions/ait-satellite-remote-sensing-infrastructure-phd-2026.yml) — official source reviewed
 - [x] [berkeley-global-environmental-change-assistant-professor-2026.yml](../src/data/opportunities/positions/berkeley-global-environmental-change-assistant-professor-2026.yml) — official source reviewed
-- [ ] [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](../src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml)
+- [x] [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](../src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml)
 - [ ] [cambridge-polar-studies-assistant-professor-2026.yml](../src/data/opportunities/positions/cambridge-polar-studies-assistant-professor-2026.yml)
 - [x] [colgate-climate-science-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/colgate-climate-science-geography-assistant-professor-2026.yml)
 - [x] [cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml) — official source reviewed
