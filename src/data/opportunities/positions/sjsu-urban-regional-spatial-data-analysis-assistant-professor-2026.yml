@@ -13,7 +13,7 @@ sources:
   - label: "Official San José State University faculty vacancy 560948"
     url: "https://jobs.sjsu.edu/en-us/job/560948/assistant-professor-of-economics-urbanregional-spatial-data-analysis"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "San José"
@@ -31,3 +31,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "Official posting labels October 15, 2026 the application deadline, although its Apply now button and blank closing-date field remain visible on October 16. No official extension confirmed; do not present October 16 as a new deadline."
