@@ -2,9 +2,9 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 77; awaiting individual official-source verification: 61.
+Current baseline: 139 opportunities. Entries checked in the current pass: 100; awaiting individual official-source verification: 39.
 
-Audit update: 2026-10-16. The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
+Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
@@ -38,17 +38,17 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [igarss-2027.yml](../src/data/opportunities/conferences/igarss-2027.yml) — official source reviewed
 - [x] [isprs-geospatial-week-2027.yml](../src/data/opportunities/conferences/isprs-geospatial-week-2027.yml) — official source checked in this pass
 - [x] [kdd-2027.yml](../src/data/opportunities/conferences/kdd-2027.yml) — official source checked in this pass
-- [ ] [lbs-2026.yml](../src/data/opportunities/conferences/lbs-2026.yml)
+- [x] [lbs-2026.yml](../src/data/opportunities/conferences/lbs-2026.yml)
 - [x] [neurips-2027.yml](../src/data/opportunities/conferences/neurips-2027.yml) — official source reviewed
 - [x] [sigspatial-2026.yml](../src/data/opportunities/conferences/sigspatial-2026.yml)
 - [x] [spatial-statistics-2027.yml](../src/data/opportunities/conferences/spatial-statistics-2027.yml)
 - [x] [state-of-the-map-2027.yml](../src/data/opportunities/conferences/state-of-the-map-2027.yml)
-- [ ] [ucgis-2027.yml](../src/data/opportunities/conferences/ucgis-2027.yml)
+- [x] [ucgis-2027.yml](../src/data/opportunities/conferences/ucgis-2027.yml)
 - [ ] [wacv-2027.yml](../src/data/opportunities/conferences/wacv-2027.yml)
 
 ## Workshops
 
-- [ ] [geoai-2026.yml](../src/data/opportunities/workshops/geoai-2026.yml)
+- [x] [geoai-2026.yml](../src/data/opportunities/workshops/geoai-2026.yml)
 
 ## Positions
 
@@ -56,29 +56,29 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [berkeley-global-environmental-change-assistant-professor-2026.yml](../src/data/opportunities/positions/berkeley-global-environmental-change-assistant-professor-2026.yml) — official source reviewed
 - [ ] [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](../src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml)
 - [ ] [cambridge-polar-studies-assistant-professor-2026.yml](../src/data/opportunities/positions/cambridge-polar-studies-assistant-professor-2026.yml)
-- [ ] [colgate-climate-science-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/colgate-climate-science-geography-assistant-professor-2026.yml)
+- [x] [colgate-climate-science-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/colgate-climate-science-geography-assistant-professor-2026.yml)
 - [x] [cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml) — official source reviewed
-- [ ] [cpp-uas-autonomy-gis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-uas-autonomy-gis-assistant-professor-2026.yml)
+- [x] [cpp-uas-autonomy-gis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-uas-autonomy-gis-assistant-professor-2026.yml)
 - [x] [cranfield-remote-sensing-ai-research-fellow-2026.yml](../src/data/opportunities/positions/cranfield-remote-sensing-ai-research-fellow-2026.yml)
 - [x] [csuf-physical-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/csuf-physical-geography-assistant-professor-2026.yml) — official source reviewed
 - [ ] [groningen-inclusive-urban-mobility-postdoc-2026.yml](../src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml)
 - [x] [guelph-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/guelph-geoai-assistant-professor-2026.yml) — official source reviewed
 - [ ] [hku-physical-geography-ai-assistant-professor-2026.yml](../src/data/opportunities/positions/hku-physical-geography-ai-assistant-professor-2026.yml)
-- [ ] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
-- [ ] [iowa-geoai-spatial-data-science-phd-2026.yml](../src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml)
-- [ ] [ista-mountain-water-cryosphere-postdoc-2026.yml](../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml)
+- [x] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
+- [x] [iowa-geoai-spatial-data-science-phd-2026.yml](../src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml)
+- [x] [ista-mountain-water-cryosphere-postdoc-2026.yml](../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml)
 - [x] [loughborough-physical-geography-professor-2026.yml](../src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
 - [x] [maastricht-urban-regional-modelling-faculty-2026.yml](../src/data/opportunities/positions/maastricht-urban-regional-modelling-faculty-2026.yml) — official source reviewed
 - [x] [max-planck-quantitative-past-urban-studies-phd-2026.yml](../src/data/opportunities/positions/max-planck-quantitative-past-urban-studies-phd-2026.yml)
 - [ ] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
-- [ ] [mit-senseable-dubai-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml)
+- [x] [mit-senseable-dubai-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml)
 - [ ] [mit-senseable-seoul-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml)
 - [ ] [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml)
 - [ ] [ntnu-ai-climate-risk-urban-planning-phd-2026.yml](../src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml)
-- [ ] [polyu-geoai-climate-urban-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml)
-- [ ] [polyu-gift-geospatial-transport-phd-2026.yml](../src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml)
-- [ ] [polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml)
-- [ ] [polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml)
+- [x] [polyu-geoai-climate-urban-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml)
+- [x] [polyu-gift-geospatial-transport-phd-2026.yml](../src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml)
+- [x] [polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml)
+- [x] [polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml)
 - [ ] [qub-physical-geography-lecturer-2026.yml](../src/data/opportunities/positions/qub-physical-geography-lecturer-2026.yml)
 - [x] [sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [stanford-climate-science-assistant-professor-2026.yml](../src/data/opportunities/positions/stanford-climate-science-assistant-professor-2026.yml) — official source reviewed
@@ -88,12 +88,12 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [uclouvain-physical-environment-climate-geography-academic-2026.yml](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml)
 - [x] [uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [uf-remote-sensing-assistant-associate-professor-2026.yml](../src/data/opportunities/positions/uf-remote-sensing-assistant-associate-professor-2026.yml) — official source reviewed
-- [ ] [uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml)
+- [x] [uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml)
 - [ ] [uio-cryosphere-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-phd-2026.yml)
 - [ ] [uio-cryosphere-remote-sensing-postdoc-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-postdoc-2026.yml)
-- [ ] [uiuc-geoai-geospatial-computing-phd-2026.yml](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml)
-- [ ] [umd-coastal-geomorphology-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml)
-- [ ] [umd-satellite-remote-sensing-research-position-2026.yml](../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml)
+- [x] [uiuc-geoai-geospatial-computing-phd-2026.yml](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml)
+- [x] [umd-coastal-geomorphology-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml)
+- [x] [umd-satellite-remote-sensing-research-position-2026.yml](../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml)
 - [ ] [uncg-urban-economic-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/uncg-urban-economic-geography-assistant-professor-2026.yml)
 - [x] [univie-human-economic-geography-senior-lecturer-2026.yml](../src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml)
 - [x] [univie-spatial-data-science-predoc-2026.yml](../src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml)
@@ -101,14 +101,15 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
 - [x] [usc-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml) — official source checked in this pass
 - [x] [usf-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
-- [ ] [ut-austin-geoai-phd-2026.yml](../src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml)
+- [x] [ut-austin-geoai-phd-2026.yml](../src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml)
 - [x] [utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml](../src/data/opportunities/positions/utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml)
 - [ ] [utrecht-ai-urban-redesign-health-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-ai-urban-redesign-health-postdoc-2026.yml)
-- [ ] [uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml](../src/data/opportunities/positions/uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml)
+- [x] [uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml](../src/data/opportunities/positions/uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml)
 - [ ] [virginia-tech-geoai-phd-2026.yml](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml)
 
 ## Special issues
 
+- [x] [epb-novel-approaches-15-minute-city-2026.yml](../src/data/opportunities/special-issues/epb-novel-approaches-15-minute-city-2026.yml) — new official SAGE call verified 2026-10-16
 - [x] [annals-gis-geographical-principles-2026.yml](../src/data/opportunities/special-issues/annals-gis-geographical-principles-2026.yml) — official source reviewed
 - [ ] [applied-geography-uneven-green-transition-2026.yml](../src/data/opportunities/special-issues/applied-geography-uneven-green-transition-2026.yml)
 - [ ] [ceus-digital-twins-ai-healthy-sustainable-cities-2025.yml](../src/data/opportunities/special-issues/ceus-digital-twins-ai-healthy-sustainable-cities-2025.yml)
@@ -120,7 +121,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [cities-smart-cities-sustainability-2026.yml](../src/data/opportunities/special-issues/cities-smart-cities-sustainability-2026.yml)
 - [ ] [cities-spatial-governance-urban-agglomeration-2025.yml](../src/data/opportunities/special-issues/cities-spatial-governance-urban-agglomeration-2025.yml)
 - [ ] [cities-urban-regeneration-mobility-2026.yml](../src/data/opportunities/special-issues/cities-urban-regeneration-mobility-2026.yml)
-- [ ] [epb-geogames-2026.yml](../src/data/opportunities/special-issues/epb-geogames-2026.yml)
+- [x] [epb-geogames-2026.yml](../src/data/opportunities/special-issues/epb-geogames-2026.yml)
 - [ ] [geodata-ai-enhanced-geospatial-big-data-2026.yml](../src/data/opportunities/special-issues/geodata-ai-enhanced-geospatial-big-data-2026.yml)
 - [x] [gisrs-urban-remote-sensing-environment-2027.yml](../src/data/opportunities/special-issues/gisrs-urban-remote-sensing-environment-2027.yml) — official source reviewed
 - [x] [gisrs-vlm-remote-sensing-imagery-2027.yml](../src/data/opportunities/special-issues/gisrs-vlm-remote-sensing-imagery-2027.yml) — official source reviewed
@@ -136,10 +137,10 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [jag-resource-constrained-multimodal-foundation-models-2027.yml](../src/data/opportunities/special-issues/jag-resource-constrained-multimodal-foundation-models-2027.yml)
 - [ ] [rse-geospatial-foundation-models-2026.yml](../src/data/opportunities/special-issues/rse-geospatial-foundation-models-2026.yml)
 - [ ] [rse-leaf-traits-ecosystem-function-2027.yml](../src/data/opportunities/special-issues/rse-leaf-traits-ecosystem-function-2027.yml)
-- [ ] [scientific-reports-geospatial-data-science-2027.yml](../src/data/opportunities/special-issues/scientific-reports-geospatial-data-science-2027.yml)
+- [x] [scientific-reports-geospatial-data-science-2027.yml](../src/data/opportunities/special-issues/scientific-reports-geospatial-data-science-2027.yml)
 - [ ] [scs-heat-resilience-health-equity-2027.yml](../src/data/opportunities/special-issues/scs-heat-resilience-health-equity-2027.yml)
 - [ ] [scs-sustainability-health-equity-ai-wellbeing-2026.yml](../src/data/opportunities/special-issues/scs-sustainability-health-equity-ai-wellbeing-2026.yml)
-- [ ] [tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml](../src/data/opportunities/special-issues/tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml)
+- [x] [tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml](../src/data/opportunities/special-issues/tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml)
 - [x] [tgis-ethical-explainable-geoai-2026.yml](../src/data/opportunities/special-issues/tgis-ethical-explainable-geoai-2026.yml)
 - [x] [tgis-geohazard-technologies-2026.yml](../src/data/opportunities/special-issues/tgis-geohazard-technologies-2026.yml)
 - [x] [tgis-giscience-education-2027.yml](../src/data/opportunities/special-issues/tgis-giscience-education-2027.yml)
