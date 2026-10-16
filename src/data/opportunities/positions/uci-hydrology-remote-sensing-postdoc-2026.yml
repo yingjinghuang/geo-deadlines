@@ -15,7 +15,7 @@ sources:
   - label: "Official UC Irvine Recruit posting JPF10415"
     url: "https://recruit.ap.uci.edu/JPF10415"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Irvine"
@@ -28,11 +28,11 @@ deadlines:
   - id: priority-review
     type: application
     label: "Full Consideration"
-    datetime: "2026-09-30T23:59:00-07:00"
+    datetime: "2026-10-12T23:59:00-07:00"
     timezone: "America/Los_Angeles"
     status: active
     primary: true
-    note: "Apply by this date to ensure full consideration."
+    note: "Official UC Irvine Recruit page updated the most recent review date to 12 October 2026, 11:59 PM Pacific. Late applications can be reviewed if the job remains unfilled; final deadline is still December 31, 2026."
   - id: final-application
     type: application
     label: "Final Application"
