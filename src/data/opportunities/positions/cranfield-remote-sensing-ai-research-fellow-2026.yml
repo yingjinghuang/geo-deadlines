@@ -15,7 +15,7 @@ sources:
   - label: "Official Cranfield University vacancy 5381"
     url: "https://jobs.cranfield.ac.uk/vacancy/research-fellow-in-remote-sensing-and-ai-618071.html"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Cranfield"
@@ -33,3 +33,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "CLOSED: Official Cranfield vacancy page now states 'This job is unavailable'. Its original application deadline was September 17, 2026."
