@@ -23,7 +23,7 @@ sources:
   - label: "Official GISTAM 2027 venue information"
     url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-04-20"
   end: "2027-04-22"
@@ -58,4 +58,39 @@ deadlines:
     label: "Abstract Track"
     datetime: "2027-02-16T23:59:00-12:00"
     timezone: "AoE"
+    status: active
+  - id: stage-1-decision
+    type: notification
+    label: "Stage 1 Decision"
+    datetime: "2027-01-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: stage-1-camera
+    type: camera_ready
+    label: "Stage 1 Camera Ready and Registration"
+    datetime: "2027-01-27"
+    precision: date
+    timezone: null
+    status: active
+  - id: stage-2-decision
+    type: notification
+    label: "Stage 2 Decision"
+    datetime: "2027-02-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: stage-2-camera
+    type: camera_ready
+    label: "Stage 2 Camera Ready and Registration"
+    datetime: "2027-03-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-notification
+    type: notification
+    label: "Abstract Notification"
+    datetime: "2027-03-02"
+    precision: date
+    timezone: null
     status: active
