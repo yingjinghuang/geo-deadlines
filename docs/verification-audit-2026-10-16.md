@@ -2,7 +2,7 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 139 opportunities. Entries checked in the current pass: 100; awaiting individual official-source verification: 39.
+Current baseline: 139 opportunities. Entries checked in the current pass: 105; awaiting individual official-source verification: 34.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
@@ -63,7 +63,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [csuf-physical-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/csuf-physical-geography-assistant-professor-2026.yml) — official source reviewed
 - [ ] [groningen-inclusive-urban-mobility-postdoc-2026.yml](../src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml)
 - [x] [guelph-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/guelph-geoai-assistant-professor-2026.yml) — official source reviewed
-- [ ] [hku-physical-geography-ai-assistant-professor-2026.yml](../src/data/opportunities/positions/hku-physical-geography-ai-assistant-professor-2026.yml)
+- [x] [hku-physical-geography-ai-assistant-professor-2026.yml](../src/data/opportunities/positions/hku-physical-geography-ai-assistant-professor-2026.yml)
 - [x] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
 - [x] [iowa-geoai-spatial-data-science-phd-2026.yml](../src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml)
 - [x] [ista-mountain-water-cryosphere-postdoc-2026.yml](../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml)
@@ -72,7 +72,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [max-planck-quantitative-past-urban-studies-phd-2026.yml](../src/data/opportunities/positions/max-planck-quantitative-past-urban-studies-phd-2026.yml)
 - [ ] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
 - [x] [mit-senseable-dubai-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml)
-- [ ] [mit-senseable-seoul-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml)
+- [x] [mit-senseable-seoul-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml)
 - [ ] [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml)
 - [ ] [ntnu-ai-climate-risk-urban-planning-phd-2026.yml](../src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml)
 - [x] [polyu-geoai-climate-urban-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml)
@@ -94,10 +94,10 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [uiuc-geoai-geospatial-computing-phd-2026.yml](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml)
 - [x] [umd-coastal-geomorphology-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml)
 - [x] [umd-satellite-remote-sensing-research-position-2026.yml](../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml)
-- [ ] [uncg-urban-economic-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/uncg-urban-economic-geography-assistant-professor-2026.yml)
+- [x] [uncg-urban-economic-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/uncg-urban-economic-geography-assistant-professor-2026.yml)
 - [x] [univie-human-economic-geography-senior-lecturer-2026.yml](../src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml)
 - [x] [univie-spatial-data-science-predoc-2026.yml](../src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml)
-- [ ] [uottawa-urban-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml)
+- [x] [uottawa-urban-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml)
 - [ ] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
 - [x] [usc-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml) — official source checked in this pass
 - [x] [usf-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
@@ -105,7 +105,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml](../src/data/opportunities/positions/utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml)
 - [ ] [utrecht-ai-urban-redesign-health-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-ai-urban-redesign-health-postdoc-2026.yml)
 - [x] [uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml](../src/data/opportunities/positions/uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml)
-- [ ] [virginia-tech-geoai-phd-2026.yml](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml)
+- [x] [virginia-tech-geoai-phd-2026.yml](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml)
 
 ## Special issues
 
