@@ -10,7 +10,7 @@ topics:
   - earth-observation
   - giscience
   - spatial-computing
-website: "https://www.isprs.org/society/gsw.aspx"
+website: "https://www.gsw2027.pl/"
 sources:
   - label: "Official ISPRS Geospatial Week page"
     url: "https://www.isprs.org/society/gsw.aspx"
@@ -18,7 +18,13 @@ sources:
   - label: "ISPRS 2027 calendar"
     url: "https://isprs.org/calendar/2027.aspx"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official GSW 2027 calls and author timeline"
+    url: "https://gsw2027.pl/calls.html"
+    kind: official
+  - label: "Official ISPRS workshop deadline extension (3 October 2026)"
+    url: "https://isprs.org/news/announcements/details.aspx?ID=460"
+    kind: official
+last_verified: "2026-10-16"
 event:
   start: "2027-09-19"
   end: "2027-09-24"
@@ -27,13 +33,46 @@ location:
   city: "Warsaw"
   country: "Poland"
   country_code: "PL"
+  venue: "Hilton Warsaw City"
 organizations:
   - "International Society for Photogrammetry and Remote Sensing"
 deadlines:
-  - id: paper
-    type: paper
-    label: "Paper / Abstract Submission"
-    datetime: TBD
+  - id: workshop-proposal
+    type: other
+    label: "Workshop Proposal"
+    datetime: "2026-10-30"
+    precision: date
     timezone: null
     status: active
-    note: "The event dates are official; submission dates have not yet been announced."
+    note: "Extended from 30 September 2026 to 30 October 2026, per the official ISPRS announcement and GSW call. The GSW overview page is inconsistent; use its dedicated calls page."
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper (ISPRS Annals)"
+    datetime: "2027-04-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official GSW author timeline; exact submission time and timezone are not published."
+  - id: extended-abstract
+    type: abstract
+    label: "Extended Abstract (ISPRS Archives / Abstract-only)"
+    datetime: "2027-05-15"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official GSW author timeline; exact submission time and timezone are not published."
+  - id: notification
+    type: notification
+    label: "Author Notification"
+    datetime: "2027-06-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera-ready"
+    datetime: "2027-07-15"
+    precision: date
+    timezone: null
+    status: active
