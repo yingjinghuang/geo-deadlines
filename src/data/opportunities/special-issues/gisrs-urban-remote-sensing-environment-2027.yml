@@ -1,0 +1,30 @@
+title: "Remote Sensing Solutions for Urban Environment and Ecosystem Monitoring, Modelling, and Management"
+type: special_issue
+year: 2027
+description: "A GIScience & Remote Sensing article collection covering urban heat, green space, ecosystem monitoring, 3D urban environment modelling, and geospatial approaches to urban environmental management."
+scope: core
+topics: [urban, remote-sensing, earth-observation, geoai, sustainability]
+journal:
+  name: "GIScience & Remote Sensing"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
+sources:
+  - label: "Official Taylor & Francis article collection"
+    url: "https://think.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
+    kind: publisher
+last_verified: "2026-10-16"
+guest_editors:
+  - name: "Qin Ma"
+  - name: "Yang Ju"
+  - name: "Lu Liang"
+  - name: "Yimin Chen"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-07-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Publisher specifies a calendar date only; no exact submission time or timezone is stated."
