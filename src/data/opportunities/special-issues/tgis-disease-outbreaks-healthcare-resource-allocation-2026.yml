@@ -17,7 +17,7 @@ sources:
   - label: "Official Wiley call for papers"
     url: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000301"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "AMAM Zonaed Siddiki"
     affiliation: "Chittagong Veterinary and Animal Science University"
@@ -33,4 +33,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "UNRESOLVED OFFICIAL CONFLICT: the live Wiley Transactions in GIS CFP index currently lists 31 December 2026, but this dedicated special-issue call page lists 30 September 2026. Preserve the previously published index date provisionally; the publisher must reconcile these sources before last_verified is advanced."
+    note: "Both the dedicated official Wiley special-issue page and publisher listing now show 31 December 2026. Earlier September 30 information is superseded."
