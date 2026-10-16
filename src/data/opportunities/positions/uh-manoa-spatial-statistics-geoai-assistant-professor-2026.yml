@@ -1,0 +1,39 @@
+title: "Assistant Professor — Spatial Statistics and GeoAI"
+short_name: "UH Manoa Spatial Statistics + GeoAI Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A tenure-track Assistant Professor position in the University of Hawai'i at Manoa Department of Geography and Environment, advancing spatial statistics and GeoAI methodology and teaching statistical learning, machine learning, and AI for social sciences. Expected start August 1, 2027."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-statistics
+  - spatial-data-science
+  - machine-learning
+  - geography
+website: "https://www.governmentjobs.com/jobs/5492953-0/assistant-professor-spatial-statistics-and-geoai-0084868"
+submission_url: "https://www.governmentjobs.com/jobs/5492953-0/assistant-professor-spatial-statistics-and-geoai-0084868"
+sources:
+  - label: "Official University of Hawai'i recruitment posting 0084868 (governmentjobs)"
+    url: "https://www.governmentjobs.com/jobs/5492953-0/assistant-professor-spatial-statistics-and-geoai-0084868"
+    kind: official
+last_verified: "2026-10-16"
+location:
+  mode: in_person
+  city: "Honolulu"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Hawai'i at Manoa"
+  - "Department of Geography and Environment"
+deadlines:
+  - id: priority-application
+    type: application
+    label: "Priority Application"
+    datetime: "2026-11-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Applications received by November 15, 2026 receive priority; review begins November 16 and continues until the position is filled. The official listing has a continuous closing date."
