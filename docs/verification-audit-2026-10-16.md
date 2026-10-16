@@ -2,7 +2,7 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 139 opportunities. Entries checked in the current pass: 109; awaiting individual official-source verification: 30.
+Current baseline: 138 opportunities. Entries checked in the current pass: 111; awaiting individual official-source verification: 27.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
@@ -10,7 +10,14 @@ Verification improvements in this pass: the UI now marks positions needing re-re
 
 ## Current pass findings — 16 October 2026
 
-- **109 of 139** opportunities individually reviewed, **30** still pending authoritative source confirmation.
+- **McGill Geography faculty JR0000078552:** the official Workday posting still shows an Apply button and **16 October 2026** as an application end date; no extension presumed.
+- **Nanjing University Geography/Ocean Science faculty:** the official vacancy listing still gives **15 October 2026** with an Apply Now action; that deadline has passed and the announcement permits extension only if applicants are too few. **No extension confirmed.**
+- **WACV 2027:** removed outdated prose claiming August submissions "remain open", recorded an official **3 November 2026 04:59 UTC** attendee-registration deadline, and kept the contradictory 9/14 October decision dates **unresolved** without bumping `last_verified`.
+- **Removed one demonstrably misattributed special issue card:** `ufug-intelligent-sustainability-environmental-innovation-2026.yml`. The publisher catalogs the same title under *Sustainable Energy Technologies and Assessments*, with editors Foni Agus Setiawan et al. rather than the UFUG editor roster. Its metadata had combined different calls, so the inaccurate UFUG entry was removed, not cosmetically marked verified. The genuine SETA call is outside the project's geospatial core; see [unresolved-source log](unresolved-official-sources-2026-10-16.md) for provenance.
+- The official ScienceDirect search index corroborates deadline dates for several remaining special issues, but direct publisher detail pages are HTTP 403; **do not convert search snippets into `last_verified` certification**.
+
+
+- **111 of 138** opportunities individually reviewed, **27** still pending authoritative source confirmation.
 - Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
 - Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
 - Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
@@ -77,10 +84,10 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [loughborough-physical-geography-professor-2026.yml](../src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
 - [x] [maastricht-urban-regional-modelling-faculty-2026.yml](../src/data/opportunities/positions/maastricht-urban-regional-modelling-faculty-2026.yml) — official source reviewed
 - [x] [max-planck-quantitative-past-urban-studies-phd-2026.yml](../src/data/opportunities/positions/max-planck-quantitative-past-urban-studies-phd-2026.yml)
-- [ ] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
+- [x] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
 - [x] [mit-senseable-dubai-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml)
 - [x] [mit-senseable-seoul-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml)
-- [ ] [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml)
+- [x] [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml)
 - [ ] [ntnu-ai-climate-risk-urban-planning-phd-2026.yml](../src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml)
 - [x] [polyu-geoai-climate-urban-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml)
 - [x] [polyu-gift-geospatial-transport-phd-2026.yml](../src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml)
@@ -168,5 +175,4 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [tus-transport-human-mobility-2026.yml](../src/data/opportunities/special-issues/tus-transport-human-mobility-2026.yml)
 - [x] [tus-urban-artificial-intelligence-2026.yml](../src/data/opportunities/special-issues/tus-urban-artificial-intelligence-2026.yml)
 - [x] [tus-virtual-real-behaviours-2026.yml](../src/data/opportunities/special-issues/tus-virtual-real-behaviours-2026.yml)
-- [ ] [ufug-intelligent-sustainability-environmental-innovation-2026.yml](../src/data/opportunities/special-issues/ufug-intelligent-sustainability-environmental-innovation-2026.yml)
 
