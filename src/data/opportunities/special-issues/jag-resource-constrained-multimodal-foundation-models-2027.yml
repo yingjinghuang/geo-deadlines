@@ -28,3 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "The matching ScienceDirect publisher calls-for-papers index (CSR/computer science) lists 31 July 2027 and all five guest editors for this exact JAG special issue. A directly opened current standalone publisher/lead editor call could not be retrieved (ScienceDirect HTTP 403). Preserve original verification date until exact current CFP can be read."
