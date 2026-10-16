@@ -19,7 +19,7 @@ sources:
   - label: "Public recruiting announcement for Spring and Fall 2027"
     url: "https://www.linkedin.com/posts/arshad-rauf-phd-a2844367_ttu-recruitment-activity-7500448770980216832-mBdz"
     kind: announcement
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Lubbock"
@@ -37,4 +37,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The official faculty page states that funded PhD positions are available for Spring 2027 and Fall 2027 and encourages prospective students to contact the PI. No final closing date is stated on the sources checked."
+    note: "Rechecked the current TTU Department of Geosciences faculty page on 16 October 2026: Prof. Jiangtao Liu explicitly advertises funded PhD positions for Spring and Fall 2027. Prospective students are invited to contact him. No exact application closing date is published."
