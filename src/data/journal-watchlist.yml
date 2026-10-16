@@ -72,3 +72,13 @@ journals:
     short_name: "Annals of GIS"
     publisher: "Taylor & Francis"
     homepage: "https://www.tandfonline.com/toc/tagi20/current"
+  - id: giscience-remote-sensing
+    name: "GIScience & Remote Sensing"
+    short_name: "GIScience & Remote Sensing"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/journals/tgrs20"
+  - id: geospatial-information-science
+    name: "Geo-spatial Information Science"
+    short_name: "GSIS"
+    publisher: "Taylor & Francis"
+    homepage: "https://www.tandfonline.com/journals/tgsi20"
