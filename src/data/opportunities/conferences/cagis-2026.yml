@@ -15,7 +15,7 @@ sources:
   - label: "Official call for participation"
     url: "https://cartogis.org/conferences/cagis2026/call-for-participation/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2026-09-08"
   end: "2026-09-11"
@@ -44,6 +44,20 @@ deadlines:
     type: paper
     label: "Vision Paper"
     datetime: "2026-04-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-acceptance
+    type: notification
+    label: "Abstract Acceptance"
+    datetime: "2026-05-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-revisions
+    type: revision
+    label: "Abstract Revisions"
+    datetime: "2026-08-15"
     precision: date
     timezone: null
     status: active
