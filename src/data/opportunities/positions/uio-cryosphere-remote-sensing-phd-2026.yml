@@ -15,6 +15,9 @@ sources:
   - label: "Official University of Oslo / Jobbnorge vacancy"
     url: "https://www.jobbnorge.no/ledige-stillinger/stilling/308026/phd-research-fellow-in-remote-sensing-of-the-cryosphere"
     kind: official
+  - label: "Jobbnorge official vacancy-distribution feed (historical deadline confirmation, not current application status)"
+    url: "https://www.jobbnorge.no/apps/joblist/JobListBuilder.ashx?id=6a0a2a7b-c992-4fe5-87d6-8b1e7cf0e7cf"
+    kind: official
 last_verified: "2026-09-11"
 location:
   mode: in_person
@@ -33,3 +36,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "The original Jobbnorge vacancy 308026 is no longer directly accessible. A historical publisher-origin Jobbnorge jobs feed independently records 13 October 2026 as the advertised closing date. As of 16 October 2026 its live vacancy status or any extension cannot be directly established, so the prior last_verified timestamp is deliberately retained."
