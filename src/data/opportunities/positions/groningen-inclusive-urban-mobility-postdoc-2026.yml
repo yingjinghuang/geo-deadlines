@@ -32,3 +32,4 @@ deadlines:
     timezone: "Europe/Amsterdam"
     status: active
     primary: true
+    note: "UNRESOLVED STATUS: the original University of Groningen position page now returns HTTP 404 after the advertised 20 September 2026 deadline. No official deadline extension or live application posting could be confirmed 16 October; retain prior verification date."
