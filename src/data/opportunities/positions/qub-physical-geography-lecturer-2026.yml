@@ -15,7 +15,7 @@ sources:
   - label: "Official Queen's University Belfast vacancy 26/113611"
     url: "https://hrwebapp.qub.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?LANG=USA&VACANCY_ID=791203XS1E&WVID=6273090Lgx"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Belfast"
@@ -33,3 +33,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "CLOSED: the original Queen’s University Belfast HR posting currently explicitly says \"Unfortunately, this vacancy has now closed\"; advertised final application date 14 September 2026. Source rechecked 16 October 2026."
