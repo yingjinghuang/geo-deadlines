@@ -1,0 +1,46 @@
+# Live-catalog maintenance and closed-recruitment cleanup — 2026-10-16
+
+## Current live-catalog baseline (after pruning)
+
+- **129** opportunities remain in `src/data/opportunities/` (previously 140).
+- **45** position records remain (previously 56).
+- **116/129** of the remaining records were certified under the strict direct primary-source standard during the completed 16 October full-source audit; **13/129** are still source-limited or disputed. The 11 deleted vacancies consisted of 8 previously certified records and 3 previously unresolved records.
+- The original [140-entry review inventory](verification-audit-2026-10-16.md) and the [19-entry final source disposition](final-disposition-of-19-remaining-records-2026-10-16.md) are **historical snapshots**, not the current live dataset counts. Deleted YAMLs remain retrievable in [commit 660954f4](https://github.com/yingjinghuang/geo-deadlines/tree/660954f450a98d94534d0c581e65da5cd6584ad1/src/data/opportunities/positions).
+
+## User-requested policy: remove concluded recruitments from live cards
+
+Positions with an employer/applicant portal explicitly declaring **closed**, **expired**, **no longer accepting applications**, or **unavailable**, or whose specific hard-final application window has elapsed and vacancy has disappeared from the current recruitment system, should **be removed from `positions/` rather than retained as expired opportunity cards**. Do not treat a solitary HTTP 403 / temporary connection failure as proof of closure; corroborate with official advertised hard closing date, recruitment system or employer-origin announcement. A confirmed final application deadline that has passed can support removal where current application availability has independently ceased.
+
+**Do not remove** a position merely because a `first consideration`, `review begins`, or `priority review` date has passed. If the employer says `open until filled` and the posting remains active, retain it, distinguish the review date from a final deadline, and continue monitoring. For example:
+- [UNCG Urban Economic Geography](https://spartantalent.uncg.edu/postings/35916): 15 October is a best-consideration/review date; employer explicitly says **Open Until Filled: Yes**.
+- [Colgate Geography Climate Science](https://www.colgate.edu/jobs-colgate/faculty-positions): initial review began 15 September, and review continues until filled.
+- [Cal Poly Pomona Criminology / GIS](https://careers.cpp.edu/en-us/job/560370/criminology-gis-and-spatial-analysis-assistant-professor): open until filled despite a 30 September first consideration date.
+- [Utrecht AI Urban (Re)Design for Health](https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-ai-driven-urban-redesign-for-health) remains on the university live jobs directory despite an October 15 advertised deadline; do not infer disappearance from date alone.
+- [ISTA Pellicciotti cryosphere postdoc](https://ista.ac.at/en/job/postdoc-research-group-pellicciotti/) remains listed on the university open-positions index despite a 9 October printed deadline; check employer status rather than silently deleting.
+
+This position-only live-catalog cleanup does not authorize deleting old journal special issues or conference history. Retain historical CFP and conference records under their existing verification rules.
+
+## Deleted recruitment YAMLs
+
+| Deleted path (historical file) | Employer evidence / reason |
+|---|---|
+| [Cambridge Polar Studies faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/cambridge-polar-studies-assistant-professor-2026.yml) | Employer-issued [jobs.ac.uk LC49794](https://www.jobs.ac.uk/job/DSD045/university-assistant-professor-in-polar-studies) says final deadline 21 Sep 2026; original Cambridge vacancy inaccessible/absent from current application flow. |
+| [NTNU inclusive climate-risk AI PhD](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml) | Original Jobbnorge 306712 now 404; [Jobbnorge employer feed](https://www.jobbnorge.no/apps/joblist/joblistbuilder.ashx?id=346d3f54-984e-45df-bed9-09d126dfc4e1) establishes hard 5 Oct 2026 deadline. |
+| [UiO cryosphere RS postdoc](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/uio-cryosphere-remote-sensing-postdoc-2026.yml) | Jobbnorge 308033 now 404; [original Jobbnorge publisher feed](https://www.jobbnorge.no/apps/joblist/JobListBuilder.ashx?id=6a0a2a7b-c992-4fe5-87d6-8b1e7cf0e7cf) advertises 13 Oct 2026 cutoff. |
+| [UiO cryosphere RS PhD](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/uio-cryosphere-remote-sensing-phd-2026.yml) | [University-issued EURAXESS record 465613](https://euraxess.ec.europa.eu/jobs/465613) explicitly **STATUS: EXPIRED**; 13 Oct 2026 23:00 Oslo. |
+| [University of Vienna Geography Senior Lecturer](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml) | [UniVie recruiting portal](https://jobs.univie.ac.at/job/Senior-Lecturer-%28academic-teaching%29/1424681133/) explicitly: requisition no longer online, applications no longer possible. |
+| [University of Vienna Spatial Data Science predoc](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml) | [UniVie recruiting portal](https://jobs.univie.ac.at/job/University-assistant-predoctoral/1426976233/) explicitly: requisition no longer online, applications no longer possible. |
+| [Groningen Inclusive Mobility postdoc](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml) | [Employer-hosted AcademicTransfer vacancy](https://www.academictransfer.com/en/jobs/363322/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility/) explicitly says cannot apply, Sep 19 deadline. |
+| [Queen's Belfast Physical Geography Lecturer](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/qub-physical-geography-lecturer-2026.yml) | [QUB HR portal](https://hrwebapp.qub.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?LANG=USA%26VACANCY_ID=791203XS1E) previously explicitly said vacancy closed; 14 Sep 2026 cutoff confirmed in earlier audit. |
+| [UC Berkeley Geography faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/berkeley-global-environmental-change-assistant-professor-2026.yml) | [Berkeley AP Recruit JPF05449](https://aprecruit.berkeley.edu/JPF05449) explicitly calls Oct 2 the **final date**, and the requisition no longer appears on [current open recruitment](https://aprecruit.berkeley.edu/apply). |
+| [Guelph GeoAI faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/guelph-geoai-assistant-professor-2026.yml) | [University of Guelph HR portal](https://uoguelph.jobs.hr.cloud.sap/job/Guelph-Assistant-Professor-in-GeoAI-ON-N1G-2W1/1290970347/) explicitly says posting closed and no more applications accepted. |
+| [Cranfield Remote Sensing AI research fellow](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/cranfield-remote-sensing-ai-research-fellow-2026.yml) | [Cranfield official vacancy](https://jobs.cranfield.ac.uk/vacancy/research-fellow-in-remote-sensing-and-ai-618071.html) explicitly unavailable, with employer-advertised hard 17 Sep 2026 deadline. |
+
+## Remaining source-limited queue (13 live records)
+
+- **Conference (1):** WACV 2027 — organizer conflict for historical decision date, 9 vs 14 October.
+- **Special issues (12):** Applied Geography Uneven Green Transition; Cities Climate-Neutral 2030; Cities Evolution of Urban Spatial Structure; Cities Smart Cities and Sustainability; Cities Spatial Governance of Urban Agglomeration; Cities Urban Regeneration and Mobility; Geodata and AI Enhanced Geospatial Big Data; Information Geography Multimodal GeoAI; JAG Resource-Constrained Multimodal Foundation Models; RSE Geospatial Foundation Models; RSE Leaf Traits; SCS Heat Resilience.
+- Each 2027 special issue retains indexed/current deadline evidence where available but not a direct accessible latest publisher/editor call. Do not bump `last_verified` solely from search results.
+- The three previously unresolved employment records (Cambridge, NTNU, UiO postdoc) were removed from live opportunities because their advertised hard application dates passed and current official application pages are unavailable. They are **resolved by live-catalog cleanup**, not retroactively counted as source-certified opportunities.
+
+The live queue is tracked in [issue #12](https://github.com/yingjinghuang/geo-deadlines/issues/12). Evidence details from the full original 140-record audit remain in the dated snapshot documents.
