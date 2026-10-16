@@ -1,0 +1,42 @@
+title: "Postdoc on Geodata Science and GeoAI — Health System Resilience"
+short_name: "Utrecht GeoAI Health Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "University of Utrecht Health Geography postdoctoral position developing reproducible spatial analytics and GeoAI for health-system resilience, healthcare inequalities, and polycrisis scenarios, with network and satellite data and a map-based public interface. The job advertises a 12-month appointment with a possible extension to 22 months and an expected January 2027 start."
+scope: core
+topics:
+  - geoai
+  - spatial-data-science
+  - geography
+  - urban
+  - sustainability
+  - machine-learning
+website: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-on-geodata-science-and-geoai"
+sources:
+  - label: "Live Utrecht University vacancy: Geodata Science and GeoAI"
+    url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-on-geodata-science-and-geoai"
+    kind: official
+  - label: "Current official Utrecht University jobs index"
+    url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs"
+    kind: official
+last_verified: "2026-10-16"
+location:
+  mode: in_person
+  city: "Utrecht"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Utrecht University"
+  - "Department of Human Geography and Spatial Planning"
+  - "Health Geography Group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The live employer vacancy and current Utrecht University vacancy index both state 15 November 2026. The posting anticipates interviews in late November and a January 1, 2027 start. No exact cutoff time is specified."
