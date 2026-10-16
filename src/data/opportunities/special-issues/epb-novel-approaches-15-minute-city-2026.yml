@@ -1,0 +1,36 @@
+title: "Novel Approaches to the 15-minute City"
+type: special_issue
+year: 2026
+description: "Environment and Planning B special issue on new geospatial and computational methods for proximity-based urbanism, mobility, accessibility, equity, participatory planning, and GeoAI-enabled studies of the X-minute city."
+scope: core
+topics: [urban, giscience, mobility, geoai, spatial-data-science, sustainability]
+journal:
+  name: "Environment and Planning B: Urban Analytics and City Science"
+  short_name: "EPB"
+  publisher: "SAGE"
+website: "https://journals.sagepub.com/page/epb/collections/special-issues"
+sources:
+  - label: "Official SAGE ongoing special-issue listing"
+    url: "https://journals.sagepub.com/page/epb/collections/special-issues"
+    kind: publisher
+  - label: "Official SAGE call for papers PDF"
+    url: "https://journals.sagepub.com/pb-assets/cmscontent/EPB/EPB%20SI%20-%20Novel%20approaches%20to%20the%2015-minute%20city-1785303953847.pdf"
+    kind: publisher
+last_verified: "2026-10-16"
+guest_editors:
+  - name: "Chen Zhong"
+    affiliation: "University College London"
+  - name: "Eric Koomen"
+    affiliation: "Vrije Universiteit Amsterdam"
+  - name: "Joana Barros"
+    affiliation: "Birkbeck, University of London / UCL"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Full Paper"
+    datetime: "2026-10-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "SAGE's full official CFP lists October 30, 2026; no exact time or timezone is stated."
