@@ -36,4 +36,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The current official BIFOLD page lists October 14, 2026 as the closing date, superseding the earlier September 4 date."
+    note: "UNRESOLVED: the original TU Berlin vacancy 206442 is now HTTP 410 (removed). Previously cached official detail said September 4, while an updated vacancy index listed October 14. The latter has elapsed and no current live posting or extension could be confirmed on 16 October; keep the earlier verification date pending a definitive source."
