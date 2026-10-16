@@ -9,6 +9,12 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
 sources:
+  - label: "Official ScienceDirect Cities development CFP index: 31 August 2027"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=development"
+    kind: publisher
+  - label: "Full guest-editor CFP reproduced by independent academic calls directory (not publisher)"
+    url: "https://www.servicesetu.org/call-for-paper/journals/cits"
+    kind: announcement
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
@@ -27,3 +33,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "The official ScienceDirect Development publisher-index listing confirms 31 August 2027 and matching editor roster; an independent CFP reproduction specifies Editorial Manager article type VSI: Evolution of urban spatial structure. Direct publisher issue details return HTTP 403; no separate direct editor statement for latest submission status found, so timestamp not advanced."
