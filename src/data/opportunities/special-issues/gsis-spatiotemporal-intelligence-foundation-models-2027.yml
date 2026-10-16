@@ -17,6 +17,12 @@ guest_editors:
   - name: "Deren Li"
   - name: "Bo Du"
   - name: "Antonio J. Plaza"
+  - name: "Naoto Yokoya"
+  - name: "Claudio Persello"
+  - name: "Haonan Guo"
+  - name: "Yonghao Xu"
+  - name: "Zhuo Zheng"
+  - name: "Hongruixuan Chen"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
