@@ -2,11 +2,19 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 140 opportunities. Entries checked in the current pass: 121; awaiting individual official-source verification: 19.
+Current baseline: 140 opportunities. Entries verified to the strict first-party standard: 124; awaiting sufficiently direct official-source confirmation: 16. All 140 have now been examined at least once in this full-catalog pass; the 16 remaining are **reviewed-but-unresolved**, not unchecked through omission.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
+
+## Final full-catalog review outcome — 16 October 2026
+
+- **Coverage: 140/140 individual records were examined.** In the last batch alone, each of the former 19 unchecked records was researched and classified with an evidence link and precise reason. [All 19 results, with evidence and exact blockers](final-disposition-of-19-remaining-records-2026-10-16.md).
+- **Strict direct-source verified: 124/140.** The other **16** records lack sufficient direct, current primary evidence (e.g. live publisher CFP returns HTTP 403 or real official pages disagree). Their older `last_verified` fields were deliberately not advanced.
+- **Three entries became fully supported on this pass:** [University of Oslo cryosphere PhD](https://euraxess.ec.europa.eu/jobs/465613) explicitly **EXPIRED** with exact 13 Oct 2026 23:00 Oslo deadline; [CEUS GeoAI/fire special issue](https://www.linkedin.com/posts/huanfa-chen_computers-environment-and-urban-systems-activity-7460639738404704256-fy-c) deadline **31 Dec 2026**; [Cities Politics of Spatial Inclusion](https://www.linkedin.com/posts/rashid-mushkani_urbanplanning-spatialjustice-righttothecity-activity-7412934995352186881-SL5D) historical deadline **31 Jan 2026**.
+- **Material quality fix:** Earlier claims that Elsevier's Development CFP index says 30 Oct for the **CEUS GeoAI/fire** call were wrong: that line referred to a different adjacent special issue. Both Elsevier subject indexes and guest-editor original CFP actually confirm **31 Dec 2026**. Retracted the false conflict and reverified the correct date.
+- **Do not confuse reviewed with verified.** No need to re-run the entire pass just to eliminate unchecked checkboxes; the outstanding subset is specifically an external evidence-access queue.
 
 ## Focused current-source audit — 16 October 2026 (121/140)
 
@@ -49,7 +57,7 @@ Verification improvements in this pass: the UI now marks positions needing re-re
 - The official ScienceDirect search index corroborates deadline dates for several remaining special issues, but direct publisher detail pages are HTTP 403; **do not convert search snippets into `last_verified` certification**.
 
 
-- **121 of 140** opportunities individually reviewed, **19** still pending authoritative source confirmation.
+- **124 of 140** opportunities have source evidence sufficient for full certification and **16** are reviewed but pending final authoritative confirmation.
 - Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
 - Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
 - Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
@@ -136,7 +144,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [uf-remote-sensing-assistant-associate-professor-2026.yml](../src/data/opportunities/positions/uf-remote-sensing-assistant-associate-professor-2026.yml) — official source reviewed
 - [x] [uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml)
-- [ ] [uio-cryosphere-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-phd-2026.yml)
+- [x] [uio-cryosphere-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-phd-2026.yml)
 - [ ] [uio-cryosphere-remote-sensing-postdoc-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-postdoc-2026.yml)
 - [x] [uiuc-geoai-geospatial-computing-phd-2026.yml](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml)
 - [x] [umd-coastal-geomorphology-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml)
@@ -161,11 +169,11 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [annals-gis-geographical-principles-2026.yml](../src/data/opportunities/special-issues/annals-gis-geographical-principles-2026.yml) — official source reviewed
 - [ ] [applied-geography-uneven-green-transition-2026.yml](../src/data/opportunities/special-issues/applied-geography-uneven-green-transition-2026.yml)
 - [x] [ceus-digital-twins-ai-healthy-sustainable-cities-2025.yml](../src/data/opportunities/special-issues/ceus-digital-twins-ai-healthy-sustainable-cities-2025.yml)
-- [ ] [ceus-geoai-fire-2026.yml](../src/data/opportunities/special-issues/ceus-geoai-fire-2026.yml)
+- [x] [ceus-geoai-fire-2026.yml](../src/data/opportunities/special-issues/ceus-geoai-fire-2026.yml)
 - [x] [ceus-open-urban-data-science-2026.yml](../src/data/opportunities/special-issues/ceus-open-urban-data-science-2026.yml)
 - [ ] [cities-climate-neutral-2030-2026.yml](../src/data/opportunities/special-issues/cities-climate-neutral-2030-2026.yml)
 - [ ] [cities-evolution-urban-spatial-structure-2027.yml](../src/data/opportunities/special-issues/cities-evolution-urban-spatial-structure-2027.yml)
-- [ ] [cities-politics-spatial-inclusion-2026.yml](../src/data/opportunities/special-issues/cities-politics-spatial-inclusion-2026.yml)
+- [x] [cities-politics-spatial-inclusion-2026.yml](../src/data/opportunities/special-issues/cities-politics-spatial-inclusion-2026.yml)
 - [ ] [cities-smart-cities-sustainability-2026.yml](../src/data/opportunities/special-issues/cities-smart-cities-sustainability-2026.yml)
 - [ ] [cities-spatial-governance-urban-agglomeration-2025.yml](../src/data/opportunities/special-issues/cities-spatial-governance-urban-agglomeration-2025.yml)
 - [ ] [cities-urban-regeneration-mobility-2026.yml](../src/data/opportunities/special-issues/cities-urban-regeneration-mobility-2026.yml)
