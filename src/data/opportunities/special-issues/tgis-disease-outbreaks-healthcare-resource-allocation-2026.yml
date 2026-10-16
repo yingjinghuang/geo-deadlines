@@ -33,3 +33,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "UNRESOLVED OFFICIAL CONFLICT: the live Wiley Transactions in GIS CFP index currently lists 31 December 2026, but this dedicated special-issue call page lists 30 September 2026. Preserve the previously published index date provisionally; the publisher must reconcile these sources before last_verified is advanced."
