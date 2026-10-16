@@ -2,11 +2,11 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 42; awaiting individual official-source verification: 96.
+Current baseline: 138 opportunities. Entries checked in the current pass: 64; awaiting individual official-source verification: 74.
 
 Audit update: 2026-10-16. The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
-Known unresolved examples (not counted as verified): HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
+Known unresolved examples (not counted as verified): WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
 
 Verification checks: official URL reachable; opportunity still open/closed; submission/review/deadline milestone updated; extensions checked; exact-time precision preserved; source contradictions noted; last_verified written only after actual review.
 
@@ -18,7 +18,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [cagis-2026.yml](../../src/data/opportunities/conferences/cagis-2026.yml) — official source reviewed
 - [x] [chi-2027.yml](../../src/data/opportunities/conferences/chi-2027.yml) — official source reviewed
 - [x] [cosit-2026.yml](../../src/data/opportunities/conferences/cosit-2026.yml) — official source reviewed
-- [ ] [cpgis-2027.yml](../../src/data/opportunities/conferences/cpgis-2027.yml)
+- [x] [cpgis-2027.yml](../../src/data/opportunities/conferences/cpgis-2027.yml)
 - [x] [cvpr-2027.yml](../../src/data/opportunities/conferences/cvpr-2027.yml) — official source reviewed
 - [x] [earsel-2027.yml](../../src/data/opportunities/conferences/earsel-2027.yml) — official source reviewed
 - [x] [egu-2027.yml](../../src/data/opportunities/conferences/egu-2027.yml) — official source checked in this pass
@@ -38,9 +38,9 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [kdd-2027.yml](../../src/data/opportunities/conferences/kdd-2027.yml) — official source checked in this pass
 - [ ] [lbs-2026.yml](../../src/data/opportunities/conferences/lbs-2026.yml)
 - [x] [neurips-2027.yml](../../src/data/opportunities/conferences/neurips-2027.yml) — official source reviewed
-- [ ] [sigspatial-2026.yml](../../src/data/opportunities/conferences/sigspatial-2026.yml)
-- [ ] [spatial-statistics-2027.yml](../../src/data/opportunities/conferences/spatial-statistics-2027.yml)
-- [ ] [state-of-the-map-2027.yml](../../src/data/opportunities/conferences/state-of-the-map-2027.yml)
+- [x] [sigspatial-2026.yml](../../src/data/opportunities/conferences/sigspatial-2026.yml)
+- [x] [spatial-statistics-2027.yml](../../src/data/opportunities/conferences/spatial-statistics-2027.yml)
+- [x] [state-of-the-map-2027.yml](../../src/data/opportunities/conferences/state-of-the-map-2027.yml)
 - [ ] [ucgis-2027.yml](../../src/data/opportunities/conferences/ucgis-2027.yml)
 - [ ] [wacv-2027.yml](../../src/data/opportunities/conferences/wacv-2027.yml)
 
@@ -125,9 +125,9 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [gsis-spatiotemporal-intelligence-foundation-models-2027.yml](../../src/data/opportunities/special-issues/gsis-spatiotemporal-intelligence-foundation-models-2027.yml) — official source reviewed
 - [x] [ijde-advancing-geoai-2026.yml](../../src/data/opportunities/special-issues/ijde-advancing-geoai-2026.yml) — official source reviewed
 - [x] [ijde-urban-environmental-intelligence-2027.yml](../../src/data/opportunities/special-issues/ijde-urban-environmental-intelligence-2027.yml) — official source reviewed
-- [ ] [ijgi-living-spaces-2026.yml](../../src/data/opportunities/special-issues/ijgi-living-spaces-2026.yml)
-- [ ] [ijgi-llm4gis-2026.yml](../../src/data/opportunities/special-issues/ijgi-llm4gis-2026.yml)
-- [ ] [ijgi-urban-digital-twins-2026.yml](../../src/data/opportunities/special-issues/ijgi-urban-digital-twins-2026.yml)
+- [x] [ijgi-living-spaces-2026.yml](../../src/data/opportunities/special-issues/ijgi-living-spaces-2026.yml)
+- [x] [ijgi-llm4gis-2026.yml](../../src/data/opportunities/special-issues/ijgi-llm4gis-2026.yml)
+- [x] [ijgi-urban-digital-twins-2026.yml](../../src/data/opportunities/special-issues/ijgi-urban-digital-twins-2026.yml)
 - [ ] [ijgis-critical-challenges-geoai-2026.yml](../../src/data/opportunities/special-issues/ijgis-critical-challenges-geoai-2026.yml)
 - [x] [ijgis-ethics-geospatial-ai-2026.yml](../../src/data/opportunities/special-issues/ijgis-ethics-geospatial-ai-2026.yml) — official source reviewed
 - [ ] [information-geography-multimodal-geoai-2027.yml](../../src/data/opportunities/special-issues/information-geography-multimodal-geoai-2027.yml)
@@ -143,20 +143,20 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [tgis-giscience-education-2027.yml](../../src/data/opportunities/special-issues/tgis-giscience-education-2027.yml)
 - [ ] [tgis-spatial-data-sharing-governance-2026.yml](../../src/data/opportunities/special-issues/tgis-spatial-data-sharing-governance-2026.yml)
 - [ ] [tgis-spatiotemporal-big-data-planning-2027.yml](../../src/data/opportunities/special-issues/tgis-spatiotemporal-big-data-planning-2027.yml)
-- [ ] [tus-active-sensing-cities-2026.yml](../../src/data/opportunities/special-issues/tus-active-sensing-cities-2026.yml)
-- [ ] [tus-ai-transportation-human-mobility-2026.yml](../../src/data/opportunities/special-issues/tus-ai-transportation-human-mobility-2026.yml)
-- [ ] [tus-behavioral-resilience-extreme-weather-2026.yml](../../src/data/opportunities/special-issues/tus-behavioral-resilience-extreme-weather-2026.yml)
-- [ ] [tus-geoai-urban-dynamics-2026.yml](../../src/data/opportunities/special-issues/tus-geoai-urban-dynamics-2026.yml)
-- [ ] [tus-geoai-urban-sustainability-2026.yml](../../src/data/opportunities/special-issues/tus-geoai-urban-sustainability-2026.yml)
-- [ ] [tus-science-new-cities-2026.yml](../../src/data/opportunities/special-issues/tus-science-new-cities-2026.yml)
-- [ ] [tus-sensing-built-environment-2026.yml](../../src/data/opportunities/special-issues/tus-sensing-built-environment-2026.yml)
-- [ ] [tus-sensing-world-heritage-cities-2026.yml](../../src/data/opportunities/special-issues/tus-sensing-world-heritage-cities-2026.yml)
-- [ ] [tus-shifting-urban-lives-2026.yml](../../src/data/opportunities/special-issues/tus-shifting-urban-lives-2026.yml)
-- [ ] [tus-shrinking-cities-data-intelligence-2026.yml](../../src/data/opportunities/special-issues/tus-shrinking-cities-data-intelligence-2026.yml)
-- [ ] [tus-spatiotemporal-data-mining-social-sensing-2026.yml](../../src/data/opportunities/special-issues/tus-spatiotemporal-data-mining-social-sensing-2026.yml)
-- [ ] [tus-spatiotemporal-intelligence-city-management-2026.yml](../../src/data/opportunities/special-issues/tus-spatiotemporal-intelligence-city-management-2026.yml)
-- [ ] [tus-transport-human-mobility-2026.yml](../../src/data/opportunities/special-issues/tus-transport-human-mobility-2026.yml)
-- [ ] [tus-urban-artificial-intelligence-2026.yml](../../src/data/opportunities/special-issues/tus-urban-artificial-intelligence-2026.yml)
-- [ ] [tus-virtual-real-behaviours-2026.yml](../../src/data/opportunities/special-issues/tus-virtual-real-behaviours-2026.yml)
+- [x] [tus-active-sensing-cities-2026.yml](../../src/data/opportunities/special-issues/tus-active-sensing-cities-2026.yml)
+- [x] [tus-ai-transportation-human-mobility-2026.yml](../../src/data/opportunities/special-issues/tus-ai-transportation-human-mobility-2026.yml)
+- [x] [tus-behavioral-resilience-extreme-weather-2026.yml](../../src/data/opportunities/special-issues/tus-behavioral-resilience-extreme-weather-2026.yml)
+- [x] [tus-geoai-urban-dynamics-2026.yml](../../src/data/opportunities/special-issues/tus-geoai-urban-dynamics-2026.yml)
+- [x] [tus-geoai-urban-sustainability-2026.yml](../../src/data/opportunities/special-issues/tus-geoai-urban-sustainability-2026.yml)
+- [x] [tus-science-new-cities-2026.yml](../../src/data/opportunities/special-issues/tus-science-new-cities-2026.yml)
+- [x] [tus-sensing-built-environment-2026.yml](../../src/data/opportunities/special-issues/tus-sensing-built-environment-2026.yml)
+- [x] [tus-sensing-world-heritage-cities-2026.yml](../../src/data/opportunities/special-issues/tus-sensing-world-heritage-cities-2026.yml)
+- [x] [tus-shifting-urban-lives-2026.yml](../../src/data/opportunities/special-issues/tus-shifting-urban-lives-2026.yml)
+- [x] [tus-shrinking-cities-data-intelligence-2026.yml](../../src/data/opportunities/special-issues/tus-shrinking-cities-data-intelligence-2026.yml)
+- [x] [tus-spatiotemporal-data-mining-social-sensing-2026.yml](../../src/data/opportunities/special-issues/tus-spatiotemporal-data-mining-social-sensing-2026.yml)
+- [x] [tus-spatiotemporal-intelligence-city-management-2026.yml](../../src/data/opportunities/special-issues/tus-spatiotemporal-intelligence-city-management-2026.yml)
+- [x] [tus-transport-human-mobility-2026.yml](../../src/data/opportunities/special-issues/tus-transport-human-mobility-2026.yml)
+- [x] [tus-urban-artificial-intelligence-2026.yml](../../src/data/opportunities/special-issues/tus-urban-artificial-intelligence-2026.yml)
+- [x] [tus-virtual-real-behaviours-2026.yml](../../src/data/opportunities/special-issues/tus-virtual-real-behaviours-2026.yml)
 - [ ] [ufug-intelligent-sustainability-environmental-innovation-2026.yml](../../src/data/opportunities/special-issues/ufug-intelligent-sustainability-environmental-innovation-2026.yml)
 
