@@ -3,7 +3,7 @@ short_name: "WACV 2027"
 type: conference
 series: "IEEE/CVF Winter Conference on Applications of Computer Vision"
 year: 2027
-description: "A major applied computer-vision conference whose application areas include remote sensing, environmental monitoring, and climate. Both rounds of paper submission closed in August 2026. The current conference schedule still has the November camera-ready and attendee registration deadlines; conference homepage/Dates page list October 14 decisions but CFP and reviewer guides still say October 9."
+description: "A major applied computer-vision conference whose application areas include remote sensing, environmental monitoring, and climate. Both rounds of paper submission closed in August 2026. The current conference schedule still has November camera-ready and attendee-registration deadlines. The public Dates calendar shows 14 October decisions while CFP and author/reviewer guides show 9 October; both official dates are documented rather than falsely reconciled."
 scope: adjacent
 topics:
   - computer-vision
@@ -29,7 +29,7 @@ sources:
   - label: "Official WACV 2027 call for papers"
     url: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-01-04"
   end: "2027-01-08"
@@ -76,7 +76,7 @@ deadlines:
     datetime: "2026-10-14T23:59:00-12:00"
     timezone: "AoE"
     status: active
-    note: "PREFERRED PUBLIC DATE, NOT FULLY RECONCILED: As of 16 October, the official conference homepage AND current Dates page both list 14 October 2026 for rounds 1 and 2 final decisions; CFP, Author Guides, Reviewer Guidelines and Senior Area Chair Guides still show 9 October. Updated displayed date to the two aligned conference public-facing scheduling pages, but retained old last_verified pending organizer clarification. These have already passed: no submission period remains open."
+    note: "OFFICIAL-SOURCE RECHECK 16 October 2026: the conference's public Dates calendar and homepage list 14 October as final decisions for both rounds, while the official CFP, author, reviewer, area-chair and senior-area-chair guides still list 9 October. Display 14 October as the current public-facing conference calendar value, but explicitly preserve the unresolved organizer contradiction (neither date is a submission deadline). All paper-submission deadlines already passed."
   - id: early-registration
     type: registration
     label: "Attendee Early Registration"
