@@ -8,12 +8,18 @@ journal:
   name: "Cities"
   short_name: "Cities"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+website: "https://www.linkedin.com/posts/rashid-mushkani_urbanplanning-spatialjustice-righttothecity-activity-7412934995352186881-SL5D"
 sources:
+  - label: "Guest editor Rashid Mushkani's original 31 January 2026 full-call announcement"
+    url: "https://www.linkedin.com/posts/rashid-mushkani_urbanplanning-spatialjustice-righttothecity-activity-7412934995352186881-SL5D"
+    kind: announcement
+  - label: "Official publisher article explicitly in the same Cities special issue"
+    url: "https://www.sciencedirect.com/science/article/pii/S0264275126002842"
+    kind: publisher
   - label: "Official Cities call for papers page"
     url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
     kind: publisher
-last_verified: "2026-08-11"
+last_verified: "2026-10-16"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
@@ -22,3 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Verified historical closing date from directly accessible guest editor Rashid Mushkani original CFP, 31 January 2026. Publisher's own subsequent Cities article explicitly belongs to this titled special issue, corroborating that it proceeded into publication. Deadline has passed; do not advertise an ongoing call."
