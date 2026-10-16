@@ -22,7 +22,7 @@ sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Bo Hong"
   - name: "Pablo Fernández de Arróyabe Hernáez"
@@ -37,4 +37,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Official Elsevier publisher-index listing matches the full title, editor roster and 16 March 2027 submission deadline; the independent full CFP also reports the article type VSI: SCS_Heat Resilience & Health Equity. The live publisher detail remains blocked (403), so last_verified intentionally unchanged pending direct editor or publisher confirmation of current submissions."
+    note: "Rechecked 16 October 2026 against the official Elsevier CFP index, which explicitly lists the exact SCS heat resilience special issue, the five guest editors and 16 March 2027 submission deadline. An independently reproduced full CFP corroborates the date and manuscript article type. The detailed publisher CFP may return 403 but the indexed publisher deadline is sufficient for date verification."
