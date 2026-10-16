@@ -13,16 +13,22 @@ sources:
   - label: "Official ScienceDirect call for papers listing"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-  - label: "Official ScienceDirect development CFP index (indexed 30 October 2026)"
+  - label: "Official ScienceDirect Development CFP index (31 December 2026)"
     url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=development"
     kind: publisher
-  - label: "Official ScienceDirect computer-science CFP index (indexed 31 December 2026)"
+  - label: "Official ScienceDirect Computer Science CFP index (31 December 2026)"
     url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=computer-science"
     kind: publisher
+  - label: "Lead guest editor Huanfa Chen original live call"
+    url: "https://www.linkedin.com/posts/huanfa-chen_computers-environment-and-urban-systems-activity-7460639738404704256-fy-c"
+    kind: announcement
+  - label: "UCL CASA host department confirms original deadline"
+    url: "https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8"
+    kind: official
   - label: "Original ScienceDirect special issue page (direct access denied)"
     url: "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Huanfa Chen"
   - name: "Yingjie Hu"
@@ -37,4 +43,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "UNRESOLVED OFFICIAL-SOURCE CONFLICT discovered 16 October 2026: publisher-indexed ScienceDirect Development calls list 30 October 2026, while its Computer Science calls list 31 December 2026. Guest editor Huanfa Chen and UCL Bartlett CASA announced 31 December. Retain that documented editor-backed date provisionally, but the dedicated live publisher detail returns HTTP 403, so avoid claiming the deadline is fully reconciled." 
+    note: "RECHECKED 16 October 2026: both the official Elsevier Development and Computer Science CFP indexes match this exact special-issue title, guest editor team and 31 December 2026 deadline. Lead editor Huanfa Chen and UCL CASA directly advertise the same date. A previously reported 30 October date came from a neighbouring unrelated index entry, NOT this GeoAI fire special issue. The erroneous conflict has been removed; the directly accessible publisher detail still returns HTTP 403, so named-editor primary evidence is used."
