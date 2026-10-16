@@ -7,9 +7,10 @@
  */
 import { readdir, readFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
 
-const root = new URL('../src/data/opportunities/', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../src/data/opportunities/', import.meta.url));
 const now = new Date();
 const today = now.toISOString().slice(0, 10);
 const maxAgeDays = { position: 14, conference: 30, workshop: 30, special_issue: 30 } as const;
@@ -50,9 +51,11 @@ console.log('');
 if (overdue.length) {
   console.log('| ' + columns.join(' | ') + ' |');
   console.log('|---|---|---:|---|');
+  const repository = process.env.GITHUB_REPOSITORY ?? 'yingjinghuang/geo-deadlines';
   for (const r of overdue.sort((a,b)=>b.age-a.age)) {
-    console.log('| ' + r.type + ' | [' + r.path + '](../src/data/opportunities/' + r.path + ') | ' + r.age + ' | ' + r.source + ' |');
+    console.log('| ' + r.type + ' | [' + r.path + '](https://github.com/' + repository + '/blob/main/src/data/opportunities/' + r.path + ') | ' + r.age + ' | ' + r.source + ' |');
   }
 } else { console.log('No overdue entries. Fresh timestamps alone still do not establish source accuracy.'); }
 console.log('');
+console.log('Manual full-catalog checklist: https://github.com/yingjinghuang/geo-deadlines/blob/main/docs/verification-audit-2026-10-16.md');
 console.log('Action: open each official call, check status and all deadlines/extensions; mark blocked or conflicting sources unresolved. NEVER bulk-bump last_verified.');
