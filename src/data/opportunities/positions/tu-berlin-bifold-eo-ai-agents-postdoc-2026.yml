@@ -10,15 +10,18 @@ topics:
   - geoai
   - machine-learning
   - computer-vision
-website: "https://www.jobs.tu-berlin.de/stellenausschreibungen/206442?language=en"
+website: "https://www.jobs.tu-berlin.de/stellenausschreibungen/207457?language=en"
 sources:
   - label: "Official TU Berlin vacancy IV-329/26"
+    url: "https://www.jobs.tu-berlin.de/stellenausschreibungen/207457?language=en"
+    kind: official
+  - label: "Old TU Berlin vacancy URL, now removed"
     url: "https://www.jobs.tu-berlin.de/stellenausschreibungen/206442?language=en"
     kind: official
   - label: "Official BIFOLD position page"
     url: "https://www.bifold.berlin/about-us/opportunities/research-associate-e14-rsim-iv-329/26"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Berlin"
@@ -36,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "UNRESOLVED: the original TU Berlin vacancy 206442 is now HTTP 410 (removed). Previously cached official detail said September 4, while an updated vacancy index listed October 14. The latter has elapsed and no current live posting or extension could be confirmed on 16 October; keep the earlier verification date pending a definitive source."
+    note: "REVERIFIED 16 October 2026: TU Berlin republished the same vacancy/reference IV-329/26 under live job posting 207457 (23 September publication). The current official university page explicitly states 14 October 2026 as the application deadline (now passed). Earlier URL 206442 was an obsolete posting and should not be used to infer an unresolved deadline. No extended deadline is published on the active canonical vacancy."
