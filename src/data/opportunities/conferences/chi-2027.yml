@@ -18,7 +18,10 @@ sources:
   - label: "Official CHI 2027 papers call"
     url: "https://chi2027.acm.org/authors/papers/"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official CHI 2027 dates for all author categories"
+    url: "https://chi2027.acm.org/"
+    kind: official
+last_verified: "2026-10-16"
 event:
   start: "2027-05-10"
   end: "2027-05-14"
@@ -98,5 +101,30 @@ deadlines:
     type: other
     label: "Student Research Competition"
     datetime: "2027-01-21T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: journals-presentation
+    type: paper
+    label: "Journals Presentation"
+    datetime: "2027-01-14T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    note: "For eligible previously accepted TOCHI or TSC journal articles; not a new journal manuscript deadline."
+  - id: paper-reviews-released
+    type: other
+    label: "Paper Reviews Released"
+    datetime: "2026-11-05T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: poster-notification
+    type: notification
+    label: "Poster / Demo / SRC Notification"
+    datetime: "2027-02-18T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: journals-notification
+    type: notification
+    label: "Journals Presentation Notification"
+    datetime: "2027-01-28T23:59:00-12:00"
     timezone: "AoE"
     status: active
