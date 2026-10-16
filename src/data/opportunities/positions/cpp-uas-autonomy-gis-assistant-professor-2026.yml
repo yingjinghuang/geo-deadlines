@@ -15,7 +15,7 @@ sources:
   - label: "Official Cal Poly Pomona faculty vacancy 559194"
     url: "https://careers.cpp.edu/en-us/job/559194/aerospace-engineering-uas-autonomy-and-geographical-information-systems-assistant-professor"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Pomona"
@@ -27,8 +27,10 @@ organizations:
 deadlines:
   - id: application
     type: application
-    label: "Application"
-    datetime: "2026-10-15T23:55:00-07:00"
-    timezone: "America/Los_Angeles"
+    label: "First Consideration"
+    datetime: "2026-10-15"
+    precision: date
+    timezone: null
     status: active
     primary: true
+    note: "Official posting gives October 15 as first consideration, not a hard closing date. Later applications may be reviewed at the search committee\u0027s discretion; no exact submission time is published."
