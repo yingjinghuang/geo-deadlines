@@ -15,6 +15,9 @@ sources:
   - label: "Official NTNU vacancy on Jobbnorge 306712"
     url: "https://www.jobbnorge.no/en/available-jobs/job/306712/phd-candidate-in-creating-inclusive-climate-risk-scenarios-in-urban-planning-using-ai"
     kind: official
+  - label: "Jobbnorge official vacancy-distribution feed (historical deadline confirmation, not current application status)"
+    url: "https://www.jobbnorge.no/apps/joblist/joblistbuilder.ashx?id=346d3f54-984e-45df-bed9-09d126dfc4e1"
+    kind: official
 last_verified: "2026-09-11"
 location:
   mode: in_person
@@ -34,3 +37,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "The original Jobbnorge vacancy 306712 is no longer directly accessible. A historical publisher-origin Jobbnorge jobs feed independently records 5 October 2026 as the advertised closing date. As of 16 October 2026 its live vacancy status or any extension cannot be directly established, so the prior last_verified timestamp is deliberately retained."
