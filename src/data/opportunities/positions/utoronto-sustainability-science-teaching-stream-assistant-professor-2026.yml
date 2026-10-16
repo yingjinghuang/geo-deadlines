@@ -13,7 +13,7 @@ sources:
   - label: "Official University of Toronto faculty posting"
     url: "https://jobs.utoronto.ca/job/Mississauga-Assistant-Professor%2C-Teaching-Stream-Sustainability-Science-ON/605990717/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Mississauga"
@@ -30,3 +30,4 @@ deadlines:
     timezone: "America/Toronto"
     status: active
     primary: true
+    note: "University of Toronto states November 16, 2026 at 11:59 PM ET and reference letters must be received then. This is a continuing teaching-stream appointment, not a research tenure-track vacancy."
