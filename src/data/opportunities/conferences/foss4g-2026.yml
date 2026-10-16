@@ -16,7 +16,7 @@ sources:
   - label: "Official academic-track call"
     url: "https://2026.foss4g.org/en/call-for-papers/academic-track/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2026-08-30"
   end: "2026-09-05"
@@ -41,7 +41,7 @@ deadlines:
     status: active
   - id: academic-full-paper
     type: full_paper
-    label: "Academic Full Paper"
+    label: "Academic Full Paper (accepted abstracts only)"
     datetime: "2026-06-15"
     precision: date
     timezone: null
