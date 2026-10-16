@@ -10,6 +10,9 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
 sources:
+  - label: "Official Elsevier 2026 published article explicitly identifies the Spatial Governance of Urban Agglomeration special issue"
+    url: "https://www.sciencedirect.com/science/article/pii/S0264275126007328"
+    kind: publisher
   - label: "Official Elsevier Cities published article in the titled Spatial Governance special issue"
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0264275126000065"
     kind: publisher
@@ -28,4 +31,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "The published Cities article explicitly belongs to the Spatial Governance of Urban Agglomeration special issue; a dated research-community CFP records 31 December 2025. That has long passed, but the original publisher CFP is blocked, so a later formal extension/correction cannot be confirmed and the historical verification timestamp remains."
+    note: "Follow-up 16 October 2026: Elsevier's published 2025 and 2026 Cities articles explicitly identify the Spatial Governance of Urban Agglomeration special issue, so its existence and ongoing publication are verified. An independent original 2025 research-community CFP post (Zuhriddin Juraev) reports 31 December 2025 as manuscript deadline, now long past. No named editor or publisher original cutoff statement was independently retrieved; the old historical date is reported with attribution rather than falsely described as first-party-confirmed. The old last_verified date is retained for the deadline."
