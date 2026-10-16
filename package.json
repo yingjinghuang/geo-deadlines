@@ -10,6 +10,7 @@
     "check": "astro check",
     "test": "vitest run",
     "validate": "tsx scripts/validate-data.ts",
+    "audit:freshness": "tsx scripts/audit-freshness.ts",
     "calendar": "tsx scripts/generate-calendar.ts"
   },
   "dependencies": {
