@@ -22,7 +22,7 @@ sources:
   - label: "NASA JPL ECOSTRESS research-community CFP digest (historical 30 June 2026 deadline)"
     url: "https://ecostress.jpl.nasa.gov/news/ecostress-april-may-community-updates-digest"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Le Wang"
   - name: "Sujit Roy"
@@ -37,4 +37,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "CAUTION — original editor-backed closing date is 30 June 2026, now elapsed: guest editor Qiusheng Wu, initiator Zhe Zhu, and NASA JPL ECOSTRESS all explicitly state 30 June. An earlier GeoDeadlines record used 31 December 2026 on an uncorroborated claimed publisher-index extension. No accessible named publisher or editor statement confirms that extension; restored original documented cutoff on 16 October, leaving last_verified unchanged because the current live publisher details remain HTTP 403. Do not treat this special issue as open unless editors or publisher confirm extension."
+    note: "Historical deadline reverified 16 October 2026 from guest editor Qiusheng Wu's original CFP, initiator Zhe Zhu's original call and the NASA JPL ECOSTRESS community digest, all explicitly giving 30 June 2026. This date has passed. An alleged 31 December 2026 extension was never substantiated by a corresponding publisher or editor notice, so the archived June date is retained. The current publisher page can be access-restricted; never advertise this issue as open on an unproven extension."
