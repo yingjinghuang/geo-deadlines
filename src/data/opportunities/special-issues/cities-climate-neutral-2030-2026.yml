@@ -18,7 +18,7 @@ sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Aura Istrate"
   - name: "Jacopo Gaspari"
@@ -32,4 +32,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Publisher ScienceDirect Development CFP index currently corroborates 15 September 2026 for this exact title and guest editors; an archived call includes the dedicated issue URL. This date has elapsed. Direct publisher CFP returns HTTP 403, and there is no verifiable fresh extension; last_verified intentionally retained."
+    note: "The official Elsevier ScienceDirect Development CFP index was rechecked on 16 October 2026: it lists the exact special-issue title, guest editors Aura Istrate, Jacopo Gaspari, Geraint Ellis, and Francesco Pilla, and the 15 September 2026 manuscript deadline. This is a historically passed publisher-confirmed deadline, NOT an active submission opportunity; full standalone CFP may be access-restricted."
