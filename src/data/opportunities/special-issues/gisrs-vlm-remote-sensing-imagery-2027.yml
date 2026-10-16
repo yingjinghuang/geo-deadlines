@@ -1,0 +1,29 @@
+title: "VLM Driven Intelligent Interpretation of Remote Sensing Imagery"
+type: special_issue
+year: 2027
+description: "A GIScience & Remote Sensing article collection on vision-language models, multimodal understanding, and intelligent interpretation of remote sensing imagery."
+scope: core
+topics: [remote-sensing, earth-observation, geoai, machine-learning, computer-vision]
+journal:
+  name: "GIScience & Remote Sensing"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/"
+sources:
+  - label: "Official Taylor & Francis article collection"
+    url: "https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/"
+    kind: publisher
+last_verified: "2026-10-16"
+guest_editors:
+  - name: "Cuiping Shi"
+  - name: "Jiaxin Li"
+  - name: "Bobo Xi"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-05-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Publisher specifies a calendar date only; no exact submission time or timezone is stated."
