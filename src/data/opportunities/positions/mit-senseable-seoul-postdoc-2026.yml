@@ -20,7 +20,7 @@ sources:
   - label: "Official Senseable City Seoul open-positions PDF"
     url: "https://senseabledb.mit.edu/system/positions/pdfs/000/000/037/original/Seoul_Open_Positions_20251107.pdf"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Seoul"
@@ -43,4 +43,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The official open-positions PDF states that applications are reviewed on a rolling basis until the position is filled."
+    note: "MIT Senseable City Lab current positions page lists Postdoc/Research Fellow positions for Senseable City Seoul and the official Seoul vacancy PDF states rolling review until positions are filled; no closing date is published."
