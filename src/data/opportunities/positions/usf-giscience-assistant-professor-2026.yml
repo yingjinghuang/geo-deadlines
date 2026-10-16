@@ -16,7 +16,7 @@ sources:
   - label: "Official USF School of Geosciences employment page"
     url: "https://www.usf.edu/arts-sciences/departments/geosciences/about/employment-opportunities.aspx"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Tampa"
@@ -34,4 +34,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The search originally remained open until filled after the January 7, 2026 initial review date. The official School of Geosciences employment page was verified on September 11, 2026 as stating that there are no open faculty positions; no exact final closing date was published."
+    note: "Closed. The official School of Geosciences employment page explicitly says there are no open faculty positions as of 16 October 2026. January 7 was only the initial review date; the final closure date was not published."
