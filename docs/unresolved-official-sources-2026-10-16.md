@@ -2,17 +2,15 @@
 
 This is a **source-access and discrepancy log**, **not** a verified dataset. An old date in an indexed publisher search result is evidence of publication, **not** proof that a current application/call remains open or has not been extended. Keep `last_verified` unchanged on all of these until an authoritative current source is reviewed.
 
-Full source-audit progress: **109 / 139 reviewed; 30 pending**. See [main audit checklist](verification-audit-2026-10-16.md).
+Full source-audit progress: **111 / 138 reviewed; 27 pending**. See [main audit checklist](verification-audit-2026-10-16.md).
 
 | Unresolved opportunity | Source obstacle / evidence | Next check |
 |---|---|---|
 | [geoai-2028.yml](../src/data/opportunities/conferences/geoai-2028.yml) | Organizer series homepage returns no usable CFP details; the organizing-chair host announcement confirms Shanghai/ECNU only, no event or submission dates. | Organizer's current CFP/event schedule |
-| [wacv-2027.yml](../src/data/opportunities/conferences/wacv-2027.yml) | Live official Dates page: 2026-10-14 final decisions; live official CFP: 2026-10-09. Keep unresolved. | Ask organizers/await reconciliation of official pages |
+| [wacv-2027.yml](../src/data/opportunities/conferences/wacv-2027.yml) | Current official Dates page lists 2026-10-14, while its official CFP still lists 2026-10-09 for final author decisions. August submission stages are over; verified early registration UTC deadline was added, but **source conflict remains unresolved** and `last_verified` was not advanced. | Ask organizers/await reconciliation of official pages |
 | [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](../src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml) | Original EURAXESS job URL not retrievable; no live BOKU-specific vacancy confirmation. | Current employer portal, department, or responsible PI |
 | [cambridge-polar-studies-assistant-professor-2026.yml](../src/data/opportunities/positions/cambridge-polar-studies-assistant-professor-2026.yml) | Cambridge job page returns 403; cached official vacancy search lists hard close 2026-09-21. No current open application demonstrated. | Current employer portal, department, or responsible PI |
 | [groningen-inclusive-urban-mobility-postdoc-2026.yml](../src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml) | Original Groningen job detail returns 404; advertised deadline 2026-09-20 has passed. | Current employer portal, department, or responsible PI |
-| [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml) | Workday page is empty to this checker; earlier official cached record lists 2026-10-16 as application end date, which is today. | Current employer portal, department, or responsible PI |
-| [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml) | Original university recruitment detail redirects to main vacancy portal; advertised deadline 2026-10-15, extensions possible but unconfirmed. | Current employer portal, department, or responsible PI |
 | [ntnu-ai-climate-risk-urban-planning-phd-2026.yml](../src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml) | Original Jobbnorge job returns 404; previously advertised 2026-10-05. | Current employer portal, department, or responsible PI |
 | [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](../src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml) | Original TU Berlin job detail returns 410 Gone. Index/cache had conflicting 2026-09-04 and 2026-10-14 deadlines; no live vacancy. | Current employer portal, department, or responsible PI |
 | [uio-cryosphere-remote-sensing-phd-2026.yml](../src/data/opportunities/positions/uio-cryosphere-remote-sensing-phd-2026.yml) | Original Jobbnorge page 404; past advertised 2026-10-13. | Current employer portal, department, or responsible PI |
@@ -35,7 +33,26 @@ Full source-audit progress: **109 / 139 reviewed; 30 pending**. See [main audit 
 | [rse-leaf-traits-ecosystem-function-2027.yml](../src/data/opportunities/special-issues/rse-leaf-traits-ecosystem-function-2027.yml) | Live ScienceDirect / Elsevier publisher CFP or special-issue page returns HTTP 403. Some archived official search-index excerpts can corroborate the historical date, but do not establish current status. | Publisher/editor live CFP or publisher confirmation |
 | [scs-heat-resilience-health-equity-2027.yml](../src/data/opportunities/special-issues/scs-heat-resilience-health-equity-2027.yml) | Live ScienceDirect / Elsevier publisher CFP or special-issue page returns HTTP 403. Some archived official search-index excerpts can corroborate the historical date, but do not establish current status. | Publisher/editor live CFP or publisher confirmation |
 | [scs-sustainability-health-equity-ai-wellbeing-2026.yml](../src/data/opportunities/special-issues/scs-sustainability-health-equity-ai-wellbeing-2026.yml) | Live ScienceDirect / Elsevier publisher CFP or special-issue page returns HTTP 403. Some archived official search-index excerpts can corroborate the historical date, but do not establish current status. | Publisher/editor live CFP or publisher confirmation |
-| [ufug-intelligent-sustainability-environmental-innovation-2026.yml](../src/data/opportunities/special-issues/ufug-intelligent-sustainability-environmental-innovation-2026.yml) | Live ScienceDirect / Elsevier publisher CFP or special-issue page returns HTTP 403. Some archived official search-index excerpts can corroborate the historical date, but do not establish current status. | Publisher/editor live CFP or publisher confirmation |
+
+## Publisher-index evidence — not direct verification
+
+Current search indexing of official ScienceDirect pages **corroborates** the following stored submission dates. However, the target live pages return HTTP 403 to this checker. These records **remain unchecked** and keep their historical `last_verified` until directly accessible publisher/editor evidence is obtained. An indexed date does not establish that the call is still open, nor rule out a later extension.
+
+| Special issue | Official indexed deadline | Official source |
+|---|---|---|
+| CEUS — GeoAI and fire research | 2026-12-31 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?subject=computer-science) |
+| CEUS — Open Urban Data Science | 2026-05-31 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?subject=development) |
+| Cities — Climate-neutral cities by 2030 | 2026-09-15 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?subject=development) |
+| Cities — Evolution of urban spatial structure | 2027-08-31 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?subject=development) |
+| Information Geography — Multimodal GeoAI | 2027-04-01 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers) |
+| JAG — Resource-constrained multimodal foundation models | 2027-07-31 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?subject=%24) |
+| RSE — Geospatial foundation models | 2026-12-31 | [Publisher dedicated CFP](https://www.sciencedirect.com/special-issue/330054/geospatial-foundation-models-for-advancing-remote-sensing-of-environment), newer than a June 2026 community digest |
+| RSE — Remote sensing of leaf traits | 2027-01-01 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR) |
+| SCS — Heat resilience and health equity | 2027-03-16 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR) |
+| SCS — Sustainability / health equity / AI | 2026-12-31 | [ScienceDirect publisher call index](https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR) |
+| Geodata and AI — AI-Enhanced Geospatial Big Data Analysis | 2026-09-30 | [Publisher dedicated CFP](https://www.sciencedirect.com/special-issue/327111/ai-enhanced-geospatial-big-data-analysis) |
+
+**Removed incorrect data item.** The original `ufug-intelligent-sustainability-environmental-innovation-2026.yml` was misattributed to *Urban Forestry & Urban Greening*, with guest editors from a separate green-infrastructure special issue. The actual publisher listing places the title under [*Sustainable Energy Technologies and Assessments*](https://www.sciencedirect.com/special-issue/331505/recent-advances-in-intelligent-approaches-for-sustainability-and-environmental-innovation), with an indexed deadline of 20 December 2026; another publisher preview carried inconsistent earlier dates. The source card was removed from the geospatial catalog, not passed off as accurately verified. Git history preserves it for auditability.
 
 ## Distinguishing status from date
 
