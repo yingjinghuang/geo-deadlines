@@ -22,7 +22,7 @@ sources:
   - label: "Official KDD 2027 FAQ"
     url: "https://kdd2027.kdd.org/frequently-asked-questions/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-08-01"
   end: "2027-08-05"
@@ -47,6 +47,14 @@ deadlines:
     datetime: "2026-07-26T23:59:00-12:00"
     timezone: "AoE"
     status: active
+  - id: cycle-1-notification
+    type: notification
+    label: "Cycle 1 Notification"
+    datetime: "2026-11-14"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official 2027 Research Track CFP lists November 14, 2026; the exact notification time is not published."
   - id: cycle-2-abstract
     type: abstract
     label: "Cycle 2 Abstract"
