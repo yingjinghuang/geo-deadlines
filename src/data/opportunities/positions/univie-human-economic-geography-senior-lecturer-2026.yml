@@ -13,7 +13,7 @@ sources:
   - label: "Official University of Vienna vacancy 5954"
     url: "https://jobs.univie.ac.at/job/Senior-Lecturer-%28academic-teaching%29/1424681133/"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Vienna"
@@ -31,4 +31,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official vacancy classification: CBA §48 VwGr. B1 lit. b (postdoc). The position starts 1 February 2027 and may become permanent after a positive evaluation."
+    note: "CLOSED: University of Vienna current official job portal explicitly states this requisition is no longer online and applications are no longer possible (verified 16 October 2026). Original deadline was 20 September 2026. Official classification CBA §48 VwGr. B1 lit. b (postdoc)."
