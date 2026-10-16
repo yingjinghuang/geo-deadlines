@@ -7,10 +7,13 @@ topics: [geoai, spatial-data-science, remote-sensing, earth-observation, machine
 journal:
   name: "Geodata and AI"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/geodata-and-ai/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/327111/ai-enhanced-geospatial-big-data-analysis"
 sources:
   - label: "Official ScienceDirect call for papers"
     url: "https://www.sciencedirect.com/journal/geodata-and-ai/about/call-for-papers"
+    kind: publisher
+  - label: "Publisher's dedicated Geodata and AI special-issue CFP"
+    url: "https://www.sciencedirect.com/special-issue/327111/ai-enhanced-geospatial-big-data-analysis"
     kind: publisher
 last_verified: "2026-08-11"
 guest_editors:
