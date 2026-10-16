@@ -4,7 +4,7 @@
 
 - **125** opportunities remain in `src/data/opportunities/` (previously 140).
 - **41** position records remain (previously 56).
-- **112/125** of the remaining records were certified under the strict direct primary-source standard during the completed 16 October full-source audit; **13/129** are still source-limited or disputed. The 15 deleted vacancies consisted of 12 previously certified records and 3 previously unresolved records.
+- **121/125** currently have adequate source evidence for their displayed dates following a same-day follow-up; **4/125** retain explicit source conflicts or cutoff-evidence gaps. See [the nine-date source follow-up and four caveats](evidence-followup-2026-10-16.md). The earlier post-pruning baseline was 112/125 source-supported with 13 pending. The 15 deleted vacancies consisted of 12 previously certified records and 3 previously unresolved records.
 - The original [140-entry review inventory](verification-audit-2026-10-16.md) and the [19-entry final source disposition](final-disposition-of-19-remaining-records-2026-10-16.md) are **historical snapshots**, not the current live dataset counts. Deleted YAMLs remain retrievable in [commit 660954f4](https://github.com/yingjinghuang/geo-deadlines/tree/660954f450a98d94534d0c581e65da5cd6584ad1/src/data/opportunities/positions).
 
 ## User-requested policy: remove concluded recruitments from live cards
@@ -40,11 +40,11 @@ This position-only live-catalog cleanup does not authorize deleting old journal 
 | [BOKU Geomatics Senior Scientist](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml) | [Employer's original statutory vacancy PDF](https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt-jobs/2026/KZ160_SenSc_mDe.pdf) specifies a hard **6 Oct 2026** final application date; no employer-issued extension identified. Statutory historical publication is not an open applicant system. |
 | [TU Berlin BIFOLD EO AI postdoc](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml) | [Current official TU Berlin advert IV-329/26](https://www.jobs.tu-berlin.de/stellenausschreibungen/207457?language=en) clearly gives **14 Oct 2026** as its final application deadline. It remains readable as vacancy history but has no advertised current extension. |
 
-## Remaining source-limited queue (13 live records)
+## Historical post-pruning queue (13 before evidence follow-up)
 
 - **Conference (1):** WACV 2027 — organizer conflict for historical decision date, 9 vs 14 October.
 - **Special issues (12):** Applied Geography Uneven Green Transition; Cities Climate-Neutral 2030; Cities Evolution of Urban Spatial Structure; Cities Smart Cities and Sustainability; Cities Spatial Governance of Urban Agglomeration; Cities Urban Regeneration and Mobility; Geodata and AI Enhanced Geospatial Big Data; Information Geography Multimodal GeoAI; JAG Resource-Constrained Multimodal Foundation Models; RSE Geospatial Foundation Models; RSE Leaf Traits; SCS Heat Resilience.
 - Each 2027 special issue retains indexed/current deadline evidence where available but not a direct accessible latest publisher/editor call. Do not bump `last_verified` solely from search results.
 - The three previously unresolved employment records (Cambridge, NTNU, UiO postdoc) were removed from live opportunities because their advertised hard application dates passed and current official application pages are unavailable. They are **resolved by live-catalog cleanup**, not retroactively counted as source-certified opportunities.
 
-The live queue is tracked in [issue #12](https://github.com/yingjinghuang/geo-deadlines/issues/12). Evidence details from the full original 140-record audit remain in the dated snapshot documents.
+The current four-item source caveat queue is tracked in [issue #12](https://github.com/yingjinghuang/geo-deadlines/issues/12). Evidence details from the full original 140-record audit remain in the dated snapshot documents.
