@@ -1,0 +1,40 @@
+name: Opportunity freshness audit
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run audit:freshness > freshness-report.md
+      - name: Open or update the unresolved verification queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          count=$(grep -oE 'overdue: \*\*[0-9]+\*\*' freshness-report.md | grep -oE '[0-9]+' || true)
+          count=${count:-0}
+          title="GeoDeadlines: official-source re-verification queue"
+          number=$(gh issue list --state open --search "in:title \"$title\"" --json number,title --jq '.[] | select(.title == "GeoDeadlines: official-source re-verification queue") | .number' | head -n 1)
+          if [ "$count" -gt 0 ]; then
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file freshness-report.md
+            else
+              gh issue create --title "$title" --body-file freshness-report.md
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "No entries exceed the configured freshness age thresholds. This is not an automatic semantic verification."
+          fi
