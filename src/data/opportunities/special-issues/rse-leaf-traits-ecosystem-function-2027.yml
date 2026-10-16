@@ -16,7 +16,7 @@ sources:
   - label: "Official ScienceDirect call for papers"
     url: "https://www.sciencedirect.com/special-issue/331073/remote-sensing-of-leaf-traits-canopy-structure-ecosystem-function-and-services-in-honor-of-dr-jing-ming-chen"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Jan Pisek"
   - name: "Holly Croft"
@@ -34,4 +34,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "NASA JPL ECOSTRESS official community digest independently lists 1 January 2027 for this exact RSE special issue and links its dedicated CFP. This confirms the circulated original date, but the publisher detail is currently HTTP 403 and a subsequent extension cannot be excluded; do not advance last_verified until a current editor/publisher primary source is readable."
+    note: "Rechecked 16 October 2026 against the official NASA JPL ECOSTRESS research-community announcement: the exact Remote Sensing of Environment special issue and linked publisher CFP have a 1 January 2027 submission date. This is a verified originally announced deadline, not a promise that no subsequent extension/change can ever occur. The current detailed Elsevier page is access-restricted."
