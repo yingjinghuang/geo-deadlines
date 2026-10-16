@@ -2,13 +2,13 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 67; awaiting individual official-source verification: 71.
+Current baseline: 138 opportunities. Entries checked in the current pass: 72; awaiting individual official-source verification: 66.
 
 Audit update: 2026-10-16. The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
-Known unresolved examples (not counted as verified): WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
+Known unresolved examples (not counted as verified): TGIS disease-outbreak call's dedicated page gives 30 September but its current publisher CFP index gives 31 December; WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
 
 Verification checks: official URL reachable; opportunity still open/closed; submission/review/deadline milestone updated; extensions checked; exact-time precision preserved; source contradictions noted; last_verified written only after actual review.
 
@@ -140,11 +140,11 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [scs-heat-resilience-health-equity-2027.yml](../../src/data/opportunities/special-issues/scs-heat-resilience-health-equity-2027.yml)
 - [ ] [scs-sustainability-health-equity-ai-wellbeing-2026.yml](../../src/data/opportunities/special-issues/scs-sustainability-health-equity-ai-wellbeing-2026.yml)
 - [ ] [tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml](../../src/data/opportunities/special-issues/tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml)
-- [ ] [tgis-ethical-explainable-geoai-2026.yml](../../src/data/opportunities/special-issues/tgis-ethical-explainable-geoai-2026.yml)
-- [ ] [tgis-geohazard-technologies-2026.yml](../../src/data/opportunities/special-issues/tgis-geohazard-technologies-2026.yml)
-- [ ] [tgis-giscience-education-2027.yml](../../src/data/opportunities/special-issues/tgis-giscience-education-2027.yml)
-- [ ] [tgis-spatial-data-sharing-governance-2026.yml](../../src/data/opportunities/special-issues/tgis-spatial-data-sharing-governance-2026.yml)
-- [ ] [tgis-spatiotemporal-big-data-planning-2027.yml](../../src/data/opportunities/special-issues/tgis-spatiotemporal-big-data-planning-2027.yml)
+- [x] [tgis-ethical-explainable-geoai-2026.yml](../../src/data/opportunities/special-issues/tgis-ethical-explainable-geoai-2026.yml)
+- [x] [tgis-geohazard-technologies-2026.yml](../../src/data/opportunities/special-issues/tgis-geohazard-technologies-2026.yml)
+- [x] [tgis-giscience-education-2027.yml](../../src/data/opportunities/special-issues/tgis-giscience-education-2027.yml)
+- [x] [tgis-spatial-data-sharing-governance-2026.yml](../../src/data/opportunities/special-issues/tgis-spatial-data-sharing-governance-2026.yml)
+- [x] [tgis-spatiotemporal-big-data-planning-2027.yml](../../src/data/opportunities/special-issues/tgis-spatiotemporal-big-data-planning-2027.yml)
 - [x] [tus-active-sensing-cities-2026.yml](../../src/data/opportunities/special-issues/tus-active-sensing-cities-2026.yml)
 - [x] [tus-ai-transportation-human-mobility-2026.yml](../../src/data/opportunities/special-issues/tus-ai-transportation-human-mobility-2026.yml)
 - [x] [tus-behavioral-resilience-extreme-weather-2026.yml](../../src/data/opportunities/special-issues/tus-behavioral-resilience-extreme-weather-2026.yml)
