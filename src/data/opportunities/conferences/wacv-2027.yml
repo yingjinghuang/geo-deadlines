@@ -3,7 +3,7 @@ short_name: "WACV 2027"
 type: conference
 series: "IEEE/CVF Winter Conference on Applications of Computer Vision"
 year: 2027
-description: "A major applied computer-vision conference whose application areas include remote sensing, environmental monitoring, and climate. Both rounds of paper submission closed in August 2026. The current conference schedule still has the November camera-ready and attendee registration deadlines; the official CFP and Dates page disagree on October decision release (9 versus 14)."
+description: "A major applied computer-vision conference whose application areas include remote sensing, environmental monitoring, and climate. Both rounds of paper submission closed in August 2026. The current conference schedule still has the November camera-ready and attendee registration deadlines; conference homepage/Dates page list October 14 decisions but CFP and reviewer guides still say October 9."
 scope: adjacent
 topics:
   - computer-vision
@@ -14,11 +14,17 @@ topics:
   - climate
 website: "https://wacv.thecvf.com/Conferences/2027/"
 sources:
+  - label: "Official WACV 2027 conference homepage (Oct 14 public decisions)"
+    url: "https://wacv.thecvf.com/Conferences/2027/"
+    kind: official
   - label: "Official WACV 2027 dates and deadlines"
     url: "https://wacv.thecvf.com/Conferences/2027/Dates"
     kind: official
   - label: "Official WACV 2027 author guidelines"
     url: "https://wacv.thecvf.com/Conferences/2027/AuthorGuides"
+    kind: official
+  - label: "Official WACV 2027 reviewer schedule (Oct 9 internal timeline)"
+    url: "https://wacv.thecvf.com/Conferences/2027/ReviewerGuidelines"
     kind: official
   - label: "Official WACV 2027 call for papers"
     url: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
@@ -67,10 +73,10 @@ deadlines:
   - id: notification
     type: notification
     label: "Final Decisions"
-    datetime: "2026-10-09T23:59:00-12:00"
+    datetime: "2026-10-14T23:59:00-12:00"
     timezone: "AoE"
     status: active
-    note: "UNRESOLVED OFFICIAL CONFLICT confirmed 16 October 2026: dedicated live WACV Dates page lists 14 October for both rounds, while live CFP still lists 9 October. Historical 9 October value retained; a source-specific winner is not yet established. Do not bump last_verified until resolved."
+    note: "PREFERRED PUBLIC DATE, NOT FULLY RECONCILED: As of 16 October, the official conference homepage AND current Dates page both list 14 October 2026 for rounds 1 and 2 final decisions; CFP, Author Guides, Reviewer Guidelines and Senior Area Chair Guides still show 9 October. Updated displayed date to the two aligned conference public-facing scheduling pages, but retained old last_verified pending organizer clarification. These have already passed: no submission period remains open."
   - id: early-registration
     type: registration
     label: "Attendee Early Registration"
