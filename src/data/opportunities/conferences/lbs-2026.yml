@@ -16,7 +16,7 @@ sources:
   - label: "Official ICA call for papers"
     url: "https://icaci.org/invitation-to-the-20th-international-conference-on-location-based-services-lbs-2026/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2026-11-11"
   end: "2026-11-13"
@@ -41,10 +41,24 @@ deadlines:
     precision: date
     timezone: null
     status: active
+  - id: full-paper-notification
+    type: notification
+    label: "Full Paper Acceptance"
+    datetime: "2026-07-30"
+    precision: date
+    timezone: null
+    status: active
   - id: work-in-progress
     type: short_paper
     label: "Work in Progress"
     datetime: "2026-07-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: work-in-progress-notification
+    type: notification
+    label: "Work in Progress Acceptance"
+    datetime: "2026-08-15"
     precision: date
     timezone: null
     status: active
@@ -60,6 +74,27 @@ deadlines:
     type: paper
     label: "Published-Article Track"
     datetime: "2026-09-01"
+    precision: date
+    timezone: null
+    status: active
+  - id: late-breaking-notification
+    type: notification
+    label: "Late-Breaking Work Acceptance"
+    datetime: "2026-09-22"
+    precision: date
+    timezone: null
+    status: active
+  - id: published-article-notification
+    type: notification
+    label: "Published-Article Track Acceptance"
+    datetime: "2026-09-22"
+    precision: date
+    timezone: null
+    status: active
+  - id: author-registration
+    type: registration
+    label: "Early / Author Registration"
+    datetime: "2026-10-15"
     precision: date
     timezone: null
     status: active
