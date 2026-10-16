@@ -10,6 +10,12 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/special-issue/330054/geospatial-foundation-models-for-advancing-remote-sensing-of-environment"
 sources:
+  - label: "Guest editor Qiusheng Wu's original CFP (30 June deadline)"
+    url: "https://www.linkedin.com/posts/giswqs_remotesensing-earthobservation-foundationmodels-activity-7425528504055922688-TSYw"
+    kind: announcement
+  - label: "Special-issue initiator Zhe Zhu's original CFP (30 June deadline)"
+    url: "https://www.linkedin.com/posts/zhe-zhu-765bb821_remote-sensing-of-environment-activity-7425378010075258880-lX5I"
+    kind: announcement
   - label: "Official ScienceDirect call for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
@@ -27,8 +33,8 @@ deadlines:
   - id: manuscript
     type: special_issue_manuscript
     label: "Manuscript"
-    datetime: "2026-12-31"
+    datetime: "2026-06-30"
     precision: date
     timezone: null
     status: active
-    note: "UNRESOLVED EXTENSION EVIDENCE: multiple named guest editors (including Qiusheng Wu) and the NASA JPL ECOSTRESS opportunities digest advertised 30 June 2026. A later publisher ScienceDirect CFP index was reported as 31 December 2026, but its live dedicated CFP currently returns HTTP 403. Do not treat an extension to December as independently verified without a directly accessible authoritative update; verification timestamp intentionally unchanged."
+    note: "CAUTION — original editor-backed closing date is 30 June 2026, now elapsed: guest editor Qiusheng Wu, initiator Zhe Zhu, and NASA JPL ECOSTRESS all explicitly state 30 June. An earlier GeoDeadlines record used 31 December 2026 on an uncorroborated claimed publisher-index extension. No accessible named publisher or editor statement confirms that extension; restored original documented cutoff on 16 October, leaving last_verified unchanged because the current live publisher details remain HTTP 403. Do not treat this special issue as open unless editors or publisher confirm extension."
