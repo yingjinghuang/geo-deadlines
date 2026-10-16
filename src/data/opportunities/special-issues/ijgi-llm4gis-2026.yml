@@ -18,7 +18,7 @@ sources:
   - label: "Official special issue page"
     url: "https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Huayi Wu"
     affiliation: "Wuhan University"
@@ -28,8 +28,8 @@ deadlines:
   - id: manuscript
     type: special_issue_manuscript
     label: "Manuscript"
-    datetime: "2026-08-31"
+    datetime: "2026-12-31"
     precision: date
     timezone: null
     status: active
-    note: "Publisher states the submission date but not an exact time or timezone."
+    note: "Publisher special-issue page currently states 31 December 2026 (superseding the previously recorded 31 August date). No exact time or timezone is published."
