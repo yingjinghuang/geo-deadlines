@@ -13,10 +13,13 @@ topics:
   - machine-learning
 website: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-ai-driven-urban-redesign-for-health"
 sources:
-  - label: "Official Utrecht University vacancy"
+  - label: "Original Utrecht University job detail (now 404 after closing date)"
     url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-ai-driven-urban-redesign-for-health"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Current official Utrecht University jobs index (no longer lists the expired post)"
+    url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Utrecht"
@@ -34,3 +37,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "The Utrecht University original posting was indexed with a final 15 October 2026 application deadline. On 16 October, the original direct job URL is HTTP 404 and the successfully fetched current university jobs index no longer lists this vacancy. No official extension or renewed call found; do not describe this as currently accepting applications."
