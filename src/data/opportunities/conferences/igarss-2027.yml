@@ -25,7 +25,7 @@ sources:
   - label: "Official IGARSS 2027 Community Contributed Theme call"
     url: "https://2027.ieeeigarss.org/cct_proposal.php"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -77,6 +77,34 @@ deadlines:
     type: application
     label: "Travel Support Application"
     datetime: "2027-01-11"
+    precision: date
+    timezone: null
+    status: active
+  - id: submission-opens
+    type: other
+    label: "Abstract / Manuscript Submissions Open"
+    datetime: "2026-11-10"
+    precision: date
+    timezone: null
+    status: active
+  - id: authors-notification
+    type: notification
+    label: "Author Acceptance Notification"
+    datetime: "2027-03-12"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-registration
+    type: registration
+    label: "Early Bird / Accepted Paper Registration"
+    datetime: "2027-04-30"
+    precision: date
+    timezone: null
+    status: active
+  - id: accepted-manuscript
+    type: camera_ready
+    label: "Accepted Manuscript Submission"
+    datetime: "2027-04-30"
     precision: date
     timezone: null
     status: active
