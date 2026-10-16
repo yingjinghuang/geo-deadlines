@@ -13,7 +13,7 @@ sources:
   - label: "Official Max Planck Society vacancy GEA-DLU"
     url: "https://www.mpg.de/26919453/phd-researcher-quantitative-past-urban-studies"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Jena"
@@ -31,3 +31,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "Max Planck official listing confirms applications and reference letters are due by October 31, 2026; referees must submit letters independently."
