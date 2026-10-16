@@ -26,7 +26,7 @@ const item = deriveOpportunity(entry);
 const data = item.raw as OpportunityData;
 const next = futureSubmissionDeadlines(data.deadlines).find((deadline) => deadline.primary) ?? futureSubmissionDeadlines(data.deadlines)[0];
 const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id);
-const typeFolder = data.type === 'conference' ? 'conferences' : data.type === 'special_issue' ? 'special-issues' : 'workshops';
+const typeFolder = data.type === 'conference' ? 'conferences' : data.type === 'special_issue' ? 'special-issues' : data.type === 'position' ? 'positions' : 'workshops';
 const repo = repositoryUrl();
 const editUrl = `${repo}/edit/main/src/data/opportunities/${typeFolder}/${item.id}.yml`;
 const reportTitle = encodeURIComponent(`[Update] ${data.title}`);
@@ -78,7 +78,7 @@ const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-ti
         </section>
         <section class="detail-section surface">
           <p class="eyebrow">Provenance</p><h2>Sources & freshness</h2>
-          <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
+          <VerificationBadge date={data.last_verified} status={item.verificationStatus} type={data.type} />
           <ul class="source-list">{data.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a><span>{source.kind}</span></li>)}</ul>
           <div class="contribution-actions">
             <a href={editUrl} target="_blank" rel="noopener noreferrer">Edit this entry on GitHub ↗</a>
