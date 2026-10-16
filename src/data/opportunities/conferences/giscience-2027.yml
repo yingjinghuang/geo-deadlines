@@ -16,7 +16,7 @@ sources:
   - label: "Official GIScience 2027 website and call for submissions"
     url: "https://geods.github.io/GIScience2027/"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-10-18"
   end: "2027-10-22"
@@ -51,4 +51,39 @@ deadlines:
     label: "Abstract / Demo"
     datetime: "2027-05-14T23:59:00-12:00"
     timezone: "AoE"
+    status: active
+  - id: full-paper-notification
+    type: notification
+    label: "Full Paper Decision"
+    datetime: "2027-03-26"
+    precision: date
+    timezone: null
+    status: active
+  - id: short-paper-notification
+    type: notification
+    label: "Short Paper Decision"
+    datetime: "2027-05-07"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-demo-notification
+    type: notification
+    label: "Abstract / Demo Decision"
+    datetime: "2027-05-30"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera Ready"
+    datetime: "2027-05-30"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-registration
+    type: registration
+    label: "Early Bird Registration"
+    datetime: "2027-06-30"
+    precision: date
+    timezone: null
     status: active
