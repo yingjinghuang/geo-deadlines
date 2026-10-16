@@ -123,7 +123,7 @@ Run `npm run audit:freshness` for a full freshness report (position review targe
 
 ## Live opportunities and archival verification
 
-The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **11** concluded recruitment postings, the **live YAML catalog contains 129 opportunities**, with **116** first-party certified and **13** evidence-limited special issue/conference records. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
+The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **11** concluded recruitment postings, the **live YAML catalog contains 125 opportunities**, with **112** first-party certified and **13** evidence-limited special issue/conference records. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
 
 ## Calendar feeds
 
@@ -160,7 +160,7 @@ Pushes to `main` are built and deployed automatically to GitHub Pages through Gi
 
 - Prefer **official conference, society, journal, or publisher pages**.
 - Do not infer or fabricate submission times, timezones, extensions, rankings, or dates.
-- Keep expired opportunities: they become part of the archive and help preserve historical deadline information.
+- Preserve historical conferences, workshops and special issues for reference; prune confirmed closed recruitment positions from active YAML after recording the evidence and Git history.
 - Mark future calls as `TBD` when an event is announced but its submission schedule is not.
 - Update `last_verified` whenever an entry is checked against its source.
 
