@@ -15,7 +15,7 @@ sources:
   - label: "Official Spatial Statistics 2027 conference page"
     url: "https://www.elsevier.com/events/conferences/all/spatial-statistics"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-07-22"
   end: "2027-07-25"
@@ -53,6 +53,13 @@ deadlines:
   - id: author-registration
     type: registration
     label: "Author Registration"
+    datetime: "2027-04-23"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-bird
+    type: registration
+    label: "Early Bird Registration"
     datetime: "2027-04-23"
     precision: date
     timezone: null
