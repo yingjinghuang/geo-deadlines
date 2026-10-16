@@ -123,7 +123,7 @@ Run `npm run audit:freshness` for a full freshness report (position review targe
 
 ## Live opportunities and archival verification
 
-The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **11** concluded recruitment postings, the **live YAML catalog contains 125 opportunities**, with **112** first-party certified and **13** evidence-limited special issue/conference records. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
+The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **15** concluded recruitment postings, the **live YAML catalog contains 125 opportunities**, with **121** source-supported dates and **4** documented source caveats. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md) and [evidence-based follow-up](docs/evidence-followup-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
 
 ## Calendar feeds
 
