@@ -36,6 +36,12 @@ A refresh is **complete only when every tracked opportunity has an item-by-item 
 
 **Maintenance cadence**: positions should be source-reviewed at least every 14 days, other tracked opportunities at least every 30 days, and more frequently near critical deadlines. The scheduled [freshness workflow](.github/workflows/audit-freshness.yml) runs weekly, opens/updates a GitHub issue for stale entries, and never silently edits `last_verified`. The CLI report measures timestamp age only; it cannot certify official-page accuracy. A periodic audit is not a replacement for the full-catalog procedure on substantive refreshes.
 
+## Evidence sufficiency for deadline rechecks
+
+An **official publisher-hosted CFP index/list** is first-party evidence of a date when it explicitly identifies the **matching special-issue title, journal, named editors and submission deadline**. It remains useful even when the dedicated issue detail is blocked by HTTP 403. An original named guest editor's own authored CFP and an institutional original announcement can likewise verify an announced deadline. Record the exact inspected URL and scope of evidence in the item note. **Do not confuse a live publisher index with a generic search-engine snippet**, and do not claim a current submission portal is open merely because an archived date was confirmed.
+
+For expired calls, a named journal's published issue plus an institutional historic deadline notice can support a qualified historical listing, but the note must say if the publisher's exact original final cutoff was not independently available. For conflicts between multiple original sources, record both facts and any submission-stage distinctions rather than inventing a reconciliation. `last_verified` represents the date the cited original evidence was rechecked, **not proof of an unchanged future deadline or open submission status**. See [16 October evidence recheck](docs/evidence-followup-2026-10-16.md).
+
 ## Active opportunity re-verification
 
 Every substantive GeoDeadlines refresh must re-check **all currently active tracked opportunities**, not only discover new ones. This applies to conferences, workshops, special issues, positions, and other deadline-bearing entries.
