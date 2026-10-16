@@ -1,0 +1,42 @@
+title: "Assistant Professor in GIScience"
+short_name: "South Carolina GIScience Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "A nine-month tenure-track Assistant Professor position in the University of South Carolina Department of Geography, with research and teaching spanning GIScience methods, spatial modeling, geovisualization, spatial statistics, GeoAI, and geospatial intelligence. Expected start August 16, 2027."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - geography
+  - spatial-data-science
+  - spatial-statistics
+  - geovisualization
+website: "https://uscjobs.sc.edu/postings/213942"
+submission_url: "https://uscjobs.sc.edu/postings/213942"
+sources:
+  - label: "Official University of South Carolina faculty vacancy 213942"
+    url: "https://uscjobs.sc.edu/postings/213942"
+    kind: official
+  - label: "University of South Carolina Department of Geography hiring announcement"
+    url: "https://www.mooreschool.sc.edu/study/colleges_schools/artsandsciences/geography/about/hiring/index.php"
+    kind: official
+last_verified: "2026-10-16"
+location:
+  mode: in_person
+  city: "Columbia"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of South Carolina"
+  - "Department of Geography"
+deadlines:
+  - id: initial-review
+    type: application
+    label: "Review Begins"
+    datetime: "2026-11-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Applications are reviewed from November 1, 2026; the official university posting states that the search remains open until filled. This is not a hard application deadline."
