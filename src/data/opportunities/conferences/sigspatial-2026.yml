@@ -29,7 +29,7 @@ sources:
   - label: "Official GIS Cup page"
     url: "https://sigspatial2026.sigspatial.org/giscup.html"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2026-11-03"
   end: "2026-11-06"
@@ -103,3 +103,10 @@ deadlines:
     datetime: "2026-10-02T23:59:00-12:00"
     timezone: "AoE"
     status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera Ready (All Tracks)"
+    datetime: "2026-09-01T23:59:00-07:00"
+    timezone: "America/Los_Angeles"
+    status: active
+    note: "Official conference homepage announces an extension to September 1, 2026, 11:59 PM Pacific Time."
