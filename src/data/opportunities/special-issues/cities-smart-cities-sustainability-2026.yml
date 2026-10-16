@@ -8,15 +8,18 @@ journal:
   name: "Cities"
   short_name: "Cities"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/10QZNF22RC3"
 sources:
+  - label: "Dedicated official Elsevier CFP (indexed original manuscript cutoff 30 June 2026)"
+    url: "https://www.sciencedirect.com/special-issue/10QZNF22RC3"
+    kind: publisher
   - label: "Publisher article explicitly linked to Cities Smart Cities special issue and named editor team"
     url: "https://doi.org/10.1016/j.cities.2026.106809"
     kind: publisher
   - label: "Official Cities call for papers page"
     url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
     kind: publisher
-last_verified: "2026-08-11"
+last_verified: "2026-10-16"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
@@ -25,4 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "A directly indexed official Cities research article explicitly labels this same Smart Cities: Innovative Urban Planning and the Challenge of Sustainability special issue and the editor team, confirming the collected issue exists. However the original 30 June 2026 CFP deadline/any subsequent extension could not be independently checked on a live publisher call (HTTP 403). Historical date has passed; do not update last_verified or claim it remains open."
+    note: "Rechecked 16 October 2026: Elsevier's dedicated original Cities special-issue page for this exact title is indexed with an explicit 30 June 2026 manuscript deadline. A published Cities article independently identifies the named special-issue collection. The deadline has passed; no publisher-announced extension was found. The original publisher detail may not render for automated clients, but the first-party indexed deadline and publisher publication record jointly substantiate this historical listing."
