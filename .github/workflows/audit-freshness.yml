@@ -36,5 +36,5 @@ jobs:
               gh issue create --title "$title" --body-file freshness-report.md
             fi
           elif [ -n "$number" ]; then
-            gh issue close "$number" --comment "No entries exceed the configured freshness age thresholds. This is not an automatic semantic verification."
+            gh issue edit "$number" --body-file freshness-report.md
           fi
