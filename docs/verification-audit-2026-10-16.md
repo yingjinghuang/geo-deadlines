@@ -2,9 +2,11 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 64; awaiting individual official-source verification: 74.
+Current baseline: 138 opportunities. Entries checked in the current pass: 67; awaiting individual official-source verification: 71.
 
 Audit update: 2026-10-16. The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
+
+Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
 
 Known unresolved examples (not counted as verified): WACV 2027 official Dates page conflicts with CFP and Author Guides (14 October versus 9 October decisions); HKU physical geography / AI faculty posting now redirects to job-not-found; McGill and uOttawa Workday pages yield no readable status; some Elsevier CFP pages block automated access; the IJGIS "Critical Challenges" publisher page timed out. Do not assume any are open or closed from a failed fetch.
 
@@ -65,7 +67,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
 - [ ] [iowa-geoai-spatial-data-science-phd-2026.yml](../../src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml)
 - [ ] [ista-mountain-water-cryosphere-postdoc-2026.yml](../../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml)
-- [ ] [loughborough-physical-geography-professor-2026.yml](../../src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
+- [x] [loughborough-physical-geography-professor-2026.yml](../../src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
 - [x] [maastricht-urban-regional-modelling-faculty-2026.yml](../../src/data/opportunities/positions/maastricht-urban-regional-modelling-faculty-2026.yml) — official source reviewed
 - [ ] [max-planck-quantitative-past-urban-studies-phd-2026.yml](../../src/data/opportunities/positions/max-planck-quantitative-past-urban-studies-phd-2026.yml)
 - [ ] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
@@ -93,8 +95,8 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [umd-coastal-geomorphology-remote-sensing-phd-2026.yml](../../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml)
 - [ ] [umd-satellite-remote-sensing-research-position-2026.yml](../../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml)
 - [ ] [uncg-urban-economic-geography-assistant-professor-2026.yml](../../src/data/opportunities/positions/uncg-urban-economic-geography-assistant-professor-2026.yml)
-- [ ] [univie-human-economic-geography-senior-lecturer-2026.yml](../../src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml)
-- [ ] [univie-spatial-data-science-predoc-2026.yml](../../src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml)
+- [x] [univie-human-economic-geography-senior-lecturer-2026.yml](../../src/data/opportunities/positions/univie-human-economic-geography-senior-lecturer-2026.yml)
+- [x] [univie-spatial-data-science-predoc-2026.yml](../../src/data/opportunities/positions/univie-spatial-data-science-predoc-2026.yml)
 - [ ] [uottawa-urban-sustainability-assistant-professor-2026.yml](../../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml)
 - [ ] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
 - [x] [usc-giscience-assistant-professor-2026.yml](../../src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml) — official source checked in this pass
