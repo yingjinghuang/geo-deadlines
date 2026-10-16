@@ -7,8 +7,11 @@ topics: [urban, geography, spatial-data-science, giscience]
 journal:
   name: "Cities"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/329832/evolution-of-urban-spatial-structure"
 sources:
+  - label: "Dedicated original Elsevier Cities call (publisher-indexed 31 August 2027; direct detail currently returns HTTP 403)"
+    url: "https://www.sciencedirect.com/special-issue/329832/evolution-of-urban-spatial-structure"
+    kind: publisher
   - label: "Official ScienceDirect Cities development CFP index: 31 August 2027"
     url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=development"
     kind: publisher
