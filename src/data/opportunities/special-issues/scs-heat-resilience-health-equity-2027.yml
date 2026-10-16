@@ -8,8 +8,11 @@ journal:
   name: "Sustainable Cities and Society"
   short_name: "SCS"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/sustainable-cities-and-society/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/331314/heat-resilience-and-health-equity-in-urban-systems-advances-in-microclimate-design-predictive-analytics-and-adaptive-governance"
 sources:
+  - label: "Dedicated original Elsevier SCS special-issue CFP (publisher-indexed 16 March 2027; direct detail currently HTTP 403)"
+    url: "https://www.sciencedirect.com/special-issue/331314/heat-resilience-and-health-equity-in-urban-systems-advances-in-microclimate-design-predictive-analytics-and-adaptive-governance"
+    kind: publisher
   - label: "Official Elsevier ScienceDirect current CFP index: 16 March 2027"
     url: "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR"
     kind: publisher
