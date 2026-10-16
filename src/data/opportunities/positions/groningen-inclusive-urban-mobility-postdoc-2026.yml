@@ -9,12 +9,18 @@ topics:
   - mobility
   - giscience
   - geographic-hci
-website: "https://werkenbij.rug.nl/vacature/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility-2353/?lang=en"
+website: "https://www.academictransfer.com/en/jobs/363322/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility/"
 sources:
-  - label: "Official University of Groningen vacancy 2353"
+  - label: "University of Groningen employer-managed AcademicTransfer vacancy V26.2353-EN (explicitly expired)"
+    url: "https://www.academictransfer.com/en/jobs/363322/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility/"
+    kind: official
+  - label: "EU EURAXESS posting 460613 by University of Groningen via AcademicTransfer"
+    url: "https://euraxess.ec.europa.eu/jobs/460613"
+    kind: official
+  - label: "Original University of Groningen vacancy 2353 (now 404)"
     url: "https://werkenbij.rug.nl/vacature/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility-2353/?lang=en"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Groningen"
@@ -28,8 +34,8 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-09-20T23:59:00+02:00"
+    datetime: "2026-09-20T00:00:00+02:00"
     timezone: "Europe/Amsterdam"
     status: active
     primary: true
-    note: "UNRESOLVED STATUS: the original University of Groningen position page now returns HTTP 404 after the advertised 20 September 2026 deadline. No official deadline extension or live application posting could be confirmed 16 October; retain prior verification date."
+    note: "OFFICIALLY EXPIRED: University of Groningen employer-hosted AcademicTransfer application platform explicitly says applications no longer accepted (vacancy V26.2353-EN; deadline displayed as 19 September 2026). The EU EURAXESS employer feed specifies 19 September 22:00 UTC, equivalent to 20 September 00:00 CEST. This corrects an earlier 20 September 23:59 CEST timestamp (24 hours late). Separate university faculty announcements called this a 20 September deadline, so retain this discrepancy in the explanatory note; platform cutoff controls the tracked instant."
