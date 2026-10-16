@@ -13,7 +13,7 @@ sources:
   - label: "Official ScienceDirect call for papers listing"
     url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=CSR"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Hongjie He"
   - name: "Jiaxin Li"
@@ -28,4 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "The matching ScienceDirect publisher calls-for-papers index (CSR/computer science) lists 31 July 2027 and all five guest editors for this exact JAG special issue. A directly opened current standalone publisher/lead editor call could not be retrieved (ScienceDirect HTTP 403). Preserve original verification date until exact current CFP can be read."
+    note: "Rechecked 16 October 2026 against the official ScienceDirect CFP index, which lists this exact JAG issue, five named editors, and 31 July 2027 manuscript deadline. The date refers to JAG, not a similarly named IEEE J-STARS call. The journal's separate full CFP is access-restricted; exact deadline is nevertheless explicitly supported by the publisher's own index."
