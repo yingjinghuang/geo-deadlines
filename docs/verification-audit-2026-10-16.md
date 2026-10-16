@@ -2,11 +2,19 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 138 opportunities. Entries checked in the current pass: 113; awaiting individual official-source verification: 25.
+Current baseline: 139 opportunities. Entries checked in the current pass: 117; awaiting individual official-source verification: 22.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
+
+## Latest recheck — 16 October 2026 (117/139)
+
+- **TU Berlin/BIFOLD AI Agents & Foundation Models for Earth Observation Postdoc** (IV-329/26): recovered the live, definitive [TU Berlin posting 207457](https://www.jobs.tu-berlin.de/stellenausschreibungen/207457?language=en) that replaces broken posting 206442. Official TU vacancy explicitly states **14 October 2026**, already elapsed. Updated website, source, note and `last_verified`.
+- **University of Groningen Inclusive Mobility Postdoc**: recovered the employer-issued [AcademicTransfer posting V26.2353-EN](https://www.academictransfer.com/en/jobs/363322/postdoctoral-researcher-urban-design-and-inclusive-urban-mobility/), which explicitly says **applications no longer accepted**, and the [EU EURAXESS employer feed](https://euraxess.ec.europa.eu/jobs/460613) with exact cutoff **19 September 2026 22:00 UTC** = **20 September 00:00 CEST**. Corrected the old **20 September 23:59 CEST** timestamp that was 24 hours late; conflicting university faculty publicity of "20 September" is explicitly noted. Posting is now fully reviewed and marked expired.
+- **Utrecht AI-driven Urban (Re)Design for Health postdoc**: current [Utrecht University jobs list](https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs) no longer features it and original detail link returns 404, consistent with its **15 October 2026** final application deadline on the previously indexed official posting; no extension identified. Kept historical date and marked source review completed, without claiming the internal recruitment process is finished.
+- **New and timely:** [Utrecht Postdoc on Geodata Science and GeoAI](https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-on-geodata-science-and-geoai) for health system resilience has a **15 November 2026** deadline, confirmed on the directly accessible live university vacancy and current jobs index. Added new core-scoped verified YAML.
+- The remaining publisher-blocked special issues and other unavailable institution URLs remain **unchecked**; do not re-date old records to improve progress numbers.
 
 ## Current pass findings — 16 October 2026
 
@@ -25,7 +33,7 @@ Verification improvements in this pass: the UI now marks positions needing re-re
 - The official ScienceDirect search index corroborates deadline dates for several remaining special issues, but direct publisher detail pages are HTTP 403; **do not convert search snippets into `last_verified` certification**.
 
 
-- **113 of 138** opportunities individually reviewed, **25** still pending authoritative source confirmation.
+- **117 of 139** opportunities individually reviewed, **22** still pending authoritative source confirmation.
 - Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
 - Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
 - Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
@@ -83,7 +91,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [cpp-uas-autonomy-gis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-uas-autonomy-gis-assistant-professor-2026.yml)
 - [x] [cranfield-remote-sensing-ai-research-fellow-2026.yml](../src/data/opportunities/positions/cranfield-remote-sensing-ai-research-fellow-2026.yml)
 - [x] [csuf-physical-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/csuf-physical-geography-assistant-professor-2026.yml) — official source reviewed
-- [ ] [groningen-inclusive-urban-mobility-postdoc-2026.yml](../src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml)
+- [x] [groningen-inclusive-urban-mobility-postdoc-2026.yml](../src/data/opportunities/positions/groningen-inclusive-urban-mobility-postdoc-2026.yml)
 - [x] [guelph-geoai-assistant-professor-2026.yml](../src/data/opportunities/positions/guelph-geoai-assistant-professor-2026.yml) — official source reviewed
 - [x] [hku-physical-geography-ai-assistant-professor-2026.yml](../src/data/opportunities/positions/hku-physical-geography-ai-assistant-professor-2026.yml)
 - [x] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
@@ -105,7 +113,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [stanford-climate-science-assistant-professor-2026.yml](../src/data/opportunities/positions/stanford-climate-science-assistant-professor-2026.yml) — official source reviewed
 - [x] [ttu-earth-observation-ai-phd-2026.yml](../src/data/opportunities/positions/ttu-earth-observation-ai-phd-2026.yml)
-- [ ] [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](../src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml)
+- [x] [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](../src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml)
 - [x] [uci-hydrology-remote-sensing-postdoc-2026.yml](../src/data/opportunities/positions/uci-hydrology-remote-sensing-postdoc-2026.yml)
 - [x] [uclouvain-physical-environment-climate-geography-academic-2026.yml](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml)
 - [x] [uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml) — official source reviewed
@@ -125,7 +133,8 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [usf-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
 - [x] [ut-austin-geoai-phd-2026.yml](../src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml)
 - [x] [utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml](../src/data/opportunities/positions/utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml)
-- [ ] [utrecht-ai-urban-redesign-health-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-ai-urban-redesign-health-postdoc-2026.yml)
+- [x] [utrecht-ai-urban-redesign-health-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-ai-urban-redesign-health-postdoc-2026.yml)
+- [x] [utrecht-geodata-science-geoai-health-resilience-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-geodata-science-geoai-health-resilience-postdoc-2026.yml) — new position: live official employer CFP, deadline 15 November 2026
 - [x] [uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml](../src/data/opportunities/positions/uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml)
 - [x] [virginia-tech-geoai-phd-2026.yml](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml)
 
