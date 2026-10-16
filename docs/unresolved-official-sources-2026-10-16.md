@@ -1,6 +1,6 @@
 # GeoDeadlines remaining primary-source confirmation blockers — 2026-10-16
 
-> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **129 entries: 116 strictly verified and 13 source-limited** after **11** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
+> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **125 entries: 112 strictly verified and 13 source-limited** after **15** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
 
 
 **Full catalog review: 140/140 opportunities examined individually.** **124/140** have sufficiently authoritative first-party corroboration for fresh `last_verified`; the **16 listed below have ALSO been reviewed**, but do not qualify for a fresh verification date. They are evidence-limited or disputed; **none is an untouched record**.
