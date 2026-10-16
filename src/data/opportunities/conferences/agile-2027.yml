@@ -10,13 +10,13 @@ topics:
   - geoai
   - spatial-data-science
   - geovisualization
-website: "https://www.agile-online.org/conference-2027"
+website: "https://agile-gi.eu/conference-2027"
 sources:
   - label: "Official AGILE–ISDE (YIF) 2027 conference page"
-    url: "https://www.agile-online.org/conference-2027"
+    url: "https://agile-gi.eu/conference-2027"
     kind: official
   - label: "Official AGILE–ISDE (YIF) 2027 call for papers"
-    url: "https://www.agile-online.org/conference-2027/call-for-papers-2027/call-for-papers-2027"
+    url: "https://agile-gi.eu/conference-2027/call-for-papers-2027"
     kind: official
   - label: "Official AGILE–ISDE (YIF) 2027 call for workshops"
     url: "https://www.agile-online.org/conference-2027/call-for-workshops-2027"
@@ -24,7 +24,7 @@ sources:
   - label: "Official AGILE–ISDE (YIF) 2027 student travel grants"
     url: "https://www.agile-online.org/conference-2027/student-travel-grants-2027"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-06-21"
   end: "2027-06-24"
@@ -45,14 +45,51 @@ deadlines:
     timezone: null
     status: active
     note: "The official workshop call gives the date without stating an exact submission time or timezone."
-  - id: paper
-    type: paper
-    label: "Paper Submission"
-    datetime: TBD
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper"
+    datetime: "2027-01-10"
+    precision: date
     timezone: null
     status: active
     primary: true
-    note: "The official CFP is live, but its Important Dates section does not yet publish the paper-track submission dates."
+    note: "Official CFP important-dates image lists 10 January 2027. No precise time/timezone is shown."
+  - id: short-paper-poster
+    type: short_paper
+    label: "Short Paper / Poster"
+    datetime: "2027-02-12"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official CFP important-dates image includes the short-paper and poster tracks."
+  - id: full-paper-notification
+    type: notification
+    label: "Full Paper Notification"
+    datetime: "2027-02-19"
+    precision: date
+    timezone: null
+    status: active
+  - id: short-paper-notification
+    type: notification
+    label: "Short Paper / Poster Notification"
+    datetime: "2027-03-22"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera-ready (Papers / Posters)"
+    datetime: "2027-04-10"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-registration
+    type: registration
+    label: "Early-bird Registration"
+    datetime: "2027-04-30"
+    precision: date
+    timezone: null
+    status: active
   - id: student-travel-grant
     type: application
     label: "Student Travel Grant"
