@@ -8,12 +8,18 @@ journal:
   name: "Sustainable Cities and Society"
   short_name: "SCS"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/sustainable-cities-and-society/about/call-for-papers"
+website: "https://www.linkedin.com/posts/lauren-andres-a58a02381_sustainable-cities-and-society-activity-7447894456961294336-Aw86"
 sources:
+  - label: "Lead guest editor Lauren Andres original call confirming 31 December 2026 deadline"
+    url: "https://www.linkedin.com/posts/lauren-andres-a58a02381_sustainable-cities-and-society-activity-7447894456961294336-Aw86"
+    kind: announcement
+  - label: "Official SCS journal CFP listing (currently inaccessible directly)"
+    url: "https://www.sciencedirect.com/journal/sustainable-cities-and-society/about/call-for-papers"
+    kind: publisher
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 guest_editors:
   - name: "Lauren Andres"
   - name: "Li Tian"
@@ -26,3 +32,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "On 16 October 2026, lead guest editor Prof. Lauren Andres personally confirms this exact title, coeditors Li Tian and Helen Pineo, an invitation for contributions, and the manuscript deadline of 31 December 2026. Her first-person announcement links to the original journal CFP; the publisher detail page is access-blocked. Guest-editor primary-source verification, not merely an Elsevier indexed snippet."
