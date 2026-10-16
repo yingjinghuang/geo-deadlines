@@ -12,11 +12,15 @@ topics:
   - urban
   - sustainability
 website: "https://www.aag.org/events/aag2027/"
+submission_url: "https://aag.secure-platform.com/aag2027/"
 sources:
   - label: "Official AAG 2027 meeting page"
     url: "https://www.aag.org/events/aag2027/"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official AAG 2027 submission portal"
+    url: "https://aag.secure-platform.com/aag2027/"
+    kind: official
+last_verified: "2026-10-16"
 event:
   start: "2027-02-08"
   end: "2027-02-12"
@@ -45,6 +49,14 @@ deadlines:
     precision: date
     timezone: null
     status: active
+  - id: panelist
+    type: other
+    label: "Panelist Submission"
+    datetime: "2026-12-17"
+    precision: date
+    timezone: null
+    status: active
+    note: "Panelists must already have agreed to participate in a specific organized panel."
   - id: abstract-session-editing
     type: revision
     label: "Abstract / Session Editing"
