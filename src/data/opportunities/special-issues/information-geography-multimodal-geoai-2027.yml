@@ -7,8 +7,11 @@ topics: [geoai, urban, spatial-data-science, machine-learning, sustainability]
 journal:
   name: "Information Geography"
   publisher: "Elsevier"
-website: "https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI"
+website: "https://www.sciencedirect.com/special-issue/334955/advancing-geoai-with-multimodal-geodata-for-sustainable-urban-environments"
 sources:
+  - label: "Dedicated original Elsevier Information Geography CFP (publisher-indexed 1 April 2027; full page currently HTTP 403)"
+    url: "https://www.sciencedirect.com/special-issue/334955/advancing-geoai-with-multimodal-geodata-for-sustainable-urban-environments"
+    kind: publisher
   - label: "Guest editor Levente Juhász personally confirms the live CFP and covered open-access publication"
     url: "https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI"
     kind: announcement
