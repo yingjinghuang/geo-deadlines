@@ -10,6 +10,12 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/journal/sustainable-cities-and-society/about/call-for-papers"
 sources:
+  - label: "Official Elsevier ScienceDirect current CFP index: 16 March 2027"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR"
+    kind: publisher
+  - label: "Independent reproduction of full guest-editor CFP (not authoritative publisher)"
+    url: "https://www.servicesetu.org/call-for-paper/journals/scs"
+    kind: announcement
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
@@ -28,3 +34,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Official Elsevier publisher-index listing matches the full title, editor roster and 16 March 2027 submission deadline; the independent full CFP also reports the article type VSI: SCS_Heat Resilience & Health Equity. The live publisher detail remains blocked (403), so last_verified intentionally unchanged pending direct editor or publisher confirmation of current submissions."
