@@ -7,8 +7,14 @@ topics: [urban, sustainability, climate, geography]
 journal:
   name: "Cities"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/330273/the-challenge-of-transitioning-to-climate-neutral-cities-by-2030"
 sources:
+  - label: "Publisher's dedicated Cities climate-neutral 2030 CFP (403 to direct checker)"
+    url: "https://www.sciencedirect.com/special-issue/330273/the-challenge-of-transitioning-to-climate-neutral-cities-by-2030"
+    kind: publisher
+  - label: "Official ScienceDirect Development publisher index: 15 September 2026"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?subject=development"
+    kind: publisher
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
@@ -26,3 +32,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Publisher ScienceDirect Development CFP index currently corroborates 15 September 2026 for this exact title and guest editors; an archived call includes the dedicated issue URL. This date has elapsed. Direct publisher CFP returns HTTP 403, and there is no verifiable fresh extension; last_verified intentionally retained."
