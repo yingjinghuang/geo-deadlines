@@ -115,6 +115,12 @@ For map-ready physical events, reliable venue coordinates can be stored directly
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full data-entry workflow.
 
+## Data freshness and verification
+
+GeoDeadlines requires a complete, source-by-source audit during substantive dataset refreshes; partial updates are labeled as such. Old and rolling records are not automatically treated as closed. Official calls, recruiting portals and journal pages take precedence over third-party indexes. The `last_verified` field changes **only after an official source has actually been reviewed**.
+
+Run `npm run audit:freshness` for a full freshness report (position review target: 14 days, other entries: 30 days). A weekly GitHub Actions workflow keeps an issue tracking overdue checks; it does not claim to have verified sources automatically. See [CONTRIBUTING.md](CONTRIBUTING.md#mandatory-full-catalog-refresh-protocol) and the [per-entry audit checklist](docs/verification-audit-2026-10-16.md).
+
 ## Calendar feeds
 
 The deployment generates static iCalendar feeds for:
