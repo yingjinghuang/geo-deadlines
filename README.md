@@ -121,6 +121,10 @@ GeoDeadlines requires a complete, source-by-source audit during substantive data
 
 Run `npm run audit:freshness` for a full freshness report (position review target: 14 days, other entries: 30 days). A weekly GitHub Actions workflow keeps an issue tracking overdue checks; it does not claim to have verified sources automatically. See [CONTRIBUTING.md](CONTRIBUTING.md#mandatory-full-catalog-refresh-protocol) and the [per-entry audit checklist](docs/verification-audit-2026-10-16.md).
 
+## Live opportunities and archival verification
+
+The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **11** concluded recruitment postings, the **live YAML catalog contains 129 opportunities**, with **116** first-party certified and **13** evidence-limited special issue/conference records. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
+
 ## Calendar feeds
 
 The deployment generates static iCalendar feeds for:
