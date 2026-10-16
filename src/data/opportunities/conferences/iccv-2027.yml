@@ -11,7 +11,7 @@ topics:
   - geoai
   - spatial-computing
   - remote-sensing
-website: "https://www.thecvf.com/?page_id=100"
+website: "https://iccv.thecvf.com/Conferences/2027"
 sources:
   - label: "Official Computer Vision Foundation conference listing"
     url: "https://www.thecvf.com/?page_id=100"
@@ -19,19 +19,24 @@ sources:
   - label: "Official CVF announcement of upcoming sponsored conferences"
     url: "https://www.thecvf.com/?p=137"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official ICCV 2027 event page"
+    url: "https://iccv.thecvf.com/Conferences/2027"
+    kind: official
+last_verified: "2026-10-16"
 event:
-  start: "2027-10-02"
-  end: "2027-10-08"
+  start: "2027-10-03"
+  end: "2027-10-07"
 location:
   mode: in_person
   city: "Hong Kong"
   country: "Hong Kong"
   country_code: "HK"
+  venue: "Hong Kong Convention and Exhibition Centre"
 organizations:
   - "IEEE Computer Society"
   - "Computer Vision Foundation"
 deadlines:
+  # The official header says Oct 3–7; the same page also lists venue access Oct 2–8.
   - id: full-paper
     type: full_paper
     label: "Paper Submission"
