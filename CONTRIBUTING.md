@@ -14,6 +14,20 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 10. Run `npm run validate`, `npm run check`, `npm test`, and `npm run build`.
 11. Open a pull request and explain the source of the change.
 
+## Mandatory full-catalog refresh protocol
+
+A refresh is **complete only when every tracked opportunity has an item-by-item audit result**, including expired entries, rolling positions, TBD calls, and all four collections. Updating a subset is a **partial refresh** and must never be described as complete.
+
+1. At the start, run `npm run audit:freshness` and enumerate every `src/data/opportunities/**/*.yml` file. Do not quietly exclude already-expired records: they may have extended or reopened.
+2. For each entry, visit its official organizer, university hiring portal, or publisher call (not just a cached search result). Verify opening/closure, all submission/application milestones, deadline extensions, timezones, publication/event details, and continuing relevance.
+3. Record each entry as **verified unchanged**, **verified corrected**, **closed or archived**, or **unresolved** (access denied, no authoritative information, conflicting sources). Unresolved entries remain in the queue and retain their previous verification date.
+4. Only after actual source review, update `last_verified` to today's date, and fix deadlines and notes as necessary. Do not conflate an elapsed *review/priority date* with a hiring closure. A passed deadline is not proof that a search is closed.
+5. Continue with a separate discovery pass covering faculty recruiting sites, public PI/lab announcements and every journal in `src/data/journal-watchlist.yml`. New entries do not count as re-verification of existing entries.
+6. Publish the audit matrix/checklist, list every unresolved source, and report `reviewed / total`. No `138/138 verified` claim is permitted while any item is unresolved. Preserve history rather than deleting old calls.
+7. Validate the changed records and check GitHub Actions deployment before describing the refresh as finished.
+
+**Maintenance cadence**: positions should be source-reviewed at least every 14 days, other tracked opportunities at least every 30 days, and more frequently near critical deadlines. The scheduled [freshness workflow](.github/workflows/audit-freshness.yml) runs weekly, opens/updates a GitHub issue for stale entries, and never silently edits `last_verified`. The CLI report measures timestamp age only; it cannot certify official-page accuracy. A periodic audit is not a replacement for the full-catalog procedure on substantive refreshes.
+
 ## Active opportunity re-verification
 
 Every substantive GeoDeadlines refresh must re-check **all currently active tracked opportunities**, not only discover new ones. This applies to conferences, workshops, special issues, positions, and other deadline-bearing entries.
