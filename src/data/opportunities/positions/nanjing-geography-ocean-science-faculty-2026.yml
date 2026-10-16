@@ -17,7 +17,10 @@ sources:
   - label: "Official Nanjing University faculty recruitment announcement"
     url: "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20260715/i401813.html"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official Nanjing University live faculty vacancy index"
+    url: "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/index.html"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Nanjing"
@@ -35,4 +38,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The official announcement states that individual searches may be extended if too few applications are received."
+    note: "The live official Nanjing University faculty vacancy index still lists 15 October 2026 as deadline for School of Geography and Ocean Science and shows Apply Now, but that published date has elapsed. The announcement permits extensions if applicant numbers are low, without confirming any extension as of 16 October 2026. Do not imply that clicking Apply Now proves applications remain valid."
