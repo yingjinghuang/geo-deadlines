@@ -21,7 +21,7 @@ export function deriveOpportunity(
     nextDeadlineTimestamp,
     submissionStatus,
     urgency: urgencyFor(nextDeadlineTimestamp, now),
-    verificationStatus: verificationStatus(raw.last_verified, now),
+    verificationStatus: verificationStatus(raw.last_verified, now, raw.type),
   };
 }
 
