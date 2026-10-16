@@ -11,15 +11,21 @@ topics:
   - machine-learning
   - computer-vision
   - spatial-data-science
-website: "https://euraxess.ec.europa.eu/jobs/459719"
+website: "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt-jobs/2026/KZ160_SenSc_mDe.pdf"
 sources:
+  - label: "Official BOKU vacancy PDF, reference code 160, Aug 18 2026"
+    url: "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt-jobs/2026/KZ160_SenSc_mDe.pdf"
+    kind: official
+  - label: "BOKU statutory bulletin announcing reference code 160"
+    url: "https://boku.ac.at/mitteilungsblatt/mitteilungsblaetter-2025-26/23-stueck-18082026"
+    kind: official
   - label: "Official BOKU internal job board"
     url: "https://boku.ac.at/en/pers/interne-jobboerse"
     kind: official
   - label: "EURAXESS vacancy 459719"
     url: "https://euraxess.ec.europa.eu/jobs/459719"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Vienna"
@@ -37,3 +43,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    note: "Official BOKU recruiting PDF for reference code 160 explicitly states 6 October 2026 as the final application date, which has elapsed. Source remains live in the statutory bulletin (18 Aug 2026); no posted extension was established during the 16 October verification."
