@@ -18,7 +18,10 @@ sources:
   - label: "Official UT Austin Geography PhD deadline"
     url: "https://graduate.utexas.edu/644300"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official UT Austin Geography PhD admissions deadline"
+    url: "https://liberalarts.utexas.edu/geography/graduate-program/"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Austin"
@@ -37,4 +40,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official UT Austin Geography PhD deadline for Fall admission."
+    note: "UT Austin Geography departmental and graduate admissions pages both state December 15 for Fall admission. The PI recruitment page advertises Fall 2027 entrants; an older eligibility line on that page still says August 2026, so the department controls the application deadline."
