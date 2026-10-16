@@ -73,7 +73,7 @@ const positionCategory = resolvePositionCategory(data);
         {next && <a href={googleCalendarUrl(data, next, absoluteDetailUrl)} target="_blank" rel="noopener noreferrer">Google Calendar ↗</a>}
         <a href={detailUrl}>Details →</a>
       </div>
-      <VerificationBadge date={data.last_verified} status={item.verificationStatus} />
+      <VerificationBadge date={data.last_verified} status={item.verificationStatus} type={data.type} />
     </div>
   </div>
   <aside class="countdown-panel" aria-label={`Next submission deadline for ${data.title}`}>
