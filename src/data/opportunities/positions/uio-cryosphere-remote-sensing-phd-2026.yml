@@ -10,15 +10,18 @@ topics:
   - climate
   - geography
   - spatial-data-science
-website: "https://www.jobbnorge.no/ledige-stillinger/stilling/308026/phd-research-fellow-in-remote-sensing-of-the-cryosphere"
+website: "https://euraxess.ec.europa.eu/jobs/465613"
 sources:
+  - label: "Official EU EURAXESS university-issued vacancy 465613, explicit EXPIRED"
+    url: "https://euraxess.ec.europa.eu/jobs/465613"
+    kind: official
   - label: "Official University of Oslo / Jobbnorge vacancy"
     url: "https://www.jobbnorge.no/ledige-stillinger/stilling/308026/phd-research-fellow-in-remote-sensing-of-the-cryosphere"
     kind: official
   - label: "Jobbnorge official vacancy-distribution feed (historical deadline confirmation, not current application status)"
     url: "https://www.jobbnorge.no/apps/joblist/JobListBuilder.ashx?id=6a0a2a7b-c992-4fe5-87d6-8b1e7cf0e7cf"
     kind: official
-last_verified: "2026-09-11"
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Oslo"
@@ -31,9 +34,8 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-10-13"
-    precision: date
-    timezone: null
+    datetime: "2026-10-13T23:00:00+02:00"
+    timezone: "Europe/Oslo"
     status: active
     primary: true
-    note: "The original Jobbnorge vacancy 308026 is no longer directly accessible. A historical publisher-origin Jobbnorge jobs feed independently records 13 October 2026 as the advertised closing date. As of 16 October 2026 its live vacancy status or any extension cannot be directly established, so the prior last_verified timestamp is deliberately retained."
+    note: "CONFIRMED EXPIRED on 16 October 2026: the University of Oslo official university-issued EU EURAXESS job offer 465613 lists application cutoff 13 Oct 2026 at 23:00 Europe/Oslo (CEST), and explicitly says STATUS: EXPIRED. This is stronger and more precise than the broken original Jobbnorge URL. No active application remains via this dated vacancy."
