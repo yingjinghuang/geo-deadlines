@@ -10,6 +10,9 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/special-issue/331073/remote-sensing-of-leaf-traits-canopy-structure-ecosystem-function-and-services-in-honor-of-dr-jing-ming-chen"
 sources:
+  - label: "NASA JPL ECOSTRESS community digest explicitly lists 1 January 2027 and exact RSE issue"
+    url: "https://ecostress.jpl.nasa.gov/news/ecostress-april-may-community-updates-digest"
+    kind: official
   - label: "Official ScienceDirect call for papers"
     url: "https://www.sciencedirect.com/special-issue/331073/remote-sensing-of-leaf-traits-canopy-structure-ecosystem-function-and-services-in-honor-of-dr-jing-ming-chen"
     kind: publisher
@@ -31,3 +34,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "NASA JPL ECOSTRESS official community digest independently lists 1 January 2027 for this exact RSE special issue and links its dedicated CFP. This confirms the circulated original date, but the publisher detail is currently HTTP 403 and a subsequent extension cannot be excluded; do not advance last_verified until a current editor/publisher primary source is readable."
