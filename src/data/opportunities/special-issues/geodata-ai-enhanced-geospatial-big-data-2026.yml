@@ -29,3 +29,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "The dedicated Elsevier Geodata and AI special-issue URL identifies the call, but the publisher details return HTTP 403 and no directly accessible guest-editor statement independently establishes the originally tracked 30 September 2026 closing date or extension. Deadline has passed; do not treat the indexed original date as freshly verified."
