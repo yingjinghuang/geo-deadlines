@@ -8,8 +8,14 @@ journal:
   name: "Cities"
   short_name: "Cities"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
+website: "https://www.sciencedirect.com/special-issue/10WVXGKWM63"
 sources:
+  - label: "Dedicated publisher special issue landing page"
+    url: "https://www.sciencedirect.com/special-issue/10WVXGKWM63"
+    kind: publisher
+  - label: "Universidad Nacional de Colombia architectural faculty journal CFP list (historic 28 Feb 2026 cutoff)"
+    url: "https://old-arquitectura.medellin.unal.edu.co/escuelas/habitat/novedades/402-revistas-con-convocatorias-abiertas-para-publicar.html"
+    kind: announcement
   - label: "Official Elsevier Cities article within the Urban Regeneration and Mobility issue"
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0264275126001642"
     kind: publisher
@@ -19,7 +25,7 @@ sources:
   - label: "Official Cities call for papers page"
     url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
     kind: publisher
-last_verified: "2026-08-11"
+last_verified: "2026-10-16"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
@@ -28,4 +34,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Official Elsevier Cities published papers explicitly belong to Urban Regeneration and Mobility: Evolution and Policy, establishing that this special-issue collection is in publication. Independent historical tracker lists 28 February 2026, now passed, but the original publisher closing notice is not independently readable; avoid marking as newly verified or open."
+    note: "Rechecked 16 October 2026: Elsevier's dedicated Cities original special-issue page and published articles confirm the named issue and guest-editor team. An institutional CFP directory from Universidad Nacional de Colombia independently lists 28 February 2026, also reproduced by another historical CFP tracker. This is a corroborated historical deadline, already passed, not proof of an active call or of an unstated extension. Exact cutoff has not been retrievable from Elsevier detail, so cite the institution's original historical listing rather than implying a direct publisher cutoff confirmation."
