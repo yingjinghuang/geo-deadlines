@@ -2,9 +2,9 @@
 
 ## Current live-catalog baseline (after pruning)
 
-- **129** opportunities remain in `src/data/opportunities/` (previously 140).
-- **45** position records remain (previously 56).
-- **116/129** of the remaining records were certified under the strict direct primary-source standard during the completed 16 October full-source audit; **13/129** are still source-limited or disputed. The 11 deleted vacancies consisted of 8 previously certified records and 3 previously unresolved records.
+- **125** opportunities remain in `src/data/opportunities/` (previously 140).
+- **41** position records remain (previously 56).
+- **112/125** of the remaining records were certified under the strict direct primary-source standard during the completed 16 October full-source audit; **13/129** are still source-limited or disputed. The 15 deleted vacancies consisted of 12 previously certified records and 3 previously unresolved records.
 - The original [140-entry review inventory](verification-audit-2026-10-16.md) and the [19-entry final source disposition](final-disposition-of-19-remaining-records-2026-10-16.md) are **historical snapshots**, not the current live dataset counts. Deleted YAMLs remain retrievable in [commit 660954f4](https://github.com/yingjinghuang/geo-deadlines/tree/660954f450a98d94534d0c581e65da5cd6584ad1/src/data/opportunities/positions).
 
 ## User-requested policy: remove concluded recruitments from live cards
@@ -20,7 +20,7 @@ Positions with an employer/applicant portal explicitly declaring **closed**, **e
 
 This position-only live-catalog cleanup does not authorize deleting old journal special issues or conference history. Retain historical CFP and conference records under their existing verification rules.
 
-## Deleted recruitment YAMLs
+## Deleted recruitment YAMLs (15 total)
 
 | Deleted path (historical file) | Employer evidence / reason |
 |---|---|
@@ -35,6 +35,11 @@ This position-only live-catalog cleanup does not authorize deleting old journal 
 | [UC Berkeley Geography faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/berkeley-global-environmental-change-assistant-professor-2026.yml) | [Berkeley AP Recruit JPF05449](https://aprecruit.berkeley.edu/JPF05449) explicitly calls Oct 2 the **final date**, and the requisition no longer appears on [current open recruitment](https://aprecruit.berkeley.edu/apply). |
 | [Guelph GeoAI faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/guelph-geoai-assistant-professor-2026.yml) | [University of Guelph HR portal](https://uoguelph.jobs.hr.cloud.sap/job/Guelph-Assistant-Professor-in-GeoAI-ON-N1G-2W1/1290970347/) explicitly says posting closed and no more applications accepted. |
 | [Cranfield Remote Sensing AI research fellow](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/cranfield-remote-sensing-ai-research-fellow-2026.yml) | [Cranfield official vacancy](https://jobs.cranfield.ac.uk/vacancy/research-fellow-in-remote-sensing-and-ai-618071.html) explicitly unavailable, with employer-advertised hard 17 Sep 2026 deadline. |
+
+| [USF GIScience faculty](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) | [USF School of Geosciences official recruitment site](https://www.usf.edu/arts-sciences/departments/geosciences/about/employment-opportunities.aspx) explicitly says **No open positions at this time** for faculty and postdocs. The 7 Jan date was only initial review; closure is confirmed by employer. |
+| [Loughborough Physical Geography professor](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml) | [Official Loughborough vacancy REQ260551](https://vacancies.lboro.ac.uk/tlive_webrecruitment/wrd/run/ETREC107GF.open?VACANCY_ID=856500fFUB%26WVID=5913100PrZ) advertises firm **22 Sep 2026** closing, with no extension; independent [closed-status source](https://openworldlab.org/job/professor-of-physical-geography-loughbor-g4h0b37zwf) confirms no longer accepting. |
+| [BOKU Geomatics Senior Scientist](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml) | [Employer's original statutory vacancy PDF](https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt-jobs/2026/KZ160_SenSc_mDe.pdf) specifies a hard **6 Oct 2026** final application date; no employer-issued extension identified. Statutory historical publication is not an open applicant system. |
+| [TU Berlin BIFOLD EO AI postdoc](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml) | [Current official TU Berlin advert IV-329/26](https://www.jobs.tu-berlin.de/stellenausschreibungen/207457?language=en) clearly gives **14 Oct 2026** as its final application deadline. It remains readable as vacancy history but has no advertised current extension. |
 
 ## Remaining source-limited queue (13 live records)
 
