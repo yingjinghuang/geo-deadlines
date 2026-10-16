@@ -1,6 +1,6 @@
 # GeoDeadlines full-source re-verification checklist — 2026-10-16
 
-> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **129 entries: 116 strictly verified and 13 source-limited** after **11** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
+> **Historical audit snapshot:** This report describes the original **140-entry** dataset before the 16 October concluded-recruitment cleanup. The current live catalog has **125 entries: 112 strictly verified and 13 source-limited** after **15** closed recruitment records were removed. Original entries are retained in Git history; see [active-catalog maintenance report](active-catalog-maintenance-2026-10-16.md). All original audit conclusions below remain the results as recorded for the earlier 140-entry snapshot.
 
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
@@ -111,7 +111,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 
 - [x] [ait-satellite-remote-sensing-infrastructure-phd-2026.yml](../src/data/opportunities/positions/ait-satellite-remote-sensing-infrastructure-phd-2026.yml) — official source reviewed
 - [x] [berkeley-global-environmental-change-assistant-professor-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/berkeley-global-environmental-change-assistant-professor-2026.yml) — official source reviewed
-- [x] [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](../src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml)
+- [x] [boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/boku-geomatics-remote-sensing-ml-senior-scientist-2026.yml)
 - [ ] [cambridge-polar-studies-assistant-professor-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/cambridge-polar-studies-assistant-professor-2026.yml)
 - [x] [colgate-climate-science-geography-assistant-professor-2026.yml](../src/data/opportunities/positions/colgate-climate-science-geography-assistant-professor-2026.yml)
 - [x] [cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml) — official source reviewed
@@ -124,7 +124,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [hkust-gz-3d-gis-cim-ai-recruitment-2026.yml](../src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml)
 - [x] [iowa-geoai-spatial-data-science-phd-2026.yml](../src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml)
 - [x] [ista-mountain-water-cryosphere-postdoc-2026.yml](../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml)
-- [x] [loughborough-physical-geography-professor-2026.yml](../src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
+- [x] [loughborough-physical-geography-professor-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/loughborough-physical-geography-professor-2026.yml)
 - [x] [maastricht-urban-regional-modelling-faculty-2026.yml](../src/data/opportunities/positions/maastricht-urban-regional-modelling-faculty-2026.yml) — official source reviewed
 - [x] [max-planck-quantitative-past-urban-studies-phd-2026.yml](../src/data/opportunities/positions/max-planck-quantitative-past-urban-studies-phd-2026.yml)
 - [x] [mcgill-geography-health-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml)
@@ -141,7 +141,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml) — official source reviewed
 - [x] [stanford-climate-science-assistant-professor-2026.yml](../src/data/opportunities/positions/stanford-climate-science-assistant-professor-2026.yml) — official source reviewed
 - [x] [ttu-earth-observation-ai-phd-2026.yml](../src/data/opportunities/positions/ttu-earth-observation-ai-phd-2026.yml)
-- [x] [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](../src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml)
+- [x] [tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/tu-berlin-bifold-eo-ai-agents-postdoc-2026.yml)
 - [x] [uci-hydrology-remote-sensing-postdoc-2026.yml](../src/data/opportunities/positions/uci-hydrology-remote-sensing-postdoc-2026.yml)
 - [x] [uclouvain-physical-environment-climate-geography-academic-2026.yml](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml)
 - [x] [uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml](../src/data/opportunities/positions/uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml) — official source reviewed
@@ -158,7 +158,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [uottawa-urban-sustainability-assistant-professor-2026.yml](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml)
 - [x] [usask-gig-cities-geoai-urban-heat-phd-2026.yml](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml)
 - [x] [usc-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml) — official source checked in this pass
-- [x] [usf-giscience-assistant-professor-2026.yml](../src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
+- [x] [usf-giscience-assistant-professor-2026.yml](https://github.com/yingjinghuang/geo-deadlines/blob/660954f4/src/data/opportunities/positions/usf-giscience-assistant-professor-2026.yml) — official source reviewed
 - [x] [ut-austin-geoai-phd-2026.yml](../src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml)
 - [x] [utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml](../src/data/opportunities/positions/utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml)
 - [x] [utrecht-ai-urban-redesign-health-postdoc-2026.yml](../src/data/opportunities/positions/utrecht-ai-urban-redesign-health-postdoc-2026.yml)
