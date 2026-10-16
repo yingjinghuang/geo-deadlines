@@ -23,7 +23,7 @@ sources:
   - label: "Official WACV 2027 call for papers"
     url: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-01-04"
   end: "2027-01-08"
@@ -67,9 +67,10 @@ deadlines:
   - id: notification
     type: notification
     label: "Final Decisions"
-    datetime: "2026-10-09T23:59:00-12:00"
+    datetime: "2026-10-14T23:59:00-12:00"
     timezone: "AoE"
     status: active
+    note: "Official WACV 2027 Dates page currently lists October 14 for both rounds' final decisions, but the official CFP, Author Guides, and conference home still list October 9. Treat the newer date-page value as provisional pending organizer reconciliation."
   - id: camera-ready
     type: camera_ready
     label: "Camera Ready"
