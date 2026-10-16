@@ -9,12 +9,15 @@ topics:
   - earth-observation
   - spatial-data-science
   - climate
-website: "https://www.geo.uzh.ch/en/services/open-positions/"
+website: "https://jobs.uzh.ch/job-vacancies/postdoctoral-researcher-microwave-remote-sensing-for-water-systems-research/b4b2496a-582d-499e-9bad-11e4c7305cf7"
 sources:
   - label: "Official UZH Department of Geography open positions"
     url: "https://www.geo.uzh.ch/en/services/open-positions/"
     kind: official
-last_verified: "2026-10-03"
+  - label: "Official UZH live job detail and extended application deadline"
+    url: "https://jobs.uzh.ch/job-vacancies/postdoctoral-researcher-microwave-remote-sensing-for-water-systems-research/b4b2496a-582d-499e-9bad-11e4c7305cf7"
+    kind: official
+last_verified: "2026-10-16"
 location:
   mode: in_person
   city: "Zurich"
@@ -28,8 +31,9 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-09-30"
+    datetime: "2026-11-15"
     precision: date
     timezone: null
     status: active
     primary: true
+    note: "The current official university vacancy explicitly gives 15 November 2026; supersedes the previously stored 30 September date. Start February 2027."
