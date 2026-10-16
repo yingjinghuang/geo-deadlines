@@ -10,6 +10,12 @@ journal:
   publisher: "Elsevier"
 website: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
 sources:
+  - label: "Official Elsevier Cities published article in the titled Spatial Governance special issue"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0264275126000065"
+    kind: publisher
+  - label: "Historical special-issue announcement records 31 December 2025"
+    url: "https://www.linkedin.com/posts/zuhriddin-juraev-7ab4aa273_cities-activity-7313468605575090180-F-0v"
+    kind: announcement
   - label: "Official Cities call for papers page"
     url: "https://www.sciencedirect.com/journal/cities/about/call-for-papers"
     kind: publisher
@@ -22,3 +28,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "The published Cities article explicitly belongs to the Spatial Governance of Urban Agglomeration special issue; a dated research-community CFP records 31 December 2025. That has long passed, but the original publisher CFP is blocked, so a later formal extension/correction cannot be confirmed and the historical verification timestamp remains."
