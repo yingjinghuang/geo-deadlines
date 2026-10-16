@@ -1,0 +1,29 @@
+title: "Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation"
+type: special_issue
+year: 2027
+description: "A Geo-spatial Information Science special issue on spatiotemporal foundation models and intelligent Earth-observation applications."
+scope: core
+topics: [geoai, giscience, remote-sensing, earth-observation, machine-learning]
+journal:
+  name: "Geo-spatial Information Science"
+  publisher: "Taylor & Francis"
+website: "https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/"
+sources:
+  - label: "Official Taylor & Francis special issue call"
+    url: "https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/"
+    kind: publisher
+last_verified: "2026-10-16"
+guest_editors:
+  - name: "Deren Li"
+  - name: "Bo Du"
+  - name: "Antonio J. Plaza"
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: "Manuscript"
+    datetime: "2027-03-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Publisher specifies a calendar date only; no exact submission time or timezone is stated."
