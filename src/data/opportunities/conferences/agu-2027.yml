@@ -16,7 +16,7 @@ sources:
   - label: "Official AGU27 meeting page"
     url: "https://www.agu.org/meetings/all-meetings/agu27"
     kind: official
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 event:
   start: "2027-12-13"
   end: "2027-12-17"
@@ -36,4 +36,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "AGU says abstract submissions will open in June 2027 and close in August 2027; the exact deadline has not yet been announced."
+    note: "Official AGU27 page: call for sessions/workshops/town halls opens March and closes April 2027; abstracts open June and close August 2027. Exact submission deadlines are not announced."
