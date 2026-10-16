@@ -2,11 +2,19 @@
 
 This is a **per-entry audit inventory**, not a certification that every entry has been verified. Only tick an entry after opening its current official organizer/employer/publisher source and confirming its deadline and status. A failed or blocked source must remain unchecked; do not bulk-rewrite `last_verified`.
 
-Current baseline: 139 opportunities. Entries checked in the current pass: 119; awaiting individual official-source verification: 20.
+Current baseline: 140 opportunities. Entries checked in the current pass: 121; awaiting individual official-source verification: 19.
 
 Audit update: 2026-10-16. Latest review added 22 existing opportunities and one new verified SAGE special issue. Corrected UZH microwave remote sensing postdoc deadline (2026-09-30 → 2026-11-15), ISTA cryosphere postdoc (2026-09-30 → 2026-10-09), and clarified Wiley TGIS healthcare issue after the dedicated publisher CFP confirmed 2026-12-31.  The first seven checks were recorded in the earlier pass; later checks have been appended following direct inspection of organizer/university/publisher pages. **A checkbox means review of an available official source, not necessarily confirmation that a call is still open.**
 
 Verification improvements in this pass: the UI now marks positions needing re-review after 14 days and other entries after 30 days, recalculating in the viewer's browser. Official university vacancy pages confirm that both tracked University of Vienna positions no longer accept applications. IJGI LLM4GIS manuscript deadline corrected from 31 August to 31 December 2026.
+
+## Focused current-source audit — 16 October 2026 (121/140)
+
+- **Sustainable Cities and Society — AI-Empowered Wellbeing (2026)**: [lead guest editor Lauren Andres's first-person call](https://www.linkedin.com/posts/lauren-andres-a58a02381_sustainable-cities-and-society-activity-7447894456961294336-Aw86) is directly accessible, states the exact special issue title and coeditors Li Tian/Helen Pineo, actively invites contributions, and explicitly confirms **31 December 2026**. Official original editor source now set as the canonical link, `last_verified` advanced, and the entry marked checked.
+- **NEW NUS Urban Analytics Lab Research Assistant, GeoAI/GIS/Urban Flood Resilience**: the [original PI/lab job notice](https://ual.sg/opportunities/ads/2026-ra/) dated 4 October explicitly confirms **20 October 2026** as the final day (four days from this audit), Singapore campus, one-year appointment, January 2027 anticipated start, and submission through NUS Careers. Added new verified record with source and no invented cutoff hour. Note that NUS Careers does not supply a deep-link requisition URL on the lab page, and the lab's vacancies index is inconsistently indexed, so readers should use the original notice/NUS portal to confirm application availability.
+- **RSE Geospatial Foundation Models special issue — IMPORTANT CORRECTION**: guest editor [Qiusheng Wu's call](https://www.linkedin.com/posts/giswqs_remotesensing-earthobservation-foundationmodels-activity-7425528504055922688-TSYw), [initiator Zhe Zhu's call](https://www.linkedin.com/posts/zhe-zhu-765bb821_remote-sensing-of-environment-activity-7425378010075258880-lX5I), and [NASA JPL's original editorial circulation](https://ecostress.jpl.nasa.gov/news/ecostress-april-may-community-updates-digest) independently give **30 June 2026**. The catalog previously displayed **31 December** based on an unsubstantiated apparent publisher-index extension; no accessible specific publisher/editor notice confirms such an extension. **Restored the verifiable June 30 historical cutoff** (passed), included a warning, and **retained the old `last_verified` / pending status** pending current publisher confirmation. In particular do not confuse this RSE special issue with an unrelated *Journal of Remote Sensing* foundation-model call whose published 31 December deadline refers to a different journal.
+- **Information Geography Multimodal GeoAI**: recovered first-person calls by guest editors [Levente Juhász](https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI) and [Hao Li](https://www.linkedin.com/posts/hao-li-340868154_callforpaper-informationgeography-geoai-activity-7480626379328237569-obDd). They confirm active solicitation and the editor team; Levente notes APC support. The **1 April 2027** cutoff appears in publisher indexed search, but no directly opened guest-editor page confirms the deadline, so this record deliberately stays pending without a `last_verified` bump.
+- The rest of the direct Elsevier CFP pages continue to reject access; cached publisher-index results and unaffiliated reposts are logged as corroborating evidence, **not newly completed authoritative reviews**.
 
 ## Additional original-editor recheck — 16 October 2026 (119/139)
 
@@ -41,7 +49,7 @@ Verification improvements in this pass: the UI now marks positions needing re-re
 - The official ScienceDirect search index corroborates deadline dates for several remaining special issues, but direct publisher detail pages are HTTP 403; **do not convert search snippets into `last_verified` certification**.
 
 
-- **119 of 139** opportunities individually reviewed, **20** still pending authoritative source confirmation.
+- **121 of 140** opportunities individually reviewed, **19** still pending authoritative source confirmation.
 - Queen's University Belfast Physical Geography Lecturer posting explicitly reports the vacancy **closed**; the original 14 September deadline is retained as historical fact.
 - Texas Tech Prof. Jiangtao Liu and University of Saskatchewan GIG-Cities Lab currently explicitly advertise funded/graduate recruitment without a fixed closing date; their `last_verified` values were updated only after direct institutional-page checks.
 - Taylor & Francis's live official **IJGIS Critical Challenges in GeoAI** CFP confirms 1 August (abstract) and 1 December 2026 (full manuscript).
@@ -112,6 +120,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [x] [mit-senseable-dubai-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml)
 - [x] [mit-senseable-seoul-postdoc-2026.yml](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml)
 - [x] [nanjing-geography-ocean-science-faculty-2026.yml](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml)
+- [x] [nus-urban-flood-resilience-geoai-research-assistant-2026.yml](../src/data/opportunities/positions/nus-urban-flood-resilience-geoai-research-assistant-2026.yml) — newly discovered original NUS laboratory announcement, 20 October deadline
 - [ ] [ntnu-ai-climate-risk-urban-planning-phd-2026.yml](../src/data/opportunities/positions/ntnu-ai-climate-risk-urban-planning-phd-2026.yml)
 - [x] [polyu-geoai-climate-urban-research-assistant-professor-2026.yml](../src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml)
 - [x] [polyu-gift-geospatial-transport-phd-2026.yml](../src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml)
@@ -178,7 +187,7 @@ Verification checks: official URL reachable; opportunity still open/closed; subm
 - [ ] [rse-leaf-traits-ecosystem-function-2027.yml](../src/data/opportunities/special-issues/rse-leaf-traits-ecosystem-function-2027.yml)
 - [x] [scientific-reports-geospatial-data-science-2027.yml](../src/data/opportunities/special-issues/scientific-reports-geospatial-data-science-2027.yml)
 - [ ] [scs-heat-resilience-health-equity-2027.yml](../src/data/opportunities/special-issues/scs-heat-resilience-health-equity-2027.yml)
-- [ ] [scs-sustainability-health-equity-ai-wellbeing-2026.yml](../src/data/opportunities/special-issues/scs-sustainability-health-equity-ai-wellbeing-2026.yml)
+- [x] [scs-sustainability-health-equity-ai-wellbeing-2026.yml](../src/data/opportunities/special-issues/scs-sustainability-health-equity-ai-wellbeing-2026.yml)
 - [x] [tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml](../src/data/opportunities/special-issues/tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml)
 - [x] [tgis-ethical-explainable-geoai-2026.yml](../src/data/opportunities/special-issues/tgis-ethical-explainable-geoai-2026.yml)
 - [x] [tgis-geohazard-technologies-2026.yml](../src/data/opportunities/special-issues/tgis-geohazard-technologies-2026.yml)
