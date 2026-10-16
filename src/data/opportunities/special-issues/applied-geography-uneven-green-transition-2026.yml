@@ -7,13 +7,19 @@ topics: [geography, sustainability, climate, spatial-data-science]
 journal:
   name: "Applied Geography"
   publisher: "Elsevier"
-website: "https://www.sciencedirect.com/journal/applied-geography/about/call-for-papers"
+website: "https://www.linkedin.com/posts/andr%C3%A9s-rodr%C3%ADguez-pose-814a45a_geography-green-transition-activity-7441388127480463360-CzlL"
 sources:
   - label: "Official ScienceDirect calls for papers"
     url: "https://www.sciencedirect.com/browse/calls-for-papers"
     kind: publisher
+  - label: "Publisher official ScienceDirect indexed CFP (15 September 2026 conflicts with editor)"
+    url: "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR"
+    kind: publisher
   - label: "Guest editor call announcement"
     url: "https://www.linkedin.com/posts/andr%C3%A9s-rodr%C3%ADguez-pose-814a45a_geography-green-transition-activity-7441388127480463360-CzlL"
+    kind: announcement
+  - label: "Co-editor Alexandra Sandu confirms abstracts due 30 May 2026"
+    url: "https://www.linkedin.com/posts/alexandra-sandu-447ab5270_sharing-a-new-special-issue-in-%3F%3F%3F%3F%3F-activity-7441486183605374976--PyJ"
     kind: announcement
 last_verified: "2026-10-03"
 guest_editors:
@@ -22,6 +28,14 @@ guest_editors:
   - name: "Maria Tsouri"
   - name: "Gabriela Carmen Pascariu"
 deadlines:
+  - id: long-abstract
+    type: abstract
+    label: "Long Abstract (Pre-screening)"
+    datetime: "2026-05-30"
+    precision: date
+    timezone: null
+    status: active
+    note: "Guest editors required a long abstract emailed to Dr Alexandra Sandu by 30 May 2026. The initial stage has passed; full-paper invitations were reserved for selected abstracts. No new general submission is established."
   - id: manuscript
     type: special_issue_manuscript
     label: "Manuscript"
@@ -29,4 +43,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Guest-editor announcements consistently give 30 November 2026 as the full-paper deadline. The original ScienceDirect special-issue URL is currently unavailable, so this correction is based on those named-editor announcements rather than a live publisher call page."
+    note: "UNRESOLVED OFFICIAL CONFLICT as of 16 October 2026: directly accessible co-editor Andrés Rodríguez-Pose's original announcement says long-abstract screening 30 May and invited full papers by 30 November 2026, but a more recent publisher ScienceDirect indexed CFP explicitly lists 15 September 2026 for this same titled special issue. Publisher live CFP is 403. The displayed 30 November date is the guest-editor invitation-stage date, NOT a reliable guarantee that new manuscripts are still accepted. Ask editors/publisher before submitting."
