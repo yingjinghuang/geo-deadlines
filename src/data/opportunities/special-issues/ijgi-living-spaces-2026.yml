@@ -18,7 +18,10 @@ sources:
   - label: "Official special issue page"
     url: "https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS"
     kind: publisher
-last_verified: "2026-10-16"
+  - label: "Official IJGI live special issue index, explicitly lists title, editors, current submission status and deadline"
+    url: "https://www.mdpi.com/journal/ijgi/special_issues"
+    kind: publisher
+last_verified: "2026-10-25"
 guest_editors:
   - name: "Ivana Ivánová"
   - name: "Yongze Song"
