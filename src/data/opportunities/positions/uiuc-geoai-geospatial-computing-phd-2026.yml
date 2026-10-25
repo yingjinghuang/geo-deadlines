@@ -12,7 +12,7 @@ topics:
   - geography
   - urban
   - machine-learning
-website: "https://geocompsoc.web.illinois.edu/"
+website: "https://geocompsoc.web.illinois.edu/opportunities/"
 sources:
   - label: "Yue Lin recruiting announcement for Fall 2027 GeoAI PhD"
     url: "https://www.linkedin.com/posts/yue-lin-9536b019b_the-geospatial-computing-and-society-lab-activity-7479654533305094144-idSt"
@@ -23,7 +23,10 @@ sources:
   - label: "Official Illinois GGIS PhD Fall 2027 application calendar"
     url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
     kind: official
-last_verified: "2026-10-16"
+  - label: "Current original PI lab recruitment page"
+    url: "https://geocompsoc.web.illinois.edu/opportunities/"
+    kind: official
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Urbana-Champaign"
@@ -42,4 +45,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The PI recruiting announcement asks prospective students to contact the lab; the official GGIS graduate application deadline for Fall 2027 is December 15, 2026."
+    note: "Rechecked 25 October 2026: original lab Opportunities page invites GeoAI PhD applicants and university GGIS department confirms Fall 2027 application deadline of 15 December 2026. No cutoff hour is published."
