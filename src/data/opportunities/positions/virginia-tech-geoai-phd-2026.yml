@@ -22,7 +22,7 @@ sources:
   - label: "Official Virginia Tech Geography graduate admission requirements"
     url: "https://geography.vt.edu/academics/gea/geo-admission-req.html"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Blacksburg"
@@ -41,4 +41,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "PI directly advertises funded PhD recruitment for Fall 2027; Virginia Tech Geography and Graduate School specify 15 January as priority deadline for funding consideration, not the final university application date."
+    note: "Rechecked 25 October 2026: PI Fangzheng Lyu explicitly advertises fully funded Fall 2027 GeoAI PhD opportunities on his live faculty website. Virginia Tech Geography department lists Jan 15 for admission materials; do not treat this date as a confirmed final deadline for the specific RA position."
