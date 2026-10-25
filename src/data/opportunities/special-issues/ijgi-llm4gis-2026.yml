@@ -18,7 +18,10 @@ sources:
   - label: "Official special issue page"
     url: "https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ"
     kind: publisher
-last_verified: "2026-10-16"
+  - label: "Official IJGI live special issue index, explicitly lists title, editors, current submission status and deadline"
+    url: "https://www.mdpi.com/journal/ijgi/special_issues"
+    kind: publisher
+last_verified: "2026-10-25"
 guest_editors:
   - name: "Huayi Wu"
     affiliation: "Wuhan University"
