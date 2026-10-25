@@ -21,7 +21,7 @@ sources:
   - label: "Varuni Jayasooriya recruiting announcement for Winter 2027"
     url: "https://www.linkedin.com/posts/varuni-jayasooriya-00233667_phdposition-fullyfundedphd-geoai-activity-7493498237882880000-j2eB"
     kind: announcement
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Saskatoon"
@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The University of Saskatchewan GIG-Cities Lab official recruiting page currently invites MSc and PhD applicants in GeoAI, spatiotemporal mining, GIS, computer vision and urban digital twins. A separate PI recruitment announcement specifies Winter 2027 entry; the official lab page gives no fixed closing date, so do not invent one."
+    note: "Rechecked 25 October 2026: original university GIG-Cities Lab recruitment page still directly invites MSc and PhD applicants in GeoAI and urban systems. The original PI announcement mentions Winter 2027, but the lab has not published a fixed closing date. Timing of individual project availability is not independently guaranteed."
