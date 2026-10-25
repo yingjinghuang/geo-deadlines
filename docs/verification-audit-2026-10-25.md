@@ -7,7 +7,7 @@
 - **Baseline:** 125 YAML opportunity entries, generally last reviewed on 16 October 2026; two special issues still dated 11 August 2026.
 - **After confirmed closure cleanup:** **123** live entries (two deleted closed research jobs, originals retained in Git history).
 - **Official-source review refreshed today:** **91/123** have `last_verified: "2026-10-25"`; this certifies **source review performed** and retained date evidence, **not** that every submission remains open.
-- **Reviewed but still unresolved/stale:** **32/123** retain older `last_verified` values: **11 positions, 2 conferences, 19 special issues**. Of these, 32 date to 16 October; 2 to 11 August.
+- **Reviewed but still unresolved/stale:** **32/123** retain older `last_verified` values: **11 positions, 2 conferences, 19 special issues**. Of these, 30 date to 16 October; 2 to 11 August.
 - **Other type:** 1 workshop (GeoAI'26), checked against the original ORNL organizer page on 25 October.
 - **Policy:** a record is stale if last reviewed **more than 3 days ago** for **all** opportunity types. Daily GitHub Actions writes the stale issue; it **does not auto-advance** verification dates.
 
