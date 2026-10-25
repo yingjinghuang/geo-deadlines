@@ -6,8 +6,8 @@
 
 - **Baseline:** 125 YAML opportunity entries, generally last reviewed on 16 October 2026; two special issues still dated 11 August 2026.
 - **After confirmed closure cleanup:** **123** live entries (two deleted closed research jobs, originals retained in Git history).
-- **Official-source review refreshed today:** **89/123** have `last_verified: "2026-10-25"`; this certifies **source review performed** and retained date evidence, **not** that every submission remains open.
-- **Reviewed but still unresolved/stale:** **34/123** retain older `last_verified` values: **12 positions, 3 conferences, 19 special issues**. Of these, 32 date to 16 October; 2 to 11 August.
+- **Official-source review refreshed today:** **91/123** have `last_verified: "2026-10-25"`; this certifies **source review performed** and retained date evidence, **not** that every submission remains open.
+- **Reviewed but still unresolved/stale:** **32/123** retain older `last_verified` values: **11 positions, 2 conferences, 19 special issues**. Of these, 32 date to 16 October; 2 to 11 August.
 - **Other type:** 1 workshop (GeoAI'26), checked against the original ORNL organizer page on 25 October.
 - **Policy:** a record is stale if last reviewed **more than 3 days ago** for **all** opportunity types. Daily GitHub Actions writes the stale issue; it **does not auto-advance** verification dates.
 
@@ -22,34 +22,37 @@
 7. Rechecked two historical CEUS CFPs against the original editors' pages: [Open Urban Data Science](https://ual.sg/post/2025/05/16/call-for-papers-open-urban-data-science/) (31 May 2026) and [Digital Twins and AI for Healthy and Sustainable Cities](https://www.nickmalleson.co.uk/2025/04/CEUS-SI-DT_AI.html) (30 Nov 2025).
 8. Confirmed ongoing explicitly listed recruitment directly on the original PI pages for HKUST(GZ) 3D GIS and Texas Tech AI/EO PhD.
 
+## Two additional direct checks
+
+- ISTA cryosphere postdoc was refreshed to 25 October because the employer still shows the exact position among current openings despite its 9 October historical application deadline. The original old date remains; applying late is not guaranteed.
+- ICC 2027 was refreshed to 25 October after checking official host conference materials. The previously recorded 20 November full-paper and 1 December abstract deadlines remain.
+
 ## Pending official-source verification
 
 These were **examined**, but no fresh authoritative conclusion could be reached today. The stale signal must remain visible.
 
-### Positions — 12 pending
+### Positions — 11 pending
 
 | # | YAML record | Why date was **not** advanced |
 |---|---|---|
 | 1 | [`hku-physical-geography-ai-assistant-professor-2026`](../src/data/opportunities/positions/hku-physical-geography-ai-assistant-professor-2026.yml) | Official HKU portal lists 30 Sep as closing but still renders Apply now and review-until-filled text; live application eligibility ambiguous. |
-| 2 | [`ista-mountain-water-cryosphere-postdoc-2026`](../src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml) | 9 Oct cutoff elapsed; employer job detail remains available without current open/closed confirmation. |
-| 3 | [`mcgill-geography-health-sustainability-assistant-professor-2026`](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml) | 16 Oct official cutoff passed; McGill Workday live vacancy status not independently retrievable. |
-| 4 | [`mit-senseable-seoul-postdoc-2026`](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml) | Project home page does not directly establish current named postdoc intake/status. |
-| 5 | [`nanjing-geography-ocean-science-faculty-2026`](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml) | Original Nanjing recruitment notice resolves unreliably to general vacancies; current posting status unclear. |
-| 6 | [`uclouvain-physical-environment-climate-geography-academic-2026`](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml) | Generic employer openings index does not establish the exact position's current status. |
-| 7 | [`uiuc-geoai-geospatial-computing-phd-2026`](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml) | Lab PI original recruitment page is intermittently inaccessible; cannot establish renewed call. |
-| 8 | [`umd-coastal-geomorphology-remote-sensing-phd-2026`](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml) | Faculty biography is not direct current evidence that this specific PhD place is recruiting. |
-| 9 | [`umd-satellite-remote-sensing-research-position-2026`](../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml) | Original ESSIC employer posting fails; 30 Sep historical date alone not evidence of active/closed state. |
-| 10 | [`uottawa-urban-sustainability-assistant-professor-2026`](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml) | Official Workday vacancy not reliably retrievable; 16 Oct prior cutoff elapsed. |
-| 11 | [`usask-gig-cities-geoai-urban-heat-phd-2026`](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml) | Original lab page identifies the lab but not the specific PhD opening. |
-| 12 | [`virginia-tech-geoai-phd-2026`](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml) | PI and GeoCompute Lab websites confirm research but no present direct PhD recruitment notice. |
+| 2 | [`mcgill-geography-health-sustainability-assistant-professor-2026`](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml) | 16 Oct official cutoff passed; McGill Workday live vacancy status not independently retrievable. |
+| 3 | [`mit-senseable-seoul-postdoc-2026`](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml) | Project home page does not directly establish current named postdoc intake/status. |
+| 4 | [`nanjing-geography-ocean-science-faculty-2026`](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml) | Original Nanjing recruitment notice resolves unreliably to general vacancies; current posting status unclear. |
+| 5 | [`uclouvain-physical-environment-climate-geography-academic-2026`](../src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml) | Generic employer openings index does not establish the exact position's current status. |
+| 6 | [`uiuc-geoai-geospatial-computing-phd-2026`](../src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml) | Lab PI original recruitment page is intermittently inaccessible; cannot establish renewed call. |
+| 7 | [`umd-coastal-geomorphology-remote-sensing-phd-2026`](../src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml) | Faculty biography is not direct current evidence that this specific PhD place is recruiting. |
+| 8 | [`umd-satellite-remote-sensing-research-position-2026`](../src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml) | Original ESSIC employer posting fails; 30 Sep historical date alone not evidence of active/closed state. |
+| 9 | [`uottawa-urban-sustainability-assistant-professor-2026`](../src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml) | Official Workday vacancy not reliably retrievable; 16 Oct prior cutoff elapsed. |
+| 10 | [`usask-gig-cities-geoai-urban-heat-phd-2026`](../src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml) | Original lab page identifies the lab but not the specific PhD opening. |
+| 11 | [`virginia-tech-geoai-phd-2026`](../src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml) | PI and GeoCompute Lab websites confirm research but no present direct PhD recruitment notice. |
 
-### Conferences — 3 pending
+### Conferences — 2 pending
 
 | # | YAML record | Why date was **not** advanced |
 |---|---|---|
 | 1 | [`geoai-2028`](../src/data/opportunities/conferences/geoai-2028.yml) | Organizer announcement establishes future conference but no directly readable current CFP/deadline. |
-| 2 | [`icc-2027`](../src/data/opportunities/conferences/icc-2027.yml) | Host site is intermittently HTTP 502; official search index reproduces 20 Nov paper/1 Dec abstract dates but live detail was not independently opened. |
-| 3 | [`wacv-2027`](../src/data/opportunities/conferences/wacv-2027.yml) | Official Dates page says 14 Oct decisions; official Author Guides/CFP say 9 Oct. Unresolved organizer contradiction. |
+| 2 | [`wacv-2027`](../src/data/opportunities/conferences/wacv-2027.yml) | Official Dates page says 14 Oct decisions; official Author Guides/CFP say 9 Oct. Unresolved organizer contradiction. |
 
 ### Special issues — 19 pending
 
