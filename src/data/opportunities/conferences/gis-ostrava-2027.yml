@@ -1,0 +1,58 @@
+title: "GIS Ostrava 2027"
+short_name: "GIS Ostrava 2027"
+type: conference
+series: "GIS Ostrava"
+year: 2027
+description: "Biennial Czech geoinformatics conference at VSB–Technical University of Ostrava, featuring GIS infrastructures, cloud GIS, Digital Earth, digital twins, geospatial AI and remote sensing. The host university states that the conference is conducted in Czech."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - cartography
+  - remote-sensing
+website: "https://gisak.vsb.cz/gisostrava/?lang=en"
+sources:
+  - label: "Official GIS Ostrava 2027 important dates"
+    url: "https://gisak.vsb.cz/gisostrava/dulezita-data?lang=en"
+    kind: official
+  - label: "Host university official announcement and language information"
+    url: "https://www.vsb.cz/en/news-detail/?reportId=52651"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-03-03"
+  end: "2027-03-04"
+location:
+  mode: in_person
+  city: "Ostrava"
+  country: "Czech Republic"
+  country_code: "CZ"
+  venue: "VSB–Technical University of Ostrava, University Auditorium"
+organizations:
+  - "VSB–Technical University of Ostrava"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract / Workshop Proposal"
+    datetime: "2026-12-11"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The host university describes the meeting as Czech-language. Submission-language eligibility should be checked with organizers before preparing an English-only abstract."
+  - id: reviewed-paper
+    type: full_paper
+    label: "Reviewed Paper (Conditional)"
+    datetime: "2027-01-15"
+    precision: date
+    timezone: null
+    status: active
+    note: "For accepted abstract authors seeking peer review; not a standalone initial paper-call deadline."
+  - id: acceptance
+    type: notification
+    label: "Abstract / Workshop Acceptance"
+    datetime: "2027-01-07"
+    precision: date
+    timezone: null
+    status: active
