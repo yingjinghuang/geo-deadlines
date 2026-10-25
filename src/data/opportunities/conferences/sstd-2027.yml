@@ -1,0 +1,53 @@
+title: "20th International Symposium on Spatial and Temporal Data"
+short_name: "SSTD 2027"
+type: conference
+series: "International Symposium on Spatial and Temporal Data"
+year: 2027
+description: "Established ACM-published research symposium covering spatial and temporal databases, geospatial computing, spatiotemporal analytics, data management and AI. Two paper submission rounds have been announced; the exact August 2027 meeting dates remain TBD."
+scope: core
+topics:
+  - spatial-databases
+  - spatial-computing
+  - spatial-data-science
+  - giscience
+  - geoai
+website: "https://sstdconf27.github.io/"
+sources:
+  - label: "Official SSTD 2027 homepage and CFP timetable (updated 24 October 2026)"
+    url: "https://sstdconf27.github.io/"
+    kind: official
+last_verified: "2026-10-25"
+location:
+  mode: in_person
+  city: "Raleigh"
+  country: "United States"
+  country_code: "US"
+  venue: "North Carolina State University"
+organizations:
+  - "North Carolina State University"
+deadlines:
+  - id: round-1-abstract
+    type: abstract
+    label: "Round 1 Abstract Registration"
+    datetime: "2026-11-29T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    primary: true
+  - id: round-1-paper
+    type: full_paper
+    label: "Round 1 Full Paper"
+    datetime: "2026-12-06T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: round-2-abstract
+    type: abstract
+    label: "Round 2 Abstract Registration"
+    datetime: "2027-04-04T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+  - id: round-2-paper
+    type: full_paper
+    label: "Round 2 Full Paper"
+    datetime: "2027-04-11T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
