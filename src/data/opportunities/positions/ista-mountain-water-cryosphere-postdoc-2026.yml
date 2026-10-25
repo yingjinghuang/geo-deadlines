@@ -15,7 +15,7 @@ sources:
   - label: "Official ISTA vacancy"
     url: "https://ista.ac.at/en/job/postdoc-research-group-pellicciotti/"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Klosterneuburg"
@@ -33,4 +33,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official ISTA vacancy page displays 09/10/2026 as the application deadline (Austrian day/month convention: 9 October 2026). The previous 30 September deadline was incorrect; this advertised date has passed. The page still shows a contact email but does not confirm a reopening."
+    note: "Official ISTA vacancy page displays 09/10/2026 as the application deadline (Austrian day/month convention: 9 October 2026). The previous 30 September deadline was incorrect; this advertised date has passed. Rechecked 25 October 2026: despite that past deadline, ISTA still lists this exact Pellicciotti postdoc under current Open Positions and the original job page still displays APPLY NOW with a recruitment email. Thus retain the position; direct confirmation of late applications is not available. Do not imply a new deadline."
