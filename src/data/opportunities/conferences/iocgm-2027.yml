@@ -1,0 +1,54 @@
+title: "1st International Online Conference on Geomatics"
+short_name: "IOCGM 2027"
+type: conference
+series: "International Online Conference on Geomatics"
+year: 2027
+description: "Open-access virtual Geomatics conference organized by the MDPI journal Geomatics, with tracks on remote sensing, 3D geospatial data, GeoAI, spatial analytics and geospatial infrastructure."
+scope: adjacent
+topics:
+  - giscience
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - spatial-data-science
+website: "https://sciforum.net/event/IOCGM2027"
+submission_url: "https://sciforum.net/event/IOCGM2027"
+sources:
+  - label: "Official Sciforum IOCGM 2027 event, CFP and live submission status"
+    url: "https://sciforum.net/event/IOCGM2027"
+    kind: official
+  - label: "MDPI Geomatics official conference announcement"
+    url: "https://www.mdpi.com/journal/geomatics/news-and-conferences/news/16476"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-03-17"
+  end: "2027-03-18"
+location:
+  mode: virtual
+organizations:
+  - "MDPI Geomatics"
+deadlines:
+  - id: abstract
+    type: abstract
+    label: "Abstract Submission"
+    datetime: "2026-11-20"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The Sciforum organizers confirm that abstract submission is currently open. This is an online meeting, not an in-person proceedings conference."
+  - id: acceptance
+    type: notification
+    label: "Abstract Acceptance"
+    datetime: "2026-12-18"
+    precision: date
+    timezone: null
+    status: active
+  - id: registration
+    type: registration
+    label: "Registration"
+    datetime: "2027-03-11"
+    precision: date
+    timezone: null
+    status: active
