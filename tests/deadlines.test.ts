@@ -70,10 +70,12 @@ describe('time calculations', () => {
 
   it('classifies verification freshness', () => {
     const checkNow = Date.parse('2027-07-20T00:00:00Z');
-    expect(verificationStatus('2027-07-10', checkNow)).toBe('verified');
-    expect(verificationStatus('2027-06-27', checkNow)).toBe('aging');
-    expect(verificationStatus('2027-06-01', checkNow)).toBe('stale');
-    expect(verificationStatus('2027-07-10', checkNow, 'position')).toBe('aging');
-    expect(verificationStatus('2027-07-01', checkNow, 'position')).toBe('stale');
+    // All opportunity types now require source re-verification after 3 days.
+    expect(verificationStatus('2027-07-20', checkNow)).toBe('verified');
+    expect(verificationStatus('2027-07-18', checkNow)).toBe('verified');
+    expect(verificationStatus('2027-07-17', checkNow)).toBe('aging');
+    expect(verificationStatus('2027-07-16', checkNow)).toBe('stale');
+    expect(verificationStatus('2027-07-17', checkNow, 'position')).toBe('aging');
+    expect(verificationStatus('2027-07-16', checkNow, 'position')).toBe('stale');
   });
 });
