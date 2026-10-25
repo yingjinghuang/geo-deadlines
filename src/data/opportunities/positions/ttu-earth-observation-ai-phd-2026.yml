@@ -19,7 +19,10 @@ sources:
   - label: "Public recruiting announcement for Spring and Fall 2027"
     url: "https://www.linkedin.com/posts/arshad-rauf-phd-a2844367_ttu-recruitment-activity-7500448770980216832-mBdz"
     kind: announcement
-last_verified: "2026-10-16"
+  - label: "Original PI recruitment announcement, Spring/Fall 2027"
+    url: "https://jayhydro.github.io/"
+    kind: official
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Lubbock"
