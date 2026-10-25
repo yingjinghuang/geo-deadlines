@@ -21,7 +21,7 @@ sources:
   - label: "Official Wiley current Transactions in GIS CFP index"
     url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
     kind: publisher
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
