@@ -34,7 +34,7 @@ A refresh is **complete only when every tracked opportunity has an item-by-item 
 6. Publish the audit matrix/checklist, list every unresolved source, and report `reviewed / total`. No `138/138 verified` claim is permitted while any item is unresolved. Preserve history rather than deleting old calls.
 7. Validate the changed records and check GitHub Actions deployment before describing the refresh as finished.
 
-**Maintenance cadence**: positions should be source-reviewed at least every 14 days, other tracked opportunities at least every 30 days, and more frequently near critical deadlines. The scheduled [freshness workflow](.github/workflows/audit-freshness.yml) runs weekly, opens/updates a GitHub issue for stale entries, and never silently edits `last_verified`. The CLI report measures timestamp age only; it cannot certify official-page accuracy. A periodic audit is not a replacement for the full-catalog procedure on substantive refreshes.
+**Maintenance cadence**: all types should be source-reviewed at least every 3 days, with additional checks near critical deadlines. The scheduled [freshness workflow](.github/workflows/audit-freshness.yml) runs daily, opens/updates a GitHub issue for stale entries, and never silently edits `last_verified`. The CLI report measures timestamp age only; it cannot certify official-page accuracy. A periodic audit is not a replacement for the full-catalog procedure on substantive refreshes.
 
 ## Evidence sufficiency for deadline rechecks
 
