@@ -20,7 +20,7 @@ sources:
   - label: "Current official Utrecht University jobs index"
     url: "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Utrecht"
