@@ -21,7 +21,7 @@ sources:
   - label: "Official UMD Geography doctoral admissions for Fall 2027"
     url: "https://geog.umd.edu/graduate/prospective-phd-students"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "College Park"
@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The current UMD Graduate Catalog lists December 15, 2026 for both domestic and international Fall applicants."
+    note: "Rechecked 25 October 2026: UMD Geographical Sciences prospective PhD page explicitly lists 15 December 2026 for Fall entry, and Dr Danghan Xie\u0027s original faculty profile invites interested students to reach out. No time-of-day specified."
