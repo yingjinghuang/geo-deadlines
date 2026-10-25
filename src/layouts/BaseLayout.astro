@@ -39,6 +39,13 @@ const imageUrl = new URL(image.replace(/^\//, ''), new URL(base, Astro.site)).to
     <meta property="og:image" content={imageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
+    <!-- Analytics loads only on this GeoDeadlines site's pages, not the separate root homepage. -->
+    <script
+      is:inline
+      type="module"
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token":"3951dcb7629b43fb8d6fcf7bc568fe43"}'
+    ></script>
     <slot name="head" />
   </head>
   <body>
