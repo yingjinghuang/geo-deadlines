@@ -1,0 +1,49 @@
+title: "20th International Conference on Computational Urban Planning and Urban Management"
+short_name: "CUPUM 2027"
+type: conference
+series: "International Conference on Computational Urban Planning and Urban Management"
+year: 2027
+description: "UNSW Sydney-hosted conference on Future Cities in the Era of AI, including urban computing, street-view computer vision, urban analytics, planning support, geodesign, mobility and digital twins. The organizer labels its submission dates indicative, not final."
+scope: core
+topics:
+  - urban
+  - geoai
+  - spatial-data-science
+  - mobility
+  - computer-vision
+  - sustainability
+website: "https://conference.unsw.edu.au/en/cupum-2027/call-for-submissions"
+sources:
+  - label: "Official UNSW Sydney CUPUM 2027 call and provisional key dates"
+    url: "https://conference.unsw.edu.au/en/cupum-2027/call-for-submissions"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-07-05"
+  end: "2027-07-10"
+location:
+  mode: in_person
+  city: "Sydney"
+  country: "Australia"
+  country_code: "AU"
+  venue: "University of New South Wales"
+organizations:
+  - "UNSW Sydney City Futures Research Centre"
+deadlines:
+  - id: paper-poster
+    type: short_paper
+    label: "Conference Paper / Poster Submission (Provisional)"
+    datetime: "2027-02-12"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Organizer expressly calls all schedule dates indicative and subject to confirmation. Conference papers are 1,500-2,000-word extended abstracts; posters use 250-word abstracts. Book-chapter submissions require an already-passed abstract stage and are not open new submissions."
+  - id: revised-paper
+    type: camera_ready
+    label: "Revised Papers / Full Digital Posters (Provisional)"
+    datetime: "2027-06-18"
+    precision: date
+    timezone: null
+    status: active
+    note: "This is the provisional revised-material deadline, not the initial conference submission deadline."
