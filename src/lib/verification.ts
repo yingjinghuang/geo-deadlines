@@ -1,10 +1,10 @@
 import type { OpportunityType } from './types';
 
 export const MAX_VERIFICATION_AGE_DAYS: Record<OpportunityType, number> = {
-  position: 14,
-  conference: 30,
-  workshop: 30,
-  special_issue: 30,
+  position: 3,
+  conference: 3,
+  workshop: 3,
+  special_issue: 3,
 };
 
 export function verificationAge(lastVerified: string, now = Date.now()): number {
