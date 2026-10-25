@@ -55,6 +55,9 @@ for (const file of files) {
   if (seenIds.has(id)) fail(id, 'duplicate generated ID');
   seenIds.add(id);
   if (!data.title || !['conference', 'special_issue', 'workshop', 'position'].includes(data.type)) fail(id, 'title and a valid type are required');
+  if ((data.type === 'conference' || data.type === 'workshop') && !data.short_name?.trim()) {
+    fail(id, 'conferences and workshops require short_name for consistent acronym/full-name display');
+  }
   if (!Number.isInteger(data.year) || data.year < 2000 || data.year > 2100) fail(id, 'year is outside 2000–2100');
   const venueYear = `${data.series ?? data.title}|${data.year}|${data.type}`.toLowerCase();
   if (seenVenueYears.has(venueYear)) fail(id, 'possible duplicate venue/year');
