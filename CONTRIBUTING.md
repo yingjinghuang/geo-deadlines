@@ -5,6 +5,7 @@ Thank you for improving GeoDeadlines. Accurate sources and honest precision matt
 1. Fork the repository and create a branch.
 2. Add or edit a YAML file under `src/data/opportunities/`.
 3. Use a lowercase filename slug such as `venue-name-2027.yml`.
+   - **Conference and workshop naming:** always supply both `short_name` (the recognized acronym + year, e.g. `SSTD 2027`) and `title` (the full official event name, e.g. `International Symposium on Spatial and Temporal Data`). The list/detail/map UI displays both. A branded name with no distinct acronym (e.g. `Geo Week 2027`) may use the same value for both; the UI avoids repeating it. Do not invent an acronym or expand an organizer's proper name inaccurately. Avoid using only the acronym as `title`.
 4. Use topic IDs from `src/data/topics.yml`.
 5. If the official source gives an exact time and timezone, store an ISO 8601 datetime with an explicit offset. Store AoE as `23:59:00-12:00`.
 6. If the official source gives only a calendar date, do **not** invent a time or timezone. Store `datetime: "YYYY-MM-DD"`, `precision: date`, and `timezone: null`.
