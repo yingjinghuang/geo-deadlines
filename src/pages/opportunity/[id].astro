@@ -9,6 +9,7 @@ import TopicBadge from '../../components/TopicBadge.astro';
 import VerificationBadge from '../../components/VerificationBadge.astro';
 import FavoriteButton from '../../components/FavoriteButton.astro';
 import { deriveOpportunity } from '../../lib/opportunity';
+import { displayName } from '../../lib/display-name';
 import { futureSubmissionDeadlines, formatOriginalDeadline } from '../../lib/deadlines';
 import { googleCalendarUrl } from '../../lib/calendar';
 import { topics } from '../../lib/data';
@@ -24,6 +25,7 @@ interface Props { entry: CollectionEntry<'opportunities'> }
 const { entry } = Astro.props as Props;
 const item = deriveOpportunity(entry);
 const data = item.raw as OpportunityData;
+const name = displayName(data);
 const next = futureSubmissionDeadlines(data.deadlines).find((deadline) => deadline.primary) ?? futureSubmissionDeadlines(data.deadlines)[0];
 const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id);
 const typeFolder = data.type === 'conference' ? 'conferences' : data.type === 'special_issue' ? 'special-issues' : data.type === 'position' ? 'positions' : 'workshops';
@@ -34,16 +36,17 @@ const reportBody = encodeURIComponent(`Opportunity ID: ${item.id}\nCurrent displ
 const detailPath = `opportunity/${item.id}/`;
 const absoluteDetail = new URL(detailPath, new URL(import.meta.env.BASE_URL, Astro.site)).toString();
 const calendarEvents = next ? [{ id: `${item.id}-${next.id}`, title: `${data.short_name ?? data.title} — ${next.label} Deadline`, start: next.datetime, precision: next.precision ?? 'datetime', timezone: next.timezone, source: next.url ?? data.website, detail: absoluteDetail }] : [];
-const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-time conversion, and official links for ${data.title}.`;
+const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-time conversion, and official links for ${name.combined}.`;
 ---
-<BaseLayout title={`${data.title} Deadline — GeoDeadlines`} description={description} canonicalPath={detailPath}>
+<BaseLayout title={`${name.combined} Deadline — GeoDeadlines`} description={description} canonicalPath={detailPath}>
   <main class="page-main">
     <div class="container detail-shell" data-opportunity-card data-id={item.id} data-calendar-events={JSON.stringify(calendarEvents)}>
       <nav class="breadcrumbs" aria-label="Breadcrumb"><a href={withBase()}>Deadlines</a><span>/</span><span>{data.short_name ?? data.title}</span></nav>
       <section class="detail-hero surface">
         <div class="hero-copy">
-          <div class="hero-top"><OpportunityBadge type={data.type} scope={data.scope} /><FavoriteButton id={item.id} title={data.title} /></div>
-          <h1>{data.title}</h1>
+          <div class="hero-top"><OpportunityBadge type={data.type} scope={data.scope} /><FavoriteButton id={item.id} title={name.combined} /></div>
+          <h1>{name.primary}</h1>
+          {name.fullName && <p class="conference-full-name">{name.fullName}</p>}
           {data.journal && <p class="venue-name">{data.journal.name}</p>}
           {data.parent && <p class="venue-name">Part of <a href={data.parent.url} target="_blank" rel="noopener noreferrer">{data.parent.name}</a></p>}
           <p class="hero-description">{data.description}</p>
@@ -96,6 +99,7 @@ const description = `${next ? `${next.label} deadline, ` : ''}timeline, local-ti
   .hero-copy { padding: 30px; }
   .hero-top { display: flex; align-items: center; justify-content: space-between; }
   h1 { max-width: 720px; margin: 9px 0 2px; font-size: clamp(1.8rem, 4vw, 2.65rem); line-height: 1.08; letter-spacing: -.045em; }
+  .conference-full-name { max-width: 710px; margin: 6px 0 12px; color: var(--text-2); font-size: clamp(1.02rem, 2vw, 1.25rem); line-height: 1.36; font-weight: 550; }
   .venue-name { margin: 5px 0; color: var(--text-2); font-weight: 700; }
   .hero-description { max-width: 670px; margin: 14px 0; color: var(--text-2); }
   .topic-list, .hero-actions { display: flex; flex-wrap: wrap; gap: 7px; }
