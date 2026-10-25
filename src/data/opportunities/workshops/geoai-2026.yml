@@ -15,7 +15,7 @@ sources:
   - label: "Official GeoAI'26 call for papers"
     url: "https://events.ornl.gov/acmsigspatial-geoai2026/"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 parent:
   name: "ACM SIGSPATIAL 2026"
   url: "https://sigspatial2026.sigspatial.org/"
