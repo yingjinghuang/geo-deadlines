@@ -1,0 +1,36 @@
+title: "Geographic Information Science Research UK 2027"
+short_name: "GISRUK 2027"
+type: conference
+series: "Geographic Information Science Research UK"
+year: 2027
+description: "Established GIScience Research UK annual meeting, officially announced for the week of 12 April 2027 at the University of Nottingham. Exact conference days and the call for papers have not yet been announced."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - geography
+  - geovisualization
+website: "https://gisruk.org/gisruk-2027/"
+sources:
+  - label: "Official GISRUK 2027 host, week and forthcoming CFP announcement"
+    url: "https://gisruk.org/gisruk-2027/"
+    kind: official
+last_verified: "2026-10-25"
+location:
+  mode: in_person
+  city: "Nottingham"
+  country: "United Kingdom"
+  country_code: "GB"
+  venue: "University of Nottingham"
+organizations:
+  - "University of Nottingham"
+deadlines:
+  - id: paper
+    type: paper
+    label: "Paper Submission"
+    datetime: TBD
+    timezone: null
+    status: active
+    primary: true
+    note: "The official GISRUK series has announced its 2027 host and conference week only. Do not invent the precise meeting dates or a paper-submission deadline before the organizer publishes the CFP."
