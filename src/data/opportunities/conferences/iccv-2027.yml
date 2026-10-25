@@ -22,7 +22,7 @@ sources:
   - label: "Official ICCV 2027 event page"
     url: "https://iccv.thecvf.com/Conferences/2027"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 event:
   start: "2027-10-03"
   end: "2027-10-07"
