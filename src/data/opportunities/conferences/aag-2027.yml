@@ -20,7 +20,7 @@ sources:
   - label: "Official AAG 2027 submission portal"
     url: "https://aag.secure-platform.com/aag2027/"
     kind: official
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 event:
   start: "2027-02-08"
   end: "2027-02-12"
@@ -36,12 +36,12 @@ deadlines:
   - id: abstract
     type: abstract
     label: "Abstract Submission"
-    datetime: "2026-10-15"
+    datetime: "2026-10-22"
     precision: date
     timezone: null
     status: active
     primary: true
-    note: "The official annual-meeting page gives the date but does not state an exact submission time."
+    note: "RECHECKED 25 October 2026: official AAG page explicitly says abstract deadline EXTENDED from 15 October to 22 October; now passed. A specific cutoff hour or timezone is not published."
   - id: session-organizing
     type: other
     label: "Session Organizing"
@@ -49,14 +49,6 @@ deadlines:
     precision: date
     timezone: null
     status: active
-  - id: panelist
-    type: other
-    label: "Panelist Submission"
-    datetime: "2026-12-17"
-    precision: date
-    timezone: null
-    status: active
-    note: "Panelists must already have agreed to participate in a specific organized panel."
   - id: abstract-session-editing
     type: revision
     label: "Abstract / Session Editing"
