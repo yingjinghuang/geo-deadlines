@@ -1,0 +1,63 @@
+title: "18th Joint Urban Remote Sensing Event"
+short_name: "JURSE 2027"
+type: conference
+series: "Joint Urban Remote Sensing Event"
+year: 2027
+description: "Biennial international conference dedicated to urban remote sensing, Earth observation, machine learning, urban climate and sustainable-city applications, jointly organized by Vrije Universiteit Amsterdam and University of Twente ITC."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - urban
+  - geoai
+  - computer-vision
+website: "https://www.jurse2027.org/"
+sources:
+  - label: "Official JURSE 2027 important dates"
+    url: "https://www.jurse2027.org/important-dates/"
+    kind: official
+  - label: "JURSE conference series and 2027 announcement"
+    url: "https://jurse.org/"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-06-30"
+  end: "2027-07-02"
+location:
+  mode: in_person
+  city: "Amsterdam"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Vrije Universiteit Amsterdam"
+  - "University of Twente, Faculty ITC"
+deadlines:
+  - id: paper
+    type: full_paper
+    label: "Paper Submission"
+    datetime: "2026-11-17"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+  - id: notification
+    type: notification
+    label: "Acceptance Notification"
+    datetime: "2027-02-02"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Final Accepted Paper"
+    datetime: "2027-03-22"
+    precision: date
+    timezone: null
+    status: active
+  - id: author-registration
+    type: registration
+    label: "Accepted Paper Registration"
+    datetime: "2027-03-22"
+    precision: date
+    timezone: null
+    status: active
