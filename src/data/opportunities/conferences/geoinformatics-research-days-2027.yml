@@ -1,0 +1,60 @@
+title: "Geoinformatics Research Days 2027"
+short_name: "GRD 2027"
+type: conference
+series: "Geoinformatics Research Days"
+year: 2027
+description: "Annual geoinformatics research gathering hosted by the University of Helsinki and the Finnish University Network for Geoinformatics, open to international researchers, with GIScience, GeoAI, remote sensing, mobility and geovisualization sessions."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - remote-sensing
+  - urban
+  - geovisualization
+website: "https://geoinformaticsdays.geoportti.fi/en/latest/"
+sources:
+  - label: "Official Geoinformatics Research Days 2027 submission and session CFP"
+    url: "https://geoinformaticsdays.geoportti.fi/en/latest/pages/submissions.html"
+    kind: official
+  - label: "Official 2027 event details and timetable"
+    url: "https://geoinformaticsdays.geoportti.fi/en/latest/"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-05-10"
+  end: "2027-05-12"
+location:
+  mode: in_person
+  city: "Helsinki"
+  country: "Finland"
+  country_code: "FI"
+  venue: "University of Helsinki, City Centre Campus"
+organizations:
+  - "University of Helsinki"
+  - "Finnish University Network for Geoinformatics (FIUGINET)"
+deadlines:
+  - id: session-proposal
+    type: other
+    label: "Session / Workshop Proposal"
+    datetime: "2026-11-27"
+    precision: date
+    timezone: null
+    status: active
+    note: "Session proposal portal was announced as opening soon when reviewed."
+  - id: abstract
+    type: abstract
+    label: "Presentation Abstract"
+    datetime: "2027-02-08"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "300-word abstract; organizer says submission opens on 9 December 2026."
+  - id: abstract-notification
+    type: notification
+    label: "Abstract Acceptance"
+    datetime: "2027-03-08"
+    precision: date
+    timezone: null
+    status: active
