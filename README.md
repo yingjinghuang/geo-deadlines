@@ -119,11 +119,11 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full data-entry workflow.
 
 GeoDeadlines requires a complete, source-by-source audit during substantive dataset refreshes; partial updates are labeled as such. Old and rolling records are not automatically treated as closed. Official calls, recruiting portals and journal pages take precedence over third-party indexes. The `last_verified` field changes **only after an official source has actually been reviewed**.
 
-Run `npm run audit:freshness` for a full freshness report (position review target: 14 days, other entries: 30 days). A weekly GitHub Actions workflow keeps an issue tracking overdue checks; it does not claim to have verified sources automatically. See [CONTRIBUTING.md](CONTRIBUTING.md#mandatory-full-catalog-refresh-protocol) and the [per-entry audit checklist](docs/verification-audit-2026-10-16.md).
+Run `npm run audit:freshness` for a full freshness report (source-review target: 3 days for all entry types). A daily GitHub Actions workflow updates an issue tracking overdue checks; it does not claim to have verified sources automatically. See [CONTRIBUTING.md](CONTRIBUTING.md#mandatory-full-catalog-refresh-protocol) and the [per-entry audit checklist](docs/verification-audit-2026-10-16.md).
 
 ## Live opportunities and archival verification
 
-The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **15** concluded recruitment postings, the **live YAML catalog contains 125 opportunities**, with **121** source-supported dates and **4** documented source caveats. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md) and [evidence-based follow-up](docs/evidence-followup-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
+The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) originally examined **140** items. Following the explicit removal of **15** concluded recruitment postings, the **live YAML catalog contains 123 opportunities**, with **121** source-supported dates and **4** documented source caveats. Positions confirmed closed are removed from current cards, with their source history preserved in Git and the [closed-recruitment maintenance log](docs/active-catalog-maintenance-2026-10-16.md) and [evidence-based follow-up](docs/evidence-followup-2026-10-16.md). **First-review / priority consideration** dates are not treated as final closure dates when an official job remains open until filled.
 
 ## Calendar feeds
 
