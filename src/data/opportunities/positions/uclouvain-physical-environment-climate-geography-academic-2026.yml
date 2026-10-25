@@ -8,12 +8,15 @@ scope: adjacent
 topics:
   - geography
   - climate
-website: "https://uclouvain.be/en/research-institutes/eli/open-positions"
+website: "https://jobs.uclouvain.be/PersonnelAcademique/job/An-academic-in-Geography-of-the-physical-environment-and-the-climate/1433567833/"
 sources:
   - label: "Official UCLouvain Earth and Life Institute jobs page"
     url: "https://uclouvain.be/en/research-institutes/eli/open-positions"
     kind: official
-last_verified: "2026-10-16"
+  - label: "Direct official university recruitment page, post 38632 / SC 041 / 2027"
+    url: "https://jobs.uclouvain.be/PersonnelAcademique/job/An-academic-in-Geography-of-the-physical-environment-and-the-climate/1433567833/"
+    kind: official
+last_verified: "2026-10-25"
 location:
   mode: in_person
   city: "Louvain-la-Neuve"
@@ -27,9 +30,8 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-11-05"
-    precision: date
-    timezone: null
+    datetime: "2026-11-05T12:00:00+01:00"
+    timezone: "CET"
     status: active
     primary: true
-    note: "Official UCLouvain Institute listings still show this role with apply-before November 5, 2026 and expected start September 1, 2027."
+    note: "Reverified 25 October 2026 against original university recruitment posting: hard application deadline 5 November 2026 at 12:00 noon UTC+1; expected start September 1, 2027. Unlike the earlier date-only record, the exact cutoff time is explicitly published."
