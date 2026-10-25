@@ -69,6 +69,13 @@ if (root && window.L) {
     title.textContent = point.shortName || point.title;
     card.append(title);
 
+    if (point.shortName && point.shortName.trim().toLocaleLowerCase('en') !== point.title.trim().toLocaleLowerCase('en')) {
+      const fullName = document.createElement('p');
+      fullName.className = 'map-popup-full-name';
+      fullName.textContent = point.title;
+      card.append(fullName);
+    }
+
     if (point.eventStart) {
       const dates = document.createElement('p');
       dates.className = 'map-popup-meta';
