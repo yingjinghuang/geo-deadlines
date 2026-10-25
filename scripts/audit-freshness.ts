@@ -43,7 +43,7 @@ const columns = ['Type', 'Entry', 'Last checked (days ago)', 'Official/primary U
 console.log('# GeoDeadlines source freshness report');
 console.log('');
 console.log('Generated: ' + today + ' UTC. Source timestamps are documentary, not automated proof of an open call.');
-console.log('Expected maximum age: positions **14 days**, all other opportunity types **30 days**.');
+console.log('Expected maximum age: **3 days for every opportunity type**.');
 console.log('Every substantive data refresh requires **all entries** to be individually reviewed against official sources.');
 console.log('');
 console.log('Total: **' + rows.length + '**; overdue: **' + overdue.length + '**; within cadence: **' + (rows.length - overdue.length) + '**.');
