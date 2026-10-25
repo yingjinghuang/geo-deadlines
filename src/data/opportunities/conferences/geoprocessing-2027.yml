@@ -1,0 +1,55 @@
+title: "19th International Conference on Advanced Geographic Information Systems, Applications, and Services"
+short_name: "GEOProcessing 2027"
+type: conference
+series: "GEOProcessing"
+year: 2027
+description: "IARIA-organized GIS and geospatial services conference focusing on geographic information systems, geospatial data management, spatial data processing and related applications; co-located with DigitalWorld 2027."
+scope: adjacent
+topics:
+  - giscience
+  - spatial-databases
+  - spatial-data-science
+  - geovisualization
+website: "https://www.iaria.org/conferences2027/GEOProcessing27.html"
+sources:
+  - label: "Official IARIA GEOProcessing 2027 event and deadlines"
+    url: "https://www.iaria.org/conferences2027/GEOProcessing27.html"
+    kind: official
+  - label: "Official IARIA 2027 detailed call for papers"
+    url: "https://www.iaria.org/conferences2027/CfPGEOProcessing27.html"
+    kind: official
+last_verified: "2026-10-25"
+event:
+  start: "2027-04-18"
+  end: "2027-04-22"
+location:
+  mode: in_person
+  city: "Lisbon"
+  country: "Portugal"
+  country_code: "PT"
+organizations:
+  - "International Academy, Research, and Industry Association (IARIA)"
+deadlines:
+  - id: submission
+    type: full_paper
+    label: "Paper Submission"
+    datetime: "2026-12-28"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official regular-track deadline; the organizer says special tracks may have different dates."
+  - id: notification
+    type: notification
+    label: "Acceptance Notification"
+    datetime: "2027-02-24"
+    precision: date
+    timezone: null
+    status: active
+  - id: camera-ready
+    type: camera_ready
+    label: "Camera Ready"
+    datetime: "2027-03-14"
+    precision: date
+    timezone: null
+    status: active
