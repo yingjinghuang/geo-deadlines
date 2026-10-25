@@ -16,7 +16,7 @@ sources:
   - label: "Official special issue call"
     url: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/special-issue/10034BF66D1"
     kind: publisher
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
