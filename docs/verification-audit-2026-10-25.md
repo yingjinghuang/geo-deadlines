@@ -15,20 +15,20 @@
 
 1. Removed NUS Urban Flood GeoAI Research Assistant after original lab marked it no longer accepting applications (commit `e41951160b4fae71639de0e59e959f189574e99c`).
 2. Removed HKU Tenure-Track Assistant Professor in Physical Geography (536999) after the official recruitment portal confirmed closure following 30 September, despite cached Apply now text (commit `5ad609ebe799`).
-3. Removed Utrecht AI-driven Urban (Re)Design postdoc after official page went 404 following the final cutoff and no job appeared on the Utrecht live vacancies page (commit `4b256ebc488d78eff986e4ba5dfc12a92f5dee66`).
-3. Corrected Cal Poly Pomona UAS/GIS assistant professor first-consideration from 15 Oct to **31 Oct 2026**. This is a **priority review**, not the final closure.
-4. Corrected AAG 2027 abstract deadline from 15 Oct to **22 Oct 2026** after the organizers announced the extension; removed unsupported separate panelist deadline.
-5. Rechecked AGILE 2027 against the [organizer CFP](https://agile-gi.eu/conference-2027/call-for-papers-2027) and its [important-dates graphic](https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates.png): full paper 10 Jan, short paper/poster 12 Feb 2027.
-6. Rechecked GeoAI'26 against [ORNL CFP](https://events.ornl.gov/acmsigspatial-geoai2026/): 21 Aug original paper, 18 Sep notification, 4 Oct camera ready, 3 Nov workshop.
-7. Rechecked two historical CEUS CFPs against the original editors' pages: [Open Urban Data Science](https://ual.sg/post/2025/05/16/call-for-papers-open-urban-data-science/) (31 May 2026) and [Digital Twins and AI for Healthy and Sustainable Cities](https://www.nickmalleson.co.uk/2025/04/CEUS-SI-DT_AI.html) (30 Nov 2025).
-8. Confirmed ongoing explicitly listed recruitment directly on the original PI pages for HKUST(GZ) 3D GIS and Texas Tech AI/EO PhD.
+4. Removed Utrecht AI-driven Urban (Re)Design postdoc after official page went 404 following the final cutoff and no job appeared on the Utrecht live vacancies page (commit `4b256ebc488d78eff986e4ba5dfc12a92f5dee66`).
+5. Corrected Cal Poly Pomona UAS/GIS assistant professor first-consideration from 15 Oct to **31 Oct 2026**. This is a **priority review**, not the final closure.
+6. Corrected AAG 2027 abstract deadline from 15 Oct to **22 Oct 2026** after the organizers announced the extension; removed unsupported separate panelist deadline.
+7. Rechecked AGILE 2027 against the [organizer CFP](https://agile-gi.eu/conference-2027/call-for-papers-2027) and its [important-dates graphic](https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates.png): full paper 10 Jan, short paper/poster 12 Feb 2027.
+8. Rechecked GeoAI'26 against [ORNL CFP](https://events.ornl.gov/acmsigspatial-geoai2026/): 21 Aug original paper, 18 Sep notification, 4 Oct camera ready, 3 Nov workshop.
+9. Rechecked two historical CEUS CFPs against the original editors' pages: [Open Urban Data Science](https://ual.sg/post/2025/05/16/call-for-papers-open-urban-data-science/) (31 May 2026) and [Digital Twins and AI for Healthy and Sustainable Cities](https://www.nickmalleson.co.uk/2025/04/CEUS-SI-DT_AI.html) (30 Nov 2025).
+10. Confirmed ongoing explicitly listed recruitment directly on the original PI pages for HKUST(GZ) 3D GIS and Texas Tech AI/EO PhD.
 
 ## Further direct and corroborated checks
 
 - ISTA cryosphere postdoc was refreshed to 25 October because the employer still shows the exact position among current openings despite its 9 October historical application deadline. The original old date remains; applying late is not guaranteed.
 - ICC 2027 was refreshed to 25 October after checking official host conference materials. The previously recorded 20 November full-paper and 1 December abstract deadlines remain.
 
-- Subsequent direct source checks verified the UCLouvain, UMD ESSIC, UIUC, UMD coastal, University of Ottawa, USask and Virginia Tech recruitment entries, and independently reviewed three IJGI special issues on their dedicated publisher pages.
+- Subsequent official-source checks refreshed the UCLouvain, UMD ESSIC, UIUC, UMD coastal, University of Ottawa, USask and Virginia Tech recruitment entries. Three IJGI special issues were checked through the publisher's current live special-issues index, which explicitly confirmed title, editors, deadlines and open status despite individual details being rate-limited.
 
 ## Pending official-source verification
 
@@ -40,7 +40,7 @@ These were **examined**, but no fresh authoritative conclusion could be reached 
 |---|---|---|
 | 1 | [`mcgill-geography-health-sustainability-assistant-professor-2026`](../src/data/opportunities/positions/mcgill-geography-health-sustainability-assistant-professor-2026.yml) | 16 Oct official cutoff passed; McGill Workday live vacancy status not independently retrievable. |
 | 2 | [`mit-senseable-seoul-postdoc-2026`](../src/data/opportunities/positions/mit-senseable-seoul-postdoc-2026.yml) | Project home page does not directly establish current named postdoc intake/status. |
-| 3 | [`nanjing-geography-ocean-science-faculty-2026`](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml) | Original Nanjing recruitment notice resolves unreliably to general vacancies; current posting status unclear. |
+| 3 | [`nanjing-geography-ocean-science-faculty-2026`](../src/data/opportunities/positions/nanjing-geography-ocean-science-faculty-2026.yml) | Original Nanjing recruitment notice and current university faculty vacancy index are readable. Both show a passed 15 October deadline but the index still offers an Apply Now action and the announcement explicitly permits a conditional extension. No revised closing date or confirmed acceptance can be established, so the old verification timestamp remains. |
 
 ### Conferences — 2 pending
 
