@@ -1,0 +1,41 @@
+title: "Postdoctor — Tropical Forest Ecology, Terrestrial Laser Scanning and Forest Biomass Dynamics (TWIG)"
+short_name: "Gothenburg TWIG TLS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Three-year postdoctoral project funded by ERC TWIG to develop reproducible methods for quantifying tree and forest biomass fluxes from repeated terrestrial laser scanning (TLS) and multi-temporal 3D point clouds, with tropical forest fieldwork in Colombia and Brazil. Original vacancy PAR 2026/821."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+  - sustainability
+  - giscience
+website: "https://web103.reachmee.com/ext/I005/1035/job?job_id=41806&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7"
+sources:
+  - label: "Official University of Gothenburg recruitment portal (PAR 2026/821)"
+    url: "https://web103.reachmee.com/ext/I005/1035/job?job_id=41806&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7"
+    kind: official
+  - label: "University of Gothenburg current vacancies index"
+    url: "https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Gothenburg"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "University of Gothenburg"
+  - "Department of Biological and Environmental Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-19"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original university employer listing and the current vacancy index identify the deadline as 19 November 2026; no exact time asserted."
