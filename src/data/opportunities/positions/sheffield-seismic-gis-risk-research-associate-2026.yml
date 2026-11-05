@@ -1,0 +1,36 @@
+title: "Research Associate in Seismic Hazard, Vulnerability and Risk Assessment"
+short_name: "Sheffield Seismic GIS Risk RA"
+type: position
+position_category: postdoc
+year: 2026
+description: "EPSRC-funded research associate role developing seismic hazard, vulnerability and exposure models for Uganda, involving GIS mapping of seismological, geological and built-environment data, OpenQuake hazard/risk methods and numerical modelling."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - spatial-statistics
+  - climate
+website: "https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard,-Vulnerability-and-Risk-Assessment/3360-en_GB"
+sources:
+  - label: "Official University of Sheffield job 3360"
+    url: "https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard,-Vulnerability-and-Risk-Assessment/3360-en_GB"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Sheffield"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Sheffield"
+  - "School of Mechanical, Aerospace & Civil Engineering"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-26"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official Sheffield job 3360 lists 26 November 2026 as closing date. This position requires earthquake engineering and hazard modelling expertise; GIS is a necessary method rather than the primary discipline."
