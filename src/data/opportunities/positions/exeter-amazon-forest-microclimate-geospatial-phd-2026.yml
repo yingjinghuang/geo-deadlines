@@ -1,0 +1,42 @@
+title: "PhD Studentship — Amazon Forest Microclimate Sensing and Geospatial Modelling"
+short_name: "Exeter Amazon Microclimate PhD"
+type: position
+position_category: phd
+year: 2026
+description: "EPSRC-funded September 2027 PhD combining environmental sensors, spatial data analytics, remote sensing including lidar, and computational models to understand tropical forest microclimate, wildfire, disturbance and heat stress in Amazonia."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+  - sustainability
+  - machine-learning
+website: "https://www.exeter.ac.uk/study/funding/award/?id=6015"
+sources:
+  - label: "Official Exeter EPSRC Geography PhD award 6015"
+    url: "https://www.exeter.ac.uk/study/funding/award/?id=6015"
+    kind: official
+  - label: "Official project lead's current 2026 studentship announcement"
+    url: "https://sites.exeter.ac.uk/amazon-pyrocarbon/2026/10/26/phd-studentship-can-low-cost-sensors-and-models-show-which-amazon-forests-are-most-at-risk-of-burning/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Exeter"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Exeter"
+  - "Department of Geography"
+  - "Amazon PyroCarbon"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-08"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Exeter's 2027 EPSRC Geography call lists this PhD; its official project-group post explicitly confirms applications close at midday on 8 December 2026. Date-only precision is retained because no timezone is printed; see the official source for the midday UK-local cutoff and eligibility conditions."
