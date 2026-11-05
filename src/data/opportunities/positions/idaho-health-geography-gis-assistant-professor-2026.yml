@@ -1,0 +1,48 @@
+title: "Assistant Professor in Health Geography and GIS"
+short_name: "Idaho Health Geography + GIS Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Tenure-track assistant professor in Health Geography and GIS in the University of Idaho's Department of Earth and Spatial Sciences, with research, graduate and undergraduate teaching, GIS courses and an externally funded research program. Recruitment posting F001453P remains listed on the official faculty portal."
+scope: core
+topics:
+  - giscience
+  - geography
+  - spatial-data-science
+  - urban
+  - spatial-statistics
+website: "https://uidaho.peopleadmin.com/postings/53111"
+sources:
+  - label: "University of Idaho official recruitment listing F001453P"
+    url: "https://uidaho.peopleadmin.com/postings/53111"
+    kind: official
+  - label: "University of Idaho current faculty postings search"
+    url: "https://uidaho.peopleadmin.com/postings/search?commit=Search&query=&query_position_type_id%5B%5D=2&query_v0_posted_at_date="
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Moscow"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Idaho"
+  - "Department of Earth and Spatial Sciences"
+deadlines:
+  - id: first-consideration
+    type: application
+    label: "First Consideration"
+    datetime: "2026-11-30"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official listing F001453P says applications received on or before 30 November 2026 receive first consideration. A previous version of the advert listed 9 November; the newer university posting's 30 November date is used."
+  - id: rolling-application
+    type: application
+    label: "Open Until Filled"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The University of Idaho faculty listing explicitly says the position will remain open until filled; no fixed final date is asserted."
