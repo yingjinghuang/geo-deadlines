@@ -23,7 +23,7 @@ sources:
   - label: "Official GISTAM 2027 venue information"
     url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 event:
   start: "2027-04-20"
   end: "2027-04-22"
@@ -42,7 +42,7 @@ deadlines:
     timezone: "AoE"
     status: active
   - id: satellite-proposals
-    type: other
+    type: proposal
     label: "Workshop / Special Session / Tutorial / Demo / Panel Proposal"
     datetime: "2026-11-27T23:59:00-12:00"
     timezone: "AoE"
