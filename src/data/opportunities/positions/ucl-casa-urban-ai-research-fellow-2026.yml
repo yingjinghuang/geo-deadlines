@@ -1,0 +1,41 @@
+title: "Research Fellow in Urban AI — EV Charging and Energy Management"
+short_name: "UCL CASA Urban AI Research Fellow"
+type: position
+position_category: postdoc
+year: 2026
+description: "UCL Bartlett CASA is recruiting a Research Fellow for an Innovate UK-funded project on intelligent buffered ultra-rapid EV charging. The role develops spatial and spatiotemporal AI, demand prediction, deep reinforcement learning or related optimisation methods, and data-driven energy management using EV charging, transport, energy and geospatial datasets. The advertised appointment is initially funded from January through December 2027."
+scope: core
+topics:
+  - geoai
+  - urban
+  - mobility
+  - spatial-data-science
+  - machine-learning
+  - spatial-computing
+website: "https://www.ucl.ac.uk/about/work-at-ucl/search-jobs/details?jobId=49263&jobTitle=Research%20Fellow%20in%20Urban%20AI"
+sources:
+  - label: "Official UCL vacancy 49263 (reference B04-07935)"
+    url: "https://www.ucl.ac.uk/about/work-at-ucl/search-jobs/details?jobId=49263&jobTitle=Research%20Fellow%20in%20Urban%20AI"
+    kind: official
+  - label: "UCL CASA recruitment announcement reposted by Prof Chen Zhong"
+    url: "https://uk.linkedin.com/in/chen-zhong-0590bb33"
+    kind: announcement
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "London"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University College London"
+  - "The Bartlett Centre for Advanced Spatial Analysis (CASA)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-06"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The UCL CASA recruitment announcement confirms the vacancy and research scope, and the original UCL job link resolves but renders only site chrome in the available text extractor. The 6 November 2026 cutoff is independently reproduced by ResearchJobsEurope (https://www.researchjobseurope.com/jobs/research-fellow-in-urban-ai) and Glassdoor's copy of UCL reference B04-07935; the date was not directly readable from the UCL portal on 5 November. Check the live official application page immediately for exact closing time and status; no time or timezone has been inferred."
