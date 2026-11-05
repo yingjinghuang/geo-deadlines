@@ -5,7 +5,8 @@ import { z } from 'astro/zod';
 const deadlineType = z.enum([
   'abstract', 'full_paper', 'short_paper', 'paper', 'poster', 'demo',
   'workshop_paper', 'doctoral_consortium', 'manuscript', 'application',
-  'special_issue_manuscript', 'revision', 'notification', 'camera_ready',
+  'special_issue_manuscript', 'paper_registration', 'proposal',
+  'revision', 'notification', 'camera_ready',
   'registration', 'conference_start', 'conference_end', 'other',
 ]);
 

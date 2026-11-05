@@ -3,7 +3,7 @@ import type { Deadline } from './types';
 export const SUBMISSION_DEADLINE_TYPES = new Set([
   'abstract', 'full_paper', 'short_paper', 'paper', 'poster', 'demo',
   'workshop_paper', 'doctoral_consortium', 'manuscript', 'application',
-  'special_issue_manuscript', 'revision',
+  'special_issue_manuscript', 'paper_registration', 'proposal',
 ]);
 
 export function isDateOnly(deadline: Deadline): boolean {
@@ -24,12 +24,16 @@ export function futureSubmissionDeadlines(deadlines: Deadline[], now = Date.now(
       const timestamp = deadlineTimestamp(deadline);
       return timestamp !== null && timestamp > now;
     })
-    .sort((a, b) => (deadlineTimestamp(a) ?? 0) - (deadlineTimestamp(b) ?? 0));
+    .sort((a, b) =>
+      ((deadlineTimestamp(a) ?? 0) - (deadlineTimestamp(b) ?? 0))
+      || Number(Boolean(b.primary)) - Number(Boolean(a.primary))
+    );
 }
 
 export function selectNextDeadline(deadlines: Deadline[], now = Date.now()): Deadline | null {
   const future = futureSubmissionDeadlines(deadlines, now);
-  return future.find((deadline) => deadline.primary) ?? future[0] ?? null;
+  // The nearest actionable intake must not be hidden by a later 'primary' milestone.
+  return future[0] ?? null;
 }
 
 export function hasActiveTbdDeadline(deadlines: Deadline[]): boolean {

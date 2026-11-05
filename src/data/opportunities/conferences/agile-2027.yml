@@ -41,7 +41,7 @@ organizations:
   - "International Society for Digital Earth"
 deadlines:
   - id: workshop-proposal
-    type: other
+    type: proposal
     label: "Workshop Proposal"
     datetime: "2027-01-10"
     precision: date
@@ -94,7 +94,7 @@ deadlines:
     timezone: null
     status: active
   - id: student-travel-grant
-    type: application
+    type: other
     label: "Student Travel Grant"
     datetime: "2027-03-28"
     precision: date

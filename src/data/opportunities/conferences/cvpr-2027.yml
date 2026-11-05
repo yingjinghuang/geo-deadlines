@@ -19,7 +19,10 @@ sources:
   - label: "Official CVPR 2027 call for papers"
     url: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
     kind: official
-last_verified: "2026-10-25"
+  - label: "Official CVPR 2027 workshop proposal call"
+    url: "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops"
+    kind: official
+last_verified: "2026-11-04"
 event:
   start: "2027-06-20"
   end: "2027-06-25"
@@ -33,8 +36,16 @@ organizations:
   - "IEEE Computer Society"
   - "Computer Vision Foundation"
 deadlines:
+  - id: workshop-proposal
+    type: proposal
+    label: "Workshop Proposal"
+    datetime: "2026-11-04T23:59:00-12:00"
+    timezone: "AoE"
+    status: active
+    url: "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops"
+    note: "Workshop-organizer proposal; separate from workshop-paper intake."
   - id: paper-registration
-    type: registration
+    type: paper_registration
     label: "Paper Registration"
     datetime: "2026-11-10T23:59:00-12:00"
     timezone: "AoE"

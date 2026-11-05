@@ -20,7 +20,7 @@ sources:
   - label: "MDPI Geomatics official conference announcement"
     url: "https://www.mdpi.com/journal/geomatics/news-and-conferences/news/16476"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 event:
   start: "2027-03-17"
   end: "2027-03-18"
@@ -32,9 +32,8 @@ deadlines:
   - id: abstract
     type: abstract
     label: "Abstract Submission"
-    datetime: "2026-11-20"
-    precision: date
-    timezone: null
+    datetime: "2026-11-20T23:59:00-12:00"
+    timezone: "AoE"
     status: active
     primary: true
     note: "The Sciforum organizers confirm that abstract submission is currently open. This is an online meeting, not an in-person proceedings conference."
