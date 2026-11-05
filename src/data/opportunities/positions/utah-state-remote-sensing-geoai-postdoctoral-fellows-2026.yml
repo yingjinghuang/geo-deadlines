@@ -1,0 +1,48 @@
+title: "Postdoctoral Fellow II — Remote Sensing and GeoAI in Natural Resources"
+short_name: "Utah State GIS + GeoAI Postdocs"
+type: position
+position_category: postdoc
+year: 2026
+description: "Utah State University's Department of Environment and Society seeks up to two full-time 12-month postdoctoral fellows in GIScience, remote sensing and GeoAI with teaching-majority duties and research development in natural resources and human-environment interactions. Review starts 16 November 2026 and applications continue until filled; J-1 sponsorship may be possible, but H-1B sponsorship is not offered."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - geovisualization
+  - machine-learning
+  - sustainability
+website: "https://careers-usu.icims.com/jobs/10853/postdoctoral-fellow-ii---remote-sensing-%26-geoai-in-natural-resources-and-the-environment/job"
+sources:
+  - label: "Official Utah State University careers listing 2026-10853"
+    url: "https://careers-usu.icims.com/jobs/10853/postdoctoral-fellow-ii---remote-sensing-%26-geoai-in-natural-resources-and-the-environment/job"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Logan"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "Utah State University"
+  - "Department of Environment and Society"
+deadlines:
+  - id: first-review
+    type: application
+    label: "Application Review Begins"
+    datetime: "2026-11-16"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original employer posting explicitly states application review begins 16 November 2026, but applications continue until positions are filled; this is not a final cutoff."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The official USU posting states the position remains open until filled; no final application date is published."
