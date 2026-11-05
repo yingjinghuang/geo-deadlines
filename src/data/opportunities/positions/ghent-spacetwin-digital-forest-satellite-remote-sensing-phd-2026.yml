@@ -1,0 +1,38 @@
+title: "PhD — SPACETWIN Digital Forest Twins and Satellite Remote Sensing of Disturbance"
+short_name: "Ghent SPACETWIN Forest EO PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Ghent University Q-ForestLab PhD in ERC SPACETWIN to build 3D forest digital twins from terrestrial laser scanning, radiative transfer modelling and satellite EO, targeting disturbance and recovery with missions including ESA BIOMASS and NASA GEDI. Initial 12-month doctoral appointment extendable to 48 months after evaluation."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - giscience
+  - climate
+  - sustainability
+website: "https://www.ugent.be/en/work/scientific/doctoral-fellow-2"
+sources:
+  - label: "Official Ghent University SPACETWIN doctoral vacancy"
+    url: "https://www.ugent.be/en/work/scientific/doctoral-fellow-2"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Ghent"
+  country: "Belgium"
+  country_code: "BE"
+organizations:
+  - "Ghent University"
+  - "Q-ForestLab"
+  - "Department of Environment"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-15T23:59:00+01:00"
+    timezone: "Europe/Brussels"
+    status: active
+    primary: true
+    note: "Official Ghent employer posting gives Nov 15 2026 23:59. Its narrative mentions CEST, although Brussels has returned to CET in November; offset +01:00 follows the calendar date and the university's listed clock time."
