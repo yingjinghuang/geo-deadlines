@@ -1,0 +1,45 @@
+title: "Assistant Professor of Geography — Environmental and Earth-System Change"
+short_name: "GW Geography + Geospatial Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Tenure-track Geography and Environment Assistant Professor at George Washington University, seeking environmental, physical geography or Earth-system research on climate and environmental change with quantitative and geospatial approaches, for a planned Fall 2027 start."
+scope: core
+topics:
+  - geography
+  - giscience
+  - climate
+  - sustainability
+  - spatial-data-science
+website: "https://www.gwu.jobs/postings/129037"
+sources:
+  - label: "Official George Washington University posting F002670"
+    url: "https://www.gwu.jobs/postings/129037"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Washington"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "George Washington University"
+  - "Department of Geography and Environment"
+deadlines:
+  - id: first-review
+    type: application
+    label: "Review Begins"
+    datetime: "2026-11-12"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official university recruitment posting says review begins 12 November 2026; it explicitly remains open until filled."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "No hard final cutoff is published; university employer explicitly marks 'Open Until Filled: Yes'."
