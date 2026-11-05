@@ -1,0 +1,39 @@
+title: "EPSRC DLA PhD — Advancing Multi-Mission Satellite Radar for Monitoring Arctic Permafrost Degradation"
+short_name: "Exeter Arctic Permafrost SAR PhD"
+type: position
+position_category: phd
+year: 2027
+description: "Fully funded EPSRC Doctoral Landscape Award studentship at the University of Exeter for September 2027 entry, researching satellite radar and multi-mission Earth observation for permafrost degradation and erosion in the changing Arctic. One of the original Department of Earth and Environmental Science EPSRC DLA projects, with a competitive funding selection process and eligibility/residency conditions. Candidates must apply for their selected individual project through the University's EPSRC DLA scheme."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - climate
+  - spatial-data-science
+  - giscience
+website: "https://www.exeter.ac.uk/study/funding/award/?id=6012"
+sources:
+  - label: "Official University of Exeter EPSRC DLA studentship award 6012"
+    url: "https://www.exeter.ac.uk/study/funding/award/?id=6012"
+    kind: official
+  - label: "University of Exeter official 2027 EPSRC DLA project listings"
+    url: "https://www.exeter.ac.uk/study/pg-research/funding/phdfunding/epsrc-dla-studentships/finding_a_phd_research_project/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Exeter"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Exeter"
+  - "Department of Earth and Environmental Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "EPSRC DLA Application"
+    datetime: "2026-12-08T12:00:00+00:00"
+    timezone: "Europe/London"
+    status: active
+    primary: true
+    note: "University of Exeter official funding listing explicitly confirms the satellite radar Arctic permafrost project and that all award applications close Tuesday 8 December 2026 at midday (Europe/London, UTC+00:00 in December). References are separately required by 8 January 2027; this is not the primary application deadline. Funding is competitive and subject to eligibility, not an unconditional offer to every applicant."
