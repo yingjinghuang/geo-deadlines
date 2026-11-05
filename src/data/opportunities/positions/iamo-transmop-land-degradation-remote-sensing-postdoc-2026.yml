@@ -1,0 +1,39 @@
+title: "Postdoctoral Researcher in Remote Sensing and Land Degradation — TransMoP"
+short_name: "IAMO TransMoP Remote Sensing Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Three-year full-time TV-L E13 postdoc at Leibniz IAMO leading geospatial analyses in the TransMoP project on arid land degradation, water stress, vegetation dynamics and climate-related human mobility in Uzbekistan and Kazakhstan. Methods include Landsat, Sentinel, MODIS and ERA5 time-series analysis, spatial mapping, modelling and reproducible Python/R workflows."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - giscience
+  - spatial-data-science
+  - climate
+  - sustainability
+  - mobility
+website: "https://www.leibniz-gemeinschaft.de/en/careers/jobs/detail/job/show/Job/postdoctoral-researcher-in-remote-sensing-and-land-degradation-fmd-1"
+sources:
+  - label: "Official Leibniz Association recruitment announcement for IAMO TransMoP"
+    url: "https://www.leibniz-gemeinschaft.de/en/careers/jobs/detail/job/show/Job/postdoctoral-researcher-in-remote-sensing-and-land-degradation-fmd-1"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Halle (Saale)"
+  country: "Germany"
+  country_code: "DE"
+organizations:
+  - "Leibniz Institute of Agricultural Development in Transition Economies (IAMO)"
+  - "Leibniz Association"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Official Leibniz Association job detail dated 22 October 2026 explicitly states the final application date is 15 November 2026. No closing clock time published."
