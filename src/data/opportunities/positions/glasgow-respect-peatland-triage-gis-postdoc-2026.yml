@@ -1,0 +1,43 @@
+title: "Research Associate — RESPECT Peatland Triage Tool (Spatial Decision Support)"
+short_name: "Glasgow RESPECT Peatland GIS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "A 12-month UKRI-funded Research Associate post in the University of Glasgow's RESPECT project (Work Package 3), developing the Peatland Triage Tool, a geospatial decision-support application for peatland restoration. The role involves GIS, spatial data integration, geospatial web applications (e.g. GDAL, Python, GeoJSON/WMS/WFS, Leaflet/Mapbox), and machine learning/AI-driven reasoning. Full-time, Grade 7 (£41,885–£46,970), job reference 211653."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-computing
+  - geovisualization
+  - spatial-data-science
+  - machine-learning
+  - climate
+  - sustainability
+website: "https://www.jobs.gla.ac.uk/job/research-associate-6080647"
+sources:
+  - label: "Official University of Glasgow recruitment advert (reference 211653)"
+    url: "https://www.jobs.gla.ac.uk/job/research-associate-6080647"
+    kind: official
+  - label: "Official RESPECT Work Package 3 project description"
+    url: "https://www.gla.ac.uk/research/az/respect/wp3/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Glasgow"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Glasgow"
+  - "School of Geographical and Earth Sciences"
+  - "RESPECT (UKRI Land Use for Net Zero)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-24T23:45:00+00:00"
+    timezone: "Europe/London"
+    status: active
+    primary: true
+    note: "Official Glasgow HR page shows 'Expiry 24 Nov 2026 23:45' and an active application advert. London is UTC+00:00 on this date; the employment term is full-time for up to 12 months initially."
