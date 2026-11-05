@@ -1,0 +1,38 @@
+title: "Research Fellow — GIS and Remote Sensing of Mining Landscape Change"
+short_name: "NTU Bangka Mining GIS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Two-year Mining Mineral Life postdoctoral research fellowship at Nanyang Technological University using GIS, remote sensing and cartographic visualisation to quantify and interpret landscape change, mining impacts, sediment/tailings morphology and critical mineral extraction on Bangka Island, Indonesia."
+scope: core
+topics:
+  - giscience
+  - remote-sensing
+  - spatial-data-science
+  - cartography
+  - sustainability
+website: "https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045"
+sources:
+  - label: "Official NTU Workday vacancy R00026045"
+    url: "https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Singapore"
+  country: "Singapore"
+  country_code: "SG"
+organizations:
+  - "Nanyang Technological University"
+  - "School of Humanities"
+  - "Asian School of the Environment"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-04"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "NTU's own Workday vacancy R00026045 invites applications by 4 December 2026, 18:00 Singapore local time. Only the date is stored because the original text gives a local clock time without an explicit timezone. The sister vacancy R00026015 is more humanities-focused and is not merged here."
