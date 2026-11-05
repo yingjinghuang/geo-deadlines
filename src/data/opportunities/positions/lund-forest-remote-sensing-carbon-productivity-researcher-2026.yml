@@ -1,0 +1,38 @@
+title: "Researcher in Physical Geography — Forest Remote Sensing and Carbon Productivity"
+short_name: "Lund Forest RS Researcher"
+type: position
+position_category: research_staff
+year: 2026
+description: "Permanent full-time researcher post in Lund University's MGeo remote sensing group, contributing to a three-year Swedish National Space Agency project mapping Swedish forest productivity and carbon sequestration from 10-metre Sentinel-2, climate and geospatial data, and spatial models of GPP, NPP and respiration. Requires PhD and forest remote-sensing / Python expertise."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - giscience
+  - spatial-data-science
+  - climate
+  - sustainability
+website: "https://lu.varbi.com/en/what:job/jobID:983518/"
+sources:
+  - label: "Official Lund University vacancy PA2026/3081"
+    url: "https://lu.varbi.com/en/what:job/jobID:983518/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Lund"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "Lund University"
+  - "Department of Earth and Environmental Sciences (MGeo)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-11"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original Lund University Varbi vacancy PA2026/3081, published 28 October 2026, states 'Last application date 11.Nov.2026' and full-time permanent employment beginning February 2027 or by agreement. Distinct from the Lund Autonomous GIS PhD vacancy 984146."
