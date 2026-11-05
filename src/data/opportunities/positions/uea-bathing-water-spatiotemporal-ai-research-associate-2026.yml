@@ -1,0 +1,37 @@
+title: "Senior Research Associate — Spatiotemporal AI for Bathing Water Quality"
+short_name: "UEA Spatiotemporal AI Research Associate"
+type: position
+position_category: research_staff
+year: 2026
+description: "Fixed-term research position in UEA School of Computing Sciences developing machine-learning models for real-time bathing-water quality, spatiotemporal forecasting, environmental data integration and uncertainty estimation in an interdisciplinary NERC-related project."
+scope: core
+topics:
+  - geoai
+  - spatial-data-science
+  - machine-learning
+  - climate
+  - spatial-statistics
+website: "https://vacancies.uea.ac.uk/vacancies/2565/senior-research-associate-ra2423.html"
+sources:
+  - label: "Official University of East Anglia vacancy RA2423"
+    url: "https://vacancies.uea.ac.uk/vacancies/2565/senior-research-associate-ra2423.html"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Norwich"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of East Anglia"
+  - "School of Computing Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-10"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The original UEA recruitment posting RA2423 states an advertising end and closing date of 10 November 2026; appointment is fixed term until 30 March 2028. The employer does not publish an exact closing time."
