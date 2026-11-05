@@ -32,7 +32,7 @@ deadlines:
     status: active
     primary: true
     note: "The position remains open until filled; completed applications received by this date receive first consideration."
-- id: rolling-application
+  - id: rolling-application
     type: application
     label: "Rolling Application"
     datetime: "TBD"

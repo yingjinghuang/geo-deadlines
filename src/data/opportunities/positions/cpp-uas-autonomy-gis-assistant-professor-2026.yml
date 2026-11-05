@@ -34,7 +34,7 @@ deadlines:
     status: active
     primary: true
     note: "RECHECKED 25 October 2026: the official Cal Poly Pomona job 559194 is titled Deadline Extended, retains an Apply now link, and specifies 31 October 2026 as the new first-consideration date. Applications after that date may still be reviewed at the committee\u0027s discretion. This is not a hard closing date; no application cutoff hour is specified."
-- id: late-application
+  - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"
     datetime: "TBD"

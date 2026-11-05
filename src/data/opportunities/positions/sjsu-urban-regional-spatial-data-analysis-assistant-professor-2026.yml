@@ -32,7 +32,7 @@ deadlines:
     status: active
     primary: true
     note: "Official posting labels October 15, 2026 the application deadline, although its Apply now button and blank closing-date field remain visible on October 16. No official extension confirmed; do not present October 16 as a new deadline."
-- id: late-application
+  - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"
     datetime: "TBD"

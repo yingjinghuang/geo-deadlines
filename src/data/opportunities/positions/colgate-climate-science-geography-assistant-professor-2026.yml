@@ -37,7 +37,7 @@ deadlines:
     status: active
     primary: true
     note: "Review begins on this date and continues until the position is filled."
-- id: rolling-application
+  - id: rolling-application
     type: application
     label: "Rolling Application"
     datetime: "TBD"

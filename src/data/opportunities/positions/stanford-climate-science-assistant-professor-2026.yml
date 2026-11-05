@@ -32,7 +32,7 @@ deadlines:
     timezone: "America/Los_Angeles"
     status: active
     primary: true
-- id: late-application
+  - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"
     datetime: "TBD"

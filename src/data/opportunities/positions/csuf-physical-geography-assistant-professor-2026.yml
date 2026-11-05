@@ -33,7 +33,7 @@ deadlines:
     status: active
     primary: true
     note: "Applications submitted by this date are assured full consideration."
-- id: late-application
+  - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"
     datetime: "TBD"

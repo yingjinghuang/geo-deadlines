@@ -40,7 +40,7 @@ deadlines:
     status: active
     primary: true
     note: "Applications are reviewed from November 1, 2026; the official university posting states that the search remains open until filled. This is not a hard application deadline."
-- id: rolling-application
+  - id: rolling-application
     type: application
     label: "Rolling Application"
     datetime: "TBD"
