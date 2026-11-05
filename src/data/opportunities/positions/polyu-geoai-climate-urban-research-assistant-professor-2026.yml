@@ -18,7 +18,7 @@ sources:
   - label: "Official Hong Kong Polytechnic University posting 260410005"
     url: "https://jobs.polyu.edu.hk/job_detail.php?job=260410005"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Hong Kong"
@@ -35,4 +35,5 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    rolling: true
     note: "The official posting remains open and states that consideration commenced on May 1, 2026 and continues until the position is filled."

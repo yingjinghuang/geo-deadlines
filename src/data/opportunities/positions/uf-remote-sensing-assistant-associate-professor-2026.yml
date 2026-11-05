@@ -15,7 +15,7 @@ sources:
   - label: "Official University of Florida faculty posting 540144"
     url: "https://explore.jobs.ufl.edu/en-us/job/540144/assistant-or-associate-professor-in-remote-sensing"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Gainesville"
@@ -32,4 +32,5 @@ deadlines:
     timezone: null
     status: active
     primary: true
+    rolling: true
     note: "Full consideration was August 31, 2026, but the current official posting still shows Apply now and states that the position remains open until a viable applicant pool is determined."

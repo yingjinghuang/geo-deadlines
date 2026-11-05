@@ -26,7 +26,7 @@ const { entry } = Astro.props as Props;
 const item = deriveOpportunity(entry);
 const data = item.raw as OpportunityData;
 const name = displayName(data);
-const next = futureSubmissionDeadlines(data.deadlines).find((deadline) => deadline.primary) ?? futureSubmissionDeadlines(data.deadlines)[0];
+const next = item.nextDeadline;
 const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === id)?.label ?? id);
 const typeFolder = data.type === 'conference' ? 'conferences' : data.type === 'special_issue' ? 'special-issues' : data.type === 'position' ? 'positions' : 'workshops';
 const repo = repositoryUrl();

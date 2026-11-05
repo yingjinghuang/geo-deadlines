@@ -18,7 +18,7 @@ sources:
   - label: "Official Colgate Geography search guidance"
     url: "https://www.colgate.edu/academics/departments-programs/department-geography/faculty-position-assistant-professor-climate"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Hamilton"
@@ -37,3 +37,11 @@ deadlines:
     status: active
     primary: true
     note: "Review begins on this date and continues until the position is filled."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "Employer explicitly states applications continue until the position is filled; no fixed final cutoff is published. Check the live recruitment portal before applying."

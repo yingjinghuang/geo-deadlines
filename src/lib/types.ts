@@ -15,6 +15,7 @@ export interface Deadline {
   primary?: boolean;
   url?: string;
   note?: string | null;
+  rolling?: boolean;
 }
 
 export interface OpportunityData {
@@ -62,7 +63,7 @@ export interface DerivedOpportunity {
   raw: OpportunityData;
   nextDeadline: Deadline | null;
   nextDeadlineTimestamp: number | null;
-  submissionStatus: 'open' | 'closed' | 'tbd';
+  submissionStatus: 'open' | 'closed' | 'tbd' | 'rolling';
   urgency: 'critical' | 'urgent' | 'soon' | 'near' | 'normal' | null;
   verificationStatus: 'verified' | 'aging' | 'stale';
 }

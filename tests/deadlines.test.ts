@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, hasActiveTbdDeadline, selectNextDeadline, urgencyFor } from '../src/lib/deadlines';
+import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, hasActiveTbdDeadline, hasRollingApplicationDeadline, selectNextDeadline, urgencyFor } from '../src/lib/deadlines';
 import { verificationStatus } from '../src/lib/verification';
 import type { Deadline } from '../src/lib/types';
 
@@ -50,6 +50,14 @@ describe('deadline selection', () => {
 
   it('detects TBD submission deadlines', () => {
     expect(hasActiveTbdDeadline([active({ datetime: 'TBD', timezone: null })])).toBe(true);
+  });
+
+  it('distinguishes an employer-confirmed rolling application from an unannounced deadline', () => {
+    const rolling = active({ id: 'rolling-application', type: 'application', datetime: 'TBD', timezone: null, rolling: true });
+    expect(hasRollingApplicationDeadline([rolling])).toBe(true);
+    expect(hasActiveTbdDeadline([rolling])).toBe(true);
+    expect(selectNextDeadline([rolling], now)).toBeNull();
+    expect(hasRollingApplicationDeadline([active({ datetime: 'TBD' })])).toBe(false);
   });
 
   it('selects date-only deadlines without inventing an exact timezone', () => {

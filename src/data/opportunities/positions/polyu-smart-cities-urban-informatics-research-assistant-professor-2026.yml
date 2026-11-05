@@ -17,7 +17,7 @@ sources:
   - label: "Official Hong Kong Polytechnic University posting 260904022"
     url: "https://jobs.polyu.edu.hk/job_detail.php?job=260904022"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Hong Kong"
@@ -36,3 +36,11 @@ deadlines:
     status: active
     primary: true
     note: "Consideration of applications begins on October 16, 2026 and continues until the positions are filled."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "PolyU explicitly states that consideration of applications continues until the positions are filled; review began 16 October 2026. No fixed final closing date is published."

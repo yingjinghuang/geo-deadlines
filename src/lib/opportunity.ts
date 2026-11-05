@@ -1,5 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
-import { deadlineTimestamp, hasActiveTbdDeadline, selectNextDeadline, SUBMISSION_DEADLINE_TYPES, urgencyFor } from './deadlines';
+import { deadlineTimestamp, hasActiveTbdDeadline, hasRollingApplicationDeadline, selectNextDeadline, SUBMISSION_DEADLINE_TYPES, urgencyFor } from './deadlines';
 import type { DerivedOpportunity, OpportunityData } from './types';
 import { verificationStatus } from './verification';
 
@@ -12,7 +12,7 @@ export function deriveOpportunity(
   const nextDeadlineTimestamp = nextDeadline ? deadlineTimestamp(nextDeadline) : null;
   const submissionStatus = nextDeadline
     ? 'open'
-    : hasActiveTbdDeadline(raw.deadlines) ? 'tbd' : 'closed';
+    : hasRollingApplicationDeadline(raw.deadlines) ? 'rolling' : hasActiveTbdDeadline(raw.deadlines) ? 'tbd' : 'closed';
 
   return {
     id: entry.id,

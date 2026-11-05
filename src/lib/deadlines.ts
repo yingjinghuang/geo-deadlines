@@ -36,6 +36,13 @@ export function selectNextDeadline(deadlines: Deadline[], now = Date.now()): Dea
   return future[0] ?? null;
 }
 
+export function hasRollingApplicationDeadline(deadlines: Deadline[]): boolean {
+  return deadlines.some((deadline) =>
+    deadline.status === 'active' && deadline.type === 'application' &&
+    deadline.datetime.toUpperCase() === 'TBD' && deadline.rolling === true
+  );
+}
+
 export function hasActiveTbdDeadline(deadlines: Deadline[]): boolean {
   return deadlines.some((deadline) =>
     deadline.status === 'active' &&

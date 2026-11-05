@@ -14,7 +14,7 @@ sources:
   - label: "Official California State University vacancy 560304"
     url: "https://careers.pageuppeople.com/873/cw/en-us/job/560304/assistant-professor-of-physical-geography"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Fullerton"
@@ -33,3 +33,10 @@ deadlines:
     status: active
     primary: true
     note: "Applications submitted by this date are assured full consideration."
+  - id: late-application
+    type: application
+    label: "Later Application (Confirm Eligibility)"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    note: "The employer still lists this vacancy and Apply Now after its November 1 full-consideration date. A final closing date is not shown; confirm that later applications are considered."

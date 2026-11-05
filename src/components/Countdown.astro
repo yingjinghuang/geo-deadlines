@@ -1,11 +1,12 @@
 ---
-import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, futureSubmissionDeadlines, hasActiveTbdDeadline, isDateOnly } from '../lib/deadlines';
+import { deadlineTimestamp, formatCountdown, formatDateOnlyCountdown, formatOriginalDeadline, futureSubmissionDeadlines, hasActiveTbdDeadline, hasRollingApplicationDeadline, isDateOnly } from '../lib/deadlines';
 import type { Deadline } from '../lib/types';
 interface Props { deadlines: Deadline[] }
 const { deadlines } = Astro.props;
 const future = futureSubmissionDeadlines(deadlines);
-const next = future.find((item) => item.primary) ?? future[0];
+const next = future[0];
 const hasTbd = hasActiveTbdDeadline(deadlines);
+const hasRolling = hasRollingApplicationDeadline(deadlines);
 const serialized = future.map((deadline) => ({
   id: deadline.id,
   label: deadline.label,
@@ -18,14 +19,14 @@ const serialized = future.map((deadline) => ({
 }));
 const initialValue = next
   ? isDateOnly(next) ? formatDateOnlyCountdown(next.datetime) : formatCountdown(deadlineTimestamp(next)!)
-  : hasTbd ? 'TBD' : 'Closed';
+  : hasRolling ? 'Rolling' : hasTbd ? 'TBD' : 'Closed';
 const showLocalTime = Boolean(next && !isDateOnly(next));
 ---
-<div class="countdown" data-countdown data-deadlines={JSON.stringify(serialized)} data-has-tbd={String(hasTbd)}>
-  <p class="countdown-label" data-countdown-label>{next?.label ?? 'Submission'}</p>
+<div class="countdown" data-countdown data-deadlines={JSON.stringify(serialized)} data-has-tbd={String(hasTbd)} data-has-rolling={String(hasRolling)}>
+  <p class="countdown-label" data-countdown-label>{next?.label ?? (hasRolling ? 'Applications' : 'Submission')}</p>
   <p class="countdown-value" data-countdown-value>{initialValue}</p>
-  <p class="countdown-status" data-countdown-status>{next ? isDateOnly(next) ? 'until submission date' : 'until submission' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
-  <time data-original-time datetime={next?.datetime}>{next ? formatOriginalDeadline(next) : hasTbd ? 'Watch for the official call' : 'Deadline passed'}</time>
+  <p class="countdown-status" data-countdown-status>{next ? isDateOnly(next) ? 'until submission date' : 'until submission' : hasRolling ? 'Open until filled · confirm with employer' : hasTbd ? 'Date not announced' : 'No active submission deadline'}</p>
+  <time data-original-time datetime={next?.datetime}>{next ? formatOriginalDeadline(next) : hasRolling ? 'No fixed closing date' : hasTbd ? 'Watch for the official call' : 'Deadline passed'}</time>
   <p class="local-time" data-local-row hidden={!showLocalTime}><span class="local-prefix">Your time:</span> <span data-local-time>Detecting…</span></p>
   <span class="visually-hidden" aria-live="polite" data-countdown-live></span>
 </div>

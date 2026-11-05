@@ -84,6 +84,7 @@ for (const file of files) {
     deadlineIds.add(deadline.id);
     if (!['active', 'superseded', 'cancelled'].includes(deadline.status)) fail(id, `invalid status on '${deadline.id}'`);
     if (deadline.status === 'active') activeCount += 1;
+    if (deadline.rolling && !(data.type === 'position' && deadline.type === 'application' && deadline.datetime.toUpperCase() === 'TBD' && deadline.status === 'active')) fail(id, `'${deadline.id}' rolling must be an active position application with datetime: TBD`);
     if (deadline.datetime.toUpperCase() !== 'TBD' && deadline.status === 'active') {
       if (deadline.precision === 'date') {
         if (!/^\d{4}-\d{2}-\d{2}$/.test(deadline.datetime)) fail(id, `'${deadline.id}' date-only deadline must be YYYY-MM-DD`);

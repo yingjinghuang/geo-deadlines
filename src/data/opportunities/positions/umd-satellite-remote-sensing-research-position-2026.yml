@@ -14,7 +14,7 @@ sources:
   - label: "Official University of Maryland ESSIC position page"
     url: "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "College Park"
@@ -34,3 +34,11 @@ deadlines:
     status: active
     primary: true
     note: "Rechecked 25 October 2026 on the University of Maryland ESSIC original posting and active university employment index: review began September 30, but its explicit final status is Open until filled. Do not interpret this as a hard application cutoff."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "Official employer posting explicitly states applications remain open until filled. The earlier listed date is for priority review, not final closure."
