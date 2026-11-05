@@ -1,0 +1,38 @@
+title: "Staff Scientist in Urban Morphology, Urban Analytics and Social-Ecological Sensing"
+short_name: "Chalmers Urban Morphology Staff Scientist"
+type: position
+position_category: research_staff
+year: 2026
+description: "Permanent research staff scientist with Chalmers' Spatial Morphology Group (SMoG), developing urban spatial models, geospatial and longitudinal data workflows, and sensor-based analysis of urban morphology, pedestrian activity, ecological conditions and environmental exposure. Quantitative GIS, programming and spatial modelling are central requirements (REF 2026-0410)."
+scope: core
+topics:
+  - urban
+  - giscience
+  - spatial-data-science
+  - mobility
+  - geovisualization
+  - sustainability
+website: "https://web103.reachmee.com/ext/I003/304/job?job_id=15037&lang=se&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c"
+sources:
+  - label: "Original Chalmers ReachMee recruitment posting (REF 2026-0410)"
+    url: "https://web103.reachmee.com/ext/I003/304/job?job_id=15037&lang=se&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Gothenburg"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "Chalmers University of Technology"
+  - "Spatial Morphology Group (SMoG)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-06"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original Chalmers employer-hosted recruitment posting explicitly gives 6 November 2026. The posting did not specify an exact closing hour; no time was inferred."
