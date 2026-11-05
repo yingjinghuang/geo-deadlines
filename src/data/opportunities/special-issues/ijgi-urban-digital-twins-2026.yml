@@ -18,8 +18,14 @@ sources:
   - label: "Official special issue page"
     url: "https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728"
     kind: publisher
-  - label: "Official IJGI live special issue index, explicitly lists title, editors, current submission status and deadline"
+  - label: "Official IJGI live special issue index (now advertises 31 March 2027)"
     url: "https://www.mdpi.com/journal/ijgi/special_issues"
+    kind: publisher
+  - label: "Publisher journal homepage (still advertises 23 December 2026)"
+    url: "https://www.mdpi.com/journal/ijgi"
+    kind: publisher
+  - label: "Publisher original CFP flyer (still advertises 23 December 2026)"
+    url: "https://www.mdpi.com/journal/ijgi/special_issue_flyer_pdf_v2/R3F15GF728"
     kind: publisher
 last_verified: "2026-10-25"
 guest_editors:
@@ -34,4 +40,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Publisher states the submission date but not an exact time or timezone."
+    note: "UNRESOLVED OFFICIAL-SOURCE CONFLICT (reviewed 2026-11-04): The current MDPI dedicated special-issue page and the live IJGI special-issues index list 31 March 2027, while the journal homepage and downloadable official CFP flyer still list 23 December 2026. The older stored 23 December value is not a confirmed final deadline; do not rely on it without checking the live publisher submission portal. Last verified timestamp is deliberately not advanced while the two publisher schedules disagree."
