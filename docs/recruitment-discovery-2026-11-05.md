@@ -46,3 +46,35 @@ The following were discovered but **not** added as live application opportunitie
 - The 4 November 2026 original 35-position audit is unchanged: existing positions were checked yesterday, but this 5 November work is **not** a repeat full verification of all 47 current positions or the entire 121-record catalog.
 - Local repository commands (`npm run validate`, `npm run check`, `npm test`, `npm run build`) were not executed by this connector-only update. Check GitHub Actions deployment and build; don't call the deployment verified without a successful check.
 - Priority follow-up: employer-original pages for Stirling, Limerick, Bristol and NC State; then broaden discovery to Asian and European PI/lab channels, with explicit original-source checks and deduplication against the current YAML catalog.
+
+
+## Continuation: 14 additional distinct records (5 November 2026)
+
+A further international discovery pass found 14 new opportunities after the initial 12. University-originating adverts were cross-checked for application dates, relevance and current catalogue duplicates. Unlike the 12-item first pass, **two additional academic posts (Stirling and Limerick) have university-authored syndicated evidence but their individual original HR detail pages could not be directly loaded**; the YAML notes explicitly flag the limitation. They warrant follow-up rather than being called wholly primary-source confirmed.
+
+| Newly added distinct position | First-party or university-authored evidence | Application milestone |
+| --- | --- | --- |
+| [UEA spatiotemporal AI water-quality research associate](../src/data/opportunities/positions/uea-bathing-water-spatiotemporal-ai-research-associate-2026.yml) | Original UEA careers reference RA2423 | 10 Nov 2026 |
+| [Sheffield seismic hazard / risk GIS research associate](../src/data/opportunities/positions/sheffield-seismic-gis-risk-research-associate-2026.yml) | Original Sheffield vacancy 3360 | 26 Nov 2026 |
+| [Exeter Amazon forest microclimate and geospatial modelling PhD](../src/data/opportunities/positions/exeter-amazon-forest-microclimate-geospatial-phd-2026.yml) | Original Exeter EPSRC studentship 6015 and university project blog | 8 Dec 2026, midday UK local per original |
+| [Glasgow physics-informed AI for energy transition fellow](../src/data/opportunities/positions/glasgow-energy-transition-physics-informed-geospatial-ai-fellow-2026.yml) | Glasgow HR vacancy 210873 | 29 Nov 2026, 23:45 GMT |
+| [Cambridge MAEASaM geospatial digital heritage research assistant](../src/data/opportunities/positions/cambridge-maeasam-digital-heritage-gis-research-assistant-2026.yml) | Cambridge HR JC51455 | 20 Nov 2026 |
+| [NTU Bangka Island mining-landscape GIS/remote sensing research fellow](../src/data/opportunities/positions/ntu-bangka-mining-gis-remote-sensing-postdoc-2026.yml) | Original NTU Workday R00026045 | 4 Dec 2026, 18:00 Singapore local per original |
+| [Utah State remote sensing and GeoAI postdoctoral fellows](../src/data/opportunities/positions/utah-state-remote-sensing-geoai-postdoctoral-fellows-2026.yml) | Original USU ICIMS 2026-10853 | First review 16 Nov 2026; rolling until filled |
+| [George Washington University Earth/environmental change Geography faculty](../src/data/opportunities/positions/gwu-geography-environmental-change-assistant-professor-2026.yml) | Original GWU employer F002670 | Review starts 12 Nov 2026; rolling until filled |
+| [University of Idaho health geography & GIS assistant professor](../src/data/opportunities/positions/idaho-health-geography-gis-assistant-professor-2026.yml) | Original Idaho PeopleAdmin F001453P | First consideration 30 Nov 2026; open until filled |
+| [University of Alabama physical geography assistant professor](../src/data/opportunities/positions/alabama-environmental-physical-geography-assistant-professor-2026.yml) | Original Alabama employer 530827 | Review begins November; open until filled, adjacent scope |
+| [Leibniz IAMO TransMoP land degradation remote sensing postdoc](../src/data/opportunities/positions/iamo-transmop-land-degradation-remote-sensing-postdoc-2026.yml) | Original Leibniz Association employer-network vacancy | 15 Nov 2026 |
+| [Lund MGeo forest remote sensing, carbon productivity researcher](../src/data/opportunities/positions/lund-forest-remote-sensing-carbon-productivity-researcher-2026.yml) | Original Lund Varbi PA2026/3081 | 11 Nov 2026 |
+| [Stirling Geospatial Data Science lecturer](../src/data/opportunities/positions/stirling-geospatial-data-science-lecturer-2026.yml) | University-authored jobs.ac.uk FAC02153; original employer detail unavailable for direct check | 23 Nov 2026, **original HR confirmation pending** |
+| [Limerick Physical Geography and Geoinformatics assistant professor](../src/data/opportunities/positions/limerick-physical-geography-geoinformatics-assistant-professor-2026.yml) | University-authored jobs.ac.uk 085269; original employer detail unavailable for direct check | 18 Nov 2026 at midday Irish local, **original HR confirmation pending** |
+
+### Duplicate reconciliation and coverage
+
+Three additional same-day YAML entries were removed **without removing the jobs from the catalog** after detecting that the first discovery pass had already entered the same institutional vacancies: Gothenburg TWIG postdoc PAR 2026/821, Gothenburg TWIG PhD PAR 2026/822, and Exeter permafrost EPSRC PhD award 6012. The originally verified files in the first table above remain canonical. A same-project announcement or a differently worded title is not a distinct position.
+
+**Net outcome of both 5 November passes:** 12 + 14 = **26 distinct new position records**. Relative to the 35-position/109-opportunity baseline: **61 positions / 135 total opportunities** (37 conferences, 36 special issues, 1 workshop). No corresponding claim is made that all 135 current entries were reverified today.
+
+Other considered leads: Surrey's 26 October expired postdoc not added; Glasgow GALLANT social-policy RA excluded as weak geospatial fit; UCD Physical Geography lecturer 020191 held back because university-authored representations conflicted between 14 and 22 December closing dates; UEA self-supervised spatiotemporal-data PhD IGLESIAB_U27SCI pending direct university-source and UK-only funding confirmation. Avoid guessing any of these current applicant statuses.
+
+All 18 candidate entries authored in this continuation were read back with the GitHub connector and checked for required YAML fields, unique file names and deadline syntax; the three semantic duplicates were subsequently deleted. The full repository's TypeScript build, test and deployment workflows remain **unconfirmed**, because no successful CI result was available through the accessible connector and this environment could not clone GitHub over the network.
