@@ -15,7 +15,7 @@ sources:
   - label: "Official Spatial Statistics 2027 conference page"
     url: "https://www.elsevier.com/events/conferences/all/spatial-statistics"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 event:
   start: "2027-07-22"
   end: "2027-07-25"
@@ -37,7 +37,7 @@ deadlines:
     status: active
     primary: true
   - id: workshop-proposal
-    type: other
+    type: proposal
     label: "Workshop Proposal"
     datetime: "2027-03-12"
     precision: date
