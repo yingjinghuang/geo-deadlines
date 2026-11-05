@@ -20,7 +20,7 @@ const topicLabels = data.topics.map((id) => topics.find((topic) => topic.id === 
 const detailUrl = opportunityUrl(item.id);
 const absoluteDetailUrl = new URL(detailUrl, Astro.site).toString();
 const future = futureSubmissionDeadlines(data.deadlines);
-const next = future.find((deadline) => deadline.primary) ?? future[0];
+const next = item.nextDeadline ?? undefined;
 const calendarPayload = future.map((deadline) => ({
   id: `${item.id}-${deadline.id}`,
   title: `${data.short_name ?? data.title} — ${deadline.label} Deadline`,

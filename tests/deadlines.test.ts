@@ -19,9 +19,20 @@ describe('deadline selection', () => {
     expect(selectNextDeadline(deadlines, Date.parse('2027-08-16T13:00:00Z'))?.id).toBe('full');
   });
 
-  it('respects a future primary override', () => {
+  it('keeps the earliest intake ahead of a later primary milestone', () => {
     const deadlines = [active({ id: 'abstract', type: 'abstract', datetime: '2027-08-15T23:59:00-12:00' }), active({ id: 'paper', primary: true })];
-    expect(selectNextDeadline(deadlines, now)?.id).toBe('paper');
+    expect(selectNextDeadline(deadlines, now)?.id).toBe('abstract');
+  });
+
+  it('surfaces mandatory paper registration before the full paper', () => {
+    const deadlines = [active({ id: 'registration', type: 'paper_registration', datetime: '2027-08-10T23:59:00-12:00' }), active({ id: 'paper', primary: true })];
+    expect(selectNextDeadline(deadlines, now)?.id).toBe('registration');
+  });
+
+  it('includes public proposals but excludes invited revisions and admin-only events', () => {
+    expect(selectNextDeadline([active({ type: 'proposal' })], now)?.id).toBe('paper');
+    expect(selectNextDeadline([active({ type: 'revision' })], now)).toBeNull();
+    expect(selectNextDeadline([active({ type: 'other' })], now)).toBeNull();
   });
 
   it('never selects notifications', () => {
