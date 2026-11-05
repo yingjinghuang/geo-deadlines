@@ -1,0 +1,37 @@
+title: "Assistant Professor of Geography and the Environment — Physical Geography"
+short_name: "Alabama Physical Geography Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Tenure-track assistant professor at the University of Alabama Department of Geography and the Environment, focused on environmental, Earth and physical geography research and teaching. Relevant fields include landscape ecology, hydrology, geomorphology, climate and environmental science, with opportunities to collaborate in GIS, remote sensing and water prediction."
+scope: adjacent
+topics:
+  - geography
+  - giscience
+  - climate
+  - remote-sensing
+  - sustainability
+website: "https://careers.ua.edu/jobs/bcas-assistant-professor-of-geography-in-geography-and-the-environment-530827-tuscaloosa-alabama-united-states"
+sources:
+  - label: "Official University of Alabama faculty vacancy 530827"
+    url: "https://careers.ua.edu/jobs/bcas-assistant-professor-of-geography-in-geography-and-the-environment-530827-tuscaloosa-alabama-united-states"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Tuscaloosa"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Alabama"
+  - "Department of Geography and the Environment"
+deadlines:
+  - id: rolling-application
+    type: application
+    label: "Open Until Filled"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    rolling: true
+    note: "Official faculty advert says review begins November 2026 and continues until filled. Although the HR platform displays a distant 1 August 2027 technical closing timestamp, it should not be treated as the departmental review deadline or an actionable final submission deadline."
