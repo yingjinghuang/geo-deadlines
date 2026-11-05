@@ -14,7 +14,7 @@ sources:
   - label: "Official University of Ottawa faculty vacancy JR38643"
     url: "https://uottawa.wd3.myworkdayjobs.com/uOttawa_External_Career_Site/job/Ottawa-ON/Assistant-professor---Urban-Sustainability_JR38643-1"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Ottawa"
@@ -32,4 +32,12 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 25 October 2026 on official University of Ottawa Workday: 16 October was for full consideration only. The employer expressly states this faculty position remains open until filled; retain as a live listing."
+    note: "Official employer Workday listing JR38643 rechecked 4 November 2026: 16 October was for full consideration only. Employer explicitly states the position remains open until filled; no fixed closing date is given."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "University of Ottawa Workday expressly states open until filled; applications after 16 October may be reviewed, but priority/full-consideration date has passed."
