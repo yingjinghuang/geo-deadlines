@@ -1,0 +1,36 @@
+title: "Research Fellow in Applied AI for the Energy Transition"
+short_name: "Glasgow Geospatial Physics-Informed AI Fellow"
+type: position
+position_category: postdoc
+year: 2026
+description: "UKRI-funded Research Fellow developing physics-informed ML, uncertainty quantification, subsurface prediction and geospatial data integration for offshore renewable energy engineering and net-zero infrastructure; research funding runs to September 2029 initially."
+scope: core
+topics:
+  - geoai
+  - machine-learning
+  - spatial-data-science
+  - climate
+  - sustainability
+website: "https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890"
+sources:
+  - label: "Official University of Glasgow vacancy 210873"
+    url: "https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Glasgow"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Glasgow"
+  - "James Watt School of Engineering"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-29T23:45:00+00:00"
+    timezone: "Europe/London"
+    status: active
+    primary: true
+    note: "University of Glasgow's original recruitment portal (reference 210873) gives an expiry of 29 November 2026 at 23:45 UK local time, despite a third-party jobs.ac.uk header showing 30 November. On this date London observes UTC+00:00; the original employer's 29 November cutoff takes precedence."
