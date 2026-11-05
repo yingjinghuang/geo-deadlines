@@ -16,7 +16,7 @@ sources:
   - label: "Official SSTD 2027 homepage and CFP timetable (updated 24 October 2026)"
     url: "https://sstdconf27.github.io/"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Raleigh"

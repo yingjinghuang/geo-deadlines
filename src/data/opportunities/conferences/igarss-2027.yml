@@ -25,7 +25,7 @@ sources:
   - label: "Official IGARSS 2027 Community Contributed Theme call"
     url: "https://2027.ieeeigarss.org/cct_proposal.php"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -43,14 +43,14 @@ tracks:
   - "Recently Published Articles"
 deadlines:
   - id: community-contributed-theme
-    type: other
+    type: proposal
     label: "Community Contributed Theme Proposal"
     datetime: "2026-10-15"
     precision: date
     timezone: null
     status: active
   - id: tutorial-proposal
-    type: other
+    type: proposal
     label: "Tutorial Proposal"
     datetime: "2026-11-03"
     precision: date
@@ -74,7 +74,7 @@ deadlines:
     timezone: null
     status: active
   - id: travel-support
-    type: application
+    type: other
     label: "Travel Support Application"
     datetime: "2027-01-11"
     precision: date
