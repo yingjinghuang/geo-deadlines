@@ -29,12 +29,20 @@ organizations:
   - "California State Polytechnic University, Pomona"
   - "Department of Plant Sciences"
 deadlines:
-  - id: application
+  - id: first-consideration
     type: application
-    label: "Application"
-    datetime: "2026-12-15"
+    label: "First Consideration"
+    datetime: "2026-12-01"
     precision: date
     timezone: null
     status: active
     primary: true
-    note: "The employer's search-list index specifically shows December 15 2026 as closing date for job 562209; the individual detail page does not print a separate close date. Verify against live applicant portal before submitting."
+    note: "The university's currently accessible original job detail expressly says review begins 1 December 2026 and continues until filled; this is not a hard cutoff."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "Original applicant detail remains open with Apply now and says review continues until filled. A previously indexed university faculty-search page and a job-board reproduction show 15 December 2026 as a closing date, while the currently retrieved official detail and official live search list leave 'Applications close' blank. This conflicting 15 December date is NOT asserted as an authoritative final deadline; confirm directly with hiring office before relying on either interpretation."
