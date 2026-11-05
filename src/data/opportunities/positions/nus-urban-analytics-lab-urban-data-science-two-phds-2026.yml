@@ -1,0 +1,42 @@
+title: "Two Fully Funded PhD Positions in Urban Data Science — Urban Analytics Lab"
+short_name: "NUS Urban Analytics Lab 2 PhDs"
+type: position
+position_category: phd
+year: 2026
+description: "Two four-year fully funded PhD positions in the National University of Singapore Urban Analytics Lab. One focuses on sensing urban change with time-series street imagery and crowdsourced urban data; the other develops trustworthy urban AI addressing data quality, bias and uncertainty with multimodal urban datasets. Lab application is due 29 November 2026, followed by university admission for the August 2027 or January 2028 intake."
+scope: core
+topics:
+  - geoai
+  - urban
+  - giscience
+  - spatial-data-science
+  - computer-vision
+  - machine-learning
+  - spatial-computing
+website: "https://ual.sg/opportunities/ads/2026-phd/"
+sources:
+  - label: "Original NUS Urban Analytics Lab recruitment announcement"
+    url: "https://ual.sg/opportunities/ads/2026-phd/"
+    kind: announcement
+  - label: "NUS Urban Analytics Lab application guide"
+    url: "https://ual.sg/opportunities/application-guide/"
+    kind: announcement
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Singapore"
+  country: "Singapore"
+  country_code: "SG"
+organizations:
+  - "National University of Singapore"
+  - "Urban Analytics Lab"
+deadlines:
+  - id: lab-application
+    type: application
+    label: "Lab Application"
+    datetime: "2026-11-29"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Deadline for the research lab's preliminary application. Selected candidates must separately apply through the formal NUS admission process; the two deadlines should not be conflated."
