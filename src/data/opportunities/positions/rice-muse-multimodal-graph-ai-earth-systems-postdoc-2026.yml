@@ -1,0 +1,42 @@
+title: "Postdoctoral Research Associate — Multimodal and Graph AI for Earth Systems (MUSE)"
+short_name: "Rice MUSE Graph AI Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Rice University's MUSE cluster seeks a postdoctoral researcher developing graph neural networks and foundation models for irregular multi-scale Earth observation data, spatial networks and spatiotemporal prediction across hydrology, flood dynamics, cryosphere and earthquakes. Initial appointment is one year with possible renewal. The live university HR system shows a 1 December 2026 closing date, while a faculty announcement says review begins then and may continue; verify with HR if applying late."
+scope: core
+topics:
+  - geoai
+  - earth-observation
+  - remote-sensing
+  - spatial-computing
+  - machine-learning
+  - spatial-data-science
+  - climate
+website: "https://jobs.rice.edu/jobs/postdoctoral-associate-earth-environmental-planetary-sciences-houston-texas-united-states-806b3a68-95ee-4bcb-97b8-054d23a1aacf"
+sources:
+  - label: "Official Rice University application portal (job 6305)"
+    url: "https://jobs.rice.edu/jobs/postdoctoral-associate-earth-environmental-planetary-sciences-houston-texas-united-states-806b3a68-95ee-4bcb-97b8-054d23a1aacf"
+    kind: official
+  - label: "Rice EEPS department recruiting notice"
+    url: "https://eeps.rice.edu/center-career-development"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Houston"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "Rice University"
+  - "Earth, Environmental and Planetary Sciences"
+  - "MUSE Research Cluster"
+deadlines:
+  - id: application
+    type: application
+    label: "Application Portal Closing"
+    datetime: "2026-12-01T23:59:00-06:00"
+    timezone: "America/Chicago"
+    status: active
+    primary: true
+    note: "Rice HR currently says Closing at Dec 1 2026 11:59pm CST. Rice faculty/department announcements instead say first review begins Dec 1 and applications continue until filled. The original applicant portal's explicit closing time is shown, with the conflict documented."
