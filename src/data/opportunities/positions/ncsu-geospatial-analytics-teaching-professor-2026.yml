@@ -1,0 +1,39 @@
+title: "Assistant or Associate Teaching Professor in Geospatial Analytics"
+short_name: "NC State Geospatial Analytics Teaching Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "NC State Center for Geospatial Analytics is hiring a full-time 9-month non-tenure-track Assistant/Associate Teaching Professor for GIS and geospatial analytics teaching, with WebGIS, GeoAI, cloud geospatial tools, open-source GIS and spatial data science as preferred areas. Posting PG194853EP remains searchable with Apply for this Job."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - spatial-computing
+  - geovisualization
+website: "https://jobs.ncsu.edu/postings/234855"
+sources:
+  - label: "Official NC State hiring portal PG194853EP"
+    url: "https://jobs.ncsu.edu/postings/234855"
+    kind: official
+  - label: "Official NC State Center for Geospatial Analytics current vacancies search"
+    url: "https://jobs.ncsu.edu/postings/search?commit=Search&query=&query_organizational_tier_2_id%5B%5D=20&query_v0_posted_at_date=&utf8=%E2%9C%93"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Raleigh"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "North Carolina State University"
+  - "Center for Geospatial Analytics"
+deadlines:
+  - id: application
+    type: application
+    label: "Application (Live Posting)"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The HR page lists an anticipated 15 October 2026 close date but explicitly says that, while the job remains active, applications continue to be accepted. The vacancy still appears in the university's open-posting search; do not treat the past anticipated date as a hard cutoff."
