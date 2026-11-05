@@ -1,0 +1,41 @@
+title: "EngD — AI for Underground Infrastructure Detection and Characterisation"
+short_name: "Twente GPR + AI Utility Mapping EngD"
+type: position
+position_category: phd
+year: 2026
+description: "A two-year salaried Engineering Doctorate (EngD), distinct from a traditional research PhD, at the University of Twente, developing and validating machine-learning models to detect and characterize underground infrastructure (cables and pipelines) from ground-penetrating radar observations. Work combines geomatics, geospatial datasets, geophysics/GPR and deep learning with a 40% educational component and 60% applied engineering design component; initial 2027 start."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - machine-learning
+  - remote-sensing
+  - spatial-computing
+website: "https://utwentecareers.nl/en/vacancies/2600/engd-position-ai-for-underground-infrastructure-detection-and-characterisation/"
+sources:
+  - label: "Official University of Twente careers vacancy 2600"
+    url: "https://utwentecareers.nl/en/vacancies/2600/engd-position-ai-for-underground-infrastructure-detection-and-characterisation/"
+    kind: official
+  - label: "EU EURAXESS university-authored vacancy copy 466880"
+    url: "https://euraxess.ec.europa.eu/jobs/466880"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Enschede"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "University of Twente"
+  - "Faculty of Engineering Technology"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-27"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original University of Twente careers page shows Deadline 27 Nov 2026 and a live Apply now button. EngD is an applied professional doctorate, not an ordinary PhD; this repository's doctoral category is used for filtering, and the qualification distinction is explicit in the title/description. The official posting provides no final hour/timezone."
