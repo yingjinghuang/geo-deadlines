@@ -3,29 +3,72 @@ short_name: "CPGIS 2027"
 type: conference
 series: "International Conference on Geoinformatics"
 year: 2027
-description: "The 34th CPGIS Annual Conference / International Conference on Geoinformatics. CPGIS has officially announced the 2027 edition and solicited host proposals; as of this verification, the host, conference dates, and call for papers have not yet been announced."
+description: "The CPGIS Annual Conference, themed Trustworthy GeoAI for Resilient Urban Futures, will take place 9–11 July 2027 in Lanzhou, China. Separate 300-word abstract and 6–8-page full-paper tracks share a 15 March deadline. The official CPGIS conference association published its first call on 1 November 2026."
 scope: core
 topics:
   - giscience
   - geoai
   - spatial-data-science
   - remote-sensing
-website: "https://www.cpgis.org/"
+website: "https://cpgis.org/Conferences/ConferenceDefault.aspx?ID=2083"
+submission_url: "https://easychair.org/conferences/?conf=cpgis2027"
 sources:
-  - label: "Official call for proposals to host Geoinformatics 2027"
-    url: "https://www.cpgis.org/News/ShowContent.aspx?ID=6102"
+  - label: "Official CPGIS 2027 first CFP, timetable and tracks"
+    url: "https://cpgis.org/Conferences/ConferenceDefault.aspx?ID=2083"
     kind: official
-  - label: "Official CPGIS conference series"
-    url: "https://www.cpgis.org/Conferences/Default.aspx?CPGISconf=1"
+  - label: "Official CPGIS November 1, 2026 announcement"
+    url: "https://www.cpgis.org/News/ShowContent.aspx?ID=6107"
     kind: official
-last_verified: "2026-10-25"
+  - label: "Conference organizer website (announced in original CFP)"
+    url: "https://www.cpgis2027.com/"
+    kind: official
+last_verified: "2026-11-04"
+event:
+  start: "2027-07-09"
+  end: "2027-07-11"
+location:
+  mode: in_person
+  city: "Lanzhou"
+  country: "China"
+  country_code: "CN"
 organizations:
   - "International Association of Chinese Professionals in Geographic Information Sciences (CPGIS)"
+  - "Lanzhou Jiaotong University"
 deadlines:
-  - id: paper
-    type: paper
-    label: "Paper Submission"
-    datetime: TBD
+  - id: session-proposal
+    type: proposal
+    label: "Oral Session Proposal"
+    datetime: "2027-03-15"
+    precision: date
     timezone: null
     status: active
-    note: "CPGIS has announced the 2027 edition and requested host proposals; the host, conference dates, and call for papers have not yet been announced."
+  - id: abstract
+    type: abstract
+    label: "Abstract (up to 300 words)"
+    datetime: "2027-03-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: full-paper
+    type: full_paper
+    label: "Full Paper (6–8 pages)"
+    datetime: "2027-03-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Two separate submission routes are offered: full-paper proceedings or abstract-only presentation. No exact submission time/timezone is published."
+  - id: notification
+    type: notification
+    label: "Abstract / Full-Paper Acceptance"
+    datetime: "2027-04-15"
+    precision: date
+    timezone: null
+    status: active
+  - id: early-registration
+    type: registration
+    label: "Early Registration"
+    datetime: "2027-05-15"
+    precision: date
+    timezone: null
+    status: active
