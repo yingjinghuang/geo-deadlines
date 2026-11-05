@@ -1,0 +1,39 @@
+title: "Doctoral Student in Geographic Information Science — Autonomous GIS and Spatial Intelligence"
+short_name: "Lund Autonomous GIS PhD"
+type: position
+position_category: phd
+year: 2026
+description: "A salaried four-year doctoral position at Lund University's GIS Centre investigating Autonomous GIS and Spatial Intelligence, including geospatial reasoning with large language models, multi-agent architectures, autonomous geospatial workflow planning and execution, integration of geographical knowledge and analytical tools, and the reliability of AI-generated spatial analyses. Full-time employment is planned to start on 7 January 2027 or by agreement."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-computing
+  - spatial-data-science
+  - machine-learning
+  - knowledge-graphs
+website: "https://lu.varbi.com/en/what:job/jobID:984146/iframeEmbedded:0/where:4"
+sources:
+  - label: "Official Lund University vacancy 984146 (reference PA2026/3115)"
+    url: "https://lu.varbi.com/en/what:job/jobID:984146/iframeEmbedded:0/where:4"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Lund"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "Lund University"
+  - "GIS Centre"
+  - "Department of Earth and Environmental Sciences (MGeo)"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-25"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The original Lund University Varbi posting, reference PA2026/3115, explicitly states 'Last application date: 25.Nov.2026', published 3 November 2026, with a planned start date of 7 January 2027 or by agreement. The employer provides a calendar date only; no closing time or timezone is assumed."
