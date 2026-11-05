@@ -1,0 +1,41 @@
+title: "Assistant Professor in Geography — Physical Geography and Geoinformatics"
+short_name: "Limerick Physical Geography Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Permanent full-time assistant professor role in University of Limerick's School of History and Geography seeking a physical geographer with research and teaching expertise across geoinformatics, remote sensing, computational modelling, machine learning and landscape assessment. Employer reference 085269."
+scope: core
+topics:
+  - geography
+  - giscience
+  - remote-sensing
+  - spatial-data-science
+  - climate
+  - machine-learning
+website: "https://www.jobs.ac.uk/job/DTJ798/assistant-professor-in-geography"
+sources:
+  - label: "University-authored posting distributed through jobs.ac.uk (reference 085269)"
+    url: "https://www.jobs.ac.uk/job/DTJ798/assistant-professor-in-geography"
+    kind: announcement
+  - label: "Official University of Limerick employer website"
+    url: "https://www.ul.ie/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Limerick"
+  country: "Ireland"
+  country_code: "IE"
+organizations:
+  - "University of Limerick"
+  - "School of History and Geography"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-18"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "University-authored syndicated vacancy 085269 states applications must be completed before 12 noon Irish local time on Wednesday 18 November 2026. The direct university individual HR posting was not independently accessible; check the official applicant system for status and exact cutoff. Date-only precision retains the original text's lack of an explicitly stated timezone offset."
