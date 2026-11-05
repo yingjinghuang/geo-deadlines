@@ -1,9 +1,9 @@
-title: "Fully Funded PhD in Participatory and Physics-Informed GeoAI for Urban Heat Adaptation"
-short_name: "USask GIG-Cities Urban Heat GeoAI PhD"
+title: "PhD Research Opportunities in GeoAI and Urban Sustainability — GIG-Cities Lab"
+short_name: "USask GIG-Cities GeoAI PhD"
 type: position
 position_category: phd
 year: 2026
-description: "A Winter 2027 PhD opportunity in the University of Saskatchewan GIG-Cities Lab developing participatory and physics-informed GeoAI for equitable urban heat adaptation, combining spatial data, climate modelling, optimization, and community-informed planning."
+description: "The University of Saskatchewan GIG-Cities Lab explicitly invites prospective PhD candidates in geospatial AI for urban sustainability, spatiotemporal data mining, computer vision, spatial databases and urban digital twins. A previously advertised fully funded urban-heat project cannot currently be independently reconfirmed as a specific available award; funding and project availability should be checked with the PI."
 scope: core
 topics:
   - geoai
@@ -13,7 +13,7 @@ topics:
   - sustainability
   - spatial-data-science
   - remote-sensing
-website: "https://research-groups.usask.ca/gig-cities-lab/index.php"
+website: "https://research-groups.usask.ca/gig-cities-lab/contact-us/instructions.php"
 sources:
   - label: "Official GIG-Cities Lab graduate recruitment page"
     url: "https://research-groups.usask.ca/gig-cities-lab/contact-us/instructions.php"
@@ -21,7 +21,7 @@ sources:
   - label: "Varuni Jayasooriya recruiting announcement for Winter 2027"
     url: "https://www.linkedin.com/posts/varuni-jayasooriya-00233667_phdposition-fullyfundedphd-geoai-activity-7493498237882880000-j2eB"
     kind: announcement
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Saskatoon"
@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 25 October 2026: original university GIG-Cities Lab recruitment page still directly invites MSc and PhD applicants in GeoAI and urban systems. The original PI announcement mentions Winter 2027, but the lab has not published a fixed closing date. Timing of individual project availability is not independently guaranteed."
+    note: "Original university lab graduate recruitment page checked on 4 November 2026 explicitly invites MSc/PhD applicants for multiple GeoAI and urban-sustainability themes and lists email application materials. The specific earlier advertised fully funded urban-heat PhD, start term and funding availability are not independently reconfirmed. No fixed cutoff is given."

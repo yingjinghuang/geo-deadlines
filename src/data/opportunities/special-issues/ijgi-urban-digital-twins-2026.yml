@@ -27,7 +27,7 @@ sources:
   - label: "Publisher original CFP flyer (still advertises 23 December 2026)"
     url: "https://www.mdpi.com/journal/ijgi/special_issue_flyer_pdf_v2/R3F15GF728"
     kind: publisher
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 guest_editors:
   - name: "Dessislava Petrova-Antonova"
   - name: "Sisi Zlatanova"
@@ -36,8 +36,8 @@ deadlines:
   - id: manuscript
     type: special_issue_manuscript
     label: "Manuscript"
-    datetime: "2026-12-23"
+    datetime: "2027-03-31"
     precision: date
     timezone: null
     status: active
-    note: "UNRESOLVED OFFICIAL-SOURCE CONFLICT (reviewed 2026-11-04): The current MDPI dedicated special-issue page and the live IJGI special-issues index list 31 March 2027, while the journal homepage and downloadable official CFP flyer still list 23 December 2026. The older stored 23 December value is not a confirmed final deadline; do not rely on it without checking the live publisher submission portal. Last verified timestamp is deliberately not advanced while the two publisher schedules disagree."
+    note: "OFFICIAL-SOURCE CONFLICT (reviewed 2026-11-04): This entry follows the CURRENT DEDICATED MDPI SPECIAL ISSUE PAGE and live IJGI special-issues index, both showing 31 March 2027 and Open for Submission. The journal homepage, an October 26 MDPI webinar announcement and downloadable CFP flyer still show 23 December 2026. Submission portal/editors should resolve the inconsistency before authors rely on the later cutoff; no official explanation for the discrepancy was published."
