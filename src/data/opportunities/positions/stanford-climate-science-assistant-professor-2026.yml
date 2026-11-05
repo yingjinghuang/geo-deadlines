@@ -15,7 +15,7 @@ sources:
   - label: "Official Stanford faculty position"
     url: "https://facultypositions.stanford.edu/jobs/assistant-professor-in-climate-science-stanford-university-california-united-states"
     kind: official
-last_verified: "2026-10-25"
+last_verified: "2026-11-04"
 location:
   mode: in_person
   city: "Stanford"
@@ -32,3 +32,10 @@ deadlines:
     timezone: "America/Los_Angeles"
     status: active
     primary: true
+- id: late-application
+    type: application
+    label: "Later Application (Confirm Eligibility)"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    note: "The university states that applications after November 1 may be considered at the discretion of the search committee. No extension or guaranteed acceptance is implied."
