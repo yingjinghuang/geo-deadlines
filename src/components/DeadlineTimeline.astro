@@ -21,9 +21,9 @@ const ordered = [...deadlines].sort((a, b) => {
       <div class="timeline-content">
         <div class="timeline-heading">
           <strong>{deadline.label}</strong>
-          <span class="timeline-state">{deadline.status !== 'active' ? deadline.status : timestamp === null ? 'TBD' : passed ? 'passed' : 'upcoming'}</span>
+          <span class="timeline-state">{deadline.status !== 'active' ? deadline.status : timestamp === null ? deadline.rolling ? 'rolling' : 'TBD' : passed ? 'passed' : 'upcoming'}</span>
         </div>
-        {timestamp === null ? <p>To be announced</p> : <>
+        {timestamp === null ? <p>{deadline.rolling ? 'Open until filled; verify with employer' : 'To be announced'}</p> : <>
           <time datetime={deadline.datetime}>{formatOriginalDeadline(deadline)}</time>
           {!dateOnly && <p class="timeline-local">Your time: <span data-timeline-local data-timestamp={timestamp}>Detecting…</span></p>}
         </>}

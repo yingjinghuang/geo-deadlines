@@ -21,6 +21,7 @@ const deadline = z.object({
   primary: z.boolean().optional(),
   url: z.url().optional(),
   note: z.string().nullable().optional(),
+  rolling: z.boolean().optional(),
 });
 
 const source = z.object({

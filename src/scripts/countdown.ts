@@ -56,8 +56,8 @@ function deadlinesFor(element: HTMLElement): CountdownDeadline[] {
 function updateCountdown(element: HTMLElement, now: number): number | null {
   const future = deadlinesFor(element)
     .filter((item) => item.precision === 'date' ? localDateOnlyState(item.datetime, now).active : item.timestamp > now)
-    .sort((a, b) => a.timestamp - b.timestamp);
-  const next = future.find((item) => item.primary) ?? future[0];
+    .sort((a, b) => a.timestamp - b.timestamp || Number(Boolean(b.primary)) - Number(Boolean(a.primary)));
+  const next = future[0];
   const value = element.querySelector<HTMLElement>('[data-countdown-value]');
   const label = element.querySelector<HTMLElement>('[data-countdown-label]');
   const status = element.querySelector<HTMLElement>('[data-countdown-status]');
@@ -69,10 +69,11 @@ function updateCountdown(element: HTMLElement, now: number): number | null {
 
   if (!next) {
     const hasTbd = element.dataset.hasTbd === 'true';
-    if (value) value.textContent = hasTbd ? 'TBD' : 'Closed';
-    if (label) label.textContent = 'Submission';
-    if (status) status.textContent = hasTbd ? 'Date not announced' : 'No active submission deadline';
-    if (original) { original.textContent = hasTbd ? 'Watch for the official call' : 'Deadline passed'; original.removeAttribute('datetime'); }
+    const hasRolling = element.dataset.hasRolling === 'true';
+    if (value) value.textContent = hasRolling ? 'Rolling' : hasTbd ? 'TBD' : 'Closed';
+    if (label) label.textContent = hasRolling ? 'Applications' : 'Submission';
+    if (status) status.textContent = hasRolling ? 'Open until filled · confirm with employer' : hasTbd ? 'Date not announced' : 'No active submission deadline';
+    if (original) { original.textContent = hasRolling ? 'No fixed closing date' : hasTbd ? 'Watch for the official call' : 'Deadline passed'; original.removeAttribute('datetime'); }
     if (localRow) localRow.hidden = true;
     if (local) local.textContent = '—';
     if (card) card.dataset.deadline = '';
