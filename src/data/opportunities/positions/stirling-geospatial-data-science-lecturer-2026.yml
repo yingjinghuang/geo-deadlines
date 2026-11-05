@@ -1,0 +1,42 @@
+title: "Lecturer in Geospatial Data Science — Environmental Change"
+short_name: "Stirling Geospatial Data Science Lecturer"
+type: position
+position_category: faculty
+year: 2026
+description: "Permanent Grade 7/8 lecturer vacancy at University of Stirling's School of Life and Environmental Sciences, emphasizing GIS, terrestrial remote sensing, environmental geospatial statistics, data science and machine-learning methods applied to environmental change. Research, teaching, supervising and grant development responsibilities; job reference FAC02153."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - remote-sensing
+  - machine-learning
+  - climate
+  - sustainability
+website: "https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science"
+sources:
+  - label: "University-authored recruitment advertisement distributed through jobs.ac.uk (FAC02153)"
+    url: "https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science"
+    kind: announcement
+  - label: "Official University of Stirling current vacancies entrypoint (individual job details rendered dynamically)"
+    url: "https://www.stir.ac.uk/about/work-at-stirling/list/"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Stirling"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Stirling"
+  - "School of Life and Environmental Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-23"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "University-authored syndicated vacancy FAC02153 states midnight Monday 23 November 2026 as its closing date. The university's own careers directory uses dynamic rendering and did not expose individual job details in the available text client; status and exact cutoff should be reconfirmed on the official application portal."
