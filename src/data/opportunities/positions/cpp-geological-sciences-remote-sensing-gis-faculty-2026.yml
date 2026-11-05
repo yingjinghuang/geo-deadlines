@@ -1,0 +1,45 @@
+title: "Assistant Professor in Geological Sciences — Remote Sensing, GIS and Geospatial Technology"
+short_name: "Cal Poly Pomona Geology Remote Sensing Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Tenure-track Cal Poly Pomona Geological Sciences faculty position starting fall 2027, focused on GIS, satellite/UAV or terrestrial remote sensing and geospatial technologies for earth science applications including geoinformatics, environmental geoscience, hazards and climate. Job 562947; open until filled after 1 December first consideration."
+scope: core
+topics:
+  - giscience
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+website: "https://careers.cpp.edu/en-us/job/562947/geological-sciences-assistant-professor-remote-sensing-gis-geospatial-technology"
+sources:
+  - label: "Official Cal Poly Pomona faculty posting 562947"
+    url: "https://careers.cpp.edu/en-us/job/562947/geological-sciences-assistant-professor-remote-sensing-gis-geospatial-technology"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Pomona"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "California State Polytechnic University, Pomona"
+  - "Department of Geological Sciences"
+deadlines:
+  - id: first-consideration
+    type: application
+    label: "First Consideration"
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The original posting says applications received by December 1 2026 get first consideration; this is NOT a final closing date."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The official vacancy explicitly states open until filled, without a fixed final application date."
