@@ -1,0 +1,40 @@
+title: "Assistant Professor of Applied Geospatial Analysis — Plant Sciences"
+short_name: "Cal Poly Pomona Applied Geospatial Faculty"
+type: position
+position_category: faculty
+year: 2026
+description: "Tenure-track Cal Poly Pomona Plant Sciences faculty recruitment in applied geospatial analysis for agricultural and environmental systems. Methods include GIS, remote sensing, spatial models, GeoAI and tools including QGIS, ArcGIS, Python, R and Google Earth Engine. Job reference 562209; the university vacancy index lists 15 December 2026 as the close date."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - remote-sensing
+  - spatial-data-science
+  - sustainability
+website: "https://careers.cpp.edu/en-us/job/562209/applied-geospatial-analysis-assistant-professor"
+sources:
+  - label: "Official Cal Poly Pomona faculty vacancy 562209"
+    url: "https://careers.cpp.edu/en-us/job/562209/applied-geospatial-analysis-assistant-professor"
+    kind: official
+  - label: "Official Cal Poly Pomona applicant listing and closing-date index"
+    url: "https://careers.cpp.edu/en-us/Search/?subscribe=true&work-type=instructional+faculty+%E2%80%93+tenured%2Ftenure-track%2Cnon-instructional+faculty+%28coach%2Fcounselor%2Flibrarian%29"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Pomona"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "California State Polytechnic University, Pomona"
+  - "Department of Plant Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The employer's search-list index specifically shows December 15 2026 as closing date for job 562209; the individual detail page does not print a separate close date. Verify against live applicant portal before submitting."
