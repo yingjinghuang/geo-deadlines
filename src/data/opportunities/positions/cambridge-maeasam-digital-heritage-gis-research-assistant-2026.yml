@@ -1,0 +1,37 @@
+title: "Research Assistant in Digital Heritage Documentation — MAEASaM"
+short_name: "Cambridge MAEASaM Geospatial Research Assistant"
+type: position
+position_category: student_ra_intern
+year: 2026
+description: "Research assistant supporting the Mapping Africa's Endangered Archaeological Sites and Monuments project, combining remote sensing, historical-map analysis, geospatial records, Arches spatial database ingestion and digital heritage data management."
+scope: core
+topics:
+  - giscience
+  - remote-sensing
+  - spatial-data-science
+  - spatial-databases
+  - cartography
+website: "https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455"
+sources:
+  - label: "Official Cambridge recruitment posting JC51455"
+    url: "https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Cambridge"
+  country: "United Kingdom"
+  country_code: "GB"
+organizations:
+  - "University of Cambridge"
+  - "McDonald Institute for Archaeological Research"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-20"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Original university posting JC51455 confirms 20 November 2026 closing date. This is a research assistant/data-management role, not a postdoctoral research fellowship; GIS and remote sensing contribute to heritage documentation."
