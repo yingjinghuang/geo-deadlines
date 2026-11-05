@@ -35,6 +35,11 @@ describe('deadline selection', () => {
     expect(selectNextDeadline([active({ type: 'other' })], now)).toBeNull();
   });
 
+  it('uses primary as a tie-breaker only when milestones have the same timestamp', () => {
+    const deadlines = [active({ id: 'proposal', type: 'proposal' }), active({ id: 'paper', primary: true })];
+    expect(selectNextDeadline(deadlines, now)?.id).toBe('paper');
+  });
+
   it('never selects notifications', () => {
     expect(selectNextDeadline([active({ type: 'notification' })], now)).toBeNull();
   });

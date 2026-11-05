@@ -24,7 +24,10 @@ export function futureSubmissionDeadlines(deadlines: Deadline[], now = Date.now(
       const timestamp = deadlineTimestamp(deadline);
       return timestamp !== null && timestamp > now;
     })
-    .sort((a, b) => (deadlineTimestamp(a) ?? 0) - (deadlineTimestamp(b) ?? 0));
+    .sort((a, b) =>
+      ((deadlineTimestamp(a) ?? 0) - (deadlineTimestamp(b) ?? 0))
+      || Number(Boolean(b.primary)) - Number(Boolean(a.primary))
+    );
 }
 
 export function selectNextDeadline(deadlines: Deadline[], now = Date.now()): Deadline | null {
