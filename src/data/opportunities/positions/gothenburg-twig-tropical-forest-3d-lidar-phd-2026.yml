@@ -1,0 +1,40 @@
+title: "Doctoral Student — Tropical Forest Ecology and Carbon Dynamics Using 3D Laser Scanning (TWIG)"
+short_name: "Gothenburg TWIG 3D Forest PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Four-year salaried PhD in the ERC TWIG project analyzing tropical forest biomass changes, canopy damage and recovery, and spatial/causal drivers using repeated terrestrial laser scanning, 3D point clouds, spatial statistics and R/Python. Includes tropical fieldwork; reference PAR 2026/822."
+scope: core
+topics:
+  - remote-sensing
+  - giscience
+  - spatial-data-science
+  - climate
+  - sustainability
+website: "https://web103.reachmee.com/ext/I005/1035/job?job_id=41811&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7"
+sources:
+  - label: "Official University of Gothenburg recruitment portal (PAR 2026/822)"
+    url: "https://web103.reachmee.com/ext/I005/1035/job?job_id=41811&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7"
+    kind: official
+  - label: "University of Gothenburg current vacancies index"
+    url: "https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies"
+    kind: official
+last_verified: "2026-11-05"
+location:
+  mode: in_person
+  city: "Gothenburg"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "University of Gothenburg"
+  - "Department of Biological and Environmental Sciences"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-11-19"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The original Gothenburg doctoral advertisement specifies applications must arrive by 19 November 2026. Date-level precision retained."
