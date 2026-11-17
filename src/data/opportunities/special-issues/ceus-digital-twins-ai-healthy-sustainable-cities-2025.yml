@@ -16,7 +16,12 @@ sources:
   - label: "Official CEUS call for papers page"
     url: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/about/call-for-papers"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
+guest_editors:
+  - name: "Nick Malleson"
+  - name: "Alison Heppenstall"
+  - name: "Mark Birkin"
+  - name: "Jing Yao"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
@@ -25,4 +30,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Rechecked 16 October 2026 against the guest editor's directly accessible original, self-published full CFP. It explicitly lists 30 November 2025 as the manuscript deadline; this historical deadline has passed. No newly published deadline extension was found on that original editor-managed CFP. Never present this as a currently open call."
+    note: "Rechecked 17 November 2026 against the named guest editor’s accessible original full CFP, which lists 2025-11-30 as the manuscript deadline. This historical deadline has passed. No extension appears in that inspected original; the publisher CFP page was inaccessible, so this recheck does not establish later publisher changes or an open submission portal."

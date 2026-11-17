@@ -10,11 +10,11 @@ topics:
   - geoai
   - spatial-data-science
   - remote-sensing
-website: "https://cpgis.org/Conferences/ConferenceDefault.aspx?ID=2083"
+website: "https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083"
 submission_url: "https://easychair.org/conferences/?conf=cpgis2027"
 sources:
   - label: "Official CPGIS 2027 first CFP, timetable and tracks"
-    url: "https://cpgis.org/Conferences/ConferenceDefault.aspx?ID=2083"
+    url: "https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083"
     kind: official
   - label: "Official CPGIS November 1, 2026 announcement"
     url: "https://www.cpgis.org/News/ShowContent.aspx?ID=6107"
@@ -22,7 +22,7 @@ sources:
   - label: "Conference organizer website (announced in original CFP)"
     url: "https://www.cpgis2027.com/"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-07-09"
   end: "2027-07-11"

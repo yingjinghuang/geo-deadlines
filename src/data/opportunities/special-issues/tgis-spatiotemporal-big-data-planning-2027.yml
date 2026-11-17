@@ -21,7 +21,12 @@ sources:
   - label: "Official Wiley current Transactions in GIS CFP index"
     url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
+guest_editors:
+  - name: "Xufeng Cui"
+  - name: "Walter Timo De Vries"
+  - name: "Basanta Paudel"
+  - name: "Hamidreza Rabiei"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript

@@ -1,4 +1,4 @@
-title: "International Conference on Machine Learning 2027"
+title: "44th International Conference on Machine Learning"
 short_name: "ICML 2027"
 type: conference
 series: "International Conference on Machine Learning"
@@ -9,17 +9,60 @@ topics:
   - machine-learning
   - geoai
   - spatial-data-science
-website: "https://icml.cc/Conferences/FutureMeetings"
+website: "https://icml.cc/Conferences/2027"
 sources:
   - label: "Official ICML future meetings page"
     url: "https://icml.cc/Conferences/FutureMeetings"
     kind: official
-last_verified: "2026-11-04"
+  - label: Official ICML 2027 call for papers
+    url: https://icml.cc/Conferences/2027/CallForPapers
+    kind: official
+  - label: Official ICML 2027 dates and deadlines
+    url: https://icml.cc/Conferences/2027/Dates
+    kind: official
+last_verified: "2026-11-17"
 deadlines:
-  - id: full-paper
-    type: full_paper
-    label: "Paper Submission"
-    datetime: TBD
+  - id: submission-opens
+    type: other
+    label: Submission Site Opens
+    datetime: "2027-01-08"
+    precision: date
     timezone: null
     status: active
-    note: "ICML currently confirms only that the 2027 meeting will be in South America; exact dates, city, and submission deadlines have not yet been announced."
+  - id: abstract
+    type: abstract
+    label: Abstract Submission
+    datetime: "2027-01-14T23:59:00-12:00"
+    timezone: AoE
+    status: active
+  - id: full-paper
+    type: full_paper
+    label: Full Paper Submission
+    datetime: "2027-01-22T23:59:00-12:00"
+    timezone: AoE
+    status: active
+    primary: true
+    note: Official main-conference CFP states this exact 23:59 AoE cutoff; deadlines are strict. There is no separate supplementary-material deadline.
+  - id: first-stage-notification
+    type: notification
+    label: First-stage Rejection Notification
+    datetime: "2027-02-23"
+    precision: date
+    timezone: null
+    status: active
+  - id: notification
+    type: notification
+    label: Final Decisions
+    datetime: "2027-05-03"
+    precision: date
+    timezone: null
+    status: active
+submission_url: https://openreview.net/group?id=ICML.cc/2027/Conference
+event:
+  start: "2027-07-31"
+  end: "2027-08-06"
+location:
+  mode: in_person
+  city: Rio de Janeiro
+  country: Brazil
+  country_code: BR

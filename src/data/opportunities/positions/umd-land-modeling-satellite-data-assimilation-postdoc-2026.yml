@@ -1,0 +1,38 @@
+title: Postdoc — Land Modeling and Satellite Data Assimilation
+short_name: UMD Land Modeling + Satellite Assimilation Postdoc
+type: position
+position_category: postdoc
+year: 2026
+description: CISESS postdoctoral position integrating satellite leaf-area-index observations and phenology into NOAA’s Unified Forecast System and evaluating land-atmosphere impacts. The initial appointment is one year, renewable subject to performance and funding. Candidates need a relevant PhD awarded within the previous three years and experience with land models and satellite surface-property methods.
+scope: core
+topics:
+- earth-observation
+- remote-sensing
+- climate
+website: https://essic.umd.edu/postdoc-position-on-land-modeling-and-data-assimilation-at-university-of-maryland-cooperative-institute-for-satellite-earth-system-studies-cisess/
+sources:
+- label: Original University of Maryland ESSIC/CISESS land-modeling postdoc advertisement
+  url: https://essic.umd.edu/postdoc-position-on-land-modeling-and-data-assimilation-at-university-of-maryland-cooperative-institute-for-satellite-earth-system-studies-cisess/
+  kind: official
+- label: Current official ESSIC employment index
+  url: https://essic.umd.edu/about/employment/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: College Park
+  country: United States
+  country_code: US
+organizations:
+- University of Maryland
+- ESSIC
+- Cooperative Institute for Satellite Earth System Studies
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  note: The original employer notice, included in its current employment index, asks applicants to email a CV and cover letter to jkenned@umd.edu. No fixed deadline or explicit until-filled policy is stated.
+  primary: true

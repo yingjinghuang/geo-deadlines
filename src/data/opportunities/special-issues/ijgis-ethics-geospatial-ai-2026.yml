@@ -8,12 +8,12 @@ journal:
   name: "International Journal of Geographical Information Science"
   short_name: "IJGIS"
   publisher: "Taylor & Francis"
-website: "https://think.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
+website: "https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
 sources:
   - label: "Official Taylor & Francis call for papers"
-    url: "https://think.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
+    url: "https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Shaowen Wang"
   - name: "Peter Kedron"
@@ -33,3 +33,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Invitation-stage manuscript deadline: the publisher invites full papers only after the abstract stage (2026-09-30). The abstract deadline has passed; this date is not evidence of unrestricted new manuscript intake."

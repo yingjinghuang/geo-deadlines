@@ -3,7 +3,7 @@ short_name: "Cal Poly Pomona Applied Geospatial Faculty"
 type: position
 position_category: faculty
 year: 2026
-description: "Tenure-track Cal Poly Pomona Plant Sciences faculty recruitment in applied geospatial analysis for agricultural and environmental systems. Methods include GIS, remote sensing, spatial models, GeoAI and tools including QGIS, ArcGIS, Python, R and Google Earth Engine. Job reference 562209; the university vacancy index lists 15 December 2026 as the close date."
+description: "Tenure-track Cal Poly Pomona Plant Sciences faculty recruitment in applied geospatial analysis for agricultural and environmental systems. Methods include GIS, remote sensing, spatial models, GeoAI and tools including QGIS, ArcGIS, Python, R and Google Earth Engine. Job reference 562209; review begins 1 December 2026 and continues until filled."
 scope: core
 topics:
   - giscience
@@ -19,7 +19,7 @@ sources:
   - label: "Official Cal Poly Pomona applicant listing and closing-date index"
     url: "https://careers.cpp.edu/en-us/Search/?subscribe=true&work-type=instructional+faculty+%E2%80%93+tenured%2Ftenure-track%2Cnon-instructional+faculty+%28coach%2Fcounselor%2Flibrarian%29"
     kind: official
-last_verified: "2026-11-05"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Pomona"
@@ -45,4 +45,4 @@ deadlines:
     timezone: null
     status: active
     rolling: true
-    note: "Original applicant detail remains open with Apply now and says review continues until filled. A previously indexed university faculty-search page and a job-board reproduction show 15 December 2026 as a closing date, while the currently retrieved official detail and official live search list leave 'Applications close' blank. This conflicting 15 December date is NOT asserted as an authoritative final deadline; confirm directly with hiring office before relying on either interpretation."
+    note: "The current original job detail has an Apply now action and explicitly says review continues until filled. It does not publish a final closing date. A previously indexed 15 December date is not supported by this live detail and is not used as an application cutoff."

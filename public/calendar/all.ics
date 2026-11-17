@@ -3,48 +3,930 @@ VERSION:2.0
 PRODID:-//GeoDeadlines//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:earth-observation-forum-2027-paper@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270212T225900Z
-DTEND:20270212T231400Z
-SUMMARY:EOF 2027 — Paper Deadline
-DESCRIPTION:Original timezone: Europe/Copenhagen\nOfficial source: https://example.org/eof-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/earth-observation-forum-2027/
-URL:https://example.org/eof-2027
+UID:agile-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:AGILE 2027 — Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:spatial-research-summit-2027-abstract@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270816T115900Z
-DTEND:20270816T121400Z
-SUMMARY:SRS 2027 — Abstract Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
-URL:https://example.org/srs-2027
+UID:agile-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:AGILE 2027 — Full Paper Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:spatial-research-summit-2027-full-paper@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270823T115900Z
-DTEND:20270823T121400Z
-SUMMARY:SRS 2027 — Full Paper Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
-URL:https://example.org/srs-2027
+UID:agile-2027-short-paper-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:AGILE 2027 — Short Paper / Poster Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:geoai-urban-resilience-2027-manuscript@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270401T115900Z
-DTEND:20270401T121400Z
-SUMMARY:Special Issue on GeoAI for Urban Resilience — Manuscript Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/jsf/geoai-urban-resilience\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geoai-urban-resilience-2027/
-URL:https://example.org/jsf/geoai-urban-resilience
+UID:agile-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:AGILE 2027 — YIF Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:geospatial-knowledge-workshop-2026-workshop-paper@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20260911T115900Z
-DTEND:20260911T121400Z
-SUMMARY:GeoKnowledge 2026 — Workshop Paper Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/geoknowledge-2026\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/geospatial-knowledge-workshop-2026/
-URL:https://example.org/geoknowledge-2026
+UID:chi-2027-panel@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261120T115900Z
+DTEND:20261120T121400Z
+SUMMARY:CHI 2027 — Panel Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270122T115900Z
+DTEND:20270122T121400Z
+SUMMARY:CHI 2027 — Poster Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-interactive-demo@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270122T115900Z
+DTEND:20270122T121400Z
+SUMMARY:CHI 2027 — Interactive Demo Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-session-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Oral Session Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Abstract (up to 300 words) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Full Paper (6–8 pages) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cupum-2027-paper-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:CUPUM 2027 — Conference Paper / Poster Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://cupum2027.com.au/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cupum-2027/
+URL:https://cupum2027.com.au/
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261117T115900Z
+DTEND:20261117T121400Z
+SUMMARY:CVPR 2027 — Paper Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://cvpr.thecvf.com/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cvpr-2027/
+URL:https://cvpr.thecvf.com/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:earsel-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:EARSeL 2027 — Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://symposium.earsel.org/46th-symposium-Turin/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/earsel-2027/
+URL:https://symposium.earsel.org/46th-symposium-Turin/
+END:VEVENT
+BEGIN:VEVENT
+UID:egu-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270112T120000Z
+DTEND:20270112T121500Z
+SUMMARY:EGU 2027 — Regular Abstract Deadline
+DESCRIPTION:Original timezone: CET\nOfficial source: https://www.egu27.eu/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/egu-2027/
+URL:https://www.egu27.eu/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270109T115900Z
+DTEND:20270109T121400Z
+SUMMARY:GeoAI 2027 — Workshop / Tutorial Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:GeoAI 2027 — Extended Abstract Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-published-article@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:GeoAI 2027 — Published-article Summary Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoinformatics-research-days-2027-session-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:GRD 2027 — Session / Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geoinformaticsdays.geoportti.fi/en/latest/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoinformatics-research-days-2027/
+URL:https://geoinformaticsdays.geoportti.fi/en/latest/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoinformatics-research-days-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:GRD 2027 — Presentation Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geoinformaticsdays.geoportti.fi/en/latest/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoinformatics-research-days-2027/
+URL:https://geoinformaticsdays.geoportti.fi/en/latest/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoprocessing-2027-submission@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:GEOProcessing 2027 — Paper Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.iaria.org/conferences2027/GEOProcessing27.html\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoprocessing-2027/
+URL:https://www.iaria.org/conferences2027/GEOProcessing27.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gis-ostrava-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:GIS Ostrava 2027 — Abstract / Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisak.vsb.cz/gisostrava/?lang=en\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gis-ostrava-2027/
+URL:https://gisak.vsb.cz/gisostrava/?lang=en
+END:VEVENT
+BEGIN:VEVENT
+UID:gis-ostrava-2027-reviewed-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:GIS Ostrava 2027 — Reviewed Paper (Conditional) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisak.vsb.cz/gisostrava/?lang=en\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gis-ostrava-2027/
+URL:https://gisak.vsb.cz/gisostrava/?lang=en
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-proceedings-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270130T115900Z
+DTEND:20270130T121400Z
+SUMMARY:GIScience 2027 — Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270213T115900Z
+DTEND:20270213T121400Z
+SUMMARY:GIScience 2027 — Workshop Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-short-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270403T115900Z
+DTEND:20270403T121400Z
+SUMMARY:GIScience 2027 — Short Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-abstract-demo@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270515T115900Z
+DTEND:20270515T121400Z
+SUMMARY:GIScience 2027 — Abstract / Demo Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:gisruk-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:GISRUK 2027 — Research Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisruk.org/gisruk-2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gisruk-2027/
+URL:https://gisruk.org/gisruk-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-regular-paper-stage-1@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261202T115900Z
+DTEND:20261202T121400Z
+SUMMARY:GISTAM 2027 — Regular Paper — Stage 1 Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-satellite-proposals@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261128T115900Z
+DTEND:20261128T121400Z
+SUMMARY:GISTAM 2027 — Workshop / Special Session / Tutorial / Demo / Panel Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-regular-paper-stage-2@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261222T115900Z
+DTEND:20261222T121400Z
+SUMMARY:GISTAM 2027 — Regular / Position Paper — Stage 2 Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270217T115900Z
+DTEND:20270217T121400Z
+SUMMARY:GISTAM 2027 — Abstract Track Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icc-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ICC 2027 — Full Paper Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://icc2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icc-2027/
+URL:https://icc2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icc-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ICC 2027 — Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://icc2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icc-2027/
+URL:https://icc2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270115T115900Z
+DTEND:20270115T121400Z
+SUMMARY:ICML 2027 — Abstract Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://icml.cc/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icml-2027/
+URL:https://icml.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:ICML 2027 — Full Paper Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://icml.cc/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icml-2027/
+URL:https://icml.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:igarss-2027-submission@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:IGARSS 2027 — Abstract / Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://2027.ieeeigarss.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/igarss-2027/
+URL:https://2027.ieeeigarss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iocgm-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:IOCGM 2027 — Abstract Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://sciforum.net/event/IOCGM2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/iocgm-2027/
+URL:https://sciforum.net/event/IOCGM2027
+END:VEVENT
+BEGIN:VEVENT
+UID:isprs-geospatial-week-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:GSW 2027 — Full Paper (ISPRS Annals) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.gsw2027.pl/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/isprs-geospatial-week-2027/
+URL:https://www.gsw2027.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:isprs-geospatial-week-2027-extended-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:GSW 2027 — Extended Abstract (ISPRS Archives / Abstract-only) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.gsw2027.pl/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/isprs-geospatial-week-2027/
+URL:https://www.gsw2027.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:jurse-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:JURSE 2027 — Paper Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.jurse2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jurse-2027/
+URL:https://www.jurse2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-statistics-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Spatial Statistics 2027 — Abstract Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.elsevier.com/events/conferences/all/spatial-statistics\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/spatial-statistics-2027/
+URL:https://www.elsevier.com/events/conferences/all/spatial-statistics
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-statistics-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spatial Statistics 2027 — Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.elsevier.com/events/conferences/all/spatial-statistics\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/spatial-statistics-2027/
+URL:https://www.elsevier.com/events/conferences/all/spatial-statistics
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-1-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261130T115900Z
+DTEND:20261130T121400Z
+SUMMARY:SSTD 2027 — Round 1 Abstract Registration Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-1-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261207T115900Z
+DTEND:20261207T121400Z
+SUMMARY:SSTD 2027 — Round 1 Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-2-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270405T115900Z
+DTEND:20270405T121400Z
+SUMMARY:SSTD 2027 — Round 2 Abstract Registration Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-2-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270412T115900Z
+DTEND:20270412T121400Z
+SUMMARY:SSTD 2027 — Round 2 Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:cambridge-maeasam-digital-heritage-gis-research-assistant-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Cambridge MAEASaM Geospatial Research Assistant — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cambridge-maeasam-digital-heritage-gis-research-assistant-2026/
+URL:https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455
+END:VEVENT
+BEGIN:VEVENT
+UID:cincinnati-geoai-gis-assistant-professor-2026-first-review@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Cincinnati GeoAI + GIS Faculty — Review Begins Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://jobs.uc.edu/job/Assistant-Professor\,-GeoAI\,-Geographic-Information-Systems\,-College-of-Arts-and-Sciences/104155-en_US/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cincinnati-geoai-gis-assistant-professor-2026/
+URL:https://jobs.uc.edu/job/Assistant-Professor\,-GeoAI\,-Geographic-Information-Systems\,-College-of-Arts-and-Sciences/104155-en_US/
+END:VEVENT
+BEGIN:VEVENT
+UID:cpp-applied-geospatial-analysis-plant-sciences-faculty-2026-first-consideration@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Cal Poly Pomona Applied Geospatial Faculty — First Consideration Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://careers.cpp.edu/en-us/job/562209/applied-geospatial-analysis-assistant-professor\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpp-applied-geospatial-analysis-plant-sciences-faculty-2026/
+URL:https://careers.cpp.edu/en-us/job/562209/applied-geospatial-analysis-assistant-professor
+END:VEVENT
+BEGIN:VEVENT
+UID:cpp-geological-sciences-remote-sensing-gis-faculty-2026-first-consideration@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Cal Poly Pomona Geology Remote Sensing Faculty — First Consideration Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://careers.cpp.edu/en-us/job/562947/geological-sciences-assistant-professor-remote-sensing-gis-geospatial-technology\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpp-geological-sciences-remote-sensing-gis-faculty-2026/
+URL:https://careers.cpp.edu/en-us/job/562947/geological-sciences-assistant-professor-remote-sensing-gis-geospatial-technology
+END:VEVENT
+BEGIN:VEVENT
+UID:exeter-amazon-forest-microclimate-geospatial-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Exeter Amazon Microclimate PhD — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.exeter.ac.uk/study/funding/award/?id=6015\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/exeter-amazon-forest-microclimate-geospatial-phd-2026/
+URL:https://www.exeter.ac.uk/study/funding/award/?id=6015
+END:VEVENT
+BEGIN:VEVENT
+UID:exeter-epsrc-permafrost-satellite-radar-phd-2027-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Exeter Arctic Permafrost SAR PhD — EPSRC DLA Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.exeter.ac.uk/study/funding/award/?id=6012\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/exeter-epsrc-permafrost-satellite-radar-phd-2027/
+URL:https://www.exeter.ac.uk/study/funding/award/?id=6012
+END:VEVENT
+BEGIN:VEVENT
+UID:ghent-forest-4d-tls-microclimate-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Ghent 4D Forest TLS PhD — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.ugent.be/en/work/scientific/doctoral-fellow-4\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ghent-forest-4d-tls-microclimate-phd-2026/
+URL:https://www.ugent.be/en/work/scientific/doctoral-fellow-4
+END:VEVENT
+BEGIN:VEVENT
+UID:glasgow-energy-transition-physics-informed-geospatial-ai-fellow-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261129T234500Z
+DTEND:20261130T000000Z
+SUMMARY:Glasgow Geospatial Physics-Informed AI Fellow — Application Deadline
+DESCRIPTION:Original timezone: Europe/London\nOfficial source: https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/glasgow-energy-transition-physics-informed-geospatial-ai-fellow-2026/
+URL:https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890
+END:VEVENT
+BEGIN:VEVENT
+UID:glasgow-respect-peatland-triage-gis-postdoc-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261124T234500Z
+DTEND:20261125T000000Z
+SUMMARY:Glasgow RESPECT Peatland GIS Postdoc — Application Deadline
+DESCRIPTION:Original timezone: Europe/London\nOfficial source: https://www.jobs.gla.ac.uk/job/research-associate-6080647\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/glasgow-respect-peatland-triage-gis-postdoc-2026/
+URL:https://www.jobs.gla.ac.uk/job/research-associate-6080647
+END:VEVENT
+BEGIN:VEVENT
+UID:gothenburg-twig-forest-laser-scanning-biomass-postdoc-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Gothenburg TWIG TLS Postdoc — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://web103.reachmee.com/ext/I005/1035/job?job_id=41806&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gothenburg-twig-forest-laser-scanning-biomass-postdoc-2026/
+URL:https://web103.reachmee.com/ext/I005/1035/job?job_id=41806&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7
+END:VEVENT
+BEGIN:VEVENT
+UID:gothenburg-twig-tropical-forest-3d-lidar-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Gothenburg TWIG 3D Forest PhD — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://web103.reachmee.com/ext/I005/1035/job?job_id=41811&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gothenburg-twig-tropical-forest-3d-lidar-phd-2026/
+URL:https://web103.reachmee.com/ext/I005/1035/job?job_id=41811&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7
+END:VEVENT
+BEGIN:VEVENT
+UID:idaho-health-geography-gis-assistant-professor-2026-first-consideration@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Idaho Health Geography + GIS Faculty — First Consideration Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://careers.uidaho.edu/jobs/regular-faculty-moscow-idaho-united-states-bf6aac73-2c33-41bc-bcf7-04df2657830f\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/idaho-health-geography-gis-assistant-professor-2026/
+URL:https://careers.uidaho.edu/jobs/regular-faculty-moscow-idaho-united-states-bf6aac73-2c33-41bc-bcf7-04df2657830f
+END:VEVENT
+BEGIN:VEVENT
+UID:iowa-geoai-spatial-data-science-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Iowa GeoAI PhD — Application for Full Funding Consideration Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://peng-luo.com/opportunities.html\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/iowa-geoai-spatial-data-science-phd-2026/
+URL:https://peng-luo.com/opportunities.html
+END:VEVENT
+BEGIN:VEVENT
+UID:limerick-physical-geography-geoinformatics-assistant-professor-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Limerick Physical Geography Faculty — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://my.corehr.com/pls/esbsheulrecruit/erq_jobspec_details_form.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_applicant_no=&p_recruitment_id=085269&p_process_type=&p_form_profile_detail=&p_display_apply_ind=N\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/limerick-physical-geography-geoinformatics-assistant-professor-2026/
+URL:https://my.corehr.com/pls/esbsheulrecruit/erq_jobspec_details_form.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_applicant_no=&p_recruitment_id=085269&p_process_type=&p_form_profile_detail=&p_display_apply_ind=N
+END:VEVENT
+BEGIN:VEVENT
+UID:lund-autonomous-gis-spatial-intelligence-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Lund Autonomous GIS PhD — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://lu.varbi.com/en/what:job/jobID:984146/iframeEmbedded:0/where:4\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/lund-autonomous-gis-spatial-intelligence-phd-2026/
+URL:https://lu.varbi.com/en/what:job/jobID:984146/iframeEmbedded:0/where:4
+END:VEVENT
+BEGIN:VEVENT
+UID:lund-forest-remote-sensing-carbon-productivity-researcher-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Lund Forest RS Researcher — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://lu.varbi.com/en/what:job/jobID:983518/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/lund-forest-remote-sensing-carbon-productivity-researcher-2026/
+URL:https://lu.varbi.com/en/what:job/jobID:983518/
+END:VEVENT
+BEGIN:VEVENT
+UID:mcgill-urban-analytics-geospatial-data-science-assistant-professor-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:McGill Urban Analytics + GeoSpatial Faculty — Application Portal End / Review Begins Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/mcgill-urban-analytics-geospatial-data-science-assistant-professor-2026/
+URL:https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826
+END:VEVENT
+BEGIN:VEVENT
+UID:ntu-bangka-mining-gis-remote-sensing-postdoc-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:NTU Bangka Mining GIS Postdoc — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ntu-bangka-mining-gis-remote-sensing-postdoc-2026/
+URL:https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045
+END:VEVENT
+BEGIN:VEVENT
+UID:nus-urban-analytics-lab-urban-data-science-two-phds-2026-lab-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:NUS Urban Analytics Lab 2 PhDs — Lab Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://ual.sg/opportunities/ads/2026-phd/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/nus-urban-analytics-lab-urban-data-science-two-phds-2026/
+URL:https://ual.sg/opportunities/ads/2026-phd/
+END:VEVENT
+BEGIN:VEVENT
+UID:polyu-gift-geospatial-transport-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:PolyU GIFT Transport GeoAI PhD — September 2027 Entry Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.geo-gift-lab.com/openings\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/polyu-gift-geospatial-transport-phd-2026/
+URL:https://www.geo-gift-lab.com/openings
+END:VEVENT
+BEGIN:VEVENT
+UID:rice-muse-multimodal-graph-ai-earth-systems-postdoc-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261202T055900Z
+DTEND:20261202T061400Z
+SUMMARY:Rice MUSE Graph AI Postdoc — Application Portal Closing Deadline
+DESCRIPTION:Original timezone: America/Chicago\nOfficial source: https://jobs.rice.edu/jobs/postdoctoral-associate-earth-environmental-planetary-sciences-houston-texas-united-states-806b3a68-95ee-4bcb-97b8-054d23a1aacf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/rice-muse-multimodal-graph-ai-earth-systems-postdoc-2026/
+URL:https://jobs.rice.edu/jobs/postdoctoral-associate-earth-environmental-planetary-sciences-houston-texas-united-states-806b3a68-95ee-4bcb-97b8-054d23a1aacf
+END:VEVENT
+BEGIN:VEVENT
+UID:sheffield-seismic-gis-risk-research-associate-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Sheffield Seismic GIS Risk RA — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard\,-Vulnerability-and-Risk-Assessment/3360-en_GB\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sheffield-seismic-gis-risk-research-associate-2026/
+URL:https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard\,-Vulnerability-and-Risk-Assessment/3360-en_GB
+END:VEVENT
+BEGIN:VEVENT
+UID:south-dakota-mines-gis-teaching-faculty-2026-first-consideration@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:South Dakota Mines GIS Teaching Faculty — First Consideration / Review Begins Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://yourfuture.sdbor.edu/postings/50484\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/south-dakota-mines-gis-teaching-faculty-2026/
+URL:https://yourfuture.sdbor.edu/postings/50484
+END:VEVENT
+BEGIN:VEVENT
+UID:stirling-geospatial-data-science-lecturer-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Stirling Geospatial Data Science Lecturer — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/stirling-geospatial-data-science-lecturer-2026/
+URL:https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science
+END:VEVENT
+BEGIN:VEVENT
+UID:twente-gpr-utility-mapping-ai-engd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Twente GPR + AI Utility Mapping EngD — Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://utwentecareers.nl/en/vacancies/2600/engd-position-ai-for-underground-infrastructure-detection-and-characterisation/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/twente-gpr-utility-mapping-ai-engd-2026/
+URL:https://utwentecareers.nl/en/vacancies/2600/engd-position-ai-for-underground-infrastructure-detection-and-characterisation/
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-hydrology-remote-sensing-postdoc-2026-final-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270101T075900Z
+DTEND:20270101T081400Z
+SUMMARY:UC Irvine Hydrology + RS Postdoc — Final Application Deadline
+DESCRIPTION:Original timezone: America/Los_Angeles\nOfficial source: https://recruit.ap.uci.edu/JPF10415\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/uci-hydrology-remote-sensing-postdoc-2026/
+URL:https://recruit.ap.uci.edu/JPF10415
+END:VEVENT
+BEGIN:VEVENT
+UID:ucl-spacetimelab-spatiotemporal-geoai-phd-2027-expression-of-interest@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:UCL SpaceTimeLab GeoAI PhD — Supervisor Expression of Interest Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.ucl.ac.uk/engineering/civil-environmental-geomatic-engineering/groups-centres-and-sections/spacetimelab\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ucl-spacetimelab-spatiotemporal-geoai-phd-2027/
+URL:https://www.ucl.ac.uk/engineering/civil-environmental-geomatic-engineering/groups-centres-and-sections/spacetimelab
+END:VEVENT
+BEGIN:VEVENT
+UID:uiuc-geoai-geospatial-computing-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:UIUC GeoCompSoc GeoAI PhD — Fall 2027 PhD Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geocompsoc.web.illinois.edu/opportunities/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/uiuc-geoai-geospatial-computing-phd-2026/
+URL:https://geocompsoc.web.illinois.edu/opportunities/
+END:VEVENT
+BEGIN:VEVENT
+UID:umd-coastal-geomorphology-remote-sensing-phd-2026-fall-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:UMD Coastal Geo PhD — Fall Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geog.umd.edu/facultyprofile/xie/danghan\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/umd-coastal-geomorphology-remote-sensing-phd-2026/
+URL:https://geog.umd.edu/facultyprofile/xie/danghan
+END:VEVENT
+BEGIN:VEVENT
+UID:ut-austin-geoai-phd-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:UT Austin GeoAI PhD — Geography PhD Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gengchenmai.github.io/html/recruit.html\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ut-austin-geoai-phd-2026/
+URL:https://gengchenmai.github.io/html/recruit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:utoronto-urban-environmental-remote-sensing-assistant-professor-2026-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270112T045900Z
+DTEND:20270112T051400Z
+SUMMARY:U of T Urban Environmental Remote Sensing Faculty — Application and Reference Letters Deadline
+DESCRIPTION:Original timezone: America/Toronto\nOfficial source: https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Urban-Environmental-Remote-Sensing-ON/607409417/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/utoronto-urban-environmental-remote-sensing-assistant-professor-2026/
+URL:https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Urban-Environmental-Remote-Sensing-ON/607409417/
+END:VEVENT
+BEGIN:VEVENT
+UID:virginia-tech-geoai-phd-2026-priority-application@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Virginia Tech GeoAI PhD — Priority Application Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://carnivalbug.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/virginia-tech-geoai-phd-2026/
+URL:https://carnivalbug.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:annals-gis-geographical-principles-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Geographical Principles in the New Era of Spatial Analysis and Modeling — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/annals-gis-geographical-principles-2026/
+URL:https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/
+END:VEVENT
+BEGIN:VEVENT
+UID:ceus-geoai-spatial-data-science-fire-research-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:GeoAI and Spatial Data Science for Fire Research — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ceus-geoai-spatial-data-science-fire-research-2026/
+URL:https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8
+END:VEVENT
+BEGIN:VEVENT
+UID:gisrs-swot-surface-water-hydrology-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Scientific Advances in Surface Water and Hydrological Cycle Observations from the SWOT Mission — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gisrs-swot-surface-water-hydrology-2027/
+URL:https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/
+END:VEVENT
+BEGIN:VEVENT
+UID:gisrs-urban-remote-sensing-environment-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Remote Sensing Solutions for Urban Environment and Ecosystem Monitoring\, Modelling\, and Management — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gisrs-urban-remote-sensing-environment-2027/
+URL:https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/
+END:VEVENT
+BEGIN:VEVENT
+UID:gisrs-vlm-remote-sensing-imagery-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:VLM Driven Intelligent Interpretation of Remote Sensing Imagery — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gisrs-vlm-remote-sensing-imagery-2027/
+URL:https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/
+END:VEVENT
+BEGIN:VEVENT
+UID:gsis-spatiotemporal-intelligence-foundation-models-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gsis-spatiotemporal-intelligence-foundation-models-2027/
+URL:https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijde-advancing-geoai-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Advancing GeoAI: From Machine Learning to Foundation Models for Explainable and Generative Geospatial Intelligence — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijde-advancing-geoai-2026/
+URL:https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijde-urban-environmental-intelligence-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:From Geospatial Data to Urban Environmental Intelligence — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijde-urban-environmental-intelligence-2027/
+URL:https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-equitable-geospatial-intelligence-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Equitable Geospatial Intelligence: Spatio-Temporal Perspectives on Social Equity and Well-Being — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/077D70GD57\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-equitable-geospatial-intelligence-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/077D70GD57
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-living-spaces-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Spatial Information for Improved Living Spaces (2nd Edition) — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-living-spaces-2026/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-llm4gis-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:LLM4GIS: Large Language Models for GIS — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-llm4gis-2026/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-urban-digital-twins-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Urban Digital Twins Empowered by AI and Dataspaces — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-urban-digital-twins-2026/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgis-critical-challenges-geoai-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Critical Challenges in GeoAI — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgis-critical-challenges-geoai-2026/
+URL:https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgis-ethics-geospatial-ai-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Ethics in Geospatial AI and Data Science — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgis-ethics-geospatial-ai-2026/
+URL:https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/
+END:VEVENT
+BEGIN:VEVENT
+UID:scientific-reports-geospatial-data-science-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Geospatial data science and analysis — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.nature.com/collections/jcieacchei\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/scientific-reports-geospatial-data-science-2027/
+URL:https://www.nature.com/collections/jcieacchei
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-autonomous-gis-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
+SUMMARY:Perspectives and Advances in Autonomous GIS — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001266\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-autonomous-gis-2027/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001266
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-disease-outbreaks-healthcare-resource-allocation-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Geospatial Analysis for Tracking Disease Outbreaks and Healthcare Resource Allocation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000301\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-disease-outbreaks-healthcare-resource-allocation-2026/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000301
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-geo-agentic-ai-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Geo-Agentic AI: Spatial Reasoning\, Tool Orchestration\, and Multi-Agent Systems — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001317\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-geo-agentic-ai-2027/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001317
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-geohazard-technologies-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Emerging Technologies for Geological Hazard Data Acquisition and Analysis in GIS — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-001336\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-geohazard-technologies-2026/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-001336
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-giscience-education-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Advances in GIScience Education — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2026-000643\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-giscience-education-2027/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2026-000643
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-human-behavior-urban-environments-ai-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Human Behavior and Urban Environments: Artificial Intelligence-Based Approaches — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2024-001363\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-human-behavior-urban-environments-ai-2026/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2024-001363
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-spatial-data-sharing-governance-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Spatial Data Sharing: Questions of Ownership\, Platforms\, and Governance — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-spatial-data-sharing-governance-2026/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055
+END:VEVENT
+BEGIN:VEVENT
+UID:tgis-spatiotemporal-big-data-planning-2027-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Spatiotemporal Big Data Modeling for Spatial Planning and Governance — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-000723\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tgis-spatiotemporal-big-data-planning-2027/
+URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-000723
+END:VEVENT
+BEGIN:VEVENT
+UID:tus-behavioral-resilience-extreme-weather-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Behavioral Resilience under Extreme Weather: Built Environment Effects\, Vulnerable Populations\, and Planning Strategies — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://journals.sagepub.com/page/tus/calls-for-papers/behavioral-resilience-under-extreme-weather\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tus-behavioral-resilience-extreme-weather-2026/
+URL:https://journals.sagepub.com/page/tus/calls-for-papers/behavioral-resilience-under-extreme-weather
+END:VEVENT
+BEGIN:VEVENT
+UID:tus-transport-human-mobility-2026-manuscript@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Interactions between Transport and Human Mobility — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://journals.sagepub.com/page/tus/calls-for-papers/transport-human-mobility\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/tus-transport-human-mobility-2026/
+URL:https://journals.sagepub.com/page/tus/calls-for-papers/transport-human-mobility
 END:VEVENT
 END:VCALENDAR

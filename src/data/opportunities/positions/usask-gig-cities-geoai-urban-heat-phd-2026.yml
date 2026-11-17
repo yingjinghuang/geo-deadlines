@@ -21,7 +21,7 @@ sources:
   - label: "Varuni Jayasooriya recruiting announcement for Winter 2027"
     url: "https://www.linkedin.com/posts/varuni-jayasooriya-00233667_phdposition-fullyfundedphd-geoai-activity-7493498237882880000-j2eB"
     kind: announcement
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Saskatoon"
@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Original university lab graduate recruitment page checked on 4 November 2026 explicitly invites MSc/PhD applicants for multiple GeoAI and urban-sustainability themes and lists email application materials. The specific earlier advertised fully funded urban-heat PhD, start term and funding availability are not independently reconfirmed. No fixed cutoff is given."
+    note: "Original university lab graduate recruitment page rechecked 17 November 2026 explicitly invites MSc/PhD applicants for GeoAI and urban-sustainability themes and lists email application materials. The specific earlier advertised fully funded urban-heat award, start term and funding availability remain independently unconfirmed. No fixed cutoff is given."

@@ -19,7 +19,7 @@ sources:
   - label: "University of Exeter official 2027 EPSRC DLA project listings"
     url: "https://www.exeter.ac.uk/study/pg-research/funding/phdfunding/epsrc-dla-studentships/finding_a_phd_research_project/"
     kind: official
-last_verified: "2026-11-05"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Exeter"
@@ -32,8 +32,18 @@ deadlines:
   - id: application
     type: application
     label: "EPSRC DLA Application"
-    datetime: "2026-12-08T12:00:00+00:00"
-    timezone: "Europe/London"
+    datetime: "2026-12-08"
+    timezone: null
     status: active
     primary: true
-    note: "University of Exeter official funding listing explicitly confirms the satellite radar Arctic permafrost project and that all award applications close Tuesday 8 December 2026 at midday (Europe/London, UTC+00:00 in December). References are separately required by 8 January 2027; this is not the primary application deadline. Funding is competitive and subject to eligibility, not an unconditional offer to every applicant."
+    note: "The original Exeter EPSRC DLA award confirms applications close at midday on 8 December 2026. The source does not print a timezone, so only the calendar date is encoded; applicants must follow the published midday cutoff. Funding selection and eligibility conditions apply. References have a separate 8 January 2027 deadline."
+    precision: date
+  - id: references
+    type: other
+    label: References Due
+    datetime: "2027-01-08"
+    precision: date
+    timezone: null
+    status: active
+    note: Separate supporting-reference deadline for the December application round; this is not a new application deadline.
+    url: https://www.exeter.ac.uk/study/funding/award/?id=6012

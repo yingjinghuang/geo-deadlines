@@ -3,7 +3,7 @@ short_name: "CUPUM 2027"
 type: conference
 series: "International Conference on Computational Urban Planning and Urban Management"
 year: 2027
-description: "UNSW Sydney-hosted conference on Future Cities in the Era of AI, including urban computing, street-view computer vision, urban analytics, planning support, geodesign, mobility and digital twins. The organizer labels its submission dates indicative, not final."
+description: "UNSW Sydney-hosted conference on Future Cities in the Era of AI, including urban computing, street-view computer vision, urban analytics, planning support, geodesign, mobility and digital twins."
 scope: core
 topics:
   - urban
@@ -12,15 +12,21 @@ topics:
   - mobility
   - computer-vision
   - sustainability
-website: "https://conference.unsw.edu.au/en/cupum-2027/call-for-submissions"
+website: "https://cupum2027.com.au/"
 sources:
-  - label: "Official UNSW Sydney CUPUM 2027 call and provisional key dates"
-    url: "https://conference.unsw.edu.au/en/cupum-2027/call-for-submissions"
+  - label: Official UNSW event page redirecting to the current organizer site
+    url: https://conference.unsw.edu.au/en/cupum-2027
     kind: official
-last_verified: "2026-11-04"
+  - label: Official CUPUM 2027 call and submission timeline
+    url: https://cupum2027.com.au/call-for-papers/
+    kind: official
+  - label: Official CUPUM 2027 event dates
+    url: https://cupum2027.com.au/
+    kind: official
+last_verified: "2026-11-17"
 event:
   start: "2027-07-05"
-  end: "2027-07-10"
+  end: "2027-07-09"
 location:
   mode: in_person
   city: "Sydney"
@@ -32,18 +38,33 @@ organizations:
 deadlines:
   - id: paper-poster
     type: short_paper
-    label: "Conference Paper / Poster Submission (Provisional)"
+    label: "Conference Paper / Poster Submission"
     datetime: "2027-02-12"
     precision: date
     timezone: null
     status: active
     primary: true
-    note: "Organizer expressly calls all schedule dates indicative and subject to confirmation. Conference papers are 1,500-2,000-word extended abstracts; posters use 250-word abstracts. Book-chapter submissions require an already-passed abstract stage and are not open new submissions."
+    note: "Current organizer CFP confirms this date. Conference papers use 1,500–2,000-word extended abstracts and posters use 250-word abstracts. The initial book-chapter abstract stage has closed; it is a separate selected-author route."
   - id: revised-paper
     type: camera_ready
-    label: "Revised Papers / Full Digital Posters (Provisional)"
+    label: "Revised Papers / Full Digital Posters"
     datetime: "2027-06-18"
     precision: date
     timezone: null
     status: active
-    note: "This is the provisional revised-material deadline, not the initial conference submission deadline."
+    note: "Revised accepted material only; this is not initial conference intake."
+  - id: book-chapter-revision
+    type: revision
+    label: Selected Book Chapter Revision
+    datetime: "2027-01-29"
+    precision: date
+    timezone: null
+    status: active
+    note: Only for authors selected through the already-closed book-chapter abstract stage.
+  - id: early-registration
+    type: registration
+    label: Early-bird Registration
+    datetime: "2027-04-28"
+    precision: date
+    timezone: null
+    status: active

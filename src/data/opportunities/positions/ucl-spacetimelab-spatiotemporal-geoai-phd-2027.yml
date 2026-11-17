@@ -1,0 +1,42 @@
+title: PhD Applicants — Spatiotemporal AI and GeoAI at UCL SpaceTimeLab
+short_name: UCL SpaceTimeLab GeoAI PhD
+type: position
+position_category: phd
+year: 2027
+description: UCL SpaceTimeLab invites PhD expressions of interest for Spring or Autumn 2027 in geospatial foundation models, sustainable cities, mobility safety and geospatial representation learning. Prospective supervisors include Tao Cheng, James Haworth and Konstantin Klemmer. Self-funded and competitive scholarship routes are available; this announcement is not a guaranteed funded studentship.
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - urban
+  - mobility
+  - machine-learning
+website: https://www.ucl.ac.uk/engineering/civil-environmental-geomatic-engineering/groups-centres-and-sections/spacetimelab
+sources:
+  - label: Official UCL SpaceTimeLab page identifying its LinkedIn channel
+    url: https://www.ucl.ac.uk/engineering/civil-environmental-geomatic-engineering/groups-centres-and-sections/spacetimelab
+    kind: official
+  - label: Original SpaceTimeLab 2027 PhD recruitment announcement
+    url: https://uk.linkedin.com/company/spacetimelab
+    kind: announcement
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: London
+  country: United Kingdom
+  country_code: GB
+organizations:
+  - University College London
+  - SpaceTimeLab
+  - Department of Civil, Environmental and Geomatic Engineering
+deadlines:
+  - id: expression-of-interest
+    type: application
+    label: Supervisor Expression of Interest
+    datetime: "2026-12-03"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The lab original announcement gives 3 December 2026. Email a CV and a 1–2 page research proposal to the proposed supervisor. This is the lab expression-of-interest deadline; admission and competitive scholarship processes have their own requirements. No closing time is stated.

@@ -3,7 +3,7 @@ short_name: "GISRUK 2027"
 type: conference
 series: "Geographic Information Science Research UK"
 year: 2027
-description: "Established GIScience Research UK annual meeting, officially announced for the week of 12 April 2027 at the University of Nottingham. Exact conference days and the call for papers have not yet been announced."
+description: "The 35th Annual GIS Research UK Conference, hosted by the University of Nottingham on 13–16 April 2027, covering methodological and applied GIScience."
 scope: core
 topics:
   - giscience
@@ -13,10 +13,13 @@ topics:
   - geovisualization
 website: "https://gisruk.org/gisruk-2027/"
 sources:
-  - label: "Official GISRUK 2027 host, week and forthcoming CFP announcement"
+  - label: "Official GISRUK 2027 host, exact dates and abstract deadline"
     url: "https://gisruk.org/gisruk-2027/"
     kind: official
-last_verified: "2026-11-04"
+  - label: Official GISRUK series link to the 2027 call
+    url: https://gisruk.org/gisruk-2027/call-for-papers-2027/
+    kind: official
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Nottingham"
@@ -27,10 +30,21 @@ organizations:
   - "University of Nottingham"
 deadlines:
   - id: paper
-    type: paper
-    label: "Paper Submission"
-    datetime: TBD
+    type: abstract
+    label: "Research Abstract"
+    datetime: "2027-02-01"
     timezone: null
     status: active
     primary: true
-    note: "The official GISRUK series has announced its 2027 host and conference week only. Do not invent the precise meeting dates or a paper-submission deadline before the organizer publishes the CFP."
+    note: "The official GISRUK association page directly confirms the 1 February 2027 deadline for all abstracts. The linked dedicated conference site returned 403 during this review; no exact submission hour or timezone was available."
+    precision: date
+  - id: registration
+    type: registration
+    label: Registration
+    datetime: "2027-04-05"
+    precision: date
+    timezone: null
+    status: active
+event:
+  start: "2027-04-13"
+  end: "2027-04-16"

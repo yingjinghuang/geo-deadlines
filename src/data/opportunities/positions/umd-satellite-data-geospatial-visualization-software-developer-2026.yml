@@ -1,0 +1,40 @@
+title: Scientific Software Developer — Satellite Data Processing and Web Visualization
+short_name: UMD Satellite Data + Geovisualization Developer
+type: position
+position_category: research_staff
+year: 2026
+description: Two-year CISESS project position developing satellite precipitation processing and the PrecipWatch interactive mapping platform using Python, web applications, raster tiles and GeoJSON. Bachelor’s or master’s qualifications are sufficient; this is research software staff recruitment. Work includes up to three onsite days weekly in College Park. U.S. citizenship or permanent residence is required for facility access.
+scope: core
+topics:
+- earth-observation
+- remote-sensing
+- geovisualization
+- spatial-computing
+- giscience
+website: https://essic.umd.edu/scientific-software-developer-satellite-data-processing-and-web-visualization/
+sources:
+- label: Original University of Maryland ESSIC/CISESS software developer advertisement
+  url: https://essic.umd.edu/scientific-software-developer-satellite-data-processing-and-web-visualization/
+  kind: official
+- label: Current official ESSIC employment index
+  url: https://essic.umd.edu/about/employment/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: hybrid
+  city: College Park
+  country: United States
+  country_code: US
+organizations:
+- University of Maryland
+- ESSIC
+- Cooperative Institute for Satellite Earth System Studies
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  note: The original employer notice, also listed in its current employment index, invites a CV and brief relevant-experience description by email to Shuyan Liu. No fixed closing date or explicit until-filled policy is published.
+  primary: true

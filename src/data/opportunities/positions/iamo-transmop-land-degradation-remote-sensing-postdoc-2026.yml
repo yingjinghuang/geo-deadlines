@@ -13,12 +13,15 @@ topics:
   - climate
   - sustainability
   - mobility
-website: "https://www.leibniz-gemeinschaft.de/en/careers/jobs/detail/job/show/Job/postdoctoral-researcher-in-remote-sensing-and-land-degradation-fmd-1"
+website: "https://www.iamo.de/en/career/job-offers-scholarships"
 sources:
-  - label: "Official Leibniz Association recruitment announcement for IAMO TransMoP"
-    url: "https://www.leibniz-gemeinschaft.de/en/careers/jobs/detail/job/show/Job/postdoctoral-researcher-in-remote-sensing-and-land-degradation-fmd-1"
+  - label: IAMO current job offers and scholarships
+    url: https://www.iamo.de/en/career/job-offers-scholarships
     kind: official
-last_verified: "2026-11-05"
+  - label: Original IAMO TransMoP vacancy PDF
+    url: https://www.iamo.de/fileadmin/user_upload/Bilder_und_Dokumente/06-karriere/01-stellenangebote_stipendien/2026-10_TransMoP_Postdoc_Announcement_draft.pdf
+    kind: official
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Halle (Saale)"
@@ -36,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official Leibniz Association job detail dated 22 October 2026 explicitly states the final application date is 15 November 2026. No closing clock time published."
+    note: "Rechecked 17 November 2026: IAMO still lists this exact vacancy in its current jobs index, and its linked original PDF confirms the final date 15 November 2026. That deadline has passed; no extension or acceptance of late applications is confirmed. The unavailable Leibniz directory link is replaced by the employer sources."

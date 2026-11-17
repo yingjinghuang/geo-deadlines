@@ -1,6 +1,7 @@
 title: "Assistant Professor of Economics — Urban/Regional Spatial Data Analysis"
 short_name: "SJSU Spatial Data Analysis Faculty"
 type: position
+position_category: "faculty"
 year: 2026
 description: "A tenure-track Assistant Professor position at San José State University beginning Fall 2027 for research and teaching in urban economics, regional economics, and spatial data analysis."
 scope: core
@@ -13,7 +14,7 @@ sources:
   - label: "Official San José State University faculty vacancy 560948"
     url: "https://jobs.sjsu.edu/en-us/job/560948/assistant-professor-of-economics-urbanregional-spatial-data-analysis"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "San José"
@@ -31,7 +32,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official posting labels October 15, 2026 the application deadline, although its Apply now button and blank closing-date field remain visible on October 16. No official extension confirmed; do not present October 16 as a new deadline."
+    note: "Rechecked 17 November 2026: the official posting still labels 15 October 2026 the application deadline, while Apply now remains visible and the closing-date field is blank. No official extension or guaranteed late eligibility is stated; the original deadline is retained."
   - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"

@@ -14,13 +14,16 @@ journal:
   publisher: "Wiley"
 website: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055"
 sources:
-  - label: "Official Transactions in GIS current calls for papers"
-    url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+  - label: "Official Wiley dedicated special issue call"
+    url: "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055"
     kind: publisher
   - label: "Official Wiley current Transactions in GIS CFP index"
     url: "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
+guest_editors:
+  - name: "Peter Johnson"
+  - name: "Pamela Robinson"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript

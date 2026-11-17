@@ -18,16 +18,16 @@ sources:
   - label: "Official AGILE–ISDE (YIF) 2027 call for papers"
     url: "https://agile-gi.eu/conference-2027/call-for-papers-2027"
     kind: official
-  - label: "Organizer important-dates graphic (full paper 10 Jan; short paper 12 Feb)"
-    url: "https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates.png"
+  - label: "Official updated important-dates graphic, visually checked 17 November 2026"
+    url: "https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates_New.png"
     kind: official
   - label: "Official AGILE–ISDE (YIF) 2027 call for workshops"
-    url: "https://www.agile-online.org/conference-2027/call-for-workshops-2027"
+    url: "https://agile-gi.eu/conference-2027/call-for-workshops-2027"
     kind: official
   - label: "Official AGILE–ISDE (YIF) 2027 student travel grants"
-    url: "https://www.agile-online.org/conference-2027/student-travel-grants-2027"
+    url: "https://agile-gi.eu/conference-2027/student-travel-grants-2027"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-06-21"
   end: "2027-06-24"
@@ -101,3 +101,32 @@ deadlines:
     timezone: null
     status: active
     note: "The official grant page gives the application date without stating an exact time or timezone."
+  - id: abstract
+    type: abstract
+    label: YIF Abstract
+    datetime: "2027-02-12"
+    precision: date
+    timezone: null
+    status: active
+    note: Up to 300 words, according to the distinct YIF abstract track in the official CFP. The updated timetable explicitly includes abstracts; no exact time or timezone is published.
+  - id: abstract-notification
+    type: notification
+    label: Abstract Notification
+    datetime: "2027-02-26"
+    precision: date
+    timezone: null
+    status: active
+  - id: workshop-notification
+    type: notification
+    label: Workshop Notification
+    datetime: "2027-02-12"
+    precision: date
+    timezone: null
+    status: active
+  - id: regular-registration
+    type: registration
+    label: Regular Registration
+    datetime: "2027-06-08"
+    precision: date
+    timezone: null
+    status: active

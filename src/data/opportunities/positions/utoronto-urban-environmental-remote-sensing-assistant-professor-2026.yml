@@ -1,0 +1,40 @@
+title: Assistant Professor — Urban Environmental Remote Sensing
+short_name: U of T Urban Environmental Remote Sensing Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Tenure-stream Assistant Professor in Geography and Planning at the University of Toronto St. George campus, using remote sensing and geographic data science for urban and environmental change. Topics include climate adaptation, land-use change, urban heat and environmental justice. Anticipated start is 1 July 2027.
+scope: core
+topics:
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- urban
+- geography
+- climate
+- sustainability
+website: https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Urban-Environmental-Remote-Sensing-ON/607409417/
+sources:
+- label: Official University of Toronto vacancy 48727
+  url: https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Urban-Environmental-Remote-Sensing-ON/607409417/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Toronto
+  country: Canada
+  country_code: CA
+organizations:
+- University of Toronto
+- Department of Geography and Planning
+- Faculty of Arts and Science
+deadlines:
+- id: application
+  type: application
+  label: Application and Reference Letters
+  datetime: '2027-01-11T23:59:00-05:00'
+  precision: datetime
+  timezone: America/Toronto
+  status: active
+  primary: true
+  note: Original vacancy 48727 explicitly closes 11 January 2027 at 11:59 PM Eastern Time. All application materials, including reference letters, must arrive by that deadline.

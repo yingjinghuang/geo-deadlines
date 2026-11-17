@@ -22,6 +22,9 @@ sources:
   - label: "Official ICCV 2027 event page"
     url: "https://iccv.thecvf.com/Conferences/2027"
     kind: official
+  - label: Official ICCV 2027 dedicated dates page
+    url: https://iccv.thecvf.com/Conferences/2027/Dates
+    kind: official
 last_verified: "2026-11-04"
 event:
   start: "2027-10-03"
@@ -36,11 +39,11 @@ organizations:
   - "IEEE Computer Society"
   - "Computer Vision Foundation"
 deadlines:
-  # The official header says Oct 3–7; the same page also lists venue access Oct 2–8.
+  # The dedicated timetable says Oct 3–7; the homepage venue paragraph still says Oct 2–8. The reason for the discrepancy is not stated.
   - id: full-paper
     type: full_paper
     label: "Paper Submission"
     datetime: TBD
     timezone: null
     status: active
-    note: "The official ICCV 2027 paper-submission deadline has not yet been announced."
+    note: "Rechecked 17 November 2026: the paper deadline remains unpublished. The dedicated Dates page and homepage header say 3–7 October 2027 (workshops 3–4, main conference 5–7), while the homepage venue paragraph still says 2–8 October. The stored event dates follow the dedicated timetable; the conflicting venue range remains unresolved."

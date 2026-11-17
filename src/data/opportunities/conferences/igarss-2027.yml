@@ -25,7 +25,7 @@ sources:
   - label: "Official IGARSS 2027 Community Contributed Theme call"
     url: "https://2027.ieeeigarss.org/cct_proposal.php"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -65,7 +65,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The official Important Dates page and the CFP Key Dates both list 11 January 2027. A sentence in the CFP body still says 10 January, so GeoDeadlines uses the dedicated Important Dates schedule as canonical."
+    note: "Homepage, Important Dates and both the CFP summary and body rechecked 17 November 2026 all agree on 11 January 2027. The submission system is announced open. No exact cutoff hour or timezone is published."
   - id: student-paper-competition
     type: other
     label: "Student Paper Competition"

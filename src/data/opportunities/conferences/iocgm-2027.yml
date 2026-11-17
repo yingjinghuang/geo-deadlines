@@ -20,7 +20,10 @@ sources:
   - label: "MDPI Geomatics official conference announcement"
     url: "https://www.mdpi.com/journal/geomatics/news-and-conferences/news/16476"
     kind: official
-last_verified: "2026-11-04"
+  - label: Official IOCGM 2027 author instructions
+    url: https://sciforum.net/event/IOCGM2027/instructions-for-authors
+    kind: official
+last_verified: "2026-11-17"
 event:
   start: "2027-03-17"
   end: "2027-03-18"
@@ -32,11 +35,12 @@ deadlines:
   - id: abstract
     type: abstract
     label: "Abstract Submission"
-    datetime: "2026-11-20T23:59:00-12:00"
-    timezone: "AoE"
+    datetime: "2026-11-20"
+    timezone: null
     status: active
     primary: true
-    note: "The Sciforum organizers confirm that abstract submission is currently open. This is an online meeting, not an in-person proceedings conference."
+    note: "The organizer announces abstract intake open and gives 20 November 2026 in both the event page and author instructions. Neither publishes a cutoff hour or timezone; stored as date-only. This is an online meeting."
+    precision: date
   - id: acceptance
     type: notification
     label: "Abstract Acceptance"

@@ -3,7 +3,7 @@ short_name: "Rice MUSE Graph AI Postdoc"
 type: position
 position_category: postdoc
 year: 2026
-description: "Rice University's MUSE cluster seeks a postdoctoral researcher developing graph neural networks and foundation models for irregular multi-scale Earth observation data, spatial networks and spatiotemporal prediction across hydrology, flood dynamics, cryosphere and earthquakes. Initial appointment is one year with possible renewal. The live university HR system shows a 1 December 2026 closing date, while a faculty announcement says review begins then and may continue; verify with HR if applying late."
+description: "Rice University's MUSE cluster seeks a postdoctoral researcher developing graph neural networks and foundation models for irregular multi-scale Earth observation data, spatial networks and spatiotemporal prediction across hydrology, flood dynamics, cryosphere and earthquakes. Initial appointment is one year with possible renewal. The official HR page shows a 1 December 2026 closing time in its header, while its description says review begins then and continues until filled; applicants considering later submission should confirm portal availability with the employer."
 scope: core
 topics:
   - geoai
@@ -21,7 +21,7 @@ sources:
   - label: "Rice EEPS department recruiting notice"
     url: "https://eeps.rice.edu/center-career-development"
     kind: official
-last_verified: "2026-11-05"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Houston"
@@ -39,4 +39,4 @@ deadlines:
     timezone: "America/Chicago"
     status: active
     primary: true
-    note: "Rice HR currently says Closing at Dec 1 2026 11:59pm CST. Rice faculty/department announcements instead say first review begins Dec 1 and applications continue until filled. The original applicant portal's explicit closing time is shown, with the conflict documented."
+    note: "Rechecked 17 November 2026: the official Rice HR header gives 1 December 2026 at 11:59 PM CST, while the description on that same page says review begins 1 December and continues until filled. The explicit portal closing time is displayed; the narrative does not guarantee that the portal will accept later applications."

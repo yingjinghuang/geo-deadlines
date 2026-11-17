@@ -8,12 +8,12 @@ journal:
   name: "International Journal of Digital Earth"
   short_name: "IJDE"
   publisher: "Taylor & Francis"
-website: "https://think.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/"
+website: "https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/"
 sources:
   - label: "Official Taylor & Francis article collection"
-    url: "https://think.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/"
+    url: "https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Ali Mansourian"
   - name: "Maria A. Brovelli"

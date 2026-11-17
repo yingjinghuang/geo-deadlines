@@ -1,6 +1,7 @@
 title: "Assistant Professor in Climate Science"
 short_name: "Stanford Climate Science Faculty"
 type: position
+position_category: "faculty"
 year: 2026
 description: "A Stanford University tenure-line Assistant Professor search in climate science spanning climate processes, impacts, sustainability engineering, modelling, field studies, and synthesis of satellite data."
 scope: adjacent
@@ -15,7 +16,7 @@ sources:
   - label: "Official Stanford faculty position"
     url: "https://facultypositions.stanford.edu/jobs/assistant-professor-in-climate-science-stanford-university-california-united-states"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Stanford"
@@ -28,10 +29,13 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-11-01T23:55:00-08:00"
-    timezone: "America/Los_Angeles"
+    datetime: "2026-11-01"
+    timezone: null
     status: active
     primary: true
+    precision: "date"
+    note: "Rechecked 17 November 2026: the original faculty advert states 1 November 2026 without a cutoff hour or timezone. The previous 23:55 timestamp was not supported by the current source and has been removed. Later applications are considered only at the search committee's discretion."
+
   - id: late-application
     type: application
     label: "Later Application (Confirm Eligibility)"

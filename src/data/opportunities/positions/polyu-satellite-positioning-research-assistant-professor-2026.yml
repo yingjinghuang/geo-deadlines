@@ -1,0 +1,43 @@
+title: Research Assistant Professor in Positioning Technologies
+short_name: PolyU Satellite Positioning RAP
+type: position
+position_category: faculty
+year: 2026
+description: Research Assistant Professor in PolyU Land Surveying and Geospatial Science specializing in satellite positioning technologies. Duties include research, teaching and service to the department and PolyU-Hefei Technology and Innovation Research Institute. The initial term is normally two to three years, with possible extension; a relevant PhD is required.
+scope: core
+topics:
+- giscience
+- spatial-computing
+- lbs
+website: https://jobs.polyu.edu.hk/job_detail.php?job=260609006
+sources:
+- label: Official PolyU vacancy 260609006
+  url: https://jobs.polyu.edu.hk/job_detail.php?job=260609006
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Hong Kong
+  country: Hong Kong
+  country_code: HK
+organizations:
+- The Hong Kong Polytechnic University
+- Department of Land Surveying and Geospatial Science
+deadlines:
+- id: initial-consideration
+  type: application
+  label: Consideration Begins
+  datetime: '2026-06-22'
+  precision: date
+  timezone: null
+  status: active
+  primary: true
+  note: The original vacancy gives 22 June 2026 as the start of consideration and explicitly continues until filled.
+- id: rolling-application
+  type: application
+  label: Rolling Application
+  datetime: TBD
+  timezone: null
+  status: active
+  note: PolyU still displays the vacancy with an application link and explicit consideration until filled.
+  rolling: true

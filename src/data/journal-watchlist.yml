@@ -5,7 +5,10 @@
 # source gives a concrete submission deadline (or an explicitly announced TBD
 # call that is important enough to track).
 
-last_reviewed: "2026-08-25"
+# last_reviewed records a completed sweep attempt, including documented access
+# failures; it does not certify that every publisher page was accessible.
+last_reviewed: "2026-11-17"
+review_report: "docs/verification-audit-journals-2026-11-17.md"
 seed_source:
   name: "Awesome Autonomous GeoAI"
   url: "https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai#journals"
