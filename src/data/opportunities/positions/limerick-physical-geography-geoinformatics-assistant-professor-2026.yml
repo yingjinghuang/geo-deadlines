@@ -12,15 +12,15 @@ topics:
   - spatial-data-science
   - climate
   - machine-learning
-website: "https://www.jobs.ac.uk/job/DTJ798/assistant-professor-in-geography"
+website: "https://my.corehr.com/pls/esbsheulrecruit/erq_jobspec_details_form.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_applicant_no=&p_recruitment_id=085269&p_process_type=&p_form_profile_detail=&p_display_apply_ind=N"
 sources:
-  - label: "University-authored posting distributed through jobs.ac.uk (reference 085269)"
-    url: "https://www.jobs.ac.uk/job/DTJ798/assistant-professor-in-geography"
-    kind: announcement
-  - label: "Official University of Limerick employer website"
-    url: "https://www.ul.ie/"
+  - label: Official University of Limerick CoreHR vacancy 085269
+    url: https://my.corehr.com/pls/esbsheulrecruit/erq_jobspec_details_form.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_applicant_no=&p_recruitment_id=085269&p_process_type=&p_form_profile_detail=&p_display_apply_ind=N
     kind: official
-last_verified: "2026-11-05"
+  - label: University of Limerick official HR vacancy gateway
+    url: https://www.ul.ie/hrvacancies
+    kind: official
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Limerick"
@@ -38,4 +38,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "University-authored syndicated vacancy 085269 states applications must be completed before 12 noon Irish local time on Wednesday 18 November 2026. The direct university individual HR posting was not independently accessible; check the official applicant system for status and exact cutoff. Date-only precision retains the original text's lack of an explicitly stated timezone offset."
+    note: "Original university-linked CoreHR vacancy 085269 was retrieved on 17 November 2026 and confirms applications before 12 noon on 18 November 2026. The advert uses IST without clarifying its November offset; only the calendar date is encoded. Follow the employer portal clock and published noon instruction."

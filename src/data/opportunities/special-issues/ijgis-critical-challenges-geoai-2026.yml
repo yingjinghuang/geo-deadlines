@@ -8,12 +8,12 @@ journal:
   name: "International Journal of Geographical Information Science"
   short_name: "IJGIS"
   publisher: "Taylor & Francis"
-website: "https://think.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
+website: "https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
 sources:
   - label: "Official Taylor & Francis call for papers"
-    url: "https://think.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
+    url: "https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Wenwen Li"
   - name: "Michael F. Goodchild"
@@ -35,3 +35,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
+    note: "Invitation-stage manuscript deadline: the publisher invites full papers only after the abstract stage (2026-08-01). The abstract deadline has passed; this date is not evidence of unrestricted new manuscript intake."

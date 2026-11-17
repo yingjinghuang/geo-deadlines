@@ -1,0 +1,43 @@
+title: Assistant Professor in Geography — Urban Analytics and Geospatial Data Science
+short_name: McGill Urban Analytics + GeoSpatial Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Tenure-track Assistant Professor in McGill Geography combining geospatial data-science methods with urban research, including GeoAI, mobility, environmental sensing, spatial demography and urban inequality. Teaching includes GIS, spatial analysis and spatial statistics. A relevant PhD is required by appointment.
+scope: core
+topics:
+- giscience
+- geoai
+- spatial-data-science
+- spatial-statistics
+- urban
+- mobility
+- sustainability
+website: https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826
+sources:
+- label: Official McGill Workday vacancy JR0000078826
+  url: https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826
+  kind: official
+- label: Official Workday public job-detail response
+  url: https://mcgill.wd3.myworkdayjobs.com/wday/cxs/mcgill/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Montreal
+  country: Canada
+  country_code: CA
+organizations:
+- McGill University
+- Department of Geography
+- Faculty of Science
+deadlines:
+- id: application
+  type: application
+  label: Application Portal End / Review Begins
+  datetime: '2026-12-01'
+  precision: date
+  timezone: null
+  status: active
+  primary: true
+  note: The original Workday response lists an application end date of 1 December 2026, while the description says review begins that day. No cutoff hour or explicit acceptance until filled is published; later submission is not guaranteed.

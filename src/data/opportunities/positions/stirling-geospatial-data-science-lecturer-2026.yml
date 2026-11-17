@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "University-authored syndicated vacancy FAC02153 states midnight Monday 23 November 2026 as its closing date. The university's own careers directory uses dynamic rendering and did not expose individual job details in the available text client; status and exact cutoff should be reconfirmed on the official application portal."
+    note: "Recheck attempted 17 November 2026: the official Stirling directory renders individual vacancies dynamically and its public recruitment service did not return the matching FAC02153 record. The university-authored jobs.ac.uk advertisement still supports the previously recorded 23 November 2026 date, but current official-portal status and exact cutoff remain unresolved. The previous verification date is retained."

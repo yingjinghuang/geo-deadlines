@@ -1,0 +1,43 @@
+title: Instructor, Lecturer or Senior Lecturer of Geology — GIS
+short_name: South Dakota Mines GIS Teaching Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Full-time, nine-month faculty appointment at South Dakota Mines teaching GIS, remote sensing and geospatial technology, coordinating geospatial programs and administering GIS software. This is a non-tenure-track teaching appointment beginning August 2027. A relevant master’s degree is required; a PhD is preferred. Visa sponsorship is unavailable.
+scope: core
+topics:
+- giscience
+- remote-sensing
+- geography
+website: https://yourfuture.sdbor.edu/postings/50484
+sources:
+- label: Official South Dakota Board of Regents posting F01960P
+  url: https://yourfuture.sdbor.edu/postings/50484
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Rapid City
+  country: United States
+  country_code: US
+organizations:
+- South Dakota Mines
+- Department of Geology and Geological Engineering
+deadlines:
+- id: first-consideration
+  type: application
+  label: First Consideration / Review Begins
+  datetime: '2026-12-31'
+  precision: date
+  timezone: null
+  status: active
+  primary: true
+  note: The original advert gives 31 December 2026 for first consideration and explicitly marks the search open until filled.
+- id: rolling-application
+  type: application
+  label: Rolling Application
+  datetime: TBD
+  timezone: null
+  status: active
+  note: 'The official recruitment portal states Open Until Filled: Yes; no final closing date is published.'
+  rolling: true

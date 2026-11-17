@@ -21,7 +21,10 @@ sources:
   - label: "GeoAI conference series website"
     url: "https://geoaiconference.org/"
     kind: official
-last_verified: "2026-11-04"
+  - label: Official GeoAI 2027 call, submission routes and exact AoE deadlines
+    url: https://2027.geoaiconference.org/call-for-papers/
+    kind: official
+last_verified: "2026-11-17"
 event:
   start: "2027-06-29"
   end: "2027-07-02"
@@ -34,11 +37,43 @@ organizations:
   - "University College London (UCL)"
   - "UCL SpaceTimeLab"
 deadlines:
+  - id: workshop-proposal
+    type: proposal
+    label: Workshop / Tutorial Proposal
+    datetime: "2027-01-08T23:59:00-12:00"
+    timezone: AoE
+    status: active
+    note: Up to 1,000 words; organizer says the email submission address is coming soon.
   - id: paper
-    type: paper
-    label: "Paper Submission"
-    datetime: TBD
-    timezone: null
+    type: abstract
+    label: Extended Abstract
+    datetime: "2027-01-22T23:59:00-12:00"
+    timezone: AoE
     status: active
     primary: true
-    note: "The conference dates are announced; the official site says the call for papers and submission details will be announced soon."
+    note: 800–1,200 words; accepted abstracts appear in Zenodo proceedings. The EasyChair link and templates are not yet available, so this verifies the announced cutoff rather than an operational submission portal.
+  - id: published-article
+    type: paper
+    label: Published-article Summary
+    datetime: "2027-01-22T23:59:00-12:00"
+    timezone: AoE
+    status: active
+    note: 300–600-word summary of a peer-reviewed journal/conference paper published in 2025–2027; a presentation route, not submission of a new full paper.
+  - id: notification
+    type: notification
+    label: Acceptance Notification
+    datetime: "2027-03-01T23:59:00-12:00"
+    timezone: AoE
+    status: active
+  - id: early-registration
+    type: registration
+    label: Early-bird Registration
+    datetime: "2027-04-02T23:59:00-12:00"
+    timezone: AoE
+    status: active
+  - id: registration
+    type: registration
+    label: Registration Closes
+    datetime: "2027-06-07T23:59:00-12:00"
+    timezone: AoE
+    status: active

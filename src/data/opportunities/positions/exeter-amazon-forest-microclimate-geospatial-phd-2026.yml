@@ -20,7 +20,10 @@ sources:
   - label: "Official project lead's current 2026 studentship announcement"
     url: "https://sites.exeter.ac.uk/amazon-pyrocarbon/2026/10/26/phd-studentship-can-low-cost-sensors-and-models-show-which-amazon-forests-are-most-at-risk-of-burning/"
     kind: official
-last_verified: "2026-11-05"
+  - label: Official Exeter EPSRC DLA project listings
+    url: https://www.exeter.ac.uk/study/pg-research/funding/phdfunding/epsrc-dla-studentships/finding_a_phd_research_project/
+    kind: official
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Exeter"
@@ -39,4 +42,13 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Exeter's 2027 EPSRC Geography call lists this PhD; its official project-group post explicitly confirms applications close at midday on 8 December 2026. Date-only precision is retained because no timezone is printed; see the official source for the midday UK-local cutoff and eligibility conditions."
+    note: "The original Exeter EPSRC DLA award confirms applications close at midday on 8 December 2026. The source does not print a timezone, so only the calendar date is encoded; applicants must follow the published midday cutoff. Funding selection and eligibility conditions apply. References have a separate 8 January 2027 deadline."
+  - id: references
+    type: other
+    label: References Due
+    datetime: "2027-01-08"
+    precision: date
+    timezone: null
+    status: active
+    note: Separate supporting-reference deadline for the December application round; this is not a new application deadline.
+    url: https://www.exeter.ac.uk/study/funding/award/?id=6015

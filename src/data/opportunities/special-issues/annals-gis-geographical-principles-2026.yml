@@ -8,12 +8,12 @@ journal:
   name: "Annals of GIS"
   short_name: "Annals of GIS"
   publisher: "Taylor & Francis"
-website: "https://think.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+website: "https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
 sources:
   - label: "Official Taylor & Francis special issue call"
-    url: "https://think.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+    url: "https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Guiming Zhang"
   - name: "Di Zhu"

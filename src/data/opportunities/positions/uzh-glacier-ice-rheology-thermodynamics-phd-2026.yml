@@ -1,0 +1,37 @@
+title: PhD — Glacier Ice Rheology and Thermodynamics (LISERT)
+short_name: UZH Glacier Field Experiments + Modeling PhD
+type: position
+position_category: phd
+year: 2026
+description: Four-year funded PhD at 80% employment in UZH Geography’s LISERT project on glacier ice deformation. Work combines field experiments, numerical ice-flow models and structural analysis, with drone multispectral and thermal mapping for glacier context. This adjacent physical-geography opportunity requires relevant master’s training, mechanics/modeling skills and glacier-fieldwork ability.
+scope: adjacent
+topics:
+- geography
+- remote-sensing
+website: https://jobs.uzh.ch/job-vacancies/phd-position-in-large-scale-in-situ-experiments-on-glacier-ice-rheology-and-thermodynamics-funded-for-4-years/82f7bcd9-e8cc-44c2-829f-6d31ac92b99c
+sources:
+- label: Official UZH LISERT PhD vacancy
+  url: https://jobs.uzh.ch/job-vacancies/phd-position-in-large-scale-in-situ-experiments-on-glacier-ice-rheology-and-thermodynamics-funded-for-4-years/82f7bcd9-e8cc-44c2-829f-6d31ac92b99c
+  kind: official
+- label: Current UZH Geography open positions
+  url: https://www.geo.uzh.ch/en/services/open-positions.html
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Zurich
+  country: Switzerland
+  country_code: CH
+organizations:
+- University of Zurich
+- Department of Geography
+- Glaciology and Geomorphodynamics Group
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  note: The current original university advert has an Apply now link and asks for a cover letter, CV and transcripts. Employment start is by agreement. No fixed application deadline or explicit rolling-until-filled policy is published.
+  primary: true

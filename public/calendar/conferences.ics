@@ -3,30 +3,417 @@ VERSION:2.0
 PRODID:-//GeoDeadlines//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:earth-observation-forum-2027-paper@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270212T225900Z
-DTEND:20270212T231400Z
-SUMMARY:EOF 2027 — Paper Deadline
-DESCRIPTION:Original timezone: Europe/Copenhagen\nOfficial source: https://example.org/eof-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/earth-observation-forum-2027/
-URL:https://example.org/eof-2027
+UID:agile-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:AGILE 2027 — Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:spatial-research-summit-2027-abstract@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270816T115900Z
-DTEND:20270816T121400Z
-SUMMARY:SRS 2027 — Abstract Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
-URL:https://example.org/srs-2027
+UID:agile-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:AGILE 2027 — Full Paper Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:spatial-research-summit-2027-full-paper@geodeadlines
-DTSTAMP:20260810T195852Z
-DTSTART:20270823T115900Z
-DTEND:20270823T121400Z
-SUMMARY:SRS 2027 — Full Paper Deadline
-DESCRIPTION:Original timezone: AoE\nOfficial source: https://example.org/srs-2027\nGeoDeadlines: https://USERNAME.github.io/geo-deadlines/opportunity/spatial-research-summit-2027/
-URL:https://example.org/srs-2027
+UID:agile-2027-short-paper-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:AGILE 2027 — Short Paper / Poster Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:agile-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:AGILE 2027 — YIF Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://agile-gi.eu/conference-2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agile-2027/
+URL:https://agile-gi.eu/conference-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-panel@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261120T115900Z
+DTEND:20261120T121400Z
+SUMMARY:CHI 2027 — Panel Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270122T115900Z
+DTEND:20270122T121400Z
+SUMMARY:CHI 2027 — Poster Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-interactive-demo@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270122T115900Z
+DTEND:20270122T121400Z
+SUMMARY:CHI 2027 — Interactive Demo Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://chi2027.acm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/chi-2027/
+URL:https://chi2027.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-session-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Oral Session Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Abstract (up to 300 words) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgis-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:CPGIS 2027 — Full Paper (6–8 pages) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cpgis-2027/
+URL:https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083
+END:VEVENT
+BEGIN:VEVENT
+UID:cupum-2027-paper-poster@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:CUPUM 2027 — Conference Paper / Poster Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://cupum2027.com.au/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cupum-2027/
+URL:https://cupum2027.com.au/
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261117T115900Z
+DTEND:20261117T121400Z
+SUMMARY:CVPR 2027 — Paper Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://cvpr.thecvf.com/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/cvpr-2027/
+URL:https://cvpr.thecvf.com/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:earsel-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:EARSeL 2027 — Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://symposium.earsel.org/46th-symposium-Turin/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/earsel-2027/
+URL:https://symposium.earsel.org/46th-symposium-Turin/
+END:VEVENT
+BEGIN:VEVENT
+UID:egu-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270112T120000Z
+DTEND:20270112T121500Z
+SUMMARY:EGU 2027 — Regular Abstract Deadline
+DESCRIPTION:Original timezone: CET\nOfficial source: https://www.egu27.eu/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/egu-2027/
+URL:https://www.egu27.eu/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270109T115900Z
+DTEND:20270109T121400Z
+SUMMARY:GeoAI 2027 — Workshop / Tutorial Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:GeoAI 2027 — Extended Abstract Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoai-2027-published-article@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:GeoAI 2027 — Published-article Summary Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://2027.geoaiconference.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoai-2027/
+URL:https://2027.geoaiconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoinformatics-research-days-2027-session-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:GRD 2027 — Session / Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geoinformaticsdays.geoportti.fi/en/latest/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoinformatics-research-days-2027/
+URL:https://geoinformaticsdays.geoportti.fi/en/latest/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoinformatics-research-days-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:GRD 2027 — Presentation Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://geoinformaticsdays.geoportti.fi/en/latest/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoinformatics-research-days-2027/
+URL:https://geoinformaticsdays.geoportti.fi/en/latest/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoprocessing-2027-submission@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:GEOProcessing 2027 — Paper Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.iaria.org/conferences2027/GEOProcessing27.html\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/geoprocessing-2027/
+URL:https://www.iaria.org/conferences2027/GEOProcessing27.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gis-ostrava-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:GIS Ostrava 2027 — Abstract / Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisak.vsb.cz/gisostrava/?lang=en\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gis-ostrava-2027/
+URL:https://gisak.vsb.cz/gisostrava/?lang=en
+END:VEVENT
+BEGIN:VEVENT
+UID:gis-ostrava-2027-reviewed-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:GIS Ostrava 2027 — Reviewed Paper (Conditional) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisak.vsb.cz/gisostrava/?lang=en\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gis-ostrava-2027/
+URL:https://gisak.vsb.cz/gisostrava/?lang=en
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-proceedings-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270130T115900Z
+DTEND:20270130T121400Z
+SUMMARY:GIScience 2027 — Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270213T115900Z
+DTEND:20270213T121400Z
+SUMMARY:GIScience 2027 — Workshop Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-short-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270403T115900Z
+DTEND:20270403T121400Z
+SUMMARY:GIScience 2027 — Short Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:giscience-2027-abstract-demo@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270515T115900Z
+DTEND:20270515T121400Z
+SUMMARY:GIScience 2027 — Abstract / Demo Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://geods.github.io/GIScience2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/giscience-2027/
+URL:https://geods.github.io/GIScience2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:gisruk-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:GISRUK 2027 — Research Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://gisruk.org/gisruk-2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gisruk-2027/
+URL:https://gisruk.org/gisruk-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-regular-paper-stage-1@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261202T115900Z
+DTEND:20261202T121400Z
+SUMMARY:GISTAM 2027 — Regular Paper — Stage 1 Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-satellite-proposals@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261128T115900Z
+DTEND:20261128T121400Z
+SUMMARY:GISTAM 2027 — Workshop / Special Session / Tutorial / Demo / Panel Proposal Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-regular-paper-stage-2@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261222T115900Z
+DTEND:20261222T121400Z
+SUMMARY:GISTAM 2027 — Regular / Position Paper — Stage 2 Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:gistam-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270217T115900Z
+DTEND:20270217T121400Z
+SUMMARY:GISTAM 2027 — Abstract Track Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gistam.scitevents.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gistam-2027/
+URL:https://gistam.scitevents.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icc-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ICC 2027 — Full Paper Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://icc2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icc-2027/
+URL:https://icc2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icc-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ICC 2027 — Abstract Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://icc2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icc-2027/
+URL:https://icc2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270115T115900Z
+DTEND:20270115T121400Z
+SUMMARY:ICML 2027 — Abstract Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://icml.cc/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icml-2027/
+URL:https://icml.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270123T115900Z
+DTEND:20270123T121400Z
+SUMMARY:ICML 2027 — Full Paper Submission Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://icml.cc/Conferences/2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/icml-2027/
+URL:https://icml.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:igarss-2027-submission@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:IGARSS 2027 — Abstract / Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://2027.ieeeigarss.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/igarss-2027/
+URL:https://2027.ieeeigarss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iocgm-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:IOCGM 2027 — Abstract Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://sciforum.net/event/IOCGM2027\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/iocgm-2027/
+URL:https://sciforum.net/event/IOCGM2027
+END:VEVENT
+BEGIN:VEVENT
+UID:isprs-geospatial-week-2027-full-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:GSW 2027 — Full Paper (ISPRS Annals) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.gsw2027.pl/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/isprs-geospatial-week-2027/
+URL:https://www.gsw2027.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:isprs-geospatial-week-2027-extended-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:GSW 2027 — Extended Abstract (ISPRS Archives / Abstract-only) Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.gsw2027.pl/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/isprs-geospatial-week-2027/
+URL:https://www.gsw2027.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:jurse-2027-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:JURSE 2027 — Paper Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.jurse2027.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jurse-2027/
+URL:https://www.jurse2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-statistics-2027-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Spatial Statistics 2027 — Abstract Submission Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.elsevier.com/events/conferences/all/spatial-statistics\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/spatial-statistics-2027/
+URL:https://www.elsevier.com/events/conferences/all/spatial-statistics
+END:VEVENT
+BEGIN:VEVENT
+UID:spatial-statistics-2027-workshop-proposal@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spatial Statistics 2027 — Workshop Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.elsevier.com/events/conferences/all/spatial-statistics\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/spatial-statistics-2027/
+URL:https://www.elsevier.com/events/conferences/all/spatial-statistics
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-1-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261130T115900Z
+DTEND:20261130T121400Z
+SUMMARY:SSTD 2027 — Round 1 Abstract Registration Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-1-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20261207T115900Z
+DTEND:20261207T121400Z
+SUMMARY:SSTD 2027 — Round 1 Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-2-abstract@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270405T115900Z
+DTEND:20270405T121400Z
+SUMMARY:SSTD 2027 — Round 2 Abstract Registration Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sstd-2027-round-2-paper@geodeadlines
+DTSTAMP:20261117T105051Z
+DTSTART:20270412T115900Z
+DTEND:20270412T121400Z
+SUMMARY:SSTD 2027 — Round 2 Full Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://sstdconf27.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/sstd-2027/
+URL:https://sstdconf27.github.io/
 END:VEVENT
 END:VCALENDAR

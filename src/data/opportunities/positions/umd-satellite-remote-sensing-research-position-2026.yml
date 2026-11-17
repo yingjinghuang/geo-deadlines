@@ -2,7 +2,7 @@ title: "Research Position in Satellite Remote Sensing of Precipitation and Cloud
 short_name: "UMD Satellite RS Research"
 type: position
 year: 2026
-description: "A research position at the University of Maryland ESSIC/CISESS working on satellite retrievals of precipitation and clouds across passive microwave, infrared, and visible observations, with machine-learning and validation components."
+description: "A previously advertised University of Maryland ESSIC/CISESS research position on satellite retrievals of precipitation and clouds across passive microwave, infrared and visible observations, with machine-learning and validation components. Current availability could not be reconfirmed on 17 November 2026 because the original notice is unavailable and the current employment index no longer lists it."
 scope: core
 topics:
   - remote-sensing
@@ -13,6 +13,9 @@ website: "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of
 sources:
   - label: "Official University of Maryland ESSIC position page"
     url: "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/"
+    kind: official
+  - label: "Current official ESSIC employment index"
+    url: "https://essic.umd.edu/about/employment/"
     kind: official
 last_verified: "2026-11-04"
 location:
@@ -33,12 +36,11 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 25 October 2026 on the University of Maryland ESSIC original posting and active university employment index: review began September 30, but its explicit final status is Open until filled. Do not interpret this as a hard application cutoff."
+    note: "Previously verified employer notice gave 30 September 2026 as the start of review and advertised acceptance until filled. Recheck on 17 November 2026 found the original notice unavailable and no matching entry in the current employment index. This historical review date does not establish a final cutoff or current vacancy."
   - id: rolling-application
     type: application
-    label: "Rolling Application"
+    label: "Application Status Unconfirmed"
     datetime: "TBD"
     timezone: null
     status: active
-    rolling: true
-    note: "Official employer posting explicitly states applications remain open until filled. The earlier listed date is for priority review, not final closure."
+    note: "Current availability remains unresolved on 17 November 2026. The earlier employer notice advertised acceptance until filled, but it is no longer available and the vacancy is absent from the current ESSIC employment index. The old verification date is retained; no current rolling acceptance or affirmative closure is asserted."

@@ -23,7 +23,7 @@ sources:
   - label: "Official GISTAM 2027 venue information"
     url: "https://gistam.scitevents.org/ReachingTheVenue.aspx"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-04-20"
   end: "2027-04-22"
@@ -38,9 +38,10 @@ deadlines:
   - id: regular-paper-stage-1
     type: full_paper
     label: "Regular Paper — Stage 1"
-    datetime: "2026-11-17T23:59:00-12:00"
+    datetime: "2026-12-01T23:59:00-12:00"
     timezone: "AoE"
     status: active
+    note: Official CFP and Important Dates page rechecked 17 November 2026 announce an extension to 1 December 2026, replacing the previously tracked 17 November deadline. All submission dates use AoE.
   - id: satellite-proposals
     type: proposal
     label: "Workshop / Special Session / Tutorial / Demo / Panel Proposal"
@@ -91,6 +92,13 @@ deadlines:
     type: notification
     label: "Abstract Notification"
     datetime: "2027-03-02"
+    precision: date
+    timezone: null
+    status: active
+  - id: abstract-camera
+    type: camera_ready
+    label: Abstract Track Camera Ready and Registration
+    datetime: "2027-03-10"
     precision: date
     timezone: null
     status: active

@@ -30,8 +30,9 @@ deadlines:
   - id: application
     type: application
     label: "Application"
-    datetime: "2026-11-30T23:59:00+01:00"
-    timezone: "Europe/Brussels"
+    datetime: "2026-11-30"
+    timezone: null
     status: active
     primary: true
-    note: "Official Ghent University posting lists November 30 2026 at 23:59. The narrative uses CEST generically despite the actual November CET offset; correct calendar-time offset +01:00 is used."
+    note: "Rechecked 17 November 2026: the university header gives 30 November at 23:59, while its narrative says midnight CEST. The November timezone wording is inconsistent; no CET/CEST offset is inferred. The calendar date is supported, but the exact cutoff remains unresolved. Previous verification date is retained pending clarification."
+    precision: date

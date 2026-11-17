@@ -32,4 +32,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Publisher specifies a calendar date only; no exact submission time or timezone is stated."
+    note: "Recheck attempted 17 November 2026: the publisher CFP redirects to callforpapers.taylorandfrancis.com but its full content was inaccessible (HTTP 403). The previously verified date is retained; search-index text alone was not used to certify it. Last successful verification remains 4 November 2026. Publisher specifies a calendar date only."

@@ -18,16 +18,16 @@ sources:
   - label: "Official special issue page"
     url: "https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728"
     kind: publisher
-  - label: "Official IJGI live special issue index (now advertises 31 March 2027)"
+  - label: "Official IJGI current special issue index"
     url: "https://www.mdpi.com/journal/ijgi/special_issues"
     kind: publisher
-  - label: "Publisher journal homepage (still advertises 23 December 2026)"
+  - label: "Publisher journal homepage (historical conflicting banner no longer found)"
     url: "https://www.mdpi.com/journal/ijgi"
     kind: publisher
-  - label: "Publisher original CFP flyer (still advertises 23 December 2026)"
+  - label: "Publisher original CFP flyer (historical source; inaccessible on recheck)"
     url: "https://www.mdpi.com/journal/ijgi/special_issue_flyer_pdf_v2/R3F15GF728"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Dessislava Petrova-Antonova"
   - name: "Sisi Zlatanova"
@@ -40,4 +40,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "OFFICIAL-SOURCE CONFLICT (reviewed 2026-11-04): This entry follows the CURRENT DEDICATED MDPI SPECIAL ISSUE PAGE and live IJGI special-issues index, both showing 31 March 2027 and Open for Submission. The journal homepage, an October 26 MDPI webinar announcement and downloadable CFP flyer still show 23 December 2026. Submission portal/editors should resolve the inconsistency before authors rely on the later cutoff; no official explanation for the discrepancy was published."
+    note: "Rechecked 17 November 2026: the current dedicated MDPI special-issue page and current IJGI index both list 31 March 2027; the index marks the call Open for Submission. Earlier materials reviewed on 4 November advertised 23 December 2026. That conflicting homepage banner was not found on the current homepage and the original issue-specific flyer was inaccessible, so the historical discrepancy has not been independently explained or resolved. This entry follows the current dedicated publisher page; date-only precision is retained."

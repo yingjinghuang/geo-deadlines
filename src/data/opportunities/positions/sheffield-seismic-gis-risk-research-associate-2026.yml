@@ -4,20 +4,19 @@ type: position
 position_category: postdoc
 year: 2026
 description: "EPSRC-funded research associate role developing seismic hazard, vulnerability and exposure models for Uganda, involving GIS mapping of seismological, geological and built-environment data, OpenQuake hazard/risk methods and numerical modelling."
-scope: core
+scope: "adjacent"
 topics:
   - giscience
   - spatial-data-science
   - spatial-statistics
-  - climate
 website: "https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard,-Vulnerability-and-Risk-Assessment/3360-en_GB"
 sources:
   - label: "Official University of Sheffield job 3360"
     url: "https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard,-Vulnerability-and-Risk-Assessment/3360-en_GB"
     kind: official
-last_verified: "2026-11-05"
+last_verified: "2026-11-17"
 location:
-  mode: in_person
+  mode: hybrid
   city: "Sheffield"
   country: "United Kingdom"
   country_code: "GB"

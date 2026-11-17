@@ -1,0 +1,42 @@
+title: GeoAI and Spatial Data Science for Fire Research
+type: special_issue
+year: 2026
+description: Special issue on GeoAI, spatial data science and GIS methods for wildfire and urban fire risk, monitoring, simulation, evacuation and recovery.
+scope: core
+topics:
+- geoai
+- spatial-data-science
+- giscience
+- remote-sensing
+- climate
+journal:
+  name: Computers, Environment and Urban Systems
+  short_name: CEUS
+  publisher: Elsevier
+website: https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8
+sources:
+- label: UCL CASA institutional original CFP with the guest editor’s full announcement
+  url: https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8
+  kind: official
+- label: Official publisher collection page (inaccessible during this recheck)
+  url: https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research
+  kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+- name: Huanfa Chen
+- name: Yingjie Hu
+- name: Jing Yao
+- name: Orhun Aydin
+- name: Qunying Huang
+deadlines:
+- id: manuscript
+  type: special_issue_manuscript
+  label: Manuscript
+  datetime: '2026-12-31'
+  precision: date
+  timezone: null
+  status: active
+  primary: true
+  note: Verified 17 November 2026 from UCL CASA’s accessible institutional original announcement, which reproduces guest editor Huanfa Chen’s full CFP, identifies the journal and all
+    five editors, and states 31 December 2026. The publisher collection page was inaccessible; this confirms the announced deadline, not the live submission portal. No exact time or
+    timezone is provided.

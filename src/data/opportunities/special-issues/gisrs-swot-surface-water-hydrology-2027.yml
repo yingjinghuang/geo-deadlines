@@ -1,0 +1,36 @@
+title: Scientific Advances in Surface Water and Hydrological Cycle Observations from the SWOT Mission
+type: special_issue
+year: 2027
+description: Article collection on SWOT satellite observations, surface-water dynamics, hydrological processes and remote sensing methods for inland waters.
+scope: core
+topics:
+- remote-sensing
+- earth-observation
+- climate
+- spatial-data-science
+journal:
+  name: GIScience & Remote Sensing
+  short_name: GIScience & Remote Sensing
+  publisher: Taylor & Francis
+website: https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/
+sources:
+- label: Official publisher special issue call
+  url: https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/
+  kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+- name: Nan Xu
+- name: Jiaqi Yao
+- name: Yongze Song
+- name: Hui Lu
+deadlines:
+- id: manuscript
+  type: special_issue_manuscript
+  label: Manuscript
+  datetime: '2027-02-28'
+  precision: date
+  timezone: null
+  status: active
+  primary: true
+  note: Current publisher CFP reviewed 17 November 2026 states 28 February 2027 in both its deadline field and call text. Older search-index text showing 30 November 2026 was not used.
+    No exact submission time or timezone is stated.

@@ -38,4 +38,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The UCL CASA recruitment announcement confirms the vacancy and research scope, and the original UCL job link resolves but renders only site chrome in the available text extractor. The 6 November 2026 cutoff is independently reproduced by ResearchJobsEurope (https://www.researchjobseurope.com/jobs/research-fellow-in-urban-ai) and Glassdoor's copy of UCL reference B04-07935; the date was not directly readable from the UCL portal on 5 November. Check the live official application page immediately for exact closing time and status; no time or timezone has been inferred."
+    note: "Recheck attempted 17 November 2026: the original UCL job page returned access denial and the careers directory did not expose matching job 49263 / B04-07935 details. The previously recorded 6 November 2026 date is supported by syndicated copies, but original-portal closure, extension and late eligibility remain unconfirmed. No cutoff hour or timezone is inferred, and the previous verification date is retained."

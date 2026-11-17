@@ -41,14 +41,15 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "RECHECKED 25 October 2026: official AAG page explicitly says abstract deadline EXTENDED from 15 October to 22 October; now passed. A specific cutoff hour or timezone is not published."
+    note: "Official AAG page rechecked 17 November 2026: abstract submission closed on the extended date of 22 October 2026 (originally 15 October). No cutoff hour or timezone is published."
   - id: session-organizing
     type: other
     label: "Session Organizing"
-    datetime: "2026-11-05"
+    datetime: "2026-11-12"
     precision: date
     timezone: null
     status: active
+    note: "Rechecked 17 November 2026: the main AAG event page explicitly extends session organization to 12 November (from 6 November), but the official secure-platform landing page still says 5 November. The stored value follows the explicit extension; the conflicting portal date remains unresolved. This is not a second general abstract deadline."
   - id: abstract-session-editing
     type: revision
     label: "Abstract / Session Editing"

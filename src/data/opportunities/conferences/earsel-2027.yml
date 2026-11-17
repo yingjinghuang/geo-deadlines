@@ -22,7 +22,7 @@ sources:
   - label: "Official EARSeL 2027 abstract submission page"
     url: "https://symposium.earsel.org/46th-symposium-Turin/?page_id=45"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-06-01"
   end: "2027-06-04"
@@ -36,7 +36,7 @@ organizations:
   - "European Association of Remote Sensing Laboratories"
 deadlines:
   - id: session-workshop-proposal
-    type: other
+    type: proposal
     label: "Session / Workshop Proposal"
     datetime: "2026-09-14"
     precision: date
@@ -50,7 +50,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "The conference-wide Important Dates page now lists 30 November 2026. The abstract-submission subpage still shows the earlier 15 November date, so GeoDeadlines treats the master schedule as the current extended deadline while retaining this discrepancy for future checks."
+    note: "Both official Important Dates and Abstract Submission pages rechecked 17 November 2026 agree on 30 November 2026. The earlier discrepancy with 15 November has been removed by the organizer. No exact hour or timezone is published."
   - id: acceptance
     type: notification
     label: "Abstract Acceptance"

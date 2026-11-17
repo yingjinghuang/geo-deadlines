@@ -1,9 +1,9 @@
-title: "Fully Funded PhD Position in GeoAI and Geospatial Computing"
+title: "PhD Research Opportunities in GeoAI and Geospatial Computing"
 short_name: "UIUC GeoCompSoc GeoAI PhD"
 type: position
 position_category: phd
 year: 2026
-description: "A fully funded Fall 2027 PhD opportunity in the University of Illinois Urbana-Champaign Department of Geography & Geographic Information Science with the Geospatial Computing and Society Lab, focused on GeoAI, spatial data science, location privacy, socio-spatial inequality, and responsible geospatial computing."
+description: "The University of Illinois Urbana-Champaign Geospatial Computing and Society Lab invites prospective PhD students in GeoAI, spatial data science, location privacy, socio-spatial inequality and responsible geospatial computing. The department supports admitted research PhD students through teaching or research assistantships and fellowships, but the current lab page does not independently confirm a particular available fully funded lab award. Fall 2027 applicants should follow the departmental admissions deadline and contact Yue Lin about research fit and funding availability."
 scope: core
 topics:
   - geoai
@@ -14,19 +14,13 @@ topics:
   - machine-learning
 website: "https://geocompsoc.web.illinois.edu/opportunities/"
 sources:
-  - label: "Yue Lin recruiting announcement for Fall 2027 GeoAI PhD"
-    url: "https://www.linkedin.com/posts/yue-lin-9536b019b_the-geospatial-computing-and-society-lab-activity-7479654533305094144-idSt"
-    kind: announcement
-  - label: "Official Illinois GGIS Fall 2027 graduate admissions"
-    url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
-    kind: official
-  - label: "Official Illinois GGIS PhD Fall 2027 application calendar"
-    url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
-    kind: official
-  - label: "Current original PI lab recruitment page"
+  - label: "Original Geospatial Computing and Society Lab opportunities page"
     url: "https://geocompsoc.web.illinois.edu/opportunities/"
     kind: official
-last_verified: "2026-11-04"
+  - label: "Official Illinois GGIS Fall 2027 admissions and funding information"
+    url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
+    kind: official
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Urbana-Champaign"
@@ -45,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 25 October 2026: original lab Opportunities page invites GeoAI PhD applicants and university GGIS department confirms Fall 2027 application deadline of 15 December 2026. No cutoff hour is published."
+    note: "Rechecked 17 November 2026: the original lab page invites prospective GeoAI PhD students, and the GGIS department explicitly gives 15 December 2026 for Fall 2027 applications. This is the departmental admissions deadline; a specific current funded lab award is not independently confirmed. No cutoff hour is published."

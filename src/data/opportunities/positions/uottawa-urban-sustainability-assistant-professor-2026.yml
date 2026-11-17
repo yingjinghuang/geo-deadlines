@@ -1,6 +1,7 @@
 title: "Assistant Professor — Urban Sustainability"
 short_name: "uOttawa Urban Sustainability Faculty"
 type: position
+position_category: "faculty"
 year: 2026
 description: "A tenure-track Assistant Professor position in the University of Ottawa Department of Geography, Environment and Geomatics focused on urban environmental change, resilient cities, and social, political, and economic responses to sustainability challenges."
 scope: core
@@ -14,7 +15,7 @@ sources:
   - label: "Official University of Ottawa faculty vacancy JR38643"
     url: "https://uottawa.wd3.myworkdayjobs.com/uOttawa_External_Career_Site/job/Ottawa-ON/Assistant-professor---Urban-Sustainability_JR38643-1"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Ottawa"
@@ -32,7 +33,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official employer Workday listing JR38643 rechecked 4 November 2026: 16 October was for full consideration only. Employer explicitly states the position remains open until filled; no fixed closing date is given."
+    note: "Original employer Workday job-detail response JR38643 rechecked 17 November 2026: 16 October was for full consideration only. The current description explicitly states open until filled, and the portal still permits applications; no fixed closing date is given."
   - id: rolling-application
     type: application
     label: "Rolling Application"

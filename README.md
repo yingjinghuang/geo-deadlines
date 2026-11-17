@@ -9,7 +9,7 @@
 
 ## 🌐 [Open GeoDeadlines](https://yingjinghuang.github.io/geo-deadlines/)
 
-GeoDeadlines is a community-maintained tracker for **conference, workshop, and journal special-issue submission deadlines** across the geospatial research community.
+GeoDeadlines is a community-maintained tracker for **conference, workshop, journal special-issue and geospatial recruitment deadlines** across the geospatial research community.
 
 The site is submission-first: the nearest active submission deadline is shown prominently with a live countdown, while official sources, conference dates, journal information, an interactive conference map, and the complete deadline timeline remain one click away.
 
@@ -19,6 +19,7 @@ The site is submission-first: the nearest active submission deadline is shown pr
 - **Adjacent venues** — selected AI, machine learning, computer vision, HCI, and data-science conferences that are commonly relevant to geospatial researchers.
 - **Journal special issues** — active calls from journals in GIScience, urban analytics, remote sensing, spatial data science, and related areas.
 - **Workshops** — focused research workshops with their own submission deadlines.
+- **Recruitment** — geospatial PhD, postdoc, faculty and research-staff opportunities, distinguishing priority review, final deadlines and explicit rolling applications.
 
 ## Why GeoDeadlines?
 
@@ -32,7 +33,7 @@ When an official call publishes an exact time and timezone, GeoDeadlines convert
 Explore upcoming in-person and hybrid conferences and workshops geographically, with filters for event type, scope, year, and topic. Co-located events are grouped into one marker and link back to their deadline details.
 
 **🔎 Official-source verification**  
-Every entry links back to an official organizer or publisher source and records when the information was last checked.
+Every entry links back to an original organizer, publisher, employer or institution-verified PI/lab source and records when the information was last checked. Unresolved rechecks retain their previous verification date and explain the limitation.
 
 **🧭 Geospatial topic filters**  
 Filter by GIScience, GeoAI, remote sensing, urban analytics, cartography, mobility, spatial cognition, HCI, and other topics instead of forcing venues into a single ranking category.
@@ -119,13 +120,19 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full data-entry workflow.
 
 GeoDeadlines requires a complete, source-by-source audit during substantive dataset refreshes; partial updates are labeled as such. Old and rolling records are not automatically treated as closed. Official calls, recruiting portals and journal pages take precedence over third-party indexes. The `last_verified` field changes **only after an official source has actually been reviewed**.
 
+The latest [17 November 2026 full-catalog audit](docs/verification-audit-2026-11-17.md) covers **135/135 initial records**, with **126 source-supported or closure outcomes and 9 unresolved**. It includes a complete item matrix, all 13 watchlist journals and separate faculty/PI discovery.
+
 Run `npm run audit:freshness` for a full freshness report (source-review target: 3 days for all entry types). A daily GitHub Actions workflow updates an issue tracking overdue checks; it does not claim to have verified sources automatically. See the [5 November 2026 recruitment discovery report](docs/recruitment-discovery-2026-11-05.md) for 12 newly included positions, original sources, status caveats and excluded candidates. For complete-audit rules, see [CONTRIBUTING.md](CONTRIBUTING.md#mandatory-full-catalog-refresh-protocol), the [4 November final-four clarification](docs/verification-clarifications-2026-11-04.md), the [4 November historical-conference closeout](docs/verification-audit-historical-2026-11-04.md), the [4 November conference CFP follow-up](docs/verification-audit-conferences-2026-11-04.md), the [4 November special-issue audit](docs/verification-audit-special-issues-2026-11-04.md), the [4 November recruitment audit](docs/verification-audit-positions-2026-11-04.md), the [4 November conference/journal refresh](docs/verification-refresh-2026-11-04.md), the [25 October audit](docs/verification-audit-2026-10-25.md), and the [historical checklist](docs/verification-audit-2026-10-16.md).
 
 ## Live opportunities and archival verification
 
 The [16 October 2026 full-source audit](docs/verification-audit-2026-10-16.md) examined an earlier 140-entry dataset. After 15 initial concluded-recruitment removals and 3 further verified-closure removals, the [25 October re-verification](docs/verification-audit-2026-10-25.md) found 101 supported current-source reviews and 21 entries whose current official evidence remained inconclusive. **At the repository owner's request, all 21 unresolved entries were removed from the live catalog.**
 
-**Current live catalog: 135 entries** (37 conferences, 61 recruitment positions, 36 special issues, and 1 workshop). The 101 previously retained records were checked on 25 October, and eight additional conference CFPs were added after official-source discovery on the same day. **Five targeted 4 November audits** reverified 14 original conference/journal opportunities, 31 recruitment postings, 31 additional journal special issues, 18 more conferences, and 9 additional historical/near-term conference and workshop records, while removing two concluded vacancies. **All 107 records in the catalog as of 4 November had a documented 4 November source review** after resolving four remaining cases: AGILE dates match the official organizer image; Ottawa explicitly recruits until filled; the USask entry has been narrowed to the verified general PhD recruitment rather than an unconfirmed specific funded award; the MDPI IJGI entry follows the dedicated current special-issue page's 31 March 2027 deadline while recording conflicts with other publisher materials. Two additional recruitment opportunities (UCL CASA Urban AI Research Fellow and Lund Autonomous GIS PhD) were added on 5 November 2026. Two targeted recruitment discovery passes on 5 November added 26 distinct records beyond the 35-position baseline: the first added 12 university/employer-verified vacancies and the continuation contributed 14 further vacancies, resulting in 135 total opportunities and 61 position records. Some additional sources (especially Stirling and Limerick) could be corroborated only through university-authored syndicated postings because the individual university HR job detail was not directly retrievable; these remain flagged for original-portal confirmation. The continuation removed three same-day semantic duplicates (two Gothenburg TWIG positions and the Exeter permafrost PhD) while preserving their first-pass canonical records. These targeted discoveries were **not** re-verification of all entries reviewed on 4 November; one rechecked NC State lead was excluded because its original applicant URL no longer led to a valid job detail. The Lund application date was checked directly against the original university posting; for UCL, the CASA recruitment announcement was checked, but the original HR listing rendered dynamically, so the 6 November closing date was corroborated against independent reproductions and explicitly flagged for official-portal recheck. Source review does **not** imply that every historic call remains open, that specific PhD funding is confirmed, or that the MDPI publisher inconsistency has been resolved. This is not a guarantee that every submission remains open. The 21 removals were **not** findings that the calls were fabricated or definitely closed. Their YAML originals can be recovered from the [pre-removal Git snapshot](https://github.com/yingjinghuang/geo-deadlines/tree/61bd98cf3c40a3af584da28eec58d5cdb28f92b7/src/data/opportunities), and the [archived item-by-item rationale](docs/verification-audit-2026-10-25.md) explains the missing evidence. A closed or unconfirmed item should only be reintroduced after new official verification. The [25 October conference discovery report](docs/conference-discovery-2026-10-25.md) documents eight new 2027 meetings, exact or provisional submission dates, and official-source limitations.
+**Current catalog: 144 entries** (37 conferences, 64 recruitment positions, 42 special issues, and 1 workshop), after the [17 November 2026 full audit](docs/verification-audit-2026-11-17.md). Every one of the 135 initial records was examined: 126 have a source-supported or evidenced-closure outcome, while 9 remain unresolved with their older verification dates. Seven confirmed closed recruitment records were removed, and a separate discovery pass added 10 positions and 6 special issues. Historical event and journal calls remain available; catalog inclusion does not guarantee that submissions are open.
+
+The unresolved queue is explicit: AAG and ICCV organizer-date conflicts; three inaccessible Taylor & Francis calls; Ghent's conflicting exact-cutoff wording; and Stirling, UCL CASA and UMD precipitation/cloud recruitment source gaps. Their notes and original values remain visible. The [full matrix and evidence](docs/verification-audit-2026-11-17.md) and [machine-readable audit](docs/verification-audit-2026-11-17.json) distinguish attempted checks from successful verification.
+
+Earlier audits and removals remain documented in their dated reports and Git history. The 4 November work covered the then-current 107-entry catalog, and the 5 November discovery passes brought it to 135 records; those discoveries did not reverify the full catalog. The 21 entries removed at the owner's request in October were unconfirmed, not necessarily closed or fabricated. Their originals remain in the [pre-removal Git snapshot](https://github.com/yingjinghuang/geo-deadlines/tree/61bd98cf3c40a3af584da28eec58d5cdb28f92b7/src/data/opportunities), with the [archived rationale](docs/verification-audit-2026-10-25.md). Reintroduction requires new original-source verification.
 
 ## Calendar feeds
 
@@ -135,6 +142,7 @@ The deployment generates static iCalendar feeds for:
 - [Conferences](https://yingjinghuang.github.io/geo-deadlines/calendar/conferences.ics)
 - [Special issues](https://yingjinghuang.github.io/geo-deadlines/calendar/special-issues.ics)
 - [Workshops](https://yingjinghuang.github.io/geo-deadlines/calendar/workshops.ics)
+- [Positions](https://yingjinghuang.github.io/geo-deadlines/calendar/positions.ics)
 
 ## Local development
 

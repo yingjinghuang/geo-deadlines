@@ -7,12 +7,12 @@ topics: [urban, remote-sensing, earth-observation, geoai, sustainability]
 journal:
   name: "GIScience & Remote Sensing"
   publisher: "Taylor & Francis"
-website: "https://think.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
+website: "https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
 sources:
   - label: "Official Taylor & Francis article collection"
-    url: "https://think.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
+    url: "https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 guest_editors:
   - name: "Qin Ma"
   - name: "Yang Ju"

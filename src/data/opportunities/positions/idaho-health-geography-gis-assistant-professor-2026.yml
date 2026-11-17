@@ -3,7 +3,7 @@ short_name: "Idaho Health Geography + GIS Faculty"
 type: position
 position_category: faculty
 year: 2026
-description: "Tenure-track assistant professor in Health Geography and GIS in the University of Idaho's Department of Earth and Spatial Sciences, with research, graduate and undergraduate teaching, GIS courses and an externally funded research program. Recruitment posting F001453P remains listed on the official faculty portal."
+description: "Tenure-track assistant professor in Health Geography and GIS in the University of Idaho's Department of Earth and Spatial Sciences, with research, graduate and undergraduate teaching, GIS courses and an externally funded research program. The matching vacancy is now on the university's current careers system as job 492421."
 scope: core
 topics:
   - giscience
@@ -11,15 +11,15 @@ topics:
   - spatial-data-science
   - urban
   - spatial-statistics
-website: "https://uidaho.peopleadmin.com/postings/53111"
+website: "https://careers.uidaho.edu/jobs/regular-faculty-moscow-idaho-united-states-bf6aac73-2c33-41bc-bcf7-04df2657830f"
 sources:
-  - label: "University of Idaho official recruitment listing F001453P"
-    url: "https://uidaho.peopleadmin.com/postings/53111"
+  - label: University of Idaho current recruitment posting 492421
+    url: https://careers.uidaho.edu/jobs/regular-faculty-moscow-idaho-united-states-bf6aac73-2c33-41bc-bcf7-04df2657830f
     kind: official
-  - label: "University of Idaho current faculty postings search"
-    url: "https://uidaho.peopleadmin.com/postings/search?commit=Search&query=&query_position_type_id%5B%5D=2&query_v0_posted_at_date="
+  - label: University of Idaho current faculty search
+    url: https://careers.uidaho.edu/jobs/search?employment_type_uids%5B%5D=a6781b9174f8f9126638b889562ebb47&page=1&query=
     kind: official
-last_verified: "2026-11-05"
+last_verified: "2026-11-17"
 location:
   mode: in_person
   city: "Moscow"
@@ -37,7 +37,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official listing F001453P says applications received on or before 30 November 2026 receive first consideration. A previous version of the advert listed 9 November; the newer university posting's 30 November date is used."
+    note: "Current university job 492421 confirms first consideration for applications received by 30 November 2026, followed by review until filled. The former PeopleAdmin link has been replaced by the matching current employer posting. This is not a final closing date."
   - id: rolling-application
     type: application
     label: "Open Until Filled"

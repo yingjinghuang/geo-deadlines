@@ -1,0 +1,2574 @@
+{
+  "audit_date": "2026-11-17",
+  "baseline_commit": "efe0d2c48ad00f0d35f572fe81fa918138b7aa3b",
+  "initial_total": 135,
+  "reviewed_total": 135,
+  "initial_source_supported_or_closed": 126,
+  "initial_unresolved": 9,
+  "removed_closed_positions": 7,
+  "added_total": 16,
+  "final_catalog_total": 144,
+  "final_catalog_by_type": {
+    "special_issue": 42,
+    "workshop": 1,
+    "position": 64,
+    "conference": 37
+  },
+  "freshly_source_reviewed_retained": 135,
+  "dispositions": {
+    "unresolved": 9,
+    "verified_corrected": 41,
+    "verified_unchanged": 54,
+    "closed_or_archived": 31
+  },
+  "initial": [
+    {
+      "id": "aag-2027",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://www.aag.org/events/aag2027/",
+        "https://aag.secure-platform.com/aag2027/"
+      ],
+      "summary": "Main AAG schedule explicitly extends session organization to 12 Nov 2026 (from 6 Nov), while the official secure-platform page still gives 5 Nov. Stored the explicit extension but exposed both conflicting statements and retained 4 Nov last_verified. Abstract 22 Oct and editing 17 Dec match; 8–12 Feb 2027 New York event confirmed. The portal also distinguishes panelists from general abstracts.",
+      "path": "src/data/opportunities/conferences/aag-2027.yml",
+      "type": "conference",
+      "title": "2027 American Association of Geographers Annual Meeting",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "agile-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://agile-gi.eu/conference-2027/call-for-papers-2027",
+        "https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates_New.png",
+        "https://agile-gi.eu/conference-2027/call-for-workshops-2027",
+        "https://agile-gi.eu/conference-2027/student-travel-grants-2027",
+        "https://agile-gi.eu/conference-2027"
+      ],
+      "summary": "Visually inspected the new organizer timetable image. Full papers/workshop proposals remain 10 Jan; short papers/posters 12 Feb; full decision 19 Feb, short/poster decision 22 Mar, final versions 10 Apr, early registration 30 Apr. Added the explicitly listed abstract track (12 Feb) and its 26 Feb notification, workshop notification 12 Feb, and regular registration 8 Jun. Grants remain 28 Mar; Lund event 21–24 Jun.",
+      "source_attempts": [
+        {
+          "id": "agile-2027",
+          "url": "https://agile-gi.eu/images/conferences/2027/documents/Pictures/ImportantDates.png",
+          "result": "Old image unavailable through the web reader; replaced by the updated image linked from the current CFP, downloaded and visually inspected."
+        },
+        {
+          "id": "agile-2027",
+          "url": "https://www.agile-online.org/conference-2027/call-for-workshops-2027",
+          "result": "Timeout; working current agile-gi.eu organizer page inspected."
+        },
+        {
+          "id": "agile-2027",
+          "url": "https://www.agile-online.org/conference-2027/student-travel-grants-2027",
+          "result": "502; working current agile-gi.eu organizer page inspected."
+        }
+      ],
+      "path": "src/data/opportunities/conferences/agile-2027.yml",
+      "type": "conference",
+      "title": "30th AGILE Conference on Geographic Information Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "agu-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.agu.org/meetings/all-meetings/agu27"
+      ],
+      "summary": "Official AGU save-the-date confirms Washington, D.C. and online, 13–17 Dec 2027; proposals March–April and abstracts June–August 2027, with no exact cutoff. Retained TBD rather than converting a month into a deadline.",
+      "path": "src/data/opportunities/conferences/agu-2027.yml",
+      "type": "conference",
+      "title": "American Geophysical Union Annual Meeting 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cagis-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://cartogis.org/conferences/cagis2026/call-for-participation/"
+      ],
+      "summary": "Historical organizer CFP explicitly marked closed. Verified 15 Apr research abstracts/vision papers, 1 May posters/lightning, 15 May decisions, 15 Aug revisions; event 8–11 Sep 2026 in St. Louis. Retained history; no new open intake claimed.",
+      "path": "src/data/opportunities/conferences/cagis-2026.yml",
+      "type": "conference",
+      "title": "Cartography and Geographic Information Society Conference 2026",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "chi-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://chi2027.acm.org/",
+        "https://chi2027.acm.org/attendees/visa-faq/",
+        "https://chi2027.acm.org/authors/papers/"
+      ],
+      "summary": "Official complete AoE author timetable matches all stored milestones: paper 10 Sep, workshop/meet-up 1 Oct, panel 19 Nov, revision 3 Dec, digital-experience 4 Dec, decision 17 Dec; journals 14 Jan and posters/demos/SRC 21 Jan 2027, with Jan/Feb notifications. Passed paper intake is distinct from upcoming tracks. Official attendee page reconfirms 10–14 May in Pittsburgh.",
+      "path": "src/data/opportunities/conferences/chi-2027.yml",
+      "type": "conference",
+      "title": "ACM Conference on Human Factors in Computing Systems 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cosit-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://www.cosit2026.uk/"
+      ],
+      "summary": "Organizer marks all 2026 submissions closed and publishes proceedings. Historical full paper 27 Feb, short paper 30 Apr, doctoral mentoring 5 Jun, all AoE, match; York event 22–25 Sep retained.",
+      "path": "src/data/opportunities/conferences/cosit-2026.yml",
+      "type": "conference",
+      "title": "17th Conference on Spatial Information Theory 2026",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cpgis-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.cpgis.org/conferences/ConferenceDefault.aspx?ID=2083",
+        "https://www.cpgis.org/News/ShowContent.aspx?ID=6107"
+      ],
+      "summary": "Reopened the working www.cpgis.org association CFP. All three proposal/abstract/full-paper deadlines remain 15 Mar, notifications 15 Apr, early registration 15 May; 9–11 Jul in Lanzhou. Corrected canonical association URL; separate conference host was not retrievable, so no claim about live EasyChair acceptance.",
+      "source_attempts": [
+        {
+          "id": "cpgis-2027",
+          "url": "https://cpgis.org/Conferences/ConferenceDefault.aspx?ID=2083",
+          "result": "Original non-www/case variant inaccessible; working www.cpgis.org CFP and matching association news page inspected."
+        },
+        {
+          "id": "cpgis-2027",
+          "url": "https://www.cpgis2027.com/",
+          "result": "Not accessible via web reader; conference timetable verified from the association original CFP. Portal availability not verified."
+        }
+      ],
+      "path": "src/data/opportunities/conferences/cpgis-2027.yml",
+      "type": "conference",
+      "title": "34th International Conference on Geoinformatics",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cupum-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://conference.unsw.edu.au/en/cupum-2027",
+        "https://cupum2027.com.au/",
+        "https://cupum2027.com.au/call-for-papers/",
+        "https://conference.unsw.edu.au/en/cupum-2027/call-for-submissions"
+      ],
+      "summary": "UNSW official event page redirects to the new conference domain. Current dedicated CFP confirms 12 Feb 2027 papers/poster abstracts and 18 Jun revised material; event is 5–9 Jul, correcting the old 5–10 Jul range. Removed obsolete provisional wording, updated official links and added selected-chapter revision and early registration stages.",
+      "path": "src/data/opportunities/conferences/cupum-2027.yml",
+      "type": "conference",
+      "title": "20th International Conference on Computational Urban Planning and Urban Management",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cvpr-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+        "https://cvpr.thecvf.com/Conferences/2027"
+      ],
+      "summary": "Official paper registration 10 Nov, paper 16 Nov and supplement 23 Nov 2026 AoE; reviews 25 Jan, rebuttal 1 Feb, decisions 25 Feb 2027 unchanged. Workshop proposal 4 Nov remains historical. Main paper cutoff explicitly has no extension; supplement upload is not a new paper opportunity. Seattle event 20–25 Jun confirmed. An older July CVF save-the-date gives an end date of 24 Jun; the current dedicated conference timetable gives 25 Jun.",
+      "path": "src/data/opportunities/conferences/cvpr-2027.yml",
+      "type": "conference",
+      "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "earsel-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://symposium.earsel.org/46th-symposium-Turin/?page_id=43",
+        "https://symposium.earsel.org/46th-symposium-Turin/?page_id=45",
+        "https://symposium.earsel.org/46th-symposium-Turin/"
+      ],
+      "summary": "Both current master timetable and abstract submission page now state 30 Nov 2026; removed the obsolete 15 Nov conflict warning. Proposal 14 Sep, decision 15 Jan, presenter registration 1 Mar, Turin event 1–4 Jun 2027 unchanged.",
+      "path": "src/data/opportunities/conferences/earsel-2027.yml",
+      "type": "conference",
+      "title": "46th Symposium of the European Association of Remote Sensing Laboratories",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "egu-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.egu27.eu/about/deadlines_and_milestones.html",
+        "https://www.egu27.eu/",
+        "https://www.egu27.eu/attendance/financial_support_and_waivers.html"
+      ],
+      "summary": "Official schedule confirms 1 Dec 2026 13:00 CET support and 12 Jan 2027 13:00 CET abstract deadlines, prior session call ending 23 Sep; Vienna/online event 4–9 Apr 2027 unchanged.",
+      "path": "src/data/opportunities/conferences/egu-2027.yml",
+      "type": "conference",
+      "title": "EGU General Assembly 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "foss4g-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://2026.foss4g.org/en/call-for-papers/academic-track/",
+        "https://2027.foss4g.org/"
+      ],
+      "summary": "Historical academic abstract extension to 16 Mar 2026 and full paper for accepted abstracts 15 Jun match. Next organizer site explicitly states Hiroshima 2026 has concluded. Retained historical call separately from 2027.",
+      "path": "src/data/opportunities/conferences/foss4g-2026.yml",
+      "type": "conference",
+      "title": "Free and Open Source Software for Geospatial — Hiroshima 2026",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "foss4g-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://2027.foss4g.org/",
+        "https://www.osgeo.org/events/foss4g-2027/"
+      ],
+      "summary": "Official Bristol event still 23–29 Aug 2027; workshops 23–24 and main conference 25–27. Sponsor/childcare pages are available, but no research submission cutoff appears in the current program navigation; retained TBD.",
+      "path": "src/data/opportunities/conferences/foss4g-2027.yml",
+      "type": "conference",
+      "title": "Free and Open Source Software for Geospatial — Bristol 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "geo-week-2027",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://www.geo-week.com/call-for-speakers/",
+        "https://www.geo-week.com/academic-hub/",
+        "https://www.geo-week.com/travel/"
+      ],
+      "summary": "Student-only Academic Hub call retains 5 Oct–6 Nov 2026 window; general speaker call ended 17 Jul. No extension found on current original pages. Event remains 23–25 Feb 2027 in Salt Lake City; historical CFP retained, with no renewed intake inferred from a leftover submit button.",
+      "path": "src/data/opportunities/conferences/geo-week-2027.yml",
+      "type": "conference",
+      "title": "Geo Week 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "geoai-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://2027.geoaiconference.org/",
+        "https://2027.geoaiconference.org/call-for-papers/"
+      ],
+      "summary": "New original CFP replaces TBD: workshop/tutorial proposals 8 Jan; extended abstracts and published-article summaries 22 Jan; decision 1 Mar, early registration 2 Apr, registration close 7 Jun, all 23:59 AoE. Event remains 29 Jun–2 Jul at UCL. Submission systems/contact details are still forthcoming.",
+      "source_attempts": [
+        {
+          "id": "geoai-2027",
+          "url": "https://geoaiconference.org/?p=631",
+          "result": "Legacy post not accessible; the dedicated 2027 homepage and new official CFP inspected."
+        },
+        {
+          "id": "geoai-2027",
+          "url": "https://geoaiconference.org/",
+          "result": "Series landing page returns no readable lines; the dedicated 2027 homepage and official CFP supply current evidence."
+        }
+      ],
+      "path": "src/data/opportunities/conferences/geoai-2027.yml",
+      "type": "conference",
+      "title": "2nd International Conference on Geospatial Artificial Intelligence",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "geoinformatics-research-days-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://geoinformaticsdays.geoportti.fi/en/latest/",
+        "https://geoinformaticsdays.geoportti.fi/en/latest/pages/submissions.html"
+      ],
+      "summary": "Official host timetable confirms sessions 27 Nov 2026, abstract opening 9 Dec and deadline 8 Feb 2027, decisions 8 Mar; Helsinki event 10–12 May unchanged. Session proposal link is published; abstract intake is not yet due to open.",
+      "path": "src/data/opportunities/conferences/geoinformatics-research-days-2027.yml",
+      "type": "conference",
+      "title": "Geoinformatics Research Days 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "geoprocessing-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.iaria.org/conferences2027/GEOProcessing27.html",
+        "https://www.iaria.org/conferences2027/CfPGEOProcessing27.html"
+      ],
+      "summary": "Official regular submission 28 Dec 2026, notification 24 Feb and final version 14 Mar 2027 unchanged; Lisbon 18–22 Apr. Source warns special tracks may use different dates.",
+      "path": "src/data/opportunities/conferences/geoprocessing-2027.yml",
+      "type": "conference",
+      "title": "19th International Conference on Advanced Geographic Information Systems, Applications, and Services",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gis-ostrava-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://gisak.vsb.cz/gisostrava/?lang=en",
+        "https://gisak.vsb.cz/gisostrava/dulezita-data",
+        "https://gisak.vsb.cz/gisostrava/dulezita-data?lang=en",
+        "https://www.vsb.cz/en/news-detail/?reportId=52651"
+      ],
+      "summary": "Host timetable confirms abstracts 11 Dec 2026, acceptance 7 Jan and optional reviewed-paper version 15 Jan 2027; meeting 3–4 Mar in Ostrava. Optional reviewed paper does not replace prior abstract submission.",
+      "path": "src/data/opportunities/conferences/gis-ostrava-2027.yml",
+      "type": "conference",
+      "title": "GIS Ostrava 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "giscience-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://geods.github.io/GIScience2027/"
+      ],
+      "summary": "Official CFP matches full paper 29 Jan, workshop proposals 12 Feb, short paper 2 Apr, abstracts/demos 14 May 2027 AoE; all stored decision/final-version/registration dates match. Shanghai/Tongji meeting remains 18–22 Oct.",
+      "path": "src/data/opportunities/conferences/giscience-2027.yml",
+      "type": "conference",
+      "title": "Fourteenth International Conference on Geographic Information Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gisruk-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://gisruk.org/gisruk-2027/",
+        "https://gisruk.org/gisruk-2027/call-for-papers-2027/"
+      ],
+      "summary": "Official series now publishes 1 Feb 2027 abstract deadline, 5 Apr registration deadline and exact Nottingham event days 13–16 Apr. Dedicated new domain returned 403; association page directly gives these facts, so cutoff/date verification does not certify portal availability.",
+      "path": "src/data/opportunities/conferences/gisruk-2027.yml",
+      "type": "conference",
+      "title": "Geographic Information Science Research UK 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gistam-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://gistam.scitevents.org/ImportantDates.aspx",
+        "https://gistam.scitevents.org/CallForPapers.aspx",
+        "https://gistam.scitevents.org/ReachingTheVenue.aspx"
+      ],
+      "summary": "Both official CFP and Important Dates extend stage 1 from 17 Nov to 1 Dec 2026 AoE. Stage 2 21 Dec, satellite proposals 27 Nov and abstract track 16 Feb 2027 remain. Jan/Feb/Mar decision and final-version dates unchanged; added the explicit abstract final-version/registration milestone 10 Mar.",
+      "path": "src/data/opportunities/conferences/gistam-2027.yml",
+      "type": "conference",
+      "title": "13th International Conference on Geographical Information Systems Theory, Applications and Management",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "icc-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://icc2027.org/",
+        "https://icc2027.org/important-dates/",
+        "https://icc2027.org/call-for-papers/"
+      ],
+      "summary": "Official full-paper deadline 20 Nov 2026 and abstract deadline 1 Dec remain; decisions 1 Feb, early registration 15 Mar, presenters 15 May 2027; Warsaw event 18–23 Jul unchanged. No extension or exact cutoff hour published.",
+      "path": "src/data/opportunities/conferences/icc-2027.yml",
+      "type": "conference",
+      "title": "33rd International Cartographic Conference",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "iccv-2027",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://iccv.thecvf.com/Conferences/2027",
+        "https://iccv.thecvf.com/Conferences/2027/Dates",
+        "https://www.thecvf.com/?page_id=100",
+        "https://www.thecvf.com/?p=137"
+      ],
+      "summary": "Submission deadline is still unpublished. Dedicated Dates and homepage header agree 3–7 Oct 2027, but the same homepage venue paragraph still says 2–8 Oct. Retained existing 3–7 Oct as the specific timetable range, made the discrepancy explicit, and preserved 4 Nov last_verified pending organizer reconciliation. The older CVF society announcement also gives 2–8 Oct; no reconciliation is inferred.",
+      "path": "src/data/opportunities/conferences/iccv-2027.yml",
+      "type": "conference",
+      "title": "IEEE/CVF International Conference on Computer Vision 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "iclr-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://iclr.cc/Conferences/2027/CallForPapers",
+        "https://iclr.cc/Conferences/2027/WorkshopGuidelines",
+        "https://iclr.cc/Conferences/2027/Dates",
+        "https://iclr.cc/Conferences/2027",
+        "https://iclr.cc/",
+        "https://www.iclr.cc/Conferences/2027/CallForPapers"
+      ],
+      "summary": "Official historical paper dates 18/25 Sep, workshop proposal 9 Oct and workshop result 29 Nov 2026 match. Reviews 5 Nov, discussion end 18 Nov, final decision 16 Dec unchanged; 26–30 Apr 2027 in San Francisco confirmed.",
+      "path": "src/data/opportunities/conferences/iclr-2027.yml",
+      "type": "conference",
+      "title": "15th International Conference on Learning Representations",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "icml-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://icml.cc/Conferences/2027/CallForPapers",
+        "https://icml.cc/Conferences/2027/Dates",
+        "https://icml.cc/Conferences/FutureMeetings"
+      ],
+      "summary": "New original CFP replaces TBD: abstract 14 Jan, paper 22 Jan 2027 at 23:59 AoE; opening 8 Jan; first-stage rejects 23 Feb and final decisions 3 May. Exact Rio event is 31 Jul–6 Aug. Author should not treat announced date as an already-open portal.",
+      "path": "src/data/opportunities/conferences/icml-2027.yml",
+      "type": "conference",
+      "title": "International Conference on Machine Learning 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "igarss-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://2027.ieeeigarss.org/",
+        "https://2027.ieeeigarss.org/important_dates.php",
+        "https://2027.ieeeigarss.org/call_for_papers.php",
+        "https://2027.ieeeigarss.org/cct_proposal.php"
+      ],
+      "summary": "Current homepage, master dates and CFP body now all agree 11 Jan 2027. Removed obsolete 10-vs-11 Jan warning. Verified all other stored milestones, including 10 Nov opening, 12 Mar notification, 30 Apr final material/author registration; Reykjavík 11–16 Jul.",
+      "path": "src/data/opportunities/conferences/igarss-2027.yml",
+      "type": "conference",
+      "title": "IEEE International Geoscience and Remote Sensing Symposium 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "iocgm-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://sciforum.net/event/IOCGM2027",
+        "https://sciforum.net/event/IOCGM2027/instructions-for-authors",
+        "https://sciforum.net/event/IOCGM2027/frequently-asked-questions",
+        "https://www.mdpi.com/journal/geomatics/news-and-conferences/news/16476"
+      ],
+      "summary": "Official organizer confirms abstract intake and 20 Nov 2026 cutoff, 18 Dec notification, 11 Mar registration and 17–18 Mar 2027 online event. Current page and author instructions publish no submission hour/timezone: removed unsupported 23:59 AoE precision and kept date-only.",
+      "path": "src/data/opportunities/conferences/iocgm-2027.yml",
+      "type": "conference",
+      "title": "1st International Online Conference on Geomatics",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "isprs-geospatial-week-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://gsw2027.pl/calls.html",
+        "https://www.isprs.org/society/gsw.aspx",
+        "https://isprs.org/calendar/2027.aspx",
+        "https://isprs.org/news/announcements/details.aspx?ID=460"
+      ],
+      "summary": "Official dedicated calls retain workshop proposals 30 Oct 2026, full papers 15 Apr and extended abstracts 15 May 2027; notification 15 Jun, final versions 15 Jul. Submission opening has moved from 15 Oct to 1 Dec 2026; added that milestone and clarified it is not yet open on audit date.",
+      "path": "src/data/opportunities/conferences/isprs-geospatial-week-2027.yml",
+      "type": "conference",
+      "title": "International Society for Photogrammetry and Remote Sensing Geospatial Week 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "jurse-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.jurse2027.org/important-dates/",
+        "https://jurse.org/"
+      ],
+      "summary": "Official page updated 16 Nov extends paper cutoff from 17 Nov to 3 Dec 2026. No hour/timezone published. Decision 2 Feb, accepted-paper registration/final version 22 Mar and Amsterdam event 30 Jun–2 Jul 2027 remain.",
+      "path": "src/data/opportunities/conferences/jurse-2027.yml",
+      "type": "conference",
+      "title": "18th Joint Urban Remote Sensing Event",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "kdd-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://kdd2027.kdd.org/research-track-call-for-papers/",
+        "https://kdd2027.kdd.org/",
+        "https://kdd2027.kdd.org/frequently-asked-questions/"
+      ],
+      "summary": "First-cycle research abstract 19 Jul, paper 26 Jul, notification 14 Nov 2026 match original CFP. Page still describes cycle 1 only; no exact second-cycle cutoff is published there. Retained both cycle-2 TBD values rather than extrapolating dates. FAQ explicitly describes the February cycle with exact dates still unconfirmed; homepage confirms 1–5 August in San Jose.",
+      "path": "src/data/opportunities/conferences/kdd-2027.yml",
+      "type": "conference",
+      "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "lbs-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://icaci.org/invitation-to-the-20th-international-conference-on-location-based-services-lbs-2026/"
+      ],
+      "summary": "Historical ICA original call matches full paper 10 Jun, WIP 1 Jul, late/published-article 1 Sep, all stored notifications and 15 Oct author registration. Nanjing event ended 13 Nov; preserved history, not an active CFP.",
+      "path": "src/data/opportunities/conferences/lbs-2026.yml",
+      "type": "conference",
+      "title": "20th International Conference on Location Based Services",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "neurips-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://neurips.cc/Conferences/FutureMeetings"
+      ],
+      "summary": "Official future-meeting page still identifies only Europe for 2027. No precise event days, city or submission deadline verified; existing TBD remains.",
+      "path": "src/data/opportunities/conferences/neurips-2027.yml",
+      "type": "conference",
+      "title": "Conference on Neural Information Processing Systems 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "sigspatial-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://sigspatial2026.sigspatial.org/",
+        "https://sigspatial2026.sigspatial.org/research-submission.html",
+        "https://sigspatial2026.sigspatial.org/vision-submission.html",
+        "https://sigspatial2026.sigspatial.org/applications-submission.html",
+        "https://sigspatial2026.sigspatial.org/industrial-submission.html",
+        "https://sigspatial2026.sigspatial.org/short-submission.html",
+        "https://sigspatial2026.sigspatial.org/demo-submission.html",
+        "https://sigspatial2026.sigspatial.org/giscup.html",
+        "https://sigspatial2026.sigspatial.org/travel-grant.html"
+      ],
+      "summary": "Rechecked all stored historical tracks: research abstract 29 May/paper 5 Jun, vision 12 Jun, application/industry/short 19 Jun, demo 6 Jul, final versions 1 Sep at 23:59 Pacific; GIS Cup invited paper 30 Sep AoE and travel award 2 Oct AoE. Riverside conference completed 3–6 Nov.",
+      "path": "src/data/opportunities/conferences/sigspatial-2026.yml",
+      "type": "conference",
+      "title": "34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "spatial-statistics-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.elsevier.com/events/conferences/all/spatial-statistics"
+      ],
+      "summary": "Official organizer confirms abstract 29 Jan, workshop proposal 12 Mar, notification 25 Mar and author/early registration 23 Apr 2027; Beijing meeting 22–25 Jul unchanged. Date-only precision retained.",
+      "path": "src/data/opportunities/conferences/spatial-statistics-2027.yml",
+      "type": "conference",
+      "title": "Spatial Statistics 2027: At the Core of Analytical Intelligence",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "sstd-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://sstdconf27.github.io/"
+      ],
+      "summary": "Official timetable matches round-1 abstract 29 Nov/paper 6 Dec 2026 and round-2 abstract 4 Apr/paper 11 Apr 2027 at 23:59 AoE. Raleigh/NC State confirmed; exact August event days still TBD.",
+      "path": "src/data/opportunities/conferences/sstd-2027.yml",
+      "type": "conference",
+      "title": "20th International Symposium on Spatial and Temporal Data",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "state-of-the-map-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://wiki.openstreetmap.org/wiki/State_of_the_Map_2027",
+        "https://2026.stateofthemap.org/",
+        "https://osmfoundation.org/wiki/StateoftheMap_Organizing_Committee"
+      ],
+      "summary": "Original host invitation confirms Bogotá, National University of Colombia, July 2027. Wiki still has no exact event or program/OSM Science submission days. Retained TBD; host-bid deadlines are not research deadlines.",
+      "path": "src/data/opportunities/conferences/state-of-the-map-2027.yml",
+      "type": "conference",
+      "title": "State of the Map 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ucgis-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.ucgis.org/site/symposia",
+        "https://www.ucgis.org/site/symposium-2026"
+      ],
+      "summary": "Official save-the-date and 2026 recap agree 7–10 Jun 2027, University of Georgia in Athens. A 2027 call and deadline are still not published in these original organizer pages.",
+      "path": "src/data/opportunities/conferences/ucgis-2027.yml",
+      "type": "conference",
+      "title": "University Consortium for Geographic Information Science Symposium 2027",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ait-satellite-remote-sensing-infrastructure-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://jobs.ait.ac.at/Job/270413",
+        "https://www.fwf.ac.at/aktuelles/jobboerse/jobdetail/phd-thesis-applying-satellite-based-remote-sensing-to-transportation-infrastructure-monitoring"
+      ],
+      "summary": "AIT job 270413 retains Apply now and the matching satellite/infrastructure PhD. No published closing date; TBD retained.",
+      "path": "src/data/opportunities/positions/ait-satellite-remote-sensing-infrastructure-phd-2026.yml",
+      "type": "position",
+      "title": "PhD Thesis — Applying Satellite-Based Remote Sensing to Transportation Infrastructure Monitoring",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "alabama-environmental-physical-geography-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers.ua.edu/jobs/bcas-assistant-professor-of-geography-in-geography-and-the-environment-530827-tuscaloosa-alabama-united-states"
+      ],
+      "summary": "Employer vacancy 530827 confirms review begins November 2026 and continues until filled. The platform expiry on 1 August 2027 is not substituted for the departmental review policy.",
+      "path": "src/data/opportunities/positions/alabama-environmental-physical-geography-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Geography and the Environment — Physical Geography",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cambridge-maeasam-digital-heritage-gis-research-assistant-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455"
+      ],
+      "summary": "Original Cambridge JC51455 retrieved directly despite the search-reader denial. Closing date 20 November 2026 and MAEASaM research-assistant classification confirmed.",
+      "path": "src/data/opportunities/positions/cambridge-maeasam-digital-heritage-gis-research-assistant-2026.yml",
+      "type": "position",
+      "title": "Research Assistant in Digital Heritage Documentation — MAEASaM",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "chalmers-urban-morphology-social-ecological-sensing-staff-scientist-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://web103.reachmee.com/ext/I003/304/job?job_id=15037&lang=se&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c"
+      ],
+      "summary": "Removed: the original ReachMee posting now explicitly says the job advertisement is no longer available; its final 6 November date has also passed. An earlier cached rendering was not treated as current evidence.",
+      "path": "src/data/opportunities/positions/chalmers-urban-morphology-social-ecological-sensing-staff-scientist-2026.yml",
+      "type": "position",
+      "title": "Staff Scientist in Urban Morphology, Urban Analytics and Social-Ecological Sensing",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-06",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Original Chalmers employer-hosted recruitment posting explicitly gives 6 November 2026. The posting did not specify an exact closing hour; no time was inferred."
+        }
+      ]
+    },
+    {
+      "id": "colgate-climate-science-geography-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.colgate.edu/jobs-colgate/faculty-positions",
+        "https://www.colgate.edu/academics/departments-programs/department-geography/faculty-position-assistant-professor-climate"
+      ],
+      "summary": "Current faculty index still advertises the climate/geospatial tenure-stream search, links Interfolio 189915 and states review from 15 September until filled.",
+      "path": "src/data/opportunities/positions/colgate-climate-science-geography-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Tenure-Stream Assistant Professor in Geography — Climate Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cpp-applied-geospatial-analysis-plant-sciences-faculty-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://careers.cpp.edu/en-us/job/562209/applied-geospatial-analysis-assistant-professor",
+        "https://careers.cpp.edu/en-us/Search/?subscribe=true&work-type=instructional+faculty+%E2%80%93+tenured%2Ftenure-track%2Cnon-instructional+faculty+%28coach%2Fcounselor%2Flibrarian%29"
+      ],
+      "summary": "Removed the unsupported 15 December hard-close claim from the description. Original job 562209 confirms 1 December review and open until filled.",
+      "path": "src/data/opportunities/positions/cpp-applied-geospatial-analysis-plant-sciences-faculty-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Applied Geospatial Analysis — Plant Sciences",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cpp-criminology-gis-spatial-analysis-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers.cpp.edu/en-us/job/560370/criminology-gis-and-spatial-analysis-assistant-professor"
+      ],
+      "summary": "Original job 560370 remains open until filled after 30 September first consideration; application action is present.",
+      "path": "src/data/opportunities/positions/cpp-criminology-gis-spatial-analysis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Criminology — GIS and Spatial Analysis",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cpp-geological-sciences-remote-sensing-gis-faculty-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers.cpp.edu/en-us/job/562947/geological-sciences-assistant-professor-remote-sensing-gis-geospatial-technology"
+      ],
+      "summary": "Original job 562947 confirms remote-sensing/GIS faculty scope, 1 December first consideration and open until filled.",
+      "path": "src/data/opportunities/positions/cpp-geological-sciences-remote-sensing-gis-faculty-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Geological Sciences — Remote Sensing, GIS and Geospatial Technology",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "cpp-uas-autonomy-gis-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers.cpp.edu/en-us/job/559194/aerospace-engineering-uas-autonomy-and-geographical-information-systems-assistant-professor"
+      ],
+      "summary": "Original job 559194 still states extended 31 October first consideration; later applications are discretionary, and Apply now remains present. No new final cutoff inferred.",
+      "path": "src/data/opportunities/positions/cpp-uas-autonomy-gis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor — UAS Autonomy and Geographical Information Systems",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "csuf-physical-geography-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers.pageuppeople.com/873/cw/en-us/job/560304/assistant-professor-of-physical-geography"
+      ],
+      "summary": "Original CSU posting 560304 still lists 1 November full consideration and an application action. No final closing date or guaranteed late consideration is asserted.",
+      "path": "src/data/opportunities/positions/csuf-physical-geography-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Physical Geography",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "exeter-amazon-forest-microclimate-geospatial-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.exeter.ac.uk/study/funding/award/?id=6015",
+        "https://sites.exeter.ac.uk/amazon-pyrocarbon/2026/10/26/phd-studentship-can-low-cost-sensors-and-models-show-which-amazon-forests-are-most-at-risk-of-burning/",
+        "https://www.exeter.ac.uk/study/pg-research/funding/phdfunding/epsrc-dla-studentships/finding_a_phd_research_project/"
+      ],
+      "summary": "Original award 6015 and matching project list confirm 8 December applications and 8 January references. Reference milestone added; date-only precision avoids inventing a timezone for the stated midday cutoff.",
+      "path": "src/data/opportunities/positions/exeter-amazon-forest-microclimate-geospatial-phd-2026.yml",
+      "type": "position",
+      "title": "PhD Studentship — Amazon Forest Microclimate Sensing and Geospatial Modelling",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "exeter-epsrc-permafrost-satellite-radar-phd-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.exeter.ac.uk/study/funding/award/?id=6012",
+        "https://www.exeter.ac.uk/study/pg-research/funding/phdfunding/epsrc-dla-studentships/finding_a_phd_research_project/"
+      ],
+      "summary": "Original award 6012 and matching project list confirm 8 December applications and 8 January references. Reference milestone added; date-only precision avoids inventing a timezone for the stated midday cutoff.",
+      "path": "src/data/opportunities/positions/exeter-epsrc-permafrost-satellite-radar-phd-2027.yml",
+      "type": "position",
+      "title": "EPSRC DLA PhD — Advancing Multi-Mission Satellite Radar for Monitoring Arctic Permafrost Degradation",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ghent-forest-4d-tls-microclimate-phd-2026",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://www.ugent.be/en/work/scientific/doctoral-fellow-4"
+      ],
+      "summary": "Calendar date 30 November is confirmed, but the official 23:59 header and midnight CEST wording leave exact timezone precision unresolved. Removed the inferred +01:00 timestamp and retained the previous last_verified.",
+      "path": "src/data/opportunities/positions/ghent-forest-4d-tls-microclimate-phd-2026.yml",
+      "type": "position",
+      "title": "PhD — 4D Forest Structure and Microclimate Using Terrestrial Laser Scanning",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "id": "ghent-spacetwin-digital-forest-satellite-remote-sensing-phd-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://www.ugent.be/en/work/scientific/doctoral-fellow-2",
+        "https://forms.gle/MvdaQaahY89dsxFd9",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdlVF4OfURZu_6fNnYeIOE6wj3tY2wsvYhozEuGm-cSJnk6Rg/closedform"
+      ],
+      "summary": "Removed: the official university advert links a matching application form that explicitly no longer accepts responses. The 15 November final deadline has passed.",
+      "path": "src/data/opportunities/positions/ghent-spacetwin-digital-forest-satellite-remote-sensing-phd-2026.yml",
+      "type": "position",
+      "title": "PhD — SPACETWIN Digital Forest Twins and Satellite Remote Sensing of Disturbance",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-15T23:59:00+01:00",
+          "timezone": "Europe/Brussels",
+          "status": "active",
+          "primary": true,
+          "note": "Official Ghent employer posting gives Nov 15 2026 23:59. Its narrative mentions CEST, although Brussels has returned to CET in November; offset +01:00 follows the calendar date and the university's listed clock time."
+        }
+      ]
+    },
+    {
+      "id": "glasgow-energy-transition-physics-informed-geospatial-ai-fellow-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890"
+      ],
+      "summary": "Original vacancy 210873 confirms 29 November 2026 at 23:45. Its JobPosting validThrough explicitly encodes 2026-11-29T23:45:00.000Z, supporting the stored offset.",
+      "path": "src/data/opportunities/positions/glasgow-energy-transition-physics-informed-geospatial-ai-fellow-2026.yml",
+      "type": "position",
+      "title": "Research Fellow in Applied AI for the Energy Transition",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "glasgow-respect-peatland-triage-gis-postdoc-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.jobs.gla.ac.uk/job/research-associate-6080647",
+        "https://www.gla.ac.uk/research/az/respect/wp3/"
+      ],
+      "summary": "Original vacancy 211653 confirms 24 November 2026 at 23:45. Its JobPosting validThrough explicitly encodes 2026-11-24T23:45:00.000Z, supporting the stored offset.",
+      "path": "src/data/opportunities/positions/glasgow-respect-peatland-triage-gis-postdoc-2026.yml",
+      "type": "position",
+      "title": "Research Associate — RESPECT Peatland Triage Tool (Spatial Decision Support)",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gothenburg-twig-forest-laser-scanning-biomass-postdoc-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://web103.reachmee.com/ext/I005/1035/job?job_id=41806&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7",
+        "https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies"
+      ],
+      "summary": "Original ReachMee job 41806 / PAR 2026/821 confirms TWIG laser-scanning postdoc and 19 November 2026 deadline.",
+      "path": "src/data/opportunities/positions/gothenburg-twig-forest-laser-scanning-biomass-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctor — Tropical Forest Ecology, Terrestrial Laser Scanning and Forest Biomass Dynamics (TWIG)",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gothenburg-twig-tropical-forest-3d-lidar-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://web103.reachmee.com/ext/I005/1035/job?job_id=41811&lang=UK&site=7&validator=9b89bead79bb7258ad55c8d75228e5b7",
+        "https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies"
+      ],
+      "summary": "Original ReachMee job 41811 / PAR 2026/822 confirms TWIG tropical-forest lidar PhD and 19 November 2026 deadline.",
+      "path": "src/data/opportunities/positions/gothenburg-twig-tropical-forest-3d-lidar-phd-2026.yml",
+      "type": "position",
+      "title": "Doctoral Student — Tropical Forest Ecology and Carbon Dynamics Using 3D Laser Scanning (TWIG)",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "gwu-geography-environmental-change-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.gwu.jobs/postings/129037"
+      ],
+      "summary": "Original GW posting 129037 / F002670 retains Apply and explicitly says open until filled after 12 November review.",
+      "path": "src/data/opportunities/positions/gwu-geography-environmental-change-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Geography — Environmental and Earth-System Change",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "hkust-gz-3d-gis-cim-ai-recruitment-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://maosuli.github.io/",
+        "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2Y"
+      ],
+      "summary": "PI original recruitment page still invites PhD, postdoc and RA candidates in 3D GIS/CIM/AI using the institutional contact. No closing date or unconditional rolling policy added.",
+      "path": "src/data/opportunities/positions/hkust-gz-3d-gis-cim-ai-recruitment-2026.yml",
+      "type": "position",
+      "title": "PhD / Postdoc / RA — 3D GIS, CIM and AI for Smart Cities",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "iamo-transmop-land-degradation-remote-sensing-postdoc-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.iamo.de/en/career/job-offers-scholarships",
+        "https://www.iamo.de/fileadmin/user_upload/Bilder_und_Dokumente/06-karriere/01-stellenangebote_stipendien/2026-10_TransMoP_Postdoc_Announcement_draft.pdf"
+      ],
+      "summary": "Replaced unavailable Leibniz syndication with IAMO current index and original PDF. The 15 November final deadline is unchanged and past; retained because the exact vacancy remains on the current employer index, without claiming an extension or late eligibility.",
+      "path": "src/data/opportunities/positions/iamo-transmop-land-degradation-remote-sensing-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Researcher in Remote Sensing and Land Degradation — TransMoP",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "idaho-health-geography-gis-assistant-professor-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://careers.uidaho.edu/jobs/regular-faculty-moscow-idaho-united-states-bf6aac73-2c33-41bc-bcf7-04df2657830f",
+        "https://careers.uidaho.edu/jobs/search?employment_type_uids%5B%5D=a6781b9174f8f9126638b889562ebb47&page=1&query="
+      ],
+      "summary": "Recovered matching vacancy 492421 after the PeopleAdmin migration. Canonical links repaired; current original confirms 30 November first consideration and open until filled.",
+      "path": "src/data/opportunities/positions/idaho-health-geography-gis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Health Geography and GIS",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "iowa-geoai-spatial-data-science-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://peng-luo.com/opportunities.html"
+      ],
+      "summary": "PI original opportunities page confirms two Fall 2027 PhD openings and 1 December 2026 full-funding consideration, with institutional application route.",
+      "path": "src/data/opportunities/positions/iowa-geoai-spatial-data-science-phd-2026.yml",
+      "type": "position",
+      "title": "Two Fully Funded PhD Positions in GeoAI and Spatial Data Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ista-mountain-water-cryosphere-postdoc-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://ista.ac.at/en/job/postdoc-research-group-pellicciotti/",
+        "https://www.ista.ac.at/en/jobs/open-positions/"
+      ],
+      "summary": "Added current open-positions index supporting retention after the past 9 October date. Exact original postdoc remains listed; no new deadline or late-application guarantee claimed.",
+      "path": "src/data/opportunities/positions/ista-mountain-water-cryosphere-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Researcher / Data Scientist — Mountain Water and Cryosphere",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "limerick-physical-geography-geoinformatics-assistant-professor-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://my.corehr.com/pls/esbsheulrecruit/erq_jobspec_details_form.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_applicant_no=&p_recruitment_id=085269&p_process_type=&p_form_profile_detail=&p_display_apply_ind=N",
+        "https://www.ul.ie/hrvacancies"
+      ],
+      "summary": "Recovered the university-linked original CoreHR job 085269, replacing the syndicated-only source and inaccessible-source caveat. Employer confirms 18 November before noon; date-only precision preserves the ambiguous IST wording without guessing an offset.",
+      "path": "src/data/opportunities/positions/limerick-physical-geography-geoinformatics-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Geography — Physical Geography and Geoinformatics",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "lund-autonomous-gis-spatial-intelligence-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://lu.varbi.com/en/what:job/jobID:984146/iframeEmbedded:0/where:4"
+      ],
+      "summary": "Original Varbi job 984146 / PA2026/3115 confirms autonomous GIS PhD and 25 November 2026 closing date.",
+      "path": "src/data/opportunities/positions/lund-autonomous-gis-spatial-intelligence-phd-2026.yml",
+      "type": "position",
+      "title": "Doctoral Student in Geographic Information Science — Autonomous GIS and Spatial Intelligence",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "lund-forest-remote-sensing-carbon-productivity-researcher-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://lu.varbi.com/en/what:job/jobID:983518/"
+      ],
+      "summary": "Official Varbi PA2026/3081 extends the deadline from 11 to 18 November 2026. Research-staff classification and permanent contract confirmed.",
+      "path": "src/data/opportunities/positions/lund-forest-remote-sensing-carbon-productivity-researcher-2026.yml",
+      "type": "position",
+      "title": "Researcher in Physical Geography — Forest Remote Sensing and Carbon Productivity",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "mit-senseable-dubai-postdoc-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://senseabledubai.mit.edu/",
+        "https://senseabledb.mit.edu/system/positions/pdfs/000/000/034/original/Dubai_Open_Positions_20251107.pdf"
+      ],
+      "summary": "Current MIT Senseable Dubai Join section and original recruitment PDF confirm the matching postdoc/research-fellow call and rolling applications until filled.",
+      "path": "src/data/opportunities/positions/mit-senseable-dubai-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Fellows — Senseable City Dubai",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ntu-bangka-mining-gis-remote-sensing-postdoc-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045"
+      ],
+      "summary": "Original Workday structured job description confirms the two-year Bangka GIS/remote-sensing fellowship and 4 December at 6pm. Removed an unsupported timezone gloss while retaining date-only precision.",
+      "path": "src/data/opportunities/positions/ntu-bangka-mining-gis-remote-sensing-postdoc-2026.yml",
+      "type": "position",
+      "title": "Research Fellow — GIS and Remote Sensing of Mining Landscape Change",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "nus-urban-analytics-lab-urban-data-science-two-phds-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://ual.sg/opportunities/ads/2026-phd/",
+        "https://ual.sg/opportunities/application-guide/"
+      ],
+      "summary": "Original NUS Urban Analytics Lab 2026 call confirms two funded four-year PhD opportunities and 29 November 2026 lab application date, distinct from university admissions.",
+      "path": "src/data/opportunities/positions/nus-urban-analytics-lab-urban-data-science-two-phds-2026.yml",
+      "type": "position",
+      "title": "Two Fully Funded PhD Positions in Urban Data Science — Urban Analytics Lab",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "polyu-geoai-climate-urban-research-assistant-professor-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://jobs.polyu.edu.hk/job_detail.php?job=260410005",
+        "https://jobs.polyu.edu.hk/rap.php"
+      ],
+      "summary": "Original job 260410005 now explicitly reports that the job does not exist. The current official Research Assistant Professor index contains different LSGS vacancies and no matching replacement. Removed from the live catalog; the previous until-filled wording is no longer current.",
+      "path": "src/data/opportunities/positions/polyu-geoai-climate-urban-research-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Research Assistant Professor in GeoAI / Climate Resilience / Urban Sustainability / Geomatics",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "rolling": true,
+          "note": "The official posting remains open and states that consideration commenced on May 1, 2026 and continues until the position is filled."
+        }
+      ]
+    },
+    {
+      "id": "polyu-gift-geospatial-transport-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.geo-gift-lab.com/openings"
+      ],
+      "summary": "Original GIFT Lab advertises 1–2 funded PhDs for Spring/Fall 2027 and specifically gives 1 September 2026–31 May 2027 for September 2027 applications. Fall-entry deadline and funding statement remain supported.",
+      "path": "src/data/opportunities/positions/polyu-gift-geospatial-transport-phd-2026.yml",
+      "type": "position",
+      "title": "1–2 Fully Funded PhD Positions in Geospatial Intelligence for Transport",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "polyu-low-altitude-remote-sensing-research-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://jobs.polyu.edu.hk/job_detail.php?job=260821015"
+      ],
+      "summary": "Original job 260821015 remains available with Apply now. Review started 1 September 2026 and continues until filled; the RAP is a fixed-term research-faculty appointment. Existing rolling status is supported.",
+      "path": "src/data/opportunities/positions/polyu-low-altitude-remote-sensing-research-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Research Assistant Professor — Urban Low-Altitude Economy / Greenhouse-Gas Remote Sensing",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "polyu-smart-cities-urban-informatics-research-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://jobs.polyu.edu.hk/job_detail.php?job=260904022"
+      ],
+      "summary": "Original job 260904022 advertises two RAP posts and explicitly continues consideration until filled after 16 October 2026. Kept the historical review milestone and separate rolling application.",
+      "path": "src/data/opportunities/positions/polyu-smart-cities-urban-informatics-research-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Research Assistant Professor in Smart Cities and Urban Informatics (two posts)",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "rice-muse-multimodal-graph-ai-earth-systems-postdoc-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://jobs.rice.edu/jobs/postdoctoral-associate-earth-environmental-planetary-sciences-houston-texas-united-states-806b3a68-95ee-4bcb-97b8-054d23a1aacf"
+      ],
+      "summary": "Original Rice HR job 6305 publishes 1 December 2026 at 23:59 CST in its closing header, while the same page says review starts that day and continues until filled. Corrected the explanation to locate the conflict within the official HR page; retained the explicit portal cutoff without promising late acceptance.",
+      "path": "src/data/opportunities/positions/rice-muse-multimodal-graph-ai-earth-systems-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Research Associate — Multimodal and Graph AI for Earth Systems (MUSE)",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "sheffield-seismic-gis-risk-research-associate-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://jobsite.sheffield.ac.uk/job/Research-Associate-in-Seismic-Hazard,-Vulnerability-and-Risk-Assessment/3360-en_GB"
+      ],
+      "summary": "Original Sheffield job 3360 confirms 26 November 2026, a PhD-level seismic-risk research associate, and Full Time (Hybrid). Corrected location mode to hybrid, classified the earthquake-engineering vacancy as adjacent, and removed the unsupported climate topic.",
+      "path": "src/data/opportunities/positions/sheffield-seismic-gis-risk-research-associate-2026.yml",
+      "type": "position",
+      "title": "Research Associate in Seismic Hazard, Vulnerability and Risk Assessment",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://jobs.sjsu.edu/en-us/job/560948/assistant-professor-of-economics-urbanregional-spatial-data-analysis"
+      ],
+      "summary": "Original SJSU job 560948 still publishes 15 October 2026 as its application deadline, with Apply now and no populated closing-date field on 17 November. No official extension or guaranteed late eligibility is stated. Added explicit faculty category and retained the elapsed date with a caution.",
+      "path": "src/data/opportunities/positions/sjsu-urban-regional-spatial-data-analysis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor of Economics — Urban/Regional Spatial Data Analysis",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "stanford-climate-science-assistant-professor-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://facultypositions.stanford.edu/jobs/assistant-professor-in-climate-science-stanford-university-california-united-states"
+      ],
+      "summary": "Original Stanford advert gives 1 November 2026 and permits later applications only at committee discretion. Its HTML has no 23:55 cutoff; the unrelated structured validThrough value is a later posting expiry. Replaced unsupported time/timezone with a date-only deadline and added explicit faculty category.",
+      "path": "src/data/opportunities/positions/stanford-climate-science-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Climate Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "stirling-geospatial-data-science-lecturer-2026",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://www.stir.ac.uk/about/work-at-stirling/list/",
+        "https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science"
+      ],
+      "summary": "Official Stirling careers directory and its public Lumesse widget were inspected, but an individual matching FAC02153 advert could not be retrieved. A university-authored jobs.ac.uk search result still gives 23 November 2026, but syndicated search text does not establish current original-portal status. Retained the previous verification date and flagged the unresolved source.",
+      "path": "src/data/opportunities/positions/stirling-geospatial-data-science-lecturer-2026.yml",
+      "type": "position",
+      "title": "Lecturer in Geospatial Data Science — Environmental Change",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "id": "ttu-earth-observation-ai-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.depts.ttu.edu/geosciences/people/atmo/Liu.php",
+        "https://jayhydro.github.io/"
+      ],
+      "summary": "Both the current TTU faculty page and original Jiangtao Liu website recruit funded PhD students for Spring/Fall 2027 without a fixed cutoff. Neither current original source specifies exactly two awards. Removed that unsupported count while retaining the funded, plural recruitment call.",
+      "path": "src/data/opportunities/positions/ttu-earth-observation-ai-phd-2026.yml",
+      "type": "position",
+      "title": "Two Funded PhD Positions in AI for Weather–Water Prediction and Earth Observations",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "twente-gpr-utility-mapping-ai-engd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://utwentecareers.nl/en/vacancies/2600/engd-position-ai-for-underground-infrastructure-detection-and-characterisation/"
+      ],
+      "summary": "Original Twente vacancy 2600 confirms 27 November 2026 and a live application link. The two-year salaried EngD combines 40% education and 60% engineering design; the title and description correctly distinguish it from a conventional research PhD.",
+      "path": "src/data/opportunities/positions/twente-gpr-utility-mapping-ai-engd-2026.yml",
+      "type": "position",
+      "title": "EngD — AI for Underground Infrastructure Detection and Characterisation",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uci-hydrology-remote-sensing-postdoc-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://recruit.ap.uci.edu/JPF10415"
+      ],
+      "summary": "Original UCI Recruit JPF10415 confirms review on 27 October 2026 at 23:59 Pacific and final acceptance through 31 December 2026 at 23:59 Pacific if unfilled. Preserved the distinct review/final milestones and their DST-correct offsets; added explicit postdoc category.",
+      "path": "src/data/opportunities/positions/uci-hydrology-remote-sensing-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Scholar in Terrestrial Hydrology and Remote Sensing",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ucl-casa-urban-ai-research-fellow-2026",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://www.ucl.ac.uk/about/work-at-ucl/search-jobs/details?jobId=49263&jobTitle=Research%20Fellow%20in%20Urban%20AI"
+      ],
+      "summary": "Original UCL job 49263 returns access denial in both the web retrieval and direct HTTP client; the careers index exposes only page chrome. The previously syndicated 6 November cutoff has elapsed, but no original extension or closure could be confirmed. Retained the record and previous verification date.",
+      "path": "src/data/opportunities/positions/ucl-casa-urban-ai-research-fellow-2026.yml",
+      "type": "position",
+      "title": "Research Fellow in Urban AI — EV Charging and Energy Management",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "id": "uclouvain-physical-environment-climate-geography-academic-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://jobs.uclouvain.be/PersonnelAcademique/job/An-academic-in-Geography-of-the-physical-environment-and-the-climate/1433567833/"
+      ],
+      "summary": "The exact original UCLouvain recruitment page now explicitly states that the position is no longer available. The previously verified hard deadline was 5 November 2026 at noon UTC+1. Removed the closed listing and preserved this evidence in the audit.",
+      "path": "src/data/opportunities/positions/uclouvain-physical-environment-climate-geography-academic-2026.yml",
+      "type": "position",
+      "title": "Academic Position in Geography of the Physical Environment and Climate",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-05T12:00:00+01:00",
+          "timezone": "CET",
+          "status": "active",
+          "primary": true,
+          "note": "Reverified 25 October 2026 against original university recruitment posting: hard application deadline 5 November 2026 at 12:00 noon UTC+1; expected start September 1, 2027. Unlike the earlier date-only record, the exact cutoff time is explicitly published."
+        }
+      ]
+    },
+    {
+      "id": "uea-bathing-water-spatiotemporal-ai-research-associate-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://vacancies.uea.ac.uk/vacancies/2565/senior-research-associate-ra2423.html",
+        "https://vacancies.uea.ac.uk/vacancies/vacancy-search-results.aspx"
+      ],
+      "summary": "Original UEA RA2423 endpoint returns HTTP 410 Gone after its previously verified 10 November 2026 closing date. The current official vacancy index and targeted reference search provide no extension or replacement. Direct HTTP access was additionally blocked, so closure is based on the 410 result plus the elapsed final deadline and current-index check, not on a 403 alone.",
+      "path": "src/data/opportunities/positions/uea-bathing-water-spatiotemporal-ai-research-associate-2026.yml",
+      "type": "position",
+      "title": "Senior Research Associate — Spatiotemporal AI for Bathing Water Quality",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-10",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original UEA recruitment posting RA2423 states an advertising end and closing date of 10 November 2026; appointment is fixed term until 30 March 2028. The employer does not publish an exact closing time."
+        }
+      ]
+    },
+    {
+      "id": "uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://explore.jobs.ufl.edu/en-us/job/539908/assistant-professor-in-coastalmarineinland-water-remote-sensing-and-geospatial-analysis"
+      ],
+      "summary": "Original UF job 539908 remains in the current opportunities and has an application link. Its 15 June full-consideration date is followed by acceptance until a viable applicant pool is determined; preserved rolling status.",
+      "path": "src/data/opportunities/positions/uf-coastal-water-remote-sensing-geospatial-analysis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Coastal / Marine / Inland Water Remote Sensing and Geospatial Analysis",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uf-remote-sensing-assistant-associate-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://explore.jobs.ufl.edu/en-us/job/540144/assistant-or-associate-professor-in-remote-sensing"
+      ],
+      "summary": "Original UF job 540144 remains in the current opportunities and has an application link. Its 31 August full-consideration date is followed by acceptance until a viable applicant pool is determined; preserved rolling status.",
+      "path": "src/data/opportunities/positions/uf-remote-sensing-assistant-associate-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant or Associate Professor in Remote Sensing",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uh-manoa-spatial-statistics-geoai-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.governmentjobs.com/jobs/5492953-0/assistant-professor-spatial-statistics-and-geoai-0084868"
+      ],
+      "summary": "Original employer posting 0084868 gives Continuous closing, 15 November priority consideration, and review from 16 November until filled. The elapsed priority milestone is not closure; faculty classification and rolling application remain correct.",
+      "path": "src/data/opportunities/positions/uh-manoa-spatial-statistics-geoai-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor — Spatial Statistics and GeoAI",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uiuc-geoai-geospatial-computing-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://geocompsoc.web.illinois.edu/opportunities/",
+        "https://ggis.illinois.edu/academics/graduate-programs/apply"
+      ],
+      "summary": "Original lab page, retrieved directly after the web extractor timed out, currently invites prospective GeoAI PhDs without identifying a specific fully funded award. Official GGIS admissions gives 15 December 2026 for Fall 2027 and departmental support for admitted research PhDs. Narrowed the title/funding claim to current evidence and deduplicated sources.",
+      "path": "src/data/opportunities/positions/uiuc-geoai-geospatial-computing-phd-2026.yml",
+      "type": "position",
+      "title": "Fully Funded PhD Position in GeoAI and Geospatial Computing",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "umd-coastal-geomorphology-remote-sensing-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://geog.umd.edu/facultyprofile/xie/danghan",
+        "https://geog.umd.edu/graduate/prospective-phd-students"
+      ],
+      "summary": "Original Danghan Xie faculty profile invites prospective students, and the current official doctoral admissions page explicitly gives 15 December 2026. Kept the admissions date separate from any funding promise and added explicit PhD category.",
+      "path": "src/data/opportunities/positions/umd-coastal-geomorphology-remote-sensing-phd-2026.yml",
+      "type": "position",
+      "title": "PhD Opportunity — Coastal Geomorphology, GIScience and Remote Sensing",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "umd-satellite-remote-sensing-research-position-2026",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/",
+        "https://essic.umd.edu/about/employment/"
+      ],
+      "summary": "Original ESSIC notice is now a soft 404 in direct HTML and 404 in web retrieval; the current employer employment index no longer lists the vacancy. Its old 30 September date was review only and no final cutoff was published, so disappearance does not prove closure. Retained the record with its old verification date, removed the currently-open rolling flag and explicitly marked availability unconfirmed.",
+      "path": "src/data/opportunities/positions/umd-satellite-remote-sensing-research-position-2026.yml",
+      "type": "position",
+      "title": "Research Position in Satellite Remote Sensing of Precipitation and Clouds",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "uncg-urban-economic-geography-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://spartantalent.uncg.edu/postings/35916"
+      ],
+      "summary": "Original UNCG posting 35916 still accepts applications and explicitly states review from 15 October 2026 until filled. The nine-month tenure-track faculty classification and rolling status remain supported.",
+      "path": "src/data/opportunities/positions/uncg-urban-economic-geography-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Urban Economic Geography",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uottawa-urban-sustainability-assistant-professor-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://uottawa.wd3.myworkdayjobs.com/uOttawa_External_Career_Site/job/Ottawa-ON/Assistant-professor---Urban-Sustainability_JR38643-1",
+        "https://uottawa.wd3.myworkdayjobs.com/wday/cxs/uottawa/uOttawa_External_Career_Site/job/Ottawa-ON/Assistant-professor---Urban-Sustainability_JR38643-1"
+      ],
+      "summary": "Original public Workday job-detail response for JR38643 is posted and canApply is true. Its full description gives 16 October 2026 for full consideration and explicitly remains open until filled, with a 1 July 2027 expected start. Added explicit faculty category.",
+      "path": "src/data/opportunities/positions/uottawa-urban-sustainability-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor — Urban Sustainability",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "usask-gig-cities-geoai-urban-heat-phd-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://research-groups.usask.ca/gig-cities-lab/contact-us/instructions.php"
+      ],
+      "summary": "Original GIG-Cities Lab instructions still recruit prospective MSc/PhD students in GeoAI and urban sustainability without a fixed cutoff. The entry already correctly avoids promising the earlier specific funded urban-heat award or start term, which are not reconfirmed.",
+      "path": "src/data/opportunities/positions/usask-gig-cities-geoai-urban-heat-phd-2026.yml",
+      "type": "position",
+      "title": "PhD Research Opportunities in GeoAI and Urban Sustainability — GIG-Cities Lab",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "usc-giscience-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://uscjobs.sc.edu/postings/213942"
+      ],
+      "summary": "Original South Carolina posting 213942 remains available and expressly continues until filled after review began 1 November 2026. GIScience tenure-track faculty classification and the 16 August 2027 expected start are supported.",
+      "path": "src/data/opportunities/positions/usc-giscience-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in GIScience",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ut-austin-geoai-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://gengchenmai.github.io/html/recruit.html",
+        "https://liberalarts.utexas.edu/geography/graduate-program/"
+      ],
+      "summary": "Original Spatially Explicit AI Lab recruitment page advertises 1–2 funded Fall 2027 PhDs. The official Geography graduate-program page specifies 15 December for application materials, supporting 15 December 2026 for that intake. Preserved the source conflict over an older eligibility line and added explicit PhD category.",
+      "path": "src/data/opportunities/positions/ut-austin-geoai-phd-2026.yml",
+      "type": "position",
+      "title": "Fully Funded PhD Positions in Geospatial Artificial Intelligence",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "utah-state-remote-sensing-geoai-postdoctoral-fellows-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://careers-usu.icims.com/jobs/10853/postdoctoral-fellow-ii---remote-sensing-%26-geoai-in-natural-resources-and-the-environment/job"
+      ],
+      "summary": "Original USU vacancy 2026-10853 confirms up to two postdoctoral fellowships, teaching-majority duties, review from 16 November 2026, and acceptance until filled. Existing J-1/H-1B and appointment-term qualifications remain supported.",
+      "path": "src/data/opportunities/positions/utah-state-remote-sensing-geoai-postdoctoral-fellows-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Fellow II — Remote Sensing and GeoAI in Natural Resources",
+      "previous_last_verified": "2026-11-05",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "utoronto-sustainability-science-teaching-stream-assistant-professor-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://jobs.utoronto.ca/job/Mississauga-Assistant-Professor%2C-Teaching-Stream-Sustainability-Science-ON/605990717/"
+      ],
+      "summary": "Original Toronto req 48804 still displays the complete advert and 16 November 2026 at 23:59 ET, now elapsed. No extension was found. Kept the historical application deadline and continuing teaching-stream classification without inventing rolling or late eligibility; the Apply redirect also occurs on an unexpired Toronto vacancy and is not closure proof.",
+      "path": "src/data/opportunities/positions/utoronto-sustainability-science-teaching-stream-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor, Teaching Stream — Sustainability Science",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "utrecht-geodata-science-geoai-health-resilience-postdoc-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/postdoc-on-geodata-science-and-geoai",
+        "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs"
+      ],
+      "summary": "Original Utrecht job-detail URL returns 404 after the previously verified final deadline of 15 November 2026. The current official university vacancy index no longer contains the role and targeted source searches found no extension or replacement. Removed from the live catalog with the historical deadline retained in the audit.",
+      "path": "src/data/opportunities/positions/utrecht-geodata-science-geoai-health-resilience-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoc on Geodata Science and GeoAI — Health System Resilience",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The live employer vacancy and current Utrecht University vacancy index both state 15 November 2026. The posting anticipates interviews in late November and a January 1, 2027 start. No exact cutoff time is specified."
+        }
+      ]
+    },
+    {
+      "id": "uzh-microwave-remote-sensing-water-systems-postdoc-2026",
+      "disposition": "closed_or_archived",
+      "retained": false,
+      "sources": [
+        "https://jobs.uzh.ch/job-vacancies/postdoctoral-researcher-microwave-remote-sensing-for-water-systems-research/b4b2496a-582d-499e-9bad-11e4c7305cf7",
+        "https://www.geo.uzh.ch/en/services/open-positions.html",
+        "https://www.geo.uzh.ch/en/units/rsws/news/job-offer.html"
+      ],
+      "summary": "Original UZH job UUID b4b2496a returns HTTP 410 Gone in web and direct retrieval. The current Department of Geography open-positions.html index no longer includes it; the original research-group announcement confirms applications through 15 November 2026. Older cached trailing-slash index and earlier September UUID were not treated as current replacements.",
+      "path": "src/data/opportunities/positions/uzh-microwave-remote-sensing-water-systems-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoctoral Researcher — Microwave Remote Sensing for Water Systems Research",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": null,
+      "previous_deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The current official university vacancy explicitly gives 15 November 2026; supersedes the previously stored 30 September date. Start February 2027."
+        }
+      ]
+    },
+    {
+      "id": "virginia-tech-geoai-phd-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://carnivalbug.github.io/",
+        "https://geography.vt.edu/academics/gea/geo-admission-req.html"
+      ],
+      "summary": "Original Fangzheng Lyu / GeoCompute page still recruits a fully funded Fall 2027 GeoAI PhD. Official departmental requirements state 15 January for admission materials. Kept 15 January 2027 as the intake-linked departmental milestone rather than a confirmed final RA deadline and added explicit PhD category.",
+      "path": "src/data/opportunities/positions/virginia-tech-geoai-phd-2026.yml",
+      "type": "position",
+      "title": "Fully Funded PhD Position in Geospatial Data Science and GeoAI",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "annals-gis-geographical-principles-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31. Updated the stored URL to the publisher’s working redirected host. Abstract date 2026-08-31 and invitation-only manuscript stage 2026-12-31 both confirmed.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/annals-gis-geographical-principles-2026.yml",
+      "type": "special_issue",
+      "title": "Geographical Principles in the New Era of Spatial Analysis and Modeling",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ceus-digital-twins-ai-healthy-sustainable-cities-2025",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://www.nickmalleson.co.uk/2025/04/CEUS-SI-DT_AI.html"
+      ],
+      "summary": "Original guest-editor-authored CFP rechecked; historical manuscript deadline 2025-11-30 retained and named editors added.",
+      "limitations": "Publisher CFP page inaccessible. Evidence verifies the original announced historical cutoff, not the absence of every later publisher extension or current intake.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ceus-digital-twins-ai-healthy-sustainable-cities-2025.yml",
+      "type": "special_issue",
+      "title": "Digital Twins and AI for Healthy and Sustainable Cities",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ceus-open-urban-data-science-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://ual.sg/post/2025/05/16/call-for-papers-open-urban-data-science/"
+      ],
+      "summary": "Original guest-editor-authored CFP rechecked; historical manuscript deadline 2026-05-31 retained and named editors added.",
+      "limitations": "Publisher CFP page inaccessible. Evidence verifies the original announced historical cutoff, not the absence of every later publisher extension or current intake.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ceus-open-urban-data-science-2026.yml",
+      "type": "special_issue",
+      "title": "Open Urban Data Science",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "epb-geogames-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/epb/collections/special-issues"
+      ],
+      "summary": "Publisher’s EPB special-issue index identifies the matching title, editors and historical manuscript deadline 2026-09-30.",
+      "limitations": "Evidence is the full publisher CFP index; no claim of an open submission portal. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/epb-geogames-2026.yml",
+      "type": "special_issue",
+      "title": "Can Geogames make the World a Better Place?",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "epb-novel-approaches-15-minute-city-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/epb/collections/special-issues"
+      ],
+      "summary": "Publisher’s EPB special-issue index identifies the matching title, editors and historical manuscript deadline 2026-10-30.",
+      "limitations": "Evidence is the full publisher CFP index; no claim of an open submission portal. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/epb-novel-approaches-15-minute-city-2026.yml",
+      "type": "special_issue",
+      "title": "Novel Approaches to the 15-minute City",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "gisrs-urban-remote-sensing-environment-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2027-07-31. Updated the stored URL to the publisher’s working redirected host.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/gisrs-urban-remote-sensing-environment-2027.yml",
+      "type": "special_issue",
+      "title": "Remote Sensing Solutions for Urban Environment and Ecosystem Monitoring, Modelling, and Management",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "gisrs-vlm-remote-sensing-imagery-2027",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-05-31 and last_verified 2026-11-04.",
+      "limitations": "Both web retrieval and a separate direct request failed. Search text was only a discovery lead; no independently accessible original editor CFP was located.",
+      "last_verified": "2026-11-04",
+      "path": "src/data/opportunities/special-issues/gisrs-vlm-remote-sensing-imagery-2027.yml",
+      "type": "special_issue",
+      "title": "VLM Driven Intelligent Interpretation of Remote Sensing Imagery",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "gsis-spatiotemporal-intelligence-foundation-models-2027",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/",
+        "https://callforpapers.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-03-31 and last_verified 2026-11-04.",
+      "limitations": "Both web retrieval and a separate direct request failed. Search text was only a discovery lead; no independently accessible original editor CFP was located.",
+      "last_verified": "2026-11-04",
+      "path": "src/data/opportunities/special-issues/gsis-spatiotemporal-intelligence-foundation-models-2027.yml",
+      "type": "special_issue",
+      "title": "Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijde-advancing-geoai-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31. Updated the stored URL to the publisher’s working redirected host.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijde-advancing-geoai-2026.yml",
+      "type": "special_issue",
+      "title": "Advancing GeoAI: From Machine Learning to Foundation Models for Explainable and Generative Geospatial Intelligence",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijde-urban-environmental-intelligence-2027",
+      "disposition": "unresolved",
+      "retained": true,
+      "sources": [
+        "https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-05-31 and last_verified 2026-11-04.",
+      "limitations": "Both web retrieval and a separate direct request failed. Search text was only a discovery lead; no independently accessible original editor CFP was located.",
+      "last_verified": "2026-11-04",
+      "path": "src/data/opportunities/special-issues/ijde-urban-environmental-intelligence-2027.yml",
+      "type": "special_issue",
+      "title": "From Geospatial Data to Urban Environmental Intelligence",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijgi-living-spaces-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS",
+        "https://www.mdpi.com/journal/ijgi/special_issues"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-11-30. Current dedicated page and publisher index agree; index marks Open for Submission.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijgi-living-spaces-2026.yml",
+      "type": "special_issue",
+      "title": "Spatial Information for Improved Living Spaces (2nd Edition)",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijgi-llm4gis-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ",
+        "https://www.mdpi.com/journal/ijgi/special_issues"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31. Current dedicated page and publisher index agree; index marks Open for Submission.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijgi-llm4gis-2026.yml",
+      "type": "special_issue",
+      "title": "LLM4GIS: Large Language Models for GIS",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijgi-urban-digital-twins-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728",
+        "https://www.mdpi.com/journal/ijgi/special_issues",
+        "https://www.mdpi.com/journal/ijgi",
+        "https://www.mdpi.com/journal/ijgi/special_issue_flyer_pdf_v2/R3F15GF728"
+      ],
+      "summary": "Current dedicated publisher page and live index agree on 2027-03-31; index says Open for Submission. Revised the note to separate current evidence from the previously recorded 2026-12-23 conflict.",
+      "limitations": "Old issue flyer inaccessible (404 on direct request); earlier homepage banner absent. No official explanation for the historical discrepancy was verified.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijgi-urban-digital-twins-2026.yml",
+      "type": "special_issue",
+      "title": "Urban Digital Twins Empowered by AI and Dataspaces",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijgis-critical-challenges-geoai-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-01. Updated the stored URL to the publisher’s working redirected host. Clarified that the full-paper deadline follows selection at the elapsed 2026-08-01 abstract stage.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijgis-critical-challenges-geoai-2026.yml",
+      "type": "special_issue",
+      "title": "Critical Challenges in GeoAI",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "ijgis-ethics-geospatial-ai-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31. Updated the stored URL to the publisher’s working redirected host. Clarified that the full-paper deadline follows selection at the elapsed 2026-09-30 abstract stage.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/ijgis-ethics-geospatial-ai-2026.yml",
+      "type": "special_issue",
+      "title": "Ethics in Geospatial AI and Data Science",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "scientific-reports-geospatial-data-science-2027",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://www.nature.com/collections/jcieacchei"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2027-01-22.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/scientific-reports-geospatial-data-science-2027.yml",
+      "type": "special_issue",
+      "title": "Geospatial data science and analysis",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tgis-disease-outbreaks-healthcare-resource-allocation-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000301",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tgis-disease-outbreaks-healthcare-resource-allocation-2026.yml",
+      "type": "special_issue",
+      "title": "Geospatial Analysis for Tracking Disease Outbreaks and Healthcare Resource Allocation",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tgis-geohazard-technologies-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-001336",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tgis-geohazard-technologies-2026.yml",
+      "type": "special_issue",
+      "title": "Emerging Technologies for Geological Hazard Data Acquisition and Analysis in GIS",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tgis-giscience-education-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2026-000643",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2027-06-30. Added the named editors from the inspected original CFP.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tgis-giscience-education-2027.yml",
+      "type": "special_issue",
+      "title": "Advances in GIScience Education",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tgis-spatial-data-sharing-governance-2026",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2025-000055",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-11-30. Added the named editors from the inspected original CFP. Replaced a duplicate index citation with the inspected dedicated CFP.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tgis-spatial-data-sharing-governance-2026.yml",
+      "type": "special_issue",
+      "title": "Spatial Data Sharing: Questions of Ownership, Platforms, and Governance",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tgis-spatiotemporal-big-data-planning-2027",
+      "disposition": "verified_corrected",
+      "retained": true,
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-000723",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2027-06-30. Added the named editors from the inspected original CFP.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tgis-spatiotemporal-big-data-planning-2027.yml",
+      "type": "special_issue",
+      "title": "Spatiotemporal Big Data Modeling for Spatial Planning and Governance",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-active-sensing-cities-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/callforpaper",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-active-sensing-cities-2026.yml",
+      "type": "special_issue",
+      "title": "Empowering Cities through Active Sensing Initiatives",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-ai-transportation-human-mobility-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/ai-transport-systems",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-ai-transportation-human-mobility-2026.yml",
+      "type": "special_issue",
+      "title": "Artificial Intelligence in Transportation Systems and Human Mobility Analysis",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-behavioral-resilience-extreme-weather-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/behavioral-resilience-under-extreme-weather"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-31.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-behavioral-resilience-extreme-weather-2026.yml",
+      "type": "special_issue",
+      "title": "Behavioral Resilience under Extreme Weather: Built Environment Effects, Vulnerable Populations, and Planning Strategies",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-geoai-urban-dynamics-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/geoai-for-urban-dynamics",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-geoai-urban-dynamics-2026.yml",
+      "type": "special_issue",
+      "title": "GeoAI for Urban Dynamics: Crowdsensing, Smart Computing, and Decision-Making in a Changing World",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-geoai-urban-sustainability-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/geospatial-artificial-intelligence-for-urban-sustainability",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-geoai-urban-sustainability-2026.yml",
+      "type": "special_issue",
+      "title": "Geospatial Artificial Intelligence for Urban Sustainability",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-science-new-cities-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/science-of-new-cities",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-science-new-cities-2026.yml",
+      "type": "special_issue",
+      "title": "The Science of New Cities",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-sensing-built-environment-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/sensing-the-built-environment",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-sensing-built-environment-2026.yml",
+      "type": "special_issue",
+      "title": "Sensing the Built Environment",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-sensing-world-heritage-cities-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/sensing-world-heritage-cities",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-sensing-world-heritage-cities-2026.yml",
+      "type": "special_issue",
+      "title": "Integrating Multi-Source Data for Sensing World Heritage Cities",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-shifting-urban-lives-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/shifting-urban-lives",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-shifting-urban-lives-2026.yml",
+      "type": "special_issue",
+      "title": "Shifting Urban Lives: Unfolding Emergent Spatial Dynamics with Behavioral-Spatial Interaction Modeling",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-shrinking-cities-data-intelligence-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/shrinkingcities",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-shrinking-cities-data-intelligence-2026.yml",
+      "type": "special_issue",
+      "title": "Shrinking Cities Research Supported by Data Intelligence",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-spatiotemporal-data-mining-social-sensing-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/data-mining-with-social-sensing",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-spatiotemporal-data-mining-social-sensing-2026.yml",
+      "type": "special_issue",
+      "title": "Spatio-Temporal Data Mining with Social Sensing: Methods and Applications",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-spatiotemporal-intelligence-city-management-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/spatiotemporal-intelligence-supported-delicacy-management-of-cities",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-spatiotemporal-intelligence-city-management-2026.yml",
+      "type": "special_issue",
+      "title": "Spatiotemporal Intelligence-Supported Delicacy Management of Cities",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-transport-human-mobility-2026",
+      "disposition": "verified_unchanged",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/transport-human-mobility"
+      ],
+      "summary": "Publisher CFP matches the stored title, editor listing and manuscript date 2026-12-01.",
+      "limitations": "Date-only precision retained; the source gives no submission time or timezone.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-transport-human-mobility-2026.yml",
+      "type": "special_issue",
+      "title": "Interactions between Transport and Human Mobility",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-urban-artificial-intelligence-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/urban-artificial-intelligence",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-urban-artificial-intelligence-2026.yml",
+      "type": "special_issue",
+      "title": "Urban Artificial Intelligence",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "tus-virtual-real-behaviours-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://journals.sagepub.com/page/tus/calls-for-papers/virtual-real-behaviours",
+        "https://journals.sagepub.com/page/tus/calls-for-papers"
+      ],
+      "summary": "Dedicated publisher CFP and TUS index agree on historical manuscript deadline 2026-09-30; retained for archive.",
+      "limitations": "The elapsed date is an archive classification, not independent proof that the publisher portal has closed. Date-only precision retained.",
+      "last_verified": "2026-11-17",
+      "path": "src/data/opportunities/special-issues/tus-virtual-real-behaviours-2026.yml",
+      "type": "special_issue",
+      "title": "Virtual-Real Behaviours and the Transformation of Urban Space",
+      "previous_last_verified": "2026-11-04"
+    },
+    {
+      "id": "geoai-2026",
+      "disposition": "closed_or_archived",
+      "retained": true,
+      "sources": [
+        "https://events.ornl.gov/acmsigspatial-geoai2026/"
+      ],
+      "summary": "Original ORNL-hosted workshop call matches paper 21 Aug, decisions 18 Sep, final version 4 Oct; program confirms workshop 3 Nov 2026 in Riverside. Retained as a completed historical event.",
+      "path": "src/data/opportunities/workshops/geoai-2026.yml",
+      "type": "workshop",
+      "title": "9th International Workshop on AI for Geographic Knowledge Discovery",
+      "previous_last_verified": "2026-11-04",
+      "last_verified": "2026-11-17"
+    }
+  ],
+  "added": [
+    {
+      "id": "cincinnati-geoai-gis-assistant-professor-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://jobs.uc.edu/job/Assistant-Professor,-GeoAI,-Geographic-Information-Systems,-College-of-Arts-and-Sciences/104155-en_US/"
+      ],
+      "summary": "Original job 104155, posted 12 November, confirms GeoAI tenure-track faculty recruitment, review from 30 November 2026 and acceptance until filled.",
+      "path": "src/data/opportunities/positions/cincinnati-geoai-gis-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor — GeoAI and Geographic Information Systems",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "mcgill-urban-analytics-geospatial-data-science-assistant-professor-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826",
+        "https://mcgill.wd3.myworkdayjobs.com/wday/cxs/mcgill/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826"
+      ],
+      "summary": "Original public Workday response is posted and permits applications. It confirms tenure-track rank, urban/geospatial methods, and a 1 December portal end date coinciding with first review.",
+      "path": "src/data/opportunities/positions/mcgill-urban-analytics-geospatial-data-science-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor in Geography — Urban Analytics and Geospatial Data Science",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "polyu-satellite-positioning-research-assistant-professor-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://jobs.polyu.edu.hk/job_detail.php?job=260609006"
+      ],
+      "summary": "Current original RAP advert confirms satellite-positioning research and fixed-term faculty duties. The elapsed 22 June 2026 date is review only; the employer still accepts applications until filled.",
+      "path": "src/data/opportunities/positions/polyu-satellite-positioning-research-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Research Assistant Professor in Positioning Technologies",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "polyu-space-edge-computing-research-assistant-professor-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://jobs.polyu.edu.hk/job_detail.php?job=260918010"
+      ],
+      "summary": "Current original RAP advert confirms fixed-term research-faculty duties and consideration from 1 November 2026 until filled. Kept adjacent rather than asserting specific GeoAI or remote-sensing duties.",
+      "path": "src/data/opportunities/positions/polyu-space-edge-computing-research-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Research Assistant Professor in Space Edge Computing",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "south-dakota-mines-gis-teaching-faculty-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://yourfuture.sdbor.edu/postings/50484"
+      ],
+      "summary": "Original F01960P identifies non-tenure-track faculty status, GIS/remote-sensing teaching, 31 December 2026 first consideration and acceptance until filled.",
+      "path": "src/data/opportunities/positions/south-dakota-mines-gis-teaching-faculty-2026.yml",
+      "type": "position",
+      "title": "Instructor, Lecturer or Senior Lecturer of Geology — GIS",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ucl-spacetimelab-spatiotemporal-geoai-phd-2027",
+      "sources": [
+        "https://www.ucl.ac.uk/engineering/civil-environmental-geomatic-engineering/groups-centres-and-sections/spacetimelab",
+        "https://uk.linkedin.com/company/spacetimelab"
+      ],
+      "summary": "Institution-verified original lab announcement: 3 December 2026 expressions of interest for 2027 PhD entry. Funding explicitly competitive or self-funded.",
+      "path": "src/data/opportunities/positions/ucl-spacetimelab-spatiotemporal-geoai-phd-2027.yml",
+      "type": "position",
+      "title": "PhD Applicants — Spatiotemporal AI and GeoAI at UCL SpaceTimeLab",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "umd-land-modeling-satellite-data-assimilation-postdoc-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://essic.umd.edu/postdoc-position-on-land-modeling-and-data-assimilation-at-university-of-maryland-cooperative-institute-for-satellite-earth-system-studies-cisess/",
+        "https://essic.umd.edu/about/employment/"
+      ],
+      "summary": "Original employer notice and current index confirm a renewable one-year postdoc using satellite LAI assimilation in land models. The employer gives email application instructions without a final date.",
+      "path": "src/data/opportunities/positions/umd-land-modeling-satellite-data-assimilation-postdoc-2026.yml",
+      "type": "position",
+      "title": "Postdoc — Land Modeling and Satellite Data Assimilation",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "umd-satellite-data-geospatial-visualization-software-developer-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://essic.umd.edu/scientific-software-developer-satellite-data-processing-and-web-visualization/",
+        "https://essic.umd.edu/about/employment/"
+      ],
+      "summary": "Original employer advert and current employment index confirm the two-year staff role, satellite/geospatial software duties and hybrid onsite requirement. No deadline or rolling policy is invented.",
+      "path": "src/data/opportunities/positions/umd-satellite-data-geospatial-visualization-software-developer-2026.yml",
+      "type": "position",
+      "title": "Scientific Software Developer — Satellite Data Processing and Web Visualization",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "utoronto-urban-environmental-remote-sensing-assistant-professor-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Urban-Environmental-Remote-Sensing-ON/607409417/"
+      ],
+      "summary": "Original employer advert confirms tenure-stream faculty rank, remote-sensing/geographic-data-science methods, and 11 January 2027 at 23:59 ET, including references.",
+      "path": "src/data/opportunities/positions/utoronto-urban-environmental-remote-sensing-assistant-professor-2026.yml",
+      "type": "position",
+      "title": "Assistant Professor — Urban Environmental Remote Sensing",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "uzh-glacier-ice-rheology-thermodynamics-phd-2026",
+      "disposition": "verified_added",
+      "retained": true,
+      "sources": [
+        "https://jobs.uzh.ch/job-vacancies/phd-position-in-large-scale-in-situ-experiments-on-glacier-ice-rheology-and-thermodynamics-funded-for-4-years/82f7bcd9-e8cc-44c2-829f-6d31ac92b99c",
+        "https://www.geo.uzh.ch/en/services/open-positions.html"
+      ],
+      "summary": "Original UZH advert was read directly after a web-tool access error. It confirms four-year funding, 80% doctoral employment, glacier modeling and drone mapping, with no fixed deadline.",
+      "path": "src/data/opportunities/positions/uzh-glacier-ice-rheology-thermodynamics-phd-2026.yml",
+      "type": "position",
+      "title": "PhD — Glacier Ice Rheology and Thermodynamics (LISERT)",
+      "last_verified": "2026-11-17"
+    },
+    {
+      "id": "ceus-geoai-spatial-data-science-fire-research-2026",
+      "date": "2026-12-31",
+      "sources": [
+        "https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8",
+        "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
+      ],
+      "summary": "Special issue on GeoAI, spatial data science and GIS methods for wildfire and urban fire risk, monitoring, simulation, evacuation and recovery.",
+      "evidence": "Verified 17 November 2026 from UCL CASA’s accessible institutional original announcement, which reproduces guest editor Huanfa Chen’s full CFP, identifies the journal and all five editors, and states 31 December 2026. The publisher collection page was inaccessible; this confirms the announced deadline, not the live submission portal. No exact time or timezone is provided.",
+      "path": "src/data/opportunities/special-issues/ceus-geoai-spatial-data-science-fire-research-2026.yml",
+      "type": "special_issue",
+      "title": "GeoAI and Spatial Data Science for Fire Research",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "gisrs-swot-surface-water-hydrology-2027",
+      "date": "2027-02-28",
+      "sources": [
+        "https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/"
+      ],
+      "summary": "Article collection on SWOT satellite observations, surface-water dynamics, hydrological processes and remote sensing methods for inland waters.",
+      "evidence": "Current publisher CFP reviewed 17 November 2026 states 28 February 2027 in both its deadline field and call text. Older search-index text showing 30 November 2026 was not used. No exact submission time or timezone is stated.",
+      "path": "src/data/opportunities/special-issues/gisrs-swot-surface-water-hydrology-2027.yml",
+      "type": "special_issue",
+      "title": "Scientific Advances in Surface Water and Hydrological Cycle Observations from the SWOT Mission",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "ijgi-equitable-geospatial-intelligence-2027",
+      "date": "2027-07-31",
+      "sources": [
+        "https://www.mdpi.com/journal/ijgi/special_issues/077D70GD57",
+        "https://www.mdpi.com/journal/ijgi/special_issues"
+      ],
+      "summary": "Special issue on GeoAI and spatial analysis for social equity, health disparities, transport justice, environmental exposure and equitable urban policy.",
+      "evidence": "Publisher specifies a calendar date only; no exact submission time or timezone is stated.",
+      "path": "src/data/opportunities/special-issues/ijgi-equitable-geospatial-intelligence-2027.yml",
+      "type": "special_issue",
+      "title": "Equitable Geospatial Intelligence: Spatio-Temporal Perspectives on Social Equity and Well-Being",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "tgis-autonomous-gis-2027",
+      "date": "2027-10-31",
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001266",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Special issue on autonomous geographic information systems, agentic workflows, spatial reasoning and reliable execution of geospatial analysis.",
+      "evidence": "Publisher specifies a calendar date only; no exact submission time or timezone is stated.",
+      "path": "src/data/opportunities/special-issues/tgis-autonomous-gis-2027.yml",
+      "type": "special_issue",
+      "title": "Perspectives and Advances in Autonomous GIS",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "tgis-geo-agentic-ai-2027",
+      "date": "2027-08-31",
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001317",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Special issue on spatial reasoning, geospatial tool orchestration, agent architectures and coordinated AI systems for geographic tasks.",
+      "evidence": "Publisher specifies a calendar date only; no exact submission time or timezone is stated.",
+      "path": "src/data/opportunities/special-issues/tgis-geo-agentic-ai-2027.yml",
+      "type": "special_issue",
+      "title": "Geo-Agentic AI: Spatial Reasoning, Tool Orchestration, and Multi-Agent Systems",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    },
+    {
+      "id": "tgis-human-behavior-urban-environments-ai-2026",
+      "date": "2026-12-31",
+      "sources": [
+        "https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-papers/si-2024-001363",
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers"
+      ],
+      "summary": "Special issue on AI methods for studying human activity, urban environments, mobility, infrastructure and spatial interactions using geographic data.",
+      "evidence": "Publisher specifies a calendar date only; no exact submission time or timezone is stated.",
+      "path": "src/data/opportunities/special-issues/tgis-human-behavior-urban-environments-ai-2026.yml",
+      "type": "special_issue",
+      "title": "Human Behavior and Urban Environments: Artificial Intelligence-Based Approaches",
+      "last_verified": "2026-11-17",
+      "disposition": "verified_added",
+      "retained": true
+    }
+  ],
+  "journal_watchlist": [
+    {
+      "id": "annals-aag",
+      "name": "Annals of the American Association of Geographers",
+      "status": "reviewed_no_addition",
+      "sources": [
+        "https://www.aag.org/journal/annals-of-the-aag/",
+        "https://www.tandfonline.com/toc/raag20/current"
+      ],
+      "summary": "Read the official AAG journal page and searched original publisher/society calls. It describes thematic issues but no new concrete-deadline CFP was verified. Editorial recruitment notices were excluded. The publisher homepage was inaccessible, so the absence of further calls is not established."
+    },
+    {
+      "id": "ijgis",
+      "name": "International Journal of Geographical Information Science",
+      "status": "partial_access_existing_verified",
+      "sources": [
+        "https://www.tandfonline.com/journals/tgis20",
+        "https://callforpapers.taylorandfrancis.com/special_issues/critical-challenges-in-geoai/",
+        "https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/"
+      ],
+      "summary": "Publisher homepage inaccessible. Both existing dedicated CFPs were readable and verified, including the required abstract/invitation stages. No additional deadline-bearing original call was verified in the discovery search."
+    },
+    {
+      "id": "ceus",
+      "name": "Computers, Environment and Urban Systems",
+      "status": "partial_access_added",
+      "sources": [
+        "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/about/call-for-papers",
+        "https://www.nickmalleson.co.uk/2025/04/CEUS-SI-DT_AI.html",
+        "https://ual.sg/post/2025/05/16/call-for-papers-open-urban-data-science/",
+        "https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8"
+      ],
+      "summary": "Publisher CFP index inaccessible (a direct request returned a Site Unavailable body despite HTTP 200). Rechecked both historical calls against their original guest-editor CFPs. Added GeoAI and Spatial Data Science for Fire Research, due 2026-12-31, using the inspected UCL CASA institutional original with Huanfa Chen’s full CFP and named editors. Publisher portal status remains unverified."
+    },
+    {
+      "id": "isprs-jprs",
+      "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "status": "unresolved_discovery_access",
+      "sources": [
+        "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/call-for-papers",
+        "https://www.isprs.org/isprsjournal/"
+      ],
+      "summary": "ScienceDirect CFP index inaccessible; the society page returned no readable content. Search found named collections but not an accessible original future deadline. Collection/publication dates were not converted into submission deadlines. No addition."
+    },
+    {
+      "id": "rse",
+      "name": "Remote Sensing of Environment",
+      "status": "unresolved_discovery_access",
+      "sources": [
+        "https://www.sciencedirect.com/journal/remote-sensing-of-environment/about/call-for-papers"
+      ],
+      "summary": "Publisher CFP index inaccessible in web and direct retrieval. Discovery surfaced older foundation-model calls and a multi-journal conference collection without a separately verified future RSE cutoff. No addition; this is not a finding that no calls exist."
+    },
+    {
+      "id": "tgrs",
+      "name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "status": "reviewed_no_addition",
+      "sources": [
+        "https://www.grss-ieee.org/publications/transactions-on-geoscience-remote-sensing/",
+        "https://www.grss-ieee.org/publications/author-resources/call-for-papers/"
+      ],
+      "summary": "Read the official society journal page and GRSS call index. No new TGRS-specific deadline-bearing CFP was verified. Calls belonging to JSTARS or GRSL were not assigned to TGRS. A supplementary GRSL candidate has conflicting live dates and was excluded (see follow-up queue)."
+    },
+    {
+      "id": "jag",
+      "name": "International Journal of Applied Earth Observation and Geoinformation",
+      "status": "unresolved_discovery_access",
+      "sources": [
+        "https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/call-for-papers"
+      ],
+      "summary": "Publisher index inaccessible. Indexed discovery suggests a resource-constrained multimodal foundation-model collection due 2027-07-31, but no original page was readable. Excluded pending verification; search-index text does not establish a current deadline."
+    },
+    {
+      "id": "ijde",
+      "name": "International Journal of Digital Earth",
+      "status": "partial_access_one_unresolved",
+      "sources": [
+        "https://www.tandfonline.com/journals/tjde20",
+        "https://callforpapers.taylorandfrancis.com/article_collections/advancing-geoai-from-machine-learning-to-foundation-models-for-explainable-and-generative-geospatial-intelligence/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/immersive-geographical-digital-twins-interaction-visualisation-and-applications/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/multi-source-earth-observation-and-geoai-for-maritime-situational-awareness/"
+      ],
+      "summary": "Advancing GeoAI verified directly. Existing Urban Environmental Intelligence remained inaccessible. Two prospective collections on immersive geographical digital twins and maritime GeoAI were only discoverable through indexed text; their original pages also failed, so neither was added."
+    },
+    {
+      "id": "transactions-in-gis",
+      "name": "Transactions in GIS",
+      "status": "reviewed_added_one_candidate_unresolved",
+      "sources": [
+        "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers",
+        "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001354"
+      ],
+      "summary": "Read the current official index and eight matching dedicated CFPs: all five existing entries rechecked and three new calls added (human behavior/urban AI, Geo-Agentic AI, Autonomous GIS). The ninth index title, watershed water-security digital twins, lists 2027-09-30 but the dedicated content and named editors could not be inspected; withheld rather than treating incomplete evidence as a verified addition."
+    },
+    {
+      "id": "applied-geography",
+      "name": "Applied Geography",
+      "status": "unresolved_discovery_access",
+      "sources": [
+        "https://www.sciencedirect.com/journal/applied-geography/about/call-for-papers"
+      ],
+      "summary": "Publisher CFP index inaccessible. A discovery lead about territorial politics of the green transition had inconsistent indexed cutoffs and an earlier required abstract stage. No original, current deadline could be verified; no addition."
+    },
+    {
+      "id": "annals-of-gis",
+      "name": "Annals of GIS",
+      "status": "partial_access_existing_verified",
+      "sources": [
+        "https://www.tandfonline.com/toc/tagi20/current",
+        "https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
+      ],
+      "summary": "Publisher homepage inaccessible. The dedicated Geographical Principles CFP is readable at the publisher’s new host; abstract and invited manuscript dates confirmed. No additional original deadline-bearing call verified."
+    },
+    {
+      "id": "giscience-remote-sensing",
+      "name": "GIScience & Remote Sensing",
+      "status": "partial_access_added_one_unresolved",
+      "sources": [
+        "https://www.tandfonline.com/journals/tgrs20",
+        "https://callforpapers.taylorandfrancis.com/article_collections/remote-sensing-solutions-for-urban-environment-and-ecosystem-monitoring-modelling-and-management/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/"
+      ],
+      "summary": "Urban remote sensing existing call verified; VLM imagery original remains inaccessible. Added SWOT collection using its actual current CFP, which states 2027-02-28 in both header and body (older indexed text says 2026-11-30). An aerosols/clouds/precipitation candidate was not added because its original page was inaccessible."
+    },
+    {
+      "id": "geospatial-information-science",
+      "name": "Geo-spatial Information Science",
+      "status": "unresolved_discovery_access",
+      "sources": [
+        "https://www.tandfonline.com/journals/tgsi20",
+        "https://callforpapers.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/",
+        "https://callforpapers.taylorandfrancis.com/special_issues/advancing-earth-observation-with-nisar-early-results-in-data-processing-geophysical-interpretation-and-multi-source-synthesis/"
+      ],
+      "summary": "Homepage, existing foundation-model CFP and prospective NISAR CFP were inaccessible. Retained the original entry’s previous verification date. The prospective NISAR date appeared only in indexed text and was not added."
+    }
+  ]
+}

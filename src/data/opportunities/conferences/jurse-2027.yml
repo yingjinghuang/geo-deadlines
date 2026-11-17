@@ -19,7 +19,7 @@ sources:
   - label: "JURSE conference series and 2027 announcement"
     url: "https://jurse.org/"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-17"
 event:
   start: "2027-06-30"
   end: "2027-07-02"
@@ -35,11 +35,12 @@ deadlines:
   - id: paper
     type: full_paper
     label: "Paper Submission"
-    datetime: "2026-11-17"
+    datetime: "2026-12-03"
     precision: date
     timezone: null
     status: active
     primary: true
+    note: The official Important Dates page, updated 16 November 2026, explicitly extends the paper deadline from 17 November to 3 December 2026. No exact hour or timezone is published.
   - id: notification
     type: notification
     label: "Acceptance Notification"
