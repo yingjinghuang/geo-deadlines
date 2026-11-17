@@ -1,0 +1,33 @@
+title: GeoAI and Big Earth Data for Rainfall-Induced Geohazard Prevention and Risk Reduction
+type: special_issue
+year: 2027
+description: Special issue on spatial data integration, remote sensing and interpretable learning for rainfall-related landslides, floods and geohazard early warning.
+scope: core
+topics:
+  - geoai
+  - earth-observation
+  - remote-sensing
+  - climate
+  - spatial-data-science
+journal:
+  name: Applied Sciences
+  short_name: Applied Sciences
+  publisher: MDPI
+website: https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9
+sources:
+  - label: Official publisher special issue call
+    url: https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Gang Mei
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-02-20'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

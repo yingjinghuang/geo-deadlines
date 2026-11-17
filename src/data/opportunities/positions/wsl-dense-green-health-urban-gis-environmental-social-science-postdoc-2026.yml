@@ -1,0 +1,43 @@
+title: Postdoc — Environmental Social Science and GIS (Dense-Green-Health)
+short_name: WSL Urban GIS and Wellbeing Postdoc
+type: position
+position_category: postdoc
+year: 2026
+description: An 80–100% WSL postdoc using GIS, participatory mapping and quantitative surveys to study
+  how urban density, building types and green-space diversity affect wellbeing. The two-year Dense-Green-Health
+  project covers three Swiss cities and starts January 2027. Fluent English and good German and French
+  are required.
+scope: core
+topics:
+- giscience
+- spatial-data-science
+- urban
+- vgi
+- sustainability
+website: https://apply.refline.ch/273855/1912/pub/1/index.html
+sources:
+- label: Official WSL recruitment advert, vacancy 1912
+  url: https://apply.refline.ch/273855/1912/pub/1/index.html
+  kind: official
+- label: WSL current vacancy index
+  url: https://apply.refline.ch/273855/search.html?all=1&target=overview
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Birmensdorf
+  country: Switzerland
+  country_code: CH
+organizations:
+- Swiss Federal Institute for Forest, Snow and Landscape Research WSL
+- Dense-Green-Health
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: Present in WSL's current vacancy index on 17 November 2026. No closing date or rolling-until-filled
+    statement is published. Applications must use the online portal.

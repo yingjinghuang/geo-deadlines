@@ -1,0 +1,44 @@
+title: PhD — Earth Observation and Spatiotemporal Forecasting of Mouse Plagues
+short_name: UQ Grainbelt EO Forecasting PhD
+type: position
+position_category: phd
+year: 2027
+description: A UQ–CSIRO doctoral scholarship combining satellite observations, vegetation and soil-moisture
+  layers, climate data and population monitoring to predict mouse outbreaks. The project emphasises spatiotemporal
+  statistics and operational environmental forecasting. Tuition and stipend support are advertised; eligibility
+  is restricted to domestic students.
+scope: core
+topics:
+- earth-observation
+- remote-sensing
+- spatial-statistics
+- spatial-data-science
+- machine-learning
+- sustainability
+website: https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects/forecasting-extreme-animal-population-events-modelling-house-mouse-plagues-australian-grainbelt
+sources:
+- label: Official University of Queensland project and scholarship advert
+  url: https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects/forecasting-extreme-animal-population-events-modelling-house-mouse-plagues-australian-grainbelt
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Brisbane
+  country: Australia
+  country_code: AU
+organizations:
+- The University of Queensland
+- CSIRO
+- Queensland Alliance for Agriculture and Food Innovation
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2027-01-31'
+  timezone: null
+  status: active
+  primary: true
+  note: 'Expression of interest deadline: 31 January 2027, with no closing clock stated. The project explicitly
+    excludes international students. Use scholarship code GRAINBELT-POTGIETER; the main base is St Lucia,
+    with a CSIRO placement in Canberra.'
+  precision: date

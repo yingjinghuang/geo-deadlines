@@ -1,0 +1,39 @@
+title: 'Towards Semantic and Reasoning-Enabled Remote Sensing: Vision-Language Models for Retrieval, Interpretation, and Interaction'
+type: special_issue
+year: 2026
+description: Special issue on vision-language methods for geospatial reasoning, imagery retrieval, interactive Earth observation and interpretable remote sensing.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Hsin-Hung Cho
+  - name: Gwanggil Jeon
+  - name: Abdellah Chehri
+  - name: Valerio Bellandi
+  - name: Yakoub Bazi
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2026-11-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

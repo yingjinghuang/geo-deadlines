@@ -1,0 +1,47 @@
+title: PhD Opportunity — AI, Earth Observation and Environmental Data Science (HydroTerra)
+short_name: UPEI HydroTerra AI and EO PhD
+type: position
+position_category: phd
+year: 2026
+description: Sara Sadri's HydroTerra Lab at UPEI invites PhD enquiries for an NSERC-supported programme
+  on AI, satellite observations, geospatial analytics and environmental data science. The PI describes
+  a funded opportunity; the university-hosted lab page separately confirms that graduate funding and enquiries
+  are available.
+scope: core
+topics:
+- geoai
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- machine-learning
+- climate
+website: https://projects.upei.ca/crc-sara-sadri/applying-to-upei/
+sources:
+- label: UPEI-hosted PI funding and openings page
+  url: https://projects.upei.ca/crc-sara-sadri/applying-to-upei/
+  kind: official
+- label: Sara Sadri's original PhD call with research scope and rolling review
+  url: https://www.linkedin.com/posts/sara-sadri-ab5370164_canada-nserc-fully-funded-phd-opportunity-activity-7470135791306833920-fRgF
+  kind: announcement
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Charlottetown
+  country: Canada
+  country_code: CA
+organizations:
+- University of Prince Edward Island
+- HydroTerra Lab
+deadlines:
+- id: application
+  type: application
+  label: PhD enquiry / rolling review
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: The PI's original announcement specifies rolling review until filled and directs this call's documents
+    to ecoterre.tech@gmail.com; selected candidates then apply through official UPEI admissions. The institution-hosted
+    lab page separately lists ssadri@upei.ca for general enquiries. Neither original gives a final date;
+    the aggregator's December 2027 date is not used.
+  rolling: true

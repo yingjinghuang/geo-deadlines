@@ -1,0 +1,43 @@
+title: Researcher — Land-Use Change, Remote Sensing and GIS (ECOIP)
+short_name: RIHN ECOIP Geospatial Researcher
+type: position
+position_category: research_staff
+year: 2026
+description: A research appointment at RIHN in Kyoto mapping land-use and land-cover change from satellite
+  imagery and linking geospatial analysis with research on commodity supply chains and Indigenous territories.
+  A PhD or equivalent research ability is required. The initial January–March 2027 contract may renew
+  annually through March 2030.
+scope: core
+topics:
+- giscience
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- geovisualization
+- sustainability
+website: https://www.chikyu.ac.jp/rihn_e/careers/005881.html
+sources:
+- label: Official RIHN ECOIP researcher call
+  url: https://www.chikyu.ac.jp/rihn_e/careers/005881.html
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Kyoto
+  country: Japan
+  country_code: JP
+organizations:
+- Research Institute for Humanity and Nature
+- ECOIP
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2026-11-23T10:00:00+09:00'
+  timezone: Asia/Tokyo
+  status: active
+  primary: true
+  note: The original institutional call explicitly requires receipt by 23 November 2026 at 10:00 a.m.
+    Japan Time. Submit the requested English documents to ecoip@chikyu.ac.jp using the subject specified
+    in the call.
+  precision: datetime

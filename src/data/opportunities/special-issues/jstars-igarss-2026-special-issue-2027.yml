@@ -1,0 +1,39 @@
+title: 2026 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2026) — JSTARS Special Issue
+type: special_issue
+year: 2027
+description: Journal special issue for expanded work presented at IGARSS 2026, covering geoscience, remote sensing and Earth observation.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: John Kerekes
+  - name: Jenny Du
+  - name: Jennifer Wei
+  - name: Jeff Piepmeier
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-01-31'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: Eligibility is restricted to authors of papers presented at IGARSS 2026. Submit a substantially expanded journal manuscript and give the conference paper number in the cover
+      letter; otherwise IEEE treats it as a regular submission. This is a journal cutoff, not the conference submission deadline. No closing hour or timezone is stated.

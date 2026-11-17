@@ -9,6 +9,7 @@
 # failures; it does not certify that every publisher page was accessible.
 last_reviewed: "2026-11-17"
 review_report: "docs/verification-audit-journals-2026-11-17.md"
+discovery_report: "docs/discovery-journals-2026-11-17.md"
 seed_source:
   name: "Awesome Autonomous GeoAI"
   url: "https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai#journals"
@@ -85,3 +86,13 @@ journals:
     short_name: "GSIS"
     publisher: "Taylor & Francis"
     homepage: "https://www.tandfonline.com/journals/tgsi20"
+  - id: jstars
+    name: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    short_name: "JSTARS"
+    publisher: "IEEE"
+    homepage: "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/"
+  - id: ijgi
+    name: "ISPRS International Journal of Geo-Information"
+    short_name: "IJGI"
+    publisher: "MDPI"
+    homepage: "https://www.mdpi.com/journal/ijgi/special_issues"

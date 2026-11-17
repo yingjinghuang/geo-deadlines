@@ -1,0 +1,37 @@
+title: Indoor Mobile Mapping and Location-Based Knowledge Services (2nd Edition)
+type: special_issue
+year: 2027
+description: Special issue on indoor mapping, localization, spatial knowledge services, navigation and standards for indoor geospatial data.
+scope: core
+topics:
+  - giscience
+  - lbs
+  - spatial-computing
+  - geographic-hci
+  - knowledge-graphs
+journal:
+  name: ISPRS International Journal of Geo-Information
+  short_name: IJGI
+  publisher: MDPI
+website: https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C
+sources:
+  - label: Official publisher special issue call
+    url: https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C
+    kind: publisher
+  - label: Official IJGI current special issue index
+    url: https://www.mdpi.com/journal/ijgi/special_issues
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Eliseo Clementini
+  - name: Zoe Falomir
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-09-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

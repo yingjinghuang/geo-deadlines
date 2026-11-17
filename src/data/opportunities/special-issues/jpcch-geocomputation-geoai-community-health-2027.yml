@@ -1,0 +1,41 @@
+title: Geocomputation and GeoAI for Sustainable, Resilient, and Equitable Community Health
+type: special_issue
+year: 2027
+description: Special collection on GIS, spatial modelling, GeoAI and sensing for community health, service access, environmental exposure and health equity.
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - urban
+  - mobility
+journal:
+  name: Journal of Primary Care & Community Health
+  short_name: JPCCH
+  publisher: SAGE
+website: https://journals.sagepub.com/topic/collections-jpc/002793/jpca
+sources:
+  - label: Official publisher special issue call
+    url: https://journals.sagepub.com/topic/collections-jpc/002793/jpca
+    kind: publisher
+  - label: Original CUHK GeoSus institutional session announcement
+    url: https://geosus.iseis.cuhk.edu.hk/sessions.html
+    kind: official
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Dong Liu
+  - name: Ikuho Yamada
+  - name: Jason Gilliland
+  - name: Shelly Lap Ah Tse
+  - name: Richard Sadler
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-06-08'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The publisher explicitly marks submissions open and states 8 June 2027; the CUHK session announcement agrees. The publisher invites original submissions without a stated GeoSus-attendance
+      restriction. No submission hour or timezone is stated.

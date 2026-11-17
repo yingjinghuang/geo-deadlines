@@ -1,0 +1,35 @@
+title: Geospatial Artificial Intelligence in Public Health
+type: special_issue
+year: 2027
+description: Collection on geospatial AI for disease patterns, environmental exposures, novel spatial data linkages and public-health interventions.
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-data-science
+  - remote-sensing
+  - spatial-statistics
+journal:
+  name: npj Digital Public Health
+  short_name: npj Digital Public Health
+  publisher: Springer Nature
+website: https://www.nature.com/collections/ejahhdafig/collection-policies
+sources:
+  - label: Official publisher special issue call
+    url: https://www.nature.com/collections/ejahhdafig/collection-policies
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Paula Moraga
+  - name: Trang VoPham
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-01-23'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The original collection policy page states submissions are open to all authors within scope and lists 23 January 2027. No exact cutoff time or timezone appears on the inspected
+      page; date-only precision is retained.

@@ -1,0 +1,42 @@
+title: Research Assistant Professor — Space and Earth Information Science
+short_name: CUHK ISEIS Geospatial Research Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Research Assistant Professorship at CUHK's Institute of Space and Earth Information Science in remote sensing, Earth observation, GeoAI, spatial analysis or related applications in climate, health, mobility and urban systems. Applicants need a relevant PhD and evidence of research and teaching potential. The initial contract is up to three years, renewable subject to performance and agreement, with commencement as soon as possible.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - spatial-data-science
+  - urban
+  - climate
+website: https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001HX&lang=en
+submission_url: https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001HX&lang=en
+sources:
+  - label: Official CUHK academic vacancy 260001HX
+    url: https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001HX&lang=en
+    kind: official
+  - label: CUHK Human Resources career opportunities
+    url: https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Hong Kong
+  country: Hong Kong SAR
+  country_code: HK
+organizations:
+  - The Chinese University of Hong Kong
+  - Institute of Space and Earth Information Science
+deadlines:
+  - id: application
+    type: application
+    label: Online Application Deadline
+    datetime: "2026-12-11"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The original CUHK Taleo job description for 260001HX gives 11 December 2026 as the closing date without a clock time. Applications are accepted only through the CUHK career site.

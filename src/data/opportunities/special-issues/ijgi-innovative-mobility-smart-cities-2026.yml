@@ -1,0 +1,39 @@
+title: Innovative Mobility Services for Smart Cities
+type: special_issue
+year: 2026
+description: Special issue on smart mobility, connected transport, mobility services and urban digital twins supported by spatial data and AI.
+scope: core
+topics:
+  - urban
+  - mobility
+  - lbs
+  - geoai
+journal:
+  name: ISPRS International Journal of Geo-Information
+  short_name: IJGI
+  publisher: MDPI
+website: https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5
+sources:
+  - label: Official publisher special issue call
+    url: https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5
+    kind: publisher
+  - label: Official IJGI current special issue index
+    url: https://www.mdpi.com/journal/ijgi/special_issues
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Agnese Pinto
+  - name: Filippo Gramegna
+  - name: Saverio Ieva
+  - name: Floriano Scioscia
+  - name: Michele Ruta
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2026-11-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

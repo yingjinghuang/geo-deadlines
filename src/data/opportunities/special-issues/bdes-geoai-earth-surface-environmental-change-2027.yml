@@ -1,0 +1,35 @@
+title: Advances in GeoAI for Earth Surface Processes and Environmental Change
+type: special_issue
+year: 2027
+description: Special issue on GeoAI, geospatial modelling and remote sensing methods for environmental change, land degradation, hydrology and surface processes.
+scope: core
+topics:
+  - geoai
+  - remote-sensing
+  - spatial-data-science
+  - climate
+  - earth-observation
+journal:
+  name: Big Data and Earth System
+  short_name: BDES
+  publisher: KeAi
+website: https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/
+sources:
+  - label: Official publisher special issue call
+    url: https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Ramamoorthy Ayyamperumal
+  - name: Abhishek Banerjee
+  - name: Dhritiraj Sengupta
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-04-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

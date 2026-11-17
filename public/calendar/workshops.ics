@@ -2,4 +2,49 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//GeoDeadlines//EN
 CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:agri-ai-2027-paper@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART:20261121T115900Z
+DTEND:20261121T121400Z
+SUMMARY:Agri AI 2027 — Workshop Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://agriai-workshop.github.io/aaai2027/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/agri-ai-2027/
+URL:https://agriai-workshop.github.io/aaai2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:astad-2027-paper@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART:20261121T115900Z
+DTEND:20261121T121400Z
+SUMMARY:ASTAD 2027 — Workshop Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://ismart.ece.mcgill.ca/astad4/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/astad-2027/
+URL:https://ismart.ece.mcgill.ca/astad4/
+END:VEVENT
+BEGIN:VEVENT
+UID:fosdem-geospatial-2027-talk-proposal@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:FOSDEM Geospatial 2027 — Talk / Lightning Talk Proposal Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/fosdem-geospatial-2027/
+URL:https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/
+END:VEVENT
+BEGIN:VEVENT
+UID:gsr-vlm-2027-paper@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART:20261120T115900Z
+DTEND:20261120T121400Z
+SUMMARY:GSR-VLM 2027 — Long / Short / Position Paper Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://gsr-vlm.org/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/gsr-vlm-2027/
+URL:https://gsr-vlm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:human-centric-agms-2027-paper@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART:20261121T115900Z
+DTEND:20261121T121400Z
+SUMMARY:Human-Centric AgMS 2027 — Workshop Contribution Deadline
+DESCRIPTION:Original timezone: AoE\nOfficial source: https://agentic-mobility-workshop.github.io/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/human-centric-agms-2027/
+URL:https://agentic-mobility-workshop.github.io/
+END:VEVENT
 END:VCALENDAR

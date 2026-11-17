@@ -1,0 +1,43 @@
+title: Assistant Professor (Tenure Track) — Remote Sensing Systems
+short_name: UMass Amherst Remote Sensing Systems Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Tenure-track Assistant Professor in Electrical and Computer Engineering at UMass Amherst, developing instruments and systems for remote sensing of land, water and the atmosphere. The search includes microwave and optical sensing, active and passive systems, and small-satellite or UAV payloads. A relevant PhD is required by the expected start on 1 September 2027; exceptional candidates at other ranks may be considered.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+website: https://careers.umass.edu/jobs/assistant-professor-tt-electrical-computer-engineering-remote-sensing-systems-amherst-massachusetts-united-states
+sources:
+  - label: Official UMass Amherst vacancy 509975
+    url: https://careers.umass.edu/jobs/assistant-professor-tt-electrical-computer-engineering-remote-sensing-systems-amherst-massachusetts-united-states
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Amherst
+  country: United States
+  country_code: US
+organizations:
+  - University of Massachusetts Amherst
+  - Department of Electrical and Computer Engineering
+  - Riccio College of Engineering
+deadlines:
+  - id: review-begins
+    type: application
+    label: Review Begins
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The original vacancy starts application review on 1 December 2026. This is a review milestone, with no published clock time or fixed final closing date.
+  - id: continuing-application
+    type: application
+    label: Continuing Application
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: The employer explicitly continues the posting until a suitable candidate pool is identified and reviews applications until the search is completed. Apply early and check the current portal; acceptance is not guaranteed after a suitable pool has been formed.

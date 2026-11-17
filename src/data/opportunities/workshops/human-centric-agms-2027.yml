@@ -1,0 +1,53 @@
+title: "Workshop on Human-Centric Agentic Mobility Services"
+short_name: "Human-Centric AgMS 2027"
+type: "workshop"
+series: "Human-Centric AgMS"
+year: 2027
+description: "AAAI-27 workshop on AI agents for vehicles, fleet and traffic coordination, traveler services and trustworthy urban mobility. A one-day, in-person workshop on either 22 or 23 February 2027; the exact day is not assigned. Contributions are non-archival."
+scope: "adjacent"
+topics:
+  - "mobility"
+  - "urban"
+  - "machine-learning"
+  - "ubiquitous-computing"
+website: "https://agentic-mobility-workshop.github.io/"
+sources:
+  - label: "Official workshop website"
+    url: "https://agentic-mobility-workshop.github.io/"
+    kind: "official"
+  - label: "Official workshop call for papers"
+    url: "https://agentic-mobility-workshop.github.io/cfp.html"
+    kind: "official"
+  - label: "AAAI accepted workshop program, including AgMS AoE cutoff"
+    url: "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/"
+    kind: "official"
+last_verified: "2026-11-17"
+location:
+  mode: "in_person"
+  city: "Montréal"
+  country: "Canada"
+  country_code: "CA"
+  venue: "Palais des congrès de Montréal"
+organizations:
+  - "AAAI"
+deadlines:
+  - id: "paper"
+    type: "workshop_paper"
+    label: "Workshop Contribution"
+    datetime: "2026-11-20T23:59:00-12:00"
+    precision: "datetime"
+    timezone: "AoE"
+    status: "active"
+    primary: true
+    note: "AAAI's accepted-workshop entry explicitly states 20 November AoE. Research, position, dataset, benchmark and systems/demo reports are limited to four pages excluding references."
+  - id: "notification"
+    type: "notification"
+    label: "Acceptance Notification"
+    datetime: "2026-12-02"
+    precision: "date"
+    timezone: null
+    status: "active"
+parent:
+  name: "AAAI 2027"
+  url: "https://aaai.org/conference/aaai/aaai-27/"
+submission_url: "https://openreview.net/group?id=AAAI.org/2027/Workshop/Human-Centric_AgMS"

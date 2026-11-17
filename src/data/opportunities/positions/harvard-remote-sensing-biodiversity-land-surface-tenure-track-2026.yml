@@ -1,0 +1,47 @@
+title: Tenure-Track Professor — Remote Sensing and AI for Biodiversity, Conservation and Land-Surface Processes
+short_name: Harvard Remote Sensing and AI Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Harvard Faculty of Arts and Sciences tenure-track search spanning Earth and Planetary Sciences, Organismic and Evolutionary Biology, and Human Evolutionary Biology. The position seeks foundational research using remote sensing and artificial intelligence to study biodiversity, conservation or land-surface processes, with undergraduate and graduate teaching. Appointment is expected to begin on 1 July 2027.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - sustainability
+website: https://academicpositions.harvard.edu/postings/16865
+sources:
+  - label: Official Harvard academic vacancy 16865
+    url: https://academicpositions.harvard.edu/postings/16865
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Cambridge
+  country: United States
+  country_code: US
+organizations:
+  - Harvard University
+  - Faculty of Arts and Sciences
+  - Department of Earth and Planetary Sciences
+  - Department of Organismic and Evolutionary Biology
+  - Department of Human Evolutionary Biology
+deadlines:
+  - id: recommended-application
+    type: application
+    label: Recommended Application
+    datetime: "2026-12-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The original Harvard posting encourages application by 1 December 2026 and says applications will be reviewed until the position is filled. The recommended date is not a final cutoff.
+  - id: rolling-application
+    type: application
+    label: Rolling Application
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: Rolling review until the position is filled is explicit in the current employer posting; no fixed final closing date is published.

@@ -3,7 +3,7 @@ short_name: "GSW 2027"
 type: conference
 series: "ISPRS Geospatial Week"
 year: 2027
-description: "The biennial ISPRS Geospatial Week, bringing together workshops across photogrammetry, remote sensing, spatial information sciences, and geospatial technologies."
+description: "The biennial ISPRS Geospatial Week brings together photogrammetry, remote sensing, spatial information sciences and geospatial technologies. The 41st International Symposium on Remote Sensing of Environment (ISRSE-41) is an integral component using the same GSW submission, review and publication procedures."
 scope: core
 topics:
   - remote-sensing
@@ -23,6 +23,9 @@ sources:
     kind: official
   - label: "Official ISPRS workshop deadline extension (3 October 2026)"
     url: "https://isprs.org/news/announcements/details.aspx?ID=460"
+    kind: official
+  - label: Official GSW scope and integrated ISRSE-41 component
+    url: https://gsw2027.pl/about.html
     kind: official
 last_verified: "2026-11-17"
 event:

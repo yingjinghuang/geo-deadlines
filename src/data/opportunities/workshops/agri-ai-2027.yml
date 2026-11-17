@@ -1,0 +1,51 @@
+title: "Second International Workshop on AI in Agriculture"
+short_name: "Agri AI 2027"
+type: "workshop"
+series: "Agri AI"
+year: 2027
+description: "AAAI-27 workshop on AI for agriculture, including satellite and drone observations, multimodal and spatiotemporal data fusion, regional generalization and precision farming. A full-day in-person workshop within the 22–23 February program; the exact day is not yet assigned."
+scope: "adjacent"
+topics:
+  - "remote-sensing"
+  - "earth-observation"
+  - "spatial-data-science"
+  - "machine-learning"
+  - "sustainability"
+website: "https://agriai-workshop.github.io/aaai2027/"
+sources:
+  - label: "Official Agri AI workshop call and dates"
+    url: "https://agriai-workshop.github.io/aaai2027/"
+    kind: "official"
+  - label: "AAAI accepted workshop program and submission link"
+    url: "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/"
+    kind: "official"
+last_verified: "2026-11-17"
+location:
+  mode: "in_person"
+  city: "Montréal"
+  country: "Canada"
+  country_code: "CA"
+  venue: "Palais des congrès de Montréal"
+organizations:
+  - "AAAI"
+deadlines:
+  - id: "paper"
+    type: "workshop_paper"
+    label: "Workshop Paper"
+    datetime: "2026-11-20T23:59:00-12:00"
+    precision: "datetime"
+    timezone: "AoE"
+    status: "active"
+    primary: true
+    note: "The workshop's original call explicitly specifies 20 November AoE. The workshop website still labels its OpenReview link TBA; AAAI's accepted-workshop page supplies the matching AgriAI OpenReview URL. The public portal returned a client-side loading page, so authenticated submission availability was not tested."
+  - id: "notification"
+    type: "notification"
+    label: "Acceptance Notification"
+    datetime: "2026-12-02"
+    precision: "date"
+    timezone: null
+    status: "active"
+parent:
+  name: "AAAI 2027"
+  url: "https://aaai.org/conference/aaai/aaai-27/"
+submission_url: "https://openreview.net/group?id=AAAI.org/2027/Workshop/AgriAI"

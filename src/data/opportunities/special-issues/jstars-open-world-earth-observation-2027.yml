@@ -1,0 +1,41 @@
+title: 'Open-World Earth Observation: Unified Learning from Observation Restoration to Geospatial Understanding'
+type: special_issue
+year: 2027
+description: Special issue on learning systems that connect imagery restoration with geospatial interpretation and transfer across sensors, regions, time and unseen concepts.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Mengmeng Zhang
+  - name: Gemine Vivone
+  - name: Jie Pan
+  - name: Wenzhi Liao
+  - name: Yuxiang Zhang
+  - name: Cecilia Masemola
+  - name: Nurlan Bekmukhamedov
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-06-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

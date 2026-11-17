@@ -1,0 +1,3453 @@
+{
+  "discovery_date": "2026-11-17",
+  "baseline_commit": "2b2df71be691c86ef71efe3a906b308e32a3a51d",
+  "baseline_total": 144,
+  "baseline_by_type": {
+    "conference": 37,
+    "position": 64,
+    "special_issue": 42,
+    "workshop": 1
+  },
+  "added_total": 62,
+  "added_by_type": {
+    "workshop": 5,
+    "conference": 6,
+    "special_issue": 30,
+    "position": 21
+  },
+  "added_position_categories": {
+    "postdoc": 4,
+    "faculty": 7,
+    "phd": 6,
+    "research_staff": 3,
+    "mixed": 1
+  },
+  "final_total": 206,
+  "final_by_type": {
+    "special_issue": 72,
+    "workshop": 6,
+    "position": 85,
+    "conference": 43
+  },
+  "removed": [],
+  "changed_existing": [
+    {
+      "id": "isprs-geospatial-week-2027",
+      "fields_changed": [
+        "description",
+        "sources"
+      ],
+      "sources": [
+        {
+          "label": "Official ISPRS Geospatial Week page",
+          "url": "https://www.isprs.org/society/gsw.aspx",
+          "kind": "official"
+        },
+        {
+          "label": "ISPRS 2027 calendar",
+          "url": "https://isprs.org/calendar/2027.aspx",
+          "kind": "official"
+        },
+        {
+          "label": "Official GSW 2027 calls and author timeline",
+          "url": "https://gsw2027.pl/calls.html",
+          "kind": "official"
+        },
+        {
+          "label": "Official ISPRS workshop deadline extension (3 October 2026)",
+          "url": "https://isprs.org/news/announcements/details.aspx?ID=460",
+          "kind": "official"
+        },
+        {
+          "label": "Official GSW scope and integrated ISRSE-41 component",
+          "url": "https://gsw2027.pl/about.html",
+          "kind": "official"
+        }
+      ],
+      "before_deadlines": [
+        {
+          "id": "workshop-proposal",
+          "type": "proposal",
+          "label": "Workshop Proposal",
+          "datetime": "2026-10-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Extended from 30 September 2026 to 30 October 2026, per the official ISPRS announcement and GSW call. The GSW overview page is inconsistent; use its dedicated calls page."
+        },
+        {
+          "id": "full-paper",
+          "type": "full_paper",
+          "label": "Full Paper (ISPRS Annals)",
+          "datetime": "2027-04-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Official GSW author timeline; submission system is scheduled to open 1 December 2026. Exact cutoff time and timezone are not published."
+        },
+        {
+          "id": "extended-abstract",
+          "type": "abstract",
+          "label": "Extended Abstract (ISPRS Archives / Abstract-only)",
+          "datetime": "2027-05-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Official GSW author timeline; exact submission time and timezone are not published."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Author Notification",
+          "datetime": "2027-06-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "camera-ready",
+          "type": "camera_ready",
+          "label": "Camera-ready",
+          "datetime": "2027-07-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "submission-opens",
+          "type": "other",
+          "label": "Submission System Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Official calls page postpones opening from 15 October to 1 December 2026; this is an opening date, not a submission cutoff."
+        }
+      ],
+      "after_deadlines": [
+        {
+          "id": "workshop-proposal",
+          "type": "proposal",
+          "label": "Workshop Proposal",
+          "datetime": "2026-10-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Extended from 30 September 2026 to 30 October 2026, per the official ISPRS announcement and GSW call. The GSW overview page is inconsistent; use its dedicated calls page."
+        },
+        {
+          "id": "full-paper",
+          "type": "full_paper",
+          "label": "Full Paper (ISPRS Annals)",
+          "datetime": "2027-04-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Official GSW author timeline; submission system is scheduled to open 1 December 2026. Exact cutoff time and timezone are not published."
+        },
+        {
+          "id": "extended-abstract",
+          "type": "abstract",
+          "label": "Extended Abstract (ISPRS Archives / Abstract-only)",
+          "datetime": "2027-05-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Official GSW author timeline; exact submission time and timezone are not published."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Author Notification",
+          "datetime": "2027-06-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "camera-ready",
+          "type": "camera_ready",
+          "label": "Camera-ready",
+          "datetime": "2027-07-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "submission-opens",
+          "type": "other",
+          "label": "Submission System Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Official calls page postpones opening from 15 October to 1 December 2026; this is an opening date, not a submission cutoff."
+        }
+      ]
+    },
+    {
+      "id": "scientific-reports-geospatial-data-science-2027",
+      "fields_changed": [
+        "deadlines",
+        "sources"
+      ],
+      "sources": [
+        {
+          "label": "Official Nature collection page",
+          "url": "https://www.nature.com/collections/jcieacchei",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official collection policy with explicit GMT system closure",
+          "url": "https://www.nature.com/collections/jcieacchei/about-the-collection",
+          "kind": "publisher"
+        }
+      ],
+      "before_deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-01-22",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ],
+      "after_deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-01-23T00:00:00+00:00",
+          "precision": "datetime",
+          "timezone": "Etc/UTC",
+          "status": "active",
+          "note": "The advertised submission date is 22 January 2027. The collection's specific About page explicitly says the system closes at 00:00 GMT on the following day, encoded here as 23 January 2027 00:00 UTC; submit before that instant. This adds documented time precision and is not a deadline extension. Scientific Reports accepts original research; narrative reviews can enter the shared collection through Scientific Reviews."
+        }
+      ]
+    }
+  ],
+  "journal_watchlist_before": 13,
+  "journal_watchlist_after": 15,
+  "baseline_unresolved_preserved": [
+    {
+      "id": "aag-2027",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://www.aag.org/events/aag2027/",
+        "https://aag.secure-platform.com/aag2027/"
+      ],
+      "summary": "Main AAG schedule explicitly extends session organization to 12 Nov 2026 (from 6 Nov), while the official secure-platform page still gives 5 Nov. Stored the explicit extension but exposed both conflicting statements and retained 4 Nov last_verified. Abstract 22 Oct and editing 17 Dec match; 8–12 Feb 2027 New York event confirmed. The portal also distinguishes panelists from general abstracts."
+    },
+    {
+      "id": "iccv-2027",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://iccv.thecvf.com/Conferences/2027",
+        "https://iccv.thecvf.com/Conferences/2027/Dates",
+        "https://www.thecvf.com/?page_id=100",
+        "https://www.thecvf.com/?p=137"
+      ],
+      "summary": "Submission deadline is still unpublished. Dedicated Dates and homepage header agree 3–7 Oct 2027, but the same homepage venue paragraph still says 2–8 Oct. Retained existing 3–7 Oct as the specific timetable range, made the discrepancy explicit, and preserved 4 Nov last_verified pending organizer reconciliation. The older CVF society announcement also gives 2–8 Oct; no reconciliation is inferred."
+    },
+    {
+      "id": "ghent-forest-4d-tls-microclimate-phd-2026",
+      "last_verified": "2026-11-05",
+      "sources": [
+        "https://www.ugent.be/en/work/scientific/doctoral-fellow-4"
+      ],
+      "summary": "Calendar date 30 November is confirmed, but the official 23:59 header and midnight CEST wording leave exact timezone precision unresolved. Removed the inferred +01:00 timestamp and retained the previous last_verified."
+    },
+    {
+      "id": "stirling-geospatial-data-science-lecturer-2026",
+      "last_verified": "2026-11-05",
+      "sources": [
+        "https://www.stir.ac.uk/about/work-at-stirling/list/",
+        "https://www.jobs.ac.uk/job/DTN190/lecturer-in-geospatial-data-science"
+      ],
+      "summary": "Official Stirling careers directory and its public Lumesse widget were inspected, but an individual matching FAC02153 advert could not be retrieved. A university-authored jobs.ac.uk search result still gives 23 November 2026, but syndicated search text does not establish current original-portal status. Retained the previous verification date and flagged the unresolved source."
+    },
+    {
+      "id": "ucl-casa-urban-ai-research-fellow-2026",
+      "last_verified": "2026-11-05",
+      "sources": [
+        "https://www.ucl.ac.uk/about/work-at-ucl/search-jobs/details?jobId=49263&jobTitle=Research%20Fellow%20in%20Urban%20AI"
+      ],
+      "summary": "Original UCL job 49263 returns access denial in both the web retrieval and direct HTTP client; the careers index exposes only page chrome. The previously syndicated 6 November cutoff has elapsed, but no original extension or closure could be confirmed. Retained the record and previous verification date."
+    },
+    {
+      "id": "umd-satellite-remote-sensing-research-position-2026",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://essic.umd.edu/research-position-in-satellite-remote-sensing-of-precipitation-and-clouds/",
+        "https://essic.umd.edu/about/employment/"
+      ],
+      "summary": "Original ESSIC notice is now a soft 404 in direct HTML and 404 in web retrieval; the current employer employment index no longer lists the vacancy. Its old 30 September date was review only and no final cutoff was published, so disappearance does not prove closure. Retained the record with its old verification date, removed the currently-open rolling flag and explicitly marked availability unconfirmed."
+    },
+    {
+      "id": "gisrs-vlm-remote-sensing-imagery-2027",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-05-31 and last_verified 2026-11-04."
+    },
+    {
+      "id": "gsis-spatiotemporal-intelligence-foundation-models-2027",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/",
+        "https://callforpapers.taylorandfrancis.com/special_issues/spatio-temporal-intelligence-foundation-models-and-applications-for-intelligent-earth-observation/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-03-31 and last_verified 2026-11-04."
+    },
+    {
+      "id": "ijde-urban-environmental-intelligence-2027",
+      "last_verified": "2026-11-04",
+      "sources": [
+        "https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/",
+        "https://callforpapers.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/"
+      ],
+      "summary": "Full publisher CFP inaccessible after redirect; retained previously verified 2027-05-31 and last_verified 2026-11-04."
+    }
+  ],
+  "new_source_discrepancies": [
+    {
+      "id": "iugg-2027",
+      "summary": "Detailed author instructions explicitly provide 16 February 2027 at 23:59 HST and a consistent KST conversion. A generic organizer date table and IAG notice disagree; all sources and the discrepancy remain visible."
+    }
+  ],
+  "added": [
+    {
+      "id": "agri-ai-2027",
+      "path": "src/data/opportunities/workshops/agri-ai-2027.yml",
+      "title": "Second International Workshop on AI in Agriculture",
+      "type": "workshop",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://agriai-workshop.github.io/aaai2027/",
+      "sources": [
+        {
+          "label": "Official Agri AI workshop call and dates",
+          "url": "https://agriai-workshop.github.io/aaai2027/",
+          "kind": "official"
+        },
+        {
+          "label": "AAAI accepted workshop program and submission link",
+          "url": "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "paper",
+          "type": "workshop_paper",
+          "label": "Workshop Paper",
+          "datetime": "2026-11-20T23:59:00-12:00",
+          "precision": "datetime",
+          "timezone": "AoE",
+          "status": "active",
+          "primary": true,
+          "note": "The workshop's original call explicitly specifies 20 November AoE. The workshop website still labels its OpenReview link TBA; AAAI's accepted-workshop page supplies the matching AgriAI OpenReview URL. The public portal returned a client-side loading page, so authenticated submission availability was not tested."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Acceptance Notification",
+          "datetime": "2026-12-02",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "aogs-2027",
+      "path": "src/data/opportunities/conferences/aogs-2027.yml",
+      "title": "Asia Oceania Geosciences Society Annual Meeting 2027",
+      "type": "conference",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://www.asiaoceania.org/AOGS2027/",
+      "sources": [
+        {
+          "label": "Official AOGS 2027 conference",
+          "url": "https://www.asiaoceania.org/AOGS2027/",
+          "kind": "official"
+        },
+        {
+          "label": "Official key dates and Singapore-time policy",
+          "url": "https://www.asiaoceania.org/AOGS2027/AttendeesKeyDates.aspx",
+          "kind": "official"
+        },
+        {
+          "label": "Official abstract submission instructions",
+          "url": "https://www.asiaoceania.org/AOGS2027/Submit-and-Register-Abstract",
+          "kind": "official"
+        },
+        {
+          "label": "Official accepted sessions",
+          "url": "https://www.asiaoceania.org/AOGS2027/Session-and-Conveners",
+          "kind": "official"
+        },
+        {
+          "label": "Official conference venue",
+          "url": "https://www.asiaoceania.org/AOGS2027/Travel-and-Stay-Conference-Venue",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "abstract",
+          "type": "abstract",
+          "label": "Abstract Submission",
+          "datetime": "2027-01-15T23:59:00+08:00",
+          "precision": "datetime",
+          "timezone": "Asia/Singapore",
+          "status": "active",
+          "primary": true,
+          "note": "Official abstract instructions and key dates agree on 15 January. The organizer explicitly sets deadlines at 23:59 Singapore time (GMT+8). The separate 11 January date concerns bids to host AOGS 2029."
+        },
+        {
+          "id": "funding-application",
+          "type": "application",
+          "label": "Funding Support Application",
+          "datetime": "2027-01-15T23:59:00+08:00",
+          "precision": "datetime",
+          "timezone": "Asia/Singapore",
+          "status": "active",
+          "note": "Funding applications accompany the abstract call."
+        },
+        {
+          "id": "funded-author-registration",
+          "type": "registration",
+          "label": "Funded Participant Registration",
+          "datetime": "2027-04-12T23:59:00+08:00",
+          "precision": "datetime",
+          "timezone": "Asia/Singapore",
+          "status": "active"
+        },
+        {
+          "id": "author-early-registration",
+          "type": "registration",
+          "label": "Author / Early Bird Registration",
+          "datetime": "2027-04-16T23:59:00+08:00",
+          "precision": "datetime",
+          "timezone": "Asia/Singapore",
+          "status": "active"
+        },
+        {
+          "id": "presenter-upload",
+          "type": "other",
+          "label": "Presentation / ePoster Upload",
+          "datetime": "2027-07-12T23:59:00+08:00",
+          "precision": "datetime",
+          "timezone": "Asia/Singapore",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "applied-sciences-geoai-rainfall-geohazard-risk-2027",
+      "path": "src/data/opportunities/special-issues/applied-sciences-geoai-rainfall-geohazard-risk-2027.yml",
+      "title": "GeoAI and Big Earth Data for Rainfall-Induced Geohazard Prevention and Risk Reduction",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-02-20",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "astad-2027",
+      "path": "src/data/opportunities/workshops/astad-2027.yml",
+      "title": "4th Workshop on Automated Spatial and Temporal Anomaly Detection",
+      "type": "workshop",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://ismart.ece.mcgill.ca/astad4/",
+      "sources": [
+        {
+          "label": "Official McGill iSMART workshop call",
+          "url": "https://ismart.ece.mcgill.ca/astad4/",
+          "kind": "official"
+        },
+        {
+          "label": "AAAI accepted workshop program",
+          "url": "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/",
+          "kind": "official"
+        },
+        {
+          "label": "AAAI workshop timetable and AoE policy",
+          "url": "https://aaai.org/conference/aaai/aaai-27/workshops-call/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "paper",
+          "type": "workshop_paper",
+          "label": "Workshop Paper",
+          "datetime": "2026-11-20T23:59:00-12:00",
+          "precision": "datetime",
+          "timezone": "AoE",
+          "status": "active",
+          "primary": true,
+          "note": "ASTAD's original call states 20 November; the official AAAI workshop timetable specifies Anywhere on Earth (UTC−12) for workshop deadlines. Papers may contain seven pages plus two reference pages."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Author Notification",
+          "datetime": "2026-12-02",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "bdes-geoai-earth-surface-environmental-change-2027",
+      "path": "src/data/opportunities/special-issues/bdes-geoai-earth-surface-environmental-change-2027.yml",
+      "title": "Advances in GeoAI for Earth Surface Processes and Environmental Change",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-04-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "cornell-dare-machine-learning-remote-sensing-infrastructure-postdoc-2026",
+      "path": "src/data/opportunities/positions/cornell-dare-machine-learning-remote-sensing-infrastructure-postdoc-2026.yml",
+      "title": "Postdoctoral Associate — Machine Learning and Remote Sensing for Global Infrastructure Mapping",
+      "type": "position",
+      "position_category": "postdoc",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://dareproject.org/join-our-team/",
+      "sources": [
+        {
+          "label": "Original DARE project recruitment announcement",
+          "url": "https://dareproject.org/join-our-team/",
+          "kind": "announcement"
+        },
+        {
+          "label": "Cornell announcement identifying DARE and Stefano Galelli",
+          "url": "https://news.cornell.edu/stories/2026/03/global-atlas-will-track-human-and-climate-impact-river-systems",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The project's own recruitment page explicitly states rolling review until filled. It provides the application email dareproject.view@gmail.com and requests a cover letter, CV and three reference contacts. Cornell independently confirms the DARE project and supervising investigator.",
+          "rolling": true
+        }
+      ]
+    },
+    {
+      "id": "cuhk-iseis-geospatial-ai-remote-sensing-research-assistant-professor-2026",
+      "path": "src/data/opportunities/positions/cuhk-iseis-geospatial-ai-remote-sensing-research-assistant-professor-2026.yml",
+      "title": "Research Assistant Professor — Space and Earth Information Science",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001HX&lang=en",
+      "sources": [
+        {
+          "label": "Official CUHK academic vacancy 260001HX",
+          "url": "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001HX&lang=en",
+          "kind": "official"
+        },
+        {
+          "label": "CUHK Human Resources career opportunities",
+          "url": "https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Online Application Deadline",
+          "datetime": "2026-12-11",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original CUHK Taleo job description for 260001HX gives 11 December 2026 as the closing date without a clock time. Applications are accepted only through the CUHK career site."
+        }
+      ]
+    },
+    {
+      "id": "environments-geoai-foundation-model-earth-observation-2027",
+      "path": "src/data/opportunities/special-issues/environments-geoai-foundation-model-earth-observation-2027.yml",
+      "title": "GeoAI for the Environment: Toward Foundation-Model and Decision-Ready Earth Observation",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/environments/special_issues/4YA8XF3RU8",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/environments/special_issues/4YA8XF3RU8",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-05-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "fosdem-geospatial-2027",
+      "path": "src/data/opportunities/workshops/fosdem-geospatial-2027.yml",
+      "title": "FOSDEM 2027 Geospatial Developer Room",
+      "type": "workshop",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/",
+      "sources": [
+        {
+          "label": "Original Geospatial developer-room call on the FOSDEM mailing list",
+          "url": "https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/",
+          "kind": "official"
+        },
+        {
+          "label": "Official accepted developer rooms",
+          "url": "https://fosdem.org/2027/news/accepted-developer-rooms/",
+          "kind": "official"
+        },
+        {
+          "label": "Official FOSDEM dates and campus",
+          "url": "https://fosdem.org/2027/calendar/",
+          "kind": "official"
+        },
+        {
+          "label": "Official live proposal portal",
+          "url": "https://pretalx.fosdem.org/fosdem-2027/cfp",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "talk-proposal",
+          "type": "proposal",
+          "label": "Talk / Lightning Talk Proposal",
+          "datetime": "2026-11-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original track call says '30 November 2026: Submission deadline (midnight Brussels time)'. The midnight day boundary is not disambiguated, so the announced calendar date is retained without inventing a minute-level timestamp. Select the Geospatial track in Pretalx."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Selected Talk Notification",
+          "datetime": "2026-12-07",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "frontiers-multimodal-mobility-data-ai-transport-2027",
+      "path": "src/data/opportunities/special-issues/frontiers-multimodal-mobility-data-ai-transport-2027.yml",
+      "title": "From Fragmented Mobility Data to Actionable Knowledge: Multimodal Data Fusion and Advanced AI for Sustainable Urban Transport",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport",
+      "sources": [
+        {
+          "label": "Official Frontiers Research Topic 85799",
+          "url": "https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-04-13",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The publisher states that the topic is accepting articles and gives 13 April 2027 as the manuscript cutoff. Urban transportation or mobility must be central to the submission. No GeoSofia attendance requirement, mandatory earlier abstract date, closing hour or timezone is stated in the inspected publisher call."
+        }
+      ]
+    },
+    {
+      "id": "geomorphometry-2027",
+      "path": "src/data/opportunities/conferences/geomorphometry-2027.yml",
+      "title": "Geomorphometry Conference 2027: The S&T of Topographic Modeling and LiDAR Data Processing",
+      "type": "conference",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://opengeohub.org/events/geomorphometry-conference-2027",
+      "sources": [
+        {
+          "label": "Official International Society of Geomorphometry call",
+          "url": "https://www.geomorphometry.org/2027/",
+          "kind": "official"
+        },
+        {
+          "label": "Official OpenGeoHub conference and venue",
+          "url": "https://opengeohub.org/events/geomorphometry-conference-2027",
+          "kind": "official"
+        },
+        {
+          "label": "Official live Pretalx submission call and exact UTC cutoff",
+          "url": "https://pretalx.earthmonitor.org/geomorphometry-conference-2027/cfp",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "initial-abstract",
+          "type": "abstract",
+          "label": "Initial Abstract / Presentation Proposal",
+          "datetime": "2026-12-01T23:59:00+00:00",
+          "precision": "datetime",
+          "timezone": "UTC",
+          "status": "active",
+          "primary": true,
+          "note": "The live Pretalx call explicitly allows proposals until 1 December 2026 23:59 UTC."
+        },
+        {
+          "id": "accepted-full-paper",
+          "type": "full_paper",
+          "label": "Four-page Paper for Accepted Abstracts",
+          "datetime": "2027-03-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Second phase only for proposals accepted at the initial abstract stage; this is not an independent general-submission round. The official sources do not specify a cutoff hour or timezone for this stage."
+        }
+      ]
+    },
+    {
+      "id": "gfz-forest-carbon-earth-observation-atmospheric-constraints-phd-2026",
+      "path": "src/data/opportunities/positions/gfz-forest-carbon-earth-observation-atmospheric-constraints-phd-2026.yml",
+      "title": "PhD — Forest Carbon Attribution Using Earth Observation and Atmospheric Constraints",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://gfz-potsdam.helixjobs.com/_/jobad?prj=580P11590",
+      "sources": [
+        {
+          "label": "Official GFZ recruitment advert, reference 11590",
+          "url": "https://gfz-potsdam.helixjobs.com/_/jobad?prj=580P11590",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-12-02",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The GFZ advert gives 2 December 2026 without a closing clock or timezone. Submit through the employer's online recruitment form.",
+          "precision": "date"
+        }
+      ]
+    },
+    {
+      "id": "gsr-vlm-2027",
+      "path": "src/data/opportunities/workshops/gsr-vlm-2027.yml",
+      "title": "Workshop on Geometric and Spatial Reasoning in Vision-Language Models",
+      "type": "workshop",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://gsr-vlm.org/",
+      "sources": [
+        {
+          "label": "Official GSR-VLM call and workshop-specific dates",
+          "url": "https://gsr-vlm.org/",
+          "kind": "official"
+        },
+        {
+          "label": "AAAI accepted workshop program",
+          "url": "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "paper",
+          "type": "workshop_paper",
+          "label": "Long / Short / Position Paper",
+          "datetime": "2026-11-19T23:59:00-12:00",
+          "precision": "datetime",
+          "timezone": "AoE",
+          "status": "active",
+          "primary": true,
+          "note": "The workshop's own call explicitly gives 19 November 2026 and states all dates use AoE (UTC−12). Use this workshop-specific deadline, rather than the generic AAAI 20 November timetable. The original HTML was inspected directly on 17 November."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Final Notification",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "The live original workshop HTML gives 1 December; some indexed extracts still show TBA. No exact notification hour is recorded."
+        }
+      ]
+    },
+    {
+      "id": "harvard-remote-sensing-biodiversity-land-surface-tenure-track-2026",
+      "path": "src/data/opportunities/positions/harvard-remote-sensing-biodiversity-land-surface-tenure-track-2026.yml",
+      "title": "Tenure-Track Professor — Remote Sensing and AI for Biodiversity, Conservation and Land-Surface Processes",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://academicpositions.harvard.edu/postings/16865",
+      "sources": [
+        {
+          "label": "Official Harvard academic vacancy 16865",
+          "url": "https://academicpositions.harvard.edu/postings/16865",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "recommended-application",
+          "type": "application",
+          "label": "Recommended Application",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original Harvard posting encourages application by 1 December 2026 and says applications will be reviewed until the position is filled. The recommended date is not a final cutoff."
+        },
+        {
+          "id": "rolling-application",
+          "type": "application",
+          "label": "Rolling Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "rolling": true,
+          "note": "Rolling review until the position is filled is explicit in the current employer posting; no fixed final closing date is published."
+        }
+      ]
+    },
+    {
+      "id": "heigit-humanitarian-geoai-senior-machine-learning-engineer-2026",
+      "path": "src/data/opportunities/positions/heigit-humanitarian-geoai-senior-machine-learning-engineer-2026.yml",
+      "title": "Senior Machine Learning Engineer — GeoAI for Humanitarian Applications",
+      "type": "position",
+      "position_category": "research_staff",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://heigit-jobs.softgarden.io/job/68277606?l=de",
+      "sources": [
+        {
+          "label": "Official HeiGIT Softgarden recruitment advert",
+          "url": "https://heigit-jobs.softgarden.io/job/68277606?l=de",
+          "kind": "official"
+        },
+        {
+          "label": "HeiGIT current careers index",
+          "url": "https://heigit.org/careers/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The employer's current careers page and linked application advert both list this vacancy. No closing date or explicit rolling-until-filled policy is given. Apply through Softgarden and include evidence of deployed ML work."
+        }
+      ]
+    },
+    {
+      "id": "hku-iearth-geospatial-ai-earth-observation-postdoc-research-assistants-2026",
+      "path": "src/data/opportunities/positions/hku-iearth-geospatial-ai-earth-observation-postdoc-research-assistants-2026.yml",
+      "title": "Postdoctoral Fellow / Senior Research Assistant / Research Assistant — iEarth Geospatial AI",
+      "type": "position",
+      "position_category": "mixed",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://jobs.hku.hk/en/job/537278/",
+      "sources": [
+        {
+          "label": "Official HKU careers advert, reference 537278",
+          "url": "https://jobs.hku.hk/en/job/537278/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-12-30",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The official advert closes on 30 December 2026 (Hong Kong time) or when filled, whichever is earlier. No exact closing clock is stated. Apply online; appointment level depends on qualifications.",
+          "precision": "date"
+        }
+      ]
+    },
+    {
+      "id": "human-centric-agms-2027",
+      "path": "src/data/opportunities/workshops/human-centric-agms-2027.yml",
+      "title": "Workshop on Human-Centric Agentic Mobility Services",
+      "type": "workshop",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://agentic-mobility-workshop.github.io/",
+      "sources": [
+        {
+          "label": "Official workshop website",
+          "url": "https://agentic-mobility-workshop.github.io/",
+          "kind": "official"
+        },
+        {
+          "label": "Official workshop call for papers",
+          "url": "https://agentic-mobility-workshop.github.io/cfp.html",
+          "kind": "official"
+        },
+        {
+          "label": "AAAI accepted workshop program, including AgMS AoE cutoff",
+          "url": "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "paper",
+          "type": "workshop_paper",
+          "label": "Workshop Contribution",
+          "datetime": "2026-11-20T23:59:00-12:00",
+          "precision": "datetime",
+          "timezone": "AoE",
+          "status": "active",
+          "primary": true,
+          "note": "AAAI's accepted-workshop entry explicitly states 20 November AoE. Research, position, dataset, benchmark and systems/demo reports are limited to four pages excluding references."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Acceptance Notification",
+          "datetime": "2026-12-02",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "ijgi-3d-gis-comprehensive-model-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-3d-gis-comprehensive-model-2027.yml",
+      "title": "3D GIS Comprehensive Model: Dimensional Frameworks and Knowledge Representation for Real-Scene 3D Geoinformation",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/N6V75P6101",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/N6V75P6101",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-07-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-geoai-digital-twins-resilient-urban-environments-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-geoai-digital-twins-resilient-urban-environments-2027.yml",
+      "title": "GeoAI and Digital Twins for Resilient Urban Environments",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/05A72WSB5R",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/05A72WSB5R",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-07-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-geoinformation-urban-sustainability-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-geoinformation-urban-sustainability-2027.yml",
+      "title": "Advances in Geo-Information Sciences for Urban Sustainability",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/4GP9SLN3Z0",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/4GP9SLN3Z0",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-08-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-geospatial-databases-models-ai-urban-science-2026",
+      "path": "src/data/opportunities/special-issues/ijgi-geospatial-databases-models-ai-urban-science-2026.yml",
+      "title": "Novel Theories and Applications on Geo-Spatial Databases, Models and AI in Urban Science, Planning, Development and Governance",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/Y8966P2317",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/Y8966P2317",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2026-12-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-geospatial-optimization-intelligent-algorithms-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-geospatial-optimization-intelligent-algorithms-2027.yml",
+      "title": "Geospatial Optimization and Multi-Objective Intelligent Algorithms: Innovations and Applications",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/K42F307B3D",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/K42F307B3D",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-07-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-indoor-mapping-location-knowledge-services-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-indoor-mapping-location-knowledge-services-2027.yml",
+      "title": "Indoor Mobile Mapping and Location-Based Knowledge Services (2nd Edition)",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-09-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-innovative-mobility-smart-cities-2026",
+      "path": "src/data/opportunities/special-issues/ijgi-innovative-mobility-smart-cities-2026.yml",
+      "title": "Innovative Mobility Services for Smart Cities",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2026-11-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "ijgi-spatial-data-science-knowledge-discovery-2027",
+      "path": "src/data/opportunities/special-issues/ijgi-spatial-data-science-knowledge-discovery-2027.yml",
+      "title": "Spatial Data Science and Knowledge Discovery (2nd Edition)",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/ijgi/special_issues/Y677AJ5834",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues/Y677AJ5834",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IJGI current special issue index",
+          "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-10-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "iugg-2027",
+      "path": "src/data/opportunities/conferences/iugg-2027.yml",
+      "title": "29th General Assembly of the International Union of Geodesy and Geophysics",
+      "type": "conference",
+      "position_category": null,
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://iugg2027korea.org/",
+      "sources": [
+        {
+          "label": "Official IUGG 2027 conference",
+          "url": "https://iugg2027korea.org/",
+          "kind": "official"
+        },
+        {
+          "label": "Official abstract submission guidelines (canonical detailed cutoff)",
+          "url": "https://iugg2027korea.org/fairContents.do?FAIRMENU_IDX=25347&hl=ENG",
+          "kind": "official"
+        },
+        {
+          "label": "Official important dates (conflicting generic timezone label)",
+          "url": "https://iugg2027korea.org/fairContents.do?FAIRMENU_IDX=23441&hl=ENG",
+          "kind": "official"
+        },
+        {
+          "label": "IUGG November 2026 newsletter",
+          "url": "https://iugg.org/wp-content/uploads/2026/10/IUGGej2611.pdf",
+          "kind": "official"
+        },
+        {
+          "label": "IAG/GGOS session announcement (conflicting earlier cutoff)",
+          "url": "https://geodesy.science/2026/call-for-abstracts-ggos-sessions-at-egu27-and-iugg-2027/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "abstract",
+          "type": "abstract",
+          "label": "Abstract Submission",
+          "datetime": "2027-02-16T23:59:00-10:00",
+          "precision": "datetime",
+          "timezone": "Pacific/Honolulu",
+          "status": "active",
+          "primary": true,
+          "note": "Canonical submission guidelines explicitly state 16 February 2027, 23:59 HST (UTC−10), equivalent to 17 February 18:59 KST. Cross-source discrepancy remains: the generic organizer Important Dates page labels 16 February as KST, while the IAG/GGOS announcement gives 14 February 23:59 HST. Both conflicting URLs are retained in Sources. The detailed author instructions are used because they provide the submission rule and a consistent timezone conversion; the discrepancy is not treated as resolved."
+        },
+        {
+          "id": "travel-grant",
+          "type": "application",
+          "label": "Travel Grant Application",
+          "datetime": "2027-02-16T23:59:00-10:00",
+          "precision": "datetime",
+          "timezone": "Pacific/Honolulu",
+          "status": "active",
+          "note": "The detailed submission guidelines apply the same HST cutoff to abstracts and travel grants. See the abstract note for the unresolved generic-page/IAG discrepancy."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Abstract / Travel Grant Notification",
+          "datetime": "2027-03-17",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "presenting-author-registration",
+          "type": "registration",
+          "label": "Presenting Author Registration",
+          "datetime": "2027-04-06",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Submission-specific guidelines require presenting authors to register and pay by this date."
+        },
+        {
+          "id": "early-registration",
+          "type": "registration",
+          "label": "Early Registration",
+          "datetime": "2027-04-28",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "jcu-environmental-hydrology-spatial-analysis-lecturer-2026",
+      "path": "src/data/opportunities/positions/jcu-environmental-hydrology-spatial-analysis-lecturer-2026.yml",
+      "title": "Lecturer / Senior Lecturer — Environmental Hydrology",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://careers.jcu.edu.au/jobs/lecturer-senior-lecturer-environmental-hydrology-cairns-qld-australia",
+      "sources": [
+        {
+          "label": "Official James Cook University vacancy 496038",
+          "url": "https://careers.jcu.edu.au/jobs/lecturer-senior-lecturer-environmental-hydrology-cairns-qld-australia",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application Deadline",
+          "datetime": "2026-11-24",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The current employer vacancy gives 24 November 2026 as the closing date without an explicit clock time or timezone. Spatial analysis supports a broader environmental-hydrology role."
+        }
+      ]
+    },
+    {
+      "id": "jisdm-2027",
+      "path": "src/data/opportunities/conferences/jisdm-2027.yml",
+      "title": "7th Joint International Symposium on Deformation Monitoring",
+      "type": "conference",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://jisdm2027.tudelft.nl/",
+      "sources": [
+        {
+          "label": "Official TU Delft symposium",
+          "url": "https://jisdm2027.tudelft.nl/",
+          "kind": "official"
+        },
+        {
+          "label": "Official updated submission dates",
+          "url": "https://jisdm2027.tudelft.nl/dates",
+          "kind": "official"
+        },
+        {
+          "label": "Official submission instructions",
+          "url": "https://jisdm2027.tudelft.nl/submission",
+          "kind": "official"
+        },
+        {
+          "label": "Official venue",
+          "url": "https://jisdm2027.tudelft.nl/venue",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "abstract",
+          "type": "abstract",
+          "label": "Abstract-only Submission",
+          "datetime": "2027-01-07",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "The updated organizer schedule sets 7 January for all three submission routes; the submission page says all routes have been enabled in ConfTool since 30 October 2026."
+        },
+        {
+          "id": "non-peer-reviewed-paper",
+          "type": "paper",
+          "label": "Non-peer-reviewed Paper",
+          "datetime": "2027-01-07",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "peer-reviewed-paper",
+          "type": "full_paper",
+          "label": "Peer-reviewed Full Paper",
+          "datetime": "2027-01-07",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The official updated schedule applies the same date to abstract-only, non-peer-reviewed and peer-reviewed submissions. No exact time or timezone is stated."
+        },
+        {
+          "id": "notification",
+          "type": "notification",
+          "label": "Acceptance Notification",
+          "datetime": "2027-02-05",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "early-registration",
+          "type": "registration",
+          "label": "Early Registration",
+          "datetime": "2027-02-19",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "final-registration",
+          "type": "registration",
+          "label": "Final Registration",
+          "datetime": "2027-03-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "jpcch-geocomputation-geoai-community-health-2027",
+      "path": "src/data/opportunities/special-issues/jpcch-geocomputation-geoai-community-health-2027.yml",
+      "title": "Geocomputation and GeoAI for Sustainable, Resilient, and Equitable Community Health",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://journals.sagepub.com/topic/collections-jpc/002793/jpca",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://journals.sagepub.com/topic/collections-jpc/002793/jpca",
+          "kind": "publisher"
+        },
+        {
+          "label": "Original CUHK GeoSus institutional session announcement",
+          "url": "https://geosus.iseis.cuhk.edu.hk/sessions.html",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-06-08",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The publisher explicitly marks submissions open and states 8 June 2027; the CUHK session announcement agrees. The publisher invites original submissions without a stated GeoSus-attendance restriction. No submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-ai-remote-sensing-image-compression-2027",
+      "path": "src/data/opportunities/special-issues/jstars-ai-remote-sensing-image-compression-2027.yml",
+      "title": "AI-driven Remote Sensing Image Compression for Human and Machine Intelligence",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_AI-driven-Remote-Sensing.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_AI-driven-Remote-Sensing.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "submission-opening",
+          "type": "other",
+          "label": "Submission System Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Opening milestone only; the manuscript closing date is listed separately."
+        },
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-05-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Announced submission window: 1 December 2026 through 31 May 2027. The system opening is a separate milestone; this is the manuscript closing date. No exact closing hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-ap-garss-2026-special-issue-2027",
+      "path": "src/data/opportunities/special-issues/jstars-ap-garss-2026-special-issue-2027.yml",
+      "title": "2026 IEEE Asia-Pacific Geoscience and Remote Sensing Symposium (AP-GARSS 2026) — JSTARS Special Issue",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/09/JSTARS_SI_CfP_AP-GARSS-2026-1.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/09/JSTARS_SI_CfP_AP-GARSS-2026-1.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-02-28",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Eligibility is restricted to authors of papers presented at AP-GARSS 2026. The journal manuscript must expand the conference paper, and the cover letter must identify its conference paper number. Without that identifier it is treated as a regular journal submission. No closing hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-embodied-agentic-uav-extreme-environments-2027",
+      "path": "src/data/opportunities/special-issues/jstars-embodied-agentic-uav-extreme-environments-2027.yml",
+      "title": "Embodied Agentic Intelligence-Enabled UAV Systems for Remote Sensing of Extreme Environments",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "submission-opening",
+          "type": "other",
+          "label": "Submission System Opens",
+          "datetime": "2027-01-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Opening milestone only; the manuscript closing date is listed separately."
+        },
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-06-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Announced submission window: 1 January through 30 June 2027. The system opening is a separate milestone; this is the manuscript closing date. No exact closing hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-foundation-models-agents-earth-observation-2026",
+      "path": "src/data/opportunities/special-issues/jstars-foundation-models-agents-earth-observation-2026.yml",
+      "title": "Foundation Models and Agents in Earth Observation",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Agents-in-Earth-Observation.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Agents-in-Earth-Observation.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2026-12-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-foundation-models-water-resources-2027",
+      "path": "src/data/opportunities/special-issues/jstars-foundation-models-water-resources-2027.yml",
+      "title": "Foundation Models and Multi-Source Remote Sensing for Water Resources Monitoring, Assessment, and Management",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-04-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-generalist-specialist-model-synergy-2027",
+      "path": "src/data/opportunities/special-issues/jstars-generalist-specialist-model-synergy-2027.yml",
+      "title": "Generalist–Specialist Model Synergy for Remote Sensing: Theories, Methods, and Applications",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-05-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-hyperspectral-image-processing-interpretation-2027",
+      "path": "src/data/opportunities/special-issues/jstars-hyperspectral-image-processing-interpretation-2027.yml",
+      "title": "Advances in Hyperspectral Image Processing and Interpretation: Foundations, Models, and Applications",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "submission-opening",
+          "type": "other",
+          "label": "Submission System Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Opening milestone only; the manuscript closing date is listed separately."
+        },
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-09-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Announced submission window: 1 December 2026 through 30 September 2027. The system opening is a separate milestone; this is the manuscript closing date. No exact closing hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-igarss-2026-special-issue-2027",
+      "path": "src/data/opportunities/special-issues/jstars-igarss-2026-special-issue-2027.yml",
+      "title": "2026 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2026) — JSTARS Special Issue",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-01-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Eligibility is restricted to authors of papers presented at IGARSS 2026. Submit a substantially expanded journal manuscript and give the conference paper number in the cover letter; otherwise IEEE treats it as a regular submission. This is a journal cutoff, not the conference submission deadline. No closing hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-microwave-remote-sensing-cryosphere-2026",
+      "path": "src/data/opportunities/special-issues/jstars-microwave-remote-sensing-cryosphere-2026.yml",
+      "title": "Advances in Microwave Remote Sensing of the Cryosphere",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2026-12-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-multisource-multimodal-remote-sensing-2027",
+      "path": "src/data/opportunities/special-issues/jstars-multisource-multimodal-remote-sensing-2027.yml",
+      "title": "Multisource and Multimodal Remote Sensing: Representation, Understanding, Reasoning, and Generation",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Multisource_Multimodal_Remote_Sensing.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Multisource_Multimodal_Remote_Sensing.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-05-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-open-world-earth-observation-2027",
+      "path": "src/data/opportunities/special-issues/jstars-open-world-earth-observation-2027.yml",
+      "title": "Open-World Earth Observation: Unified Learning from Observation Restoration to Geospatial Understanding",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-06-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-resource-constrained-multimodal-foundation-models-2027",
+      "path": "src/data/opportunities/special-issues/jstars-resource-constrained-multimodal-foundation-models-2027.yml",
+      "title": "Resource-Constrained Multimodal Foundation Models: Toward Advanced Remote Sensing Applications",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Resource-Constrained-Multimodal-Foundation-Models-Toward-Advanced-Remote-Sensing-Applications.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Resource-Constrained-Multimodal-Foundation-Models-Toward-Advanced-Remote-Sensing-Applications.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-02-28",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "jstars-vlm-semantic-reasoning-remote-sensing-2026",
+      "path": "src/data/opportunities/special-issues/jstars-vlm-semantic-reasoning-remote-sensing-2026.yml",
+      "title": "Towards Semantic and Reasoning-Enabled Remote Sensing: Vision-Language Models for Retrieval, Interpretation, and Interaction",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official IEEE GRSS current JSTARS special issue index",
+          "url": "https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2026-11-30",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "kth-geospatial-ai-earth-observation-postdoctoral-researcher-2026",
+      "path": "src/data/opportunities/positions/kth-geospatial-ai-earth-observation-postdoctoral-researcher-2026.yml",
+      "title": "Postdoctoral Researcher — Geospatial AI and Earth Observation",
+      "type": "position",
+      "position_category": "postdoc",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.isprs.org/uploads/jobs/261012_Position_for_Postdoctoral_Researcher_in_Geospatial_AI.pdf",
+      "sources": [
+        {
+          "label": "Original PI recruitment PDF submitted to ISPRS by Jingbin Liu",
+          "url": "https://www.isprs.org/uploads/jobs/261012_Position_for_Postdoctoral_Researcher_in_Geospatial_AI.pdf",
+          "kind": "announcement"
+        },
+        {
+          "label": "KTH official faculty profile confirming Jingbin Liu and contact",
+          "url": "https://www.kth.se/profile/jingbi",
+          "kind": "official"
+        },
+        {
+          "label": "ISPRS current job index identifying the author and call",
+          "url": "https://www.isprs.org/job_opportunities/default.aspx",
+          "kind": "announcement"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original PDF and current ISPRS listing were reviewed. No final deadline is stated in the PDF. Apply by contacting Jingbin Liu at jingbin@kth.se; KTH's faculty directory confirms the PI, department and email. This is a PI announcement rather than a central HR vacancy."
+        }
+      ]
+    },
+    {
+      "id": "migars-2027",
+      "path": "src/data/opportunities/conferences/migars-2027.yml",
+      "title": "Fifth International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing",
+      "type": "conference",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://migars2027.org/",
+      "sources": [
+        {
+          "label": "Official MIGARS 2027 conference",
+          "url": "https://migars2027.org/",
+          "kind": "official"
+        },
+        {
+          "label": "Official important dates",
+          "url": "https://migars2027.org/important-dates/",
+          "kind": "official"
+        },
+        {
+          "label": "Official call for papers",
+          "url": "https://migars2027.org/call-for-papers/",
+          "kind": "official"
+        },
+        {
+          "label": "Official conference venue",
+          "url": "https://migars2027.org/conference-venue/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "submission-opens",
+          "type": "other",
+          "label": "Paper Submission Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Announced opening date, not a cutoff. The CFP currently shows a placeholder for the CMT submission link."
+        },
+        {
+          "id": "tutorial-workshop-proposal",
+          "type": "proposal",
+          "label": "Tutorial / Workshop Proposal",
+          "datetime": "2027-01-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Calendar date only; no cutoff hour or timezone is stated."
+        },
+        {
+          "id": "paper",
+          "type": "full_paper",
+          "label": "Paper Submission",
+          "datetime": "2027-02-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original CFP invites papers of up to four pages. Submissions are scheduled to open 1 December 2026; the submission portal is not yet linked. No exact cutoff hour or timezone is published."
+        },
+        {
+          "id": "tutorial-workshop-notification",
+          "type": "notification",
+          "label": "Tutorial / Workshop Notification",
+          "datetime": "2027-02-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "paper-notification",
+          "type": "notification",
+          "label": "Paper Acceptance Notification",
+          "datetime": "2027-04-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "student-grant-application",
+          "type": "application",
+          "label": "Student Grant Application",
+          "datetime": "2027-04-10",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "student-grant-notification",
+          "type": "notification",
+          "label": "Student Grant Notification",
+          "datetime": "2027-04-20",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        },
+        {
+          "id": "camera-ready",
+          "type": "camera_ready",
+          "label": "Camera-ready Paper / Copyright",
+          "datetime": "2027-05-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "npj-digital-public-health-geospatial-ai-2027",
+      "path": "src/data/opportunities/special-issues/npj-digital-public-health-geospatial-ai-2027.yml",
+      "title": "Geospatial Artificial Intelligence in Public Health",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.nature.com/collections/ejahhdafig/collection-policies",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.nature.com/collections/ejahhdafig/collection-policies",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-01-23",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original collection policy page states submissions are open to all authors within scope and lists 23 January 2027. No exact cutoff time or timezone appears on the inspected page; date-only precision is retained."
+        }
+      ]
+    },
+    {
+      "id": "oulu-peatland-restoration-hydrology-remote-sensing-phd-2026",
+      "path": "src/data/opportunities/positions/oulu-peatland-restoration-hydrology-remote-sensing-phd-2026.yml",
+      "title": "Doctoral Researcher — Peatland Restoration Hydrology and Biogeochemistry",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://oulunyliopisto.varbi.com/en/what:job/jobID:987425/",
+      "sources": [
+        {
+          "label": "Official Oulu recruitment advert, reference 2026/671",
+          "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:987425/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-12-13T23:59:00+02:00",
+          "timezone": "Europe/Helsinki",
+          "status": "active",
+          "primary": true,
+          "note": "The university explicitly specifies 13 December 2026 at 23:59 Finnish local time. Apply through Varbi with the requested cover letter, CV and initial research plan.",
+          "precision": "datetime"
+        }
+      ]
+    },
+    {
+      "id": "oxford-intelligent-earth-ai-environment-cdt-phd-2027",
+      "path": "src/data/opportunities/positions/oxford-intelligent-earth-ai-environment-cdt-phd-2027.yml",
+      "title": "Doctoral Training in AI for the Environment — Intelligent Earth, 2027 Entry",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://intelligent-earth.ox.ac.uk/how-apply",
+      "sources": [
+        {
+          "label": "Official Intelligent Earth 2027 application instructions",
+          "url": "https://intelligent-earth.ox.ac.uk/how-apply",
+          "kind": "official"
+        },
+        {
+          "label": "Oxford graduate admissions course page for 2027–28",
+          "url": "https://www.ox.ac.uk/admissions/graduate/courses/cdt-intelligent-earth",
+          "kind": "official"
+        },
+        {
+          "label": "Oxford description of AI and environmental-science training",
+          "url": "https://www.earth.ox.ac.uk/node/3864461",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2027-01-06T12:00:00+00:00",
+          "timezone": "Europe/London",
+          "status": "active",
+          "primary": true,
+          "note": "The programme and central graduate admissions pages agree on 6 January 2027 at 12:00 midday UK time. Funding consideration is automatic with the programme application. The programme page retains an inconsistent old interview year, which is not used as a milestone here.",
+          "precision": "datetime"
+        }
+      ]
+    },
+    {
+      "id": "remote-sensing-deep-learning-foundation-models-hyperspectral-2027",
+      "path": "src/data/opportunities/special-issues/remote-sensing-deep-learning-foundation-models-hyperspectral-2027.yml",
+      "title": "Advanced Deep Learning and Foundation Models for Hyperspectral Image Interpretation",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/remotesensing/special_issues/12565512x3",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/remotesensing/special_issues/12565512x3",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-02-28",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "remote-sensing-foundation-model-multimodal-data-fusion-2027",
+      "path": "src/data/opportunities/special-issues/remote-sensing-foundation-model-multimodal-data-fusion-2027.yml",
+      "title": "Foundation Model-Based Multi-Modal Data Fusion in Remote Sensing",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.mdpi.com/journal/remotesensing/special_issues/a3npvc625j",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.mdpi.com/journal/remotesensing/special_issues/a3npvc625j",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-04-15",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The inspected original CFP gives a calendar date only; no submission hour or timezone is stated."
+        }
+      ]
+    },
+    {
+      "id": "rihn-ecoip-land-use-remote-sensing-geospatial-researcher-2026",
+      "path": "src/data/opportunities/positions/rihn-ecoip-land-use-remote-sensing-geospatial-researcher-2026.yml",
+      "title": "Researcher — Land-Use Change, Remote Sensing and GIS (ECOIP)",
+      "type": "position",
+      "position_category": "research_staff",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.chikyu.ac.jp/rihn_e/careers/005881.html",
+      "sources": [
+        {
+          "label": "Official RIHN ECOIP researcher call",
+          "url": "https://www.chikyu.ac.jp/rihn_e/careers/005881.html",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-23T10:00:00+09:00",
+          "timezone": "Asia/Tokyo",
+          "status": "active",
+          "primary": true,
+          "note": "The original institutional call explicitly requires receipt by 23 November 2026 at 10:00 a.m. Japan Time. Submit the requested English documents to ecoip@chikyu.ac.jp using the subject specified in the call.",
+          "precision": "datetime"
+        }
+      ]
+    },
+    {
+      "id": "scientific-reports-geospatial-climate-resilient-settlements-2027",
+      "path": "src/data/opportunities/special-issues/scientific-reports-geospatial-climate-resilient-settlements-2027.yml",
+      "title": "Geospatial Approaches for Climate-Resilient and Sustainable Human Settlements",
+      "type": "special_issue",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://www.nature.com/collections/bcjcecaegc/about-the-collection",
+      "sources": [
+        {
+          "label": "Official publisher special issue call",
+          "url": "https://www.nature.com/collections/bcjcecaegc/about-the-collection",
+          "kind": "publisher"
+        },
+        {
+          "label": "Official collection overview",
+          "url": "https://www.nature.com/collections/bcjcecaegc",
+          "kind": "publisher"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "manuscript",
+          "type": "special_issue_manuscript",
+          "label": "Manuscript",
+          "datetime": "2027-08-12T00:00:00+00:00",
+          "precision": "datetime",
+          "timezone": "Etc/UTC",
+          "status": "active",
+          "primary": true,
+          "note": "The advertised submission date is 11 August 2027. The publisher explicitly says the system closes at 00:00 GMT on the following day, encoded here as 12 August 2027 00:00 UTC; submit before that instant. Scientific Reports accepts original research; the shared collection also welcomes narrative reviews through Scientific Reviews."
+        }
+      ]
+    },
+    {
+      "id": "silvilaser-2027",
+      "path": "src/data/opportunities/conferences/silvilaser-2027.yml",
+      "title": "SilviLaser 2027",
+      "type": "conference",
+      "position_category": null,
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://silvilaser.com/",
+      "sources": [
+        {
+          "label": "Official SilviLaser 2027 website",
+          "url": "https://silvilaser.com/",
+          "kind": "official"
+        },
+        {
+          "label": "Official abstract submission dates",
+          "url": "https://silvilaser.com/submit/",
+          "kind": "official"
+        },
+        {
+          "label": "Official program",
+          "url": "https://silvilaser.com/program/",
+          "kind": "official"
+        },
+        {
+          "label": "Official program poster (conference 13–17 September; field trip 18 September)",
+          "url": "https://silvilaser.com/wp-content/uploads/2026/11/SilviLaserProgramPoster-scaled.jpg",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "abstract-opens",
+          "type": "other",
+          "label": "Abstract Submission Opens",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "Opening date, not a cutoff. The abstract submission page currently publishes the schedule."
+        },
+        {
+          "id": "abstract",
+          "type": "abstract",
+          "label": "Abstract Submission",
+          "datetime": "2027-01-31",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Official abstract submission schedule. No exact hour or timezone is published."
+        }
+      ]
+    },
+    {
+      "id": "uef-mine-the-gap-spatial-ai-earth-observation-three-phds-2026",
+      "path": "src/data/opportunities/positions/uef-mine-the-gap-spatial-ai-earth-observation-three-phds-2026.yml",
+      "title": "Three Doctoral Researchers — Data Science and AI for Spatial Data (MINE-THE-GAP)",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://uef.varbi.com/en/what:job/jobID:978704/type:job/where:39/apply:1",
+      "sources": [
+        {
+          "label": "UEF official recruitment advert, reference 1290/01.01.03/2026",
+          "url": "https://uef.varbi.com/en/what:job/jobID:978704/type:job/where:39/apply:1",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2026-11-17T23:59:00+02:00",
+          "timezone": "Europe/Helsinki",
+          "status": "active",
+          "primary": true,
+          "note": "The employer explicitly specifies 17 November 2026 at 23:59 Finnish time (UTC+2). Apply through the recruitment form. Applicants finishing their master's degree must supply the degree certificate by 15 December; that is not an extended application deadline.",
+          "precision": "datetime"
+        }
+      ]
+    },
+    {
+      "id": "uftm-cartography-remote-sensing-temporary-faculty-2026",
+      "path": "src/data/opportunities/positions/uftm-cartography-remote-sensing-temporary-faculty-2026.yml",
+      "title": "Professor Substituto — Cartography, Remote Sensing and Photogrammetry",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=103&publicacao=17716",
+      "sources": [
+        {
+          "label": "Official UFTM current selection notice 33/2026",
+          "url": "https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=103&publicacao=17716",
+          "kind": "official"
+        },
+        {
+          "label": "Official UFTM Edital 33/2026 full notice",
+          "url": "https://sistemas.uftm.edu.br/integrado/?secret=uftm&to=magic%3A646a1b81678869b9a8272768",
+          "kind": "official"
+        },
+        {
+          "label": "UFTM current temporary-faculty competitions",
+          "url": "https://www.uftm.edu.br/processo-seletivo-simplificado-para-contratacao/processos-em-andamento",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application Deadline",
+          "datetime": "2026-11-26",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The current university notice and Edital 33/2026 give an application period of 17–26 November 2026. No exact application cutoff time is published in the inspected sources. Select Lotação 05 for the Geography vacancy."
+        },
+        {
+          "id": "application-fee",
+          "type": "other",
+          "label": "Application Fee Payment",
+          "datetime": "2026-11-27",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "note": "The edital separately permits payment of the application fee by 27 November 2026. This does not extend the application deadline of 26 November."
+        }
+      ]
+    },
+    {
+      "id": "uliege-earth-system-modelling-remote-sensing-faculty-2026",
+      "path": "src/data/opportunities/positions/uliege-earth-system-modelling-remote-sensing-faculty-2026.yml",
+      "title": "Full-Time Academic Position — Earth System Modelling",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "adjacent",
+      "last_verified": "2026-11-17",
+      "website": "https://www.uliege.be/upload/docs/application/pdf/2026-10/fs_ca261023_pa270301_earth_system_modelling_en.pdf",
+      "sources": [
+        {
+          "label": "Official University of Liège vacancy PA270301",
+          "url": "https://www.uliege.be/upload/docs/application/pdf/2026-10/fs_ca261023_pa270301_earth_system_modelling_en.pdf",
+          "kind": "official"
+        },
+        {
+          "label": "Official University of Liège academic recruitment index",
+          "url": "https://www.uliege.be/cms/c_9131383/en/academic-and-teaching-positions",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Complete Application by Email",
+          "datetime": "2027-01-09T23:59:00+01:00",
+          "precision": "datetime",
+          "timezone": "Europe/Brussels",
+          "status": "active",
+          "primary": true,
+          "note": "The original university PDF, published 3 November 2026, explicitly requires the complete application no later than 9 January 2027 at 11:59 PM Belgian time. Submit to the two academic-affairs contacts specified in the vacancy; this is an email application."
+        }
+      ]
+    },
+    {
+      "id": "umass-amherst-remote-sensing-systems-assistant-professor-2026",
+      "path": "src/data/opportunities/positions/umass-amherst-remote-sensing-systems-assistant-professor-2026.yml",
+      "title": "Assistant Professor (Tenure Track) — Remote Sensing Systems",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://careers.umass.edu/jobs/assistant-professor-tt-electrical-computer-engineering-remote-sensing-systems-amherst-massachusetts-united-states",
+      "sources": [
+        {
+          "label": "Official UMass Amherst vacancy 509975",
+          "url": "https://careers.umass.edu/jobs/assistant-professor-tt-electrical-computer-engineering-remote-sensing-systems-amherst-massachusetts-united-states",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "review-begins",
+          "type": "application",
+          "label": "Review Begins",
+          "datetime": "2026-12-01",
+          "precision": "date",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The original vacancy starts application review on 1 December 2026. This is a review milestone, with no published clock time or fixed final closing date."
+        },
+        {
+          "id": "continuing-application",
+          "type": "application",
+          "label": "Continuing Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "rolling": true,
+          "note": "The employer explicitly continues the posting until a suitable candidate pool is identified and reviews applications until the search is completed. Apply early and check the current portal; acceptance is not guaranteed after a suitable pool has been formed."
+        }
+      ]
+    },
+    {
+      "id": "upei-hydroterra-ai-earth-observation-environmental-data-science-phd-2026",
+      "path": "src/data/opportunities/positions/upei-hydroterra-ai-earth-observation-environmental-data-science-phd-2026.yml",
+      "title": "PhD Opportunity — AI, Earth Observation and Environmental Data Science (HydroTerra)",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://projects.upei.ca/crc-sara-sadri/applying-to-upei/",
+      "sources": [
+        {
+          "label": "UPEI-hosted PI funding and openings page",
+          "url": "https://projects.upei.ca/crc-sara-sadri/applying-to-upei/",
+          "kind": "official"
+        },
+        {
+          "label": "Sara Sadri's original PhD call with research scope and rolling review",
+          "url": "https://www.linkedin.com/posts/sara-sadri-ab5370164_canada-nserc-fully-funded-phd-opportunity-activity-7470135791306833920-fRgF",
+          "kind": "announcement"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "PhD enquiry / rolling review",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The PI's original announcement specifies rolling review until filled and directs this call's documents to ecoterre.tech@gmail.com; selected candidates then apply through official UPEI admissions. The institution-hosted lab page separately lists ssadri@upei.ca for general enquiries. Neither original gives a final date; the aggregator's December 2027 date is not used.",
+          "rolling": true
+        }
+      ]
+    },
+    {
+      "id": "uq-grainbelt-earth-observation-spatiotemporal-forecasting-phd-2027",
+      "path": "src/data/opportunities/positions/uq-grainbelt-earth-observation-spatiotemporal-forecasting-phd-2027.yml",
+      "title": "PhD — Earth Observation and Spatiotemporal Forecasting of Mouse Plagues",
+      "type": "position",
+      "position_category": "phd",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects/forecasting-extreme-animal-population-events-modelling-house-mouse-plagues-australian-grainbelt",
+      "sources": [
+        {
+          "label": "Official University of Queensland project and scholarship advert",
+          "url": "https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects/forecasting-extreme-animal-population-events-modelling-house-mouse-plagues-australian-grainbelt",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "2027-01-31",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Expression of interest deadline: 31 January 2027, with no closing clock stated. The project explicitly excludes international students. Use scholarship code GRAINBELT-POTGIETER; the main base is St Lucia, with a CSIRO placement in Canberra.",
+          "precision": "date"
+        }
+      ]
+    },
+    {
+      "id": "utoronto-geographic-data-science-teaching-faculty-2026",
+      "path": "src/data/opportunities/positions/utoronto-geographic-data-science-teaching-faculty-2026.yml",
+      "title": "Assistant Professor, Teaching Stream (CLTA) — Geographic Data Science",
+      "type": "position",
+      "position_category": "faculty",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor,-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/",
+      "sources": [
+        {
+          "label": "Official University of Toronto vacancy 49017",
+          "url": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor,-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application and Reference Letters",
+          "datetime": "2026-12-10T23:59:00-05:00",
+          "precision": "datetime",
+          "timezone": "America/Toronto",
+          "status": "active",
+          "primary": true,
+          "note": "Original vacancy 49017 explicitly closes on 10 December 2026 at 11:59 PM Eastern Time. All application materials, including reference letters, must be received by this deadline."
+        }
+      ]
+    },
+    {
+      "id": "wsl-dense-green-health-urban-gis-environmental-social-science-postdoc-2026",
+      "path": "src/data/opportunities/positions/wsl-dense-green-health-urban-gis-environmental-social-science-postdoc-2026.yml",
+      "title": "Postdoc — Environmental Social Science and GIS (Dense-Green-Health)",
+      "type": "position",
+      "position_category": "postdoc",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://apply.refline.ch/273855/1912/pub/1/index.html",
+      "sources": [
+        {
+          "label": "Official WSL recruitment advert, vacancy 1912",
+          "url": "https://apply.refline.ch/273855/1912/pub/1/index.html",
+          "kind": "official"
+        },
+        {
+          "label": "WSL current vacancy index",
+          "url": "https://apply.refline.ch/273855/search.html?all=1&target=overview",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Present in WSL's current vacancy index on 17 November 2026. No closing date or rolling-until-filled statement is published. Applications must use the online portal."
+        }
+      ]
+    },
+    {
+      "id": "wsl-hydrasense-forest-water-optical-microwave-remote-sensing-postdoc-2026",
+      "path": "src/data/opportunities/positions/wsl-hydrasense-forest-water-optical-microwave-remote-sensing-postdoc-2026.yml",
+      "title": "Postdoc — Optical and Microwave Remote Sensing of Forest Water Dynamics (HydraSense)",
+      "type": "position",
+      "position_category": "postdoc",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://apply.refline.ch/273855/1918/pub/1/index.html",
+      "sources": [
+        {
+          "label": "Official WSL recruitment advert, vacancy 1918",
+          "url": "https://apply.refline.ch/273855/1918/pub/1/index.html",
+          "kind": "official"
+        },
+        {
+          "label": "WSL current vacancy index",
+          "url": "https://apply.refline.ch/273855/search.html?all=1&target=overview",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "Listed in the current WSL recruitment index on 17 November 2026. The advert does not state a closing date or explicitly promise rolling review. Apply through the online portal; email applications are not accepted."
+        }
+      ]
+    },
+    {
+      "id": "wsl-spatial-planning-qgis-urban-sprawl-research-assistant-2026",
+      "path": "src/data/opportunities/positions/wsl-spatial-planning-qgis-urban-sprawl-research-assistant-2026.yml",
+      "title": "Scientific Assistant — Spatial Planning and QGIS Urban-Sprawl Indicators",
+      "type": "position",
+      "position_category": "research_staff",
+      "scope": "core",
+      "last_verified": "2026-11-17",
+      "website": "https://apply.refline.ch/273855/1914/pub/1/index.html",
+      "sources": [
+        {
+          "label": "Official WSL recruitment advert, vacancy 1914",
+          "url": "https://apply.refline.ch/273855/1914/pub/1/index.html",
+          "kind": "official"
+        },
+        {
+          "label": "WSL current vacancy index",
+          "url": "https://apply.refline.ch/273855/search.html?all=1&target=overview",
+          "kind": "official"
+        }
+      ],
+      "deadlines": [
+        {
+          "id": "application",
+          "type": "application",
+          "label": "Application",
+          "datetime": "TBD",
+          "timezone": null,
+          "status": "active",
+          "primary": true,
+          "note": "The official advert explicitly accepts applications until the position is filled. Apply through WSL's recruitment portal with motivation letter, CV, master's diploma and two reference contacts.",
+          "rolling": true
+        }
+      ]
+    }
+  ],
+  "discovery_reports": {
+    "conferences": {
+      "report": "docs/discovery-conferences-2026-11-17.md",
+      "added_ids": [
+        "migars-2027",
+        "jisdm-2027",
+        "silvilaser-2027",
+        "aogs-2027",
+        "iugg-2027",
+        "geomorphometry-2027",
+        "human-centric-agms-2027",
+        "astad-2027",
+        "agri-ai-2027",
+        "gsr-vlm-2027",
+        "fosdem-geospatial-2027"
+      ],
+      "excluded_or_deferred": [
+        {
+          "name": "GSCS / ICUI 2027",
+          "reason": "Society conference announcement inspected directly states 20–23 July Hong Kong and 1 March paper/abstract dates, but actual linked /submission and /topics routes return HTTP404. Deferred until operative author instructions establish the intake; not added as a fully verified call.",
+          "sources": [
+            "https://www.isocui.org/icui2027",
+            "https://www.isocui.org/submission",
+            "https://www.isocui.org/topics",
+            "https://isprs.org/calendar/2027.aspx"
+          ]
+        },
+        {
+          "name": "3DGeoInfo / SDSC 2027 (Rabat)",
+          "reason": "Event announced for 4–8 October, but inspected live page has an empty dates table, placeholder committee and portal links; indexed dates are explicitly TBC. No unverified April date or additional TBD card added.",
+          "sources": [
+            "https://georabat2027.com/"
+          ]
+        },
+        {
+          "name": "PCP 2027: Point Cloud Processing",
+          "reason": "Original University of Stuttgart workshop call says abstract deadline 1 November; the program is already populated and no original-source extension was found. Future event exists, but no new open submission opportunity was established.",
+          "sources": [
+            "https://pcp.ifp.uni-stuttgart.de/"
+          ]
+        },
+        {
+          "name": "XXII SBSR 2027",
+          "reason": "Original Galoa CFP says extended deadline 6 November 2026, already past; no authoritative later extension established. Do not portray the upcoming April event as a new open paper call.",
+          "sources": [
+            "https://proceedings.science/cfp/sbsr-2027?lang=pt-br"
+          ]
+        },
+        {
+          "name": "GeoCV 2027 at WACV",
+          "reason": "Workshop source lists accepted papers and 20 November camera-ready; this is a post-acceptance stage, not new general intake. Exact January workshop day remains TBA. Parent WACV record was previously removed for a separate original-source conflict and was not restored.",
+          "sources": [
+            "https://sites.google.com/view/geocv/home",
+            "https://github.com/yingjinghuang/geo-deadlines/blob/61bd98cf3c40a3af584da28eec58d5cdb28f92b7/src/data/opportunities/conferences/wacv-2027.yml"
+          ]
+        },
+        {
+          "name": "ISRSE-41",
+          "reason": "Official GSW description states it is integrated into GSW2027 and uses its submission/review/publication procedures. Updated existing GSW description/source instead of creating a duplicate event card.",
+          "sources": [
+            "https://gsw2027.pl/about.html",
+            "https://www.isprs.org/news/newsletter/2026-02/index.html"
+          ]
+        },
+        {
+          "name": "3D-ARCH 2027",
+          "reason": "Search recovered official 2026 edition and historical 2025 abstract call, not a verified 2027 CFP.",
+          "sources": [
+            "https://3darch.fbk.eu/"
+          ]
+        },
+        {
+          "name": "ACRS 2027",
+          "reason": "Official ISPRS calendar announces 11–15 October Bangkok but no original actionable CFP deadline was established. Deferred, without inventing a deadline.",
+          "sources": [
+            "https://isprs.org/calendar/2027.aspx"
+          ]
+        },
+        {
+          "name": "Photogrammetric Week 2027",
+          "reason": "Official calendar announces invited-lecture seminar; no public paper-submission cutoff was established.",
+          "sources": [
+            "https://isprs.org/calendar/2027.aspx",
+            "http://phowo.ifp.uni-stuttgart.de/"
+          ]
+        },
+        {
+          "name": "IEEE GRSS regional conferences (WHISPERS, LAGIRS, M2GARSS)",
+          "reason": "Targeted 2027 searches and live IEEE GRSS conference/events listings did not establish a new official actionable 2027 call beyond IGARSS, already tracked. This is a discovery limitation, not proof that no future call will occur.",
+          "sources": [
+            "https://www.grss-ieee.org/conferences/",
+            "https://www.grss-ieee.org/events-calendar/"
+          ]
+        },
+        {
+          "name": "EARSeL imaging spectroscopy / SKI Canada 2027",
+          "reason": "Search found older original editions rather than a current verified 2027 CFP; no new card added.",
+          "sources": [
+            "https://isprs.org/calendar/2027.aspx",
+            "https://skiconference.ca/"
+          ]
+        },
+        {
+          "name": "FOSS4G 2027 / FOSS4G SotM Oceania 2027",
+          "reason": "Global Bristol conference already tracked; regional Oceania search led to a host-proposal request rather than an established participant paper call. No duplicate global or unverified regional card.",
+          "sources": [
+            "https://www.osgeo.org/events/foss4g-2027/",
+            "https://2027.foss4g.org/",
+            "https://www.mail-archive.com/oceania%40lists.osgeo.org/msg00974.html"
+          ]
+        },
+        {
+          "name": "EarthVision / Climate Informatics / GeoComputation / EuroCarto / GeoViz 2027",
+          "reason": "Targeted fresh searches did not establish an original actionable 2027 CFP. Researcher plans or generic conference references were not substituted for organizer announcements.",
+          "sources": []
+        },
+        {
+          "name": "RSEOAI / RSSM / generic conference-list leads",
+          "reason": "Not prioritized without sufficiently clear original society/institutional sponsorship and current actionable intake; commercial directory listings alone were insufficient. This is a curation decision, not a claim of illegitimacy.",
+          "sources": [
+            "https://www.rseoai.com/",
+            "https://www.icrssm.net/"
+          ]
+        },
+        {
+          "name": "GeoAI 2028",
+          "reason": "Previously removed uncertainty record checked in historical audit list; no new original CFP evidence found in this 2027-focused discovery, so not restored.",
+          "sources": [
+            "https://github.com/yingjinghuang/geo-deadlines/blob/61bd98cf3c40a3af584da28eec58d5cdb28f92b7/src/data/opportunities/conferences/geoai-2028.yml"
+          ]
+        }
+      ],
+      "search_coverage": [
+        {
+          "area": "Major geospatial/surveying societies",
+          "channels": [
+            "ISPRS2027calendar and announcements",
+            "FIG/IAG/TU Delft JISDM",
+            "official IEEE GRSS conferences and events"
+          ],
+          "focus": "New 2027 geomatics, deformation monitoring, photogrammetry, regional remote sensing and next-edition calls"
+        },
+        {
+          "area": "Remote-sensing and terrain/forest specialisms",
+          "channels": [
+            "MIGARS IIIT Hyderabad",
+            "SilviLaser organizer program and dates",
+            "Geomorphometry society/OpenGeoHub/live Pretalx",
+            "SBSR Galoa CFP",
+            "AOGS original accepted sessions and submission pages",
+            "IUGG original author instructions"
+          ],
+          "focus": "Verified current/announced submission routes with exact evidence and precision"
+        },
+        {
+          "area": "Urban/spatial computing and AI workshops",
+          "channels": [
+            "ISUI ICUI2027 original announcement and broken author links",
+            "AAAI27 accepted-workshop program and individual original sites",
+            "WACV GeoCV",
+            "EarthVision and climate-informatics targeted searches"
+          ],
+          "focus": "Relevant adjacent methodology/application workshops with specific CFPs"
+        },
+        {
+          "area": "Open source and community venues",
+          "channels": [
+            "OSGeo FOSS4G global/regional discovery",
+            "FOSDEM accepted-devroom list, original organizer CFP and live Pretalx"
+          ],
+          "focus": "Developer talks and open geospatial software beyond formal research conferences"
+        },
+        {
+          "area": "Deduplication and prior uncertainty",
+          "channels": [
+            "Current37conference+1workshop YAML baseline",
+            "docs/verification-audit-2026-10-25.md",
+            "docs/conference-discovery-2026-10-25.md"
+          ],
+          "focus": "Existing parent events, integratedISRSE component, removedWACV/GeoAI2028 records"
+        },
+        {
+          "area": "Search method",
+          "channels": [
+            "Fresh system1 queries with60–180dayrecency windows",
+            "Official direct page opens",
+            "Direct HTTPS original HTML where web retrieval failed",
+            "Visual inspection of original SilviLaser program poster"
+          ],
+          "focus": "Broad bounded discovery, not a claim of exhaustive internet coverage"
+        }
+      ]
+    },
+    "journals": {
+      "report": "docs/discovery-journals-2026-11-17.md",
+      "added_ids": [
+        "jstars-vlm-semantic-reasoning-remote-sensing-2026",
+        "jstars-microwave-remote-sensing-cryosphere-2026",
+        "jstars-foundation-models-agents-earth-observation-2026",
+        "jstars-igarss-2026-special-issue-2027",
+        "jstars-resource-constrained-multimodal-foundation-models-2027",
+        "jstars-ap-garss-2026-special-issue-2027",
+        "jstars-foundation-models-water-resources-2027",
+        "jstars-generalist-specialist-model-synergy-2027",
+        "jstars-multisource-multimodal-remote-sensing-2027",
+        "jstars-ai-remote-sensing-image-compression-2027",
+        "jstars-embodied-agentic-uav-extreme-environments-2027",
+        "jstars-open-world-earth-observation-2027",
+        "jstars-hyperspectral-image-processing-interpretation-2027",
+        "ijgi-innovative-mobility-smart-cities-2026",
+        "ijgi-geospatial-databases-models-ai-urban-science-2026",
+        "ijgi-3d-gis-comprehensive-model-2027",
+        "ijgi-geospatial-optimization-intelligent-algorithms-2027",
+        "ijgi-geoai-digital-twins-resilient-urban-environments-2027",
+        "ijgi-geoinformation-urban-sustainability-2027",
+        "ijgi-indoor-mapping-location-knowledge-services-2027",
+        "ijgi-spatial-data-science-knowledge-discovery-2027",
+        "jpcch-geocomputation-geoai-community-health-2027",
+        "bdes-geoai-earth-surface-environmental-change-2027",
+        "remote-sensing-foundation-model-multimodal-data-fusion-2027",
+        "remote-sensing-deep-learning-foundation-models-hyperspectral-2027",
+        "environments-geoai-foundation-model-earth-observation-2027",
+        "applied-sciences-geoai-rainfall-geohazard-risk-2027",
+        "npj-digital-public-health-geospatial-ai-2027",
+        "scientific-reports-geospatial-climate-resilient-settlements-2027",
+        "frontiers-multimodal-mobility-data-ai-transport-2027"
+      ],
+      "excluded_or_deferred": [
+        {
+          "id": "grsl-tool-using-agents-conflict",
+          "title": "Tool-Using Agents for Remote Sensing",
+          "sources": [
+            "https://www.grss-ieee.org/publications/author-resources/grsl-special-streams/",
+            "https://www.grss-ieee.org/publications/author-resources/grsl-special-streams/grss-special-stream-on-tool-using-agents-for-remote-sensing-autonomous-geospatial-planning-reliable-tool-orchestration-and-decision-level-evaluation/"
+          ],
+          "reason": "The earlier same-session original review found live index end date 31 January 2027 versus dedicated-page end date 30 April 2025. No new original evidence resolves the conflict, so it remains excluded.",
+          "source_refs": [
+            "turn289518354view2"
+          ]
+        },
+        {
+          "id": "tgis-watershed-water-security-unresolved",
+          "title": "Geospatial Digital Twins for Watershed Water Security: Monitoring, Simulation and Early Warning",
+          "sources": [
+            "https://onlinelibrary.wiley.com/journal/14679671/homepage/call-for-papers",
+            "https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-2026-001354"
+          ],
+          "reason": "Current publisher index gives 30 September 2027, but the dedicated original remains HTTP 403 on a fresh direct request. Named-editor and complete CFP evidence were not recovered; no addition."
+        },
+        {
+          "id": "information-geography-multimodal-geoai-2027",
+          "title": "Advancing GeoAI with Multimodal Geodata for Sustainable Urban Environments",
+          "sources": [
+            "https://www.linkedin.com/posts/juhaszlevente_geoai-callforpapers-cfp-activity-7480639946727329792-HIhI",
+            "https://www.linkedin.com/posts/hao-li-340868154_callforpaper-informationgeography-geoai-activity-7480626379328237569-obDd",
+            "https://www.sciencedirect.com/special-issue/334955/advancing-geoai-with-multimodal-geodata-for-sustainable-urban-environments"
+          ],
+          "reason": "Historical removed ID checked against two actual original guest-editor posts. They confirm title, scope and editors but contain no deadline; the publisher detail is HTTP 403. The historical 1 April 2027 date was not restored from indexed text.",
+          "source_refs": [
+            "turn697076561view0",
+            "turn697076561view1"
+          ]
+        },
+        {
+          "id": "ceus-geoai-fire-duplicate",
+          "title": "GeoAI and Spatial Data Science for Fire Research",
+          "sources": [
+            "https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research"
+          ],
+          "reason": "Already present under ceus-geoai-spatial-data-science-fire-research-2026; the older removed ceus-geoai-fire-2026 alias must not be recreated."
+        },
+        {
+          "id": "ijgi-historical-page-2",
+          "title": "Historical IJGI special issues reached by pagination",
+          "sources": [
+            "https://www.mdpi.com/journal/ijgi/special_issues?page=2"
+          ],
+          "reason": "The next-page URL lost the open-submissions filter and exposed historical 2015–2016 closed calls. No old date was presented as a newly open opportunity.",
+          "source_refs": [
+            "turn747923249view2"
+          ]
+        },
+        {
+          "id": "mdpi-joint-issue-duplicates",
+          "title": "Joint journal versions of the Environments and Applied Sciences collections",
+          "sources": [
+            "https://www.mdpi.com/journal/environments/special_issues/4YA8XF3RU8",
+            "https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9"
+          ],
+          "reason": "Each inspected call points to a joint issue in another MDPI journal. One verified journal route is represented for each call; sister-journal variants were not counted as additional discoveries."
+        }
+      ],
+      "search_coverage": {
+        "date": "2026-11-17",
+        "baseline_commit": "2b2df71",
+        "baseline_special_issues": 42,
+        "historically_deleted_ids_compared": 18,
+        "mode": "Targeted omission discovery after the completed same-session full audit; not another verification pass over all 144 baseline records.",
+        "query_method": "Freshness-focused system1 searches (60- and 90-day recency) followed by actual original publisher pages, journal indexes, CFP PDFs, and direct original HTML retrieval where the reader failed.",
+        "searched_families": [
+          "GeoAI",
+          "GIScience",
+          "remote sensing and Earth observation",
+          "spatial data science",
+          "urban analytics",
+          "geocomputation and community health"
+        ],
+        "publisher_channels": [
+          "IEEE GRSS/JSTARS",
+          "MDPI IJGI, Remote Sensing, Environments and Applied Sciences",
+          "SAGE and CUHK GeoSus",
+          "KeAi",
+          "Springer Nature",
+          "Wiley Transactions in GIS",
+          "Elsevier Information Geography and guest-editor originals",
+          "Taylor & Francis discovery searches",
+          "Frontiers in Sustainable Cities, via GeoSofia organizer lead"
+        ],
+        "new_journals_with_additions": {
+          "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing": 13,
+          "ISPRS International Journal of Geo-Information": 8,
+          "Journal of Primary Care & Community Health": 1,
+          "Big Data and Earth System": 1,
+          "Remote Sensing": 2,
+          "Environments": 1,
+          "Applied Sciences": 1,
+          "npj Digital Public Health": 1,
+          "Scientific Reports": 1,
+          "Frontiers in Sustainable Cities": 1
+        },
+        "watchlist_before": 13,
+        "watchlist_after": 15,
+        "watchlist_added": [
+          "jstars",
+          "ijgi"
+        ],
+        "watchlist_scope": "The original 13 journal sweep is documented in verification-audit-journals-2026-11-17.md from earlier in the same session. Both newly added recurring indexes were inspected in this discovery pass.",
+        "limits": "This is a broad targeted search, not an exhaustive census of every special issue. Prior inaccessible Taylor & Francis records remain unresolved; no verification dates were bulk-updated. No inference of portal access was made from an archived announcement."
+      }
+    },
+    "faculty": {
+      "report": "docs/discovery-faculty-2026-11-17.md",
+      "added_ids": [
+        "umass-amherst-remote-sensing-systems-assistant-professor-2026",
+        "utoronto-geographic-data-science-teaching-faculty-2026",
+        "harvard-remote-sensing-biodiversity-land-surface-tenure-track-2026",
+        "jcu-environmental-hydrology-spatial-analysis-lecturer-2026",
+        "uliege-earth-system-modelling-remote-sensing-faculty-2026",
+        "cuhk-iseis-geospatial-ai-remote-sensing-research-assistant-professor-2026",
+        "uftm-cartography-remote-sensing-temporary-faculty-2026"
+      ],
+      "excluded_or_deferred": [
+        {
+          "title": "University of Guelph Assistant Professor in GeoAI (2296)",
+          "disposition": "officially_closed",
+          "sources": [
+            "https://careers.uoguelph.ca/job/Guelph-Assistant-Professor-in-GeoAI-ON-N1G-2W1/1290970347/"
+          ],
+          "summary": "Original employer page explicitly says the posting is closed and applications are no longer accepted. Old rolling-review copies do not override current closure."
+        },
+        {
+          "title": "NUS Professor in GIScience (28565)",
+          "disposition": "officially_unavailable",
+          "sources": [
+            "https://careers.nus.edu.sg/job/Professor-%28GIScience%29/28565-en_GB/",
+            "https://fass.nus.edu.sg/geog/2025/04/30/job-opportunity-full-professor-in-giscience/"
+          ],
+          "summary": "Current original employer page says job unavailable. Department announcement dates from April 2025 despite later reposting."
+        },
+        {
+          "title": "Virginia Tech Experimental Space Physics and Radar Remote Sensing faculty (538285)",
+          "disposition": "deferred_conflicting_original_dates",
+          "sources": [
+            "https://jobs.apply.vt.edu/jobs/assistant-or-associate-professor-in-experimental-space-physics-and-radar-remote-sensing-blacksburg-virginia-united-states",
+            "https://superdarn.ece.vt.edu/news/article/assistant-or-associate-professor-in-experimental-space-physics-and-radar-remote-sensing"
+          ],
+          "summary": "Original narrative review begins November 30, 2026; same portal Review Date field says January 8, 2027. Until-filled status is explicit, but milestone conflict unresolved and role is adjacent space physics.",
+          "source_refs": [
+            "turn847191572view1",
+            "turn725140947search8"
+          ]
+        },
+        {
+          "title": "Florida State University Spatial Data Science Assistant Professors (63784)",
+          "disposition": "deferred_original_detail_unavailable",
+          "sources": [
+            "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=63784&PostingSeq=1",
+            "https://careers.insidehighered.com/job/3570602/assistant-professor-9-month-salaried-spatial-data-science-multiple-vacancies-/"
+          ],
+          "summary": "Search results for the original public job index match 63784; exact original detail repeatedly returns 503 or generic session page, including cookie-preserving public requests. University-authored syndicated copy says review December 1, 2026 until filled, but original full-description deadline could not be independently verified. Accessible SDSC original announcement is 2025, not this call.",
+          "source_refs": [
+            "turn141422292search1",
+            "turn702573652search0",
+            "turn312007106view0"
+          ]
+        },
+        {
+          "title": "UM6P ARC AIR Data Assimilation and Satellite Remote Sensing Assistant Professor",
+          "disposition": "deferred_original_status_unresolved",
+          "sources": [
+            "https://euraxess.ec.europa.eu/jobs/471961",
+            "https://recruitment.um6p.ma/",
+            "https://ma.linkedin.com/jobs/view/arc-air-assistant-professor-in-data-assimilation-and-satellite-remote-sensing-at-um6p-university-mohammed-vi-polytechnic-4485289047"
+          ],
+          "summary": "EURAXESS copy expires November 8 while newer reposts claim current recruitment. No matching current original vacancy was recovered from the university recruitment platform; do not choose an unverified date.",
+          "source_refs": [
+            "turn141422292search0",
+            "turn295383845view0"
+          ]
+        },
+        {
+          "title": "Aalto Assistant/Associate Professor Geoinformatics",
+          "disposition": "excluded_stale_lead",
+          "sources": [
+            "https://fi.linkedin.com/jobs/view/assistant-or-associate-professor-geoinformatics-at-aalto-university-4360988187"
+          ],
+          "summary": "Full syndicated notice gives February 28, 2026 and no longer accepting; no verified current original replacement was found.",
+          "source_refs": [
+            "turn258457757view2"
+          ]
+        },
+        {
+          "title": "TU Delft Assistant Professor Radar Remote Sensing",
+          "disposition": "excluded_stale_lead",
+          "sources": [
+            "https://jobs.workinsouthholland.nl/companies/delft-university-of-technology-tu-delft/jobs/93164884-assistant-professor-radar-remote-sensing-delft-nl-2628-cd"
+          ],
+          "summary": "Regional syndicated copy closes before October 19, 2026 and says no longer accepting. No source-verified extension or current replacement found; not asserted as an independently verified original closure.",
+          "source_refs": [
+            "turn506980652search7"
+          ]
+        },
+        {
+          "title": "UFTM Edital 33/2026 Lotação 02 Geosciences/Agricultural Engineering",
+          "disposition": "excluded_insufficient_geospatial_fit",
+          "sources": [
+            "https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=103&publicacao=17716"
+          ],
+          "summary": "Current official short area description does not establish substantial geospatial methods. Added only clearly matching Lotação 05."
+        },
+        {
+          "title": "UM6P Vanguard Open Rank Applied Mathematics (12686)",
+          "disposition": "excluded_unavailable_and_weak_fit",
+          "sources": [
+            "https://vanguard.um6p.ma/en/careers/open-rank-professor-position-in-applied-mathematics/",
+            "https://career2.successfactors.eu/sfcareer/jobreqcareer?company=ump&jobId=12686"
+          ],
+          "summary": "Broad mathematical applications do not establish focused geospatial remit, and original linked employer vacancy is unavailable.",
+          "source_refs": [
+            "turn921739154view0",
+            "turn312007106view1"
+          ]
+        }
+      ],
+      "search_coverage": {
+        "date": "2026-11-17",
+        "baseline_commit": "2b2df71",
+        "baseline_opportunities": 144,
+        "baseline_positions": 64,
+        "scope": "New globally relevant faculty recruitment only.",
+        "regions": [
+          "United States",
+          "Canada",
+          "Europe including UK/Ireland/Belgium/Finland/Netherlands/Germany/Sweden",
+          "Australia",
+          "Asia including Hong Kong/Singapore/Taiwan",
+          "Africa: Morocco",
+          "Latin America and Iberian-language searches: Brazil/Spanish-language geomatics calls"
+        ],
+        "rank_terms": [
+          "Assistant Professor",
+          "Associate Professor",
+          "tenure-track",
+          "tenure-stream",
+          "Lecturer",
+          "Senior Lecturer",
+          "Research Assistant Professor",
+          "Professor Substituto"
+        ],
+        "subject_terms": [
+          "GIScience",
+          "GeoAI",
+          "geoinformatics",
+          "geomatics",
+          "remote sensing",
+          "Earth observation",
+          "spatial data science",
+          "physical geography",
+          "climate and Earth-system modelling",
+          "hydrology and catchment modelling",
+          "biodiversity and conservation",
+          "land-surface processes",
+          "urban sustainability"
+        ],
+        "discovery_routes": [
+          "two web search engines",
+          "original university faculty and HR portals",
+          "department and lab announcements",
+          "EGU ESSI/NH and ISPRS feeds",
+          "public faculty social posts",
+          "Academic Positions",
+          "Inside Higher Ed",
+          "LinkedIn",
+          "regional boards",
+          "Portuguese and Spanish vacancy queries"
+        ],
+        "outcome": {
+          "added": 7,
+          "core": 5,
+          "adjacent": 2,
+          "changed": 0,
+          "excluded_or_deferred": 9
+        },
+        "limitations": [
+          "Not a claim of exhaustive coverage of every global vacancy.",
+          "FSU original full deadline detail, UM6P original current availability and Virginia Tech conflicting review milestones remain unresolved.",
+          "Third-party stale calls and internal transfers/accreditation/proposed appointments were not added."
+        ]
+      }
+    },
+    "research": {
+      "report": "docs/discovery-research-2026-11-17.md",
+      "added_ids": [
+        "uef-mine-the-gap-spatial-ai-earth-observation-three-phds-2026",
+        "gfz-forest-carbon-earth-observation-atmospheric-constraints-phd-2026",
+        "wsl-hydrasense-forest-water-optical-microwave-remote-sensing-postdoc-2026",
+        "oxford-intelligent-earth-ai-environment-cdt-phd-2027",
+        "wsl-dense-green-health-urban-gis-environmental-social-science-postdoc-2026",
+        "wsl-spatial-planning-qgis-urban-sprawl-research-assistant-2026",
+        "hku-iearth-geospatial-ai-earth-observation-postdoc-research-assistants-2026",
+        "cornell-dare-machine-learning-remote-sensing-infrastructure-postdoc-2026",
+        "kth-geospatial-ai-earth-observation-postdoctoral-researcher-2026",
+        "heigit-humanitarian-geoai-senior-machine-learning-engineer-2026",
+        "rihn-ecoip-land-use-remote-sensing-geospatial-researcher-2026",
+        "uq-grainbelt-earth-observation-spatiotemporal-forecasting-phd-2027",
+        "oulu-peatland-restoration-hydrology-remote-sensing-phd-2026",
+        "upei-hydroterra-ai-earth-observation-environmental-data-science-phd-2026"
+      ],
+      "excluded_or_deferred": [
+        {
+          "name": "Charles Darwin University methane / remote-sensing PhD",
+          "reason": "The original project page still gives 12 July 2026 as the application cutoff. An early-2027 start does not establish a reopened call.",
+          "sources": [
+            "https://www.cdu.edu.au/riel/postgraduate-study/available-postgraduate-projects"
+          ]
+        },
+        {
+          "name": "Newcastle GNSS-IR soil-moisture PhD",
+          "reason": "Original scholarship deadline was 28 September 2026; no extension was found.",
+          "sources": [
+            "https://www.newcastle.edu.au/study/research/phd-scholarships/phd-scholarships/gnss-ir-and-multi-source-data-integration-for-high-resolution-soil-moisture-monitoring"
+          ]
+        },
+        {
+          "name": "WSL vegetation analysis postdoc, vacancy 1919",
+          "reason": "The original work is vegetation field surveys and controlled ecology experiments. A material GIS or remote-sensing methodological requirement was not established.",
+          "sources": [
+            "https://apply.refline.ch/273855/1919/pub/1/index.html"
+          ]
+        },
+        {
+          "name": "UC Irvine hydrology / remote-sensing postdoc, JPF10415",
+          "reason": "Already tracked. Recent aggregator republication is not a distinct new opportunity.",
+          "sources": [
+            "https://recruit.ap.uci.edu/JPF10415"
+          ]
+        },
+        {
+          "name": "UZH microwave remote sensing for water systems, old indexed advert",
+          "reason": "Do not restore an old cached URL after the earlier same-day audit found the replacement vacancy closed and absent from the current employer index.",
+          "sources": [
+            "https://jobs.uzh.ch/job-vacancies/postdoctoral-researcher-microwave-remote-sensing-for-water-systems-research/54b95c8a-e7a3-4fbe-8fbe-d7d735c5c451"
+          ]
+        },
+        {
+          "name": "RMIT generic PhD in Geospatial Sciences programme",
+          "reason": "A continuous degree-admissions page does not establish a distinct funded recruitment call or actionable new scholarship deadline.",
+          "sources": [
+            "https://www.rmit.edu.au/study-with-us/levels-of-study/research-programs/phd/phd-geospatial-sciences-dr223/apply-now"
+          ]
+        },
+        {
+          "name": "SENSE CDT 2027 intake",
+          "reason": "The programme site is current, but this pass did not locate an original 2027 recruitment call with a concrete deadline. Generic training information was not turned into a new vacancy.",
+          "sources": [
+            "https://eo-cdt.org/"
+          ]
+        },
+        {
+          "name": "University of Florida Qiu / Zhao ecosystem services and GeoAI PhDs",
+          "reason": "A university-hosted third-party announcement gives a December deadline, but the inspected PI pages only confirm general recruiting and the grant. The specific cohort deadline remains deferred pending the original call.",
+          "sources": [
+            "https://environment.uw.edu/opportunities/ph-d-position-ecosystem-services-earth-system-science-and-geoai/",
+            "https://changzhao-geods.github.io/Ecosystem-Services-GeoAI-Lab/",
+            "https://jiangxiaoqiu.weebly.com/"
+          ]
+        },
+        {
+          "name": "Guelph GeoAI / Digital Earth MSc and possible PhD, fall 2027",
+          "reason": "Aggregator April 2027 cutoff not corroborated on the inspected PI page. The suggested PhD route is also conditional on funding; no new PhD card was inferred.",
+          "sources": [
+            "https://erin-1919.github.io/"
+          ]
+        },
+        {
+          "name": "Slovak Academy of Sciences LiDAR / GIS physical-geography PhD",
+          "reason": "Society-hosted lead states May 2027 without a day. This pass did not retrieve a matching current institutional recruitment call; retain as a follow-up lead instead of inventing an exact deadline.",
+          "sources": [
+            "https://www.egu.eu/jobs/8605/",
+            "https://geography.sav.sk/en/research/projects/national-projects/"
+          ]
+        }
+      ],
+      "search_coverage": [
+        "Current university and research-institute vacancy portals in Europe, North America, Asia and Australia.",
+        "ISPRS and EGU jobs, EURAXESS, Academic Positions and specialist research job boards as discovery leads.",
+        "Original PI/lab websites, institution-hosted funding pages and public LinkedIn announcements.",
+        "Research methods beyond job-title keywords, including forest water, ecosystem restoration, urban wellbeing and spatiotemporal environmental forecasting."
+      ]
+    }
+  },
+  "validation": {
+    "data_consistency": "passed",
+    "baseline_preservation": "passed",
+    "type_check": "passed",
+    "unit_tests": "27 passed in 4 files",
+    "production_build": "passed: 217 static pages, including all 206 opportunity routes",
+    "calendar_generation": "passed: 31 feeds, 165 upcoming deadlines",
+    "deployment": "Recorded in the pull request after publication",
+    "new_routes": "All 62 new detail pages present in production output",
+    "exact_clock_examples": "UEF 21:59Z; GSR-VLM 11:59Z following AoE date; Toronto 04:59Z following ET date; IUGG 09:59Z following HST date",
+    "expected_warnings": "Four unchanged missing event/location warnings for NeurIPS, SSTD and State of the Map",
+    "diff_whitespace": "passed with CRLF-aware calendar handling"
+  }
+}

@@ -1,0 +1,36 @@
+title: Lecturer / Senior Lecturer — Environmental Hydrology
+short_name: JCU Environmental Hydrology Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Continuing, full-time academic appointment at Lecturer or Senior Lecturer level in James Cook University's College of Science and Engineering in Cairns. Research and teaching concern tropical catchment hydrology, soil-water-vegetation interactions and water and land management; expertise in spatial analysis and integrated catchment modelling is explicitly valued. A relevant PhD, completed or near completion, is required.
+scope: adjacent
+topics:
+  - geography
+  - spatial-data-science
+  - climate
+  - sustainability
+website: https://careers.jcu.edu.au/jobs/lecturer-senior-lecturer-environmental-hydrology-cairns-qld-australia
+sources:
+  - label: Official James Cook University vacancy 496038
+    url: https://careers.jcu.edu.au/jobs/lecturer-senior-lecturer-environmental-hydrology-cairns-qld-australia
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Cairns
+  country: Australia
+  country_code: AU
+organizations:
+  - James Cook University
+  - College of Science and Engineering
+deadlines:
+  - id: application
+    type: application
+    label: Application Deadline
+    datetime: "2026-11-24"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The current employer vacancy gives 24 November 2026 as the closing date without an explicit clock time or timezone. Spatial analysis supports a broader environmental-hydrology role.

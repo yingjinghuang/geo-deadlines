@@ -1,0 +1,39 @@
+title: Advances in Microwave Remote Sensing of the Cryosphere
+type: special_issue
+year: 2026
+description: Special issue on microwave observations, physical retrievals, sensor fusion and machine learning for snow, ice, glaciers and permafrost.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - climate
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Haokui Xu
+  - name: Andreas Colliander
+  - name: Mustafa Aksoy
+  - name: Marco Brogioni
+  - name: Tianjie Zhao
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2026-12-31'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

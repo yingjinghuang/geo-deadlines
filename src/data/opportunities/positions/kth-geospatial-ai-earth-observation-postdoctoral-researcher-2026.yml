@@ -1,0 +1,46 @@
+title: Postdoctoral Researcher — Geospatial AI and Earth Observation
+short_name: KTH Geospatial AI Postdoc
+type: position
+position_category: postdoc
+year: 2026
+description: A two-year postdoctoral research call at KTH on spatial foundation models, multimodal Earth
+  observation, physics-informed deep learning and resource-efficient AI. The PI-authored announcement
+  identifies the Department of Real Estate and Construction Management and Digital Futures as hosts.
+scope: core
+topics:
+- geoai
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- machine-learning
+website: https://www.isprs.org/uploads/jobs/261012_Position_for_Postdoctoral_Researcher_in_Geospatial_AI.pdf
+sources:
+- label: Original PI recruitment PDF submitted to ISPRS by Jingbin Liu
+  url: https://www.isprs.org/uploads/jobs/261012_Position_for_Postdoctoral_Researcher_in_Geospatial_AI.pdf
+  kind: announcement
+- label: KTH official faculty profile confirming Jingbin Liu and contact
+  url: https://www.kth.se/profile/jingbi
+  kind: official
+- label: ISPRS current job index identifying the author and call
+  url: https://www.isprs.org/job_opportunities/default.aspx
+  kind: announcement
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Stockholm
+  country: Sweden
+  country_code: SE
+organizations:
+- KTH Royal Institute of Technology
+- Digital Futures
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: The original PDF and current ISPRS listing were reviewed. No final deadline is stated in the PDF.
+    Apply by contacting Jingbin Liu at jingbin@kth.se; KTH's faculty directory confirms the PI, department
+    and email. This is a PI announcement rather than a central HR vacancy.

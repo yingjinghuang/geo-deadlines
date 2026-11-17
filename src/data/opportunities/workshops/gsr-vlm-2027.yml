@@ -1,0 +1,51 @@
+title: "Workshop on Geometric and Spatial Reasoning in Vision-Language Models"
+short_name: "GSR-VLM 2027"
+type: "workshop"
+series: "GSR-VLM"
+year: 2027
+description: "AAAI-27 workshop on spatial perception, geometric representations and grounded reasoning in vision-language models, including navigation and embodied AI. It is listed in AAAI's accepted workshop program, although the workshop site's banner still says proposed. The exact workshop day is unassigned."
+scope: "adjacent"
+topics:
+  - "spatial-computing"
+  - "spatial-cognition"
+  - "computer-vision"
+  - "machine-learning"
+website: "https://gsr-vlm.org/"
+sources:
+  - label: "Official GSR-VLM call and workshop-specific dates"
+    url: "https://gsr-vlm.org/"
+    kind: "official"
+  - label: "AAAI accepted workshop program"
+    url: "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/"
+    kind: "official"
+last_verified: "2026-11-17"
+location:
+  mode: "in_person"
+  city: "Montréal"
+  country: "Canada"
+  country_code: "CA"
+  venue: "Palais des congrès de Montréal"
+organizations:
+  - "AAAI"
+deadlines:
+  - id: "paper"
+    type: "workshop_paper"
+    label: "Long / Short / Position Paper"
+    datetime: "2026-11-19T23:59:00-12:00"
+    precision: "datetime"
+    timezone: "AoE"
+    status: "active"
+    primary: true
+    note: "The workshop's own call explicitly gives 19 November 2026 and states all dates use AoE (UTC−12). Use this workshop-specific deadline, rather than the generic AAAI 20 November timetable. The original HTML was inspected directly on 17 November."
+  - id: "notification"
+    type: "notification"
+    label: "Final Notification"
+    datetime: "2026-12-01"
+    precision: "date"
+    timezone: null
+    status: "active"
+    note: "The live original workshop HTML gives 1 December; some indexed extracts still show TBA. No exact notification hour is recorded."
+parent:
+  name: "AAAI 2027"
+  url: "https://aaai.org/conference/aaai/aaai-27/"
+submission_url: "https://openreview.net/group?id=AAAI.org/2027/Workshop/GSR-VLM"
