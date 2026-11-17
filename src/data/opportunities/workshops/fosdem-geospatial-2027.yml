@@ -1,0 +1,61 @@
+title: "FOSDEM 2027 Geospatial Developer Room"
+short_name: "FOSDEM Geospatial 2027"
+type: "workshop"
+series: "FOSDEM Geospatial"
+year: 2027
+description: "FOSDEM developer room for free and open-source geospatial software, spatial databases, web mapping, cartography, OpenStreetMap, GeoAI, Earth observation and mobility. The call seeks 35-minute talks and 10-minute lightning talks for 31 January 2027."
+scope: "core"
+topics:
+  - "giscience"
+  - "spatial-databases"
+  - "geovisualization"
+  - "osm"
+  - "geoai"
+  - "remote-sensing"
+website: "https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/"
+sources:
+  - label: "Original Geospatial developer-room call on the FOSDEM mailing list"
+    url: "https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/SPREVTO4MXQ4NFFEBO35DXHKPXE4MMN7/"
+    kind: "official"
+  - label: "Official accepted developer rooms"
+    url: "https://fosdem.org/2027/news/accepted-developer-rooms/"
+    kind: "official"
+  - label: "Official FOSDEM dates and campus"
+    url: "https://fosdem.org/2027/calendar/"
+    kind: "official"
+  - label: "Official live proposal portal"
+    url: "https://pretalx.fosdem.org/fosdem-2027/cfp"
+    kind: "official"
+last_verified: "2026-11-17"
+event:
+  start: "2027-01-31"
+  end: "2027-01-31"
+location:
+  mode: "in_person"
+  city: "Brussels"
+  country: "Belgium"
+  country_code: "BE"
+  venue: "ULB Solbosch Campus"
+organizations:
+  - "FOSDEM"
+deadlines:
+  - id: "talk-proposal"
+    type: "proposal"
+    label: "Talk / Lightning Talk Proposal"
+    datetime: "2026-11-30"
+    precision: "date"
+    timezone: null
+    status: "active"
+    primary: true
+    note: "The original track call says '30 November 2026: Submission deadline (midnight Brussels time)'. The midnight day boundary is not disambiguated, so the announced calendar date is retained without inventing a minute-level timestamp. Select the Geospatial track in Pretalx."
+  - id: "notification"
+    type: "notification"
+    label: "Selected Talk Notification"
+    datetime: "2026-12-07"
+    precision: "date"
+    timezone: null
+    status: "active"
+parent:
+  name: "FOSDEM 2027"
+  url: "https://fosdem.org/2027/"
+submission_url: "https://pretalx.fosdem.org/fosdem-2027/cfp"

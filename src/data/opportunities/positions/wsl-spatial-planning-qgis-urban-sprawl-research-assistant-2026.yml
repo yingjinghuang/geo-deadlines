@@ -1,0 +1,42 @@
+title: Scientific Assistant — Spatial Planning and QGIS Urban-Sprawl Indicators
+short_name: WSL Spatial Planning QGIS Assistant
+type: position
+position_category: research_staff
+year: 2026
+description: An 80–100% scientific assistant role translating a Swiss urban-sprawl indicator into practical
+  planning scenarios and QGIS training. The eight-month post starts February 2027 and requires a master's
+  degree, strong QGIS skills, fluent German and good French. It is a graduate-level staff appointment.
+scope: core
+topics:
+- giscience
+- geovisualization
+- spatial-data-science
+- urban
+- sustainability
+website: https://apply.refline.ch/273855/1914/pub/1/index.html
+sources:
+- label: Official WSL recruitment advert, vacancy 1914
+  url: https://apply.refline.ch/273855/1914/pub/1/index.html
+  kind: official
+- label: WSL current vacancy index
+  url: https://apply.refline.ch/273855/search.html?all=1&target=overview
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Birmensdorf
+  country: Switzerland
+  country_code: CH
+organizations:
+- Swiss Federal Institute for Forest, Snow and Landscape Research WSL
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: The official advert explicitly accepts applications until the position is filled. Apply through
+    WSL's recruitment portal with motivation letter, CV, master's diploma and two reference contacts.
+  rolling: true

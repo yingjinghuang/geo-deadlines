@@ -1,0 +1,41 @@
+title: Postdoc — Optical and Microwave Remote Sensing of Forest Water Dynamics (HydraSense)
+short_name: WSL HydraSense Remote Sensing Postdoc
+type: position
+position_category: postdoc
+year: 2026
+description: An 80–100% postdoc at WSL in Birmensdorf studying forest water dynamics through optical and
+  microwave observations, terrestrial laser scanning and field measurements. The HydraSense project investigates
+  forest responses to drought; the initial appointment is two years from February 2027.
+scope: core
+topics:
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- climate
+website: https://apply.refline.ch/273855/1918/pub/1/index.html
+sources:
+- label: Official WSL recruitment advert, vacancy 1918
+  url: https://apply.refline.ch/273855/1918/pub/1/index.html
+  kind: official
+- label: WSL current vacancy index
+  url: https://apply.refline.ch/273855/search.html?all=1&target=overview
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Birmensdorf
+  country: Switzerland
+  country_code: CH
+organizations:
+- Swiss Federal Institute for Forest, Snow and Landscape Research WSL
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: Listed in the current WSL recruitment index on 17 November 2026. The advert does not state a closing
+    date or explicitly promise rolling review. Apply through the online portal; email applications are
+    not accepted.

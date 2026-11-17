@@ -1,0 +1,37 @@
+title: Assistant Professor, Teaching Stream (CLTA) — Geographic Data Science
+short_name: U of T Geographic Data Science Teaching Faculty
+type: position
+position_category: faculty
+year: 2026
+description: Three-year, full-time contractually limited teaching-stream Assistant Professor in Geography and Planning at the University of Toronto St. George campus. Teaching covers geographic data science, GIS, spatial analysis and computer mapping. Applicants need a PhD in Geography or a closely related field and evidence of teaching excellence. The anticipated start is 1 January 2027; this is a fixed-term teaching appointment.
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - cartography
+  - geography
+website: https://jobs.utoronto.ca/job/Toronto-Assistant-Professor,-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/
+sources:
+  - label: Official University of Toronto vacancy 49017
+    url: https://jobs.utoronto.ca/job/Toronto-Assistant-Professor,-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Toronto
+  country: Canada
+  country_code: CA
+organizations:
+  - University of Toronto
+  - Department of Geography and Planning
+  - Faculty of Arts and Science
+deadlines:
+  - id: application
+    type: application
+    label: Application and Reference Letters
+    datetime: "2026-12-10T23:59:00-05:00"
+    precision: datetime
+    timezone: America/Toronto
+    status: active
+    primary: true
+    note: Original vacancy 49017 explicitly closes on 10 December 2026 at 11:59 PM Eastern Time. All application materials, including reference letters, must be received by this deadline.

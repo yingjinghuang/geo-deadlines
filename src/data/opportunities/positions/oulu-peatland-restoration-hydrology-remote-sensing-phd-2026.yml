@@ -1,0 +1,40 @@
+title: Doctoral Researcher — Peatland Restoration Hydrology and Biogeochemistry
+short_name: Oulu Peatland Restoration PhD
+type: position
+position_category: phd
+year: 2026
+description: A three-year doctoral appointment at the University of Oulu studying restored peat extraction
+  sites through field sensors, remote sensing, hydrological modelling and spatial data. The project examines
+  carbon pathways, water quality and catchment recovery. Start is February 2027; the precise methodological
+  focus can be tailored to the candidate.
+scope: adjacent
+topics:
+- remote-sensing
+- spatial-data-science
+- climate
+- sustainability
+website: https://oulunyliopisto.varbi.com/en/what:job/jobID:987425/
+sources:
+- label: Official Oulu recruitment advert, reference 2026/671
+  url: https://oulunyliopisto.varbi.com/en/what:job/jobID:987425/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Oulu
+  country: Finland
+  country_code: FI
+organizations:
+- University of Oulu
+- Water, Energy and Environmental Engineering
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2026-12-13T23:59:00+02:00'
+  timezone: Europe/Helsinki
+  status: active
+  primary: true
+  note: The university explicitly specifies 13 December 2026 at 23:59 Finnish local time. Apply through
+    Varbi with the requested cover letter, CV and initial research plan.
+  precision: datetime

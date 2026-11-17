@@ -1,0 +1,46 @@
+title: Postdoctoral Associate — Machine Learning and Remote Sensing for Global Infrastructure Mapping
+short_name: Cornell DARE Remote Sensing Postdoc
+type: position
+position_category: postdoc
+year: 2026
+description: A Cornell postdoc in Stefano Galelli's DARE project developing scalable deep-learning workflows
+  to map water infrastructure worldwide from satellite and geospatial data. The appointment is initially
+  12 months, with possible extension, and a preferred start in early 2027.
+scope: core
+topics:
+- geoai
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- computer-vision
+- machine-learning
+website: https://dareproject.org/join-our-team/
+sources:
+- label: Original DARE project recruitment announcement
+  url: https://dareproject.org/join-our-team/
+  kind: announcement
+- label: Cornell announcement identifying DARE and Stefano Galelli
+  url: https://news.cornell.edu/stories/2026/03/global-atlas-will-track-human-and-climate-impact-river-systems
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Ithaca
+  country: United States
+  country_code: US
+organizations:
+- Cornell University
+- DARE
+- Critical Infrastructure Systems Lab
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: The project's own recruitment page explicitly states rolling review until filled. It provides
+    the application email dareproject.view@gmail.com and requests a cover letter, CV and three reference
+    contacts. Cornell independently confirms the DARE project and supervising investigator.
+  rolling: true

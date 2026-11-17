@@ -1,0 +1,36 @@
+title: 'From Fragmented Mobility Data to Actionable Knowledge: Multimodal Data Fusion and Advanced AI for Sustainable Urban Transport'
+type: special_issue
+year: 2027
+description: Research topic on spatial and multimodal data integration, graph-based AI, foundation models and digital twins for sustainable transport and urban mobility decisions.
+scope: core
+topics:
+  - urban
+  - mobility
+  - geoai
+  - spatial-data-science
+  - knowledge-graphs
+journal:
+  name: Frontiers in Sustainable Cities
+  short_name: Frontiers in Sustainable Cities
+  publisher: Frontiers
+website: https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport
+sources:
+  - label: Official Frontiers Research Topic 85799
+    url: https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Dessislava Petrova-Antonova
+  - name: Mila Koeva
+  - name: Youness Dehbi
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-04-13'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The publisher states that the topic is accepting articles and gives 13 April 2027 as the manuscript cutoff. Urban transportation or mobility must be central to the submission.
+      No GeoSofia attendance requirement, mandatory earlier abstract date, closing hour or timezone is stated in the inspected publisher call.

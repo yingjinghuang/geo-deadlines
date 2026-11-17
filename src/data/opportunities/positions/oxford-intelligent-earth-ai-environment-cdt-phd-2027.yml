@@ -1,0 +1,47 @@
+title: Doctoral Training in AI for the Environment — Intelligent Earth, 2027 Entry
+short_name: Oxford Intelligent Earth PhD 2027
+type: position
+position_category: phd
+year: 2027
+description: Oxford's Intelligent Earth doctoral programme combines AI with climate, biodiversity, natural
+  hazards and environmental research. It includes satellite-data applications and joint AI/environmental
+  supervision. Applicants compete for funded studentships; overseas funded places are limited. Full-time
+  study lasts four years.
+scope: adjacent
+topics:
+- machine-learning
+- earth-observation
+- climate
+- sustainability
+website: https://intelligent-earth.ox.ac.uk/how-apply
+sources:
+- label: Official Intelligent Earth 2027 application instructions
+  url: https://intelligent-earth.ox.ac.uk/how-apply
+  kind: official
+- label: Oxford graduate admissions course page for 2027–28
+  url: https://www.ox.ac.uk/admissions/graduate/courses/cdt-intelligent-earth
+  kind: official
+- label: Oxford description of AI and environmental-science training
+  url: https://www.earth.ox.ac.uk/node/3864461
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Oxford
+  country: United Kingdom
+  country_code: GB
+organizations:
+- University of Oxford
+- Intelligent Earth CDT
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2027-01-06T12:00:00+00:00'
+  timezone: Europe/London
+  status: active
+  primary: true
+  note: The programme and central graduate admissions pages agree on 6 January 2027 at 12:00 midday UK
+    time. Funding consideration is automatic with the programme application. The programme page retains
+    an inconsistent old interview year, which is not used as a milestone here.
+  precision: datetime

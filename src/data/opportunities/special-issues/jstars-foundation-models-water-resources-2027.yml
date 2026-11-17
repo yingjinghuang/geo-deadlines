@@ -1,0 +1,37 @@
+title: Foundation Models and Multi-Source Remote Sensing for Water Resources Monitoring, Assessment, and Management
+type: special_issue
+year: 2027
+description: Special issue on satellite data fusion and geospatial foundation models for water mapping, floods, droughts, water quality and hydrological monitoring.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - climate
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: M Attique Khan
+  - name: Antonio Plaza
+  - name: Danfeng Hong
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-04-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

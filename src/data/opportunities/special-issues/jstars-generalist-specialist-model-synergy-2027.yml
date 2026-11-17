@@ -1,0 +1,38 @@
+title: 'Generalist–Specialist Model Synergy for Remote Sensing: Theories, Methods, and Applications'
+type: special_issue
+year: 2027
+description: Special issue on combining general foundation models with specialized remote sensing models through distillation, expert routing, adaptation and coordinated agents.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Yang Li
+  - name: Joel Rodrigues
+  - name: Aqil Tariq
+  - name: Jawad Ahmad
+deadlines:
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-05-31'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.

@@ -4,7 +4,7 @@ PRODID:-//GeoDeadlines//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:annals-gis-geographical-principles-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Geographical Principles in the New Era of Spatial Analysis and Modeling — Manuscript Deadline
@@ -12,8 +12,26 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/
 END:VEVENT
 BEGIN:VEVENT
+UID:applied-sciences-geoai-rainfall-geohazard-risk-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:GeoAI and Big Earth Data for Rainfall-Induced Geohazard Prevention and Risk Reduction — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/applied-sciences-geoai-rainfall-geohazard-risk-2027/
+URL:https://www.mdpi.com/journal/applsci/special_issues/QTM7H7RHV9
+END:VEVENT
+BEGIN:VEVENT
+UID:bdes-geoai-earth-surface-environmental-change-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Advances in GeoAI for Earth Surface Processes and Environmental Change — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/bdes-geoai-earth-surface-environmental-change-2027/
+URL:https://www.keaipublishing.com/en/journals/big-data-and-earth-system/call-for-papers/special-issue-on-advances-in-geoai-for-earth-surface-processes-and-environmental-change/
+END:VEVENT
+BEGIN:VEVENT
 UID:ceus-geoai-spatial-data-science-fire-research-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:GeoAI and Spatial Data Science for Fire Research — Manuscript Deadline
@@ -21,8 +39,26 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://www.linkedin.com/posts/centre-for-advanced-spatial-analysis_computers-environment-and-urban-systems-activity-7460737191397392384-Nvg8
 END:VEVENT
 BEGIN:VEVENT
+UID:environments-geoai-foundation-model-earth-observation-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:GeoAI for the Environment: Toward Foundation-Model and Decision-Ready Earth Observation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/environments/special_issues/4YA8XF3RU8\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/environments-geoai-foundation-model-earth-observation-2027/
+URL:https://www.mdpi.com/journal/environments/special_issues/4YA8XF3RU8
+END:VEVENT
+BEGIN:VEVENT
+UID:frontiers-multimodal-mobility-data-ai-transport-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:From Fragmented Mobility Data to Actionable Knowledge: Multimodal Data Fusion and Advanced AI for Sustainable Urban Transport — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/frontiers-multimodal-mobility-data-ai-transport-2027/
+URL:https://www.frontiersin.org/research-topics/85799/from-fragmented-mobility-data-to-actionable-knowledge-multimodal-data-fusion-and-advanced-ai-for-sustainable-urban-transport
+END:VEVENT
+BEGIN:VEVENT
 UID:gisrs-swot-surface-water-hydrology-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Scientific Advances in Surface Water and Hydrological Cycle Observations from the SWOT Mission — Manuscript Deadline
@@ -31,7 +67,7 @@ URL:https://callforpapers.taylorandfrancis.com/article_collections/scientific-ad
 END:VEVENT
 BEGIN:VEVENT
 UID:gisrs-urban-remote-sensing-environment-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 SUMMARY:Remote Sensing Solutions for Urban Environment and Ecosystem Monitoring\, Modelling\, and Management — Manuscript Deadline
@@ -40,7 +76,7 @@ URL:https://callforpapers.taylorandfrancis.com/article_collections/remote-sensin
 END:VEVENT
 BEGIN:VEVENT
 UID:gisrs-vlm-remote-sensing-imagery-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270531
 DTEND;VALUE=DATE:20270601
 SUMMARY:VLM Driven Intelligent Interpretation of Remote Sensing Imagery — Manuscript Deadline
@@ -49,7 +85,7 @@ URL:https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligen
 END:VEVENT
 BEGIN:VEVENT
 UID:gsis-spatiotemporal-intelligence-foundation-models-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation — Manuscript Deadline
@@ -58,7 +94,7 @@ URL:https://think.taylorandfrancis.com/special_issues/spatio-temporal-intelligen
 END:VEVENT
 BEGIN:VEVENT
 UID:ijde-advancing-geoai-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Advancing GeoAI: From Machine Learning to Foundation Models for Explainable and Generative Geospatial Intelligence — Manuscript Deadline
@@ -67,7 +103,7 @@ URL:https://callforpapers.taylorandfrancis.com/article_collections/advancing-geo
 END:VEVENT
 BEGIN:VEVENT
 UID:ijde-urban-environmental-intelligence-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270531
 DTEND;VALUE=DATE:20270601
 SUMMARY:From Geospatial Data to Urban Environmental Intelligence — Manuscript Deadline
@@ -75,8 +111,17 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://think.taylorandfrancis.com/article_collections/from-geospatial-data-to-urban-environmental-intelligence/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijgi-3d-gis-comprehensive-model-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:3D GIS Comprehensive Model: Dimensional Frameworks and Knowledge Representation for Real-Scene 3D Geoinformation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/N6V75P6101\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-3d-gis-comprehensive-model-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/N6V75P6101
+END:VEVENT
+BEGIN:VEVENT
 UID:ijgi-equitable-geospatial-intelligence-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 SUMMARY:Equitable Geospatial Intelligence: Spatio-Temporal Perspectives on Social Equity and Well-Being — Manuscript Deadline
@@ -84,8 +129,62 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://www.mdpi.com/journal/ijgi/special_issues/077D70GD57
 END:VEVENT
 BEGIN:VEVENT
+UID:ijgi-geoai-digital-twins-resilient-urban-environments-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:GeoAI and Digital Twins for Resilient Urban Environments — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/05A72WSB5R\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-geoai-digital-twins-resilient-urban-environments-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/05A72WSB5R
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-geoinformation-urban-sustainability-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Advances in Geo-Information Sciences for Urban Sustainability — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/4GP9SLN3Z0\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-geoinformation-urban-sustainability-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/4GP9SLN3Z0
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-geospatial-databases-models-ai-urban-science-2026-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Novel Theories and Applications on Geo-Spatial Databases\, Models and AI in Urban Science\, Planning\, Development and Governance — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/Y8966P2317\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-geospatial-databases-models-ai-urban-science-2026/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/Y8966P2317
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-geospatial-optimization-intelligent-algorithms-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Geospatial Optimization and Multi-Objective Intelligent Algorithms: Innovations and Applications — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/K42F307B3D\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-geospatial-optimization-intelligent-algorithms-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/K42F307B3D
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-indoor-mapping-location-knowledge-services-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Indoor Mobile Mapping and Location-Based Knowledge Services (2nd Edition) — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-indoor-mapping-location-knowledge-services-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/5OZ851677C
+END:VEVENT
+BEGIN:VEVENT
+UID:ijgi-innovative-mobility-smart-cities-2026-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Innovative Mobility Services for Smart Cities — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-innovative-mobility-smart-cities-2026/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/0035LLOQO5
+END:VEVENT
+BEGIN:VEVENT
 UID:ijgi-living-spaces-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Spatial Information for Improved Living Spaces (2nd Edition) — Manuscript Deadline
@@ -94,7 +193,7 @@ URL:https://www.mdpi.com/journal/ijgi/special_issues/IYDI357DJS
 END:VEVENT
 BEGIN:VEVENT
 UID:ijgi-llm4gis-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:LLM4GIS: Large Language Models for GIS — Manuscript Deadline
@@ -102,8 +201,17 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://www.mdpi.com/journal/ijgi/special_issues/N63VC158SZ
 END:VEVENT
 BEGIN:VEVENT
+UID:ijgi-spatial-data-science-knowledge-discovery-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
+SUMMARY:Spatial Data Science and Knowledge Discovery (2nd Edition) — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/ijgi/special_issues/Y677AJ5834\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/ijgi-spatial-data-science-knowledge-discovery-2027/
+URL:https://www.mdpi.com/journal/ijgi/special_issues/Y677AJ5834
+END:VEVENT
+BEGIN:VEVENT
 UID:ijgi-urban-digital-twins-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Urban Digital Twins Empowered by AI and Dataspaces — Manuscript Deadline
@@ -112,7 +220,7 @@ URL:https://www.mdpi.com/journal/ijgi/special_issues/R3F15GF728
 END:VEVENT
 BEGIN:VEVENT
 UID:ijgis-critical-challenges-geoai-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Critical Challenges in GeoAI — Manuscript Deadline
@@ -121,7 +229,7 @@ URL:https://callforpapers.taylorandfrancis.com/special_issues/critical-challenge
 END:VEVENT
 BEGIN:VEVENT
 UID:ijgis-ethics-geospatial-ai-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ethics in Geospatial AI and Data Science — Manuscript Deadline
@@ -129,17 +237,179 @@ DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: http
 URL:https://callforpapers.taylorandfrancis.com/special_issues/ethics-in-geospatial-ai-and-data-science/
 END:VEVENT
 BEGIN:VEVENT
+UID:jpcch-geocomputation-geoai-community-health-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Geocomputation and GeoAI for Sustainable\, Resilient\, and Equitable Community Health — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://journals.sagepub.com/topic/collections-jpc/002793/jpca\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jpcch-geocomputation-geoai-community-health-2027/
+URL:https://journals.sagepub.com/topic/collections-jpc/002793/jpca
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-ai-remote-sensing-image-compression-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:AI-driven Remote Sensing Image Compression for Human and Machine Intelligence — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_AI-driven-Remote-Sensing.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-ai-remote-sensing-image-compression-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_AI-driven-Remote-Sensing.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-ap-garss-2026-special-issue-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:2026 IEEE Asia-Pacific Geoscience and Remote Sensing Symposium (AP-GARSS 2026) — JSTARS Special Issue — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/09/JSTARS_SI_CfP_AP-GARSS-2026-1.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-ap-garss-2026-special-issue-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/09/JSTARS_SI_CfP_AP-GARSS-2026-1.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-embodied-agentic-uav-extreme-environments-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Embodied Agentic Intelligence-Enabled UAV Systems for Remote Sensing of Extreme Environments — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-embodied-agentic-uav-extreme-environments-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-foundation-models-agents-earth-observation-2026-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Foundation Models and Agents in Earth Observation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Agents-in-Earth-Observation.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-foundation-models-agents-earth-observation-2026/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Agents-in-Earth-Observation.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-foundation-models-water-resources-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Foundation Models and Multi-Source Remote Sensing for Water Resources Monitoring\, Assessment\, and Management — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-foundation-models-water-resources-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Foundation-Models-and-Muli-Source-Remote-Sensing.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-generalist-specialist-model-synergy-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Generalist–Specialist Model Synergy for Remote Sensing: Theories\, Methods\, and Applications — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-generalist-specialist-model-synergy-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Generalist%E2%80%93Specialist-Model-Synergy-for-Remote-Sensing_Theories-Methods-and-Applications.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-hyperspectral-image-processing-interpretation-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Advances in Hyperspectral Image Processing and Interpretation: Foundations\, Models\, and Applications — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-hyperspectral-image-processing-interpretation-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-igarss-2026-special-issue-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:2026 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2026) — JSTARS Special Issue — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-igarss-2026-special-issue-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/07/JSTARS_CFP_IGARSS_2026.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-microwave-remote-sensing-cryosphere-2026-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Advances in Microwave Remote Sensing of the Cryosphere — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-microwave-remote-sensing-cryosphere-2026/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Advances-in-Microwave-Remote-Sensing-of-the-Cryosphere.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-multisource-multimodal-remote-sensing-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Multisource and Multimodal Remote Sensing: Representation\, Understanding\, Reasoning\, and Generation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Multisource_Multimodal_Remote_Sensing.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-multisource-multimodal-remote-sensing-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CFP_Multisource_Multimodal_Remote_Sensing.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-open-world-earth-observation-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Open-World Earth Observation: Unified Learning from Observation Restoration to Geospatial Understanding — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-open-world-earth-observation-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Open-World-Earth-Observation-Unified-Learning-from-Observation-Restoration-to-Geospatial-Understanding-1.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-resource-constrained-multimodal-foundation-models-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Resource-Constrained Multimodal Foundation Models: Toward Advanced Remote Sensing Applications — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Resource-Constrained-Multimodal-Foundation-Models-Toward-Advanced-Remote-Sensing-Applications.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-resource-constrained-multimodal-foundation-models-2027/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS_CfP_Resource-Constrained-Multimodal-Foundation-Models-Toward-Advanced-Remote-Sensing-Applications.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jstars-vlm-semantic-reasoning-remote-sensing-2026-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Towards Semantic and Reasoning-Enabled Remote Sensing: Vision-Language Models for Retrieval\, Interpretation\, and Interaction — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/jstars-vlm-semantic-reasoning-remote-sensing-2026/
+URL:https://www.grss-ieee.org/wp-content/uploads/2026/03/JSTARS_CfP_Template_VLM-1.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:npj-digital-public-health-geospatial-ai-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Geospatial Artificial Intelligence in Public Health — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.nature.com/collections/ejahhdafig/collection-policies\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/npj-digital-public-health-geospatial-ai-2027/
+URL:https://www.nature.com/collections/ejahhdafig/collection-policies
+END:VEVENT
+BEGIN:VEVENT
+UID:remote-sensing-deep-learning-foundation-models-hyperspectral-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Advanced Deep Learning and Foundation Models for Hyperspectral Image Interpretation — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/remotesensing/special_issues/12565512x3\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/remote-sensing-deep-learning-foundation-models-hyperspectral-2027/
+URL:https://www.mdpi.com/journal/remotesensing/special_issues/12565512x3
+END:VEVENT
+BEGIN:VEVENT
+UID:remote-sensing-foundation-model-multimodal-data-fusion-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Foundation Model-Based Multi-Modal Data Fusion in Remote Sensing — Manuscript Deadline
+DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.mdpi.com/journal/remotesensing/special_issues/a3npvc625j\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/remote-sensing-foundation-model-multimodal-data-fusion-2027/
+URL:https://www.mdpi.com/journal/remotesensing/special_issues/a3npvc625j
+END:VEVENT
+BEGIN:VEVENT
+UID:scientific-reports-geospatial-climate-resilient-settlements-2027-manuscript@geodeadlines
+DTSTAMP:20261117T112420Z
+DTSTART:20270812T000000Z
+DTEND:20270812T001500Z
+SUMMARY:Geospatial Approaches for Climate-Resilient and Sustainable Human Settlements — Manuscript Deadline
+DESCRIPTION:Original timezone: Etc/UTC\nOfficial source: https://www.nature.com/collections/bcjcecaegc/about-the-collection\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/scientific-reports-geospatial-climate-resilient-settlements-2027/
+URL:https://www.nature.com/collections/bcjcecaegc/about-the-collection
+END:VEVENT
+BEGIN:VEVENT
 UID:scientific-reports-geospatial-data-science-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
+DTSTAMP:20261117T112420Z
+DTSTART:20270123T000000Z
+DTEND:20270123T001500Z
 SUMMARY:Geospatial data science and analysis — Manuscript Deadline
-DESCRIPTION:Date only\; exact time/timezone not specified\nOfficial source: https://www.nature.com/collections/jcieacchei\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/scientific-reports-geospatial-data-science-2027/
+DESCRIPTION:Original timezone: Etc/UTC\nOfficial source: https://www.nature.com/collections/jcieacchei\nGeoDeadlines: https://yingjinghuang.github.io/geo-deadlines/opportunity/scientific-reports-geospatial-data-science-2027/
 URL:https://www.nature.com/collections/jcieacchei
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-autonomous-gis-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20271031
 DTEND;VALUE=DATE:20271101
 SUMMARY:Perspectives and Advances in Autonomous GIS — Manuscript Deadline
@@ -148,7 +418,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-202
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-disease-outbreaks-healthcare-resource-allocation-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Geospatial Analysis for Tracking Disease Outbreaks and Healthcare Resource Allocation — Manuscript Deadline
@@ -157,7 +427,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-geo-agentic-ai-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
 SUMMARY:Geo-Agentic AI: Spatial Reasoning\, Tool Orchestration\, and Multi-Agent Systems — Manuscript Deadline
@@ -166,7 +436,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-202
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-geohazard-technologies-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Emerging Technologies for Geological Hazard Data Acquisition and Analysis in GIS — Manuscript Deadline
@@ -175,7 +445,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-giscience-education-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Advances in GIScience Education — Manuscript Deadline
@@ -184,7 +454,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-human-behavior-urban-environments-ai-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Human Behavior and Urban Environments: Artificial Intelligence-Based Approaches — Manuscript Deadline
@@ -193,7 +463,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-spatial-data-sharing-governance-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Spatial Data Sharing: Questions of Ownership\, Platforms\, and Governance — Manuscript Deadline
@@ -202,7 +472,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/homepage/call-for-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:tgis-spatiotemporal-big-data-planning-2027-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Spatiotemporal Big Data Modeling for Spatial Planning and Governance — Manuscript Deadline
@@ -211,7 +481,7 @@ URL:https://onlinelibrary.wiley.com/page/journal/14679671/call-for-papers/si-202
 END:VEVENT
 BEGIN:VEVENT
 UID:tus-behavioral-resilience-extreme-weather-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Behavioral Resilience under Extreme Weather: Built Environment Effects\, Vulnerable Populations\, and Planning Strategies — Manuscript Deadline
@@ -220,7 +490,7 @@ URL:https://journals.sagepub.com/page/tus/calls-for-papers/behavioral-resilience
 END:VEVENT
 BEGIN:VEVENT
 UID:tus-transport-human-mobility-2026-manuscript@geodeadlines
-DTSTAMP:20261117T105051Z
+DTSTAMP:20261117T112420Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Interactions between Transport and Human Mobility — Manuscript Deadline

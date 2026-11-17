@@ -1,0 +1,47 @@
+title: 'Advances in Hyperspectral Image Processing and Interpretation: Foundations, Models, and Applications'
+type: special_issue
+year: 2027
+description: Special issue on hyperspectral remote sensing, multimodal learning, foundation models, domain transfer and spectral-spatial interpretation.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/11/JSTARS_CfP_Advances-in-Hyperspectral-Image-Processing-and-Interpretation-Foundations-Models-and-Applications.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Yanni Dong
+  - name: Fulin Luo
+  - name: Yaxiong Chen
+  - name: Yonghao Xu
+deadlines:
+  - id: submission-opening
+    type: other
+    label: Submission System Opens
+    datetime: '2026-12-01'
+    precision: date
+    timezone: null
+    status: active
+    note: Opening milestone only; the manuscript closing date is listed separately.
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-09-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: 'Announced submission window: 1 December 2026 through 30 September 2027. The system opening is a separate milestone; this is the manuscript closing date. No exact closing hour
+      or timezone is stated.'

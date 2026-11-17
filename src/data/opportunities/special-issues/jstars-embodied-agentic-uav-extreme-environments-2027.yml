@@ -1,0 +1,47 @@
+title: Embodied Agentic Intelligence-Enabled UAV Systems for Remote Sensing of Extreme Environments
+type: special_issue
+year: 2027
+description: Special issue on adaptive UAV sensing, autonomous mission planning, agent coordination and geospatial models for environmental monitoring in difficult terrain.
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - machine-learning
+journal:
+  name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  short_name: JSTARS
+  publisher: IEEE
+website: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf
+sources:
+  - label: Official publisher special issue call
+    url: https://www.grss-ieee.org/wp-content/uploads/2026/08/JSTARS-CfP-Embodied-Agentic-UAV.pdf
+    kind: publisher
+  - label: Official IEEE GRSS current JSTARS special issue index
+    url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
+    kind: publisher
+last_verified: '2026-11-17'
+guest_editors:
+  - name: Muhammad Adil
+  - name: Saru Kumari
+  - name: Houbing Song
+  - name: Hongqi Zhang
+deadlines:
+  - id: submission-opening
+    type: other
+    label: Submission System Opens
+    datetime: '2027-01-01'
+    precision: date
+    timezone: null
+    status: active
+    note: Opening milestone only; the manuscript closing date is listed separately.
+  - id: manuscript
+    type: special_issue_manuscript
+    label: Manuscript
+    datetime: '2027-06-30'
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: 'Announced submission window: 1 January through 30 June 2027. The system opening is a separate milestone; this is the manuscript closing date. No exact closing hour or timezone
+      is stated.'

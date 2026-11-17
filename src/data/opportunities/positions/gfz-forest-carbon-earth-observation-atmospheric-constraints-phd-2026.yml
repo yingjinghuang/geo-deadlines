@@ -1,0 +1,40 @@
+title: PhD — Forest Carbon Attribution Using Earth Observation and Atmospheric Constraints
+short_name: GFZ Forest Carbon EO PhD
+type: position
+position_category: phd
+year: 2026
+description: A doctoral position in GFZ's Remote Sensing and Geoinformatics section combining satellite
+  biomass, forest disturbance and productivity data with forest carbon models and atmospheric observations.
+  The EUFOR-G3W project offers a three-year 75% appointment from February 2027, with a possible funded extension.
+scope: core
+topics:
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- climate
+- sustainability
+website: https://gfz-potsdam.helixjobs.com/_/jobad?prj=580P11590
+sources:
+- label: Official GFZ recruitment advert, reference 11590
+  url: https://gfz-potsdam.helixjobs.com/_/jobad?prj=580P11590
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: hybrid
+  city: Potsdam
+  country: Germany
+  country_code: DE
+organizations:
+- GFZ Helmholtz Centre for Geosciences
+- EUFOR-G3W
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2026-12-02'
+  timezone: null
+  status: active
+  primary: true
+  note: The GFZ advert gives 2 December 2026 without a closing clock or timezone. Submit through the employer's
+    online recruitment form.
+  precision: date

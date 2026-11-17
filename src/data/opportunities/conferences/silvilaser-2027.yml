@@ -1,0 +1,54 @@
+title: "SilviLaser 2027"
+short_name: "SilviLaser 2027"
+type: "conference"
+series: "SilviLaser"
+year: 2027
+description: "International conference on laser scanning for forest ecosystems, forest inventory and management. The Warsaw program runs 13–17 September 2027, with a separate field trip on 18 September. Abstract submission is announced to open on 1 December 2026."
+scope: "core"
+topics:
+  - "remote-sensing"
+  - "earth-observation"
+  - "spatial-data-science"
+website: "https://silvilaser.com/"
+sources:
+  - label: "Official SilviLaser 2027 website"
+    url: "https://silvilaser.com/"
+    kind: "official"
+  - label: "Official abstract submission dates"
+    url: "https://silvilaser.com/submit/"
+    kind: "official"
+  - label: "Official program"
+    url: "https://silvilaser.com/program/"
+    kind: "official"
+  - label: "Official program poster (conference 13–17 September; field trip 18 September)"
+    url: "https://silvilaser.com/wp-content/uploads/2026/11/SilviLaserProgramPoster-scaled.jpg"
+    kind: "official"
+last_verified: "2026-11-17"
+event:
+  start: "2027-09-13"
+  end: "2027-09-17"
+location:
+  mode: "in_person"
+  city: "Warsaw"
+  country: "Poland"
+  country_code: "PL"
+organizations:
+  - "Forest Research Institute"
+deadlines:
+  - id: "abstract-opens"
+    type: "other"
+    label: "Abstract Submission Opens"
+    datetime: "2026-12-01"
+    precision: "date"
+    timezone: null
+    status: "active"
+    note: "Opening date, not a cutoff. The abstract submission page currently publishes the schedule."
+  - id: "abstract"
+    type: "abstract"
+    label: "Abstract Submission"
+    datetime: "2027-01-31"
+    precision: "date"
+    timezone: null
+    status: "active"
+    primary: true
+    note: "Official abstract submission schedule. No exact hour or timezone is published."

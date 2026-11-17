@@ -1,0 +1,44 @@
+title: Senior Machine Learning Engineer — GeoAI for Humanitarian Applications
+short_name: HeiGIT Humanitarian GeoAI Engineer
+type: position
+position_category: research_staff
+year: 2026
+description: A senior applied-research and engineering role at HeiGIT building open-source GeoAI models
+  and data pipelines for humanitarian work. It combines Earth observation, OpenStreetMap, street imagery
+  and other data. The initial two-year role is 50–100% time and requires at least half of working time
+  on site in Heidelberg.
+scope: core
+topics:
+- geoai
+- remote-sensing
+- earth-observation
+- osm
+- spatial-data-science
+- machine-learning
+website: https://heigit-jobs.softgarden.io/job/68277606?l=de
+sources:
+- label: Official HeiGIT Softgarden recruitment advert
+  url: https://heigit-jobs.softgarden.io/job/68277606?l=de
+  kind: official
+- label: HeiGIT current careers index
+  url: https://heigit.org/careers/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: hybrid
+  city: Heidelberg
+  country: Germany
+  country_code: DE
+organizations:
+- Heidelberg Institute for Geoinformation Technology (HeiGIT)
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: TBD
+  timezone: null
+  status: active
+  primary: true
+  note: The employer's current careers page and linked application advert both list this vacancy. No closing
+    date or explicit rolling-until-filled policy is given. Apply through Softgarden and include evidence
+    of deployed ML work.

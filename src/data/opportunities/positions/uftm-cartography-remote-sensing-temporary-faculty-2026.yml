@@ -1,0 +1,52 @@
+title: Professor Substituto — Cartography, Remote Sensing and Photogrammetry
+short_name: UFTM Cartography and Remote Sensing Faculty
+type: position
+position_category: faculty
+year: 2026
+description: One temporary Professor Substituto appointment in the Geography Department at Universidade Federal do Triângulo Mineiro, Uberaba, under Edital 33/2026, Lotação 05. The 40-hour-per-week post covers basic cartography, geocartography, remote sensing, photogrammetry and applied probability and statistics. Applicants require a Geography undergraduate degree and a doctorate in one of the specified geography, cartographic engineering, environmental, surveying, remote-sensing or geoscience fields.
+scope: core
+topics:
+  - cartography
+  - remote-sensing
+  - giscience
+  - geography
+website: https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=103&publicacao=17716
+submission_url: https://sistemas.uftm.edu.br/integrado/?id=396&processo=1054
+sources:
+  - label: Official UFTM current selection notice 33/2026
+    url: https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=103&publicacao=17716
+    kind: official
+  - label: Official UFTM Edital 33/2026 full notice
+    url: https://sistemas.uftm.edu.br/integrado/?secret=uftm&to=magic%3A646a1b81678869b9a8272768
+    kind: official
+  - label: UFTM current temporary-faculty competitions
+    url: https://www.uftm.edu.br/processo-seletivo-simplificado-para-contratacao/processos-em-andamento
+    kind: official
+last_verified: "2026-11-17"
+location:
+  mode: in_person
+  city: Uberaba
+  country: Brazil
+  country_code: BR
+organizations:
+  - Universidade Federal do Triângulo Mineiro
+  - Departamento de Geografia
+  - Instituto de Educação, Letras, Artes, Ciências Humanas e Sociais
+deadlines:
+  - id: application
+    type: application
+    label: Application Deadline
+    datetime: "2026-11-26"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: The current university notice and Edital 33/2026 give an application period of 17–26 November 2026. No exact application cutoff time is published in the inspected sources. Select Lotação 05 for the Geography vacancy.
+  - id: application-fee
+    type: other
+    label: Application Fee Payment
+    datetime: "2026-11-27"
+    precision: date
+    timezone: null
+    status: active
+    note: The edital separately permits payment of the application fee by 27 November 2026. This does not extend the application deadline of 26 November.

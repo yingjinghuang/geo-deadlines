@@ -1,0 +1,42 @@
+title: Postdoctoral Fellow / Senior Research Assistant / Research Assistant — iEarth Geospatial AI
+short_name: HKU iEarth GeoAI Research Roles
+type: position
+position_category: mixed
+year: 2026
+description: HKU's Institute for Climate and Carbon Neutrality recruits at postdoctoral, senior research
+  assistant and research assistant levels for the iEarth platform. Work combines remote sensing, GeoAI
+  and spatiotemporal analytics for climate and sustainability. Qualification thresholds range from bachelor's
+  to PhD; the initial appointment lasts one year.
+scope: core
+topics:
+- geoai
+- remote-sensing
+- earth-observation
+- spatial-data-science
+- climate
+- sustainability
+website: https://jobs.hku.hk/en/job/537278/
+sources:
+- label: Official HKU careers advert, reference 537278
+  url: https://jobs.hku.hk/en/job/537278/
+  kind: official
+last_verified: '2026-11-17'
+location:
+  mode: in_person
+  city: Hong Kong
+  country: Hong Kong
+  country_code: HK
+organizations:
+- The University of Hong Kong
+- HKU Institute for Climate and Carbon Neutrality
+deadlines:
+- id: application
+  type: application
+  label: Application
+  datetime: '2026-12-30'
+  timezone: null
+  status: active
+  primary: true
+  note: The official advert closes on 30 December 2026 (Hong Kong time) or when filled, whichever is earlier.
+    No exact closing clock is stated. Apply online; appointment level depends on qualifications.
+  precision: date
