@@ -1,0 +1,47 @@
+title: "University Assistant (Pre-Doc) in Geoinformation"
+short_name: "TU Graz Geoinformation PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Four-year full-time pre-doctoral university-assistant position at TU Graz's Institute of Geodesy, with research and doctoral development in Geoinformation. The advertised profile explicitly targets GeoAI and GIScience topics including spatial representation and reasoning, spatial computation and algorithms, geographic information retrieval, geo-social sensing, machine learning and spatial data science; Python and GIS software such as ArcGIS or QGIS are relevant skills. The intended start is March 2027."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - spatial-computing
+  - information-retrieval
+  - machine-learning
+website: "https://jobs.tugraz.at/de/jobs/e30d61ff-9fd8-4431-89c3-b89c6707b2e8"
+sources:
+  - label: "Official TU Graz job detail"
+    url: "https://jobs.tugraz.at/de/jobs/e30d61ff-9fd8-4431-89c3-b89c6707b2e8"
+    kind: official
+  - label: "Official TU Graz bulletin, 18 November 2026"
+    url: "https://www.tugraz.at/sites/mibla/mitteilungsblaetter/studienjahr-2026-2027/4-stueck-18-november-2026"
+    kind: official
+  - label: "Official TU Graz Career Info-Service"
+    url: "https://career.tugraz.at/career.php?scope=announcements"
+    kind: official
+  - label: "Runder Tisch GIS current job board linking to the TU Graz original"
+    url: "https://www.rundertischgis.de/jobboerse/"
+    kind: announcement
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Graz"
+  country: "Austria"
+  country_code: "AT"
+organizations:
+  - "Graz University of Technology (TU Graz)"
+  - "Institute of Geodesy"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "TU Graz's official bulletin and current career index confirm the active 40-hour/week, four-year Geoinformation pre-doc vacancy. The original job-detail frontend was not machine-readable in this verification environment; the 31 December 2026 deadline is consistently reproduced by current academic-job mirrors that link back to the same TU Graz job URL."
