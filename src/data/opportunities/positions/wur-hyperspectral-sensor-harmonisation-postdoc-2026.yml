@@ -1,0 +1,37 @@
+title: "Postdoc in Hyperspectral Satellite Sensor Harmonisation in Space and Time"
+short_name: "WUR Hyperspectral Harmonisation Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Wageningen University postdoctoral position in Geo-Information Science and Remote Sensing developing open-source methods for cross-sensor harmonisation of hyperspectral satellite imagery from missions including CHIME, FLEX, EnMAP, PRISMA and DESIS, with analysis-ready data cubes and time-series applications."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - giscience
+  - spatial-data-science
+  - machine-learning
+website: "https://www.wur.nl/en/vacancy/postdoc-hyperspectral-satellite-sensor-harmonisation-space-and-time"
+sources:
+  - label: "Official Wageningen University & Research vacancy"
+    url: "https://www.wur.nl/en/vacancy/postdoc-hyperspectral-satellite-sensor-harmonisation-space-and-time"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Wageningen"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Wageningen University & Research"
+  - "Laboratory of Geo-Information Science and Remote Sensing"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-07"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The vacancy text says applicants can apply up to and including December 7, 2026. A page metadata field renders 'Apply before 8-12-2026'; the advertised inclusive calendar deadline is retained."
