@@ -19,7 +19,7 @@ sources:
 - label: Current official ESSIC employment index
   url: https://essic.umd.edu/about/employment/
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: hybrid
   city: College Park
@@ -36,5 +36,5 @@ deadlines:
   datetime: TBD
   timezone: null
   status: active
-  note: The original employer notice, also listed in its current employment index, invites a CV and brief relevant-experience description by email to Shuyan Liu. No fixed closing date or explicit until-filled policy is published.
+  note: The original employer notice remains listed in the current ESSIC employment index on 27 November 2026 and invites a CV and brief relevant-experience description by email to Shuyan Liu. No fixed closing date or explicit until-filled policy is published.
   primary: true

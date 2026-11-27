@@ -23,7 +23,7 @@ sources:
 - label: Sara Sadri's original PhD call with research scope and rolling review
   url: https://www.linkedin.com/posts/sara-sadri-ab5370164_canada-nserc-fully-funded-phd-opportunity-activity-7470135791306833920-fRgF
   kind: announcement
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Charlottetown
@@ -41,7 +41,6 @@ deadlines:
   status: active
   primary: true
   note: The PI's original announcement specifies rolling review until filled and directs this call's documents
-    to ecoterre.tech@gmail.com; selected candidates then apply through official UPEI admissions. The institution-hosted
-    lab page separately lists ssadri@upei.ca for general enquiries. Neither original gives a final date;
+    to ecoterre.tech@gmail.com; selected candidates then apply through official UPEI admissions. The institution-hosted lab page rechecked 27 November 2026 still states that graduate funding is available and separately lists ssadri@upei.ca for general enquiries. Neither original gives a final date;
     the aggregator's December 2027 date is not used.
   rolling: true

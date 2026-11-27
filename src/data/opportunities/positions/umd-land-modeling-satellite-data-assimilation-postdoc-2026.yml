@@ -17,7 +17,7 @@ sources:
 - label: Current official ESSIC employment index
   url: https://essic.umd.edu/about/employment/
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: College Park
@@ -34,5 +34,5 @@ deadlines:
   datetime: TBD
   timezone: null
   status: active
-  note: The original employer notice, included in its current employment index, asks applicants to email a CV and cover letter to jkenned@umd.edu. No fixed deadline or explicit until-filled policy is stated.
+  note: The original employer notice remains listed in the current ESSIC employment index on 27 November 2026 and asks applicants to email a CV and cover letter to jkenned@umd.edu. No fixed deadline or explicit until-filled policy is stated.
   primary: true

@@ -18,7 +18,7 @@ sources:
   - label: Official University of Liège academic recruitment index
     url: https://www.uliege.be/cms/c_9131383/en/academic-and-teaching-positions
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Liège
@@ -37,4 +37,4 @@ deadlines:
     timezone: Europe/Brussels
     status: active
     primary: true
-    note: The original university PDF, published 3 November 2026, explicitly requires the complete application no later than 9 January 2027 at 11:59 PM Belgian time. Submit to the two academic-affairs contacts specified in the vacancy; this is an email application.
+    note: The original university PDF and current academic-vacancy index rechecked 27 November 2026 explicitly require the complete application no later than 9 January 2027 at 11:59 PM Belgian time. Submit to the two academic-affairs contacts specified in the vacancy; this is an email application.

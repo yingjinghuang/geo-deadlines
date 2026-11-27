@@ -22,7 +22,7 @@ sources:
   - label: UFTM current temporary-faculty competitions
     url: https://www.uftm.edu.br/processo-seletivo-simplificado-para-contratacao/processos-em-andamento
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Uberaba
@@ -41,7 +41,7 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: The current university notice and Edital 33/2026 give an application period of 17–26 November 2026. No exact application cutoff time is published in the inspected sources. Select Lotação 05 for the Geography vacancy.
+    note: The official university notice and Edital 33/2026 rechecked 27 November 2026 give an application period of 17–26 November 2026. No exact application cutoff time is published in the inspected sources. Select Lotação 05 for the Geography vacancy.
   - id: application-fee
     type: other
     label: Application Fee Payment
