@@ -36,11 +36,11 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Previously verified employer notice gave 30 September 2026 as the start of review and advertised acceptance until filled. Recheck on 17 November 2026 found the original notice unavailable and no matching entry in the current employment index. This historical review date does not establish a final cutoff or current vacancy."
+    note: "Previously verified employer notice gave 30 September 2026 as the start of review and advertised acceptance until filled. Rechecks on 17 and 27 November 2026 found the original notice unavailable and no matching entry in the current ESSIC employment index, which now lists several newer remote-sensing positions. This historical review date does not establish a final cutoff or prove that the older vacancy has closed."
   - id: rolling-application
     type: application
     label: "Application Status Unconfirmed"
     datetime: "TBD"
     timezone: null
     status: active
-    note: "Current availability remains unresolved on 17 November 2026. The earlier employer notice advertised acceptance until filled, but it is no longer available and the vacancy is absent from the current ESSIC employment index. The old verification date is retained; no current rolling acceptance or affirmative closure is asserted."
+    note: "Current availability remains unresolved after a 27 November 2026 recheck. The earlier employer notice advertised acceptance until filled, but it is no longer available and the vacancy remains absent from the current ESSIC employment index. Because there was no final application cutoff, disappearance alone is not treated as proof of closure. The old successful verification date is retained."

@@ -28,7 +28,7 @@ sources:
   - label: "IAG/GGOS session announcement (conflicting earlier cutoff)"
     url: "https://geodesy.science/2026/call-for-abstracts-ggos-sessions-at-egu27-and-iugg-2027/"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-07-16"
   end: "2027-07-22"
@@ -49,7 +49,7 @@ deadlines:
     timezone: "Pacific/Honolulu"
     status: "active"
     primary: true
-    note: "Canonical submission guidelines explicitly state 16 February 2027, 23:59 HST (UTC−10), equivalent to 17 February 18:59 KST. Cross-source discrepancy remains: the generic organizer Important Dates page labels 16 February as KST, while the IAG/GGOS announcement gives 14 February 23:59 HST. Both conflicting URLs are retained in Sources. The detailed author instructions are used because they provide the submission rule and a consistent timezone conversion; the discrepancy is not treated as resolved."
+    note: "Rechecked 27 November 2026: IUGG's official newsletter and travel-grant form both confirm 16 February 2027, and the detailed IAG/GGOS call now also states 16 February 2027 at 23:59 HST (UTC−10). An IAG monthly-summary line that says 14 February is treated as an inconsistent summary because its linked detailed call gives 16 February. The detailed submission rule is therefore considered resolved and canonical."
   - id: "travel-grant"
     type: "application"
     label: "Travel Grant Application"
@@ -57,7 +57,7 @@ deadlines:
     precision: "datetime"
     timezone: "Pacific/Honolulu"
     status: "active"
-    note: "The detailed submission guidelines apply the same HST cutoff to abstracts and travel grants. See the abstract note for the unresolved generic-page/IAG discrepancy."
+    note: "The official IUGG travel-grant form confirms the same 16 February 2027 application date. The exact HST cutoff follows the detailed submission guidance; see the abstract note."
   - id: "notification"
     type: "notification"
     label: "Abstract / Travel Grant Notification"

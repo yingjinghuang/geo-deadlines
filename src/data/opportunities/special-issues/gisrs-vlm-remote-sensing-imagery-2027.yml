@@ -12,7 +12,7 @@ sources:
   - label: "Official Taylor & Francis article collection"
     url: "https://think.taylorandfrancis.com/article_collections/vlm-driven-intelligent-interpretation-of-remote-sensing-imagery/"
     kind: publisher
-last_verified: "2026-11-04"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Cuiping Shi"
   - name: "Jiaxin Li"
@@ -26,4 +26,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Recheck attempted 17 November 2026: the publisher CFP redirects to callforpapers.taylorandfrancis.com but its full content was inaccessible (HTTP 403). The previously verified date is retained; search-index text alone was not used to certify it. Last successful verification remains 4 November 2026. Publisher specifies a calendar date only."
+    note: "Rechecked 27 November 2026: the official Taylor & Francis collection page is directly accessible again and confirms the stored manuscript deadline. Publisher specifies a calendar date only."

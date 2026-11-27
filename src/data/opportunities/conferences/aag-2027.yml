@@ -20,7 +20,7 @@ sources:
   - label: "Official AAG 2027 submission portal"
     url: "https://aag.secure-platform.com/aag2027/"
     kind: official
-last_verified: "2026-11-04"
+last_verified: "2026-11-27"
 event:
   start: "2027-02-08"
   end: "2027-02-12"
@@ -41,15 +41,23 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Official AAG page rechecked 17 November 2026: abstract submission closed on the extended date of 22 October 2026 (originally 15 October). No cutoff hour or timezone is published."
+    note: "Official AAG page rechecked 27 November 2026: abstract submission closed on the extended date of 22 October 2026 (originally 15 October). No cutoff hour or timezone is published."
+  - id: session-submission
+    type: proposal
+    label: "Session Submission"
+    datetime: "2026-11-05"
+    precision: date
+    timezone: null
+    status: active
+    note: "The official submission portal states that new sessions could be submitted through 5 November 2026."
   - id: session-organizing
     type: other
-    label: "Session Organizing"
+    label: "Session Organizing / Open Add Period"
     datetime: "2026-11-12"
     precision: date
     timezone: null
     status: active
-    note: "Rechecked 17 November 2026: the main AAG event page explicitly extends session organization to 12 November (from 6 November), but the official secure-platform landing page still says 5 November. The stored value follows the explicit extension; the conflicting portal date remains unresolved. This is not a second general abstract deadline."
+    note: "Rechecked 27 November 2026: the main AAG meeting page and submission guidelines use 12 November for the session-organizing/open-add stage, when unassigned paper abstracts are converted to posters. This is distinct from the 5 November deadline for submitting a new session, so the former apparent source conflict is resolved as two different milestones."
   - id: abstract-session-editing
     type: revision
     label: "Abstract / Session Editing"

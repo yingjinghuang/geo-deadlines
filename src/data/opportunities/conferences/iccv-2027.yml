@@ -46,4 +46,4 @@ deadlines:
     datetime: TBD
     timezone: null
     status: active
-    note: "Rechecked 17 November 2026: the paper deadline remains unpublished. The dedicated Dates page and homepage header say 3–7 October 2027 (workshops 3–4, main conference 5–7), while the homepage venue paragraph still says 2–8 October. The stored event dates follow the dedicated timetable; the conflicting venue range remains unresolved."
+    note: "Rechecked 27 November 2026: no ICCV 2027 paper submission deadline is published yet. The official homepage still gives 3–7 October 2027 in its conference header while the venue paragraph says 2–8 October. The stored 3–7 October event range follows the more specific conference header, but the organizer has not reconciled the conflicting range; the previous successful verification date is therefore retained."
