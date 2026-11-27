@@ -22,7 +22,7 @@ sources:
   - label: Official collection overview
     url: https://www.nature.com/collections/bcjcecaegc
     kind: publisher
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
   - name: Vishal Chettry
   - name: Keerti Manisha
@@ -31,10 +31,9 @@ deadlines:
   - id: manuscript
     type: special_issue_manuscript
     label: Manuscript
-    datetime: '2027-08-12T00:00:00+00:00'
-    precision: datetime
-    timezone: Etc/UTC
+    datetime: '2027-08-11'
+    precision: date
+    timezone: null
     status: active
     primary: true
-    note: The advertised submission date is 11 August 2027. The publisher explicitly says the system closes at 00:00 GMT on the following day, encoded here as 12 August 2027 00:00 UTC;
-      submit before that instant. Scientific Reports accepts original research; the shared collection also welcomes narrative reviews through Scientific Reviews.
+    note: "Rechecked 27 November 2026: the publisher labels the submission deadline 11 August 2027 and says the system closes at exactly 00:00 GMT on 12 August. The catalog stores the advertised calendar date so the UI displays 11 August; its date-only deadline semantics correspond to the end of that UTC day. Scientific Reports accepts original research; the shared collection also welcomes narrative reviews through Scientific Reviews."

@@ -21,7 +21,7 @@ sources:
   - label: Original CUHK GeoSus institutional session announcement
     url: https://geosus.iseis.cuhk.edu.hk/sessions.html
     kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
   - name: Dong Liu
   - name: Ikuho Yamada
