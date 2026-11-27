@@ -16,7 +16,7 @@ sources:
   - label: "Official SAGE call for papers PDF"
     url: "https://journals.sagepub.com/pb-assets/cmscontent/EPB/EPB%20SI%20-%20Novel%20approaches%20to%20the%2015-minute%20city-1785303953847.pdf"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Chen Zhong"
     affiliation: "University College London"
@@ -33,4 +33,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 17 November 2026 against the publisher CFP. The published manuscript deadline 2026-10-30 has passed and no extension is stated in the inspected call. Retained as a historical call; this does not establish that the submission portal is open."
+    note: "Rechecked 27 November 2026 against the publisher CFP. The published manuscript deadline 2026-10-30 has passed and no extension is stated in the inspected call. Retained as a historical call; this does not establish that the submission portal is open."

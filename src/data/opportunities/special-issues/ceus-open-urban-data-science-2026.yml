@@ -16,7 +16,7 @@ sources:
   - label: "Official special issue call"
     url: "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/special-issue/10034BF66D1"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Filip Biljecki"
   - name: "Martin Fleischmann"
@@ -30,4 +30,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Rechecked 17 November 2026 against the named guest editor’s accessible original full CFP, which lists 2026-05-31 as the manuscript deadline. This historical deadline has passed. No extension appears in that inspected original; the publisher CFP page was inaccessible, so this recheck does not establish later publisher changes or an open submission portal."
+    note: "Rechecked 27 November 2026 against the named guest editor’s accessible original full CFP, which lists 2026-05-31 as the manuscript deadline. This historical deadline has passed. No extension appears in that inspected original; the publisher CFP page was inaccessible, so this recheck does not establish later publisher changes or an open submission portal."

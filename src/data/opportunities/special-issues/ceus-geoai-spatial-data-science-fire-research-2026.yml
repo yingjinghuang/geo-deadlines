@@ -21,7 +21,7 @@ sources:
 - label: Official publisher collection page (inaccessible during this recheck)
   url: https://www.sciencedirect.com/special-issue/333461/geoai-and-spatial-data-science-for-fire-research
   kind: publisher
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
 - name: Huanfa Chen
 - name: Yingjie Hu
@@ -37,6 +37,6 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: Verified 17 November 2026 from UCL CASA’s accessible institutional original announcement, which reproduces guest editor Huanfa Chen’s full CFP, identifies the journal and all
+  note: Rechecked 27 November 2026 from UCL CASA’s accessible institutional original announcement, which reproduces guest editor Huanfa Chen’s full CFP, identifies the journal and all
     five editors, and states 31 December 2026. The publisher collection page was inaccessible; this confirms the announced deadline, not the live submission portal. No exact time or
     timezone is provided.

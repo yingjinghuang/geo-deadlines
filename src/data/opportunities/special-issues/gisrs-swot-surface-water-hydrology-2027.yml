@@ -17,7 +17,7 @@ sources:
 - label: Official publisher special issue call
   url: https://callforpapers.taylorandfrancis.com/article_collections/scientific-advances-in-surface-water-and-hydrological-cycle-observations-from-the-swot-mission/
   kind: publisher
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
 - name: Nan Xu
 - name: Jiaqi Yao
@@ -27,10 +27,9 @@ deadlines:
 - id: manuscript
   type: special_issue_manuscript
   label: Manuscript
-  datetime: '2027-02-28'
+  datetime: '2026-11-30'
   precision: date
   timezone: null
   status: active
   primary: true
-  note: Current publisher CFP reviewed 17 November 2026 states 28 February 2027 in both its deadline field and call text. Older search-index text showing 30 November 2026 was not used.
-    No exact submission time or timezone is stated.
+  note: "Official Taylor & Francis article collection rechecked 27 November 2026 gives 30 November 2026 as the manuscript deadline. This corrects the previously stored 28 February 2027 date. No exact submission time or timezone is stated."
