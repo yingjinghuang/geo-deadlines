@@ -1,103 +1,96 @@
-# Priority source refresh — 27 November 2026
+# Full-catalog source refresh — 27 November 2026
 
-## Scope
+## Result and scope
 
-This refresh updates the time-sensitive portion of the live GeoDeadlines catalog after the 17 November full audit and discovery expansion. It is **not** presented as a new 203-record full-catalog audit.
+This pass completes a current-source review or attempted recheck of the **entire live GeoDeadlines catalog** after the 17 November audit and discovery expansion.
 
-The catalog contained 206 live records after the 17 November discovery expansion. Three recruitment records with sufficient closure evidence were removed across the 27 November refresh, leaving **203 records: 43 conferences, 6 workshops, 72 special issues and 82 recruitment opportunities**.
+The 17 November discovery expansion left **206 live records**. Nine recruitment records now have sufficient closure evidence and were removed from the live catalog, leaving **197 records: 43 conferences, 6 workshops, 72 special issues and 76 recruitment opportunities**.
 
-The refresh prioritised deadlines falling from 27 November through mid-December, plus records whose original sources exposed a material change. Existing unresolved records retain their older verification dates unless new primary evidence resolves the issue.
+Of the 197 retained records:
 
-## Material changes
+- **187** have sufficiently supported current or historical source evidence and now carry `last_verified: 2026-11-27`.
+- **10** were actively rechecked but remain unresolved or not reproducibly re-verifiable; they deliberately retain older verification dates.
+- Historical conference and special-issue records remain in the catalog when their published dates can still be verified. Recruitment records are removed when a hard final cutoff has passed and current employer evidence supports closure or disappearance from the live vacancy index.
+- No verification date was bulk-advanced.
 
-### ICC 2027
+## Major corrections made on 27 November
 
-The official ICC 2027 call now lists:
+### Conferences and workshops
 
-- **Abstract:** 1 December 2026
-- **Full paper:** **4 December 2026**
-
-The live catalog previously stored 20 November for the full-paper deadline. That value was replaced with 4 December and the correction is documented in the record.
-
-Source: https://icc2027.org/call-for-papers/
-
-### Closed recruitment removals
-
-- **UEF MINE-THE-GAP Spatial AI PhDs** — the University of Eastern Finland Varbi page explicitly reports the recruitment as finished and no longer accepting applications.
-- **Stirling Geospatial Data Science Lecturer (FAC02153)** — the university-authored vacancy closed on 23 November 2026; Stirling's own applicant guidance states that job descriptions are no longer available after a vacancy closes, and the role is no longer in the current-vacancy route.
-- **UCL CASA Research Fellow in Urban AI (B04-07935)** — the advertised fixed closing date was 6 November 2026; the original UCL detail is no longer retrievable in the current portal and no current matching vacancy was found.
-
-All three historical records remain recoverable through Git history.
-
-## Reverified current records
-
-The following records were compared with their current original/official sources and advanced to `last_verified: 2026-11-27` where the published information remained sufficiently supported.
-
-### Conferences and workshop
-
-- AAG 2027 — resolved the apparent 5 November / 12 November conflict by separating **new session submission** (5 November) from the **session organizing/open-add period** (12 November)
-- IUGG 2027 — resolved the 14/16 February discrepancy in favor of the detailed IUGG/IAG guidance: **16 February 2027, 23:59 HST**
-- GISTAM 2027
-- Geoinformatics Research Days 2027
-- SSTD 2027
-- EARSeL 2027
-- EGU 2027
-- ICC 2027
-- JURSE 2027
-- Geomorphometry 2027
-- CHI 2027
-- FOSDEM 2027 Geospatial Developer Room
-
-### Near-term recruitment
-
-- University of Twente GPR + AI Utility Mapping EngD
-- University of Iowa GeoAI / Spatial Data Science PhDs
-- GFZ Forest Carbon Earth Observation PhD
-- Rice MUSE multimodal graph-AI postdoc
-- Cal Poly Pomona Geological Sciences / Remote Sensing / GIS faculty
-- Cal Poly Pomona Applied Geospatial Analysis faculty
-- Harvard Remote Sensing / Biodiversity / Land Surface faculty
-- UMass Amherst Remote Sensing Systems faculty
-- University of Toronto Geographic Data Science teaching-stream faculty
-- Exeter Amazon Forest Microclimate PhD
-- Exeter Arctic Permafrost SAR PhD
-- University of Oulu Peatland Restoration PhD
-- UT Austin GeoAI PhD
-- UIUC GeoAI / Geospatial Computing PhD
-- UMD Coastal Geomorphology / Remote Sensing PhD
-- CUHK ISEIS Geospatial AI / Remote Sensing faculty
-- McGill Urban Analytics / Geospatial Data Science faculty
+- **ICC 2027** — full-paper deadline corrected from **20 November 2026** to **4 December 2026**; abstract remains 1 December.
+- **AAG 2027** — the apparent 5 November / 12 November conflict was resolved by separating **new session submission (5 November)** from the **session organizing/open-add period (12 November)**.
+- **IUGG 2027** — detailed organizer guidance supports **16 February 2027, 23:59 HST (UTC-10)** for abstracts and travel grants; the conflicting 14 February summary line is treated as an inconsistent summary rather than the canonical rule.
+- **ICLR 2027** — workshop proposal notification corrected to **7 December 2026**.
+- **CUPUM 2027** — current CFP now records conference paper/poster notification **9 April 2027**, accepted-author early-bird registration **20 April**, and revised papers/full digital posters **12 May**.
+- **IOCGM 2027** — abstract deadline extended to **4 January 2027** and abstract acceptance moved to **25 January**.
+- **IGARSS 2027** — paper/abstract cutoff upgraded to **11 January 2027, 23:59 AoE**; travel-support application corrected to **8 March** with decision **9 April**.
+- **GIScience 2027** — workshop proposal decision **5 March 2027** added.
+- **GEOProcessing 2027** — registration milestone **10 March 2027** added.
+- **Human-Centric AgMS 2027** — AAAI program confirms the workshop on **22 February 2027**.
+- **GSR-VLM 2027** — AAAI program confirms the workshop on **22 February 2027**; workshop-specific submission dates remain on the older successful verification because the workshop page could not be re-retrieved.
 
 ### Journal special issues
 
-- IJGIS — Critical Challenges in GeoAI
-- TUS — Interactions between Transport and Human Mobility
-- IJGI — Spatial Information for Improved Living Spaces (2nd Edition)
-- GIScience & Remote Sensing — VLM Driven Intelligent Interpretation of Remote Sensing Imagery
-- Geo-spatial Information Science — Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation
-- International Journal of Digital Earth — From Geospatial Data to Urban Environmental Intelligence
+- **GIScience & Remote Sensing — SWOT surface-water/hydrology collection** — manuscript deadline corrected from **28 February 2027** to **30 November 2026**.
+- **Scientific Reports — Geospatial data science and analysis** — stored as the publisher-advertised **22 January 2027** calendar deadline instead of the following-day 00:00 GMT closure instant, so the UI displays the correct date.
+- **Scientific Reports — Climate-resilient and sustainable human settlements** — similarly stored as the advertised **11 August 2027** calendar deadline rather than 12 August 00:00 GMT.
+- Active Wiley / Transactions in GIS, JSTARS, TUS, Nature, Frontiers, MDPI and other publisher calls were rechecked against current publisher or original institutional sources where accessible.
+- Two IJGI calls remain unresolved because MDPI's dedicated issue pages and live special-issue index publish materially different deadlines.
 
-## Precision retained deliberately
+### Recruitment
 
-The two Exeter EPSRC DLA project pages state that applications close at **midday on 8 December 2026**, but the inspected source does not print an explicit timezone. The catalog therefore keeps a date-only machine value plus the published-midday note instead of inventing a UTC/GMT offset.
+- **Alabama Physical Geography faculty** — final portal close added: **1 August 2027, 22:55 CDT**.
+- **Cal Poly Pomona UAS Autonomy + GIS faculty** — corrected to the official **15 October 2026, 23:55 PDT** hard deadline; the unsupported later/TBD application milestone was removed.
+- **SJSU Spatial Data Analysis faculty** — speculative later/TBD application milestone removed; the official posting only establishes the 15 October deadline.
+- **KTH Geospatial AI postdoc** — current evidence supports **rolling until filled**.
+- Current until-filled searches such as Cincinnati, Colgate, selected Cal Poly Pomona roles, Hawaiʻi, UF, UNCG, uOttawa, PolyU and others retain their review/priority dates separately from rolling application status.
+- Date-only recruitment records remain date-only when the source does not publish an exact timezone or clock.
 
-The Ghent 4D Forest TLS PhD was also rechecked. The official page still combines a 30 November 23:59 header with narrative wording referring to midnight CEST. Because November is not CEST and the exact cutoff remains internally inconsistent, the record deliberately uses **date-only precision**. The calendar date itself is directly confirmed, so `last_verified` advances to 27 November without inventing a timezone.
+## Recruitment removals — 9
 
-## Remaining unresolved queue
+The following records were removed from the live catalog after hard closing evidence and current employer/index checks. Their historical YAML remains recoverable through Git history.
 
-After the follow-up source checks, only two live records remain materially unresolved:
+1. UEF MINE-THE-GAP Spatial AI / Earth Observation doctoral researchers.
+2. Stirling Lecturer in Geospatial Data Science.
+3. UCL CASA Research Fellow in Urban AI.
+4. Gothenburg TWIG forest laser-scanning / biomass postdoc.
+5. Gothenburg TWIG tropical-forest 3D lidar PhD.
+6. University of Toronto Sustainability Science teaching-stream faculty.
+7. University of Limerick Physical Geography / Geoinformatics faculty.
+8. Lund forest remote-sensing / carbon-productivity researcher.
+9. Sheffield seismic hazard / GIS risk research associate.
 
-- **ICCV 2027** — the official conference header says 3–7 October 2027 while the venue paragraph still says 2–8 October, and the 2027 paper-submission deadline has not yet been published. The older successful verification date is retained.
-- **UMD Satellite Remote Sensing of Precipitation and Clouds** — the former employer notice said review from 30 September and applications until filled, but the original notice is now unavailable and the current ESSIC employment index no longer lists the role. Because there was no final cutoff, disappearance alone is not treated as proof of closure.
+## Remaining older verification dates — 10
 
-The former AAG, IUGG, Ghent and three Taylor & Francis evidence issues were resolved on 27 November as described above.
+Every record below was revisited on 27 November. The older timestamp is intentional.
+
+| Record | Retained date | Why it remains unresolved / not fresh |
+| --- | --- | --- |
+| ICCV 2027 | 2026-11-04 | Official ICCV material still gives conflicting event ranges (3–7 October vs 2–8 October), and the paper-submission deadline remains unpublished. |
+| GISRUK 2027 | 2026-11-17 | Current official call page exists, but the verifier could not reproducibly retrieve the specific 1 February deadline text on this pass. |
+| GSR-VLM 2027 | 2026-11-17 | AAAI confirms the workshop and 22 February event day, but the workshop-specific page supporting its exceptional 19 November submission / 1 December notification dates could not be re-retrieved. |
+| Utah State Remote Sensing + GeoAI postdoc | 2026-11-17 | Official iCIMS detail could not be directly retrieved; current syndicated copies repeat until-filled wording, but secondary copies are insufficient to advance verification. |
+| UMD Satellite Remote Sensing of Precipitation and Clouds | 2026-11-04 | Old ESSIC notice advertised review from 30 September and applications until filled, but the notice is now unavailable and the current employment index omits it. With no final cutoff, disappearance alone does not prove closure. |
+| GIScience & Remote Sensing — Urban Environment collection | 2026-11-17 | Taylor & Francis exact collection detail could not be reproducibly retrieved with its deadline on this pass. |
+| IJDE — Advancing GeoAI | 2026-11-17 | Current journal material still identifies the call, but the exact deadline detail could not be directly re-retrieved. |
+| IJGIS — Ethics in Geospatial AI and Data Science | 2026-11-17 | Current journal material still identifies the call, but the exact deadline detail could not be directly re-retrieved. |
+| IJGI — Innovative Mobility Services for Smart Cities | 2026-11-17 | MDPI dedicated page shows **30 November 2026** while the current IJGI special-issue index displays **31 March 2027**. |
+| IJGI — Urban Digital Twins Empowered by AI and Dataspaces | 2026-11-17 | MDPI live index displays **31 March 2027**, while the dedicated page / publisher materials display **23 December 2026**. |
+
+## Precision decisions retained deliberately
+
+- The Exeter EPSRC DLA project pages say applications close at **midday on 8 December 2026** but do not print an explicit timezone. GeoDeadlines therefore keeps date-only machine values plus the published-midday note instead of inventing GMT.
+- The Ghent 4D Forest TLS PhD page combines a 30 November 23:59 header with narrative wording saying midnight CEST. The calendar date is verified, but the exact timezone is internally inconsistent, so the catalog deliberately stores date-only precision.
+- A passed review/priority date is never treated as proof of recruitment closure when an original source explicitly says the search continues until filled.
 
 ## Repository changes
 
-- `75cbfcc` — refresh near-term conference and journal deadlines; correct ICC 2027.
-- `5216486` — refresh current recruitment records; remove the closed UEF MINE-THE-GAP call.
-- `b119e1e` — resolve AAG/IUGG/Ghent/Taylor & Francis evidence issues; remove the expired Stirling and UCL recruitment cards.
+This refresh was applied directly to `main` across a sequence of evidence-focused commits. Major data commits include:
 
-After the data changes, the GitHub **Validate** workflow completed successfully. The deployment workflow was triggered by the push.
+- `75cbfcc`, `5216486`, `b119e1e` — initial 27 November priority refresh and unresolved-source cleanup.
+- `915b9ef`, `d7e1865`, `4228114`, `1a92087` — conference and workshop refreshes.
+- `96749fb`, `27ac55c`, `12f8910`, `f40152d`, `f635f61`, `15d762b`, `1ef586c` — journal special-issue refreshes and deadline corrections.
+- `8c5bea9`, `a858278`, `434dd27`, `8949103`, `b2af21d`, `852d323`, `439ee0a`, `7da5a8e` — recruitment refreshes, corrections and closures.
+- `9e2bc54` — YAML quoting repair after the validator exposed four unquoted note strings containing colons.
 
-This document records only work actually supported by inspected sources. It does not bulk-advance verification dates for untouched records.
+The final CI result is recorded after the post-refresh validation/deployment run completes. This document distinguishes verified facts from unresolved source limitations and does not treat search snippets or inaccessible secondary copies as equivalent to current primary-source verification.

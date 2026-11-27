@@ -57,5 +57,5 @@ if (overdue.length) {
   }
 } else { console.log('No overdue entries. Fresh timestamps alone still do not establish source accuracy.'); }
 console.log('');
-console.log('Latest full-catalog audit: https://github.com/yingjinghuang/geo-deadlines/blob/main/docs/verification-audit-2026-11-17.md');
+console.log('Latest full-catalog source refresh: https://github.com/yingjinghuang/geo-deadlines/blob/main/docs/verification-refresh-2026-11-27.md');
 console.log('Action: open each official call, check status and all deadlines/extensions; mark blocked or conflicting sources unresolved. NEVER bulk-bump last_verified.');
