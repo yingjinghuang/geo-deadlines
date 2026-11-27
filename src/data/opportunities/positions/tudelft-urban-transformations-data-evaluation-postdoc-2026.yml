@@ -1,0 +1,37 @@
+title: "Postdoctoral Researcher — Data-Driven Design Evaluation of Urban Transformations"
+short_name: "TU Delft Urban Transformations Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Two-year TU Delft postdoctoral position in the ROUTES Horizon Europe project, developing monitoring and evaluation frameworks for schoolyard and street transformations using spatial data analysis, GIS, sensor-based mobility data, behavioral mapping and comparative urban analytics."
+scope: adjacent
+topics:
+  - urban
+  - mobility
+  - spatial-data-science
+  - giscience
+website: "https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-Position-in-Data-Driven-Design-Evaluation-of-Urban-Transformations-2628-CD/1377114657/"
+sources:
+  - label: "Official TU Delft vacancy 4053"
+    url: "https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-Position-in-Data-Driven-Design-Evaluation-of-Urban-Transformations-2628-CD/1377114657/"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Delft"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Delft University of Technology"
+  - "Urban Analytics Lab"
+  - "Faculty of Industrial Design Engineering"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-04"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The employer states that applications must be submitted no later than December 4, 2026; no exact time or timezone is published."
