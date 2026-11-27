@@ -21,7 +21,7 @@ sources:
   - label: "Official SAGE full CFP index (source recheck)"
     url: "https://journals.sagepub.com/page/tus/calls-for-papers"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 deadlines:
   - id: manuscript
     type: special_issue_manuscript
