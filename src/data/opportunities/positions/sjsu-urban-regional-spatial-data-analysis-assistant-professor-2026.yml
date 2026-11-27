@@ -14,7 +14,7 @@ sources:
   - label: "Official San José State University faculty vacancy 560948"
     url: "https://jobs.sjsu.edu/en-us/job/560948/assistant-professor-of-economics-urbanregional-spatial-data-analysis"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "San José"
@@ -32,11 +32,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 17 November 2026: the official posting still labels 15 October 2026 the application deadline, while Apply now remains visible and the closing-date field is blank. No official extension or guaranteed late eligibility is stated; the original deadline is retained."
-  - id: late-application
-    type: application
-    label: "Later Application (Confirm Eligibility)"
-    datetime: "TBD"
-    timezone: null
-    status: active
-    note: "Official listing still includes Apply Now and no closing date after the stated October 15 application deadline. Late eligibility has not been explicitly confirmed; check with the employer."
+    note: "Rechecked 27 November 2026: the official SJSU posting continues to state 15 October 2026 as the Application Deadline. Although the page still renders an Apply now control, it does not state that late applications are accepted or that the search is open until filled. The prior speculative TBD late-application milestone has therefore been removed."

@@ -12,7 +12,7 @@ sources:
 - label: Official PolyU vacancy 260918010
   url: https://jobs.polyu.edu.hk/job_detail.php?job=260918010
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Hong Kong
@@ -30,12 +30,12 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: The original employer posting states consideration begins 1 November 2026 and continues until filled.
+  note: The current employer posting states consideration begins 1 November 2026 and continues until filled.
 - id: rolling-application
   type: application
   label: Rolling Application
   datetime: TBD
   timezone: null
   status: active
-  note: The original PolyU vacancy explicitly continues consideration until the position is filled.
+  note: The current PolyU vacancy explicitly continues consideration until the position is filled.
   rolling: true

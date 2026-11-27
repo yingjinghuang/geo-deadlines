@@ -14,7 +14,7 @@ sources:
 - label: Official PolyU vacancy 260609006
   url: https://jobs.polyu.edu.hk/job_detail.php?job=260609006
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Hong Kong
@@ -32,7 +32,7 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: The original vacancy gives 22 June 2026 as the start of consideration and explicitly continues until filled.
+  note: The current vacancy gives 22 June 2026 as the start of consideration and explicitly continues until filled.
 - id: rolling-application
   type: application
   label: Rolling Application
