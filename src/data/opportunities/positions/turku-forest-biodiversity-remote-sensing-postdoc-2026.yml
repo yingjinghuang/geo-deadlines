@@ -1,0 +1,36 @@
+title: "Postdoctoral Researcher — Forest Biodiversity Detection with Remote Sensing"
+short_name: "Turku Forest Biodiversity RS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "University of Turku postdoctoral researcher in the BiodiLogDef project, developing forest-biodiversity indicators and methods for detecting bird nests using LiDAR, thermal infrared imaging and other remote-sensing data at multiple scales."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - sustainability
+website: "https://ats.talentadore.com/apply/maaraaikainen-tutkijatohtorin-tehtava-metsaluonnon-monimuotoisuuden-havainnoimista-ja-huomioimista-kehittavassa-hankkeessa/Zx2GX1?UTUID=21746&lang=en"
+sources:
+  - label: "Official University of Turku recruitment system"
+    url: "https://ats.talentadore.com/apply/maaraaikainen-tutkijatohtorin-tehtava-metsaluonnon-monimuotoisuuden-havainnoimista-ja-huomioimista-kehittavassa-hankkeessa/Zx2GX1?UTUID=21746&lang=en"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Turku"
+  country: "Finland"
+  country_code: "FI"
+organizations:
+  - "University of Turku"
+  - "Department of Biology"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-09T16:00:00+02:00"
+    precision: datetime
+    timezone: "Europe/Helsinki"
+    status: active
+    primary: true
+    note: "The recruitment notice specifies Wednesday December 9, 2026 at 16:00 Europe/Helsinki."
