@@ -4,11 +4,11 @@
 
 This pass completes a current-source review or attempted recheck of the **entire live GeoDeadlines catalog** after the 17 November audit and discovery expansion.
 
-The 17 November discovery expansion left **206 live records**. Nine recruitment records received sufficient closure evidence and were removed, initially leaving **197 records**. A later same-day targeted recruitment discovery added **14 newly verified positions**, bringing the current live catalog to **211 records: 43 conferences, 6 workshops, 72 special issues and 90 recruitment opportunities**.
+The 17 November discovery expansion left **206 live records**. Nine recruitment records received sufficient closure evidence and were removed, initially leaving **197 records**. A later same-day targeted recruitment discovery added **16 newly verified positions**, bringing the current live catalog to **213 records: 43 conferences, 6 workshops, 72 special issues and 92 recruitment opportunities**.
 
-Of the 211 retained records:
+Of the 213 retained records:
 
-- **206** have sufficiently supported current or historical source evidence and now carry `last_verified: 2026-11-27`.
+- **208** have sufficiently supported current or historical source evidence and now carry `last_verified: 2026-11-27`.
 - **5** were actively rechecked but remain unresolved or not reproducibly re-verifiable; they deliberately retain older verification dates.
 - Historical conference and special-issue records remain in the catalog when their published dates can still be verified. Recruitment records are removed when a hard final cutoff has passed and current employer evidence supports closure or disappearance from the live vacancy index.
 - No verification date was bulk-advanced.
@@ -45,7 +45,7 @@ Of the 211 retained records:
 - **KTH Geospatial AI postdoc** — current evidence supports **rolling until filled**.
 - Current until-filled searches such as Cincinnati, Colgate, selected Cal Poly Pomona roles, Hawaiʻi, UF, UNCG, uOttawa, PolyU and others retain their review/priority dates separately from rolling application status.
 - Date-only recruitment records remain date-only when the source does not publish an exact timezone or clock.
-- A later targeted [position discovery supplement](discovery-positions-2026-11-27.md) added **14** current opportunities: 3 PhD, 9 postdoc and 2 faculty/instructor records. Twelve are core-scoped; the TU Delft and KTH urban-research roles are adjacent.
+- A later targeted [position discovery supplement](discovery-positions-2026-11-27.md) added **16** current opportunities: 4 PhD, 9 postdoc, 2 faculty/instructor and 1 research-staff record. Fourteen are core-scoped; the TU Delft and KTH urban-research roles are adjacent.
 
 ## Recruitment removals — 9
 
@@ -88,6 +88,6 @@ This refresh was applied directly to `main` across a sequence of evidence-focuse
 - `96749fb`, `27ac55c`, `12f8910`, `f40152d`, `f635f61`, `15d762b`, `1ef586c` — journal special-issue refreshes and deadline corrections.
 - `8c5bea9`, `a858278`, `434dd27`, `8949103`, `b2af21d`, `852d323`, `439ee0a`, `7da5a8e` — recruitment refreshes, corrections and closures.
 - `9e2bc54` — YAML quoting repair after the validator exposed four unquoted note strings containing colons.
-- `8570c226` through `78be9994`, plus `e3562682` — late-day targeted recruitment discovery adding 14 newly verified position records, including the TU Graz Geoinformation pre-doc; evidence and exclusions are summarized in `docs/discovery-positions-2026-11-27.md`.
+- `8570c226` through `78be9994`, plus `e3562682`, `2552fc58` and `b07f0c2f` — late-day targeted recruitment discovery adding 16 newly verified position records, including the TU Graz Geoinformation pre-doc, ETH Zurich 3D mapping/digital-twins PhD and DLR multilingual GeoAI researcher; evidence and exclusions are summarized in `docs/discovery-positions-2026-11-27.md`.
 
 The earlier full-refresh baseline at commit `eb241da` completed both **Validate** and **Deploy to GitHub Pages** successfully. After the initial position-discovery additions and catalog-count update, commit `21a7478` completed the repository **Validate** workflow and **Deploy to GitHub Pages** successfully. A subsequent correction added the missed TU Graz Geoinformation PhD/pre-doc and updated the discovery counts; its validation status is recorded separately once the new workflow completes. This document distinguishes verified facts from unresolved source limitations and does not treat search snippets or inaccessible secondary copies as equivalent to current primary-source verification.
