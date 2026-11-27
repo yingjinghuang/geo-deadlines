@@ -20,7 +20,7 @@ sources:
   - label: Official IEEE GRSS current JSTARS special issue index
     url: https://www.grss-ieee.org/publications/call-for-papers/jstars-special-issues/
     kind: publisher
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
   - name: M Attique Khan
   - name: Antonio Plaza
