@@ -16,7 +16,7 @@ sources:
   - label: "Official NTU Workday vacancy R00026045"
     url: "https://ntu.wd3.myworkdayjobs.com/careers/job/Research-Fellow--Humanities-Geography-Geosciences-_R00026045"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Singapore"
@@ -35,4 +35,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Original NTU Workday vacancy R00026045 invites applications by 4 December 2026 at 6:00pm. Its original description was retrieved from the employer page; no timezone is printed, so only the date is encoded. The separate, more humanities-focused vacancy R00026015 is not merged into this record."
+    note: "Official NTU Workday vacancy R00026045 rechecked 27 November 2026 remains open and invites applications by 4 December 2026 at 6:00pm. The source does not print a timezone, so only the calendar date is encoded. The separate, more humanities-focused vacancy R00026015 is not merged into this record."
