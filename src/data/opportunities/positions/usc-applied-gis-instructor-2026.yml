@@ -1,0 +1,44 @@
+title: "Instructor — Applied GIS"
+short_name: "South Carolina Applied GIS Instructor"
+type: position
+position_category: faculty
+year: 2026
+description: "Full-time professional-track Instructor in the University of South Carolina Department of Geography, focused on applied GIS and related geospatial technologies. The initial appointment is one year with a pathway for renewal and promotion, begins August 16, 2027, and is not eligible for visa sponsorship."
+scope: core
+topics:
+  - giscience
+  - spatial-data-science
+  - geovisualization
+website: "https://uscjobs.sc.edu/postings/214671"
+sources:
+  - label: "Official University of South Carolina posting FAC00146PO26"
+    url: "https://uscjobs.sc.edu/postings/214671"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Columbia"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of South Carolina"
+  - "Department of Geography"
+  - "McCausland College of Arts and Sciences"
+deadlines:
+  - id: first-review
+    type: application
+    label: "Review Begins"
+    datetime: "2027-01-29"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Review begins January 29, 2027; this is not a hard closing date."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The official posting states that review continues until the position is filled."
