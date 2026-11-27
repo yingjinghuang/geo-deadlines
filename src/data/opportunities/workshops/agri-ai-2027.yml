@@ -19,7 +19,7 @@ sources:
   - label: "AAAI accepted workshop program and submission link"
     url: "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program-list/"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: "in_person"
   city: "Montréal"

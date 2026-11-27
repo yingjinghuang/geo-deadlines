@@ -23,7 +23,7 @@ sources:
   - label: Official CUPUM 2027 event dates
     url: https://cupum2027.com.au/
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-07-05"
   end: "2027-07-09"
@@ -48,11 +48,19 @@ deadlines:
   - id: revised-paper
     type: camera_ready
     label: "Revised Papers / Full Digital Posters"
-    datetime: "2027-06-18"
+    datetime: "2027-05-12"
     precision: date
     timezone: null
     status: active
-    note: "Revised accepted material only; this is not initial conference intake."
+    note: "Current organizer CFP rechecked 27 November 2026 gives 12 May 2027 for revised conference papers and full digital posters. Revised accepted material only; this is not initial conference intake."
+  - id: paper-poster-notification
+    type: notification
+    label: "Conference Paper / Poster Notification"
+    datetime: "2027-04-09"
+    precision: date
+    timezone: null
+    status: active
+    note: "Current organizer CFP rechecked 27 November 2026 gives 9 April 2027 for conference paper and poster notifications."
   - id: book-chapter-revision
     type: revision
     label: Selected Book Chapter Revision
@@ -61,10 +69,11 @@ deadlines:
     timezone: null
     status: active
     note: Only for authors selected through the already-closed book-chapter abstract stage.
-  - id: early-registration
+  - id: accepted-author-early-registration
     type: registration
-    label: Early-bird Registration
-    datetime: "2027-04-28"
+    label: "Accepted-author Early-bird Registration"
+    datetime: "2027-04-20"
     precision: date
     timezone: null
     status: active
+    note: "The current Call for Papers says successful authors are eligible for early-bird registration until 20 April 2027. Generic early-bird dates displayed elsewhere on the organizer site are inconsistent, so this milestone is intentionally scoped to accepted authors."

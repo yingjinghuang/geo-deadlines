@@ -23,7 +23,7 @@ sources:
   - label: "Official venue"
     url: "https://jisdm2027.tudelft.nl/venue"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-04-14"
   end: "2027-04-16"
