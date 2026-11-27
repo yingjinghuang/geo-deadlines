@@ -1,0 +1,48 @@
+title: "Postdoctoral Fellow — Transport, Urban Environment and Spatial Data Science"
+short_name: "HKU Transport + Urban Spatial Data Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "HKU Geography postdoctoral fellowship in the PEACE Research Group spanning transport and urban systems, human mobility, environmental exposure and population health, with methods including applied AI, remote sensing, GIS, spatial analytics, sensing and spatiotemporal big-data modelling."
+scope: core
+topics:
+  - urban
+  - mobility
+  - spatial-data-science
+  - giscience
+  - geoai
+  - remote-sensing
+  - machine-learning
+website: "https://jobs.hku.hk/jobs/postdoctoral-fellow-in-transport-urban-environment-and-spatial-data-science-hong-kong-central-western"
+sources:
+  - label: "Official University of Hong Kong vacancy 537709"
+    url: "https://jobs.hku.hk/jobs/postdoctoral-fellow-in-transport-urban-environment-and-spatial-data-science-hong-kong-central-western"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The University of Hong Kong"
+  - "Department of Geography"
+  - "PEACE Research Group"
+deadlines:
+  - id: portal-close
+    type: application
+    label: "Current Portal Closing"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The current HKU page header states 'Closing on: Dec 31 2026'. The body of the same official page still contains an earlier conflicting statement that review continues until November 30, 2026 or until the post is filled, whichever is earlier. Applicants should verify the live portal before relying on the later date."
+  - id: body-stated-date
+    type: other
+    label: "Earlier Date in Official Job Body"
+    datetime: "2026-11-30"
+    precision: date
+    timezone: null
+    status: active
+    note: "Conflicting first-party wording retained deliberately: the vacancy body says review continues until November 30, 2026 or until the post is filled, while the current page header says December 31, 2026."
