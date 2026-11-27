@@ -20,7 +20,7 @@ sources:
   - label: "Official Illinois GGIS Fall 2027 admissions and funding information"
     url: "https://ggis.illinois.edu/academics/graduate-programs/apply"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Urbana-Champaign"

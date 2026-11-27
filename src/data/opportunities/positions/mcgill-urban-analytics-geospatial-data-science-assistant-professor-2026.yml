@@ -21,7 +21,7 @@ sources:
 - label: Official Workday public job-detail response
   url: https://mcgill.wd3.myworkdayjobs.com/wday/cxs/mcgill/McGill_Careers/job/Burnside-Hall/Assistant-Professor-in-Geography--Urban-Analytics---GeoSpatial-Data-Science_JR0000078826
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Montreal
