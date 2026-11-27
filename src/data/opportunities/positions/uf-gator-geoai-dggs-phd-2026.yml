@@ -1,0 +1,47 @@
+title: "Funded PhD Research Assistantship — GeoAI, Scalable Analytics and DGGS"
+short_name: "UF GATOR GeoAI + DGGS PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Four-year funded PhD research assistantship in the University of Florida GATOR Lab for Fall 2027, with research directions in GeoAI and scalable analytics, LLM and agentic geospatial reasoning, cloud-native geocomputation, and Discrete Global Grid Systems."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - spatial-computing
+  - spatial-databases
+  - spatial-data-science
+  - machine-learning
+website: "https://gatorlab.io/join"
+sources:
+  - label: "GATOR Lab recruiting page at the University of Florida"
+    url: "https://gatorlab.io/join"
+    kind: announcement
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Fort Lauderdale"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Florida"
+  - "GATOR Lab"
+  - "Fort Lauderdale Research and Education Center"
+deadlines:
+  - id: priority
+    type: application
+    label: "Priority Application"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The lab advertises December 31, 2026 as the priority deadline for Fall 2027; applications are reviewed on a rolling basis. Students may be based in Gainesville during the first year for coursework."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "Applications are reviewed on a rolling basis after the advertised priority date, subject to the assistantship remaining available."
