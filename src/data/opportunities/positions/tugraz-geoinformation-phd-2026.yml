@@ -23,6 +23,9 @@ sources:
   - label: "Official TU Graz Career Info-Service"
     url: "https://career.tugraz.at/career.php?scope=announcements"
     kind: official
+  - label: "EURAXESS current TU Graz recruitment record"
+    url: "https://euraxess.ec.europa.eu/jobs/481088"
+    kind: announcement
   - label: "Runder Tisch GIS current job board linking to the TU Graz original"
     url: "https://www.rundertischgis.de/jobboerse/"
     kind: announcement
@@ -44,4 +47,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "TU Graz's official bulletin and current career index confirm the active 40-hour/week, four-year Geoinformation pre-doc vacancy. The original job-detail frontend was not machine-readable in this verification environment; the 31 December 2026 deadline is consistently reproduced by current academic-job mirrors that link back to the same TU Graz job URL."
+    note: "TU Graz's official bulletin and current career index confirm the active 40-hour/week, four-year Geoinformation pre-doc vacancy. EURAXESS lists reference 5220 / 2026 / 9962, a 1 March 2027 start and an application deadline of 31 December 2026 (23:00 UTC). The catalog stores the publisher-facing calendar date rather than inferring a different local-day cutoff."
