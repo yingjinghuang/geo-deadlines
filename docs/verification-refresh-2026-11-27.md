@@ -93,4 +93,4 @@ This refresh was applied directly to `main` across a sequence of evidence-focuse
 - `8c5bea9`, `a858278`, `434dd27`, `8949103`, `b2af21d`, `852d323`, `439ee0a`, `7da5a8e` — recruitment refreshes, corrections and closures.
 - `9e2bc54` — YAML quoting repair after the validator exposed four unquoted note strings containing colons.
 
-The final CI result is recorded after the post-refresh validation/deployment run completes. This document distinguishes verified facts from unresolved source limitations and does not treat search snippets or inaccessible secondary copies as equivalent to current primary-source verification.
+Post-refresh CI is green: commit `eb241da` completed both the repository **Validate** workflow and **Deploy to GitHub Pages** successfully. This document distinguishes verified facts from unresolved source limitations and does not treat search snippets or inaccessible secondary copies as equivalent to current primary-source verification.
