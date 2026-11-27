@@ -8,8 +8,8 @@ The 17 November discovery expansion left **206 live records**. Nine recruitment 
 
 Of the 197 retained records:
 
-- **187** have sufficiently supported current or historical source evidence and now carry `last_verified: 2026-11-27`.
-- **10** were actively rechecked but remain unresolved or not reproducibly re-verifiable; they deliberately retain older verification dates.
+- **192** have sufficiently supported current or historical source evidence and now carry `last_verified: 2026-11-27`.
+- **5** were actively rechecked but remain unresolved or not reproducibly re-verifiable; they deliberately retain older verification dates.
 - Historical conference and special-issue records remain in the catalog when their published dates can still be verified. Recruitment records are removed when a hard final cutoff has passed and current employer evidence supports closure or disappearance from the live vacancy index.
 - No verification date was bulk-advanced.
 
@@ -35,7 +35,7 @@ Of the 197 retained records:
 - **Scientific Reports — Geospatial data science and analysis** — stored as the publisher-advertised **22 January 2027** calendar deadline instead of the following-day 00:00 GMT closure instant, so the UI displays the correct date.
 - **Scientific Reports — Climate-resilient and sustainable human settlements** — similarly stored as the advertised **11 August 2027** calendar deadline rather than 12 August 00:00 GMT.
 - Active Wiley / Transactions in GIS, JSTARS, TUS, Nature, Frontiers, MDPI and other publisher calls were rechecked against current publisher or original institutional sources where accessible.
-- Two IJGI calls remain unresolved because MDPI's dedicated issue pages and live special-issue index publish materially different deadlines.
+- Five previously unresolved special-issue records were manually rechecked on 27 November: **Innovative Mobility Services for Smart Cities** and **Urban Digital Twins Empowered by AI and Dataspaces** are confirmed at **31 March 2027**; **Advancing GeoAI** and **Ethics in Geospatial AI and Data Science** remain **31 December 2026**; the **GIScience & Remote Sensing — Urban Environment** collection remains **31 July 2027**.
 
 ### Recruitment
 
@@ -60,7 +60,7 @@ The following records were removed from the live catalog after hard closing evid
 8. Lund forest remote-sensing / carbon-productivity researcher.
 9. Sheffield seismic hazard / GIS risk research associate.
 
-## Remaining older verification dates — 10
+## Remaining older verification dates — 5
 
 Every record below was revisited on 27 November. The older timestamp is intentional.
 
@@ -71,11 +71,6 @@ Every record below was revisited on 27 November. The older timestamp is intentio
 | GSR-VLM 2027 | 2026-11-17 | AAAI confirms the workshop and 22 February event day, but the workshop-specific page supporting its exceptional 19 November submission / 1 December notification dates could not be re-retrieved. |
 | Utah State Remote Sensing + GeoAI postdoc | 2026-11-17 | Official iCIMS detail could not be directly retrieved; current syndicated copies repeat until-filled wording, but secondary copies are insufficient to advance verification. |
 | UMD Satellite Remote Sensing of Precipitation and Clouds | 2026-11-04 | Old ESSIC notice advertised review from 30 September and applications until filled, but the notice is now unavailable and the current employment index omits it. With no final cutoff, disappearance alone does not prove closure. |
-| GIScience & Remote Sensing — Urban Environment collection | 2026-11-17 | Taylor & Francis exact collection detail could not be reproducibly retrieved with its deadline on this pass. |
-| IJDE — Advancing GeoAI | 2026-11-17 | Current journal material still identifies the call, but the exact deadline detail could not be directly re-retrieved. |
-| IJGIS — Ethics in Geospatial AI and Data Science | 2026-11-17 | Current journal material still identifies the call, but the exact deadline detail could not be directly re-retrieved. |
-| IJGI — Innovative Mobility Services for Smart Cities | 2026-11-17 | MDPI dedicated page shows **30 November 2026** while the current IJGI special-issue index displays **31 March 2027**. |
-| IJGI — Urban Digital Twins Empowered by AI and Dataspaces | 2026-11-17 | MDPI live index displays **31 March 2027**, while the dedicated page / publisher materials display **23 December 2026**. |
 
 ## Precision decisions retained deliberately
 
