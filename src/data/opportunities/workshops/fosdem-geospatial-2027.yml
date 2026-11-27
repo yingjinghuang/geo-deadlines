@@ -26,7 +26,7 @@ sources:
   - label: "Official live proposal portal"
     url: "https://pretalx.fosdem.org/fosdem-2027/cfp"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-01-31"
   end: "2027-01-31"

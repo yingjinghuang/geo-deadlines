@@ -21,7 +21,7 @@ sources:
   - label: "Official CHI 2027 dates for all author categories"
     url: "https://chi2027.acm.org/"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-05-10"
   end: "2027-05-14"

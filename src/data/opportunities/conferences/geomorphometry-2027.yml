@@ -21,7 +21,7 @@ sources:
   - label: "Official live Pretalx submission call and exact UTC cutoff"
     url: "https://pretalx.earthmonitor.org/geomorphometry-conference-2027/cfp"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-05-31"
   end: "2027-06-03"

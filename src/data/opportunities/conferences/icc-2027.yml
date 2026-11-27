@@ -18,7 +18,7 @@ sources:
   - label: "Official ICC 2027 call for papers"
     url: "https://icc2027.org/call-for-papers/"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-07-18"
   end: "2027-07-23"
@@ -33,11 +33,12 @@ deadlines:
   - id: full-paper
     type: full_paper
     label: "Full Paper"
-    datetime: "2026-11-20"
+    datetime: "2026-12-04"
     precision: date
     timezone: null
     status: active
     primary: true
+    note: "Official ICC 2027 important dates rechecked 27 November 2026 now list 4 December 2026 for full papers; this replaces the previously tracked 20 November deadline. The abstract deadline remains 1 December 2026."
   - id: abstract
     type: abstract
     label: "Abstract"
