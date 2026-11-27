@@ -1,0 +1,46 @@
+title: "Instructor — Geospatial Data Science"
+short_name: "South Carolina Geospatial Data Science Instructor"
+type: position
+position_category: faculty
+year: 2026
+description: "Full-time professional-track Instructor in the University of South Carolina Department of Geography, teaching foundational and advanced GIScience with possible courses in spatial programming, WebGIS, geostatistics, GeoAI and geospatial intelligence. The appointment is expected to start August 16, 2027; the posting states that visa sponsorship is unavailable."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - geovisualization
+  - spatial-statistics
+website: "https://uscjobs.sc.edu/postings/214311"
+sources:
+  - label: "Official University of South Carolina posting FAC00143PO26"
+    url: "https://uscjobs.sc.edu/postings/214311"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Columbia"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of South Carolina"
+  - "Department of Geography"
+  - "McCausland College of Arts and Sciences"
+deadlines:
+  - id: first-review
+    type: application
+    label: "Review Begins"
+    datetime: "2027-01-29"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "Review begins January 29, 2027; this is not a hard closing date."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The official posting states that review continues until the position is filled."
