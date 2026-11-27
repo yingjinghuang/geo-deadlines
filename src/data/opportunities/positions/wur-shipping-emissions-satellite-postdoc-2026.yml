@@ -1,0 +1,36 @@
+title: "Postdoc — Satellite-Based Monitoring of Shipping Emissions"
+short_name: "WUR Shipping Emissions RS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Wageningen University postdoctoral position developing methods to detect and quantify emissions from individual ships using satellite observations, AIS ship activity, meteorological information, atmospheric modelling and inverse methods."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+website: "https://www.wur.nl/en/vacancy/postdoc-satellite-based-monitoring-shipping-emissions"
+sources:
+  - label: "Official Wageningen University & Research vacancy"
+    url: "https://www.wur.nl/en/vacancy/postdoc-satellite-based-monitoring-shipping-emissions"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Wageningen"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "Wageningen University & Research"
+  - "Meteorology and Air Quality Group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-07"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The vacancy states that applications are accepted up to and including December 7, 2026 and may be reviewed earlier; the position may be filled before the stated closing date."
