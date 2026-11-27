@@ -39,5 +39,7 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: Rechecked 27 November 2026: the role remains present in WSL's current vacancy index and the official vacancy page still exposes online application. No closing date or rolling-until-filled
-    statement is published. Applications must use the online portal.
+  note: >-
+    Rechecked 27 November 2026: the role remains present in WSL's current vacancy index and the official
+    vacancy page still exposes online application. No closing date or rolling-until-filled statement is published.
+    Applications must use the online portal.
