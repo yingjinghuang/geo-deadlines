@@ -1,0 +1,39 @@
+title: "Doctoral Position — 3D Scene Reconstruction and Multi-Modal Sensing for Digital Twins"
+short_name: "ETH 3D Mapping + Digital Twins PhD"
+type: position
+position_category: phd
+year: 2026
+description: "Fully funded four-year doctoral position at ETH Zurich's Chair of Geosensors and Engineering Geodesy on large-scale 3D mapping, LiDAR and imaging, multi-modal data fusion, point clouds, meshes, neural radiance fields, 3D Gaussian splatting, deep-learning scene parsing and information-rich digital twins of stone-built heritage."
+scope: core
+topics:
+  - giscience
+  - spatial-computing
+  - remote-sensing
+  - spatial-data-science
+  - computer-vision
+  - machine-learning
+  - geovisualization
+website: "https://www.jobs.ethz.ch/job/view/12323"
+sources:
+  - label: "Official ETH Zurich vacancy 12323"
+    url: "https://www.jobs.ethz.ch/job/view/12323"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Zurich"
+  country: "Switzerland"
+  country_code: "CH"
+organizations:
+  - "ETH Zurich"
+  - "Institute of Geodesy and Photogrammetry"
+  - "Chair of Geosensors and Engineering Geodesy"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The current official ETH vacancy is open for online applications but does not publish a fixed closing date. No deadline or rolling-until-filled claim is inferred."
