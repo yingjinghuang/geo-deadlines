@@ -21,7 +21,7 @@ sources:
   - label: Original IAMO TransMoP vacancy PDF
     url: https://www.iamo.de/fileadmin/user_upload/Bilder_und_Dokumente/06-karriere/01-stellenangebote_stipendien/2026-10_TransMoP_Postdoc_Announcement_draft.pdf
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Halle (Saale)"
@@ -39,4 +39,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Rechecked 17 November 2026: IAMO still lists this exact vacancy in its current jobs index, and its linked original PDF confirms the final date 15 November 2026. That deadline has passed; no extension or acceptance of late applications is confirmed. The unavailable Leibniz directory link is replaced by the employer sources."
+    note: "Rechecked 27 November 2026: IAMO still lists this exact vacancy in its current jobs index, and its linked original PDF confirms the final date 15 November 2026. That deadline has passed; no extension or acceptance of late applications is confirmed. The unavailable Leibniz directory link is replaced by the employer sources."

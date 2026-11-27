@@ -24,7 +24,7 @@ sources:
 - label: ISPRS current job index identifying the author and call
   url: https://www.isprs.org/job_opportunities/default.aspx
   kind: announcement
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Stockholm
@@ -41,6 +41,6 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: The original PDF and current ISPRS listing were reviewed. No final deadline is stated in the PDF.
+  note: Rechecked 27 November 2026: the current EGU job listing explicitly says the post is open until filled; the ISPRS listing and KTH faculty profile confirm the PI and host. No fixed final deadline is published.
     Apply by contacting Jingbin Liu at jingbin@kth.se; KTH's faculty directory confirms the PI, department
     and email. This is a PI announcement rather than a central HR vacancy.
