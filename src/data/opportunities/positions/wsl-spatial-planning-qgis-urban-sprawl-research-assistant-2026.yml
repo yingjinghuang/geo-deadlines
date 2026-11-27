@@ -21,7 +21,7 @@ sources:
 - label: WSL current vacancy index
   url: https://apply.refline.ch/273855/search.html?all=1&target=overview
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Birmensdorf
@@ -37,6 +37,6 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: The official advert explicitly accepts applications until the position is filled. Apply through
+  note: Official WSL advert rechecked 27 November 2026 explicitly accepts applications until the position is filled. Apply through
     WSL's recruitment portal with motivation letter, CV, master's diploma and two reference contacts.
   rolling: true

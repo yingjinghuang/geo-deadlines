@@ -45,4 +45,4 @@ deadlines:
     timezone: null
     status: active
     rolling: true
-    note: "The official USU posting states the position remains open until filled; no final application date is published."
+    note: "Recheck attempted 27 November 2026: the official USU iCIMS detail could not be retrieved by the verifier. Current same-day syndicated copies reproduce the earlier employer text that applications remain open until filled, but secondary copies are not sufficient to advance last_verified; the 17 November successful verification date is retained."

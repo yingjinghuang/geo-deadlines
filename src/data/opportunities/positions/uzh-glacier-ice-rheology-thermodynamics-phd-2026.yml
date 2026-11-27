@@ -16,7 +16,7 @@ sources:
 - label: Current UZH Geography open positions
   url: https://www.geo.uzh.ch/en/services/open-positions.html
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Zurich
@@ -33,5 +33,5 @@ deadlines:
   datetime: TBD
   timezone: null
   status: active
-  note: The current original university advert has an Apply now link and asks for a cover letter, CV and transcripts. Employment start is by agreement. No fixed application deadline or explicit rolling-until-filled policy is published.
+  note: Rechecked 27 November 2026: the PhD remains listed on the current UZH Geography open-positions page; the original university advert has an Apply now link and asks for a cover letter, CV and transcripts. Employment start is by agreement. No fixed application deadline or explicit rolling-until-filled policy is published.
   primary: true
