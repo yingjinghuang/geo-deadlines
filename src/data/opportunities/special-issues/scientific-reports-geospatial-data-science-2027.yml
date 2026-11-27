@@ -15,7 +15,7 @@ sources:
   - label: "Official collection policy with explicit GMT system closure"
     url: "https://www.nature.com/collections/jcieacchei/about-the-collection"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Oluibukun Ajayi"
   - name: "Fatih Gülgen"
@@ -24,8 +24,8 @@ deadlines:
   - id: manuscript
     type: special_issue_manuscript
     label: "Manuscript"
-    datetime: "2027-01-23T00:00:00+00:00"
-    precision: datetime
-    timezone: "Etc/UTC"
+    datetime: "2027-01-22"
+    precision: date
+    timezone: null
     status: active
-    note: "The advertised submission date is 22 January 2027. The collection's specific About page explicitly says the system closes at 00:00 GMT on the following day, encoded here as 23 January 2027 00:00 UTC; submit before that instant. This adds documented time precision and is not a deadline extension. Scientific Reports accepts original research; narrative reviews can enter the shared collection through Scientific Reviews."
+    note: "Rechecked 27 November 2026: Nature lists this Collection as open with a submission deadline of 22 January 2027 and says the system closes at exactly 00:00 GMT on the following day. The catalog stores the advertised calendar date so the UI displays 22 January; date-only semantics correspond to the end of that UTC day. Scientific Reports accepts original research; narrative reviews can enter the shared collection through Scientific Reviews."

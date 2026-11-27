@@ -13,7 +13,7 @@ sources:
   - label: "Official Taylor & Francis special issue call"
     url: "https://callforpapers.taylorandfrancis.com/special_issues/geographical-principles-in-the-new-era-of-spatial-analysis-and-modeling/"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Guiming Zhang"
   - name: "Di Zhu"
@@ -36,4 +36,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Invitation-stage manuscript date for authors selected after the 31 August 2026 abstract step. Not evidence of an unrestricted new manuscript intake."
+    note: "Rechecked 27 November 2026: Taylor & Francis still lists this call on the Annals of GIS journal page and the CPGIS/guest-editor announcement confirms 31 December 2026. This is an invitation-stage manuscript date for authors selected after the 31 August abstract step, not evidence of unrestricted new manuscript intake."
