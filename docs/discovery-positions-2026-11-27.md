@@ -6,12 +6,14 @@ This targeted discovery pass searched for newly posted or newly verifiable oppor
 
 This is a **discovery supplement** to the earlier full-catalog refresh on 27 November, not a second claim that every existing recruitment record was independently re-audited again.
 
-## Added records — 14
+## Added records — 16
 
 | Record | Category / scope | Current application status | Primary evidence |
 | --- | --- | --- | --- |
 | [NC State Geospatial Analytics PhD](../src/data/opportunities/positions/ncsu-geospatial-analytics-funded-phd-2026.yml) | PhD, core | **1 Feb 2027** final program application deadline | [NC State PhD page](https://cnr.ncsu.edu/geospatial/academics/phd/) · [assistantships](https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/) |
-| [TU Graz Geoinformation PhD](../src/data/opportunities/positions/tugraz-geoinformation-phd-2026.yml) | PhD, core | **31 Dec 2026** | [TU Graz original job](https://jobs.tugraz.at/de/jobs/e30d61ff-9fd8-4431-89c3-b89c6707b2e8) · [official bulletin](https://www.tugraz.at/sites/mibla/mitteilungsblaetter/studienjahr-2026-2027/4-stueck-18-november-2026) |
+| [TU Graz Geoinformation PhD](../src/data/opportunities/positions/tugraz-geoinformation-phd-2026.yml) | PhD, core | **31 Dec 2026** | [TU Graz original job](https://jobs.tugraz.at/de/jobs/e30d61ff-9fd8-4431-89c3-b89c6707b2e8) · [official bulletin](https://www.tugraz.at/sites/mibla/mitteilungsblaetter/studienjahr-2026-2027/4-stueck-18-november-2026) · [EURAXESS](https://euraxess.ec.europa.eu/jobs/481088) |
+| [ETH 3D Mapping + Digital Twins PhD](../src/data/opportunities/positions/ethz-3d-scene-reconstruction-digital-twins-phd-2026.yml) | PhD, core | No fixed deadline published; official portal open | [ETH vacancy 12323](https://www.jobs.ethz.ch/job/view/12323) |
+| [DLR GeoAI Geoparsing Researcher](../src/data/opportunities/positions/dlr-geoai-multilingual-geoparsing-researcher-2026.yml) | Research staff, core | No fixed deadline surfaced; official vacancy live | [DLR vacancy 6423](https://jobs.dlr.de/job/Jena-Scientist-%28mfd%29-in-the-field-of-GeoAI-with-a-focus-on-multilingual-geo-parsing/6423-en_GB/?feedId=429033) |
 | [South Carolina Geospatial Data Science Instructor](../src/data/opportunities/positions/usc-geospatial-data-science-instructor-2026.yml) | Faculty, core | Review **29 Jan 2027**, then until filled | [USC posting FAC00143PO26](https://uscjobs.sc.edu/postings/214311) |
 | [South Carolina Applied GIS Instructor](../src/data/opportunities/positions/usc-applied-gis-instructor-2026.yml) | Faculty, core | Review **29 Jan 2027**, then until filled | [USC posting FAC00146PO26](https://uscjobs.sc.edu/postings/214671) |
 | [TU Delft Urban Transformations Postdoc](../src/data/opportunities/positions/tudelft-urban-transformations-data-evaluation-postdoc-2026.yml) | Postdoc, adjacent | **4 Dec 2026** | [TU Delft vacancy 4053](https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-Position-in-Data-Driven-Design-Evaluation-of-Urban-Transformations-2628-CD/1377114657/) |
@@ -31,13 +33,17 @@ This is a **discovery supplement** to the earlier full-catalog refresh on 27 Nov
 - **WUR** displays next-day metadata such as “Apply before 8-12-2026” while the vacancy prose explicitly says applicants may apply **up to and including 7 December 2026**. GeoDeadlines stores the advertised inclusive calendar deadline.
 - **NC State** explicitly states that **1 February** is the deadline for all Fall 2027 PhD applications and that it does **not** operate priority or rolling deadlines. Individual assistantship descriptions can still impose additional eligibility or PI-contact requirements.
 - **UF GATOR Lab** recruiting is documented on the lab's current University of Florida recruiting page; formal institutional hiring/admission remains a later condition rather than a separate advertised deadline.
-- **TU Graz Geoinformation** is confirmed as a current four-year, 40-hour/week Institute of Geodesy pre-doc by the university's 18 November bulletin and current Career Info-Service. The job-detail frontend could not be machine-read in this environment, but current academic-job mirrors linking to the exact TU Graz job URL consistently reproduce a **31 December 2026** deadline and the GeoAI/GIScience-focused profile.
+- **TU Graz Geoinformation** is confirmed as a current four-year, 40-hour/week Institute of Geodesy pre-doc by the university's 18 November bulletin and current Career Info-Service. EURAXESS independently carries the same TU Graz opening (reference **5220 / 2026 / 9962**), a **1 March 2027** start and **31 December 2026** deadline.
+- **ETH Zurich 3D mapping / digital twins** is live on the original ETH portal, but the employer publishes no hard closing date. The record therefore uses `TBD` rather than inventing a deadline or an until-filled status.
+- **DLR multilingual GeoAI / geoparsing** is live on the original DLR portal with an earliest-possible start and up-to-three-year appointment, but the current employer page surfaces no fixed closing date. The record likewise uses `TBD`.
 
 ## Leads deliberately not promoted
 
 - **Florida State University — two Assistant Professors in Spatial Data Science, job 63784** remains visible in FSU's current official job search index, but the exact employer detail continues to fail reproducible retrieval. A university-authored external copy says review begins 1 December 2026 and continues until filled. The role remains a strong lead, but this pass does not upgrade the previously deferred record without a readable original detail.
+- **TUM Research Associate in Contrastive Learning and GeoAI** was rediscovered during the follow-up, but the original TUM advertisement closed **1 August 2026**, so it was not revived as a live record.
+- **Lund GIScience doctoral student at MGeo** was also found in the follow-up, but its **25 November 2026** deadline had already passed, so it was not added to the live catalog.
 - Search-index or aggregator-only results were not added when a current first-party vacancy or recruiting page could not be established.
 
 ## Catalog impact
 
-This pass adds **14 live recruitment records**: **3 PhD**, **9 postdoc**, and **2 faculty / instructor** records. Twelve are classified as core; the TU Delft and KTH urban-research roles are deliberately classified adjacent because geospatial methods are important to the work but are not the sole disciplinary focus.
+This pass adds **16 live recruitment records**: **4 PhD**, **9 postdoc**, **2 faculty / instructor**, and **1 research-staff** record. Fourteen are classified as core; the TU Delft and KTH urban-research roles are deliberately classified adjacent because geospatial methods are important to the work but are not the sole disciplinary focus.
