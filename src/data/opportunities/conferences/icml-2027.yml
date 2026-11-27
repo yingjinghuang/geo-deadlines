@@ -20,7 +20,7 @@ sources:
   - label: Official ICML 2027 dates and deadlines
     url: https://icml.cc/Conferences/2027/Dates
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 deadlines:
   - id: submission-opens
     type: other

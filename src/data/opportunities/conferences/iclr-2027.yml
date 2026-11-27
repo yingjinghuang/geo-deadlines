@@ -24,7 +24,7 @@ sources:
   - label: "Official ICLR 2027 workshop proposal guide"
     url: "https://iclr.cc/Conferences/2027/WorkshopGuidelines"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-04-26"
   end: "2027-04-30"
@@ -49,10 +49,11 @@ deadlines:
   - id: workshop-acceptance
     type: notification
     label: "Workshop Proposal Notification"
-    datetime: "2026-11-29"
+    datetime: "2026-12-07"
     precision: date
     timezone: null
     status: active
+    note: "Official ICLR 2027 Workshop Guidelines rechecked 27 November 2026 give 7 December 2026 for workshop acceptance notification, replacing the previously stored 29 November date."
   - id: workshop-proposal
     type: other
     label: "Workshop Proposal"

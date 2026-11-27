@@ -21,7 +21,7 @@ sources:
   - label: "AAAI workshop timetable and AoE policy"
     url: "https://aaai.org/conference/aaai/aaai-27/workshops-call/"
     kind: "official"
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: "in_person"
   city: "Montréal"
