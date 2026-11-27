@@ -2,9 +2,9 @@
 
 ## Scope
 
-This refresh updates the time-sensitive portion of the live GeoDeadlines catalog after the 17 November full audit and discovery expansion. It is **not** presented as a new 205-record full-catalog audit.
+This refresh updates the time-sensitive portion of the live GeoDeadlines catalog after the 17 November full audit and discovery expansion. It is **not** presented as a new 203-record full-catalog audit.
 
-The catalog contained 206 live records after the 17 November discovery expansion. One recruitment record with explicit current closure evidence was removed in this pass, leaving **205 records: 43 conferences, 6 workshops, 72 special issues and 84 recruitment opportunities**.
+The catalog contained 206 live records after the 17 November discovery expansion. Three recruitment records with sufficient closure evidence were removed across the 27 November refresh, leaving **203 records: 43 conferences, 6 workshops, 72 special issues and 82 recruitment opportunities**.
 
 The refresh prioritised deadlines falling from 27 November through mid-December, plus records whose original sources exposed a material change. Existing unresolved records retain their older verification dates unless new primary evidence resolves the issue.
 
@@ -21,13 +21,13 @@ The live catalog previously stored 20 November for the full-paper deadline. That
 
 Source: https://icc2027.org/call-for-papers/
 
-### UEF MINE-THE-GAP Spatial AI PhDs
+### Closed recruitment removals
 
-The University of Eastern Finland Varbi page for the three doctoral researcher positions now explicitly reports the recruitment as finished and says it is not possible to apply. The live recruitment card was therefore removed rather than left as an apparently actionable expired vacancy.
+- **UEF MINE-THE-GAP Spatial AI PhDs** — the University of Eastern Finland Varbi page explicitly reports the recruitment as finished and no longer accepting applications.
+- **Stirling Geospatial Data Science Lecturer (FAC02153)** — the university-authored vacancy closed on 23 November 2026; Stirling's own applicant guidance states that job descriptions are no longer available after a vacancy closes, and the role is no longer in the current-vacancy route.
+- **UCL CASA Research Fellow in Urban AI (B04-07935)** — the advertised fixed closing date was 6 November 2026; the original UCL detail is no longer retrievable in the current portal and no current matching vacancy was found.
 
-Historical record remains recoverable through Git history.
-
-Source: https://uef.varbi.com/en/what:job/jobID:978704/type:job/where:39/apply:1
+All three historical records remain recoverable through Git history.
 
 ## Reverified current records
 
@@ -35,6 +35,8 @@ The following records were compared with their current original/official sources
 
 ### Conferences and workshop
 
+- AAG 2027 — resolved the apparent 5 November / 12 November conflict by separating **new session submission** (5 November) from the **session organizing/open-add period** (12 November)
+- IUGG 2027 — resolved the 14/16 February discrepancy in favor of the detailed IUGG/IAG guidance: **16 February 2027, 23:59 HST**
 - GISTAM 2027
 - Geoinformatics Research Days 2027
 - SSTD 2027
@@ -71,21 +73,30 @@ The following records were compared with their current original/official sources
 - IJGIS — Critical Challenges in GeoAI
 - TUS — Interactions between Transport and Human Mobility
 - IJGI — Spatial Information for Improved Living Spaces (2nd Edition)
+- GIScience & Remote Sensing — VLM Driven Intelligent Interpretation of Remote Sensing Imagery
+- Geo-spatial Information Science — Spatio-temporal Intelligence Foundation Models and Applications for Intelligent Earth Observation
+- International Journal of Digital Earth — From Geospatial Data to Urban Environmental Intelligence
 
 ## Precision retained deliberately
 
 The two Exeter EPSRC DLA project pages state that applications close at **midday on 8 December 2026**, but the inspected source does not print an explicit timezone. The catalog therefore keeps a date-only machine value plus the published-midday note instead of inventing a UTC/GMT offset.
 
-The Ghent 4D Forest TLS PhD was also rechecked. The official page still combines a 30 November 23:59 header with narrative wording referring to midnight CEST. Because November is not CEST and the exact cutoff remains internally inconsistent, the record intentionally keeps its previous `last_verified: 2026-11-05` and date-only deadline.
+The Ghent 4D Forest TLS PhD was also rechecked. The official page still combines a 30 November 23:59 header with narrative wording referring to midnight CEST. Because November is not CEST and the exact cutoff remains internally inconsistent, the record deliberately uses **date-only precision**. The calendar date itself is directly confirmed, so `last_verified` advances to 27 November without inventing a timezone.
 
-## Existing unresolved queue
+## Remaining unresolved queue
 
-The unresolved queue from the 17 November full audit is not silently cleared by this priority pass. Records with blocked primary pages, conflicting original sources, or unpublished key dates continue to retain their older verification dates. In particular, this refresh does not claim resolution for AAG 2027, ICCV 2027, Stirling Geospatial Data Science Lecturer, UCL CASA Urban AI Research Fellow, the UMD satellite remote-sensing research position, GISRS VLM remote-sensing imagery, GSIS spatiotemporal intelligence/foundation models, or IJDE urban environmental intelligence.
+After the follow-up source checks, only two live records remain materially unresolved:
+
+- **ICCV 2027** — the official conference header says 3–7 October 2027 while the venue paragraph still says 2–8 October, and the 2027 paper-submission deadline has not yet been published. The older successful verification date is retained.
+- **UMD Satellite Remote Sensing of Precipitation and Clouds** — the former employer notice said review from 30 September and applications until filled, but the original notice is now unavailable and the current ESSIC employment index no longer lists the role. Because there was no final cutoff, disappearance alone is not treated as proof of closure.
+
+The former AAG, IUGG, Ghent and three Taylor & Francis evidence issues were resolved on 27 November as described above.
 
 ## Repository changes
 
 - `75cbfcc` — refresh near-term conference and journal deadlines; correct ICC 2027.
 - `5216486` — refresh current recruitment records; remove the closed UEF MINE-THE-GAP call.
+- `b119e1e` — resolve AAG/IUGG/Ghent/Taylor & Francis evidence issues; remove the expired Stirling and UCL recruitment cards.
 
 After the data changes, the GitHub **Validate** workflow completed successfully. The deployment workflow was triggered by the push.
 
