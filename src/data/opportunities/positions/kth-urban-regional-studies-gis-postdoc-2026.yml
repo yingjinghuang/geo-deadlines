@@ -1,0 +1,38 @@
+title: "Postdoc in Urban and Regional Studies — GIS Analysis of Park Safety"
+short_name: "KTH Urban Park GIS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "Two-year KTH postdoctoral position studying safety and security in a Stockholm park before and after an intervention, combining surveys, interviews, focus groups, citizen engagement and spatial analysis using GIS. Swedish and English proficiency are required."
+scope: adjacent
+topics:
+  - urban
+  - giscience
+  - spatial-data-science
+website: "https://www.kth.se/lediga-jobb/991607?l=en"
+sources:
+  - label: "Official KTH vacancy PA-2026-3950"
+    url: "https://www.kth.se/lediga-jobb/991607?l=en"
+    kind: official
+  - label: "Official KTH current vacancies index"
+    url: "https://www.kth.se/lediga-jobb?l=en"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Stockholm"
+  country: "Sweden"
+  country_code: "SE"
+organizations:
+  - "KTH Royal Institute of Technology"
+  - "School of Architecture and Built Environment"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-10"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "KTH's vacancy page and current vacancies index both give December 10, 2026 as the last application date."
