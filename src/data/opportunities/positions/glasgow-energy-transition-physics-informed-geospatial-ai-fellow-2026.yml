@@ -16,7 +16,7 @@ sources:
   - label: "Official University of Glasgow vacancy 210873"
     url: "https://www.jobs.gla.ac.uk/job/research-fellow-in-applied-ai-for-the-energy-transition-6074890"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Glasgow"
@@ -33,4 +33,4 @@ deadlines:
     timezone: "Europe/London"
     status: active
     primary: true
-    note: "University of Glasgow's original recruitment portal (reference 210873) gives an expiry of 29 November 2026 at 23:45 UK local time, despite a third-party jobs.ac.uk header showing 30 November. On this date London observes UTC+00:00; the original employer's 29 November cutoff takes precedence."
+    note: "University of Glasgow's recruitment portal rechecked 27 November 2026 (reference 210873) gives an expiry of 29 November 2026 at 23:45 UK local time, despite a third-party jobs.ac.uk header showing 30 November. On this date London observes UTC+00:00; the original employer's 29 November cutoff takes precedence."

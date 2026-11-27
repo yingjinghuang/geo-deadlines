@@ -15,7 +15,7 @@ sources:
   - label: "Official Cal Poly Pomona faculty vacancy 559194"
     url: "https://careers.cpp.edu/en-us/job/559194/aerospace-engineering-uas-autonomy-and-geographical-information-systems-assistant-professor"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Pomona"
@@ -27,17 +27,9 @@ organizations:
 deadlines:
   - id: application
     type: application
-    label: "First Consideration"
-    datetime: "2026-10-31"
-    precision: date
-    timezone: null
+    label: "Application Deadline"
+    datetime: "2026-10-15T23:55:00-07:00"
+    timezone: "America/Los_Angeles"
     status: active
     primary: true
-    note: "Rechecked 17 November 2026: the official Cal Poly Pomona job 559194 is titled Deadline Extended, retains an Apply now link, and specifies 31 October 2026 as the new first-consideration date. Applications after that date may still be reviewed at the committee's discretion. This is not a hard closing date; no application cutoff hour is specified."
-  - id: late-application
-    type: application
-    label: "Later Application (Confirm Eligibility)"
-    datetime: "TBD"
-    timezone: null
-    status: active
-    note: "The employer continues to display Apply Now after its October 31 first-consideration date; late applications may be reviewed at committee discretion. No new fixed deadline is asserted."
+    note: "Corrected 27 November 2026 from the current official Cal Poly Pomona vacancy 559194. The posting states first consideration and application close on 15 October 2026 at 11:55 PM Pacific Daylight Time. It says later applications may be reviewed only at the search committee's discretion; no ongoing rolling or until-filled intake is asserted."

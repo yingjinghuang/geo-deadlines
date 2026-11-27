@@ -16,7 +16,7 @@ sources:
   - label: "Official Cambridge recruitment posting JC51455"
     url: "https://www.cam.ac.uk/jobs/research-assistant-in-digital-heritage-documentation-fixed-term-jc51455"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Cambridge"
@@ -34,4 +34,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: "Original university posting JC51455 confirms 20 November 2026 closing date. This is a research assistant/data-management role, not a postdoctoral research fellowship; GIS and remote sensing contribute to heritage documentation."
+    note: "Official Cambridge posting JC51455 rechecked 27 November 2026 confirms the historical 20 November 2026 closing date. This is a research assistant/data-management role, not a postdoctoral research fellowship; GIS and remote sensing contribute to heritage documentation."

@@ -22,7 +22,7 @@ sources:
   - label: "Official RESPECT Work Package 3 project description"
     url: "https://www.gla.ac.uk/research/az/respect/wp3/"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: "Glasgow"
@@ -40,4 +40,4 @@ deadlines:
     timezone: "Europe/London"
     status: active
     primary: true
-    note: "Official Glasgow HR page shows 'Expiry 24 Nov 2026 23:45' and an active application advert. London is UTC+00:00 on this date; the employment term is full-time for up to 12 months initially."
+    note: "Official Glasgow HR page rechecked 27 November 2026 shows 'Expiry 24 Nov 2026 23:45' and an active application advert. London is UTC+00:00 on this date; the employment term is full-time for up to 12 months initially."

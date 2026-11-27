@@ -22,7 +22,7 @@ sources:
 - label: Cornell announcement identifying DARE and Stefano Galelli
   url: https://news.cornell.edu/stories/2026/03/global-atlas-will-track-human-and-climate-impact-river-systems
   kind: official
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 location:
   mode: in_person
   city: Ithaca
@@ -40,7 +40,7 @@ deadlines:
   timezone: null
   status: active
   primary: true
-  note: The project's own recruitment page explicitly states rolling review until filled. It provides
+  note: The project's current recruitment page rechecked 27 November 2026 explicitly states rolling review until filled. It provides
     the application email dareproject.view@gmail.com and requests a cover letter, CV and three reference
     contacts. Cornell independently confirms the DARE project and supervising investigator.
   rolling: true
