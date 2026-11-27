@@ -3,7 +3,7 @@ short_name: "GSR-VLM 2027"
 type: "workshop"
 series: "GSR-VLM"
 year: 2027
-description: "AAAI-27 workshop on spatial perception, geometric representations and grounded reasoning in vision-language models, including navigation and embodied AI. It is listed in AAAI's accepted workshop program, although the workshop site's banner still says proposed. The exact workshop day is unassigned."
+description: "AAAI-27 workshop on spatial perception, geometric representations and grounded reasoning in vision-language models, including navigation and embodied AI. It is listed in AAAI's accepted workshop program as W18 on 22 February 2027. The workshop-specific submission dates remain from the directly inspected 17 November call because that site could not be re-retrieved on 27 November."
 scope: "adjacent"
 topics:
   - "spatial-computing"
@@ -27,6 +27,9 @@ location:
   venue: "Palais des congrès de Montréal"
 organizations:
   - "AAAI"
+event:
+  start: "2027-02-22"
+  end: "2027-02-22"
 deadlines:
   - id: "paper"
     type: "workshop_paper"
@@ -36,7 +39,7 @@ deadlines:
     timezone: "AoE"
     status: "active"
     primary: true
-    note: "The workshop's own call explicitly gives 19 November 2026 and states all dates use AoE (UTC−12). Use this workshop-specific deadline, rather than the generic AAAI 20 November timetable. The original HTML was inspected directly on 17 November."
+    note: "The workshop's own call explicitly gives 19 November 2026 and states all dates use AoE (UTC−12). Use this workshop-specific deadline rather than the generic AAAI 20 November timetable. AAAI's current 27 November workshop program confirms GSR-VLM as W18 on 22 February, but the workshop-specific dates page could not be re-retrieved, so last_verified remains 17 November."
   - id: "notification"
     type: "notification"
     label: "Final Notification"
