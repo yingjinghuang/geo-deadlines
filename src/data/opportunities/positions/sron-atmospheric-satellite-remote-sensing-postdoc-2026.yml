@@ -1,0 +1,48 @@
+title: "Post-Doc in Atmospheric Science — Satellite Remote Sensing of Biomass Burning"
+short_name: "SRON Atmospheric Satellite RS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "SRON postdoctoral position combining TROPOMI, MOPITT and future Sentinel-5 satellite observations with atmospheric transport and inverse modelling to improve estimates of biomass-burning emissions and investigate wildfire events and long-term trends."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - spatial-data-science
+  - climate
+  - machine-learning
+website: "https://werkenbijsron.nl/en/vacancies/post-doc-in-atmospheric-science-1349138-2/"
+sources:
+  - label: "Official SRON vacancy"
+    url: "https://werkenbijsron.nl/en/vacancies/post-doc-in-atmospheric-science-1349138-2/"
+    kind: official
+  - label: "Official SRON current vacancies index"
+    url: "https://werkenbijsron.nl/en/our-vacancies/"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Leiden"
+  country: "Netherlands"
+  country_code: "NL"
+organizations:
+  - "SRON Netherlands Institute for Space Research"
+  - "Earth Science Group"
+deadlines:
+  - id: first-selection
+    type: application
+    label: "First Selection"
+    datetime: "2026-11-15"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The first-selection date has passed, but the official vacancy explicitly states that the position remains open until filled."
+  - id: rolling-application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    rolling: true
+    note: "The official vacancy remains listed in SRON's current vacancies index and says applications remain open until the position is filled after the November 15 first-selection date."
