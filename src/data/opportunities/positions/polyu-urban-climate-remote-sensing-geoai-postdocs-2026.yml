@@ -1,0 +1,40 @@
+title: "Postdoctoral Fellows (three posts) — Remote Sensing of Urban Climate, Ecosystem, Environment and GeoAI"
+short_name: "PolyU Urban Climate RS + GeoAI Postdocs"
+type: position
+position_category: postdoc
+year: 2026
+description: "Three postdoctoral fellow positions in PolyU Land Surveying and Geospatial Science for a research project on remote sensing of urban climate, ecosystems and environment with GeoAI, including geospatial data analysis, modelling, AI and geospatial computer vision."
+scope: core
+topics:
+  - remote-sensing
+  - earth-observation
+  - geoai
+  - urban
+  - spatial-data-science
+  - computer-vision
+  - machine-learning
+  - climate
+website: "https://jobs.polyu.edu.hk/job_detail.php?job=260706014"
+sources:
+  - label: "Official Hong Kong Polytechnic University posting 260706014"
+    url: "https://jobs.polyu.edu.hk/job_detail.php?job=260706014"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Hong Kong"
+  country: "Hong Kong"
+  country_code: "HK"
+organizations:
+  - "The Hong Kong Polytechnic University"
+  - "Department of Land Surveying and Geospatial Science"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "2026-12-31"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official PolyU vacancy states that the closing date for applications is December 31, 2026."
