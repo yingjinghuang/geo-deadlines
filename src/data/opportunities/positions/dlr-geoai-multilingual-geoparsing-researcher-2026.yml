@@ -1,0 +1,41 @@
+title: "Scientist / Researcher in GeoAI — Multilingual Geo-Parsing"
+short_name: "DLR GeoAI Geoparsing Researcher"
+type: position
+position_category: research_staff
+year: 2026
+description: "Up-to-three-year research position at the DLR Institute of Data Science in Jena working on the DFG-funded GeoMMCorpus+Eval project. The role develops GeoAI methods for multilingual geo-parsing, geographic text-corpus creation and annotation, LLM-assisted annotation and quality assurance, information extraction, large heterogeneous text datasets and human-in-the-loop evaluation."
+scope: core
+topics:
+  - geoai
+  - giscience
+  - information-retrieval
+  - spatial-data-science
+  - machine-learning
+  - data-mining
+website: "https://jobs.dlr.de/job/Jena-Scientist-%28mfd%29-in-the-field-of-GeoAI-with-a-focus-on-multilingual-geo-parsing/6423-en_GB/?feedId=429033"
+sources:
+  - label: "Official DLR vacancy 6423"
+    url: "https://jobs.dlr.de/job/Jena-Scientist-%28mfd%29-in-the-field-of-GeoAI-with-a-focus-on-multilingual-geo-parsing/6423-en_GB/?feedId=429033"
+    kind: official
+  - label: "DFG GeoMMCorpus+Eval project record"
+    url: "https://gepris.dfg.de/project/575831912"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Jena"
+  country: "Germany"
+  country_code: "DE"
+organizations:
+  - "German Aerospace Center (DLR)"
+  - "Institute of Data Science"
+  - "Multimodal and Spatial Information Retrieval Group"
+deadlines:
+  - id: application
+    type: application
+    label: "Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    note: "The current official DLR vacancy is live and lists the start as as-soon-as-possible, but the employer page surfaced no fixed closing date in this verification pass. The catalog therefore keeps the application deadline as TBD rather than importing a third-party cutoff."
