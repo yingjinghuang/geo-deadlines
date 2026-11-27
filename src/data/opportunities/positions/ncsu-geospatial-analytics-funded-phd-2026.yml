@@ -1,0 +1,48 @@
+title: "Funded PhD Graduate Assistantships in Geospatial Analytics — Fall 2027"
+short_name: "NC State Geospatial Analytics PhD"
+type: position
+position_category: phd
+year: 2026
+description: "NC State's Center for Geospatial Analytics is recruiting Fall 2027 PhD students for multiple fully funded graduate assistantships spanning GeoAI, GIS, machine learning, Earth observation, environmental analytics and scalable geospatial computing. The program states that eight to ten fully funded assistantships are typically available each fall."
+scope: core
+topics:
+  - giscience
+  - geoai
+  - spatial-data-science
+  - spatial-computing
+  - remote-sensing
+  - earth-observation
+  - machine-learning
+website: "https://cnr.ncsu.edu/geospatial/academics/phd/"
+sources:
+  - label: "Official NC State PhD in Geospatial Analytics admissions page"
+    url: "https://cnr.ncsu.edu/geospatial/academics/phd/"
+    kind: official
+  - label: "Official NC State Fall 2027 graduate assistantships page"
+    url: "https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/"
+    kind: official
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Raleigh"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "North Carolina State University"
+  - "Center for Geospatial Analytics"
+tracks:
+  - "AI-assisted open-source geospatial software development"
+  - "Machine learning for air pollution and greenhouse-gas research"
+  - "Autonomous AI agents for GIS and natural-hazard applications"
+  - "GeoAI for circular-bioeconomy decision support"
+  - "GeoAI-guided discovery for land and climate decisions"
+deadlines:
+  - id: application
+    type: application
+    label: "PhD Application"
+    datetime: "2027-02-01"
+    precision: date
+    timezone: null
+    status: active
+    primary: true
+    note: "The official program page states that February 1 is the deadline for all Fall 2027 applications and that there is no priority or rolling deadline. Individual assistantships may have additional eligibility or PI-contact instructions."
