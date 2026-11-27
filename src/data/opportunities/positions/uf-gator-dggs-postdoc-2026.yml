@@ -1,0 +1,39 @@
+title: "Postdoctoral Associate — Discrete Global Grid Systems"
+short_name: "UF GATOR DGGS Postdoc"
+type: position
+position_category: postdoc
+year: 2026
+description: "University of Florida GATOR Lab postdoctoral associate conducting foundational or computational research on Discrete Global Grid Systems, including tessellation geometry, spatial aggregation, cross-resolution topology, scalable indexing, GeoParquet/DuckDB/Arrow/STAC interoperability and GeoAI workflows."
+scope: core
+topics:
+  - giscience
+  - spatial-computing
+  - spatial-databases
+  - spatial-statistics
+  - geoai
+  - spatial-data-science
+website: "https://gatorlab.io/join"
+sources:
+  - label: "GATOR Lab recruiting page at the University of Florida"
+    url: "https://gatorlab.io/join"
+    kind: announcement
+last_verified: "2026-11-27"
+location:
+  mode: in_person
+  city: "Fort Lauderdale"
+  country: "United States"
+  country_code: "US"
+organizations:
+  - "University of Florida"
+  - "GATOR Lab"
+  - "Fort Lauderdale Research and Education Center"
+deadlines:
+  - id: application
+    type: application
+    label: "Rolling Application"
+    datetime: "TBD"
+    timezone: null
+    status: active
+    primary: true
+    rolling: true
+    note: "The lab states that postdoctoral applications are reviewed on an ongoing basis; no fixed closing date is published. Final hiring is contingent on formal University of Florida processing."
