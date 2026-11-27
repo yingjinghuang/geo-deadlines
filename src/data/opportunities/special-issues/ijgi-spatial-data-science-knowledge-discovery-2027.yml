@@ -21,7 +21,7 @@ sources:
   - label: Official IJGI current special issue index
     url: https://www.mdpi.com/journal/ijgi/special_issues
     kind: publisher
-last_verified: '2026-11-17'
+last_verified: "2026-11-27"
 guest_editors:
   - name: Jingzhong Li
   - name: Binbin Lu

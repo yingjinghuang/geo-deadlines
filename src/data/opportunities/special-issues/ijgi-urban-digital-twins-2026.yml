@@ -40,4 +40,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Rechecked 17 November 2026: the current dedicated MDPI special-issue page and current IJGI index both list 31 March 2027; the index marks the call Open for Submission. Earlier materials reviewed on 4 November advertised 23 December 2026. That conflicting homepage banner was not found on the current homepage and the original issue-specific flyer was inaccessible, so the historical discrepancy has not been independently explained or resolved. This entry follows the current dedicated publisher page; date-only precision is retained."
+    note: "Rechecked 27 November 2026: MDPI sources are again materially inconsistent. The current IJGI special-issue index displays 31 March 2027, while the dedicated issue page and publisher flyer/webinar evidence display 23 December 2026. The catalog retains the previously verified 31 March 2027 value and the 17 November verification timestamp rather than asserting that either publisher date supersedes the other."

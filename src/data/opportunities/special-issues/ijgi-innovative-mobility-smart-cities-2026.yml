@@ -36,4 +36,4 @@ deadlines:
     timezone: null
     status: active
     primary: true
-    note: The inspected original CFP gives a calendar date only; no submission hour or timezone is stated.
+    note: "Rechecked 27 November 2026: the dedicated MDPI special-issue page still gives 30 November 2026, while the current IJGI special-issue index displays 31 March 2027 for this title. Because the publisher sources conflict, the previously verified 30 November date and 17 November verification timestamp are retained pending reconciliation."
