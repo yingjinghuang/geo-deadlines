@@ -18,7 +18,7 @@ sources:
   - label: "Official IARIA 2027 detailed call for papers"
     url: "https://www.iaria.org/conferences2027/CfPGEOProcessing27.html"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-04-18"
   end: "2027-04-22"
@@ -43,6 +43,13 @@ deadlines:
     type: notification
     label: "Acceptance Notification"
     datetime: "2027-02-24"
+    precision: date
+    timezone: null
+    status: active
+  - id: registration
+    type: registration
+    label: "Registration"
+    datetime: "2027-03-10"
     precision: date
     timezone: null
     status: active

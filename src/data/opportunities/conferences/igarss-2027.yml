@@ -25,7 +25,7 @@ sources:
   - label: "Official IGARSS 2027 Community Contributed Theme call"
     url: "https://2027.ieeeigarss.org/cct_proposal.php"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-07-11"
   end: "2027-07-16"
@@ -60,12 +60,11 @@ deadlines:
   - id: submission
     type: paper
     label: "Abstract / Manuscript"
-    datetime: "2027-01-11"
-    precision: date
-    timezone: null
+    datetime: "2027-01-11T23:59:00-12:00"
+    timezone: "AoE"
     status: active
     primary: true
-    note: "Homepage, Important Dates and both the CFP summary and body rechecked 17 November 2026 all agree on 11 January 2027. The submission system is announced open. No exact cutoff hour or timezone is published."
+    note: "Official IGARSS 2027 paper-submission page rechecked 27 November 2026 specifies 11 January 2027 at 11:59 PM AoE for abstracts, papers and recently published articles."
   - id: student-paper-competition
     type: other
     label: "Student Paper Competition"
@@ -76,7 +75,15 @@ deadlines:
   - id: travel-support
     type: other
     label: "Travel Support Application"
-    datetime: "2027-01-11"
+    datetime: "2027-03-08"
+    precision: date
+    timezone: null
+    status: active
+    note: "Official Important Dates rechecked 27 November 2026 give 8 March 2027 for travel-support applications; the prior catalog value incorrectly duplicated the paper deadline."
+  - id: travel-support-notification
+    type: notification
+    label: "Travel Support Decision"
+    datetime: "2027-04-09"
     precision: date
     timezone: null
     status: active

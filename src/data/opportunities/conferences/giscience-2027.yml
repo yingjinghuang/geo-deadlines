@@ -16,7 +16,7 @@ sources:
   - label: "Official GIScience 2027 website and call for submissions"
     url: "https://geods.github.io/GIScience2027/"
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-10-18"
   end: "2027-10-22"
@@ -39,6 +39,13 @@ deadlines:
     label: "Workshop Proposal"
     datetime: "2027-02-12T23:59:00-12:00"
     timezone: "AoE"
+    status: active
+  - id: workshop-notification
+    type: notification
+    label: "Workshop Proposal Decision"
+    datetime: "2027-03-05"
+    precision: date
+    timezone: null
     status: active
   - id: short-paper
     type: short_paper

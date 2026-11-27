@@ -27,7 +27,7 @@ sources:
   - label: Official GSW scope and integrated ISRSE-41 component
     url: https://gsw2027.pl/about.html
     kind: official
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 event:
   start: "2027-09-19"
   end: "2027-09-24"
