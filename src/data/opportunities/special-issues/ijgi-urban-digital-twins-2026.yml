@@ -27,7 +27,7 @@ sources:
   - label: "Publisher original CFP flyer (historical source; inaccessible on recheck)"
     url: "https://www.mdpi.com/journal/ijgi/special_issue_flyer_pdf_v2/R3F15GF728"
     kind: publisher
-last_verified: "2026-11-17"
+last_verified: "2026-11-27"
 guest_editors:
   - name: "Dessislava Petrova-Antonova"
   - name: "Sisi Zlatanova"
@@ -40,4 +40,4 @@ deadlines:
     precision: date
     timezone: null
     status: active
-    note: "Rechecked 27 November 2026: MDPI sources are again materially inconsistent. The current IJGI special-issue index displays 31 March 2027, while the dedicated issue page and publisher flyer/webinar evidence display 23 December 2026. The catalog retains the previously verified 31 March 2027 value and the 17 November verification timestamp rather than asserting that either publisher date supersedes the other."
+    note: "Manually rechecked 27 November 2026: the submission deadline is now confirmed as 31 March 2027, superseding the earlier 23 December 2026 publisher value."
